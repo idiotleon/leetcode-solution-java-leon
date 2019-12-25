@@ -1,7 +1,8 @@
 package com.idiotleon.java.lc240;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 class SolutionTests {
 
@@ -12,7 +13,7 @@ class SolutionTests {
 
     @Test
     void test() {
-        assertEquals(true, solution.searchMatrix(matrix1, 5));
-        assertEquals(false, solution.searchMatrix(matrix1, 20));
+        assertTrue(solution.searchMatrix(matrix1, 5));
+        assertFalse(solution.searchMatrix(matrix1, 20));
     }
 }

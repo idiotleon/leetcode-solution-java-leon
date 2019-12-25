@@ -38,28 +38,25 @@ class Solution {
     }
 
     private boolean binarySearch(int[][] matrix, int target, int start, boolean vertical) {
-        int lo = 0;
+        int lo = start;
         int hi = vertical ? matrix[0].length - 1 : matrix.length - 1;
 
         while (lo <= hi) {
             int mid = lo + (hi - lo) / 2;
-
-            while (lo <= hi) {
-                if (vertical) {
-                    if (matrix[start][mid] < target)
-                        lo = mid + 1;
-                    else if (matrix[start][mid] > target)
-                        hi = mid - 1;
-                    else
-                        return true;
-                } else {
-                    if (matrix[mid][start] < target)
-                        lo = mid + 1;
-                    else if (matrix[mid][start] > target)
-                        hi = mid - 1;
-                    else
-                        return true;
-                }
+            if (vertical) {
+                if (matrix[start][mid] < target)
+                    lo = mid + 1;
+                else if (matrix[start][mid] > target)
+                    hi = mid - 1;
+                else
+                    return true;
+            } else {
+                if (matrix[mid][start] < target)
+                    lo = mid + 1;
+                else if (matrix[mid][start] > target)
+                    hi = mid - 1;
+                else
+                    return true;
             }
         }
 
