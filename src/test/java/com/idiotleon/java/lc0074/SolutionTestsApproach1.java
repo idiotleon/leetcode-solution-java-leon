@@ -11,8 +11,8 @@ class SolutionTestsApproach1 {
 
     @Test
     void testRegularMatrix() {
-        assertTrue(approach1.searchMatrix(Matrix.REGULAR, 3));
-        assertFalse(approach1.searchMatrix(Matrix.REGULAR, 13));
+        assertTrue(approach1.searchMatrix(Matrix.ROW_COLUMN_INTEGRALLY_SORTED, 3));
+        assertFalse(approach1.searchMatrix(Matrix.ROW_COLUMN_INTEGRALLY_SORTED, 13));
     }
 
     @Test
