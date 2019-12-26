@@ -1,4 +1,4 @@
-package com.idiotleon.java.lc240;
+package com.idiotleon.java.lc0240;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;

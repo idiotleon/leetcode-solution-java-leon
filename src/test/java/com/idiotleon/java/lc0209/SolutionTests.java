@@ -1,4 +1,4 @@
-package com.idiotleon.java.lc209;
+package com.idiotleon.java.lc0209;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;

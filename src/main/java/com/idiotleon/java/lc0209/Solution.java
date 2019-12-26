@@ -10,7 +10,7 @@
  * 
  * https://leetcode.com/problems/minimum-size-subarray-sum/
  */
-package com.idiotleon.java.lc209;
+package com.idiotleon.java.lc0209;
 
 import java.lang.Math;
 

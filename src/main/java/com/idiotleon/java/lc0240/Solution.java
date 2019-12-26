@@ -16,7 +16,7 @@
  * Given target = 20, return false.
  */
 
-package com.idiotleon.java.lc240;
+package com.idiotleon.java.lc0240;
 
 import java.lang.Math;
 
