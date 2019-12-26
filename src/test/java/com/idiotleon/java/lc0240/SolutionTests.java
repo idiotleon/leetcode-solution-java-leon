@@ -1,19 +1,20 @@
 package com.idiotleon.java.lc0240;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.DisplayName;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import com.idiotleon.java.utils.Constants;
+
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
 class SolutionTests {
-
-    private final Solution solution = new Solution();
-
-    private final int[][] matrix1 = new int[][] { { 1, 4, 7, 11, 15 }, { 2, 5, 8, 12, 19 }, { 3, 6, 9, 16, 22 },
-            { 10, 13, 14, 17, 24 }, { 18, 21, 23, 26, 30 } };
+    private final SolutionApproachBinarySearch approachBinarySearch = new SolutionApproachBinarySearch();
 
     @Test
+    @DisplayName("240. Search a 2D Matrix II")
     void test() {
-        assertTrue(solution.searchMatrix(matrix1, 5));
-        assertFalse(solution.searchMatrix(matrix1, 20));
+        assertTrue(approachBinarySearch.searchMatrix(Constants.Matrix.ROW_COLUMN_SEPARATELY_SORTED, 5));
+        assertFalse(approachBinarySearch.searchMatrix(Constants.Matrix.ROW_COLUMN_SEPARATELY_SORTED, 20));
     }
 }

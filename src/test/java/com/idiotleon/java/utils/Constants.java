@@ -16,4 +16,8 @@ public class Constants {
 
         public static final int[][] EMPTY = { {} };
     }
+
+    public static class Array {
+        public static final int[] RANDOM = new int[] { 2, 3, 1, 2, 4, 3 };
+    }
 }
