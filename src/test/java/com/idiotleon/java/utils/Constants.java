@@ -20,6 +20,8 @@ public class Constants {
     public static class Array {
         public static final int[] EMPTY = {};
 
+        public static final int[] SINGLE = new int[] { 1 };
+
         public static final int[] RANDOM = new int[] { 2, 3, 1, 2, 4, 3 };
 
         public static final int[] ROATED_SORTED_01 = new int[] { 3, 4, 5, 1, 2 };
