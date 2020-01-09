@@ -29,15 +29,17 @@ public class SolutionTestsApproachBinarySearch {
 
     @Test
     void test() {
-        assertEquals(1, approachBinarySearch.findMin(Constants.Array.ROATED_SORTED_01));
-        assertEquals(0, approachBinarySearch.findMin(Constants.Array.ROATED_SORTED_02));
+        assertEquals(1, approachBinarySearch.findMin(Constants.Array.ROTATED_SORTED));
+        assertEquals(0, approachBinarySearch.findMin(Constants.Array.ROTATED_SORTED_02));
+
+        assertEquals(0, approachBinarySearch.findMin(Constants.Array.ROTATED_SORTED_02));
 
         assertEquals(1, approachBinarySearch.findMin(Constants.Array.SORTED));
     }
 
     @Test
     void testSingleArray() {
-        assertEquals(1, approachBinarySearch.findMin(Constants.Array.SINGLE));
+        assertEquals(1, approachBinarySearch.findMin(Constants.Array.SINGLE_ELE));
     }
 
     @Test
