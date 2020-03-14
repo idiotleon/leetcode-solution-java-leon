@@ -106,3 +106,5 @@ gradle-app.setting
 
 # Misc
 *.log
+# Ignore Gradle build output directory
+build
