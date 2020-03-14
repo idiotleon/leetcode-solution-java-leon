@@ -1,5 +1,8 @@
 /**
  * https://leetcode.com/problems/trapping-rain-water/
+ * 
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
  */
 
 package main.java.lcidiot.lc0042;

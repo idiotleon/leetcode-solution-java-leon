@@ -1,11 +1,35 @@
 /**
  * https://leetcode.com/problems/trapping-rain-water/
+ * 
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
  */
 
 package main.java.lcidiot.lc0042;
 
 class SolutionApproachTwoPointers{
-    public int trap(int[] height) {
+    public int trap(int[] height){
+        if(height.length == 0) return 0;
+        
+        int left = 0, right = height.length - 1;
+        int ans = 0;
+        int leftMax = height[left], rightMax = height[right];
+        
+        while(left < right)
+            if(leftMax < rightMax){
+                ans += leftMax - height[left];
+                leftMax = Math.max(leftMax, height[++left]);
+            }else{
+                ans += rightMax - height[right];
+                rightMax = Math.max(rightMax, height[--right]);
+            }
+        
+        return ans;
+    }
+    
+    public int trap2(int[] height) {
+        if(height.length == 0) return 0;
+
         int left = 0, right = height.length - 1;
         int ans = 0;
         int leftMax = 0, rightMax = 0;
