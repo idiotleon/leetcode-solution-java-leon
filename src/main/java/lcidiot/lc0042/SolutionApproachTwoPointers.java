@@ -4,7 +4,7 @@
 
 package main.java.lcidiot.lc0042;
 
-class Solution{
+class SolutionApproachTwoPointers{
     public int trap(int[] height) {
         int left = 0, right = height.length - 1;
         int ans = 0;
