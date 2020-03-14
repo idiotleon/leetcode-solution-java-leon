@@ -17,7 +17,7 @@
  * return 13. Note: You may assume k is always valid, 1 ≤ k ≤ n2.
  */
 
-package lcidiot.lc0378;
+package main.java.lcidiot.lc0378;
 
 class SolutionApproachBinarySearch {
     public int kthSmallest(int[][] matrix, int k) {

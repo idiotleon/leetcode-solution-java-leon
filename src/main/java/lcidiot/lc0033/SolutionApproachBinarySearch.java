@@ -12,7 +12,7 @@
  * Input: nums = [4,5,6,7,0,1,2], target = 3
  * Output: -1
  */
-package lcidiot.lc0033;
+package main.java.lcidiot.lc0033;
 
 class SolutionApproachBinarySearch {
     public int search(int[] nums, int target) {

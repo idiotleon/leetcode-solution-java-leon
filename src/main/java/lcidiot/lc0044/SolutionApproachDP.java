@@ -4,7 +4,7 @@
  * https://www.youtube.com/watch?v=3ZDZ-N0EPV0&t=121s
  */
 
-package lcidiot.lc0044;
+package main.java.lcidiot.lc0044;
 
 class SolutionApproachDP{
     public boolean isMatch(String s, String p) {

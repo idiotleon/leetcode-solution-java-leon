@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/implement-strstr/
  */
 
-package lcidiot.lc0028;
+package main.java.lcidiot.lc0028;
 
 class Solution {
     public int strStr(String haystack, String needle) {

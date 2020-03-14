@@ -2,9 +2,9 @@
  * https://leetcode.com/problems/reverse-nodes-in-k-group/
  */
 
-package lcidiot.lc0025;
+package main.java.lcidiot.lc0025;
 
-import lcidiot.utils.ListNode;
+import main.java.lcidiot.utils.ListNode;
 
 class SolutionApproachInteration{
     public ListNode reverseKGroup(ListNode head, int k) {

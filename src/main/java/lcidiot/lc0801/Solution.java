@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
  */
 
-package lcidiot.lc0801;
+package main.java.lcidiot.lc0801;
 
 class Solution{
     public int minSwap(int[] A, int[] B) {

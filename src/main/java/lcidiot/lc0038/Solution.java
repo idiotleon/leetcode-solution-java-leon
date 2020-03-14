@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/count-and-say/
  */
 
-package lcidiot.lc0038;
+package main.java.lcidiot.lc0038;
 
 class Solution{
     public String countAndSay(int n) {

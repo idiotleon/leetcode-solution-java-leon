@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/first-missing-positive/
  */
 
-package lcidiot.lc0041;
+package main.java.lcidiot.lc0041;
 
 class Solution{
     public int firstMissingPositive(int[] nums) {

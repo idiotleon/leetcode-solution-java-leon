@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/search-insert-position/
  */
 
-package lcidiot.lc0035;
+package main.java.lcidiot.lc0035;
 
 class Solution{
     public int searchInsert(int[] nums, int target) {

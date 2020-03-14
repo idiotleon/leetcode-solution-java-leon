@@ -2,9 +2,9 @@
  * https://leetcode.com/problems/delete-nodes-and-return-forest/
  */
 
-package lcidiot.lc1110;
+package main.java.lcidiot.lc1110;
 
-import lcidiot.utils.TreeNode;
+import main.java.lcidiot.utils.TreeNode;
 
 import java.util.ArrayList;
 import java.util.HashSet;

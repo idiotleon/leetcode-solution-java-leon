@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/divide-two-integers/
  */
 
-package lcidiot.lc0029;
+package main.java.lcidiot.lc0029;
 
 class Solution1{
     public int divide(int dividend, int divisor) {

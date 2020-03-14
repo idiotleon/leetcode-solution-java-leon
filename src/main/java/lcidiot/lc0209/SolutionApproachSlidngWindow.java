@@ -11,7 +11,7 @@
  * up: If you have figured out the O(n) solution, try coding another solution of
  * which the time complexity is O(n log n).
  */
-package lcidiot.lc0209;
+package main.java.lcidiot.lc0209;
 
 import java.lang.Math;
 

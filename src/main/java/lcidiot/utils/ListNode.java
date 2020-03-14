@@ -1,4 +1,4 @@
-package lcidiot.utils;
+package main.java.lcidiot.utils;
 
 public class ListNode{
     public int val;

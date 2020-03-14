@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/evaluate-reverse-polish-notation/
  */
-package lcidiot.lc0150;
+package main.java.lcidiot.lc0150;
 import java.util.Stack;
 
 class Solution{

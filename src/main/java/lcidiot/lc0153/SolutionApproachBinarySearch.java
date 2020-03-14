@@ -17,7 +17,7 @@
  * Output: 0
  */
 
-package lcidiot.lc0153;
+package main.java.lcidiot.lc0153;
 
 public class SolutionApproachBinarySearch {
     public int findMin(int[] nums) {

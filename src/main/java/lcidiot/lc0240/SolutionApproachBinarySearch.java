@@ -18,7 +18,7 @@
  * Given target = 20, return false.
  */
 
-package lcidiot.lc0240;
+package main.java.lcidiot.lc0240;
 
 import java.lang.Math;
 

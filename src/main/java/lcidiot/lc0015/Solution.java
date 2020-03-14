@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/3sum
  */
-package lcidiot.lc0015;
+package main.java.lcidiot.lc0015;
 
 import java.util.*;
 

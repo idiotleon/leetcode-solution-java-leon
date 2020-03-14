@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/remove-element/
  */
 
-package lcidiot.lc0027;
+package main.java.lcidiot.lc0027;
 
 class Solution{
     public int removeElement(int[] nums, int val) {

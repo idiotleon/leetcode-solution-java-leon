@@ -27,7 +27,7 @@
  * Output: false
  */
 
-package lcidiot.lc0074;
+package main.java.lcidiot.lc0074;
 
 class SolutionApproach1 {
     public boolean searchMatrix(int[][] matrix, int target) {

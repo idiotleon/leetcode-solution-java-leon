@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/regular-expression-matching/
  */
-package lcidiot.lc0010;
+package main.java.lcidiot.lc0010;
 
 class SolutionApproachRecursion{
     public boolean isMatch(String s, String p) {

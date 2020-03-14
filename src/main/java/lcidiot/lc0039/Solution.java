@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/combination-sum/
  */
 
-package lcidiot.lc0039;
+package main.java.lcidiot.lc0039;
 
 import java.util.ArrayList;
 import java.util.List;

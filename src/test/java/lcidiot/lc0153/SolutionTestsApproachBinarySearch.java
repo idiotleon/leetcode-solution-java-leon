@@ -17,11 +17,11 @@
  * Output: 0
  */
 
-package lcidiot.lc0153;
+package test.java.lcidiot.lc0153;
 
 import org.junit.jupiter.api.Test;
 
-import lcidiot.utils.Constants;
+import test.java.lcidiot.utils.Constants;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;;
 

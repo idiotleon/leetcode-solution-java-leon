@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/valid-sudoku/
  */
 
- package lcidiot.lc0036;
+ package main.java.lcidiot.lc0036;
 
  import java.util.HashSet;
  import java.util.Set;

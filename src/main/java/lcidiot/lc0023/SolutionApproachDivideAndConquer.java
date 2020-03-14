@@ -1,9 +1,9 @@
 /**
  * https://leetcode.com/problems/merge-k-sorted-lists/
  */
-package lcidiot.lc0023;
+package main.java.lcidiot.lc0023;
 
-import lcidiot.utils.ListNode;
+import main.java.lcidiot.utils.ListNode;
 
 class SolutionApproachDivideAndConquer{
     public ListNode mergeKLists(ListNode[] lists) {

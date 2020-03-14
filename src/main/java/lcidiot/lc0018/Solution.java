@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/4sum/
  */
-package lcidiot.lc0018;
+package main.java.lcidiot.lc0018;
 
 import java.util.List;
 import java.util.Arrays;

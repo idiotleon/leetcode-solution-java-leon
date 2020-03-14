@@ -1,9 +1,9 @@
-package lcidiot.lc0378;
+package test.java.cidiot.lc0378;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import lcidiot.utils.Constants;
+import test.java.lcidiot.utils.Constants;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

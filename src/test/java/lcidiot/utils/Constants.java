@@ -1,4 +1,4 @@
-package lcidiot.utils;
+package test.java.lcidiot.utils;
 
 public class Constants {
 

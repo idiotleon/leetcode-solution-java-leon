@@ -1,8 +1,8 @@
-package lcidiot.lc0074;
+package test.java.lcidiot.lc0074;
 
 import org.junit.jupiter.api.Test;
 
-import lcidiot.utils.Constants.Matrix;
+import test.java.lcidiot.utils.Constants.Matrix;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;

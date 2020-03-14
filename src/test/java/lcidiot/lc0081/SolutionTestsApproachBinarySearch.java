@@ -18,11 +18,11 @@
  * Would this affect the run-time complexity? How and why?
  */
 
-package lcidiot.lc0081;
+package test.java.lcidiot.lc0081;
 
 import org.junit.jupiter.api.Test;
 
-import lcidiot.utils.Constants;
+import test.java.lcidiot.utils.Constants;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;

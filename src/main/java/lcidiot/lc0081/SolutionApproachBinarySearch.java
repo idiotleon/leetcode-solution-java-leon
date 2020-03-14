@@ -18,7 +18,7 @@
  * Would this affect the run-time complexity? How and why?
  */
 
-package lcidiot.lc0081;
+package main.java.lcidiot.lc0081;
 
 class SolutionApproachBinarySearch {
     public boolean search(int[] nums, int target) {

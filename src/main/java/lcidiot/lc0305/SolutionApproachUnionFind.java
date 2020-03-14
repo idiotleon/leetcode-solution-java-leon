@@ -38,7 +38,7 @@
  * Can you do it in time complexity O(k log mn), where k is the length of the positions?
  */
 
-package lcidiot.lc0305;
+package main.java.lcidiot.lc0305;
 
 import java.util.List;
 import java.util.ArrayList;

@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/3sum-closest/
  */
-package lcidiot.lc0016;
+package main.java.lcidiot.lc0016;
 
 import java.util.Arrays;
 

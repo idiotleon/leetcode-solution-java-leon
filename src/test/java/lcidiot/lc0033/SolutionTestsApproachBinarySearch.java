@@ -9,11 +9,11 @@
  * 
  * Example 2: Input: nums = [4,5,6,7,0,1,2], target = 3 Output: -1
  */
-package lcidiot.lc0033;
+package test.java.lcidiot.lc0033;
 
 import org.junit.jupiter.api.Test;
 
-import lcidiot.utils.Constants;
+import test.java.lcidiot.utils.Constants;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

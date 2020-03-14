@@ -1,4 +1,4 @@
-package lcidiot.lc0305;
+package test.java.lcidiot.lc0305;
 
 import java.util.Arrays;
 import org.junit.jupiter.api.DisplayName;
