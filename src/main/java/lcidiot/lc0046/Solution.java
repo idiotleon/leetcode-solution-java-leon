@@ -18,7 +18,7 @@ class Solution {
                      List<Integer> intermediate, 
                      int[] nums){
         if(intermediate.size() == nums.length){ 
-            ans.add(new ArrayList(intermediate));
+            ans.add(new ArrayList<Integer>(intermediate));
             return;
         }
         

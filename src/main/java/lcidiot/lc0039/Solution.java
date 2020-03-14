@@ -12,7 +12,7 @@ class Solution{
         List<List<Integer>> ans = new ArrayList<>();
         if(candidates == null || candidates.length == 0) return ans;
         
-        dfs(ans, new ArrayList(), candidates, target, 0);
+        dfs(ans, new ArrayList<Integer>(), candidates, target, 0);
         
         return ans;
     }
@@ -25,7 +25,7 @@ class Solution{
         if(target < 0) return;
         
         if(target == 0){
-            ans.add(new ArrayList(intermediate));
+            ans.add(new ArrayList<Integer>(intermediate));
             return;
         }
         
