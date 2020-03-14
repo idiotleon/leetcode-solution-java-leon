@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/reverse-nodes-in-k-group/
  */
 
- package lcidiot.lc0025;
+package lcidiot.lc0025;
 
 import lcidiot.utils.ListNode;
 
