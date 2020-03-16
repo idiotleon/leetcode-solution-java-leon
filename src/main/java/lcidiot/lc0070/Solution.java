@@ -2,6 +2,8 @@
  * https://leetcode.com/problems/climbing-stairs/
  */
 
+package main.java.lcidiot.lc0070;
+
 class Solution {
     public int climbStairs(int n) {
         if(n == 0) return 1;
