@@ -7,7 +7,7 @@ package main.java.lcidiot.lc0131;
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class SolutionApproachBacktrack {
     public List<List<String>> partition(String s) {
         List<List<String>> ans = new ArrayList<>();
         dfs(ans, new ArrayList<String>(), s, 0);
