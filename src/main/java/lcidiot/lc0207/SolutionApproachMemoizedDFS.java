@@ -8,17 +8,21 @@ import java.util.ArrayList;
 class SolutionApproachMemoizedDFS {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         ArrayList<Integer>[] graph = new ArrayList[numCourses];
-        for(int i = 0; i < numCourses; i++)
+        for(int i = 0; i < numCourses; i++){
             graph[i] = new ArrayList<Integer>();
+        }
         
         boolean[] memo = new boolean[numCourses];
         boolean[] visited = new boolean[numCourses];
-        for(int i = 0; i < prerequisites.length; i++)
+        for(int i = 0; i < prerequisites.length; i++){
             graph[prerequisites[i][0]].add(prerequisites[i][1]);
+        }
         
-        for(int i = 0; i < numCourses; i++)
-            if(!dfs(graph, visited, i, memo))
+        for(int i = 0; i < numCourses; i++){
+            if(!dfs(graph, visited, i, memo)){
                 return false;
+            }
+        }
         
         return true;
     }
@@ -28,9 +32,11 @@ class SolutionApproachMemoizedDFS {
         if(memo[course]) return true;
         
         visited[course] = true;
-        for(int i = 0; i < graph[course].size(); i++)
-            if(!dfs(graph, visited, graph[course].get(i), memo))
+        for(int i = 0; i < graph[course].size(); i++){
+            if(!dfs(graph, visited, graph[course].get(i), memo)){
                 return false;
+            }
+        }
         
         visited[course] = false;
         memo[course] = true;

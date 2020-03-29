@@ -13,19 +13,21 @@ class SolutionApproachBFS {
         ArrayList<Integer>[] graph = new ArrayList[numCourses];
         Queue<Integer> queue = new LinkedList<Integer>();
         int count = 0;
-        for(int i = 0; i < numCourses; i++)
+        for(int i = 0; i < numCourses; i++){
             graph[i] = new ArrayList<Integer>();
+        }
         
         for(int i = 0; i < prerequisites.length; i++){
             indegree[prerequisites[i][0]]++;
             graph[prerequisites[i][1]].add(prerequisites[i][0]);
         }
         
-        for(int i = 0; i < indegree.length; i++)
+        for(int i = 0; i < indegree.length; i++){
             if(indegree[i] == 0){
                 queue.add(i);
                 count++;
             }
+        }
         
         while(!queue.isEmpty()){
             int course = queue.poll();
