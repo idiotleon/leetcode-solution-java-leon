@@ -11,17 +11,20 @@ class Solution {
         
         int nr = grid.length, nc = grid[0].length;
         UnionFind uf = new UnionFind(grid);
-        for(int row = 0; row < nr; row++)
-            for(int col = 0; col < nc; col++)
+        for(int row = 0; row < nr; row++){
+            for(int col = 0; col < nc; col++){
                 if(grid[row][col] == '1'){
                     grid[row][col] = '0';
                     
                     for(int[] dir : DIRS){
                         int r = row + dir[0], c = col + dir[1];
-                        if(r >= 0 && c >= 0 && r < nr && c < nc && grid[r][c] == '1') 
+                        if(r >= 0 && c >= 0 && r < nr && c < nc && grid[r][c] == '1') {
                             uf.union(row * nc + col, r * nc + c);
+                        }
                     }
                 }
+            }
+        }
         
         return uf.getCount();
     }
@@ -35,7 +38,7 @@ class Solution {
             parent = new int[nr * nc];
             rank = new int[nr * nc];
             
-            for(int row = 0; row < nr; row++)
+            for(int row = 0; row < nr; row++){
                 for(int col = 0; col < nc; col++){
                     if(grid[row][col] == '1'){
                         parent[row * nc + col] = row * nc + col;
@@ -44,17 +47,18 @@ class Solution {
                     
                     rank[row * nc + col] = 0;
                 }
+            }
         }
         
         public void union(int x, int y){
             int rootx = find(x), rooty = find(y);
             
             if(rootx != rooty){
-                if(rank[rootx] > rank[rooty])
+                if(rank[rootx] > rank[rooty]){
                     parent[rooty] = rootx;
-                else if(rank[rootx] < rank[rooty])
+                }else if(rank[rootx] < rank[rooty]){
                     parent[rootx] = rooty;
-                else{
+                }else{
                     parent[rooty] = rootx;
                     rank[rootx] += 1;
                 }
@@ -64,8 +68,10 @@ class Solution {
         }
         
         public int find(int i){
-            if(parent[i] != i) 
+            if(parent[i] != i){
                 parent[i] = find(parent[i]);
+            }
+
             return parent[i];
         }
         

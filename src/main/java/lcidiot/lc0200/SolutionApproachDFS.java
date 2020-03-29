@@ -14,12 +14,14 @@ class SolutionApproachDFS {
         nc = grid[0].length;
         int numIslands = 0;
         
-        for(int row = 0; row < nr; row++)
-            for(int col = 0; col < nc; col++)
+        for(int row = 0; row < nr; row++){
+            for(int col = 0; col < nc; col++){
                 if(grid[row][col] == '1'){
                     ++numIslands;
                     dfs(grid, row, col);
                 }
+            }
+        }
         
         return numIslands;
     }
