@@ -20,25 +20,31 @@ class SolutionApproachTopologicalSort {
             int ready = prerequisites[i][0];
             int pre = prerequisites[i][1];
             
-            if(matrix[pre][ready] == 0)
+            if(matrix[pre][ready] == 0){
                 indegree[ready]++;
+            }
                 
             matrix[pre][ready] = 1;
         }
         
         Queue<Integer> queue = new LinkedList<Integer>();
-        for(int i = 0; i < indegree.length; i++)
-            if(indegree[i] == 0)
+        for(int i = 0; i < indegree.length; i++){
+            if(indegree[i] == 0){
                 queue.offer(i);
+            }
+        }
         
         int index = 0;
         while(!queue.isEmpty()){
             int course = queue.poll();
             ans[index++] = course;
-            for(int i = 0; i < numCourses; i++)
-                if(matrix[course][i] != 0)
-                    if(--indegree[i] == 0)
+            for(int i = 0; i < numCourses; i++){
+                if(matrix[course][i] != 0){
+                    if(--indegree[i] == 0){
                         queue.offer(i);
+                    }
+                }
+            }
         }
         
         if(index < numCourses) return new int[]{};

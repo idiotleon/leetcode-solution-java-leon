@@ -12,17 +12,19 @@ class SolutionApproachBFS {
         int[] ans = new int[numCourses], indegree = new int[numCourses];
         
         // indegree - how many prerequisites are required
-        for(int i = 0; i < prerequisites.length; i++)
+        for(int i = 0; i < prerequisites.length; i++){
             indegree[prerequisites[i][0]]++;
+        }
         
         int index = 0;
         Queue<Integer> queue = new LinkedList<Integer>();
-        for(int i = 0; i < numCourses; i++)
+        for(int i = 0; i < numCourses; i++){
             if(indegree[i] == 0){
                 // to add the course to the order because of no prerequisites
                 ans[index++] = i;
                 queue.offer(i);
             }
+        }
         
         // how many courses require no prerequisites
         while(!queue.isEmpty()){
