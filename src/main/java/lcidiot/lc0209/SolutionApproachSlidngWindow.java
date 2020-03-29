@@ -17,6 +17,21 @@ import java.lang.Math;
 
 class SolutionApproachSlidngWindow {
     public int minSubArrayLen(int s, int[] nums) {
+        if(nums == null || nums.length == 0) return 0;
+        
+        int ans = Integer.MAX_VALUE, sum = 0, left = 0;
+        for(int i = 0; i < nums.length; i++){
+            sum += nums[i];
+            while(sum >= s){
+                ans = Math.min(ans, i + 1 - left);
+                sum -= nums[left++];
+            }
+        }
+        
+        return (ans != Integer.MAX_VALUE) ? ans : 0;
+    }
+
+    public int minSubArrayLen2(int s, int[] nums) {
         if (nums == null || nums.length == 0)
             return 0;
 
