@@ -12,29 +12,29 @@ import java.util.List;
 import java.util.Set;
 
 class SolutionApproachDFS {
-    public boolean wordBreak(String str, List<String> wordDict) {
-        Set<Integer> set = new HashSet<Integer>();
-        return dfs(str, 0, new HashSet<String>(wordDict), set);
+    public boolean wordBreak(String s, List<String> wordDict) {
+        Set<Integer> visited = new HashSet<Integer>();
+        return dfs(s, 0, new HashSet<String>(wordDict), visited);
     }
     
     private boolean dfs(String str, 
                         int index, 
-                        Set<String> wordDict, 
-                        Set<Integer> set){
-        // base case
+                        Set<String> wordSet, 
+                        Set<Integer> visited){
+        // the base case
         if(index == str.length()) return true;
         
         // to check memory
-        if(set.contains(index)) return false;
+        if(visited.contains(index)) return false;
         
         // recursion
         for(int i = index + 1; i <= str.length(); i++){
             String sub = str.substring(index, i);
-            if(wordDict.contains(sub) && dfs(str, i, wordDict, set)) 
+            if(wordSet.contains(sub) && dfs(str, i, wordSet, visited)) 
                 return true;
         }
         
-        set.add(index);
+        visited.add(index);
         return false;
     }
 }

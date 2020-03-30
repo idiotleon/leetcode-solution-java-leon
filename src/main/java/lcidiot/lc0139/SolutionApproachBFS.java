@@ -23,7 +23,7 @@ class SolutionApproachBFS {
         
         while(!queue.isEmpty()){
             String cur = queue.poll();
-            for(int i = 1; i <= cur.length(); i++)
+            for(int i = 1; i <= cur.length(); i++){
                 if(wordSet.contains(cur.substring(0, i))){
                     if(i == cur.length()) return true;
                     
@@ -33,6 +33,7 @@ class SolutionApproachBFS {
                         visited.add(sub);
                     }
                 }
+            }
         }
         
         return false;
