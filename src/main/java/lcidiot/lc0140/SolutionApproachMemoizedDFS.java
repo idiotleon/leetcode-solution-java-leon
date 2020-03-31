@@ -25,12 +25,14 @@ class SolutionApproachMemoizedDFS {
         LinkedList<String> res = new LinkedList<String>();
         if(start == str.length()) res.add("");
         
-        for(int end = start + 1; end <= str.length(); end++)
+        for(int end = start + 1; end <= str.length(); end++){
             if(wordDict.contains(str.substring(start, end))){
                 List<String> lists = wordBreak(str, wordDict, end);
-                for(String list : lists)
+                for(String list : lists){
                     res.add(str.substring(start, end) + (list.equals("") ? "": " ") + list);
+                }
             }
+        }
         
         map.put(start, res);
         return res;
