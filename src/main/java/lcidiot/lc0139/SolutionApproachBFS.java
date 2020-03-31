@@ -10,16 +10,17 @@ import java.util.List;
 import java.util.LinkedList;
 import java.util.HashSet;
 import java.util.Queue;
+import java.util.Set;
 
 class SolutionApproachBFS {
     public boolean wordBreak(String str, List<String> wordDict) {
         if(str == null || str.length() == 0) return false;
         
-        HashSet<String> wordSet = new HashSet<String>(wordDict);
+        Set<String> wordSet = new HashSet<String>(wordDict);
         Queue<String> queue = new LinkedList<String>();
         queue.offer(str);
         
-        HashSet<String> visited = new HashSet<String>();
+        Set<String> visited = new HashSet<String>();
         
         while(!queue.isEmpty()){
             String cur = queue.poll();
