@@ -1,5 +1,5 @@
 /**
- * 
+ * https://leetcode.com/problems/path-sum-ii/
  */
 package main.java.lcidiot.lc0113;
 
@@ -14,7 +14,6 @@ class Solution {
         if(root == null) return ans;
         
         helper(root, sum, new ArrayList<Integer>(), ans);
-        
         return ans;
     }
     
@@ -26,9 +25,9 @@ class Solution {
         
         pathNodes.add(node.val);
         
-        if(remainingSum == node.val && node.left == null && node.right == null)
+        if(remainingSum == node.val && node.left == null && node.right == null){
             pathsList.add(new ArrayList<Integer>(pathNodes));
-        else{
+        } else {
             helper(node.left, remainingSum - node.val, pathNodes, pathsList);
             helper(node.right, remainingSum - node.val, pathNodes, pathsList);
         }
