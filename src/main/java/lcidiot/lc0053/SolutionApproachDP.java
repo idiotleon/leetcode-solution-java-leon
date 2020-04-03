@@ -49,4 +49,17 @@ class SolutionApproachDP{
         
         return max;
     }
+
+    public int maxSubArray4(int[] nums) {
+        int localMax = 0, globalMax = Integer.MIN_VALUE;
+        
+        for(int i = 0; i < nums.length; i++){
+            localMax = Math.max(nums[i], localMax + nums[i]);
+            if(localMax > globalMax){
+                globalMax = localMax;
+            }
+        }
+        
+        return globalMax;
+    }
 }
