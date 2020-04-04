@@ -5,7 +5,7 @@ package main.java.lcidiot.lc0104;
 
 import main.java.lcidiot.utils.TreeNode;
 
-class Solution {
+class SolutionApproachDFSBottomUp {
     public int maxDepth(TreeNode root) {
         if(root == null) return 0;
         
