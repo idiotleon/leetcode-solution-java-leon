@@ -1,11 +1,19 @@
 /**
  * https://leetcode.com/problems/balanced-binary-tree/
+ * 
+ * https://leetcode.com/problems/balanced-binary-tree/discuss/35691/The-bottom-up-O(N)-solution-would-be-better
+ * 
+ * Time Complexity: O(NlogN)
+ * https://leetcode.com/problems/balanced-binary-tree/discuss/35691/The-bottom-up-O(N)-solution-would-be-better/33948
+ * 
+ * Master Theorem:
+ * https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms)
  */
 package main.java.lcidiot.lc0110;
 
 import main.java.lcidiot.utils.TreeNode;
 
-class Solution {
+class SolutionApproachDFSTopDown {
     public boolean isBalanced(TreeNode root) {
         if(root == null) return true;
         
