@@ -38,12 +38,10 @@ public class SolutionApproachDFSConstructingString {
         
         if(node.left != null){
             dfs(node.left, intermediate, nums);
-            intermediate.substring(0, intermediate.length() - 1);
         }
         
         if(node.right != null){
             dfs(node.right, intermediate, nums);
-            intermediate.substring(0, intermediate.length() - 1);
         }
     }
 }
