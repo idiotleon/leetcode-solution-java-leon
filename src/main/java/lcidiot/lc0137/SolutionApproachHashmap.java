@@ -6,7 +6,7 @@ package main.java.lcidiot.lc0137;
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+class SolutionApproachHashMap {
     public int singleNumber(int[] nums) {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         for(int num : nums)
