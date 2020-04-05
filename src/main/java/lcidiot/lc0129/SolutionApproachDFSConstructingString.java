@@ -34,14 +34,17 @@ public class SolutionApproachDFSConstructingString {
         if(node.left == null && node.right == null){
             nums.add(intermediate);
             return;
-        }
-        
-        if(node.left != null){
+        }else{
             dfs(node.left, intermediate, nums);
-        }
-        
-        if(node.right != null){
             dfs(node.right, intermediate, nums);
         }
+        
+        // if(node.left != null){
+        //     dfs(node.left, intermediate, nums);
+        // }
+        
+        // if(node.right != null){
+        //     dfs(node.right, intermediate, nums);
+        // }
     }
 }
