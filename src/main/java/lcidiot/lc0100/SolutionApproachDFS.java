@@ -1,12 +1,11 @@
 /**
  * https://leetcode.com/problems/same-tree/
  */
-
 package main.java.lcidiot.lc0100;
 
 import main.java.lcidiot.utils.TreeNode;
 
-class SolutionApproachRecursion {
+class SolutionApproachDFS {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p == null && q == null) return true;
         if(p == null || q == null) return false;

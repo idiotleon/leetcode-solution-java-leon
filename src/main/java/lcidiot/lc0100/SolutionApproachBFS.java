@@ -1,5 +1,5 @@
 /**
- * 
+ * https://leetcode.com/problems/same-tree/
  */
 package main.java.lcidiot.lc0100;
 
@@ -8,7 +8,7 @@ import java.util.Queue;
 
 import main.java.lcidiot.utils.TreeNode;
 
-class Solution {
+class SolutionApproachBFS {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
         queue.add(p);
