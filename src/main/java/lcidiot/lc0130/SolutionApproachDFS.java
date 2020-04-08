@@ -14,13 +14,18 @@ class SolutionApproachDFS {
         nr = board.length;
         nc = board[0].length;
         
-        for(int row = 0; row < nr; row++)
-            for(int col = 0; col < nc; col++)
-                if(board[row][col] == 'O')
-                    if(!isBorderAttached(board, row, col))
-                        mark(board, row, col, 'X');
-                    else
+        for(int row = 0; row < nr; row++){
+            for(int col = 0; col < nc; col++){
+                if(board[row][col] == 'O'){
+                    if(isBorderAttached(board, row, col)){
                         mark(board, row, col, 'O');
+                    }
+                    else{
+                        mark(board, row, col, 'X');
+                    }
+                }
+            }
+        }
     }
     
     private void mark(char[][] board, int row, int col, char marker){
@@ -28,8 +33,10 @@ class SolutionApproachDFS {
         
         board[row][col] = marker;
         
-        for(int[] dir : DIRS)
-            mark(board, row + dir[0], col + dir[1], marker);
+        for(int[] dir : DIRS){
+            int r = row + dir[0], c = col + dir[1];
+            mark(board, r, c, marker);
+        }
     }
     
     private boolean isBorderAttached(char[][] board, int row, int col){

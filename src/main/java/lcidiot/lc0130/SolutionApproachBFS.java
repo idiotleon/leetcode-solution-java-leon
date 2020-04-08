@@ -55,10 +55,11 @@ class SolutionApproachBFS {
         }
         
         // turn all '+' to 'O', and 'O' to 'X'
-        for(int row = 0; row < nr; row++)
+        for(int row = 0; row < nr; row++){
             for(int col = 0; col < nc; col++){
                 if(board[row][col] == 'O') board[row][col] = 'X';
                 if(board[row][col] == '+') board[row][col] = 'O';
             }
+        }
     }
 }
