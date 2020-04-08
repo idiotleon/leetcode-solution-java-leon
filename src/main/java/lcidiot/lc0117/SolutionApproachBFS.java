@@ -8,10 +8,9 @@ import java.util.Queue;
 
 import main.java.lcidiot.utils.Node;
 
-class Solution {
-    // solution i: BFS
+public class SolutionApproachBFS {
     public Node connect(Node root) {
-       if(root == null) return root;
+        if(root == null) return root;
         
         Queue<Node> queue = new LinkedList<Node>();
         queue.add(root);
@@ -21,7 +20,6 @@ class Solution {
             
             for(int i = 0; i < size; i++){
                 Node cur = queue.poll();
-                
                 if(i < size - 1) cur.next = queue.peek();
                 if(cur.left != null) queue.add(cur.left);
                 if(cur.right != null) queue.add(cur.right);
