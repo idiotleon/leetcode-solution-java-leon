@@ -8,8 +8,7 @@ import java.util.Queue;
 
 import main.java.lcidiot.utils.TreeNode;
 
-class Solution {
-    // Solution 1
+class SolutionApproachDFS1 {
     private TreeNode prev = null;
     
     public void flatten(TreeNode root) {
@@ -23,8 +22,9 @@ class Solution {
         
         prev = root;
     }
+}
 
-    // Solution 2
+class SolutionApproachDFS2 {
     public void flatten2(TreeNode root) {
         if(root == null) return;
         
@@ -46,8 +46,9 @@ class Solution {
         preorder(root.left, queue);
         preorder(root.right, queue);
     }
+}
 
-    // Solution 3
+class SolutionApproachDFS3 {
     public void flatten3(TreeNode root) {
         helper(root);
     }
