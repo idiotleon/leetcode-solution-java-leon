@@ -6,7 +6,7 @@ package main.java.lcidiot.lc0109;
 import main.java.lcidiot.utils.ListNode;
 import main.java.lcidiot.utils.TreeNode;
 
-class Solution {
+class SolutionApproachDFS {
     public TreeNode sortedListToBST(ListNode head) {
         if(head == null) return null;
         
