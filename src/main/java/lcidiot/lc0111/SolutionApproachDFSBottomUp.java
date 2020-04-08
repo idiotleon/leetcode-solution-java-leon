@@ -62,11 +62,13 @@ class SolutionApproachDFSBottomUp4 {
         
         int minDepth = Integer.MAX_VALUE;
         
-        if(root.left != null)
+        if(root.left != null){
             minDepth = Math.min(minDepth(root.left), minDepth);
+        }
         
-        if(root.right != null)
+        if(root.right != null){
             minDepth = Math.min(minDepth(root.right), minDepth);
+        }
         
         return minDepth + 1;
     }

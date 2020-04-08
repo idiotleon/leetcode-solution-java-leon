@@ -21,17 +21,9 @@ public class SolutionApproachDFSTopDown {
         if(node.left == null && node.right == null){
             min = Math.min(min, curHeight);
         }
-        
-        if(node.left != null){
-            curHeight++;
-            dfs(node.left, curHeight);
-            curHeight--;
-        }
-        
-        if(node.right != null){
-            curHeight++;
-            dfs(node.right, curHeight);
-            curHeight--;
-        }
+
+        curHeight++;
+        dfs(node.left, curHeight);
+        dfs(node.right, curHeight);
     }  
 }
