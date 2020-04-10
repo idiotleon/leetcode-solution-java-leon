@@ -1,5 +1,8 @@
 /**
  * https://leetcode.com/problems/merge-k-sorted-lists/
+ * 
+ * Time Complexity: O(Nlgk)
+ * Space Complexity: O(1)
  */
 package main.java.lcidiot.lc0023;
 
