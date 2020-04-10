@@ -8,7 +8,7 @@ import java.util.List;
 
 import main.java.lcidiot.utils.TreeNode;
 
-class SolutionApproachDFS {
+public class SolutionApproachDFS1 {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         List<List<Integer>> ans = new ArrayList<List<Integer>>();
         if(root == null) return ans;
