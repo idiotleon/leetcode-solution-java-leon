@@ -19,8 +19,8 @@ class Solution {
         Map<Integer, Integer> preSum = new HashMap<Integer, Integer>();
         preSum.put(0, 1);
         
-        for(int i = 0; i < nums.length; i++){
-            sum += nums[i];
+        for(int num : nums){
+            sum += num;
             if(preSum.containsKey(sum - k)){
                 result += preSum.get(sum - k);
             }
