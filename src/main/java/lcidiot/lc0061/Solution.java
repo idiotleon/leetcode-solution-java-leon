@@ -23,8 +23,9 @@ class Solution {
         
         copyHead.next = head;
         
-        for(int i = len - k % len; i > 1; i--)
+        for(int i = len - k % len; i > 1; i--){
             head = head.next;
+        }
         
         copyHead = head.next;
         head.next = null;
