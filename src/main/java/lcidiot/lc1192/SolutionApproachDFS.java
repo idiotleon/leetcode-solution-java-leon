@@ -3,6 +3,7 @@
  */
 package main.java.lcidiot.lc1192;
 
+import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -31,9 +32,9 @@ public class SolutionApproachDFS {
             graph[i] = new ArrayList<Integer>();
         }
         
-        for(List<Integer> c : connections){
-            graph[c.get(0)].add(c.get(1));
-            graph[c.get(1)].add(c.get(0));
+        for(List<Integer> conn : connections){
+            graph[conn.get(0)].add(conn.get(1));
+            graph[conn.get(1)].add(conn.get(0));
         }
         
         // core logic
