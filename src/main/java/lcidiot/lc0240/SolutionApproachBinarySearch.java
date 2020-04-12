@@ -46,19 +46,21 @@ class SolutionApproachBinarySearch {
         while (lo <= hi) {
             int mid = lo + (hi - lo) / 2;
             if (vertical) {
-                if (matrix[start][mid] < target)
+                if (matrix[start][mid] < target){
                     lo = mid + 1;
-                else if (matrix[start][mid] > target)
+                }
+                else if (matrix[start][mid] > target){
                     hi = mid - 1;
-                else
-                    return true;
+                }
+                else return true;
             } else {
-                if (matrix[mid][start] < target)
+                if (matrix[mid][start] < target){
                     lo = mid + 1;
-                else if (matrix[mid][start] > target)
+                }
+                else if (matrix[mid][start] > target){
                     hi = mid - 1;
-                else
-                    return true;
+                }
+                else return true;
             }
         }
 
