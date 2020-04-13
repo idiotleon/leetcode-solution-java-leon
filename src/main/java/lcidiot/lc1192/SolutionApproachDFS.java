@@ -18,7 +18,7 @@ public class SolutionApproachDFS {
     public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connections) {
         // sanity check
         ans = new ArrayList<List<Integer>>();
-        if(n == 0) return ans;
+        if(n <= 0) return ans;
         
         // prepartion work
         visited = new boolean[n];
