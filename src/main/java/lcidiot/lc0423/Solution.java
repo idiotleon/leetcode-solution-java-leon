@@ -34,7 +34,7 @@ public class Solution {
         
         for(int i = 0; i < 10; i++){
             if(digits[i] > 0){
-                ans += String.join("", Collections.nCopies(digits[i], Character.toString(i + '0')));
+                ans += String.join("", Collections.nCopies(digits[i], Character.toString((char) (i + '0'))));
             }
         }
         
