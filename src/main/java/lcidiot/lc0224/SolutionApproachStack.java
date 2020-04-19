@@ -7,9 +7,9 @@ import java.util.Stack;
 
 public class SolutionApproachStack {
     public int calculate(String s) {
-        if(s == null) return 0;
+        if(s == null || s.isEmpty()) return 0;
         
-        int result = 0, sign = 1, num = 0;
+        int ans = 0, sign = 1, num = 0;
         
         Stack<Integer> stack = new Stack<Integer>();
         stack.push(sign);
@@ -20,7 +20,7 @@ public class SolutionApproachStack {
             if(c >= '0' && c <= '9'){
                 num = num * 10 + (c - '0');
             }else if(c == '+' || c == '-'){
-                result += sign * num;
+                ans += sign * num;
                 sign = stack.peek() * (c == '+' ? 1 : -1);
                 num = 0;
             }else if(c == '('){
@@ -30,7 +30,7 @@ public class SolutionApproachStack {
             }
         }
         
-        result += sign * num;
-        return result;
+        ans += sign * num;
+        return ans;
     }
 }
