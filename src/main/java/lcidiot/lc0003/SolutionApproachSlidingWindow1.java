@@ -1,33 +1,45 @@
 /**
  * https://leetcode.com/problems/longest-substring-without-repeating-characters/
  * 
- * Time Complexit: O(N)
+ * Time Complexity: O(N)
  * Space Complexity: O(1)
  */
 package main.java.lcidiot.lc0003;
 
 public class SolutionApproachSlidingWindow1 {
     public int lengthOfLongestSubstring(String s) {
-        int[] freq = new int[256];
-        int left = 0, right = 0, len = 0, threshold = 0;
+        // sanity check
+        if(s == null || s.length() == 0) return 0;
+        
+        int[] freq = new int[128];
+        int left = 0, right = 0, ans = 0;
         while(right < s.length()){
-            char c = s.charAt(right);
-            ++freq[c];
-            if(freq[c] > 1) threshold++;
-            right++;
-            
-            while(threshold > 0){
-                char temp = s.charAt(left);
-                if(freq[temp] > 1){
-                    threshold--;
-                }
-                --freq[temp];
-                left++;
+            ++freq[s.charAt(right)];
+            while(freq[s.charAt(right)] > 1){
+                --freq[s.charAt(left++)];
             }
-            
-            len = Math.max(len, right - left);
+            // please pay more attention to where "right++" should be placed
+            right++;
+            ans = Math.max(ans, right - left);
         }
         
-        return len;
+        return ans;
+    }
+
+    public int lengthOfLongestSubstring2(String s) {
+        if(s == null || s.length() == 0) return 0;
+        
+        int[] freq = new int[128];
+        int left = 0, right = 0, ans = 0;
+        while(right < s.length()){
+            ++freq[s.charAt(right)];
+            while(freq[s.charAt(right)] > 1){
+                --freq[s.charAt(left++)];
+            }
+            ans = Math.max(ans, right - left + 1);
+            right++;
+        }
+        
+        return ans;
     }
 }
