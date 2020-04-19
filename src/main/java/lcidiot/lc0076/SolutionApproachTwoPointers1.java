@@ -6,10 +6,12 @@
  */
 package main.java.lcidiot.lc0076;
 
-public class SolutionApproachTwoPointers {
+public class SolutionApproachTwoPointers1 {
     public String minWindow(String s, String t) {
+        // sanity check
         if(s == null || s.length() == 0 || t == null || t.length() == 0) return "";
         
+        // to build up the dictionary
         int[] freq = new int[128];
         for(int i = 0; i < t.length(); i++){
             ++freq[t.charAt(i)];
@@ -19,15 +21,22 @@ public class SolutionApproachTwoPointers {
         String ans = "";
         
         for(int right = 0; right < s.length(); right++){
+            // freq[s.charAt(right)] > 0 means s.charAt(right) is in t
             if(freq[s.charAt(right)] > 0) count--;
-            --freq[s.charAt(right)];
+            // this will put chars that are not in t negative
+            freq[s.charAt(right)]--;
+            // we have not found all letters yet
             if(count > 0) continue;
             
+            // we have found all letters
             while(count == 0){
-                if(ans.isEmpty() || (right - left + 1) < ans.length()){
+                if(ans.length() == 0 || (right - left + 1) < ans.length()){
                     ans = s.substring(left, right + 1);
                 }
-                ++freq[s.charAt(left)];
+
+                // to reduce the length till count > 0.
+                // this automatically include the rightmost ones necessary if duplicates exist
+                freq[s.charAt(left)]++;
                 if(freq[s.charAt(left)] > 0) count++;
                 left++;
             }
