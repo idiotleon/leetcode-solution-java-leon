@@ -6,7 +6,7 @@
  * Time Complexity: O(N^2), in the worst case
  * Space Complexity: O(1)
  */
-package main.java.lcidiot.classic.string.pattern_matching;
+package main.java.lcidiot.algorithm.string.pattern_matching;
 
 public class RabinKarpSearch {
     private final int PRIME = 1001;

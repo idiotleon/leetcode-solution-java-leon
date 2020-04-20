@@ -3,7 +3,7 @@
  * 
  * https://github.com/mission-peace/interview/blob/master/src/com/interview/string/ZAlgorithm.java
  */
-package main.java.lcidiot.classic.string.pattern_matching;
+package main.java.lcidiot.algorithm.string.pattern_matching;
 
 import java.util.ArrayList;
 import java.util.List;

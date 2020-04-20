@@ -4,7 +4,7 @@
  * Time Complexity: O(N)
  * Space Complexity: O(N)
  */
-package main.java.lcidiot.classic.string.pattern_matching;
+package main.java.lcidiot.algorithm.string.pattern_matching;
 
 public class KMPAlgorithm {
     public int[] buildKMPTable(String pattern){
