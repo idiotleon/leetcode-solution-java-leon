@@ -5,7 +5,7 @@ package main.java.lcidiot.lc0865;
 
 import java.util.HashMap;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 class SolutionApproachMemoizedDFS {
     public TreeNode subtreeWithAllDeepest(TreeNode root) {

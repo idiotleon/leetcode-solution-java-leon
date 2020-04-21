@@ -3,7 +3,7 @@
  */
 package main.java.lcidiot.lc0025;
 
-import main.java.lcidiot.utils.ListNode;
+import main.java.lcidiot.data_structure.linkedlist.ListNode;
 
 class SolutionApproachRecursion{
     public ListNode reverseKGroup(ListNode head, int k) {

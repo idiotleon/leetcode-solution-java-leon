@@ -5,7 +5,7 @@
  */
 package main.java.lcidiot.lc0124;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 class SolutionApproachRecursion {
     private int maxValue;

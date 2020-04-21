@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 class Solution {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {

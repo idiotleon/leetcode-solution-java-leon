@@ -1,10 +1,15 @@
 package main.java.lcidiot.data_structure.tree;
 
-public class TreeNodeWithNextPtr extends TreeNode{
+public class TreeNodeWithNextPtr{
+    public int val;
     public TreeNodeWithNextPtr next;
+    public TreeNodeWithNextPtr left;
+    public TreeNodeWithNextPtr right;
     
     public TreeNodeWithNextPtr(int val){
-        super(val);
+        this.val = val;
         this.next = null;
+        this.left = null;
+        this.right = null;
     }
 }

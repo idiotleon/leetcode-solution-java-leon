@@ -6,7 +6,7 @@ package main.java.lcidiot.lc0095;
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 class SolutionApproachRecursion {
     public List<TreeNode> generateTrees(int n) {

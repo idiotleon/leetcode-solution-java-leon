@@ -5,18 +5,19 @@ package main.java.lcidiot.lc0138;
 
 import java.util.HashMap;
 import java.util.Map;
-import main.java.lcidiot.utils.NodeWithRandomPtr;;
+
+import main.java.lcidiot.data_structure.linkedlist.ListNodeWithRandomPtr;
 
 class SolutionApproachTwoPassesWithHashMap {
-    public NodeWithRandomPtr copyRandomList(NodeWithRandomPtr head) {
+    public ListNodeWithRandomPtr copyRandomList(ListNodeWithRandomPtr head) {
         if(head == null) return null;
         
-        Map<NodeWithRandomPtr, NodeWithRandomPtr> map = new HashMap<NodeWithRandomPtr, NodeWithRandomPtr>();
+        Map<ListNodeWithRandomPtr, ListNodeWithRandomPtr> map = new HashMap<ListNodeWithRandomPtr, ListNodeWithRandomPtr>();
         
         // 1st pass: to copy all the nodes
-        NodeWithRandomPtr node = head;
+        ListNodeWithRandomPtr node = head;
         while(node != null){
-            map.put(node, new NodeWithRandomPtr(node.val));
+            map.put(node, new ListNodeWithRandomPtr(node.val));
             node = node.next;
         }
         

@@ -3,7 +3,7 @@
  */
 package main.java.lcidiot.lc0206;
 
-import main.java.lcidiot.utils.ListNode;
+import main.java.lcidiot.data_structure.linkedlist.ListNode;
 
 class SolutionApproachRecursion {
     public ListNode reverseList(ListNode head) {

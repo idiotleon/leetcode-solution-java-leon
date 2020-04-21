@@ -3,7 +3,7 @@
  */
 package main.java.lcidiot.lc0725;
 
-import main.java.lcidiot.utils.ListNode;
+import main.java.lcidiot.data_structure.linkedlist.ListNode;
 
 public class Solution {
     public ListNode[] splitListToParts(ListNode root, int k) {

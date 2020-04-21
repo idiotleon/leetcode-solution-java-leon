@@ -4,19 +4,20 @@
 package main.java.lcidiot.lc0138;
 
 import java.util.HashMap;
-import main.java.lcidiot.utils.NodeWithRandomPtr;
+
+import main.java.lcidiot.data_structure.linkedlist.ListNodeWithRandomPtr;
 
 class SolutionApproachRecursion {
-    private HashMap<NodeWithRandomPtr, NodeWithRandomPtr> visited 
-        = new HashMap<NodeWithRandomPtr, NodeWithRandomPtr>();
+    private HashMap<ListNodeWithRandomPtr, ListNodeWithRandomPtr> visited 
+        = new HashMap<ListNodeWithRandomPtr, ListNodeWithRandomPtr>();
     
-    public NodeWithRandomPtr copyRandomList(NodeWithRandomPtr head) {
+    public ListNodeWithRandomPtr copyRandomList(ListNodeWithRandomPtr head) {
         if(head == null) return null;
         
         if(this.visited.containsKey(head))
             return this.visited.get(head);
             
-        NodeWithRandomPtr node = new NodeWithRandomPtr(head.val);
+            ListNodeWithRandomPtr node = new ListNodeWithRandomPtr(head.val);
         this.visited.put(head, node);
         
         node.next = this.copyRandomList(head.next);

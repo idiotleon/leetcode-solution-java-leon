@@ -6,7 +6,7 @@
  */
 package main.java.lcidiot.lc0110;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 public class SolutionApproachDFSBottomUp {
     public boolean isBalanced(TreeNode root) {

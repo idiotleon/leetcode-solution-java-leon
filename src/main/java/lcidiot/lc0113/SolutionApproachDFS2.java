@@ -6,7 +6,7 @@ package main.java.lcidiot.lc0113;
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 public class SolutionApproachDFS2 {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {

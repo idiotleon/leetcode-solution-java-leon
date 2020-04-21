@@ -6,7 +6,7 @@ package main.java.lcidiot.lc0513;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 public class SolutionApproachBFS {
     public int findBottomLeftValue(TreeNode root) {

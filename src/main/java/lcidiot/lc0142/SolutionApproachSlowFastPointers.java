@@ -3,7 +3,7 @@
  */
 package main.java.lcidiot.lc0142;
 
-import main.java.lcidiot.utils.ListNode;
+import main.java.lcidiot.data_structure.linkedlist.ListNode;
 
 public class SolutionApproachSlowFastPointers {
     public ListNode detectCycle(ListNode head) {

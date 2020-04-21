@@ -4,7 +4,7 @@
 
 package main.java.lcidiot.lc0061;
 
-import main.java.lcidiot.utils.ListNode;
+import main.java.lcidiot.data_structure.linkedlist.ListNode;
 
 class Solution {
     /**

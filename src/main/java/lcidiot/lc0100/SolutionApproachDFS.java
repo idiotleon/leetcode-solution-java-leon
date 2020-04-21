@@ -3,7 +3,7 @@
  */
 package main.java.lcidiot.lc0100;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 class SolutionApproachDFS {
     public boolean isSameTree(TreeNode p, TreeNode q) {

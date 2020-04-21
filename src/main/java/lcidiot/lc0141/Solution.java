@@ -3,7 +3,7 @@
  */
 package main.java.lcidiot.lc0141;
 
-import main.java.lcidiot.utils.ListNode;
+import main.java.lcidiot.data_structure.linkedlist.ListNode;
 
 public class Solution {
     public boolean hasCycle(ListNode head) {

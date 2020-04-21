@@ -6,7 +6,7 @@ package main.java.lcidiot.lc0142;
 import java.util.HashSet;
 import java.util.Set;
 
-import main.java.lcidiot.utils.ListNode;
+import main.java.lcidiot.data_structure.linkedlist.ListNode;
 
 public class SolutionApproachHashMap {
     public ListNode detectCycle(ListNode head) {

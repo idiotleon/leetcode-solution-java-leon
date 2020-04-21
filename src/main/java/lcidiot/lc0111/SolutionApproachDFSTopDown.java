@@ -3,7 +3,7 @@
  */
 package main.java.lcidiot.lc0111;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 public class SolutionApproachDFSTopDown {
     private int min;

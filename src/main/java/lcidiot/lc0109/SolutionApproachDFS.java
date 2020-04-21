@@ -3,8 +3,8 @@
  */
 package main.java.lcidiot.lc0109;
 
-import main.java.lcidiot.utils.ListNode;
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.linkedlist.ListNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 class SolutionApproachDFS {
     public TreeNode sortedListToBST(ListNode head) {

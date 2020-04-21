@@ -5,16 +5,16 @@
  */
 package main.java.lcidiot.lc0116;
 
-import main.java.lcidiot.utils.Node;
+import main.java.lcidiot.data_structure.tree.TreeNodeWithNextPtr;
 
 public class Solution {
-    public Node connect(Node root) {
+    public TreeNodeWithNextPtr connect(TreeNodeWithNextPtr root) {
         if(root == null) return root;
         
-        Node leftmost = root;
+        TreeNodeWithNextPtr leftmost = root;
         
         while(leftmost.left != null){
-            Node head = leftmost;
+            TreeNodeWithNextPtr head = leftmost;
             
             while(head != null){
                 head.left.next = head.right;

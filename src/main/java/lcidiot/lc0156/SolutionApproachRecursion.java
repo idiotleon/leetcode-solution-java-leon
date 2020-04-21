@@ -3,7 +3,7 @@
  */
 package main.java.lcidiot.lc0156;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 class SolutionApproachRecursion {
     public TreeNode upsideDownBinaryTree(TreeNode root) {

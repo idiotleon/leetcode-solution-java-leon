@@ -6,7 +6,7 @@ package main.java.lcidiot.lc0106;
 import java.util.HashMap;
 import java.util.Map;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 public class SolutionApproachDFS {
     private int postIdx;

@@ -11,7 +11,7 @@ package main.java.lcidiot.lc0173;
 
 import java.util.Stack;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 class SolutionApproachControlledRecursion {
     

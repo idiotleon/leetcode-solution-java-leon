@@ -3,7 +3,7 @@
  */
 package main.java.lcidiot.lc0099;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 public class SolutionApproachInorderTraversal {
     private TreeNode firstElement = null, secondElement = null;

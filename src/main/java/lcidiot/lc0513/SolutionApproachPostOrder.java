@@ -3,7 +3,7 @@
  */
 package main.java.lcidiot.lc0513;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 public class SolutionApproachPostOrder {
     private int deepest;

@@ -3,7 +3,7 @@
  */
 package main.java.lcidiot.lc0160;
 
-import main.java.lcidiot.utils.ListNode;
+import main.java.lcidiot.data_structure.linkedlist.ListNode;
 
 public class SolutionApproachTwoPointers {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

@@ -3,16 +3,16 @@
  */
 package main.java.lcidiot.lc0117;
 
-import main.java.lcidiot.utils.Node;
+import main.java.lcidiot.data_structure.tree.TreeNodeWithNextPtr;
 
 public class SolutionApproachBFSWithoutQueue {
-    public Node connect(Node root) {
-        Node head = root;
+    public TreeNodeWithNextPtr connect(TreeNodeWithNextPtr root) {
+        TreeNodeWithNextPtr head = root;
         
         while(head != null){
-            Node nextHead = new Node(-1), nextTail = nextHead;
+            TreeNodeWithNextPtr nextHead = new TreeNodeWithNextPtr(-1), nextTail = nextHead;
             
-            Node cur = head;
+            TreeNodeWithNextPtr cur = head;
             while(cur != null){
                 if(cur.left != null){
                     nextTail.next = cur.left;

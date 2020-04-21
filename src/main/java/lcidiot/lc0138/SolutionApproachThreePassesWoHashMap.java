@@ -3,17 +3,17 @@
  */
 package main.java.lcidiot.lc0138;
 
-import main.java.lcidiot.utils.NodeWithRandomPtr;
+import main.java.lcidiot.data_structure.linkedlist.ListNodeWithRandomPtr;
 
 class SolutionApproachThreePassesWoHashMap {
-    public NodeWithRandomPtr copyRandomList(NodeWithRandomPtr head) {
+    public ListNodeWithRandomPtr copyRandomList(ListNodeWithRandomPtr head) {
         if(head == null) return null;
         
         // the first pass
-        NodeWithRandomPtr cur = head;
+        ListNodeWithRandomPtr cur = head;
         while(cur != null){
-            NodeWithRandomPtr next = cur.next;
-            cur.next = new NodeWithRandomPtr(cur.val);
+            ListNodeWithRandomPtr next = cur.next;
+            cur.next = new ListNodeWithRandomPtr(cur.val);
             cur.next.next = next;
             cur = next;
         }
@@ -28,10 +28,10 @@ class SolutionApproachThreePassesWoHashMap {
         
         // the third pass
         cur = head;
-        NodeWithRandomPtr copyHead = head.next;
+        ListNodeWithRandomPtr copyHead = head.next;
         while(cur != null){
-            NodeWithRandomPtr next = cur.next.next;
-            NodeWithRandomPtr copy = cur.next;
+            ListNodeWithRandomPtr next = cur.next.next;
+            ListNodeWithRandomPtr copy = cur.next;
             cur.next = next;
             if(next != null)
                 copy.next = next.next;

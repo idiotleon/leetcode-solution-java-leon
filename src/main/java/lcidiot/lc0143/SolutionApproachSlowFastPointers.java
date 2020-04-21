@@ -3,7 +3,7 @@
  */
 package main.java.lcidiot.lc0143;
 
-import main.java.lcidiot.utils.ListNode;
+import main.java.lcidiot.data_structure.linkedlist.ListNode;
 
 class SolutionApproachSlowFastPointers {
     public void reorderList(ListNode head) {

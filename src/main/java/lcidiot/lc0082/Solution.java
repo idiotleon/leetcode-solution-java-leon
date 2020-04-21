@@ -3,7 +3,7 @@
  */
 package main.java.lcidiot.lc0082;
 
-import main.java.lcidiot.utils.ListNode;
+import main.java.lcidiot.data_structure.linkedlist.ListNode;
 
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {

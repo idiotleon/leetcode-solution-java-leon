@@ -3,10 +3,10 @@
  */
 package main.java.lcidiot.lc0116;
 
-import main.java.lcidiot.utils.Node;
+import main.java.lcidiot.data_structure.tree.TreeNodeWithNextPtr;
 
 public class SolutionApproachDFS2 {
-    public Node connect(Node root) {
+    public TreeNodeWithNextPtr connect(TreeNodeWithNextPtr root) {
         if(root == null) return root;
             
         if(root.left != null){

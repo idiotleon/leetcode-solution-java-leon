@@ -1,11 +1,11 @@
 /**
- * 
+ * https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
  */
 package main.java.lcidiot.lc0105;
 
 import java.util.HashMap;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 class Solution {
     private int preIdx = 0;

@@ -6,7 +6,7 @@
  */
 package main.java.lcidiot.lc0023;
 
-import main.java.lcidiot.utils.ListNode;
+import main.java.lcidiot.data_structure.linkedlist.ListNode;
 
 class SolutionApproachDivideAndConquer{
     public ListNode mergeKLists(ListNode[] lists) {

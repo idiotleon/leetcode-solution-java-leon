@@ -3,7 +3,7 @@
  */
 package main.java.lcidiot.lc0572;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 public class SolutionApproachDFS {
     public boolean isSubtree(TreeNode s, TreeNode t) {

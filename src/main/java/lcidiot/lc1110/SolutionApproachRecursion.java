@@ -4,7 +4,7 @@
 
 package main.java.lcidiot.lc1110;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.HashSet;

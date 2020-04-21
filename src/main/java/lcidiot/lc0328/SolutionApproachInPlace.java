@@ -3,7 +3,7 @@
  */
 package main.java.lcidiot.lc0328;
 
-import main.java.lcidiot.utils.ListNode;
+import main.java.lcidiot.data_structure.linkedlist.ListNode;
 
 public class SolutionApproachInPlace {
     public ListNode oddEvenList(ListNode head) {

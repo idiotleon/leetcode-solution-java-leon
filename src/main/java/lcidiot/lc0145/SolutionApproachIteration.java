@@ -6,7 +6,7 @@ package main.java.lcidiot.lc0145;
 import java.util.LinkedList;
 import java.util.List;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {

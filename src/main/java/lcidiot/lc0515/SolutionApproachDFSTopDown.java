@@ -6,7 +6,7 @@ package main.java.lcidiot.lc0515;
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 public class SolutionApproachDFSTopDown{
     public List<Integer> largestValues(TreeNode root) {

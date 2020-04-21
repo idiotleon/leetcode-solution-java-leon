@@ -5,7 +5,7 @@ package main.java.lcidiot.lc0112;
 
 import java.util.LinkedList;
 
-import main.java.lcidiot.utils.TreeNode;
+import main.java.lcidiot.data_structure.tree.TreeNode;
 
 public class SolutionApproachBFS {
     public boolean hasPathSumIteration(TreeNode root, int sum) {

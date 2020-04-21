@@ -1,10 +1,13 @@
 package main.java.lcidiot.data_structure.linkedlist;
 
-public class ListNodeWithRandomPtr extends ListNode{
+public class ListNodeWithRandomPtr{
+    public int val;
     public ListNodeWithRandomPtr random;
+    public ListNodeWithRandomPtr next;
 
     public ListNodeWithRandomPtr(int val){
-        super(val);
+        this.val = val;
         this.random = null;
+        this.next = null;
     }
 }
