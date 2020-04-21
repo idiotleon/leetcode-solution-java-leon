@@ -3,8 +3,8 @@
  */
 package main.java.lcidiot.lc0200;
 
-class Solution {
-    private final int[][] DIRS = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+public class SolutionApproachUnionFind {
+    private final static int[][] DIRS = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
     
     public int numIslands(char[][] grid) {
         if(grid == null || grid.length == 0) return 0;
