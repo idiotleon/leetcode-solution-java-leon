@@ -2,6 +2,8 @@
  * https://leetcode.com/problems/can-i-win/
  * 
  * Top Down DFS
+ * 
+ * #BitMap
  */
 package main.java.lcidiot.lc0464;
 
@@ -26,8 +28,8 @@ public class SolutionApproachDFSWithMemorization {
         if(game.containsKey(signature)) return game.get(signature);
         
         for(int i = maxChoosableInteger; i > 0; i--){
-            int bit = (1 << (i - 1));
-            if((signature & bit) == 0){
+            int bit = (1 << (i - 1));  
+            if((signature & bit) == 0){ 
                 desiredTotal = desiredTotal - i;
                 if((desiredTotal <= 0) 
                    || !canIWin(maxChoosableInteger, desiredTotal, signature | bit, game)){
