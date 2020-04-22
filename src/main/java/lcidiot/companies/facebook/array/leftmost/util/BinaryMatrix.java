@@ -1,4 +1,4 @@
-package main.java.lcidiot.facebook.leftmost.util;
+package main.java.lcidiot.companies.facebook.array.leftmost.util;
 
 import java.util.Arrays;
 import java.util.List;

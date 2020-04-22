@@ -28,9 +28,9 @@
  * Input: mat = [[0,0,0,1],[0,0,1,1],[0,1,1,1]]
  * Output: 1
  */
-package main.java.lcidiot.facebook.leftmost;
+package main.java.lcidiot.companies.facebook.array.leftmost;
 
-import main.java.lcidiot.facebook.leftmost.util.BinaryMatrix;
+import main.java.lcidiot.companies.facebook.array.leftmost.util.BinaryMatrix;
 
 /**
  * // This is the BinaryMatrix's API interface.
