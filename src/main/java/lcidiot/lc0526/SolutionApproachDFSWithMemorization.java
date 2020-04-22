@@ -10,9 +10,8 @@ import java.util.Map;
 
 public class SolutionApproachDFSWithMemorization {
     public int countArrangement(int N) {
-        int visited = 0;
         Map<Integer, Integer> cache = new HashMap<Integer, Integer>();
-        return countArrangement(N, 0, visited, cache);
+        return countArrangement(N, 0, 0, cache);
     }
     
     private int countArrangement(int N, 
