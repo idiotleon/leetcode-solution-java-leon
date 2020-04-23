@@ -2,12 +2,14 @@
  * https://leetcode.com/problems/binary-tree-maximum-path-sum/
  * 
  * https://leetcode.com/problems/binary-tree-maximum-path-sum/discuss/39775/Accepted-short-solution-in-Java
+ * 
+ * Top Down
  */
 package main.java.lcidiot.lc0124;
 
 import main.java.lcidiot.data_structure.tree.TreeNode;
 
-class SolutionApproachRecursion {
+class SolutionApproachDFSTopDown {
     private int maxValue;
     
     public int maxPathSum(TreeNode root) {
