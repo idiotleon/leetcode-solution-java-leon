@@ -14,7 +14,7 @@ import java.util.Stack;
 import main.java.lcidiot.data_structure.tree.TreeNode;
 
 public class SolutionApproachControlledRecursion {
-    private Stack<TreeNode> stack;
+    private final Stack<TreeNode> stack;
 
     public SolutionApproachControlledRecursion(TreeNode root) {
         this.stack = new Stack<TreeNode>();
@@ -40,6 +40,6 @@ public class SolutionApproachControlledRecursion {
     
     /** @return whether we have a next smallest number */
     public boolean hasNext() {
-        return this.stack.size() > 0;
+        return !this.stack.isEmpty();
     }
 }
