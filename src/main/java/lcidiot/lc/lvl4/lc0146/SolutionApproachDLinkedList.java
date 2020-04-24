@@ -45,8 +45,8 @@ public class SolutionApproachDLinkedList {
             ++size;
             
             if(size > capacity){
-                DLinkedNode tail = popTail();
-                cache.remove(tail.key);
+                DLinkedNode last = popTail();
+                cache.remove(last.key);
                 --size;
             }
         }else{
@@ -55,7 +55,7 @@ public class SolutionApproachDLinkedList {
         }
     }
     
-    class DLinkedNode{
+    private class DLinkedNode{
         int key;
         int value;
         DLinkedNode prev;
@@ -63,9 +63,9 @@ public class SolutionApproachDLinkedList {
     }
     
     private DLinkedNode popTail(){
-        DLinkedNode res = tail.prev;
-        removeNode(res);
-        return res;
+        DLinkedNode last = tail.prev;
+        removeNode(last);
+        return last;
     }
     
     private void addNode(DLinkedNode node){
