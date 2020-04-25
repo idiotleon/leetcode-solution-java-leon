@@ -12,7 +12,7 @@ public class SolutionApproachDFS1 {
     private TreeNode result;
     
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        int count = dfs(root, p, q);
+        dfs(root, p, q);
         return result;
     }
     
