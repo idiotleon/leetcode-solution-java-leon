@@ -23,11 +23,16 @@ String - Sliding Window:
 
 
 DP - 1D
+2   0361    https://leetcode.com/problems/bomb-enemy/
 3   0562    https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/
 
 
 
 DP - 2D
+
+
+
+DP - Dimensionality Reduction
 
 
 
