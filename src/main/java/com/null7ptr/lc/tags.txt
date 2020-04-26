@@ -1,10 +1,14 @@
-DFS:
+Tree - DFS:
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 3   0687    https://leetcode.com/problems/longest-univalue-path/
 3   0543    https://leetcode.com/problems/diameter-of-binary-tree/
+3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 4   0124    https://leetcode.com/problems/binary-tree-maximum-path-sum/
 
 String - parsing:
+1   0067    https://leetcode.com/problems/add-binary/
+3   0394    https://leetcode.com/problems/decode-string/
 4   0043    https://leetcode.com/problems/multiply-strings/
+5   0273    https://leetcode.com/problems/integer-to-english-words/
 
 String - Sliding Window:
