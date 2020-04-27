@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/diameter-of-binary-tree/
  * 
  * Time Complexity: O(N)
- * Space Complexity: O(h). Recursion consumes stack space.
+ * Space Complexity: O(H). Recursion consumes stack space.
  */
 package com.null7ptr.lc.lvl3.lc0543;
 
