@@ -66,6 +66,7 @@ DP - 1D
 2   0361    https://leetcode.com/problems/bomb-enemy/
 3   0091    https://leetcode.com/problems/decode-ways/
 3   0256    https://leetcode.com/problems/paint-house/
+3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 3   0562    https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/
 
@@ -88,8 +89,11 @@ DP - 1D
 
 
 #Postorder
+2   0590     https://leetcode.com/problems/n-ary-tree-postorder-traversal/
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
-    0590     https://leetcode.com/problems/n-ary-tree-postorder-traversal/
+
+
+
 
 #2D Matrix - Diagonal/Anti-Diagonal
 What are considered as diagonals/anti-diagonals of rectangles (not squares)?
@@ -102,8 +106,9 @@ https://en.wikipedia.org/wiki/Main_diagonal
 
 
 ###UnionFind
-3   684 https://leetcode.com/problems/redundant-connection/
-3   200 https://leetcode.com/problems/number-of-islands/
+3   0200    https://leetcode.com/problems/number-of-islands/
+3   0547    https://leetcode.com/problems/friend-circles/
+3   0684    https://leetcode.com/problems/redundant-connection/
 
 
 
@@ -122,3 +127,9 @@ Topological Sort
 
 ###Geometry
 2   0463    https://leetcode.com/problems/island-perimeter/
+
+
+#Partition - Array
+3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
+3   0548    https://leetcode.com/problems/split-array-with-equal-sum/
+4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
