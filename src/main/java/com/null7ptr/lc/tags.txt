@@ -27,15 +27,23 @@ String - Sliding Window:
 
 
 
+String - Longest vs Shortest
+0516
+1062
+1092
+1143
+
 DP - 1D
 2   0361    https://leetcode.com/problems/bomb-enemy/
 3   0091    https://leetcode.com/problems/decode-ways/
 3   0256    https://leetcode.com/problems/paint-house/
+3   1143    https://leetcode.com/problems/longest-common-subsequence/
 3   0562    https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/
 
 
 
 DP - 2D
+3   1143    https://leetcode.com/problems/longest-common-subsequence/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 
 
