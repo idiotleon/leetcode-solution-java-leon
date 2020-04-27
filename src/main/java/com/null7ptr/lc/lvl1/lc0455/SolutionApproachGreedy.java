@@ -26,4 +26,25 @@ public class SolutionApproachGreedy {
         
         return greed;
     }
+
+    public int findContentChildren2(int[] g, int[] s) {
+        Arrays.sort(g);
+        Arrays.sort(s);
+        
+        int candy = 0, greed = 0;
+        
+        while(greed < g.length && candy < s.length){
+            // only greed can be satisfied, greed can move forward
+            if(s[candy] >= g[greed]){
+                greed++;
+            }
+            
+            
+            // no matter whether greed can be satisfied,
+            // candy should move forward
+            candy++;
+         }
+        
+        return greed;
+    }
 }
