@@ -1,0 +1,101 @@
+###DFS
+#DFS - Tree:
+2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
+3   0333    https://leetcode.com/problems/largest-bst-subtree/
+3   0687    https://leetcode.com/problems/longest-univalue-path/
+3   0543    https://leetcode.com/problems/diameter-of-binary-tree/
+3   0236    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
+4   0124    https://leetcode.com/problems/binary-tree-maximum-path-sum/
+
+
+
+#DFS - String:
+3   494 https://leetcode.com/problems/target-sum/
+3   269 https://leetcode.com/problems/alien-dictionary/
+
+
+
+#DFS - Array - Integer:
+5   403
+
+
+#DFS - Array - String:
+
+
+
+#DFS - Memoization
+4   0576    https://leetcode.com/problems/out-of-boundary-paths/
+
+
+
+###String
+String - parsing:
+1   0067    https://leetcode.com/problems/add-binary/
+1   0258    https://leetcode.com/problems/add-digits/
+1   0415    https://leetcode.com/problems/add-strings/
+3   0394    https://leetcode.com/problems/decode-string/
+4   0043    https://leetcode.com/problems/multiply-strings/
+5   0273    https://leetcode.com/problems/integer-to-english-words/
+
+
+
+String - Sliding Window:
+3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/description/
+
+
+
+String - Longest vs Shortest
+0516
+1062
+1092
+1143
+
+
+
+### DP
+DP - 1D
+2   0361    https://leetcode.com/problems/bomb-enemy/
+3   0091    https://leetcode.com/problems/decode-ways/
+3   0256    https://leetcode.com/problems/paint-house/
+3   1143    https://leetcode.com/problems/longest-common-subsequence/
+3   0562    https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/
+
+
+
+#DP - 2D
+3   1143    https://leetcode.com/problems/longest-common-subsequence/
+4   0576    https://leetcode.com/problems/out-of-boundary-paths/
+
+
+
+#DP - 3D
+4   0576    https://leetcode.com/problems/out-of-boundary-paths/
+
+
+
+#DP - Space Compression
+4   0576    https://leetcode.com/problems/out-of-boundary-paths/
+
+
+
+2D Matrix - Diagonal/Anti-Diagonal
+What are considered as diagonals/anti-diagonals of rectangles (not squares)?
+https://en.wikipedia.org/wiki/Main_diagonal
+0051
+3   0498    https://leetcode.com/problems/diagonal-traverse/ 
+3   0562    https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/
+3   1424    https://leetcode.com/problems/diagonal-traverse-ii/
+
+
+
+###UnionFind
+3   684 https://leetcode.com/problems/redundant-connection/
+200
+
+
+###Sorting:
+Topological Sort
+2   207 https://leetcode.com/problems/course-schedule/
+3   210 https://leetcode.com/problems/course-schedule-ii/
+4   269 https://leetcode.com/problems/alien-dictionary/
