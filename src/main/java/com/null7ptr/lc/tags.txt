@@ -59,3 +59,6 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   1424    https://leetcode.com/problems/diagonal-traverse-ii/
 
 
+UnionFind
+3   684 https://leetcode.com/problems/redundant-connection/
+200
