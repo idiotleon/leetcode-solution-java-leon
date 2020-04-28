@@ -12,7 +12,7 @@ public class SolutionApproachDLinkedList {
         cur = dummyHead;
         
         for(int num : nums){
-            addNode(num);
+            add(num);
         }
     }
     
@@ -43,6 +43,7 @@ public class SolutionApproachDLinkedList {
     
     private void removeNode(DLinkedNode node){
         if(node.next == null){
+            cur = node.prev;
             node.prev.next = null;
         }else{
             node.prev.next = node.next;
