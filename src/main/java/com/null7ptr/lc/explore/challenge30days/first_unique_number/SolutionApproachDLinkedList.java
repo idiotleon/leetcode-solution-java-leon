@@ -12,7 +12,7 @@ public class SolutionApproachDLinkedList {
         cur = dummyHead;
         
         for(int num : nums){
-            addNode(num);
+            add(num);
         }
     }
     
@@ -42,9 +42,12 @@ public class SolutionApproachDLinkedList {
     }
     
     private void removeNode(DLinkedNode node){
-        if(node.next == null){
+        if(node.next == null){  // were node the tail/last node
+            // to reset cur node to its previous state
+            cur = node.prev;
+            // to remove the tail/last node
             node.prev.next = null;
-        }else{
+        }else{  // were node NOT the tail/last node
             node.prev.next = node.next;
             node.next.prev = node.prev;
         }
