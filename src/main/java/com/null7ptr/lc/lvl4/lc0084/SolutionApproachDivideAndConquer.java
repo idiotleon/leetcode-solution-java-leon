@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/largest-rectangle-in-histogram/
  * 
  * Time complexity :
- * Average Case: O\big(n \log n\big)O(nlogn).
+ * Average Case: O(nlogn).
  * Worst Case: O(n^2)O(n). If the numbers in the array are sorted, we don't gain the advantage of divide and conquer.
  * Space complexity : O(n)O(n). Recursion with worst case depth nn.
  */
