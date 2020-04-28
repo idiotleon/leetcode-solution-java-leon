@@ -1,3 +1,9 @@
+/**
+ * https://leetcode.com/problems/squares-of-a-sorted-array/
+ * 
+ * Time Complexity: O(N)
+ * Space Complexity: O(N)
+ */
 package com.null7ptr.lc.lvl1.lc0977;
 
 public class SolutionApproachTwoPtrs {
