@@ -37,11 +37,13 @@
 
 
 #DFS - Graph
+3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
 
 
 
 # BFS - Graph
+3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
 
 
@@ -117,9 +119,10 @@ https://en.wikipedia.org/wiki/Main_diagonal
 
 ###UnionFind
 3   0200    https://leetcode.com/problems/number-of-islands/
+3   0261    https://leetcode.com/problems/graph-valid-tree/
+3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 3   0547    https://leetcode.com/problems/friend-circles/
 3   0684    https://leetcode.com/problems/redundant-connection/
-
 
 
 ###Sorting:
