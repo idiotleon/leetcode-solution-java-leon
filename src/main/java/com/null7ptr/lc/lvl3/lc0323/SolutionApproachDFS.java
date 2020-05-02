@@ -1,5 +1,8 @@
 /**
  * https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+ * 
+ * Time Complexity: O(V + E) ~ O(N + M)
+ * Space Complexity: O(N)
  */
 package com.null7ptr.lc.lvl3.lc0323;
 

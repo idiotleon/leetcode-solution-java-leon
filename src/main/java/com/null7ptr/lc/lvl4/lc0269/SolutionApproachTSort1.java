@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Set;
 
-public class SolutionApproachTopologicalSort {
+public class SolutionApproachTSort1 {
     public String alienOrder(String[] words) {
         List<Point> pairs = new ArrayList<Point>();
         Set<Character> chs = new HashSet<Character>();

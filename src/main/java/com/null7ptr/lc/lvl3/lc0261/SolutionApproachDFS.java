@@ -1,5 +1,8 @@
 /**
  * https://leetcode.com/problems/graph-valid-tree/
+ * 
+ * Time Complexity: O(V + E)
+ * Space Complexity: O(V + E)
  */
 package com.null7ptr.lc.lvl3.lc0261;
 
