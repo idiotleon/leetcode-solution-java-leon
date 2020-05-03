@@ -38,6 +38,8 @@
 
 #DFS - Graph
 3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+3   0582    https://leetcode.com/problems/kill-process/
+3   0802    https://leetcode.com/problems/find-eventual-safe-states/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
 
 
@@ -129,6 +131,8 @@ https://en.wikipedia.org/wiki/Main_diagonal
 Topological Sort
 2   207 https://leetcode.com/problems/course-schedule/
 3   210 https://leetcode.com/problems/course-schedule-ii/
+3   582 https://leetcode.com/problems/kill-process/
+3   802 https://leetcode.com/problems/find-eventual-safe-states/
 4   269 https://leetcode.com/problems/alien-dictionary/
 
 
