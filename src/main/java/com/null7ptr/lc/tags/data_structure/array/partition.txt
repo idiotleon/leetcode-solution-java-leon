@@ -1,0 +1,4 @@
+#Partition - Array
+3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
+3   0548    https://leetcode.com/problems/split-array-with-equal-sum/
+4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/

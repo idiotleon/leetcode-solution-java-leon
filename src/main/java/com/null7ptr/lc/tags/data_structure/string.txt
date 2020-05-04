@@ -1,0 +1,22 @@
+###String
+String - parsing:
+1   0067    https://leetcode.com/problems/add-binary/
+1   0258    https://leetcode.com/problems/add-digits/
+1   0415    https://leetcode.com/problems/add-strings/
+3   0071    https://leetcode.com/problems/simplify-path/
+3   0394    https://leetcode.com/problems/decode-string/
+4   0043    https://leetcode.com/problems/multiply-strings/
+5   0273    https://leetcode.com/problems/integer-to-english-words/
+
+
+
+String - Sliding Window:
+3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/description/
+
+
+
+String - Longest vs Shortest
+0516
+1062
+1092
+1143

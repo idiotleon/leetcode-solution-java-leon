@@ -1,0 +1,7 @@
+#2D Matrix - Diagonal/Anti-Diagonal
+What are considered as diagonals/anti-diagonals of rectangles (not squares)?
+https://en.wikipedia.org/wiki/Main_diagonal
+0051
+3   0498    https://leetcode.com/problems/diagonal-traverse/ 
+3   0562    https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/
+3   1424    https://leetcode.com/problems/diagonal-traverse-ii/
