@@ -1,6 +1,7 @@
 ###Stack
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/
 4   0316    https://leetcode.com/problems/remove-duplicate-letters/
+4   0735    https://leetcode.com/problems/asteroid-collision/
 
 #Array
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/
