@@ -1,0 +1,6 @@
+###Stack
+3   0339    https://leetcode.com/problems/nested-list-weight-sum/
+4   0316    https://leetcode.com/problems/remove-duplicate-letters/
+
+#Array
+3   0339    https://leetcode.com/problems/nested-list-weight-sum/
