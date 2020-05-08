@@ -35,12 +35,12 @@ public class SolutionApproachStack {
                 // to push it to the stack as candidates as left tallers columns
                 stack.push(idx++);
             }else{  // once a concave has been found (meaning height starts to increase)
-                int concave = stack.pop();  // the bottom (of the concave)
+                int idxConcave = stack.pop();  // the bottom (of the concave)
                 if(!stack.isEmpty()){
                     // to find the smaller height of the left and right sides
                     int minHeight = Math.min(height[stack.peek()], height[idx]);
                     // to calculate the area
-                    water += (minHeight - height[concave]) * (idx - stack.peek() - 1);
+                    water += (minHeight - height[idxConcave]) * (idx - stack.peek() - 1);
                 }
             }
         }
