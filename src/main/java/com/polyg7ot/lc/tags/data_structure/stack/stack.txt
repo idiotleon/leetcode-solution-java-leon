@@ -2,6 +2,7 @@
 2   0496    https://leetcode.com/problems/next-greater-element-i/
 
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/
+3   0503    https://leetcode.com/problems/next-greater-element-ii/
 3   0901    https://leetcode.com/problems/online-stock-span/
 
 4   0042    https://leetcode.com/problems/trapping-rain-water/
