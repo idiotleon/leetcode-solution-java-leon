@@ -1,2 +1,3 @@
 #BinarySearch
 2   0658    https://leetcode.com/problems/find-k-closest-elements/
+4   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
