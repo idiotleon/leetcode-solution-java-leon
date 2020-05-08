@@ -1,8 +1,12 @@
 /**
  * https://leetcode.com/problems/largest-rectangle-in-histogram/
  * 
- * Time complexity : O(n)O(n). nn numbers are pushed and popped.
- * Space complexity : O(n)O(n). Stack is used.
+ * Time Complexity: O(N)
+ * Space Complexity: O(N)
+ * 
+ * to maintain a "non-descreasing" stack
+ * 1. the content of the stack is index(es)
+ * 2. the elements/heights, accessed by indexes, are non-descreasing
  */
 package com.polyg7ot.lc.lvl4.lc0084;
 
@@ -10,21 +14,30 @@ import java.util.Stack;
 
 public class SolutionApproachStack {
     public int largestRectangleArea(int[] heights) {
-        Stack<Integer> stack = new Stack<Integer>();
-        stack.push(-1);
-        int maxArea = 0;
-        for(int i = 0; i < heights.length; ++i){
-            while(stack.peek() != -1 && heights[stack.peek()] >= heights[i]){
-                maxArea = Math.max(maxArea, heights[stack.pop()] * (i - stack.peek() - 1));
+        // sanity check
+        if(heights == null || heights.length == 0) return 0;
+        
+        Stack<Integer> idxStack = new Stack<Integer>();
+        int max = 0, idx = 0;
+        final int L = heights.length;
+        
+        while(idx < L){
+            // once a lower height has been found, to "check out" to the leftmost taller height
+            // 1. to calculate the area for each left taller height
+            // 2. to get the max area/value among all along the way
+            while(!idxStack.isEmpty() && heights[idx] < heights[idxStack.peek()]){
+                max = Math.max(max, heights[idxStack.pop()] * (idx - (idxStack.isEmpty() ? 0 : idxStack.peek() + 1)));
             }
             
-            stack.push(i);
+            idxStack.push(idx++);
         }
         
-        while(stack.peek() != -1){
-            maxArea = Math.max(maxArea, heights[stack.pop()] * (heights.length - stack.peek() - 1));
+        // if there is any element/height left,
+        // their heights all are "non-decreasing"
+        while(!idxStack.isEmpty()){
+            max = Math.max(max, heights[idxStack.pop()] * (L - (idxStack.isEmpty() ? 0 : idxStack.peek() + 1)));
         }
         
-        return maxArea;
+        return max;
     }
 }
