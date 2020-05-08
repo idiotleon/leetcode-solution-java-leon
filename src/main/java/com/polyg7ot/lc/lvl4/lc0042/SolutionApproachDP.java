@@ -12,14 +12,17 @@ public class SolutionApproachDP{
         int[] l = new int[N], r = new int[N];
         int ans = 0;
         
-        for(int i = 0; i < N; ++i)
+        for(int i = 0; i < N; ++i){
             l[i] = i == 0 ? height[i] : Math.max(l[i - 1], height[i]);
+        }
         
-        for(int i = N - 1; i >= 0; --i)
+        for(int i = N - 1; i >= 0; --i){
             r[i] = i == N - 1 ? height[i] : Math.max(r[i + 1], height[i]);
+        }
         
-        for(int i = 0; i < N; ++i)
+        for(int i = 0; i < N; ++i){
             ans += Math.min(l[i], r[i]) - height[i];
+        }
             
         return ans;
     }
