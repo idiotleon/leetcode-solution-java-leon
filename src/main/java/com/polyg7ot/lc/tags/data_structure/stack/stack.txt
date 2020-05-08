@@ -3,6 +3,7 @@
 
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/
 3   0503    https://leetcode.com/problems/next-greater-element-ii/
+3   0739    https://leetcode.com/problems/daily-temperatures/
 3   0901    https://leetcode.com/problems/online-stock-span/
 
 4   0042    https://leetcode.com/problems/trapping-rain-water/
@@ -10,6 +11,8 @@
 4   0316    https://leetcode.com/problems/remove-duplicate-letters/
 4   0735    https://leetcode.com/problems/asteroid-collision/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
+
+
 
 #Array
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/
