@@ -5,7 +5,9 @@
 3   0687    https://leetcode.com/problems/longest-univalue-path/
 3   0543    https://leetcode.com/problems/diameter-of-binary-tree/
 3   0236    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+3   0865    https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
+
 4   0124    https://leetcode.com/problems/binary-tree-maximum-path-sum/
 4   0337    https://leetcode.com/problems/house-robber-iii/
 

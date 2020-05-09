@@ -4,18 +4,19 @@
 package com.polyg7ot.lc.lvl3.lc0865;
 
 import java.util.HashMap;
+import java.util.Map;
 
 import com.polyg7ot.data_structure.tree.TreeNode;
 
 public class SolutionApproachMemorizedDFS {
     public TreeNode subtreeWithAllDeepest(TreeNode root) {
         if(root == null) return null;
-        HashMap<TreeNode, Integer> map = new HashMap<TreeNode, Integer>();
+        Map<TreeNode, Integer> map = new HashMap<TreeNode, Integer>();
         depth(root, map);
         return dfs(root, map);
     }
     
-    private TreeNode dfs(TreeNode root, HashMap<TreeNode, Integer> map){
+    private TreeNode dfs(TreeNode root, Map<TreeNode, Integer> map){
         int left = depth(root.left, map);
         int right = depth(root.right, map);
         if(left == right) return root;
@@ -23,7 +24,7 @@ public class SolutionApproachMemorizedDFS {
         return dfs(root.right, map);
     }
     
-    private int depth(TreeNode root, HashMap<TreeNode, Integer> map){
+    private int depth(TreeNode root, Map<TreeNode, Integer> map){
         if(root == null) return 0;
         if(map.containsKey(root)) return map.get(root);
         int max = Math.max(depth(root.left, map), depth(root.right, map)) + 1;

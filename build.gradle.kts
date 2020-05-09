@@ -12,12 +12,19 @@ plugins {
 
     // Apply the application plugin to add support for building a CLI application.
     application
+
+    id("org.openjfx.javafxplugin") version "0.0.8"
 }
 
 repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
+}
+
+javafx{
+    version = "14"
+    modules("javafx.controls", "javafx.fxml")
 }
 
 dependencies {
@@ -33,7 +40,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = "com.null7ptr.App"
+    mainClassName = "com.polyg7ot.App"
 }
 
 val test by tasks.getting(Test::class) {

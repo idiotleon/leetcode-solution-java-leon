@@ -2,6 +2,7 @@ package com.polyg7ot.lc.lvl3.lc0901;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 public class TestSolutionApproachStack1 {
@@ -12,6 +13,7 @@ public class TestSolutionApproachStack1 {
      * [[],[100],[80],[60],[70],[60],[75],[85]]
      */
     @Test
+    @Disabled
     void test(){
         assertEquals(1, solution.next(100));
         assertEquals(1, solution.next(80));
