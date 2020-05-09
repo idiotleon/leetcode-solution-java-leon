@@ -2,55 +2,46 @@
  * https://leetcode.com/problems/remove-k-digits/
  * 
  * Time Complexity: O(N)
+ *  to remove the last char is considered constant time, 
+ *  because of no shifting elements involved
  * Space Complexity: O(N)
+ * 
+ * to maintain a "non-decreasing" stack, in the format of StringBuilder
+ * 1. the contents of the stack are actual characters
+ * 2. the characters are maintained in non-increasing order
+ *  since it is to find the smallest possible number, 
+ *  non-increasing order is prefered
  */
 package com.polyg7ot.lc.lvl3.lc0402;
 
-import java.util.LinkedList;
-
 public class SolutionApproachStack1 {
     public String removeKdigits(String num, int k) {
-        if(num == null || num.isEmpty() || k < 0) return "";
-        if(k == 0) return num;
-        if(k >= num.length()) return "0";
-        
-        LinkedList<Character> stack = new LinkedList<Character>();
+        StringBuilder builder = new StringBuilder();
         final int L = num.length();
-        
-        int idx = 0;
-        while(idx < L){
-            char cur = num.charAt(idx);
-            
-            while(!stack.isEmpty() && k > 0 && stack.peekLast() > cur){
-                stack.removeLast();
+        for(int i = 0; i < L; i++){
+            while(builder.length() > 0 
+                  // once a "smaller" char has ever been found
+                  && builder.charAt(builder.length() - 1) > num.charAt(i)
+                  && k > 0){
+                // to pop out the top from the stack
+                builder.deleteCharAt(builder.length() - 1);
                 k--;
             }
             
-            stack.add(cur);
-            
-            if(k == 0) break;
-            
-            idx++;
+            // either that the StringBuilder contains any character,
+            // or that the StringBuilder does NOT start with '0'
+            if(builder.length() > 0 || num.charAt(i) != '0'){
+                builder.append(num.charAt(i));
+            }
         }
         
-        while(!stack.isEmpty() && k > 0){
-            stack.removeLast();
+        // to pop up the extra digits from end
+        while(builder.length() > 0 && k > 0){
+            builder.deleteCharAt(builder.length() - 1);
             k--;
         }
         
-        while(!stack.isEmpty() && stack.peekFirst() == '0'){
-            stack.removeFirst();
-        }
-        if(stack.isEmpty() && idx == L - 1) return "0";
-        
-        StringBuilder builder = new StringBuilder();
-        while(!stack.isEmpty()){
-            builder.insert(0, stack.removeLast());
-        }
-        if(idx < L - 1){
-            builder.append(num.substring(idx + 1));
-        }
-        
+        if(builder.length() == 0) return "0";
         return builder.toString();
     }
 }

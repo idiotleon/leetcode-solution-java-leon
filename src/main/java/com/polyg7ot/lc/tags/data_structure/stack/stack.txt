@@ -2,6 +2,7 @@
 2   0496    https://leetcode.com/problems/next-greater-element-i/
 
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/
+3   0402    https://leetcode.com/problems/remove-k-digits/
 3   0503    https://leetcode.com/problems/next-greater-element-ii/
 3   0739    https://leetcode.com/problems/daily-temperatures/
 3   0856    https://leetcode.com/problems/score-of-parentheses/
@@ -15,6 +16,11 @@
 
 
 
-#Array
+#Array (as a stack)
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/
 3   0856    https://leetcode.com/problems/score-of-parentheses/
+
+
+
+#StringBuilder (as a stack)
+3   0402    https://leetcode.com/problems/remove-k-digits/
