@@ -17,6 +17,8 @@
 # Strickly increasing
 2   0496    https://leetcode.com/problems/next-greater-element-i/
 
+4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
+
 
 
 # Non-decreasing
@@ -34,3 +36,8 @@
 # Non-increasing
 3   0503    https://leetcode.com/problems/next-greater-element-ii/
 3   0739    https://leetcode.com/problems/daily-temperatures/
+
+
+Good resources:
+https://leetcode.com/problems/sum-of-subarray-minimums/discuss/178876/stack-solution-with-very-detailed-explanation-step-by-step
+https://leetcode.com/problems/sum-of-subarray-minimums/discuss/170750/C++JavaPython-Stack-Solution/337512
