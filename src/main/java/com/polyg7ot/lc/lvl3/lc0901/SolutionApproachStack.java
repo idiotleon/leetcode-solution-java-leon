@@ -3,6 +3,10 @@
  * 
  * Time Complexity: O(N) ~ O(N ^ 2)
  * Space Complexity: O(1) ~ O(N)
+ * 
+ * to maintain a strictly "decreasing" order:
+ * 1. the contents are an 2-element array of price and count
+ * 2. the prices are strictly decreasing
  */
 package com.polyg7ot.lc.lvl3.lc0901;
 
@@ -16,13 +20,13 @@ public class SolutionApproachStack {
     }
     
     public int next(int price) {
-        int ans = 1;
+        int span = 1;
         while(!stack.isEmpty() && stack.peekLast()[0] <= price){
-            ans += stack.removeLast()[1];
+            span += stack.removeLast()[1];
         }
         
-        stack.add(new int[]{price, ans});
+        stack.add(new int[]{price, span});
         
-        return ans;
+        return span;
     }
 }
