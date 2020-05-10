@@ -8,6 +8,7 @@
 3   0739    https://leetcode.com/problems/daily-temperatures/
 3   0856    https://leetcode.com/problems/score-of-parentheses/
 3   0901    https://leetcode.com/problems/online-stock-span/
+3   0946    https://leetcode.com/problems/validate-stack-sequences/
 3   1003    https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/
 3   1209    https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
 
@@ -32,4 +33,5 @@
 2   1196    https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/
 
 3   0402    https://leetcode.com/problems/remove-k-digits/
+3   0946    https://leetcode.com/problems/validate-stack-sequences/
 3   1003    https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/
