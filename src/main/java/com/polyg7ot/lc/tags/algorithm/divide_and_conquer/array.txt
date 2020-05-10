@@ -1,0 +1,3 @@
+### Divide and Conquer
+# Array
+4   0084    https://leetcode.com/problems/largest-rectangle-in-histogram/
