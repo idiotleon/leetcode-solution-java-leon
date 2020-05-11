@@ -1,4 +1,5 @@
 ### Array
 # subsequence
+2   0413    https://leetcode.com/problems/arithmetic-slices/
 
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/

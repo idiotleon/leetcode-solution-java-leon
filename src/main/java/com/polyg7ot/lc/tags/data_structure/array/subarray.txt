@@ -2,6 +2,7 @@
 # Subarray
 2   0053    https://leetcode.com/problems/maximum-subarray/
 
+3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0713    https://leetcode.com/problems/subarray-product-less-than-k/
 
 4   0321    https://leetcode.com/problems/create-maximum-number/
