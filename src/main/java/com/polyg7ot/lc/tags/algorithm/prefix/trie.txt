@@ -1,0 +1,5 @@
+### Prefix Sum
+# Trie
+4   0079    https://leetcode.com/problems/word-search/
+
+5   0212    https://leetcode.com/problems/word-search-ii/

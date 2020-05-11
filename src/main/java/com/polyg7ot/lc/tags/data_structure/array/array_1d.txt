@@ -11,6 +11,7 @@
 3   0523    https://leetcode.com/problems/continuous-subarray-sum/
 3   0525    https://leetcode.com/problems/contiguous-array/
 3   0560    https://leetcode.com/problems/subarray-sum-equals-k/
+3   0974    https://leetcode.com/problems/subarray-sums-divisible-by-k/
 
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
