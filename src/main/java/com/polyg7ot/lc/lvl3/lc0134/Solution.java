@@ -1,12 +1,17 @@
 /**
  * https://leetcode.com/problems/gas-station/
+ * 
+ * Time Complexity: O(N)
+ * Space Complexity: O(1)
  */
 package com.polyg7ot.lc.lvl3.lc0134;
 
 public class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         // sanity check
-        if(gas == null || cost == null || gas.length == 0 || cost.length == 0)
+        if(gas == null || cost == null 
+            || gas.length == 0 || cost.length == 0 
+            || gas.length != cost.length)
             return -1;
         
         int curTank = 0, startPos = 0, totalTank = 0;
