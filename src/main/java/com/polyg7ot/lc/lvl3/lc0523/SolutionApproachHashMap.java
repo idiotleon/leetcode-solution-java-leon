@@ -1,6 +1,9 @@
 /**
  * https://leetcode.com/problems/continuous-subarray-sum/
  * 
+ * Time Complexity: O(N)
+ * Space Complexity: O(N)
+ * 
  * https://leetcode.com/problems/continuous-subarray-sum/discuss/99499/Java-O(n)-time-O(k)-space
  * 
  * the remainder theorem:

@@ -8,6 +8,7 @@
 3   0134    https://leetcode.com/problems/gas-station/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
+3   0523    https://leetcode.com/problems/continuous-subarray-sum/
 3   0560    https://leetcode.com/problems/subarray-sum-equals-k/
 
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
