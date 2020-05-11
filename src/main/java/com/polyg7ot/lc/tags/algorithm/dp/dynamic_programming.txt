@@ -1,4 +1,2 @@
-### Array
-# subsequence
-
+### Dynamic Programming
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
