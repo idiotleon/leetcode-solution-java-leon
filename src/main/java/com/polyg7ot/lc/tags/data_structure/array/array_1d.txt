@@ -2,4 +2,5 @@
 # 1D Array
 1   0997    https://leetcode.com/problems/find-the-town-judge/
 
+2   0053    https://leetcode.com/problems/maximum-subarray/
 2   0973    https://leetcode.com/problems/k-closest-points-to-origin/
