@@ -3,6 +3,11 @@
  * 
  * Time Complexity: O(N)
  * Space Complexity: O(H)
+ * 
+ * The follow-up question makes this problem a 4-star.
+ *  What if the BST is modified (insert/delete operations) 
+ *  often and you need to find the kth smallest frequently? 
+ *  How would you optimize the kthSmallest routine
  */
 package com.polyg7ot.lc.lvl4.lc0230;
 
@@ -22,9 +27,8 @@ public class SolutionApproachInorderTraversal {
     }
     
     private void inorder(TreeNode node){
-        if(node.left != null){
-            inorder(node.left);
-        }
+        if(node == null) return;
+        inorder(node.left);
         
         count--;
         if(count == 0){
@@ -32,8 +36,6 @@ public class SolutionApproachInorderTraversal {
             return;
         }
         
-        if(node.right != null){
-            inorder(node.right);
-        }
+        inorder(node.right);
     }
 }
