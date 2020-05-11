@@ -1,7 +1,5 @@
-###String
-
-
-String - Sliding Window:
+### String
+# Sliding Window:
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/description/
 
 

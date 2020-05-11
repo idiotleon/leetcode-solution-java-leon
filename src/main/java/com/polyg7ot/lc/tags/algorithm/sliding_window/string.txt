@@ -1,0 +1,7 @@
+### Sliding Window
+# string
+3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/description/
+
+
+Resources:
+https://leetcode.com/problems/subarray-sum-equals-k/discuss/301242/General-summary-of-what-kind-of-problem-can-cannot-solved-by-Two-Pointers
