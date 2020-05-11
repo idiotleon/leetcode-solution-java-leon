@@ -1,3 +1,0 @@
-###Sort
-#QuickSelect
-2   0215    https://leetcode.com/problems/kth-largest-element-in-an-array/

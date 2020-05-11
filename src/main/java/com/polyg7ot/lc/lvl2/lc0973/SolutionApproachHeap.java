@@ -1,5 +1,8 @@
 /**
  * https://leetcode.com/problems/k-closest-points-to-origin/
+ * 
+ * Time Complexity: O(N)
+ * Space Complexity: O(K)
  */
 package com.polyg7ot.lc.lvl2.lc0973;
 
