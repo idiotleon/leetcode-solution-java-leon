@@ -4,3 +4,4 @@
 3   0875    https://leetcode.com/problems/koko-eating-bananas/
 
 4   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
+4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/

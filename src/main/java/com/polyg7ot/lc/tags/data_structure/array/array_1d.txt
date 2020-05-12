@@ -14,7 +14,9 @@
 3   0974    https://leetcode.com/problems/subarray-sums-divisible-by-k/
 
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
+4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
+4   1124    https://leetcode.com/problems/longest-well-performing-interval/
 
 
 
