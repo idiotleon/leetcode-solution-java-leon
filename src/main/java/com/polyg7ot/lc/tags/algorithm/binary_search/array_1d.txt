@@ -1,3 +1,7 @@
+Author: polyg7ot
+References:
+    https://github.com/huanminwu/LeetCode
+
 ### Binary Search
 # Array - 1D
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/

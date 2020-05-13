@@ -1,3 +1,7 @@
+Author: polyg7ot
+References:
+    https://github.com/huanminwu/LeetCode
+
 ### Tree
 # BST
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/

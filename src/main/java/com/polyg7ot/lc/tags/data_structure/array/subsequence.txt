@@ -1,3 +1,7 @@
+Author: polyg7ot
+References:
+    https://github.com/huanminwu/LeetCode
+
 ### Array
 # subsequence
 2   0413    https://leetcode.com/problems/arithmetic-slices/

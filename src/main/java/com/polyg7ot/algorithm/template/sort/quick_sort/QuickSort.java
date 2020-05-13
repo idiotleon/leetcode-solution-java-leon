@@ -1,4 +1,4 @@
-package com.polyg7ot.algorithm.sort.quick_sort;
+package com.polyg7ot.algorithm.template.sort.quick_sort;
 
 public class QuickSort {
     public void quickSort(int[] nums, int start, int end){

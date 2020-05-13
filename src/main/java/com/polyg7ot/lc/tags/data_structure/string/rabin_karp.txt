@@ -1,0 +1,10 @@
+Author: polyg7ot
+References:
+    https://github.com/huanminwu/LeetCode
+
+### String
+# Rabin Karp
+4   0187    https://leetcode.com/problems/repeated-dna-sequences/
+4   0972    https://leetcode.com/problems/equal-rational-numbers/
+
+5   1044    https://leetcode.com/problems/longest-duplicate-substring/

@@ -1,3 +1,7 @@
+Author: polyg7ot
+References:
+    https://github.com/huanminwu/LeetCode
+
 ### Stack:
 # Monotonous Stack:
 2   0496    https://leetcode.com/problems/next-greater-element-i/

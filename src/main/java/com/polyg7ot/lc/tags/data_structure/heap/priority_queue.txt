@@ -1,3 +1,9 @@
+Author: polyg7ot
+References:
+    https://github.com/huanminwu/LeetCode
+
 ### Heap
 # Priority Queue
 2   0973    https://leetcode.com/problems/k-closest-points-to-origin/
+
+3   0787    https://leetcode.com/problems/cheapest-flights-within-k-stops/

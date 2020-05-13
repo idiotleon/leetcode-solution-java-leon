@@ -1,3 +1,7 @@
+Author: polyg7ot
+References:
+    https://github.com/huanminwu/LeetCode
+
 ###Sorting:
 Topological Sort
 2   207     https://leetcode.com/problems/course-schedule/

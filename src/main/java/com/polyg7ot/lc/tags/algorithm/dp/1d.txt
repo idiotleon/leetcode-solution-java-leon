@@ -1,4 +1,9 @@
-###DP - 1D
+Author: polyg7ot
+References:
+    https://github.com/huanminwu/LeetCode
+
+### Dynamic Programming
+# 1D
 2   0053    https://leetcode.com/problems/maximum-subarray/
 2   0198    https://leetcode.com/problems/house-robber/
 2   0361    https://leetcode.com/problems/bomb-enemy/

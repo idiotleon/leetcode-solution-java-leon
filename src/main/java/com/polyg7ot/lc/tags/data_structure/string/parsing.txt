@@ -1,10 +1,17 @@
+Author: polyg7ot
+References:
+    https://github.com/huanminwu/LeetCode
+
 ###String
 String - parsing:
 1   0067    https://leetcode.com/problems/add-binary/
 1   0258    https://leetcode.com/problems/add-digits/
 1   0415    https://leetcode.com/problems/add-strings/
+
 3   0071    https://leetcode.com/problems/simplify-path/
 3   0394    https://leetcode.com/problems/decode-string/
 3   0439    https://leetcode.com/problems/ternary-expression-parser/
+
 4   0043    https://leetcode.com/problems/multiply-strings/
+
 5   0273    https://leetcode.com/problems/integer-to-english-words/

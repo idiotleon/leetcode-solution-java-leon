@@ -6,7 +6,7 @@
  * Time Complexity: O(N^2), in the worst case
  * Space Complexity: O(1)
  */
-package com.polyg7ot.algorithm.string.pattern_matching;
+package com.polyg7ot.algorithm.template.pattern_matching;
 
 public class RabinKarpSearch {
     private final int PRIME = 1001;

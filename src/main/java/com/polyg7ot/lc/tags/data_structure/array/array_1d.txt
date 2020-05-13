@@ -1,3 +1,7 @@
+Author: polyg7ot
+References:
+    https://github.com/huanminwu/LeetCode
+
 ### Array
 # 1D Array
 1   0997    https://leetcode.com/problems/find-the-town-judge/

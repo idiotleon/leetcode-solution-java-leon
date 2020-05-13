@@ -1,4 +1,9 @@
-#DP - 2D
+Author: polyg7ot
+References:
+    https://github.com/huanminwu/LeetCode
+
+### Dynamic Programming
+# 2D
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/

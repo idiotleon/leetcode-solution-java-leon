@@ -1,0 +1,15 @@
+Author: polyg7ot
+References:
+    https://github.com/huanminwu/LeetCode
+
+### String
+# KMP Algorithm
+2   0028    https://leetcode.com/problems/implement-strstr/
+2   1071    https://leetcode.com/problems/greatest-common-divisor-of-strings/
+
+3   0459    https://leetcode.com/problems/repeated-substring-pattern/
+3   0686    https://leetcode.com/problems/repeated-string-match/
+
+4   1316    https://leetcode.com/problems/distinct-echo-substrings/
+
+5   0214    https://leetcode.com/problems/shortest-palindrome/

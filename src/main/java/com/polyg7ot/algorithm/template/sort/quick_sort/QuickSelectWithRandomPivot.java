@@ -4,7 +4,7 @@
  *  Averagely:  O(N)
  *  Worst:      O(N ^ 2)
  */
-package com.polyg7ot.algorithm.sort.quick_sort;
+package com.polyg7ot.algorithm.template.sort.quick_sort;
 
 import java.util.Random;
 

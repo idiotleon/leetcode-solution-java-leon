@@ -1,3 +1,7 @@
+Author: polyg7ot
+References:
+    https://github.com/huanminwu/LeetCode
+
 ###String
 #DFS - String:
 3   0269    https://leetcode.com/problems/alien-dictionary/

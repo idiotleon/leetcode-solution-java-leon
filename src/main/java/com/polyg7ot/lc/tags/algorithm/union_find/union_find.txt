@@ -1,3 +1,7 @@
+Author: polyg7ot
+References:
+    https://github.com/huanminwu/LeetCode
+
 ### UnionFind
 3   0200    https://leetcode.com/problems/number-of-islands/
 3   0261    https://leetcode.com/problems/graph-valid-tree/

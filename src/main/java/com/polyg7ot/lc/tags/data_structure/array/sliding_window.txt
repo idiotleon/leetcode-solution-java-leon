@@ -1,3 +1,7 @@
+Author: polyg7ot
+References:
+    https://github.com/huanminwu/LeetCode
+
 ### Array
 # Sliding Window
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
