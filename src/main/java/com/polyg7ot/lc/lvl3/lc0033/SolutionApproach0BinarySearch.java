@@ -6,7 +6,7 @@
  */
 package com.polyg7ot.lc.lvl3.lc0033;
 
-public class SolutionApproachBinarySearch {
+public class SolutionApproach0BinarySearch {
     public int search(int[] nums, int target) {
         if(nums == null || nums.length == 0) return -1;
         

@@ -6,7 +6,7 @@
  */
 package com.polyg7ot.lc.lvl3.lc0033;
 
-public class SolutionApproachBinarySearch1 {
+public class SolutionApproach1BinarySearch {
     public int search2(int[] nums, int target) {
         if (nums == null || nums.length == 0)
             return -1;
@@ -16,18 +16,20 @@ public class SolutionApproachBinarySearch1 {
         while (left < right) {
             int mid = left + (right - left) / 2;
 
-            if (target == nums[mid])
+            if (target == nums[mid]){
                 return mid;
-            else if (nums[left] <= nums[mid]) {
-                if (target >= nums[left] && target <= nums[mid])
+            }else if (nums[left] <= nums[mid]) {
+                if (target >= nums[left] && target <= nums[mid]){
                     right = mid;
-                else
+                }else{
                     left = mid + 1;
+                }
             } else {
-                if (target >= nums[mid] && target <= nums[right])
+                if (target >= nums[mid] && target <= nums[right]){
                     left = mid + 1;
-                else
+                }else{
                     right = mid;
+                }
             }
         }
 

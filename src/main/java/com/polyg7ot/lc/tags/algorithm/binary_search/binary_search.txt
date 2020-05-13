@@ -2,11 +2,13 @@ Author: polyg7ot
 References:
     https://github.com/huanminwu/LeetCode
 
-This serves the total LC problems related to Binary Search, regardless of sub-categories
+This serves the list of all the LC problems related to Binary Search, regardless of sub-categories
+
 ###BinarySearch
 2   0658    https://leetcode.com/problems/find-k-closest-elements/
 
 3   0029    https://leetcode.com/problems/divide-two-integers/
+3   0033    https://leetcode.com/problems/search-in-rotated-sorted-array/
 3   0875    https://leetcode.com/problems/koko-eating-bananas/
 
 4   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/

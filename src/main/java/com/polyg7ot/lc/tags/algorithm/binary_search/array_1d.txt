@@ -4,4 +4,6 @@ References:
 
 ### Binary Search
 # Array - 1D
+3   0033    https://leetcode.com/problems/search-in-rotated-sorted-array/
+
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
