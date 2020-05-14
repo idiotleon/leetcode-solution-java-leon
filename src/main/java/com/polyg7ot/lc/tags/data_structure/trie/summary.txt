@@ -1,0 +1,6 @@
+@author: polyg7ot
+References:
+    https://www.geeksforgeeks.org/trie-insert-and-search/
+
+### Trie
+3   0208    https://leetcode.com/problems/implement-trie-prefix-tree/
