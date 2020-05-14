@@ -5,6 +5,7 @@ References:
 This serves the list of all the LC problems related to Binary Search, regardless of sub-categories
 
 ###BinarySearch
+2   0035    https://leetcode.com/problems/search-insert-position/
 2   0658    https://leetcode.com/problems/find-k-closest-elements/
 
 3   0029    https://leetcode.com/problems/divide-two-integers/

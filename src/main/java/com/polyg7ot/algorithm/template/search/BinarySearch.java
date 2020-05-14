@@ -19,11 +19,38 @@ public class BinarySearch {
             else right = mid - 1;
         }
 
-        // to return as the unsuccessful search
+        /**
+         * to return as the unsuccessful search
+         * 
+         * were the target not in the array,
+         * left(pointer) stops at the rightmost of target's immediate smaller element,
+         *  e.g. 2  0035    https://leetcode.com/problems/search-insert-position/
+         * while right(pointer) stops at one more left than the left(pointer)
+         */ 
         return -1;
+
+
     }
 
-    public int binarSearchHermann(int[] nums, int target){
+    /**
+     * function binary_search_alternative(A, n, T) is
+     *  L := 0
+     *  R := n − 1
+     *  while L != R do
+     *      m := ceil((L + R) / 2)
+     *      if A[m] > T then
+     *          R := m - 1
+     *      else:
+     *          L := m
+     *  if A[L] = T then
+     *      return L
+     *  return unsuccessful
+     * 
+     * @param nums
+     * @param target
+     * @return
+     */
+    public int binarySearchHermann(int[] nums, int target){
         int left = 0, right = nums.length - 1;
         while(left != right){
             // to ceil the mid
@@ -31,8 +58,8 @@ public class BinarySearch {
 
             // no need to check whether the middle element is equal to the target
             
-            if(target > nums[mid]) left = mid + 1;
-            else right = mid;
+            if(target < nums[mid]) right = mid - 1;
+            else left = mid;
         }
 
         // to check whether the left element is equal to the target

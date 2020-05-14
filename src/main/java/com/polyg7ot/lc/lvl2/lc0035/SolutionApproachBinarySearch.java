@@ -1,5 +1,8 @@
 /**
  * https://leetcode.com/problems/search-insert-position/
+ * 
+ * Time Complexity: O(lg(N))
+ * Space Complexity: O(1)
  */
 package com.polyg7ot.lc.lvl2.lc0035;
 
@@ -8,12 +11,12 @@ public class SolutionApproachBinarySearch{
         // sanity check
         if(nums == null || nums.length == 0) return 0;
         
-        int left = 0, right = nums.length;
+        int left = 0, right = nums.length - 1;
         
-        while(left < right){
+        while(left <= right){
             int mid = left + (right - left) / 2;
             if(nums[mid] == target) return mid;
-            else if(target < nums[mid]) right = mid;
+            if(target < nums[mid]) right = mid - 1;
             else left = mid + 1;
         }
         
