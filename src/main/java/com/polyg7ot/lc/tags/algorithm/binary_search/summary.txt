@@ -15,3 +15,20 @@ This serves the list of all the LC problems related to Binary Search, regardless
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
 
 5   0004    https://leetcode.com/problems/median-of-two-sorted-arrays/
+
+
+Resources:
+    # Termination Conditions: while(left < right) vs while(left <= right)
+    https://stackoverflow.com/a/30928332/6061609
+
+    # Search Range/Scope: right = (arr.length) vs (arr.length - 1)
+
+    # Duplicates
+
+    # From left vs from right
+
+    # Target is not in the array at all
+
+    # K closest
+
+    # Jump
