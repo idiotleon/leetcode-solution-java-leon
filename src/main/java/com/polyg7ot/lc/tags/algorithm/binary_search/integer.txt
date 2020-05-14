@@ -5,3 +5,4 @@ References:
 ### Binary Search
 # Integer
 3   0029    https://leetcode.com/problems/divide-two-integers/
+3   0050    https://leetcode.com/problems/powx-n/

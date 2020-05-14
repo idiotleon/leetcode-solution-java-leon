@@ -1,9 +1,12 @@
 /**
  * https://leetcode.com/problems/powx-n/
+ * 
+ * Time Complexity: O(lg(N))
+ * Space Complexity: O(N)
  */
 package com.polyg7ot.lc.lvl3.lc0050;
 
-public class Solution {
+public class SolutionApproach2DFS {
     public double myPow(double x, int n) {
         if(n == Integer.MIN_VALUE && x > 1) return 0;
         
