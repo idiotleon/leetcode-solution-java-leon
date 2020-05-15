@@ -18,10 +18,12 @@
 3   0439    https://leetcode.com/problems/ternary-expression-parser/
 3   0494    https://leetcode.com/problems/target-sum/
 
+5   0425    https://leetcode.com/problems/word-squares/
+
 
 
 #DFS - Array - Integer:
-5   403
+5   403     https://leetcode.com/problems/frog-jump/
 
 
 
