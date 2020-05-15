@@ -1,6 +1,11 @@
+@author: Leon
+References:
+    https://leetcode.com/tag/trie/
+
 ### Prefix Sum
 # Trie
 4   0079    https://leetcode.com/problems/word-search/
 4   0211    https://leetcode.com/problems/add-and-search-word-data-structure-design/
 
 5   0212    https://leetcode.com/problems/word-search-ii/
+5   0336    https://leetcode.com/problems/palindrome-pairs/

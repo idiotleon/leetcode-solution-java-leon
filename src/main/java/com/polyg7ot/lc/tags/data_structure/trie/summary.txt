@@ -1,5 +1,6 @@
 @author: polyg7ot
 References:
+    https://leetcode.com/tag/trie/
     https://www.geeksforgeeks.org/trie-insert-and-search/
 
 ### Trie
@@ -8,3 +9,4 @@ References:
 4   0211    https://leetcode.com/problems/add-and-search-word-data-structure-design/
 
 5   0212    https://leetcode.com/problems/word-search-ii/
+5   0336    https://leetcode.com/problems/palindrome-pairs/
