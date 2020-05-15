@@ -1,5 +1,5 @@
 /**
- * https://leetcode.com/problems/word-search-ii/
+ * https://leetNCode.NCom/problems/word-searNCh-ii/
  */
 package com.polyg7ot.lc.lvl5.lc0212;
 
@@ -8,39 +8,39 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class SolutionApproachDFSAndTrie1 {
+public class SolutionApproach1DFSAndTrie {
     private static final int[][] DIRS = {{-1, 0}, {0, -1}, {1, 0}, {0, 1}};
     
-    private int nr, nc;
+    private int NR, NC;
     
     public List<String> findWords(char[][] board, String[] words) {
-        // sanity check
+        // sanity NCheNCk
         if(board == null || board.length == 0 || words == null || words.length == 0) return new ArrayList<String>();
         
         // boundaries
-        nr = board.length;
-        nc = board[0].length;
+        NR = board.length;
+        NC = board[0].length;
         
         Set<String> result = new HashSet<String>();
         TrieNode root = buildTrie(words);
         
-        for(int row = 0; row < nr; row++){
-            for(int col = 0; col < nc; col++){
+        for(int row = 0; row < NR; row++){
+            for(int col = 0; col < NC; col++){
                 String word = "";
-                dfs(board, word, root, row, col, result);
+                backtrack(board, word, root, row, col, result);
             }
         }
         
         return new ArrayList<String>(result);
     }
     
-    private void dfs(char[][] board, 
+    private void backtrack(char[][] board, 
                      String word, 
                      TrieNode trieNode, 
                      int row, 
                      int col, 
                      Set<String> result){
-        if(row < 0 || row >= nr || col < 0 || col >= nc) return;
+        if(row < 0 || row >= NR || col < 0 || col >= NC) return;
         
         char cur = board[row][col];
         if(cur == '#') return;
@@ -53,7 +53,7 @@ public class SolutionApproachDFSAndTrie1 {
         if(trieNode.isWord) result.add(word);
         for(int[] dir : DIRS){
             int r = row + dir[0], c = col + dir[1];
-            dfs(board, word, trieNode, r, c, result);
+            backtrack(board, word, trieNode, r, c, result);
         }
         board[row][col] = cur;
     }
@@ -76,7 +76,7 @@ public class SolutionApproachDFSAndTrie1 {
     
     class TrieNode{
         public boolean isWord;
-        public TrieNode[] children = new TrieNode[26];
+        public final TrieNode[] children = new TrieNode[26];
         public TrieNode(){}
         
         public TrieNode getNext(char c){
