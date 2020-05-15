@@ -7,6 +7,7 @@ References:
 3   0208    https://leetcode.com/problems/implement-trie-prefix-tree/
 
 4   0211    https://leetcode.com/problems/add-and-search-word-data-structure-design/
+4   0421    https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
 
 5   0212    https://leetcode.com/problems/word-search-ii/
 5   0336    https://leetcode.com/problems/palindrome-pairs/

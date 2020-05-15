@@ -1,0 +1,6 @@
+@author: Leon
+References:
+    https://leetcode.com/tag/bit-manipulation/
+
+### Bit Manipulation
+4   0421    https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
