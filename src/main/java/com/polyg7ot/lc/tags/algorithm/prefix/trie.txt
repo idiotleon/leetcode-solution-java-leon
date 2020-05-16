@@ -12,3 +12,4 @@ References:
 5   0336    https://leetcode.com/problems/palindrome-pairs/
 5   0425    https://leetcode.com/problems/word-squares/
 5   0472    https://leetcode.com/problems/concatenated-words/
+5   0642    https://leetcode.com/problems/design-search-autocomplete-system/
