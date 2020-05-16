@@ -9,3 +9,4 @@ References:
 3   0494    https://leetcode.com/problems/target-sum/
 
 5   0425    https://leetcode.com/problems/word-squares/
+5   0472    https://leetcode.com/problems/concatenated-words/
