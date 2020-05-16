@@ -4,6 +4,8 @@ References:
 
 ### Prefix Sum
 # Trie
+2   0676    https://leetcode.com/problems/implement-magic-dictionary/
+
 3   0648    https://leetcode.com/problems/replace-words/
 
 4   0079    https://leetcode.com/problems/word-search/
