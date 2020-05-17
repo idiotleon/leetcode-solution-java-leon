@@ -1,5 +1,8 @@
 /**
  * https://leetcode.com/problems/top-k-frequent-words/
+ * 
+ * Time Complexity: O(N * lg(k))
+ * Space Complexity: O(k)
  */
 package com.polyg7ot.lc.lvl2.lc0692;
 
@@ -9,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
 
-public class SolutionApproachHeap {
+public class SolutionApproach0Heap {
     public List<String> topKFrequent(String[] words, int k) {
         List<String> ans = new ArrayList<String>();
         if(words == null || words.length == 0) return ans;
