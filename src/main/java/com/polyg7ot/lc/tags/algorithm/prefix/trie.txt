@@ -5,6 +5,7 @@ References:
 ### Prefix Sum
 # Trie
 2   0676    https://leetcode.com/problems/implement-magic-dictionary/
+2   0677    https://leetcode.com/problems/map-sum-pairs/
 
 3   0648    https://leetcode.com/problems/replace-words/
 
