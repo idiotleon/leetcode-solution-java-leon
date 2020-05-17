@@ -1,4 +1,4 @@
-@author: polyg7ot
+@author: Leon
 References:
     https://leetcode.com/tag/trie/
     https://www.geeksforgeeks.org/trie-insert-and-search/
@@ -10,6 +10,7 @@ References:
 
 3   0208    https://leetcode.com/problems/implement-trie-prefix-tree/
 3   0648    https://leetcode.com/problems/replace-words/
+3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1065    https://leetcode.com/problems/index-pairs-of-a-string/
 
 4   0211    https://leetcode.com/problems/add-and-search-word-data-structure-design/
