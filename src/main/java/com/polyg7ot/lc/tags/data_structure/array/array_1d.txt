@@ -13,6 +13,7 @@ References:
 3   0134    https://leetcode.com/problems/gas-station/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+3   0162    https://leetcode.com/problems/find-peak-element/
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 3   0523    https://leetcode.com/problems/continuous-subarray-sum/
 3   0525    https://leetcode.com/problems/contiguous-array/

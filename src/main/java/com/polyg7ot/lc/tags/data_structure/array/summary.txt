@@ -1,0 +1,6 @@
+@author: Leon
+References:
+
+This file serves as the total list of problems related to Array, regardless of any subcategory
+### Array
+3   0162    https://leetcode.com/problems/find-peak-element/

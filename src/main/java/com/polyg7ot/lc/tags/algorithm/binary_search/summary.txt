@@ -1,5 +1,6 @@
 Author: polyg7ot
 References:
+    https://leetcode.com/tag/binary-search/
     https://github.com/huanminwu/LeetCode
 
 This serves the list of all the LC problems related to Binary Search, regardless of sub-categories
@@ -13,6 +14,7 @@ This serves the list of all the LC problems related to Binary Search, regardless
 3   0033    https://leetcode.com/problems/search-in-rotated-sorted-array/
 3   0050    https://leetcode.com/problems/powx-n/
 3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+3   0162    https://leetcode.com/problems/find-peak-element/
 3   0875    https://leetcode.com/problems/koko-eating-bananas/
 
 4   0081    https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
