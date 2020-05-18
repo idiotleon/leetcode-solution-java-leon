@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import com.polyg7ot.lc.utils.Constants;
 
 public class SolutionTestsApproachBinarySearch {
-    private final SolutionApproachBinarySearch approachBinarySearch = new SolutionApproachBinarySearch();
+    private final SolutionApproach0BinarySearch approachBinarySearch = new SolutionApproach0BinarySearch();
 
     @Test
     void test() {

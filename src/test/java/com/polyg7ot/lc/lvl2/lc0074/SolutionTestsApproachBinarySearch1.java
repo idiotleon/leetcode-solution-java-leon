@@ -1,4 +1,4 @@
-package com.polyg7ot.lc.lvl3.lc0074;
+package com.polyg7ot.lc.lvl2.lc0074;
 
 import com.polyg7ot.lc.utils.Constants.Matrix;
 
@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
 public class SolutionTestsApproachBinarySearch1 {
-    private final SolutionApproachBinarySearch1 binarySearch1 = new SolutionApproachBinarySearch1();
+    private final SolutionApproach1BinarySearch binarySearch1 = new SolutionApproach1BinarySearch();
 
     @Test
     void testRegularMatrix() {
