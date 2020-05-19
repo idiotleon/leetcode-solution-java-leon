@@ -3,4 +3,6 @@ References:
     https://github.com/huanminwu/LeetCode
 
 ### Tree
+3   0270    https://leetcode.com/problems/closest-binary-search-tree-value/
+
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
