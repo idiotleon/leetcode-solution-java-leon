@@ -20,6 +20,7 @@ This serves the list of all the LC problems related to Binary Search, regardless
 3   0162    https://leetcode.com/problems/find-peak-element/
 3   0275    https://leetcode.com/problems/h-index-ii/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
+3   0367    https://leetcode.com/problems/valid-perfect-square/
 3   0875    https://leetcode.com/problems/koko-eating-bananas/
 
 4   0081    https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
