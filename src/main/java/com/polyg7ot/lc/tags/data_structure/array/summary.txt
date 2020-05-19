@@ -5,6 +5,7 @@ This file serves as the total list of problems related to Array, regardless of a
 ### Array
 3   0162    https://leetcode.com/problems/find-peak-element/
 3   0275    https://leetcode.com/problems/h-index-ii/
+3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/

@@ -9,18 +9,25 @@
  * (1) if num is larger than all tails, append it, increase the size by 1
  * (2) if tails[i - 1] < num <= tails[i], update tails[i]
  * 
- * Time Complexity: O(Nlg(N))
+ * Time Complexity: O(N * lg(N))
  * Space Complexity: O(N)
+ * 
+ * References:
+ *  https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation
  */
 package com.polyg7ot.lc.lvl3.lc0300;
 
-public class SolutionApproachDP {
+public class SolutionApproach0DPWithBinarySearch {
     public int lengthOfLIS(int[] nums) {
-        int[] tails = new int[nums.length];
+        // sanity check
+        if(nums == null || nums.length == 0) return 0;
+
+        final int L = nums.length;
+        int[] tails = new int[L];
         int size = 0;
         for(int num : nums){
             int left = 0, right = size;
-            while(left != right){
+            while(left < right){
                 int mid = left + (right - left) / 2;
                 if(tails[mid] < num){
                     left = mid + 1;

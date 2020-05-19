@@ -11,6 +11,7 @@ References:
 
 3   0091    https://leetcode.com/problems/decode-ways/
 3   0256    https://leetcode.com/problems/paint-house/
+3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
 3   0562    https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/

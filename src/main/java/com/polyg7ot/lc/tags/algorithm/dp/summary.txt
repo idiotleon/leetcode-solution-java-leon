@@ -1,5 +1,7 @@
 ### Dynamic Programming
 2   0413    https://leetcode.com/problems/arithmetic-slices/
 
+3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
+
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
