@@ -1,0 +1,5 @@
+@author: Leon
+
+### Two Pointers
+# Array
+2   0287    https://leetcode.com/problems/find-the-duplicate-number/

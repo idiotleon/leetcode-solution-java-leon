@@ -23,6 +23,7 @@ References:
 3   1023    https://leetcode.com/problems/camelcase-matching/
 
 4   0154    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
+4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/

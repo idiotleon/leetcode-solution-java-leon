@@ -8,3 +8,4 @@ This file serves as the total list of problems related to Array, regardless of a
 
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/
+4   0287    https://leetcode.com/problems/find-the-duplicate-number/

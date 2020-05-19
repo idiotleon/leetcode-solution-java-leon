@@ -1,0 +1,5 @@
+@author: Leon
+References:
+    https://leetcode.com/tag/linked-list/
+
+### LinkedList
