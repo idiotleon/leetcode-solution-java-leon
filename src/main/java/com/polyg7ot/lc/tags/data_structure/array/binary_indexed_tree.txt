@@ -1,5 +1,7 @@
 @author: Leon
+References:
+    https://leetcode.com/tag/binary-indexed-tree/
 
 ### Array
-# Segmented Tree
+# Binary Indexed Tree
 5   0315    https://leetcode.com/problems/count-of-smaller-numbers-after-self/
