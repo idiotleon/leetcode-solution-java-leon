@@ -4,3 +4,9 @@ References:
 
 ### String
 # substring
+4   0076    https://leetcode.com/problems/minimum-window-substring/
+
+###Resources:
+#template
+    https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
+    https://leetcode.com/problems/minimum-size-subarray-sum/discuss/59110/O(N)-template-for-Minimum-Size-Subarray-Sum-and-Minimum-Window-Substring-and-Longest-Substring-Without-Repeating-Characters

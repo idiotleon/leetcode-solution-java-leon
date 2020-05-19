@@ -5,6 +5,7 @@ References:
 ### Binary Search
 # Array - 1D
 2   0035    https://leetcode.com/problems/search-insert-position/
+2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 
 3   0033    https://leetcode.com/problems/search-in-rotated-sorted-array/
 3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
