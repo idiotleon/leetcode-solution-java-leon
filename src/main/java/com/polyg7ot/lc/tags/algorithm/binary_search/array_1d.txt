@@ -4,6 +4,8 @@ References:
 
 ### Binary Search
 # Array - 1D
+1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
+
 2   0035    https://leetcode.com/problems/search-insert-position/
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 
@@ -15,4 +17,5 @@ References:
 
 4   0081    https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 4   0154    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
+3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/

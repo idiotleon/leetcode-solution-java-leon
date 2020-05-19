@@ -4,6 +4,7 @@ References:
 
 ### Array
 # 1D Array
+1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   0997    https://leetcode.com/problems/find-the-town-judge/
 
 2   0053    https://leetcode.com/problems/maximum-subarray/
