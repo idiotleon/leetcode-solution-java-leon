@@ -15,40 +15,8 @@ import java.util.Stack;
 
 import com.polyg7ot.data_structure.tree.TreeNode;
 
-public class SolutionApproachInorderIteration {
+public class SolutionApproach0InorderIteration {
     public int kthSmallest(TreeNode root, int k) {
-        Stack<TreeNode> stack = new Stack<TreeNode>();
-        
-        while(true){
-            while(root != null){
-                stack.add(root);
-                root = root.left;
-            }
-            
-            root = stack.pop();
-            if(--k == 0) return root.val;
-            root = root.right;
-        }
-    }
-
-    public int kthSmallest2(TreeNode root, int k) {
-        Stack<TreeNode> stack = new Stack<TreeNode>();
-        
-        while(root != null || ! stack.isEmpty()){
-            while(root != null){
-                stack.push(root);
-                root = root.left;
-            }
-            
-            root = stack.pop();
-            if(--k == 0) break;
-            root = root.right;
-        }
-        
-        return root.val;
-    }
-
-    public int kthSmallest3(TreeNode root, int k) {
         Stack<TreeNode> stack = new Stack<TreeNode>();
         
         while(root != null || ! stack.isEmpty()){

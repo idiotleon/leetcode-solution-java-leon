@@ -11,31 +11,25 @@
  */
 package com.polyg7ot.lc.lvl4.lc0230;
 
+import java.util.Stack;
+
 import com.polyg7ot.data_structure.tree.TreeNode;
 
-public class SolutionApproachInorderTraversal {
-    private int ans;
-    private int count;
-    
+public class SolutionApproach0InorderIteration2 {
     public int kthSmallest(TreeNode root, int k) {
-        this.count = k;
-        this.ans = 0;
+        Stack<TreeNode> stack = new Stack<TreeNode>();
         
-        inorder(root);
-        
-        return ans;
-    }
-    
-    private void inorder(TreeNode node){
-        if(node == null) return;
-        inorder(node.left);
-        
-        count--;
-        if(count == 0){
-            ans = node.val;
-            return;
+        while(root != null || ! stack.isEmpty()){
+            while(root != null){
+                stack.push(root);
+                root = root.left;
+            }
+            
+            root = stack.pop();
+            if(--k == 0) break;
+            root = root.right;
         }
         
-        inorder(node.right);
+        return root.val;
     }
 }
