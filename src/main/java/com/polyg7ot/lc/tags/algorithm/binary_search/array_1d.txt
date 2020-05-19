@@ -10,6 +10,7 @@ References:
 3   0033    https://leetcode.com/problems/search-in-rotated-sorted-array/
 3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3   0162    https://leetcode.com/problems/find-peak-element/
+3   0275    https://leetcode.com/problems/h-index-ii/
 
 4   0081    https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 4   0154    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
