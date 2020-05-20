@@ -6,3 +6,5 @@ References:
 # Integer
 3   0029    https://leetcode.com/problems/divide-two-integers/
 3   0050    https://leetcode.com/problems/powx-n/
+3   0367    https://leetcode.com/problems/valid-perfect-square/
+3   0702    https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/
