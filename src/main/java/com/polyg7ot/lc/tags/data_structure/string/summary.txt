@@ -3,4 +3,6 @@
     https://leetcode.com/tag/string/
 
 ### String
+2   0392    https://leetcode.com/problems/is-subsequence/
+
 4   0076    https://leetcode.com/problems/minimum-window-substring/

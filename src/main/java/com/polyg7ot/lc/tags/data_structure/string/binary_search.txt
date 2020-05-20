@@ -1,0 +1,5 @@
+@author: Leon
+
+### String
+# Binary Search
+2   0392    https://leetcode.com/problems/is-subsequence/
