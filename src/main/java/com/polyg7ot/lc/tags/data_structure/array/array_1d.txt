@@ -28,5 +28,6 @@ References:
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
+4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   1124    https://leetcode.com/problems/longest-well-performing-interval/

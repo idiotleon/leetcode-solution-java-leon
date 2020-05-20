@@ -1,8 +1,6 @@
 @author: Leon
 
-### Binary Search
-# String
-
-2   0392    https://leetcode.com/problems/is-subsequence/
+### String
+# Subsequence
 
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
