@@ -6,6 +6,9 @@
  * 
  * References:
  *  https://leetcode.com/problems/is-subsequence/discuss/87254/Straight-forward-Java-simple-solution
+ * 
+ * Similar Problems:
+ *  https://leetcode.com/problems/number-of-matching-subsequences/
  */
 package com.polyg7ot.lc.lvl2.lc0392;
 

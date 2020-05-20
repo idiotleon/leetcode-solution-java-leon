@@ -6,6 +6,9 @@
  * 
  * Refences:
  *  https://leetcode.com/problems/is-subsequence/discuss/87321/Java-code-for-the-problem-(two-pointer)-and-the-follow-up-(Binary-Search)
+ * 
+ * Similar Problems:
+ *  https://leetcode.com/problems/number-of-matching-subsequences/
  */
 package com.polyg7ot.lc.lvl2.lc0392.followup;
 
