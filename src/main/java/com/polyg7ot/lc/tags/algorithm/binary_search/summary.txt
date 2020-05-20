@@ -35,12 +35,15 @@ This serves the list of all the LC problems related to Binary Search, regardless
 4   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
+4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 
 5   0004    https://leetcode.com/problems/median-of-two-sorted-arrays/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 
 
 Resources:
+    https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/
+    
     # Termination Conditions: while(left < right) vs while(left <= right)
     https://stackoverflow.com/a/30928332/6061609
 

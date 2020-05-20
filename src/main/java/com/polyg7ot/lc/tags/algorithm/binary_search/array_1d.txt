@@ -20,5 +20,6 @@ References:
 4   0154    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
+4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
