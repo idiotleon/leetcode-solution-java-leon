@@ -19,3 +19,4 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
+4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/

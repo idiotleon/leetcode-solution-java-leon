@@ -11,3 +11,4 @@ References:
 3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 
 4   0174    https://leetcode.com/problems/dungeon-game/
+4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/

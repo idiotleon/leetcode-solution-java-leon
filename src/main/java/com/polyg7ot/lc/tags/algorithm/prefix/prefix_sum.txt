@@ -11,6 +11,8 @@ References:
 3   0974    https://leetcode.com/problems/subarray-sums-divisible-by-k/
 
 4   1124    https://leetcode.com/problems/longest-well-performing-interval/
+4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
+
 
 
 Resource:

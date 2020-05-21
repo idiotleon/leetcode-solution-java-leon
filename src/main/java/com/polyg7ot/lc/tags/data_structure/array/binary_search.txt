@@ -1,0 +1,7 @@
+@author: Leon
+References:
+    https://leetcode.com/tag/binary-search/
+
+### Array
+# Binary Search
+4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
