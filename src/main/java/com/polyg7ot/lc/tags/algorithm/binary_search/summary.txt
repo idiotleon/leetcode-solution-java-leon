@@ -26,6 +26,7 @@ This serves the list of all the LC problems related to Binary Search, regardless
 3   0367    https://leetcode.com/problems/valid-perfect-square/
 3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 3   0702    https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/
+3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 3   0875    https://leetcode.com/problems/koko-eating-bananas/
 3   0981    https://leetcode.com/problems/time-based-key-value-store/
 3   1060    https://leetcode.com/problems/missing-element-in-sorted-array/

@@ -1,7 +1,13 @@
+@author: Leon
+References:
+    https://leetcode.com/tag/dynamic-programming/
+
+This serves the total list of problems related to Dynamic Programming, regardless of subcategories
 ### Dynamic Programming
 2   0413    https://leetcode.com/problems/arithmetic-slices/
 
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
+3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
