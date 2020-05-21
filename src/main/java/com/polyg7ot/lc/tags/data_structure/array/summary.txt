@@ -5,6 +5,8 @@ This file serves as the total list of problems related to Array, regardless of a
 ### Array
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 
+2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
+
 3   0162    https://leetcode.com/problems/find-peak-element/
 3   0275    https://leetcode.com/problems/h-index-ii/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
