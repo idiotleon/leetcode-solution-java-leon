@@ -35,6 +35,7 @@ This serves the list of all the LC problems related to Binary Search, regardless
 3   0911    https://leetcode.com/problems/online-election/
 3   0981    https://leetcode.com/problems/time-based-key-value-store/
 3   1060    https://leetcode.com/problems/missing-element-in-sorted-array/
+3   1201    https://leetcode.com/problems/ugly-number-iii/
 3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 
 4   0081    https://leetcode.com/problems/search-in-rotated-sorted-array-ii/

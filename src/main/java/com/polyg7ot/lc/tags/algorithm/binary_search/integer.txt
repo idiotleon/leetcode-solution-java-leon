@@ -8,3 +8,4 @@ References:
 3   0050    https://leetcode.com/problems/powx-n/
 3   0367    https://leetcode.com/problems/valid-perfect-square/
 3   0702    https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/
+3   1201    https://leetcode.com/problems/ugly-number-iii/
