@@ -2,5 +2,7 @@
 
 ### Two Pointers
 # Array
+1   0643    https://leetcode.com/problems/maximum-average-subarray-i/
+
 2   0287    https://leetcode.com/problems/find-the-duplicate-number/
 2   0475    https://leetcode.com/problems/heaters/
