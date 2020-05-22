@@ -3,3 +3,4 @@
 ### Two Pointers
 # Array
 2   0287    https://leetcode.com/problems/find-the-duplicate-number/
+2   0475    https://leetcode.com/problems/heaters/
