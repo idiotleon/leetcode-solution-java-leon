@@ -11,3 +11,5 @@ References:
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   1231    https://leetcode.com/problems/divide-chocolate/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
+
+5   0493    https://leetcode.com/problems/reverse-pairs/

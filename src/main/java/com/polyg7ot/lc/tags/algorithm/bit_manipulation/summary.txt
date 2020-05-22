@@ -6,3 +6,4 @@ References:
 4   0421    https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
 
 5   0327    https://leetcode.com/problems/count-of-range-sum/
+5   0493    https://leetcode.com/problems/reverse-pairs/

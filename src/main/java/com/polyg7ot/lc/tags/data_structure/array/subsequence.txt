@@ -9,3 +9,5 @@ References:
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
+
+5   0493    https://leetcode.com/problems/reverse-pairs/
