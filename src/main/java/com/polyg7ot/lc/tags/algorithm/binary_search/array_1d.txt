@@ -26,5 +26,6 @@ References:
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 4   1231    https://leetcode.com/problems/divide-chocolate/
+4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/

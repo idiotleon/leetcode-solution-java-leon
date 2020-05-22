@@ -43,6 +43,7 @@ This serves the list of all the LC problems related to Binary Search, regardless
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
+4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
 
 5   0004    https://leetcode.com/problems/median-of-two-sorted-arrays/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
