@@ -23,8 +23,10 @@ This serves the list of all the LC problems related to Binary Search, regardless
 3   0162    https://leetcode.com/problems/find-peak-element/
 3   0275    https://leetcode.com/problems/h-index-ii/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
+3   0436    https://leetcode.com/problems/find-right-interval/
 3   0367    https://leetcode.com/problems/valid-perfect-square/
 3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+3   0436    https://leetcode.com/problems/find-right-interval/
 3   0702    https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 3   0875    https://leetcode.com/problems/koko-eating-bananas/

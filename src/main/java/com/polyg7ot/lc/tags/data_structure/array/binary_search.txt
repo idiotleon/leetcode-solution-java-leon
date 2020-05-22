@@ -5,6 +5,8 @@ References:
 ### Array
 # Binary Search
 
+3   0436    https://leetcode.com/problems/find-right-interval/
+
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   1231    https://leetcode.com/problems/divide-chocolate/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
