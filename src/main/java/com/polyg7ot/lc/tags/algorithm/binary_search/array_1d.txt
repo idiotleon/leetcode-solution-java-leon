@@ -21,8 +21,10 @@ References:
 
 4   0081    https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 4   0154    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
+4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+4   1231    https://leetcode.com/problems/divide-chocolate/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/

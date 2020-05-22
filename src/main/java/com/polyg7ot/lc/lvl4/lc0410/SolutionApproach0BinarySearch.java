@@ -25,10 +25,19 @@
  *  left = C + 1
  * else
  *  right = C
+ * 
+ * References: 
+ *  https://leetcode.com/problems/divide-chocolate/discuss/408503/JavaC++Python-Binary-Search/494896
+ *  https://leetcode.com/problems/divide-chocolate/discuss/408503/JavaC++Python-Binary-Search/380399
+ *  https://leetcode.com/problems/divide-chocolate/discuss/408503/JavaC++Python-Binary-Search/394052
+ * 
+ * Similar Problems:
+ *  https://leetcode.com/problems/divide-chocolate/
+ *  https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
  */
 package com.polyg7ot.lc.lvl4.lc0410;
 
-public class SolutionApproachBinarySearch {
+public class SolutionApproach0BinarySearch {
     public int splitArray(int[] nums, int m) {
         if(nums == null || nums.length == 0) return 0;
         
@@ -40,9 +49,12 @@ public class SolutionApproachBinarySearch {
         
         while(left < right){
             long limit = left + (right - left) / 2;
+            // if there are too many groups with such a limit
             if(minGroups(nums, limit) > m){
+                // to increase the limit
                 left = limit + 1;
             }else{
+                // otherwise to decrease the limit
                 right = limit;
             }
         }
