@@ -15,6 +15,7 @@ This serves the list of all the LC problems related to Binary Search, regardless
 2   0392    https://leetcode.com/problems/is-subsequence/
 2   0475    https://leetcode.com/problems/heaters/
 2   0658    https://leetcode.com/problems/find-k-closest-elements/
+2   0744    https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
 
 3   0029    https://leetcode.com/problems/divide-two-integers/
