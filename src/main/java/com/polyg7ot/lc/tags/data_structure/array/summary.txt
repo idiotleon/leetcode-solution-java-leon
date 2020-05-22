@@ -27,3 +27,4 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
 
+5   0327    https://leetcode.com/problems/count-of-range-sum/
