@@ -26,6 +26,7 @@ References:
 3   0974    https://leetcode.com/problems/subarray-sums-divisible-by-k/
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1060    https://leetcode.com/problems/missing-element-in-sorted-array/
+3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 
 4   0154    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
