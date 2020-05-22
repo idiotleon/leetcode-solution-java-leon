@@ -3,6 +3,9 @@
  * 
  * Time Complexity: O(N)
  * Space Complexity: O(1)
+ * 
+ * Similar Problems:
+ *  https://leetcode.com/problems/maximum-average-subarray-ii/
  */
 package com.polyg7ot.lc.lvl1.lc0643;
 
