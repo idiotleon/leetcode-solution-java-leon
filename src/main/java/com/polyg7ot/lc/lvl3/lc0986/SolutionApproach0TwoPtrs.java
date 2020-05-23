@@ -1,12 +1,15 @@
 /**
  * https://leetcode.com/problems/interval-list-intersections/
+ * 
+ * Time Complexity: O(N + M)
+ * Space Complexity: O(N), consumed by the answer list
  */
 package com.polyg7ot.lc.lvl3.lc0986;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class SolutionApproach0TwoPtrs {
     public int[][] intervalIntersection(int[][] A, int[][] B) {
         List<int[]> result = new ArrayList<int[]>();
         int i = 0, j = 0;
