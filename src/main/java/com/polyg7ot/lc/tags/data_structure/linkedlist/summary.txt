@@ -3,3 +3,6 @@ References:
     https://leetcode.com/tag/linked-list/
 
 ### LinkedList
+3   0716    https://leetcode.com/problems/max-stack/
+
+4   0146    https://leetcode.com/problems/lru-cache/

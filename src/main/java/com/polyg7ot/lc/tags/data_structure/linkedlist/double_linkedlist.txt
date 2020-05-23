@@ -1,0 +1,11 @@
+@author: Leon
+
+### LinkedList
+# Double LinkedList
+3   0716    https://leetcode.com/problems/max-stack/
+
+4   0146    https://leetcode.com/problems/lru-cache/
+
+
+Resources:
+    https://leetcode.com/articles/max-stack/
