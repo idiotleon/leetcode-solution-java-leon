@@ -13,6 +13,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0275    https://leetcode.com/problems/h-index-ii/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
+3   0373    https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
 3   0436    https://leetcode.com/problems/find-right-interval/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 3   0911    https://leetcode.com/problems/online-election/
