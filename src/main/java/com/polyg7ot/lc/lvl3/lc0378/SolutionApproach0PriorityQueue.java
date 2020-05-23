@@ -8,7 +8,7 @@ package com.polyg7ot.lc.lvl3.lc0378;
 
 import java.util.PriorityQueue;
 
-public class SolutionApproach0Heap {
+public class SolutionApproach0PriorityQueue {
     public int kthSmallest(int[][] matrix, int k) {
         if(matrix == null || matrix.length == 0 || matrix[0].length == 0) return -1;
         final int NR = matrix.length, NC = matrix[0].length;
