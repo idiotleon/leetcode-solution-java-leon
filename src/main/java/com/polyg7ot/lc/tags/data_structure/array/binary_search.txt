@@ -9,6 +9,7 @@ References:
 3   0911    https://leetcode.com/problems/online-election/
 
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
 4   0719    https://leetcode.com/problems/find-k-th-smallest-pair-distance/
 4   1231    https://leetcode.com/problems/divide-chocolate/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/

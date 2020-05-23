@@ -26,6 +26,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
 4   0719    https://leetcode.com/problems/find-k-th-smallest-pair-distance/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/

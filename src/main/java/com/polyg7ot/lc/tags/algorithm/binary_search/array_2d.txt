@@ -12,4 +12,5 @@ References:
 3   0436    https://leetcode.com/problems/find-right-interval/
 
 4   0174    https://leetcode.com/problems/dungeon-game/
+4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
