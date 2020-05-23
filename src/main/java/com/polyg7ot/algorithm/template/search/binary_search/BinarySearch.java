@@ -5,7 +5,7 @@
  *  https://en.wikipedia.org/wiki/Binary_search_algorithm
  *  https://stackoverflow.com/a/30928332/6061609
  */
-package com.polyg7ot.algorithm.template.search;
+package com.polyg7ot.algorithm.template.search.binary_search;
 
 public class BinarySearch {
     /**
@@ -65,6 +65,8 @@ public class BinarySearch {
 
         return -1;
     }
+
+
 
     public int binarySearchWithCeilingMid(int[] nums, int target){
         int left = 0, right = nums.length - 1;
