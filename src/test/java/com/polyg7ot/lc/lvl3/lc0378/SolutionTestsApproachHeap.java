@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import com.polyg7ot.lc.utils.Constants;
 
 public class SolutionTestsApproachHeap {
-    private final SolutionApproachHeap heap = new SolutionApproachHeap();
+    private final SolutionApproach0PriorityQueue heap = new SolutionApproach0PriorityQueue();
 
     @Test
     @DisplayName("0378. Kth Smallest Element in a Sorted Matrix - Priority Queue")
