@@ -14,3 +14,6 @@ References:
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
+
+5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
+

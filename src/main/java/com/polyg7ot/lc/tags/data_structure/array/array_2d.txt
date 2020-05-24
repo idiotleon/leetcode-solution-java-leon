@@ -7,6 +7,7 @@ References:
 What are considered as diagonals/anti-diagonals of rectangles (not squares)?
 https://en.wikipedia.org/wiki/Main_diagonal
 0051
+3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
 3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 3   0436    https://leetcode.com/problems/find-right-interval/
 3   0498    https://leetcode.com/problems/diagonal-traverse/ 
@@ -16,7 +17,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
-
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
 
-3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
+
+5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
