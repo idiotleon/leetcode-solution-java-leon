@@ -4,14 +4,15 @@
  * Time Complexity: O(N)
  * Space Complexity: O(N)
  * 
- * https://leetcode.com/problems/sum-of-subarray-minimums/discuss/170750/C%2B%2BJavaPython-Stack-Solution
- * https://leetcode.com/problems/sum-of-subarray-minimums/discuss/170750/C++JavaPython-Stack-Solution/337512
+ * References:
+ *  https://leetcode.com/problems/sum-of-subarray-minimums/discuss/170750/C%2B%2BJavaPython-Stack-Solution
+ *  https://leetcode.com/problems/sum-of-subarray-minimums/discuss/170750/C++JavaPython-Stack-Solution/337512
  */
 package com.polyg7ot.lc.lvl4.lc0907;
 
 import java.util.Stack;
 
-public class SolutionApproachStack {
+public class SolutionApproach0Stack {
     public int sumSubarrayMins(int[] nums) {
         final int L = nums.length, MOD = (int)1e9 + 7;
         int ans = 0, j = 0, k = 0;

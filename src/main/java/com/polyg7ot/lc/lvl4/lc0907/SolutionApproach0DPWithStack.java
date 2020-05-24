@@ -11,7 +11,7 @@ package com.polyg7ot.lc.lvl4.lc0907;
 
 import java.util.Stack;
 
-public class SolutionApproachDPWithStack {
+public class SolutionApproach0DPWithStack {
     public int sumSubarrayMins(int[] nums) {
         final int L = nums.length, MOD = (int)1e9 + 7;
         int ans = 0;
