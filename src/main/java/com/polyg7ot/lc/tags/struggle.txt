@@ -6,3 +6,4 @@ This serves the total list of problems I do not understand a bit.
 483
 
 5   0774    https://leetcode.com/problems/minimize-max-distance-to-gas-station/
+5   0786    https://leetcode.com/problems/k-th-smallest-prime-fraction/

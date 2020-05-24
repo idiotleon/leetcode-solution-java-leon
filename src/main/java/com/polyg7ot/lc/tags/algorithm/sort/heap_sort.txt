@@ -9,6 +9,7 @@ References:
 2   0973    https://leetcode.com/problems/k-closest-points-to-origin/
 
 5   0774    https://leetcode.com/problems/minimize-max-distance-to-gas-station/
+5   0786    https://leetcode.com/problems/k-th-smallest-prime-fraction/
 
 
 Resources:

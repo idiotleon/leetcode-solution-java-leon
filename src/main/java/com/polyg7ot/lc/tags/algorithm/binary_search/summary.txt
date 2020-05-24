@@ -62,6 +62,7 @@ This serves the list of all the LC problems related to Binary Search, regardless
 5   0483    https://leetcode.com/problems/smallest-good-base/
 5   0493    https://leetcode.com/problems/reverse-pairs/
 5   0644    https://leetcode.com/problems/maximum-average-subarray-ii/
+5   0786    https://leetcode.com/problems/k-th-smallest-prime-fraction/
 
 
 

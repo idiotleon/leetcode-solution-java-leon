@@ -9,7 +9,8 @@ References:
 668
 719
 5   774 https://leetcode.com/problems/minimize-max-distance-to-gas-station/
-786
+5   0786    https://leetcode.com/problems/k-th-smallest-prime-fraction/
+
 
 Resources:
     https://leetcode.com/problems/find-k-th-smallest-pair-distance/discuss/109082/Approach-the-problem-using-the-%22trial-and-error%22-algorithm
