@@ -8,7 +8,7 @@ References:
 644
 668
 719
-774
+5   774 https://leetcode.com/problems/minimize-max-distance-to-gas-station/
 786
 
 Resources:

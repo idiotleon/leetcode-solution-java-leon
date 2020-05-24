@@ -2,29 +2,29 @@ package com.polyg7ot.algorithm.template.search.binary_search;
 
 public class BinarySearchLowerBound {
     public int getLowerBound(int[] nums, int target){
-        int left = 0, right = nums.length - 1;
+        int lo = 0, hi = nums.length - 1;
 
-        while(left <= right){
-            int mid = left + (right - left) / 2;
+        while(lo <= hi){
+            int mid = lo + (hi - lo) / 2;
             
-            if(target > nums[mid]) left = mid + 1;
-            else right = mid - 1;
+            if(target > nums[mid]) lo = mid + 1;
+            else hi = mid - 1;
         }
 
-        return left;
+        return lo;
     }
 
     // yet to verify
     public int getLowerBound2(int[] nums, int target){
-        int left = 0, right = nums.length;
+        int lo = 0, hi = nums.length;
 
-        while(left < right){
-            int mid = left + (right - left) / 2;
+        while(lo < hi){
+            int mid = lo + (hi - lo) / 2;
 
-            if(target > nums[mid]) left = mid + 1;
-            else right = mid;
+            if(target > nums[mid]) lo = mid + 1;
+            else hi = mid;
         }
 
-        return left;
+        return lo;
     }
 }

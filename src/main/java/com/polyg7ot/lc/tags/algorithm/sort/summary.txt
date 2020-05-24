@@ -6,6 +6,7 @@
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
 
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
+5   0774    https://leetcode.com/problems/minimize-max-distance-to-gas-station/
 
 
 
