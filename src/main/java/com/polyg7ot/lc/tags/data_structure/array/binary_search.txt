@@ -4,6 +4,7 @@ References:
 
 ### Array
 # Binary Search
+2   0704    https://leetcode.com/problems/binary-search/
 
 3   0436    https://leetcode.com/problems/find-right-interval/
 3   0911    https://leetcode.com/problems/online-election/
