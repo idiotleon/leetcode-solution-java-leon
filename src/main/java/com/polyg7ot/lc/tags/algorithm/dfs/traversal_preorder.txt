@@ -1,0 +1,8 @@
+### DFS
+# Preorder
+3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
+
+4   0314    https://leetcode.com/problems/binary-tree-vertical-order-traversal/
+
+Resources:
+    https://leetcode.com/articles/vertical-order-traversal-of-a-binary-tree/

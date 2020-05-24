@@ -1,11 +1,18 @@
 /**
  * https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
+ * 
+ * Time Complexity: O(N)
+ *  N, the number of elements in the array
+ * 
+ * Space Complexity: O(2 * lg(N)) ~ O(lg(N))
+ *  lg(N), the call stack
+ *  lg(N), the tree, the answer itself
  */
 package com.polyg7ot.lc.lvl4.lc1008;
 
 import com.polyg7ot.data_structure.tree.TreeNode;
 
-public class SolutionApproachDFS {
+public class SolutionApproach0DFS {
     private int preIdx;
     
     public TreeNode bstFromPreorder(int[] preorder) {

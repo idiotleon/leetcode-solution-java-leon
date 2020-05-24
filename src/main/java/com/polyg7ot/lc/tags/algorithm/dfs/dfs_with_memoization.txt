@@ -1,4 +1,7 @@
-#DFS - Memoization
+@author: Leon
+
+### DFS
+# Memoization
 3   0851    https://leetcode.com/problems/loud-and-rich/
 3   0865    https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 
