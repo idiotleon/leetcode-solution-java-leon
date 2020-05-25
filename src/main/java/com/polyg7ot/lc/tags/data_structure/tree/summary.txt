@@ -4,5 +4,6 @@ References:
 
 ### Tree
 3   0270    https://leetcode.com/problems/closest-binary-search-tree-value/
+3   0938    https://leetcode.com/problems/range-sum-of-bst/
 
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
