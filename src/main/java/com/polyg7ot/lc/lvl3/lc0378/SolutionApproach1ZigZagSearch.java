@@ -10,7 +10,10 @@
 package com.polyg7ot.lc.lvl3.lc0378;
 
 public class SolutionApproach1ZigZagSearch {
-    public int kthSmallest(int[][] matrix, int k){
+    public int kthSmallest(int[][] matrix, int k){        
+        // sanity check
+        if(matrix == null || matrix.length == 0 || matrix[0].length == 0 || k <= 0) return -1;
+        
         final int NR = matrix.length, NC = matrix[0].length;
 
         // to start from the upper-right corner
