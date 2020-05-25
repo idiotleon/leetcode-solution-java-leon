@@ -9,6 +9,10 @@
  *  https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/discuss/256729/JavaC%2B%2BPython-Binary-Search
  *  https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/discuss/256729/JavaC++Python-Binary-Search/249951
  *  https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/
+ * 
+ * Similar Problems:
+ *  https://leetcode.com/problems/divide-chocolate/
+ *  https://leetcode.com/problems/split-array-largest-sum/
  */
 package com.polyg7ot.lc.lvl4.lc1011;
 
