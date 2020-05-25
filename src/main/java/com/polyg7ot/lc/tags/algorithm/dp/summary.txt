@@ -12,6 +12,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
+4   1035    https://leetcode.com/problems/uncrossed-lines/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
@@ -19,4 +20,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 
 
 Resources:
+    https://mp.weixin.qq.com/s/Abx8UFOmG4n-dDLJqKV_IA
+    https://mp.weixin.qq.com/s/6g-FaeRdgjQHKPLyAB9IKA
     https://leetcode.com/problems/race-car/discuss/124326/summary-of-the-bfs-and-dp-solutions-with-intuitive-explanation
+    https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems
