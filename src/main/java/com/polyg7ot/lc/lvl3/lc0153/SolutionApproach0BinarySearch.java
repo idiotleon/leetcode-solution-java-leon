@@ -8,6 +8,9 @@ package com.polyg7ot.lc.lvl3.lc0153;
 
 public class SolutionApproach0BinarySearch {
     public int findMin(int[] nums) {
+        // sanity check
+        if(nums == null || nums.length == 0) return -1;
+        
         if(nums.length == 1) return nums[0];
         final int L = nums.length;
         int left = 0, right = L - 1;

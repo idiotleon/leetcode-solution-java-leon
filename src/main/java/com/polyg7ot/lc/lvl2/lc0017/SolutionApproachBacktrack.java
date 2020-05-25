@@ -9,7 +9,11 @@ import java.util.List;
 import java.util.Map;
 
 public class SolutionApproachBacktrack {
-    private final Map<String, String> phone = new HashMap<String, String>(){{
+    private final Map<String, String> phone = new HashMap<String, String>(){
+        // just to remove the warning about lack of serialVersionUID
+        private static final long serialVersionUID = 1L;
+        
+        {
         put("2", "abc");
         put("3", "def");
         put("4", "ghi");

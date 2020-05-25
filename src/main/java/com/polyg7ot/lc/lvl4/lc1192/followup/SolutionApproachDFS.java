@@ -12,7 +12,7 @@ public class SolutionApproachDFS {
     private int[] ids, low;
     private boolean[] visited;
     private List<Integer> ans;
-    private List<Integer>[] graph;
+    private List<List<Integer>> graph;
     
     public List<Integer> criticalRouters(int n, List<List<Integer>> connections) {
         ans = new ArrayList<Integer>();
@@ -24,16 +24,16 @@ public class SolutionApproachDFS {
         id = 0;
         low = new int[n];
         visited = new boolean[n];
-        graph = new List[n];
+        graph = new ArrayList<List<Integer>>();
         
         // to build up the graph
-        for(int i=0;i<n;i++) {
-            graph[i] = new ArrayList<Integer>();
+        for(int i = 0; i < n; i++) {
+            graph.add(new ArrayList<Integer>());
         }
 
         for(List<Integer> connection : connections) {
-            graph[connection.get(0)].add(connection.get(1));
-            graph[connection.get(1)].add(connection.get(0));
+            graph.get(connection.get(0)).add(connection.get(1));
+            graph.get(connection.get(1)).add(connection.get(0));
         }
 
         // magic
@@ -51,7 +51,7 @@ public class SolutionApproachDFS {
         visited[at] = true;
         int children = 0;
 
-        for(int to : graph[at]) {
+        for(int to : graph.get(at)) {
             if (to == at) continue;
             
             if(!visited[to]) {

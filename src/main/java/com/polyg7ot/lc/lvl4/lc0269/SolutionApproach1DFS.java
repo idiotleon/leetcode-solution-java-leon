@@ -5,7 +5,7 @@ package com.polyg7ot.lc.lvl4.lc0269;
 
 import java.util.Arrays;
 
-public class SolutionApproachDFS {
+public class SolutionApproach1DFS {
     private static final int N = 26;
     
     public String alienOrder(String[] words) {

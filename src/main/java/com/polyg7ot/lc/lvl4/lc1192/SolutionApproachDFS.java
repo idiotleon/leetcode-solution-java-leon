@@ -13,7 +13,7 @@ public class SolutionApproachDFS {
     private int id;
     private int[] low;
     private List<List<Integer>> ans;
-    private List<Integer>[] graph;
+    private List<List<Integer>> graph;
     
     public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connections) {
         // sanity check
@@ -27,14 +27,14 @@ public class SolutionApproachDFS {
         low = new int[n];
         
         // to build up the graph
-        graph = new List[n];
+        graph = new ArrayList<List<Integer>>();
         for(int i = 0; i < n; i++){
-            graph[i] = new ArrayList<Integer>();
+            graph.add(new ArrayList<Integer>());
         }
         
         for(List<Integer> conn : connections){
-            graph[conn.get(0)].add(conn.get(1));
-            graph[conn.get(1)].add(conn.get(0));
+            graph.get(conn.get(0)).add(conn.get(1));
+            graph.get(conn.get(1)).add(conn.get(0));
         }
         
         // core logic
@@ -52,7 +52,7 @@ public class SolutionApproachDFS {
         ids[at] = ++id;
         low[at] = ids[at];
         
-        for(int to : graph[at]){
+        for(int to : graph.get(at)){
             if(to == parent) continue;
             
             if(!visited[to]){

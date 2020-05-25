@@ -8,7 +8,7 @@ public class SolutionApproach0TrieWithDFS {
 
     /** Initialize your data structure here. */
     public SolutionApproach0TrieWithDFS() {
-        root = new TrieNode(' ');
+        root = new TrieNode();
     }
     
     /** Adds a word into the data structure. */
@@ -17,7 +17,7 @@ public class SolutionApproach0TrieWithDFS {
         for(int i = 0; i < word.length(); i++){
             char c = word.charAt(i);
             if(node.children[c - 'a'] == null){
-                node.children[c - 'a'] = new TrieNode(c);
+                node.children[c - 'a'] = new TrieNode();
             }
             node = node.children[c - 'a'];
         }
@@ -49,14 +49,13 @@ public class SolutionApproach0TrieWithDFS {
         
         return false;
     }
-}
 
-class TrieNode{
-    private final char c;
-    public boolean isEndOfWord;
-    public final TrieNode[] children;
-    public TrieNode(char c){
-        this.c = c;
-        children = new TrieNode[26];
+    private class TrieNode{
+        protected boolean isEndOfWord;
+        protected final TrieNode[] children;
+        protected TrieNode(){
+            children = new TrieNode[26];
+        }
     }
 }
+
