@@ -6,6 +6,11 @@
  * 
  * References:
  *  https://leetcode.com/problems/max-chunks-to-make-sorted/discuss/113528/Simple-Java-O(n)-Solution-with-detailed-explanation
+ * 
+ * Similar Questions:
+ *  https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
+ *  https://leetcode.com/problems/jump-game/
+ *  https://leetcode.com/problems/product-of-array-except-self/
  */
 package com.polyg7ot.lc.lvl4.lc0769;
 

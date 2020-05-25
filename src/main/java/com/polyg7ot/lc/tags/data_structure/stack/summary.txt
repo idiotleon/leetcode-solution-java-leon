@@ -22,6 +22,8 @@ References:
 4   0316    https://leetcode.com/problems/remove-duplicate-letters/
 4   0456    https://leetcode.com/problems/132-pattern/
 4   0735    https://leetcode.com/problems/asteroid-collision/
+4   0768    https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
+4   0769    https://leetcode.com/problems/max-chunks-to-make-sorted/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 
 
