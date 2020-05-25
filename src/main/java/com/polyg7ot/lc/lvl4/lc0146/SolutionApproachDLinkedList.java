@@ -7,11 +7,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SolutionApproachDLinkedList {
-    private Map<Integer, DLinkedNode> cache = new HashMap<Integer, DLinkedNode>();
+    private Map<Integer, DLinkedNode> cache;
     private int size, capacity;
     private DLinkedNode head, tail;
 
     public SolutionApproachDLinkedList(int capacity) {
+        this.cache = new HashMap<Integer, DLinkedNode>();
         this.size = 0;
         this.capacity = capacity;
         
@@ -55,13 +56,6 @@ public class SolutionApproachDLinkedList {
         }
     }
     
-    private class DLinkedNode{
-        int key;
-        int value;
-        DLinkedNode prev;
-        DLinkedNode next;
-    }
-    
     private DLinkedNode popTail(){
         DLinkedNode last = tail.prev;
         removeNode(last);
@@ -87,5 +81,12 @@ public class SolutionApproachDLinkedList {
     private void moveToHead(DLinkedNode node){
         removeNode(node);
         addNode(node);
+    }
+
+    private class DLinkedNode{
+        int key;
+        int value;
+        DLinkedNode prev;
+        DLinkedNode next;
     }
 }
