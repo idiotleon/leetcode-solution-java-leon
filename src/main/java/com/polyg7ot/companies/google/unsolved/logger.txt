@@ -1,0 +1,113 @@
+Please implement a special logger, which will print the log for the following 2 functions:
+
+class Logger:
+    public void start_thread(int thread_id, int timestamp);
+    public void finish_thread(int thread_id, int timestamp);
+
+Each thread id will only have one printed log in this format:
+
+Thread $threadID starts at $start_timestamp, and ends at $ end_timestamp
+
+Please print the logs in the ascending order of start_timestamp.
+
+You are guaranteed:
+(1) The start_thread() and finish_thread() will be only called once for each threadID
+(2) The timestamps of start_thread() and finish_thread() are always in ascending order
+(3) No duplicate timestamps for start_thread() and finish_thread().
+
+Example of function calling sequence:
+start_thread(2, 99)
+start_thread(1, 100)
+start_thread(3, 102)
+finish_thread(2,105)
+finish_thread(1,106)
+finish_thread(3,107)
+
+Expected logs:
+Thread 1 starts at 100, and ends at 106
+Thread 2 starts at 101, and ends at 105
+Thread 3 starts at 102, and ends at 107
+
+(3,102,-1)
+linkedlist: 
+dic: {}
+
+Class Logger
+{
+    List<int[]> timeList;
+    Dictionary<int,List<int>> dt;
+    int start_threadId=-1;
+    public Logger()
+    {
+        timeList=new List<int[]>();
+        dt=new Dictionary<int,List<int>>;
+    }
+    
+    public  void start_thread(int thread_id,int timestamp)
+    {
+        if(!dt.ContainsKey(thread_id))
+        {
+            dt.Add(thread_id,new List<int>>());
+        }
+        
+        if(start_threadId==-1)
+        {
+            start_threadId=thread_id;
+        }
+        dt[thread_id].Add(timestamp);
+        timeList.Add(new int[2]{timestamp,thread_id});
+    }
+    
+    
+    public void end_thread(int thread_id,int timestamp)
+    {
+        dt[thread_id].Add(timestamp);
+        
+        if(thread_id==start_threadId)
+        {
+            PrintLogs();
+            start_threadId=-1;
+        }
+    }
+    
+    public void PrintLogs()
+    {
+        int cnt=timeList.Count;
+        
+        for(int i=0;i<cnt;i++)
+        {
+            int timestamp=timeList[i][0];
+            int threadId=timeList[i][1];
+            Console.WriteLine("Thread {0} start at {1}, and end at {2}",threadId,dt[threadId][0],dt[threadId][1]);
+            dt.Remove(theadId);
+        }
+        
+        timeList.Clear();
+    }
+}
+
+class Element
+{
+    public int threadID;
+    public int start;
+    public int end;
+}
+
+el = new Element
+HashMap<int, Elemet> map;//key start
+Queue<int> queue; //start time
+//linkedHashmap();
+
+
+//
+
+
+private static Map<Integer, Integer> endMap = new HashMap<>();
+private static Queue<ThreadTime> timeMap = new PriorityQueue<ThreadTime>(new Comparator<ThreadTime>() {
+
+    @Override
+    public int compare(ThreadTime o1, ThreadTime o2) {
+        // TODO Auto-generated method stub
+        return o1.start - o2.start;
+    }
+}); 
