@@ -1,6 +1,5 @@
 @author: Leon
 
-### Map
-# HashMap
+### String
+# Sequence
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
-4   0745    https://leetcode.com/problems/prefix-and-suffix-search/

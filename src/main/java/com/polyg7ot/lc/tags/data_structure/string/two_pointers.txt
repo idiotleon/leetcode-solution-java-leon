@@ -1,7 +1,7 @@
-Author: polyg7ot
+Author: Leon
 References:
     https://github.com/huanminwu/LeetCode
 
 ### String
-# 2 Pointers
+# Two Pointers
 3   0680    https://leetcode.com/problems/valid-palindrome-ii/

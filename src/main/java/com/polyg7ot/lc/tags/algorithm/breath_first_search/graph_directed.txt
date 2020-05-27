@@ -2,7 +2,6 @@
 References:
     https://leetcode.com/tag/breadth-first-search/
 
-### BFS
-# Graph
-3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+### Breadth First Search
+# Directed Graph
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
