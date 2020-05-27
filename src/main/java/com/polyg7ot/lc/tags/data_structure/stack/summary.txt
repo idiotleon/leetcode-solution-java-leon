@@ -1,6 +1,7 @@
 Author: Leon
 References:
     https://github.com/huanminwu/LeetCode
+    https://leetcode.com/tag/stack/
 
 ###Stack
 2   0496    https://leetcode.com/problems/next-greater-element-i/

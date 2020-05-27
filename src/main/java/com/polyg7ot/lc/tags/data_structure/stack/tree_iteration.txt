@@ -1,6 +1,7 @@
 Author: polyg7ot
 References:
     https://github.com/huanminwu/LeetCode
+    https://leetcode.com/tag/stack/
 
 ### Stack
 # Tree - Traversal - Iteration

@@ -12,7 +12,7 @@ package com.polyg7ot.lc.lvl3.lc0938;
 
 import com.polyg7ot.data_structure.tree.TreeNode;
 
-public class SolutionApproach0TopDown {
+public class SolutionApproach0DFSTopDown {
     public int rangeSumBST(TreeNode root, int L, int R) {
         if(root == null) return 0;
         

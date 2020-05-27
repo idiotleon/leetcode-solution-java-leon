@@ -2,11 +2,14 @@
  * https://leetcode.com/problems/redundant-connection/
  * 
  * Time Complexity: O(N)
- * Space Complexity: O(N);
+ * Space Complexity: O(N)
+ * 
+ * Similar Problems:
+ *  https://leetcode.com/problems/redundant-connection-ii/
  */
 package com.polyg7ot.lc.lvl3.lc0684;
 
-public class SolutionApproachUnionFind {
+public class SolutionApproach0UnionFind1 {
     public int[] findRedundantConnection(int[][] edges) {
         int[] parents = new int[edges.length + 1];
         

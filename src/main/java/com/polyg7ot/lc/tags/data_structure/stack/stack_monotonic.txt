@@ -1,9 +1,10 @@
 Author: polyg7ot
 References:
     https://github.com/huanminwu/LeetCode
+    https://leetcode.com/tag/stack/
 
 ### Stack:
-# Monotonous Stack:
+# Monotonic Stack:
 2   0496    https://leetcode.com/problems/next-greater-element-i/
 
 3   0901    https://leetcode.com/problems/online-stock-span/

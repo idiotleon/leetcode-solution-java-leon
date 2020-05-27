@@ -1,4 +1,4 @@
-Author: Leon
+Author: polyg7ot
 References:
     https://github.com/huanminwu/LeetCode
     https://leetcode.com/tag/union-find/

@@ -1,9 +1,24 @@
 /**
  * @author: Leon
  * 
+ * pseudo code:
+ *  binarySearch(nums, left, right)
+ *      mid = left + (right - left) / 2
+ *      if f(mid): binarySearch(nums, left, mid)
+ *      else binarySearch(nums, mid + 1, right)
+ * 
+ * Time Complexity:
+ *  T(N) = T(N / 2) + O(1) = O(lg(N))
+ * 
+ * Space Comlexity:
+ *  O(lg(N))
+ * 
+ * 
+ * 
  * References:
  *  https://en.wikipedia.org/wiki/Binary_search_algorithm
  *  https://stackoverflow.com/a/30928332/6061609
+ *  https://www.youtube.com/watch?v=OQi4n8EKRD8
  */
 package com.polyg7ot.algorithm.template.search.binary_search;
 
