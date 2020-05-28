@@ -1,4 +1,4 @@
-package com.polyg7ot.algorithm.template.search.binary_search;
+package com.polyg7ot.algorithm.summary.search.binary_search;
 
 public class KthSmallest {
     /**

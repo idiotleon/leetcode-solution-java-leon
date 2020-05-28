@@ -20,7 +20,7 @@
  * References:
  *  https://www.youtube.com/watch?v=OQi4n8EKRD8
  */
-package com.polyg7ot.algorithm.template.sort.merge_sort;
+package com.polyg7ot.algorithm.summary.sort.merge_sort;
 
 public class MergeSort {
     

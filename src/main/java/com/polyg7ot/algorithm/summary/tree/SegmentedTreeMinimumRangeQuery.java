@@ -5,7 +5,7 @@
  * https://www.youtube.com/watch?v=ZBHKZF5w4YU
  * https://github.com/mission-peace/interview/blob/master/src/com/interview/tree/SegmentTreeMinimumRangeQuery.java
  */
-package com.polyg7ot.algorithm.template.tree;
+package com.polyg7ot.algorithm.summary.tree;
 
 public class SegmentedTreeMinimumRangeQuery {
     /**

@@ -9,7 +9,7 @@
  * https://github.com/mission-peace/interview/blob/master/src/com/interview/tree/FenwickTree.java
  * https://en.wikipedia.org/wiki/Fenwick_tree
  */
-package com.polyg7ot.algorithm.template.tree;
+package com.polyg7ot.algorithm.summary.tree;
 
 public class BinaryIndexedTree {
     /**

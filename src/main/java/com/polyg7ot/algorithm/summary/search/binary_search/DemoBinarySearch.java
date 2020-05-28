@@ -2,7 +2,7 @@
  * @author: Leon
  * 
  */
-package com.polyg7ot.algorithm.template.search.binary_search;
+package com.polyg7ot.algorithm.summary.search.binary_search;
 
 public class DemoBinarySearch {
     private static final int[] oddArrWithoutDup = new int[]{1,3,4,5,6,7,9};

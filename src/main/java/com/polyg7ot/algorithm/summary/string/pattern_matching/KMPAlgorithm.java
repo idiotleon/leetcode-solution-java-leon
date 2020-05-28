@@ -4,7 +4,7 @@
  * Time Complexity: O(N)
  * Space Complexity: O(N)
  */
-package com.polyg7ot.algorithm.template.string.pattern_matching;
+package com.polyg7ot.algorithm.summary.string.pattern_matching;
 
 public class KMPAlgorithm {
     public int[] buildKMPTable(String pattern){

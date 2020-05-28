@@ -15,7 +15,7 @@
  * References:
  *  https://www.youtube.com/watch?v=OQi4n8EKRD8
  */
-package com.polyg7ot.algorithm.template.recursion;
+package com.polyg7ot.algorithm.summary.recursion;
 
 public class Combination {
     

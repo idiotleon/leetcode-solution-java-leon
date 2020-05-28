@@ -3,7 +3,7 @@
  * 
  * https://github.com/mission-peace/interview/blob/master/src/com/interview/string/ZAlgorithm.java
  */
-package com.polyg7ot.algorithm.template.string.pattern_matching;
+package com.polyg7ot.algorithm.summary.string.pattern_matching;
 
 import java.util.ArrayList;
 import java.util.List;

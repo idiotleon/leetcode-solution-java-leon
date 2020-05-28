@@ -1,4 +1,4 @@
-package com.polyg7ot.algorithm.template.sort.heap_sort;
+package com.polyg7ot.algorithm.summary.sort.heap_sort;
 
 import java.util.Collections;
 import java.util.Comparator;

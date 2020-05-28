@@ -20,7 +20,7 @@
  *  https://stackoverflow.com/a/30928332/6061609
  *  https://www.youtube.com/watch?v=OQi4n8EKRD8
  */
-package com.polyg7ot.algorithm.template.search.binary_search;
+package com.polyg7ot.algorithm.summary.search.binary_search;
 
 public class BinarySearch {
     /**

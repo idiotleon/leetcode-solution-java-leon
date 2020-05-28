@@ -5,5 +5,7 @@ References:
 
 ### UnionFind
 # Undirected Graph
+3   0886    https://leetcode.com/problems/possible-bipartition/
+
 4   0305    https://leetcode.com/problems/number-of-islands-ii/
 4   0684    https://leetcode.com/problems/redundant-connection/

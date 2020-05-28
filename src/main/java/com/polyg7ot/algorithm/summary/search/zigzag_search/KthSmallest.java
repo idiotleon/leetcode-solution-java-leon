@@ -1,4 +1,4 @@
-package com.polyg7ot.algorithm.template.search.zigzag_search;
+package com.polyg7ot.algorithm.summary.search.zigzag_search;
 
 public class KthSmallest {
     /**

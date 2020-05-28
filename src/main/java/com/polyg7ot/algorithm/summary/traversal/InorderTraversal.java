@@ -18,7 +18,7 @@
  * References:
  *  https://www.youtube.com/watch?v=OQi4n8EKRD8
  */
-package com.polyg7ot.algorithm.template.traversal;
+package com.polyg7ot.algorithm.summary.traversal;
 
 public class InorderTraversal {
     

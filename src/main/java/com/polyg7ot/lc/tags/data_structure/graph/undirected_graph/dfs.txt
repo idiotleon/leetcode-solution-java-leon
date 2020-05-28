@@ -4,4 +4,5 @@ References:
 
 ### Graph
 # Undirected Graph - DFS
+3   0886    https://leetcode.com/problems/possible-bipartition/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
