@@ -7,3 +7,5 @@
 3   0851    https://leetcode.com/problems/loud-and-rich/
 3   0886    https://leetcode.com/problems/possible-bipartition/
 
+# Resources:
+    https://leetcode.com/problems/accounts-merge/discuss/109162/summary-for-dfs-templates

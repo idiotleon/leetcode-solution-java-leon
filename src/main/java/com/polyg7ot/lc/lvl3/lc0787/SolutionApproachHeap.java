@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/cheapest-flights-within-k-stops/
  */
-package com.polyg7ot.lc.lvl3.lc0737;
+package com.polyg7ot.lc.lvl3.lc0787;
 
 import java.util.HashMap;
 import java.util.Map;

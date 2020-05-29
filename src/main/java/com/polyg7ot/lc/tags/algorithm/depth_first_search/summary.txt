@@ -39,3 +39,4 @@ References:
 
 Resources:
     https://leetcode.com/problems/race-car/discuss/124326/summary-of-the-bfs-and-dp-solutions-with-intuitive-explanation
+    https://leetcode.com/problems/accounts-merge/discuss/109162/summary-for-dfs-templates

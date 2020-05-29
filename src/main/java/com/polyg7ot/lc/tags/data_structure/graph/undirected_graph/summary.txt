@@ -9,3 +9,6 @@ References:
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
 
 4   0305    https://leetcode.com/problems/number-of-islands-ii/
+
+# Resouces:
+    https://leetcode.com/problems/accounts-merge/discuss/109162/summary-for-dfs-templates

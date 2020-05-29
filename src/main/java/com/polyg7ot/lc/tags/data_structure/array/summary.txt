@@ -19,6 +19,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0373    https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
 3   0436    https://leetcode.com/problems/find-right-interval/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
+3   0737    https://leetcode.com/problems/sentence-similarity-ii/
 3   0911    https://leetcode.com/problems/online-election/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
 3   1060    https://leetcode.com/problems/missing-element-in-sorted-array/

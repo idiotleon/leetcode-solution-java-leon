@@ -6,3 +6,6 @@
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
 
 4   0399    https://leetcode.com/problems/evaluate-division/
+
+# Resources:
+    https://leetcode.com/problems/accounts-merge/discuss/109162/summary-for-dfs-templates

@@ -3,6 +3,9 @@ References:
     https://leetcode.com/tag/graph/
 
 ### Graph
-# Undirected Graph - DFS
+# Undirected Graph - Depth First Search
 3   0886    https://leetcode.com/problems/possible-bipartition/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
+
+# Resources:
+    https://leetcode.com/problems/accounts-merge/discuss/109162/summary-for-dfs-templates
