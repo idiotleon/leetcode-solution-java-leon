@@ -8,7 +8,7 @@ import java.util.List;
 
 import com.polyg7ot.data_structure.tree.TreeNode;
 
-public class SolutionApproachDFS {
+public class SolutionApproach1DFS {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<Integer>();
         // sanity check

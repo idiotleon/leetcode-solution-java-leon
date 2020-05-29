@@ -1,5 +1,6 @@
 @author: Leon
 References:
+    https://leetcode.com/tag/array/
 
 This file serves as the total list of problems related to Array, regardless of any subcategory
 ### Array

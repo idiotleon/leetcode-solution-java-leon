@@ -9,7 +9,7 @@ import java.util.Stack;
 
 import com.polyg7ot.data_structure.tree.TreeNode;
 
-public class SolutionCheatingApproachReversingPreorderIteration {
+public class SolutionCheatingApproach1ReversingPreorderIteration {
     public List<Integer> postorderTraversal(TreeNode root) {
         LinkedList<TreeNode> stack = new LinkedList<TreeNode>();
         LinkedList<Integer> output = new LinkedList<Integer>();
