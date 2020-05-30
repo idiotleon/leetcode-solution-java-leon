@@ -15,5 +15,7 @@ References:
 4   0305    https://leetcode.com/problems/number-of-islands-ii/
 4   0399    https://leetcode.com/problems/evaluate-division/
 4   0684    https://leetcode.com/problems/redundant-connection/
+4   0765    https://leetcode.com/problems/couples-holding-hands/
+4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 
 5   0685    https://leetcode.com/problems/redundant-connection-ii/

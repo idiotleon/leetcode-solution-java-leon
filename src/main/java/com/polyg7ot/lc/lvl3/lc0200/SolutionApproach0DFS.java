@@ -1,14 +1,21 @@
 /**
  * https://leetcode.com/problems/number-of-islands/
+ * 
+ * Time Complexity:     O(NR * NC)
+ * Space Complexity:    O(NR * NC)
+ * 
+ * Similar Problems:
+ *  https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
  */
 package com.polyg7ot.lc.lvl3.lc0200;
 
-public class SolutionApproachDFS {
+public class SolutionApproach0DFS {
     private static final int[][] DIRS = {{-1, 0}, {0, -1}, {1, 0}, {0, 1}};
     private int NR, NC;
     
     public int numIslands(char[][] grid) {
         int numIslands = 0;
+        // sanity check
         if(grid == null || grid.length == 0) return numIslands;
         
         NR = grid.length;
