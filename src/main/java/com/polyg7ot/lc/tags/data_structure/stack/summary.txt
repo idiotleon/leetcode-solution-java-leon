@@ -4,6 +4,8 @@ References:
     https://leetcode.com/tag/stack/
 
 ###Stack
+
+2   0226    https://leetcode.com/problems/invert-binary-tree/
 2   0496    https://leetcode.com/problems/next-greater-element-i/
 2   1196    https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/
 
