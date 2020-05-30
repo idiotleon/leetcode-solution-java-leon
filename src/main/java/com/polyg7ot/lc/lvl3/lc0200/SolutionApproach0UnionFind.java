@@ -1,12 +1,19 @@
 /**
  * https://leetcode.com/problems/number-of-islands/
+ * 
+ * Time Complexity:     O(NR * NC)
+ * Space Complexity:    O(NR * NC)
+ * 
+ * Similar Problems:
+ *  https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
  */
 package com.polyg7ot.lc.lvl3.lc0200;
 
-public class SolutionApproachUnionFind {
+public class SolutionApproach0UnionFind {
     private final int[][] DIRS = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
     
     public int numIslands(char[][] grid) {
+        // sanity check
         if(grid == null || grid.length == 0) return 0;
         
         int NR = grid.length, NC = grid[0].length;
@@ -29,11 +36,11 @@ public class SolutionApproachUnionFind {
         return uf.getCount();
     }
     
-    class UnionFind{
-        int count;
-        int[] parent, rank;
+    private class UnionFind{
+        private int count;
+        private int[] parent, rank;
         
-        public UnionFind(char[][] grid){
+        protected UnionFind(char[][] grid){
             int NR = grid.length, NC = grid[0].length;
             parent = new int[NR * NC];
             rank = new int[NR * NC];
@@ -51,7 +58,7 @@ public class SolutionApproachUnionFind {
         }
         
         // union by rank
-        public void union(int x, int y){
+        protected void union(int x, int y){
             int rootx = find(x), rooty = find(y);
             if(rootx != rooty){
                 if(rank[rootx] > rank[rooty]){
@@ -67,7 +74,7 @@ public class SolutionApproachUnionFind {
             }
         }
         
-        public int find(int i){
+        protected int find(int i){
             // path compression
             if(parent[i] != i){
                 parent[i] = find(parent[i]);
@@ -76,7 +83,7 @@ public class SolutionApproachUnionFind {
             return parent[i];
         }
         
-        public int getCount(){
+        protected int getCount(){
             return count;
         }
     }
