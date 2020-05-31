@@ -6,6 +6,7 @@ References:
 ### Depth First Search
 # Tree
 2   0226    https://leetcode.com/problems/invert-binary-tree/
+2   0617    https://leetcode.com/problems/merge-two-binary-trees/
 2   0720    https://leetcode.com/problems/longest-word-in-dictionary/
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 
