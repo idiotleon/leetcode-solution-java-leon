@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
  * 
  * Time Complexity:     O(N)
- * Space Complexity:    O(N)
+ * Space Complexity:    O(1)
  * 
  * to find the max 2 numbers
  * 

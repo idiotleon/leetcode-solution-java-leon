@@ -12,5 +12,6 @@ References:
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
+4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
 
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
