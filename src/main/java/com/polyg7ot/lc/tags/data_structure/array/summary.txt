@@ -10,6 +10,8 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0704    https://leetcode.com/problems/binary-search/
 2   0744    https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
+2   1464    https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
+2   1465    https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
 
 3   0162    https://leetcode.com/problems/find-peak-element/
 3   0275    https://leetcode.com/problems/h-index-ii/
