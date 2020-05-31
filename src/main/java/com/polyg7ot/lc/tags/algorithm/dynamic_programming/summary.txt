@@ -10,6 +10,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   0338    https://leetcode.com/problems/counting-bits/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 
+4   0072    https://leetcode.com/problems/edit-distance/
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
