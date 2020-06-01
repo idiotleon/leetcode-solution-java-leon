@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/longest-increasing-subsequence/
  * 
- * Time Complexity: O(N * lg(N))
- * Space Complexity: O(1)
+ * Time Complexity:     O(N * lg(N))
+ * Space Complexity:    O(1)
  * 
  * References:
  *  https://leetcode.com/problems/longest-increasing-subsequence/discuss/74825/Short-Java-solution-using-DP-O(n-log-n)
