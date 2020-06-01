@@ -29,6 +29,9 @@
  * 
  * References:
  *  https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation
+ * 
+ * Similar Problems:
+ *  5   0354    https://leetcode.com/problems/russian-doll-envelopes/
  */
 package com.polyg7ot.lc.lvl3.lc0300;
 
