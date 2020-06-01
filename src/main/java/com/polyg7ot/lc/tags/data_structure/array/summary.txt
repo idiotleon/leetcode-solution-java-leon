@@ -32,6 +32,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
+4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
 4   0719    https://leetcode.com/problems/find-k-th-smallest-pair-distance/
@@ -45,6 +46,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
 
 5   0327    https://leetcode.com/problems/count-of-range-sum/
+5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0493    https://leetcode.com/problems/reverse-pairs/
 5   0644    https://leetcode.com/problems/maximum-average-subarray-ii/
 5   0774    https://leetcode.com/problems/minimize-max-distance-to-gas-station/
