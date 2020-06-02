@@ -3,6 +3,8 @@ References:
     https://github.com/huanminwu/LeetCode
 
 ### Tree
+2   0951    https://leetcode.com/problems/flip-equivalent-binary-trees/
+
 3   0270    https://leetcode.com/problems/closest-binary-search-tree-value/
 3   0938    https://leetcode.com/problems/range-sum-of-bst/
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
