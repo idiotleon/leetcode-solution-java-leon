@@ -15,6 +15,8 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
+4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
+4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
 

@@ -1,12 +1,16 @@
 /**
  * https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
+ * 
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(H)
  */
 package com.polyg7ot.lc.lvl4.lc0298;
 
 import com.polyg7ot.data_structure.tree.TreeNode;
 
-public class SolutionApproachDFSBottomUp {
+public class SolutionApproach0Preorder1 {
     public int longestConsecutive(TreeNode root) {
+        // sanity check
         if(root == null) return 0;
         
         return Math.max(dfs(root.left, 1, root.val + 1), dfs(root.right, 1, root.val + 1));

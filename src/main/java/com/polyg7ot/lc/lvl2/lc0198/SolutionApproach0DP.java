@@ -13,6 +13,7 @@ public class SolutionApproach0DP {
     public int rob(int[] nums) {
         // sanity check
         if(nums == null || nums.length == 0) return 0;
+        
         int prevNo = 0, prevYes = 0;
         
         for(int num : nums){

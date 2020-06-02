@@ -1,0 +1,6 @@
+@author: Leon
+
+### Array
+# Dynamic Programming
+
+4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/

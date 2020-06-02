@@ -2,6 +2,7 @@
 # Preorder
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 
+4   0298    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 4   0314    https://leetcode.com/problems/binary-tree-vertical-order-traversal/
 
 Resources:

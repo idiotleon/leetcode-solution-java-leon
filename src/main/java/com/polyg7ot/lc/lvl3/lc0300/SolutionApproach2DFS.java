@@ -1,18 +1,20 @@
 /**
  * https://leetcode.com/problems/longest-increasing-subsequence/
  * 
- * Time Complexity: O(N ^ 2)
- * Space Complexity: O(N)
+ * Time Complexity:     O(N ^ 2)
+ * Space Complexity:    O(N)
  *  O(N), the call stack
  * 
  * References:
  *  https://www.youtube.com/watch?v=CE2b_-XfVDk
  *  https://github.com/mission-peace/interview/blob/master/src/com/interview/dynamic/LongestIncreasingSubsequence.java
+ *  https://www.youtube.com/watch?v=7DKFpWnaxLI&list=PLLuMmzMTgVK7vEbeHBDD42pqqG36jhuOr&index=94
  */
 package com.polyg7ot.lc.lvl3.lc0300;
 
 public class SolutionApproach2DFS {
     public int lengthOfLIS(int[] nums) {
+        // santiy check
         if(nums == null || nums.length == 0) return 0;
         
         int maxLen = 0;
