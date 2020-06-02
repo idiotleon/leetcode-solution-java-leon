@@ -1,6 +1,9 @@
 @author: Leon
 
 ### Sorting
+
+1   1046    https://leetcode.com/problems/last-stone-weight/
+
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
 
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
