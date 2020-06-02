@@ -1,0 +1,6 @@
+@author: Leon
+
+### Greedy
+# Array
+
+4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/

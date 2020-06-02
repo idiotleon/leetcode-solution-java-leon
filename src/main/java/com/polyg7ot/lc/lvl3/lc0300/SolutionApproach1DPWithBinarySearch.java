@@ -6,6 +6,16 @@
  * 
  * References:
  *  https://leetcode.com/problems/longest-increasing-subsequence/discuss/74825/Short-Java-solution-using-DP-O(n-log-n)
+ * 
+ * Similar Problems
+ *  2   0674    https://leetcode.com/problems/longest-continuous-increasing-subsequence/
+ *  3   1048    https://leetcode.com/problems/longest-string-chain/
+ *  4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
+ *  4   0368    https://leetcode.com/problems/largest-divisible-subset/
+ *  4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
+ *  4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+ *  4   0740    https://leetcode.com/problems/delete-and-earn/
+ *  5   0354    https://leetcode.com/problems/russian-doll-envelopes/
  */
 package com.polyg7ot.lc.lvl3.lc0300;
 

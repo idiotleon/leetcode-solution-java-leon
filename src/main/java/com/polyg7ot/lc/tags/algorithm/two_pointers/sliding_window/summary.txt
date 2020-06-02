@@ -1,0 +1,6 @@
+@author: Leon
+
+
+
+Resources:
+    https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/discuss/611269/extra-explanation-of-the-returned-value-in-the-sliding-window-approach/562174
