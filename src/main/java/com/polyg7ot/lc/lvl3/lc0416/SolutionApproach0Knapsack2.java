@@ -1,11 +1,23 @@
 /**
  * https://leetcode.com/problems/partition-equal-subset-sum/
  * 
+ * Time Complexity:     
+ * Space Complexity:    
  * 
+ * Since the problem is a 0-1 backpack problem, 
+ * we only have two choices which are take or not. 
+ * Thus in this problem, 
+ * by using the sum value as the index of DP array, 
+ * we transfer the problem to "whether should we take the currently visited number into the sum or not".
+ * 
+ * 
+ * Refences:
+ *  https://leetcode.com/problems/partition-equal-subset-sum/discuss/90627/Java-Solution-similar-to-backpack-problem-Easy-to-understand
+ *  https://leetcode.com/problems/partition-equal-subset-sum/discuss/90627/Java-Solution-similar-to-backpack-problem-Easy-to-understand/95090
  */
 package com.polyg7ot.lc.lvl3.lc0416;
 
-public class SolutionApproach0DP {
+public class SolutionApproach0Knapsack2 {
     public boolean canPartition(int[] nums) {
         // sanity check
         if(nums == null || nums.length == 0) return true;

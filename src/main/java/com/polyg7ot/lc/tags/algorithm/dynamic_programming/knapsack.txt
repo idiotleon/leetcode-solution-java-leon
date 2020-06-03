@@ -1,0 +1,9 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode
+    https://leetcode.com/tag/dynamic-programming/
+
+### Dynamic Programming
+# Knapsack
+
+3   0416    https://leetcode.com/problems/partition-equal-subset-sum/

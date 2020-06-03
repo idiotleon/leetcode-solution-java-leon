@@ -1,5 +1,6 @@
 @author: Leon
 References:
+    https://github.com/huanminwu/LeetCode
     https://leetcode.com/tag/dynamic-programming/
 
 This serves the total list of problems related to Dynamic Programming, regardless of subcategories
@@ -9,6 +10,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0338    https://leetcode.com/problems/counting-bits/
+3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 
 4   0072    https://leetcode.com/problems/edit-distance/

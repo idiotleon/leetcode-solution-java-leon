@@ -1,6 +1,7 @@
-Author: polyg7ot
+@author: Leon
 References:
     https://github.com/huanminwu/LeetCode
+    https://leetcode.com/tag/dynamic-programming/
 
 ### Dynamic Programming
 # 1D
