@@ -5,6 +5,9 @@ References:
 
 ### Dynamic Programming
 # 2D
+
+2   1029    https://leetcode.com/problems/two-city-scheduling/
+
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 3   1277    https://leetcode.com/problems/count-square-submatrices-with-all-ones/

@@ -3,5 +3,7 @@
 ### Array
 # Dynamic Programming
 
+2   1029    https://leetcode.com/problems/two-city-scheduling/
+
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0740    https://leetcode.com/problems/delete-and-earn/

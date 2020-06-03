@@ -7,6 +7,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 ### Dynamic Programming
 
 2   0413    https://leetcode.com/problems/arithmetic-slices/
+2   1029    https://leetcode.com/problems/two-city-scheduling/
 
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0338    https://leetcode.com/problems/counting-bits/
