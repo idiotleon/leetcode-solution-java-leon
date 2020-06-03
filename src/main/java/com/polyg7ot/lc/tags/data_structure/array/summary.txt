@@ -46,6 +46,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+3   1048    https://leetcode.com/problems/longest-string-chain/
 4   1231    https://leetcode.com/problems/divide-chocolate/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/

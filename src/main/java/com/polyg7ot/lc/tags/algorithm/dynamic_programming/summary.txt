@@ -20,6 +20,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
+3   1048    https://leetcode.com/problems/longest-string-chain/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/

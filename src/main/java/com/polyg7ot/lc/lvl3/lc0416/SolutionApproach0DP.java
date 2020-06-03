@@ -5,7 +5,7 @@
  */
 package com.polyg7ot.lc.lvl3.lc0416;
 
-public class SolutionApproachDP {
+public class SolutionApproach0DP {
     public boolean canPartition(int[] nums) {
         // sanity check
         if(nums == null || nums.length == 0) return true;

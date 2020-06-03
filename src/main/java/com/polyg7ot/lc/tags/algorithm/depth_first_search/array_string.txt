@@ -2,4 +2,7 @@
 
 ### DFS
 # Array String:
+
+3   1048    https://leetcode.com/problems/longest-string-chain/
+
 5   0472    https://leetcode.com/problems/concatenated-words/

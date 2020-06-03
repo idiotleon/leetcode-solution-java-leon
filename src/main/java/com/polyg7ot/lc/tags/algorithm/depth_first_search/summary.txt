@@ -23,6 +23,7 @@ References:
 3   0886    https://leetcode.com/problems/possible-bipartition/
 3   0938    https://leetcode.com/problems/range-sum-of-bst/
 3   1023    https://leetcode.com/problems/camelcase-matching/
+3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/

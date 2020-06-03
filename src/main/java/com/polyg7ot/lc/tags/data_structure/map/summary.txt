@@ -1,6 +1,8 @@
 @author: Leon
 
 ### Map
+
+3   1048    https://leetcode.com/problems/longest-string-chain/
 3   0981    https://leetcode.com/problems/time-based-key-value-store/
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
