@@ -6,5 +6,6 @@
 3   0865    https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
+4   0740    https://leetcode.com/problems/delete-and-earn/
 
 5   0472    https://leetcode.com/problems/concatenated-words/

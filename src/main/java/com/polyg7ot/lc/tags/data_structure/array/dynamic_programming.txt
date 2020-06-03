@@ -4,3 +4,4 @@
 # Dynamic Programming
 
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
+4   0740    https://leetcode.com/problems/delete-and-earn/
