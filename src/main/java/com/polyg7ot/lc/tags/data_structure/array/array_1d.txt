@@ -36,6 +36,7 @@ References:
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1060    https://leetcode.com/problems/missing-element-in-sorted-array/
 3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
+3   1048    https://leetcode.com/problems/longest-string-chain/
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0154    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
@@ -46,6 +47,7 @@ References:
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   0719    https://leetcode.com/problems/find-k-th-smallest-pair-distance/
+4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0768    https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
 4   0769    https://leetcode.com/problems/max-chunks-to-make-sorted/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/

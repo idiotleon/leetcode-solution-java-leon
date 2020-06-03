@@ -2,9 +2,13 @@
 
 ### DFS
 # Memoization
+
+3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0851    https://leetcode.com/problems/loud-and-rich/
 3   0865    https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
+3   1048    https://leetcode.com/problems/longest-string-chain/
 
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
+4   0740    https://leetcode.com/problems/delete-and-earn/
 
 5   0472    https://leetcode.com/problems/concatenated-words/

@@ -6,5 +6,6 @@
 
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/
 3   1023    https://leetcode.com/problems/camelcase-matching/
+3   1048    https://leetcode.com/problems/longest-string-chain/
 
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/

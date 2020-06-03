@@ -4,6 +4,9 @@
 # Depth First Search
 
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
+4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+3   1048    https://leetcode.com/problems/longest-string-chain/
 
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
+

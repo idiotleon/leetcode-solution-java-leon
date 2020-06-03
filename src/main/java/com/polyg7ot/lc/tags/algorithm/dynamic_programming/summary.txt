@@ -1,14 +1,17 @@
 @author: Leon
 References:
+    https://github.com/huanminwu/LeetCode
     https://leetcode.com/tag/dynamic-programming/
 
 This serves the total list of problems related to Dynamic Programming, regardless of subcategories
 ### Dynamic Programming
 
 2   0413    https://leetcode.com/problems/arithmetic-slices/
+2   1029    https://leetcode.com/problems/two-city-scheduling/
 
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0338    https://leetcode.com/problems/counting-bits/
+3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 
 4   0072    https://leetcode.com/problems/edit-distance/
@@ -17,8 +20,10 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
+3   1048    https://leetcode.com/problems/longest-string-chain/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
