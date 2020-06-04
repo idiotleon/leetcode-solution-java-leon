@@ -7,6 +7,7 @@
 2   0392    https://leetcode.com/problems/is-subsequence/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
 
+3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 
