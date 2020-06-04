@@ -11,10 +11,10 @@ References:
 3   1048    https://leetcode.com/problems/longest-string-chain/
 
 4   0174    https://leetcode.com/problems/dungeon-game/
+4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   0740    https://leetcode.com/problems/delete-and-earn/
 
 
 Resources:
     https://www.hackerearth.com/practice/algorithms/dynamic-programming/state-space-reduction/tutorial/
-    

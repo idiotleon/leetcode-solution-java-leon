@@ -15,6 +15,7 @@ References:
 4   0072    https://leetcode.com/problems/edit-distance/
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
+4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
 4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
