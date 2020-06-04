@@ -13,3 +13,8 @@ References:
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+
+
+Resources:
+    https://www.hackerearth.com/practice/algorithms/dynamic-programming/state-space-reduction/tutorial/
+    
