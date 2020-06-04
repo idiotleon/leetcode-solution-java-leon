@@ -1,0 +1,6 @@
+@author: Leon
+
+### String
+# Dynamic Programming
+
+3   1143    https://leetcode.com/problems/longest-common-subsequence/
