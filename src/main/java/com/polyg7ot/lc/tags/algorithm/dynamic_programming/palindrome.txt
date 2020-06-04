@@ -1,0 +1,6 @@
+@author: Leoin
+
+### Dynamic Programming
+# Palindrome
+
+3   0647    https://leetcode.com/problems/palindromic-substrings/

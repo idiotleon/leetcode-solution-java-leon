@@ -3,10 +3,11 @@ References:
     https://github.com/huanminwu/LeetCode
     https://leetcode.com/tag/dynamic-programming/
 
-###DP
-#Space Compression
+### Dynamic Programming
+# space compression
 
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
+3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 3   1048    https://leetcode.com/problems/longest-string-chain/
