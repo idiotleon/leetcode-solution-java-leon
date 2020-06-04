@@ -1,0 +1,9 @@
+@author: Leon
+
+### String
+# Dynamic Programming
+
+3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
+3   1143    https://leetcode.com/problems/longest-common-subsequence/
+
+4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/

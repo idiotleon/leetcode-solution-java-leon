@@ -5,4 +5,5 @@
 
 3   1048    https://leetcode.com/problems/longest-string-chain/
 
+4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/

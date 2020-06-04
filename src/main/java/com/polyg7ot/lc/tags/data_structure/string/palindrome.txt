@@ -1,0 +1,9 @@
+@author: Leon
+
+### String
+# Palindrome
+
+3   0647    https://leetcode.com/problems/palindromic-substrings/
+
+4   0132    https://leetcode.com/problems/132-pattern/
+4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/

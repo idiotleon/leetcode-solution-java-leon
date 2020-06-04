@@ -7,9 +7,15 @@ References:
 #Space Compression
 
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
+3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 
 4   0174    https://leetcode.com/problems/dungeon-game/
+4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+
+
+Resources:
+    https://www.hackerearth.com/practice/algorithms/dynamic-programming/state-space-reduction/tutorial/
