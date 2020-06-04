@@ -7,11 +7,13 @@
 2   0392    https://leetcode.com/problems/is-subsequence/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
 
+3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 
 4   0076    https://leetcode.com/problems/minimum-window-substring/
+4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   1111    https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/
