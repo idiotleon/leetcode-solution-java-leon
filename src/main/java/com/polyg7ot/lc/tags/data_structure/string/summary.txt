@@ -16,4 +16,5 @@
 4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
+4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1111    https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/
