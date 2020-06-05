@@ -1,14 +1,14 @@
 /**
  * https://leetcode.com/problems/coin-change/
  * 
- * Time Complexity: O(N ^ 2), where N ~ amount
- * Space Complexity: O(N), where N ~ amount
+ * Time Complexity:     O(N ^ 2), where N ~ amount
+ * Space Complexity:    O(N), where N ~ amount
  */
 package com.polyg7ot.lc.lvl3.lc0322;
 
 import java.util.Arrays;
 
-public class SolutionApproachDP {
+public class SolutionApproach0DP1Dimen2 {
     public int coinChange(int[] coins, int amount) {
         // sanity check
         if(coins == null || coins.length == 0 || amount <= 0) return 0;

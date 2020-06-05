@@ -3,4 +3,6 @@
 ### Greedy
 # Array
 
+3   0322    https://leetcode.com/problems/coin-change/
+
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/

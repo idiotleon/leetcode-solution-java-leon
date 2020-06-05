@@ -1,0 +1,5 @@
+@author: Leon
+
+### Object-Oriented Design
+
+3   0528    https://leetcode.com/problems/random-pick-with-weight/

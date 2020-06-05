@@ -7,4 +7,6 @@
 3   0439    https://leetcode.com/problems/ternary-expression-parser/
 3   0494    https://leetcode.com/problems/target-sum/
 
+4   0115    https://leetcode.com/problems/distinct-subsequences/
+
 5   0425    https://leetcode.com/problems/word-squares/
