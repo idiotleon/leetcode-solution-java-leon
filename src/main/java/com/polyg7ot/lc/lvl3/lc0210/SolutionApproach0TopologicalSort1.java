@@ -8,7 +8,7 @@ package com.polyg7ot.lc.lvl3.lc0210;
 
 import java.util.LinkedList;
 
-public class SolutionApproach0ToplogicalSort1 {
+public class SolutionApproach0TopologicalSort1 {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         int[] ans = new int[numCourses];
         // sanity check

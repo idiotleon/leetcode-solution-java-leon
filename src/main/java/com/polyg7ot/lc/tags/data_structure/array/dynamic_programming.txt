@@ -10,3 +10,5 @@
 
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
+

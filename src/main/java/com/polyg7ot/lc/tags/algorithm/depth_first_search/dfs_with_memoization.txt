@@ -15,5 +15,6 @@
 3   0279    https://leetcode.com/problems/perfect-squares/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 
 5   0472    https://leetcode.com/problems/concatenated-words/

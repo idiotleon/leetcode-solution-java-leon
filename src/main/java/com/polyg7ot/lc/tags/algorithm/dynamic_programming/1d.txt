@@ -30,5 +30,6 @@ References:
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
+4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/

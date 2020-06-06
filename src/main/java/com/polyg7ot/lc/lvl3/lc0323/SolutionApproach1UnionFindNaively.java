@@ -8,7 +8,7 @@ package com.polyg7ot.lc.lvl3.lc0323;
 
 import java.util.Arrays;
 
-public class SolutionApproachUnionFindNaive {
+public class SolutionApproach1UnionFindNaively {
     public int countComponents(int n, int[][] edges) {
         int[] parents = new int[n];
         Arrays.fill(parents, -1);

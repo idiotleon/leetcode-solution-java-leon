@@ -33,6 +33,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
+4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 3   1048    https://leetcode.com/problems/longest-string-chain/

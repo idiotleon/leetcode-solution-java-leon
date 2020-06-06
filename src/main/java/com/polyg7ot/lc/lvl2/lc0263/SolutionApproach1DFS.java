@@ -9,7 +9,7 @@
  */
 package com.polyg7ot.lc.lvl2.lc0263;
 
-public class SolutionApproach0DFS {
+public class SolutionApproach1DFS {
     public boolean isUgly(int num) {
         if(num == 0) return false;
         if(num == 1) return true;
