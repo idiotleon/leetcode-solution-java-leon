@@ -1,16 +1,17 @@
 /**
  * https://leetcode.com/problems/course-schedule-ii/
  * 
- * Time Complexity: O(V + E)
- * Space Complexity: O(V + E)
+ * Time Complexity:     O(numCourses + prerequisites.length)
+ * Space Complexity:    O(numCourses ^ 2)
  */
 package com.polyg7ot.lc.lvl3.lc0210;
 
 import java.util.LinkedList;
 
-public class SolutionApproachTSort {
+public class SolutionApproach0ToplogicalSort1 {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         int[] ans = new int[numCourses];
+        // sanity check
         if(numCourses <= 0) return ans;
         
         int[][] matrix = new int[numCourses][numCourses];

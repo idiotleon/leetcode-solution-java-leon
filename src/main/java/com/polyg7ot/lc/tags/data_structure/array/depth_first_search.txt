@@ -1,7 +1,7 @@
 @author: Leon
 
 ### Array
-# Depth First Search
+# depth first search
 
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   1048    https://leetcode.com/problems/longest-string-chain/
