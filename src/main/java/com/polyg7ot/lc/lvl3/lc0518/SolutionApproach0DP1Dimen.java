@@ -9,6 +9,9 @@
  * 
  * References:
  *  https://leetcode.com/problems/coin-change-2/discuss/99212/Knapsack-problem-Java-solution-with-thinking-process-O(nm)-Time-and-O(m)-Space
+ * 
+ * Almost the same problem:
+ *  https://leetcode.com/problems/combination-sum-iv/discuss/111860/Coin-change-AND-this-problem
  */
 package com.polyg7ot.lc.lvl3.lc0518;
 

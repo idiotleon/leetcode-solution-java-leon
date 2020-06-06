@@ -18,6 +18,7 @@ References:
 3   0264    https://leetcode.com/problems/ugly-number-ii/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0338    https://leetcode.com/problems/counting-bits/
+3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
 3   0562    https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/
 3   1048    https://leetcode.com/problems/longest-string-chain/
