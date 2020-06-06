@@ -1,6 +1,9 @@
 /**
  * https://leetcode.com/problems/unique-binary-search-trees-ii/
  * 
+ * Time Complexity:     O()
+ * Space Complexity:    O()
+ * 
  * https://leetcode.com/problems/unique-binary-search-trees-ii/discuss/31493/Java-Solution-with-DP
  */
 package com.polyg7ot.lc.lvl3.lc0095;
@@ -10,29 +13,28 @@ import java.util.List;
 
 import com.polyg7ot.data_structure.tree.TreeNode;
 
-public class SolutionApproachDP {
+public class SolutionApproach0DP {
     public List<TreeNode> generateTrees(int n) {
-        List<TreeNode>[] result = new List[n + 1];
-        result[0] = new ArrayList<TreeNode>();
+        List<List<TreeNode>> ans = new ArrayList<List<TreeNode>>(n + 1);
+        for(int i = 0; i < n + 1; i++) ans.add(new ArrayList<TreeNode>());
         // sanity check
-        if(n == 0) return result[0];
+        if(n == 0) return ans.get(0);
         
-        result[0].add(null);
+        ans.get(0).add(null);
         for(int len = 1; len <= n; len++){
-            result[len] = new ArrayList<TreeNode>();
             for(int j = 0; j < len; j++){
-                for(TreeNode nodeLeft : result[j]){
-                    for(TreeNode nodeRight : result[len - j - 1]){
+                for(TreeNode nodeLeft : ans.get(j)){
+                    for(TreeNode nodeRight : ans.get(len - j - 1)){
                         TreeNode node = new TreeNode(j + 1);
                         node.left = nodeLeft;
                         node.right = clone(nodeRight, j + 1);
-                        result[len].add(node);
+                        ans.get(len).add(node);
                     }
                 }
             }
         }
         
-        return result[n];
+        return ans.get(n);
     }
     
     private static TreeNode clone(TreeNode n, int offset){

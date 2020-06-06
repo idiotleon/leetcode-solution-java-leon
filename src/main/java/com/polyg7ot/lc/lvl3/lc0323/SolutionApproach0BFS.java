@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
  * 
- * Time Complexity: O(V + E) ~ O(N + M)
- * Space Complexity: O(N)
+ * Time Complexity:     O(V + E) ~ O(n + edges.length)
+ * Space Complexity:    O(n)
  */
 package com.polyg7ot.lc.lvl3.lc0323;
 
@@ -10,18 +10,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.LinkedList;
 
-public class SolutionApproachBFS {
+public class SolutionApproach0BFS {
     public int countComponents(int n, int[][] edges) {
         // to build up the graph
-        List<Integer>[] graph = new List[n];
+        List<List<Integer>> graph = new ArrayList<List<Integer>>();
         
         for(int i = 0; i < n; i++){
-            graph[i] = new ArrayList<Integer>();
+            graph.add(new ArrayList<Integer>());
         }
         
         for(int[] edge : edges){
-            graph[edge[0]].add(edge[1]);
-            graph[edge[1]].add(edge[0]);
+            int u = edge[0], v = edge[1];
+            graph.get(u).add(v);
+            graph.get(v).add(u);
         }
         
         int count = 0;
@@ -33,7 +34,7 @@ public class SolutionApproachBFS {
         return count;
     }
     
-    private int bfs(List<Integer>[] graph, boolean[] visited, int cur){
+    private int bfs(List<List<Integer>> graph, boolean[] visited, int cur){
         if(visited[cur]) return 0;
         visited[cur] = true;
         
@@ -41,7 +42,7 @@ public class SolutionApproachBFS {
         queue.add(cur);
         while(!queue.isEmpty()){
             int u = queue.removeFirst();
-            for(int v : graph[u]){
+            for(int v : graph.get(u)){
                 if(!visited[v]){
                     visited[v] = true;
                     queue.add(v);

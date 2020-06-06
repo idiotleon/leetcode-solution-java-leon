@@ -1,15 +1,15 @@
 /**
  * https://leetcode.com/problems/graph-valid-tree/
  * 
- * Time Complexity: O(V + E)
- * Space Complexity: O(V + E)
+ * Time Complexity:     O(n + edges.length)
+ * Space Complexity:    O(n + edges.length)
  */
 package com.polyg7ot.lc.lvl3.lc0261;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SolutionApproachDFS {
+public class SolutionApproach0DFS {
     public boolean validTree(int n, int[][] edges) {
         // to build up the graph
         List<List<Integer>> graph = new ArrayList<List<Integer>>();

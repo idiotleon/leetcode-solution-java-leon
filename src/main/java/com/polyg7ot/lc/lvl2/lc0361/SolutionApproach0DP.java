@@ -1,12 +1,12 @@
 /**
  * https://leetcode.com/problems/bomb-enemy/
  * 
- * Time Complexity: O(M * N * 2) ~ O(M * N)
- * Space Complexity: O(M * N * 2) ~ O(M * N)
+ * Time Complexity:     O(M * N * 2) ~ O(M * N)
+ * Space Complexity:    O(M * N * 2) ~ O(M * N)
  */
 package com.polyg7ot.lc.lvl2.lc0361;
 
-public class SolutionApproachDP {
+public class SolutionApproach0DP {
     private static final char WALL = 'W';
     private static final char ENEMY = 'E';
     private static final char EMPTY = '0';

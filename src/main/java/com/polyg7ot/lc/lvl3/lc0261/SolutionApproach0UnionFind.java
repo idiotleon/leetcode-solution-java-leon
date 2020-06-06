@@ -1,11 +1,14 @@
 /**
  * https://leetcode.com/problems/graph-valid-tree/
+ * 
+ * Time Complexity:     O()
+ * Space Complexity:    O()
  */
 package com.polyg7ot.lc.lvl3.lc0261;
 
 import java.util.Arrays;
 
-public class SolutionApproachUnionFind {
+public class SolutionApproach0UnionFind {
     public boolean validTree(int n, int[][] edges) {
         int[] nums = new int[n];
         Arrays.fill(nums, -1);

@@ -3,15 +3,15 @@
  * 
  * Union find with path compression, and union by size(rank)
  * 
- * Time Complexity: O(N + alpha(N)) ~ O(N + M)
- * Space Complexity: O(N)
+ * Time Complexity:     O(N + alpha(N)) ~ O(n + edges.length)
+ * Space Complexity:    O(n)
  * 
  * alpha(N): inverse Akermann function
  * 
  */
 package com.polyg7ot.lc.lvl3.lc0323;
 
-public class SolutionApproachUnionFindOptimal {
+public class SolutionApproach0UnionFindOptimal {
     public int countComponents(int n, int[][] edges) {
         int[] nums = new int[n];
         for(int i = 0; i < n; i++){

@@ -6,21 +6,23 @@
  */
 package com.polyg7ot.lc.lvl3.lc0261;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Set;
 
-public class SolutionApproachTSort {
+public class SolutionApproach0TopologicalSort {
     public boolean validTree(int n, int[][] edges) {
-        Set<Integer>[] graph = new HashSet[n];
+        List<Set<Integer>> graph = new ArrayList<Set<Integer>>();
         
         for(int i = 0; i < n; i++){
-            graph[i] = new HashSet<Integer>();
+            graph.add(new HashSet<Integer>());
         }
         
         for(int[] edge : edges){
-            graph[edge[0]].add(edge[1]);
-            graph[edge[1]].add(edge[0]);
+            graph.get(edge[0]).add(edge[1]);
+            graph.get(edge[1]).add(edge[0]);
         }
         
         LinkedList<Integer> queue = new LinkedList<Integer>();
@@ -29,7 +31,7 @@ public class SolutionApproachTSort {
             // (1, []) is expected to return true
             // if(graph[i].size() == 0) return false;
             // eligible (leaf) nodes, with only 1 parent
-            if(graph[i].size() == 1){
+            if(graph.get(i).size() == 1){
                 queue.add(i);
             }
         }
@@ -37,11 +39,11 @@ public class SolutionApproachTSort {
         int count = 0;
         while(!queue.isEmpty()){
             int node = queue.removeFirst();
-            if(graph[node].size() == 0) continue;
-            int parent = graph[node].iterator().next();
+            if(graph.get(node).size() == 0) continue;
+            int parent = graph.get(node).iterator().next();
             // --indegree[i]
-            graph[parent].remove(node);
-            if(graph[parent].size() == 1){
+            graph.get(parent).remove(node);
+            if(graph.get(parent).size() == 1){
                 queue.add(parent);
             }
             count++;

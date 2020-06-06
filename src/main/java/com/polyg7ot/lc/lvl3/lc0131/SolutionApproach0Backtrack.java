@@ -1,12 +1,15 @@
 /**
  * https://leetcode.com/problems/palindrome-partitioning/
+ * 
+ * Time Complexity:     O()
+ * Space Complexity:    O()
  */
 package com.polyg7ot.lc.lvl3.lc0131;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SolutionApproachBacktrack {
+public class SolutionApproach0Backtrack {
     public List<List<String>> partition(String s) {
         List<List<String>> ans = new ArrayList<>();
         backtrack(ans, new ArrayList<String>(), s, 0);
@@ -14,9 +17,9 @@ public class SolutionApproachBacktrack {
     }
     
     private void backtrack(List<List<String>> ans, 
-                     List<String> intermediate, 
-                     String str, 
-                     int startPos){
+                           List<String> intermediate, 
+                           String str, 
+                           int startPos){
         if(startPos == str.length()){
             ans.add(new ArrayList<String>(intermediate));
             return;

@@ -1,5 +1,8 @@
 /**
  * https://leetcode.com/problems/unique-binary-search-trees-ii/
+ * 
+ * Time Complexity:     O()
+ * Space Complexity:    O()
  */
 package com.polyg7ot.lc.lvl3.lc0095;
 
@@ -9,7 +12,7 @@ import java.util.List;
 import com.polyg7ot.data_structure.tree.TreeNode;
 
 
-public class SolutionApproachRecursion {
+public class SolutionApproach0Recursion {
     public List<TreeNode> generateTrees(int n) {
         if(n == 0) return new ArrayList<TreeNode>();
         return generateTrees(1, n);

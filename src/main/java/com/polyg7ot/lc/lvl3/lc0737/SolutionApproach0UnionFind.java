@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/sentence-similarity-ii/
  * 
- * Time Complexity: O(pairs.size() + 2 * words1.length * pairs.size() * lg(pairs.size())) ~ O(words1.length * pairs.size() * lg(pairs.size()) )
- * Space Complexity: O(pairs.size())
+ * Time Complexity:     O(pairs.size() + 2 * words1.length * pairs.size() * lg(pairs.size())) ~ O(words1.length * pairs.size() * lg(pairs.size()) )
+ * Space Complexity:    O(pairs.size())
  * 
  * References:
  *  https://leetcode.com/problems/sentence-similarity-ii/discuss/109752/JavaC%2B%2B-Clean-Code-with-Explanation
@@ -31,23 +31,6 @@ public class SolutionApproach0UnionFind {
         }
         
         return true;
-    }
-
-    private String findWithPathCompression(Map<String, String> roots, String word){
-        if(!roots.containsKey(word)){
-            roots.put(word, word);
-            return word;
-        }
-        
-        while(!roots.get(word).equals(word)){
-            if(roots.containsKey(roots.get(word))){
-                // path compression
-                roots.put(word, roots.get(word));   
-            }
-            word = roots.get(word); 
-        }
-        
-        return word;
     }
     
     private String find(Map<String, String> roots, String word){

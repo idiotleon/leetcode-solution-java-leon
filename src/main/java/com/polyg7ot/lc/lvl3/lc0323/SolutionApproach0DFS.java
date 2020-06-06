@@ -1,26 +1,27 @@
 /**
  * https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
  * 
- * Time Complexity: O(V + E) ~ O(N + M)
- * Space Complexity: O(N)
+ * Time Complexity:     O(V + E) ~ O(n + edges.length)
+ * Space Complexity:    O(n)
  */
 package com.polyg7ot.lc.lvl3.lc0323;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SolutionApproachDFS {
+public class SolutionApproach0DFS {
     public int countComponents(int n, int[][] edges) {
-        List<Integer>[] graph = new ArrayList[n];
+        List<List<Integer>> graph = new ArrayList<List<Integer>>();
         // to initialize the graph
         for(int i = 0; i < n; i++){
-            graph[i] = new ArrayList<Integer>();
+            graph.add(new ArrayList<Integer>());
         }
         
         // to build up the graph
         for(int[] edge : edges){
-            graph[edge[0]].add(edge[1]);
-            graph[edge[1]].add(edge[0]);
+            int u = edge[0], v = edge[1];
+            graph.get(u).add(v);
+            graph.get(v).add(u);
         }
         
         // dfs
@@ -37,10 +38,10 @@ public class SolutionApproachDFS {
         return res;
     }
     
-    private void dfs(List<Integer>[] graph, 
+    private void dfs(List<List<Integer>> graph, 
                      int start, 
                      boolean[] visited){
-        List<Integer> neighbors = graph[start];
+        List<Integer> neighbors = graph.get(start);
         for(int neighbor : neighbors){
             if(!visited[neighbor]){
                 visited[neighbor] = true;

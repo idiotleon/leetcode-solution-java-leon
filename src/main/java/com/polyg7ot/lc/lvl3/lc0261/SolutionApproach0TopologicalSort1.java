@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/graph-valid-tree/
  * 
- * Time Complexity: O(V + E)
- * Space Complexity: O(V + E)
+ * Time Complexity:     O(n + edges.length)
+ * Space Complexity:    O(n + edges.length)
  */
 package com.polyg7ot.lc.lvl3.lc0261;
 
@@ -12,7 +12,7 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.Set;
 
-public class SolutionApproachTSort1 {
+public class SolutionApproach0TopologicalSort1 {
     public boolean validTree(int n, int[][] edges) {
         // to builde up the graph
         Map<Integer, Set<Integer>> graph = new HashMap<Integer, Set<Integer>>();

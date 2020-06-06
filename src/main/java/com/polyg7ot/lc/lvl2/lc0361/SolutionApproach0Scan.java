@@ -1,15 +1,16 @@
 /**
  * https://leetcode.com/problems/bomb-enemy/
  * 
- * Time Complexity: O(M * N * 4) ~ O(M * N)
- * Space Complexity: O(M * N)
+ * Time Complexity:     O(M * N * 4) ~ O(M * N)
+ * Space Complexity:    O(M * N)
  * 
  * https://leetcode.com/problems/bomb-enemy/discuss/83383/Simple-DP-solution-in-Java/87624
  */
 package com.polyg7ot.lc.lvl2.lc0361;
 
-public class SolutionApproachScan {
-    private static final char WALL = 'W';
+public class SolutionApproach0Scan {
+    // not used
+    // private static final char WALL = 'W';
     private static final char ENEMY = 'E';
     private static final char EMPTY = '0';
 
