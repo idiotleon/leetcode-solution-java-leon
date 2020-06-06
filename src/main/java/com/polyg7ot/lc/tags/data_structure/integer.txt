@@ -1,7 +1,6 @@
 @author: Leon
 
-### Depth First Search
-# integer
+### Integer
 
 2   0263    https://leetcode.com/problems/ugly-number/
 
