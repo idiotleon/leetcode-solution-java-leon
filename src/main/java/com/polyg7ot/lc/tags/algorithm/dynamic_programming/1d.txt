@@ -15,6 +15,7 @@ References:
 
 3   0091    https://leetcode.com/problems/decode-ways/
 3   0256    https://leetcode.com/problems/paint-house/
+3   0264    https://leetcode.com/problems/ugly-number-ii/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0338    https://leetcode.com/problems/counting-bits/
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/

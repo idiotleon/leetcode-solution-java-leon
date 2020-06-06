@@ -11,6 +11,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 2   0413    https://leetcode.com/problems/arithmetic-slices/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 
+3   0264    https://leetcode.com/problems/ugly-number-ii/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0338    https://leetcode.com/problems/counting-bits/
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
