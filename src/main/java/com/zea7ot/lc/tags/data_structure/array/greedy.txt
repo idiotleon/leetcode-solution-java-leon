@@ -1,6 +1,8 @@
 @author: Leon
 
 ### Greedy
-# Array
+# array
+
+3   0406    https://leetcode.com/problems/queue-reconstruction-by-height/
 
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
