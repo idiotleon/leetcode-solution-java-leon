@@ -12,7 +12,7 @@
  *  https://leetcode.com/problems/minimum-cost-for-tickets/discuss/504403/DP-it's-not-easy-as-you-thought
  *  https://leetcode.com/problems/minimum-cost-for-tickets/discuss/504403/DP-it's-not-easy-as-you-thought
  */
-package com.polyg7ot.lc.lvl3.lc0983;
+package com.polyg7ot.lc.lvl4.lc0983;
 
 public class SolutionApproach0DP1 {
     public int mincostTickets(int[] days, int[] costs) {

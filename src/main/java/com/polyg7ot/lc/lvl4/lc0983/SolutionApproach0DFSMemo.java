@@ -9,7 +9,7 @@
  *  https://leetcode.com/problems/minimum-cost-for-tickets/discuss/226659/Two-DP-solutions-with-pictures
  *  https://leetcode.com/problems/minimum-cost-for-tickets/discuss/504403/DP-it's-not-easy-as-you-thought
  */
-package com.polyg7ot.lc.lvl3.lc0983;
+package com.polyg7ot.lc.lvl4.lc0983;
 
 public class SolutionApproach0DFSMemo {
     private static final int DAY = 1;

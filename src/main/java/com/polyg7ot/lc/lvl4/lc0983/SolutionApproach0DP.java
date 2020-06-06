@@ -10,7 +10,7 @@
  *  https://leetcode.com/problems/minimum-cost-for-tickets/discuss/227130/Java-DP-Solution-with-detailed-comment-and-explanation
  *  https://leetcode.com/problems/minimum-cost-for-tickets/discuss/226659/Two-DP-solutions-with-pictures
  */
-package com.polyg7ot.lc.lvl3.lc0983;
+package com.polyg7ot.lc.lvl4.lc0983;
 
 public class SolutionApproach0DP {
     public int mincostTickets(int[] days, int[] costs) {
