@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
  * 
- * Time Complexity: O(NR * NC)
- * Space Complexity: O(10000) ~ O(1)
+ * Time Complexity:     O(NR * NC)
+ * Space Complexity:    O(10000) ~ O(1)
  * 
  * References:
  *  https://leetcode.com/problems/find-smallest-common-element-in-all-rows/discuss/387092/JavaC%2B%2BPython-Brute-Force-Count

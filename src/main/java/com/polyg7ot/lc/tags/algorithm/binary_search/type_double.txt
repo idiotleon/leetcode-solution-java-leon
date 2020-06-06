@@ -1,0 +1,6 @@
+@author: Leon
+
+### Binary Search
+# type double
+
+3   0528    https://leetcode.com/problems/random-pick-with-weight/

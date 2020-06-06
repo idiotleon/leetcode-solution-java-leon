@@ -4,12 +4,14 @@
  * Time Complexity:
  *  insert: O(L), where L is the actual length of the word to be inserted
  *  sum:    O(L), where L is the longest branch for that prefix of the Trie
- * Space Copmlexity: O(N * L * 26) + O(L) ~ O(N * L)
+ * 
+ * Space Copmlexity:    O(N * L * 26) + O(L) ~ O(N * L)
  *  Trie:       O(N * L * 26)
  *  Call stack: O(L)
  */
 package com.polyg7ot.lc.lvl2.lc0677;
 
+@SuppressWarnings("unused")
 public class SolutionApproach0Trie {
     private TrieNode root;
 

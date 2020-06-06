@@ -1,0 +1,7 @@
+@author: Leon
+
+### Integer
+
+2   0263    https://leetcode.com/problems/ugly-number/
+
+3   0279    https://leetcode.com/problems/perfect-squares/

@@ -6,11 +6,15 @@ References:
 This serves the total list of problems related to Dynamic Programming, regardless of subcategories
 ### Dynamic Programming
 
+1   0204    https://leetcode.com/problems/count-primes/
+
 2   0413    https://leetcode.com/problems/arithmetic-slices/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 
+3   0264    https://leetcode.com/problems/ugly-number-ii/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0338    https://leetcode.com/problems/counting-bits/
+3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/

@@ -4,6 +4,7 @@
  * Time Complexity: 
  *  insert: O(L)
  *  sum:    O(L)
+ * 
  * Space Complexity: O(N * L * 26) + O(N) ~ O(N * L)
  *  N is the amount of words
  *  L is the average length of words
