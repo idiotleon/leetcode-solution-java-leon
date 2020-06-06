@@ -11,6 +11,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1465    https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
 
+3   0207    https://leetcode.com/problems/course-schedule/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
 3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/

@@ -1,14 +1,14 @@
 /**
  * https://leetcode.com/problems/course-schedule/
  * 
- * Time Complexity: O(V + E)
- * Space Complexity O(V + E)
+ * Time Complexity:     O(numCourses + prerequisites.length)
+ * Space Complexity     O(numCourses ^ 2)
  */
 package com.polyg7ot.lc.lvl3.lc0207;
 
 import java.util.LinkedList;
 
-public class SolutionApproachTSort {
+public class SolutionApproach0TopologicalSort1 {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int[][] matrix = new int[numCourses][numCourses];
         int[] indegree = new int[numCourses];
