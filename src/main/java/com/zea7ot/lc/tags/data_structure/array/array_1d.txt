@@ -8,6 +8,7 @@ References:
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   0997    https://leetcode.com/problems/find-the-town-judge/
 1   1046    https://leetcode.com/problems/last-stone-weight/
+1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0053    https://leetcode.com/problems/maximum-subarray/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/

@@ -1,8 +1,10 @@
 @author: Leon
 
 ### Two Pointers
-# Array
+# array
+
 1   0643    https://leetcode.com/problems/maximum-average-subarray-i/
+1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0287    https://leetcode.com/problems/find-the-duplicate-number/
 2   0475    https://leetcode.com/problems/heaters/
