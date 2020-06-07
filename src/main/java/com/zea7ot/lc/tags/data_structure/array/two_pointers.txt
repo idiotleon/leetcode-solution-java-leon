@@ -4,3 +4,5 @@
 # Two Pointers
 
 1   1470    https://leetcode.com/problems/shuffle-the-array/
+
+2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/

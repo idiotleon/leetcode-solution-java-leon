@@ -8,5 +8,6 @@
 
 2   0287    https://leetcode.com/problems/find-the-duplicate-number/
 2   0475    https://leetcode.com/problems/heaters/
+2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
 3   0986    https://leetcode.com/problems/interval-list-intersections/
