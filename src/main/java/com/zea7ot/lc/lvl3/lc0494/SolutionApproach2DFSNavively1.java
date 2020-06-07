@@ -1,9 +1,15 @@
 /**
  * https://leetcode.com/problems/target-sum/
+ * 
+ * Time Complexity:     O(2 ^ N)
+ * Space Complexity:    O(N ^ 2)
+ * 
+ * References:
+ *  https://leetcode.com/problems/target-sum/discuss/97335/Short-Java-DP-Solution-with-Explanation/239358
  */
 package com.zea7ot.lc.lvl3.lc0494;
 
-public class SolutionApproachDFS {
+public class SolutionApproach2DFSNavively1 {
     private int count;
     
     public int findTargetSumWays(int[] nums, int S) {
