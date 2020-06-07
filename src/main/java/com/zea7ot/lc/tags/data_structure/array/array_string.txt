@@ -1,7 +1,7 @@
 @author: Leon
 
 ### Array
-# String Array
+# string array
 2   0744    https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/

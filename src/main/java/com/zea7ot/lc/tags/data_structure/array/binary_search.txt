@@ -3,7 +3,7 @@ References:
     https://leetcode.com/tag/binary-search/
 
 ### Array
-# Binary Search
+# binary search
 2   0704    https://leetcode.com/problems/binary-search/
 
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/

@@ -1,9 +1,10 @@
-Author: polyg7ot
+@author: Leon
 References:
     https://github.com/huanminwu/LeetCode
 
 ### Array
 # subsequence
+
 2   0413    https://leetcode.com/problems/arithmetic-slices/
 
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
