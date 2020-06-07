@@ -1,9 +1,10 @@
-Author: polyg7ot
+@author: Leon
 References:
     https://github.com/huanminwu/LeetCode
 
 ### Array
-# Subarray
+# subarray
+
 2   0053    https://leetcode.com/problems/maximum-subarray/
 
 3   0152    https://leetcode.com/problems/maximum-product-subarray/

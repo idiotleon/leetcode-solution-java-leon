@@ -1,6 +1,6 @@
 @author: Leon
 
 ### Array
-# Sorting
+# sorting
 
 2   1029    https://leetcode.com/problems/two-city-scheduling/

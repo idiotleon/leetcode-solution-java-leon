@@ -1,14 +1,17 @@
 @author: Leon
 
 ### Array
-# Dynamic Programming
+# dynamic programming
 
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 
 3   0377    https://leetcode.com/problems/combination-sum-iv/
+3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
 
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
+4   1049    https://leetcode.com/problems/last-stone-weight-ii/
+
 

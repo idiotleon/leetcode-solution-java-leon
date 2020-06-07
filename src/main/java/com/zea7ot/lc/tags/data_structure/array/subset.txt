@@ -1,9 +1,9 @@
-Author: polyg7ot
+@author: Leon
 References:
     https://github.com/huanminwu/LeetCode
 
 ### Array
-# Subset
+# subset
 
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/

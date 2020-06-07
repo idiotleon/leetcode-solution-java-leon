@@ -20,6 +20,7 @@ References:
 3   0338    https://leetcode.com/problems/counting-bits/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
+3   0494    https://leetcode.com/problems/target-sum/
 3   0562    https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
@@ -31,5 +32,6 @@ References:
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
+4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/

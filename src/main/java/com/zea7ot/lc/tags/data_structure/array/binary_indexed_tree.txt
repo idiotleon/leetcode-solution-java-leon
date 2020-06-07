@@ -3,6 +3,7 @@ References:
     https://leetcode.com/tag/binary-indexed-tree/
 
 ### Array
-# Binary Indexed Tree
+# binary indexed tree
+
 5   0315    https://leetcode.com/problems/count-of-smaller-numbers-after-self/
 5   0493    https://leetcode.com/problems/reverse-pairs/

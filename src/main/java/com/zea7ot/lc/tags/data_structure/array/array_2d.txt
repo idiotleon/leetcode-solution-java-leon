@@ -1,9 +1,9 @@
-Author: polyg7ot
+@author: Leon
 References:
     https://github.com/huanminwu/LeetCode
 
 ### 2D Matrix
-# Diagonal/Anti-Diagonal
+# diagonal/anti-diagonal
 What are considered as diagonals/anti-diagonals of rectangles (not squares)?
 https://en.wikipedia.org/wiki/Main_diagonal
 0051
