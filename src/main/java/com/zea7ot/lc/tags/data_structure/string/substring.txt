@@ -4,7 +4,10 @@ References:
 
 ### String
 # substring
+
 4   0076    https://leetcode.com/problems/minimum-window-substring/
+4   0139    https://leetcode.com/problems/word-break/
+
 
 ###Resources:
 #template

@@ -1,6 +1,10 @@
-@author: Leoin
+@author: Leon
 
 ### Dynamic Programming
-# Palindrome
+# palindrome
 
 3   0647    https://leetcode.com/problems/palindromic-substrings/
+
+
+Resources:
+    https://www.youtube.com/watch?v=kufFb-sReiA

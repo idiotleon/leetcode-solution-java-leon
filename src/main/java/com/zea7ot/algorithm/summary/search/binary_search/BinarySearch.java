@@ -251,4 +251,29 @@ public class BinarySearch {
         }
         return lo;
     }
+
+    /**
+     * left = left bound with f(left) = false
+     * right = right bound with f(right) = true
+     * while(right - left > 1){
+     *  mid = left + (right - left) / 2;
+     *  if(f[mid] == false) left = mid;
+     *  else = right = mid;
+     * }
+     * 
+     * return right
+     * @param nums
+     * @return
+     */
+    // public int notVerified0BinarySearch(int[] nums){
+    //     int lo = 0, hi = nums.length;
+
+    //     while(hi - lo > 1){
+    //         int mid = lo + (hi - lo) / 2;
+
+    //         if(nums[mid])
+    //     }
+
+    //     return hi;
+    // }
 }

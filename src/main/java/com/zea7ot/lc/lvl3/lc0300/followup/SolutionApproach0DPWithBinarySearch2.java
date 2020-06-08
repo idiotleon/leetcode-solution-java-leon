@@ -31,7 +31,7 @@
  *  https://segmentfault.com/a/1190000003819886
  *  https://youtu.be/YoeWZ3ELMEk?t=481
  */
-package com.zea7ot.lc.lvl3.lc0300;
+package com.zea7ot.lc.lvl3.lc0300.followup;
 
 public class SolutionApproach0DPWithBinarySearch2 {
     public int lengthOfLIS(int[] nums) {

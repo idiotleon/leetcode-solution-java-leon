@@ -3,3 +3,4 @@
 ### Object-Oriented Design
 
 3   0528    https://leetcode.com/problems/random-pick-with-weight/
+3   1472    https://leetcode.com/problems/design-browser-history/

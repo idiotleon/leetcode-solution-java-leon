@@ -1,8 +1,11 @@
 @author: Leon
 
 ### Dynamic Programming
-# Longest Consecutive sequence
+# longest consecutive sequence
+
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0549    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/
 
+Resources:
+    https://www.youtube.com/watch?v=kufFb-sReiA

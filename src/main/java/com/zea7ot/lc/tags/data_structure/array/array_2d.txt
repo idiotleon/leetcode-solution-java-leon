@@ -24,6 +24,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
+4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/

@@ -14,9 +14,9 @@
  * References:
  *  https://segmentfault.com/a/1190000003819886
  */
-package com.zea7ot.lc.lvl3.lc0300;
+package com.zea7ot.lc.lvl3.lc0300.followup;
 
-public class SolutionApproach0DPWithBinarySearch {
+public class SolutionApproach0DPWithBinarySearch1 {
     public int lengthOfLIS(int[] nums) {
         // sanity check
         if(nums == null || nums.length == 0) return 0;
@@ -42,11 +42,13 @@ public class SolutionApproach0DPWithBinarySearch {
     }
     
     private int lowerBound(int[] tails, int lo, int hi, int target){
-        while(lo < hi){
+        while(lo <= hi){
             int mid = lo + (hi - lo) / 2;
             
+            // this can be omitted, at the cost of a few more iterations
+            // if(tails[mid] == target) return mid;
             if(target > tails[mid]) lo = mid + 1;
-            else hi = mid;
+            else hi = mid - 1;
         }
         
         return lo;

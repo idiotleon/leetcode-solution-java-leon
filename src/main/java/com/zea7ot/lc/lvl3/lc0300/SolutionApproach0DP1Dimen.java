@@ -13,7 +13,7 @@ package com.zea7ot.lc.lvl3.lc0300;
 
 import java.util.Arrays;
 
-public class SolutionApproach1DP {
+public class SolutionApproach0DP1Dimen {
     public int lengthOfLIS(int[] nums) {
         // sanity check
         if(nums == null || nums.length == 0) return 0;

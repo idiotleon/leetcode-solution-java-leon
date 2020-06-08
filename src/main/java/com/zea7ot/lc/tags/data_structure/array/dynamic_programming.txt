@@ -5,13 +5,20 @@
 
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 
+3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
 
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
+4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
+4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
+4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
+4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
+4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 
 

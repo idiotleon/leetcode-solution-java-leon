@@ -1,15 +1,25 @@
 @author: Leon
 
 ### Dynamic Programming
-# Longest Increasing Subsequence
+# longest increasing subsequence
+
 2   0674    https://leetcode.com/problems/longest-continuous-increasing-subsequence/
 
+3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 
+4   0139    https://leetcode.com/problems/word-break/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
+4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
+4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
+4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
+
+Resources:
+    https://www.youtube.com/watch?v=kufFb-sReiA

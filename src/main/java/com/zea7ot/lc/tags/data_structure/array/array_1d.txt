@@ -8,6 +8,7 @@ References:
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   0997    https://leetcode.com/problems/find-the-town-judge/
 1   1046    https://leetcode.com/problems/last-stone-weight/
+1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0053    https://leetcode.com/problems/maximum-subarray/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
@@ -15,9 +16,11 @@ References:
 2   0973    https://leetcode.com/problems/k-closest-points-to-origin/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
 2   1464    https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
+2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
 3   0033    https://leetcode.com/problems/search-in-rotated-sorted-array/
 3   0134    https://leetcode.com/problems/gas-station/
+3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3   0162    https://leetcode.com/problems/find-peak-element/
@@ -55,12 +58,17 @@ References:
 4   0768    https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
 4   0769    https://leetcode.com/problems/max-chunks-to-make-sorted/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
+4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
+4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 4   1124    https://leetcode.com/problems/longest-well-performing-interval/
+4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1231    https://leetcode.com/problems/divide-chocolate/
+4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
+4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 
 5   0327    https://leetcode.com/problems/count-of-range-sum/
 5   0644    https://leetcode.com/problems/maximum-average-subarray-ii/

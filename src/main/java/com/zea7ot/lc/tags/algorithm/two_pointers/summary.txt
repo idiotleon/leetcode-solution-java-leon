@@ -4,5 +4,8 @@ References:
 
 ### Two Pointers
 1   0643    https://leetcode.com/problems/maximum-average-subarray-i/
+1   1470    https://leetcode.com/problems/shuffle-the-array/
+
+2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
 3   0986    https://leetcode.com/problems/interval-list-intersections/

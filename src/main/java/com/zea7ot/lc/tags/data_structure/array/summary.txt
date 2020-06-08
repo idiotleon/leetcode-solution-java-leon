@@ -7,6 +7,7 @@ This file serves as the total list of problems related to Array, regardless of a
 
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   1046    https://leetcode.com/problems/last-stone-weight/
+1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
 2   0704    https://leetcode.com/problems/binary-search/
@@ -15,7 +16,9 @@ This file serves as the total list of problems related to Array, regardless of a
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
 2   1464    https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
 2   1465    https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
+2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
+3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0162    https://leetcode.com/problems/find-peak-element/
 3   0207    https://leetcode.com/problems/course-schedule/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
@@ -53,13 +56,19 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0768    https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
 4   0769    https://leetcode.com/problems/max-chunks-to-make-sorted/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
+4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
+4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
-4   0149    https://leetcode.com/problems/last-stone-weight-ii/
+4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
+4   1049    https://leetcode.com/problems/last-stone-weight-ii/
+4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1231    https://leetcode.com/problems/divide-chocolate/
+4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
+4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 
 5   0327    https://leetcode.com/problems/count-of-range-sum/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
