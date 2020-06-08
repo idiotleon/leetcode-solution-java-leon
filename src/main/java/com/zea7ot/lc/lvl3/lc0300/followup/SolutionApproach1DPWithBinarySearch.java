@@ -7,12 +7,13 @@
  * References:
  *  https://leetcode.com/problems/longest-increasing-subsequence/discuss/74825/Short-Java-solution-using-DP-O(n-log-n)
  */
-package com.zea7ot.lc.lvl3.lc0300;
+package com.zea7ot.lc.lvl3.lc0300.followup;
 
 import java.util.Arrays;
 
 public class SolutionApproach1DPWithBinarySearch {
     public int lengthOfLIS(int[] nums) {
+        // sanity check
         if(nums == null || nums.length == 0) return 0;
         
         final int L = nums.length;
