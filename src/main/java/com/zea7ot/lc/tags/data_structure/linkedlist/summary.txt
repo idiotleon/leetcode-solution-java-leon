@@ -8,3 +8,8 @@ References:
 3   1472    https://leetcode.com/problems/design-browser-history/
 
 4   0146    https://leetcode.com/problems/lru-cache/
+
+
+
+3   find unique number in a data stream 
+https://leetcode.com/discuss/interview-question/414970/Amazon-or-Phone-Screen-or-First-Unique-Number-in-Data-Stream

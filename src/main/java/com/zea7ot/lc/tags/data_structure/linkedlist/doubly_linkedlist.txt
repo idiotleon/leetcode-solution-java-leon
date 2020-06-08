@@ -1,12 +1,20 @@
 @author: Leon
-
+References:
+    https://leetcode.com/tag/linked-list/
+    
 ### LinkedList
-# Double LinkedList
+# doubly linked list
 
 3   0716    https://leetcode.com/problems/max-stack/
 3   1472    https://leetcode.com/problems/design-browser-history/
 
 4   0146    https://leetcode.com/problems/lru-cache/
+
+
+
+
+3   find unique number in a data stream 
+https://leetcode.com/discuss/interview-question/414970/Amazon-or-Phone-Screen-or-First-Unique-Number-in-Data-Stream
 
 
 Resources:
