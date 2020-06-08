@@ -51,3 +51,5 @@ Resources:
     https://leetcode.com/problems/race-car/discuss/124326/summary-of-the-bfs-and-dp-solutions-with-intuitive-explanation
     https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems
     https://medium.com/better-programming/a-systematic-approach-to-dynamic-programming-54902b6b0071
+    https://zxi.mytechroad.com/blog/leetcode-problem-categories/
+    https://www.youtube.com/playlist?list=PLLuMmzMTgVK7vEbeHBDD42pqqG36jhuOr

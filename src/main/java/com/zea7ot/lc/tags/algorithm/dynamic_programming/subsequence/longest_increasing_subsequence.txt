@@ -1,7 +1,8 @@
 @author: Leon
 
 ### Dynamic Programming
-# Longest Increasing Subsequence
+# longest increasing subsequence
+
 2   0674    https://leetcode.com/problems/longest-continuous-increasing-subsequence/
 
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/

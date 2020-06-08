@@ -1,8 +1,10 @@
 /**
  * https://leetcode.com/problems/largest-divisible-subset/
  * 
- * Time Complexity:     O(N ^ 2)
+ * Time Complexity:     O(N ^ 2) + O(N * lg(N)) ~ O(N ^ 2)
  * Space Complexity:    O(N)
+ * 
+ * dp[i], the length of the longest divisible subset ending with nums[i]
  * 
  * References:
  *  https://leetcode.com/problems/largest-divisible-subset/discuss/83999/Easy-understood-Java-DP-solution-in-28ms-with-O(n2)-time
@@ -16,6 +18,7 @@ import java.util.List;
 public class SolutionApproach0DP {
     public List<Integer> largestDivisibleSubset(int[] nums) {
         List<Integer> ans = new ArrayList<Integer>();
+        // sanity check
         if(nums == null || nums.length == 0) return ans;
         
         final int N = nums.length;
@@ -27,25 +30,25 @@ public class SolutionApproach0DP {
         for(int i = 1; i < N; i++){
             for(int j = i - 1; j >= 0; j--){
                 if(nums[i] % nums[j] == 0){
-                    dp[i] = Math.max(dp[i], dp[j + 1]);
+                    dp[i] = Math.max(dp[i], dp[j] + 1);
                 }
             }
         }
-        
-        // to pick the index of hte largest element in dp(int[])
-        int maxIndex = 0;
+       
+        // to get the index of the element as the tail of the longest divisible subset
+        int maxLenIdx = 0;
         for(int i = 1; i < N; i++){
-            maxIndex = dp[i] > dp[maxIndex] ? i : maxIndex;
+            maxLenIdx = dp[i] > dp[maxLenIdx] ? i : maxLenIdx;
         }
         
-        // from nums[maxIndex] to 0, to add every element which belongs to the largest subset
-        int temp = nums[maxIndex];
-        int curDp = dp[maxIndex];
-        for(int i = maxIndex; i >= 0; i--){
-            if(temp % nums[i] == 0 && dp[i] == curDp){
+        // from nums[maxLenIdx] to 0, 
+        // to add every element which belongs to the largest subset
+        int maxLenTail = nums[maxLenIdx], curMaxLen = dp[maxLenIdx];
+        for(int i = maxLenIdx; i >= 0; i--){
+            if(maxLenTail % nums[i] == 0 && dp[i] == curMaxLen){
                 ans.add(nums[i]);
-                temp = nums[i];
-                curDp--;
+                maxLenTail = nums[i];
+                curMaxLen--;
             }
         }
         
