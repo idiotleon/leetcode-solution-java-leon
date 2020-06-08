@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SolutionApproach0DP {
+public class SolutionApproach0DP {  // [2,3,4,9,8]
     public List<Integer> largestDivisibleSubset(int[] nums) {
         List<Integer> ans = new ArrayList<Integer>();
         // sanity check
@@ -36,15 +36,15 @@ public class SolutionApproach0DP {
         }
        
         // to get the index of the element as the tail of the longest divisible subset
-        int maxLenIdx = 0;
+        int idxMaxLen = 0;
         for(int i = 1; i < N; i++){
-            maxLenIdx = dp[i] > dp[maxLenIdx] ? i : maxLenIdx;
+            idxMaxLen = dp[i] > dp[idxMaxLen] ? i : idxMaxLen;
         }
         
-        // from nums[maxLenIdx] to 0, 
+        // from nums[idxMaxLen] to 0, 
         // to add every element which belongs to the largest subset
-        int maxLenTail = nums[maxLenIdx], curMaxLen = dp[maxLenIdx];
-        for(int i = maxLenIdx; i >= 0; i--){
+        int maxLenTail = nums[idxMaxLen], curMaxLen = dp[idxMaxLen];
+        for(int i = idxMaxLen; i >= 0; i--){
             if(maxLenTail % nums[i] == 0 && dp[i] == curMaxLen){
                 ans.add(nums[i]);
                 maxLenTail = nums[i];
