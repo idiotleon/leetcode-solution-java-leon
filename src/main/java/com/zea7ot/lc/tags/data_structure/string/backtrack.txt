@@ -1,0 +1,6 @@
+@author: Leon
+
+### String
+# backtrack
+
+3   1079    https://leetcode.com/problems/letter-tile-possibilities/
