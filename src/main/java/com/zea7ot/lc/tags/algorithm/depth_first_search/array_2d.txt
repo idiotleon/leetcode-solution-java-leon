@@ -10,5 +10,6 @@ References:
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
 
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/

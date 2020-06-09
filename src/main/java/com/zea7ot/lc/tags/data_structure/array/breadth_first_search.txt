@@ -6,4 +6,6 @@
 3   0207    https://leetcode.com/problems/course-schedule/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 
+4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
+
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
