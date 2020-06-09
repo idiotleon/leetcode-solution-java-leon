@@ -2,4 +2,6 @@
 
 ### Shortest Path
 
+3   0787    https://leetcode.com/problems/cheapest-flights-within-k-stops/
+
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
