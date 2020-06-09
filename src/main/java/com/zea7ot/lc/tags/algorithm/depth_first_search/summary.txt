@@ -3,8 +3,10 @@ References:
     https://leetcode.com/tag/depth-first-search/
 
 ### Depth First Search
+
 2   0463    https://leetcode.com/problems/island-perimeter/
 2   0720    https://leetcode.com/problems/longest-word-in-dictionary/
+2   0784    https://leetcode.com/problems/letter-case-permutation/
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 
 3   0236    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
