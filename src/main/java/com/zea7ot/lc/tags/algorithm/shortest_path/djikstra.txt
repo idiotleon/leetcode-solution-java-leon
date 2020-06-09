@@ -1,5 +1,0 @@
-@author: Leon
-
-### Shortest Path
-# Dijkstra's Algorithm
-3   0787    https://leetcode.com/problems/cheapest-flights-within-k-stops/

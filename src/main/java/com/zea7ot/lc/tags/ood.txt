@@ -1,6 +1,15 @@
 @author: Leon
+References:
+    https://leetcode.com/tag/design/
 
 ### Object-Oriented Design
 
 3   0528    https://leetcode.com/problems/random-pick-with-weight/
 3   1472    https://leetcode.com/problems/design-browser-history/
+
+
+
+
+3   find unique number in a data stream 
+https://leetcode.com/discuss/interview-question/414970/Amazon-or-Phone-Screen-or-First-Unique-Number-in-Data-Stream
+

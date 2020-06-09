@@ -23,8 +23,8 @@ public class SolutionApproach0DPWithBinarySearch {
         
         final int N = nums.length;
         int len = 0;
-        // tails are the last actual element/digit/number of LIS of length "len".
-        // As "len" increases, tails is monotonically increasing.
+        // Tails are the last actual element/digit/number of LIS of length "len".
+        // As "len" increases, tails are monotonically increasing.
         int[] tails = new int[N];
         tails[0] = nums[0];
         
