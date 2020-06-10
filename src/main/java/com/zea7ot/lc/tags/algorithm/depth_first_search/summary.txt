@@ -11,6 +11,7 @@ References:
 
 3   0216    https://leetcode.com/problems/combination-sum-iii/
 3   0236    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+3   0254    https://leetcode.com/problems/factor-combinations/
 3   0269    https://leetcode.com/problems/alien-dictionary/
 3   0279    https://leetcode.com/problems/perfect-squares/
 3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/

@@ -7,6 +7,7 @@ References:
 
 3   0039    https://leetcode.com/problems/combination-sum/
 3   0216    https://leetcode.com/problems/combination-sum-iii/
+3   0254    https://leetcode.com/problems/factor-combinations/
 3   0401    https://leetcode.com/problems/binary-watch/
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
