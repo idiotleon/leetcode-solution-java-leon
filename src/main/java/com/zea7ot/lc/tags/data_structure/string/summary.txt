@@ -11,11 +11,14 @@
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 3   1048    https://leetcode.com/problems/longest-string-chain/
+3   1079    https://leetcode.com/problems/letter-tile-possibilities/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0139    https://leetcode.com/problems/word-break/
+4   0267    https://leetcode.com/problems/palindrome-permutation-ii/
+4   0294    https://leetcode.com/problems/flip-game-ii/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/

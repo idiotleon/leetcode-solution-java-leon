@@ -1,7 +1,9 @@
 @author: Leon
 
 ### Depth First Search
-# array 1 dimensional
+# array - 1 dimensional
+
+2   0784    https://leetcode.com/problems/letter-case-permutation/
 
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   1048    https://leetcode.com/problems/longest-string-chain/

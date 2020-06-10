@@ -2,11 +2,18 @@
 References:
     https://leetcode.com/tag/backtracking/
 
-### DFS
-# backtrack
-3   0039    https://leetcode.com/problems/combination-sum/
-3   1023    https://leetcode.com/problems/camelcase-matching/
+### Depth First Search
+# backtracking
 
+3   0039    https://leetcode.com/problems/combination-sum/
+3   0216    https://leetcode.com/problems/combination-sum-iii/
+3   0254    https://leetcode.com/problems/factor-combinations/
+3   0401    https://leetcode.com/problems/binary-watch/
+3   1023    https://leetcode.com/problems/camelcase-matching/
+3   1079    https://leetcode.com/problems/letter-tile-possibilities/
+
+4   0267    https://leetcode.com/problems/palindrome-permutation-ii/
+4   0294    https://leetcode.com/problems/flip-game-ii/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 
 5   0465    https://leetcode.com/problems/optimal-account-balancing/

@@ -3,17 +3,22 @@ References:
     https://leetcode.com/tag/depth-first-search/
 
 ### Depth First Search
+
 2   0463    https://leetcode.com/problems/island-perimeter/
 2   0720    https://leetcode.com/problems/longest-word-in-dictionary/
+2   0784    https://leetcode.com/problems/letter-case-permutation/
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 
+3   0216    https://leetcode.com/problems/combination-sum-iii/
 3   0236    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+3   0254    https://leetcode.com/problems/factor-combinations/
 3   0269    https://leetcode.com/problems/alien-dictionary/
 3   0279    https://leetcode.com/problems/perfect-squares/
 3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 3   0333    https://leetcode.com/problems/largest-bst-subtree/
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
+3   0401    https://leetcode.com/problems/binary-watch/
 3   0439    https://leetcode.com/problems/ternary-expression-parser/
 3   0494    https://leetcode.com/problems/target-sum/
 3   0543    https://leetcode.com/problems/diameter-of-binary-tree/
@@ -27,12 +32,14 @@ References:
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
+3   1079    https://leetcode.com/problems/letter-tile-possibilities/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
 
 4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0124    https://leetcode.com/problems/binary-tree-maximum-path-sum/
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
+4   0267    https://leetcode.com/problems/palindrome-permutation-ii/
 4   0298    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 4   0337    https://leetcode.com/problems/house-robber-iii/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/

@@ -1,7 +1,11 @@
 @author: Leon
+References:
+    https://leetcode.com/tag/depth-first-search/
 
-### DFS
-# Array String:
+### Depth First Search
+# array - string:
+
+2   0784    https://leetcode.com/problems/letter-case-permutation/
 
 3   1048    https://leetcode.com/problems/longest-string-chain/
 

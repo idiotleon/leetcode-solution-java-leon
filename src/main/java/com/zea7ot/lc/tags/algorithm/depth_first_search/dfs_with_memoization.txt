@@ -5,6 +5,7 @@
 
 2   0263    https://leetcode.com/problems/ugly-number/
 
+3   0279    https://leetcode.com/problems/perfect-squares/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0851    https://leetcode.com/problems/loud-and-rich/
@@ -12,7 +13,7 @@
 3   1048    https://leetcode.com/problems/longest-string-chain/
 
 4   0115    https://leetcode.com/problems/distinct-subsequences/
-3   0279    https://leetcode.com/problems/perfect-squares/
+4   0294    https://leetcode.com/problems/flip-game-ii/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/

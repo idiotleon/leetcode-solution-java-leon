@@ -1,8 +1,11 @@
 Author: Leon
 References:
     https://github.com/huanminwu/LeetCode
+    https://leetcode.com/tag/breadth-first-search/
 
 ### Breadth First Search
+
+2   0784    https://leetcode.com/problems/letter-case-permutation/
 
 3   0207    https://leetcode.com/problems/course-schedule/
 2   0226    https://leetcode.com/problems/invert-binary-tree/
