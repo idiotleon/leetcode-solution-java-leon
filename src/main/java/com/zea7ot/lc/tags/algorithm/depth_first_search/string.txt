@@ -8,5 +8,6 @@
 3   0494    https://leetcode.com/problems/target-sum/
 
 4   0115    https://leetcode.com/problems/distinct-subsequences/
+4   0294    https://leetcode.com/problems/flip-game-ii/
 
 5   0425    https://leetcode.com/problems/word-squares/
