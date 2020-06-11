@@ -8,6 +8,7 @@
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
 
 3   0131    https://leetcode.com/problems/palindrome-partitioning/
+3   0320    https://leetcode.com/problems/generalized-abbreviation/
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 3   1048    https://leetcode.com/problems/longest-string-chain/
