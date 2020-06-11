@@ -57,6 +57,7 @@ References:
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 
+5   0291    https://leetcode.com/problems/word-pattern-ii/
 5   0403    https://leetcode.com/problems/frog-jump/
 5   0425    https://leetcode.com/problems/word-squares/
 5   0472    https://leetcode.com/problems/concatenated-words/

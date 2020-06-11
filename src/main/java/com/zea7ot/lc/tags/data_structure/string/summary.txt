@@ -4,6 +4,7 @@
 
 ### String
 
+2   0290    https://leetcode.com/problems/word-pattern/
 2   0392    https://leetcode.com/problems/is-subsequence/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
 
@@ -25,3 +26,5 @@
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1111    https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/
+
+5   0291    https://leetcode.com/problems/word-pattern-ii/

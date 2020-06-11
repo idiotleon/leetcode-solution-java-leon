@@ -20,4 +20,5 @@ References:
 4   0351    https://leetcode.com/problems/android-unlock-patterns/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 
+5   0291    https://leetcode.com/problems/word-pattern-ii/
 5   0465    https://leetcode.com/problems/optimal-account-balancing/
