@@ -1,15 +1,23 @@
 /**
- * https://leetcode.com/problems/course-schedule/
+ * https://leetcode.com/problems/course-schedule-ii/
  * 
  * Time Complexity:     O(numCourses + prerequisites.length)
- * Space Complexity     O(numCourses ^ 2)
+ * Space Complexity:    O(numCourses ^ 2)
+ * 
+ * References:
+ *  https://en.wikipedia.org/wiki/Topological_sorting#Algorithms
  */
-package com.zea7ot.lc.lvl3.lc0207;
+package com.zea7ot.lc.lvl3.lc0210;
 
 import java.util.LinkedList;
 
-public class SolutionApproach0TopologicalSort1 {
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
+public class SolutionApproach0TopologicalSortBFS1 {
+    public int[] findOrder(int numCourses, int[][] prerequisites) {
+        int[] ans = new int[numCourses];
+        // sanity check
+        // please be noted that an empty prerequisites(int[][]) is valid
+        if(numCourses <= 0) return ans;
+        
         int[][] matrix = new int[numCourses][numCourses];
         int[] indegree = new int[numCourses];
         
@@ -31,10 +39,11 @@ public class SolutionApproach0TopologicalSort1 {
             }
         }
         
-        int count = 0;
+        int idx = 0;
         while(!queue.isEmpty()){
             int course = queue.removeFirst();
-            count++;
+            ans[idx++] = course;
+            
             for(int i = 0; i < numCourses; i++){
                 if(matrix[course][i] == 1){
                     if(--indegree[i] == 0){
@@ -44,6 +53,8 @@ public class SolutionApproach0TopologicalSort1 {
             }
         }
         
-        return numCourses == count;
+        if(idx < numCourses) return new int[0];
+        
+        return ans;
     }
 }

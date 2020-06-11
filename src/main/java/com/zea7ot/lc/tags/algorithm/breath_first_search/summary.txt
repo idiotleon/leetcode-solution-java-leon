@@ -5,11 +5,10 @@ References:
 
 ### Breadth First Search
 
-2   0784    https://leetcode.com/problems/letter-case-permutation/
-
-3   0207    https://leetcode.com/problems/course-schedule/
+2   0207    https://leetcode.com/problems/course-schedule/   
 2   0226    https://leetcode.com/problems/invert-binary-tree/
 2   0617    https://leetcode.com/problems/merge-two-binary-trees/
+2   0784    https://leetcode.com/problems/letter-case-permutation/
 2   0993    https://leetcode.com/problems/cousins-in-binary-tree/
 2   0951    https://leetcode.com/problems/flip-equivalent-binary-trees/
 

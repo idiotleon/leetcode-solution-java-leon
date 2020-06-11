@@ -3,13 +3,17 @@
  * 
  * Time Complexity:     O(numCourses + prerequisites.length)
  * Space Complexity     O(numCourses)
+ * 
+ * References:
+ *  https://en.wikipedia.org/wiki/Topological_sorting#Algorithms
+ *  https://en.wikipedia.org/wiki/Topological_sorting#Algorithms
  */
 package com.zea7ot.lc.lvl3.lc0207;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class SolutionApproach0TopologicalSort {
+public class SolutionApproach0TopologicalSortBFS {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int[] counts = new int[numCourses];
         

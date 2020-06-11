@@ -4,11 +4,13 @@ References:
 
 ### Depth First Search
 
+2   0207    https://leetcode.com/problems/course-schedule/
 2   0463    https://leetcode.com/problems/island-perimeter/
 2   0720    https://leetcode.com/problems/longest-word-in-dictionary/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 
+3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0216    https://leetcode.com/problems/combination-sum-iii/
 3   0236    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 3   0254    https://leetcode.com/problems/factor-combinations/
