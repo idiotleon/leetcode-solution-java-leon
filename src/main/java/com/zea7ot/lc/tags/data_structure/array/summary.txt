@@ -19,6 +19,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   1465    https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
+3   0075    https://leetcode.com/problems/sort-colors/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0162    https://leetcode.com/problems/find-peak-element/
 3   0207    https://leetcode.com/problems/course-schedule/
@@ -46,6 +47,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
+4   0351    https://leetcode.com/problems/android-unlock-patterns/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
