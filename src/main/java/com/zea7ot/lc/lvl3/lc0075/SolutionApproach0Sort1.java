@@ -1,9 +1,12 @@
 /**
  * https://leetcode.com/problems/sort-colors/
+ * 
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(1)
  */
 package com.zea7ot.lc.lvl3.lc0075;
 
-public class Solution {
+public class SolutionApproach0Sort1 {
     public void sortColors(int[] nums) {
         int p0 = 0, cur = 0, p2 = nums.length - 1, temp;
         while(cur <= p2){
