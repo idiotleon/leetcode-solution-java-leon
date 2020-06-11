@@ -3,4 +3,5 @@
 ### Array
 # backtrack
 
+4   0351    https://leetcode.com/problems/android-unlock-patterns/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
