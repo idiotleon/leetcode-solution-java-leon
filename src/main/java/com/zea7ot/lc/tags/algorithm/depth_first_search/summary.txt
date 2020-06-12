@@ -4,11 +4,13 @@ References:
 
 ### Depth First Search
 
+2   0207    https://leetcode.com/problems/course-schedule/
 2   0463    https://leetcode.com/problems/island-perimeter/
 2   0720    https://leetcode.com/problems/longest-word-in-dictionary/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 
+3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0216    https://leetcode.com/problems/combination-sum-iii/
 3   0236    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 3   0254    https://leetcode.com/problems/factor-combinations/
@@ -18,6 +20,7 @@ References:
 3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 3   0333    https://leetcode.com/problems/largest-bst-subtree/
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/
+3   0357    https://leetcode.com/problems/count-numbers-with-unique-digits/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0401    https://leetcode.com/problems/binary-watch/
 3   0439    https://leetcode.com/problems/ternary-expression-parser/
@@ -54,6 +57,7 @@ References:
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 
+5   0291    https://leetcode.com/problems/word-pattern-ii/
 5   0403    https://leetcode.com/problems/frog-jump/
 5   0425    https://leetcode.com/problems/word-squares/
 5   0472    https://leetcode.com/problems/concatenated-words/

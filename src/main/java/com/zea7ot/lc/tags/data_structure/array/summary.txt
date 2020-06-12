@@ -9,6 +9,7 @@ This file serves as the total list of problems related to Array, regardless of a
 1   1046    https://leetcode.com/problems/last-stone-weight/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
+2   0207    https://leetcode.com/problems/course-schedule/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
 2   0704    https://leetcode.com/problems/binary-search/
 2   0744    https://leetcode.com/problems/find-smallest-letter-greater-than-target/
@@ -22,7 +23,6 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0075    https://leetcode.com/problems/sort-colors/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0162    https://leetcode.com/problems/find-peak-element/
-3   0207    https://leetcode.com/problems/course-schedule/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0275    https://leetcode.com/problems/h-index-ii/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
@@ -50,6 +50,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0351    https://leetcode.com/problems/android-unlock-patterns/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0630    https://leetcode.com/problems/course-schedule-iii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/

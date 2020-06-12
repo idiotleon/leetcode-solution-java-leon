@@ -1,0 +1,12 @@
+@author: Leon
+
+### Breadth First Search
+# topological sort
+
+2   0207    https://leetcode.com/problems/course-schedule/
+
+3   0210    https://leetcode.com/problems/course-schedule-ii/
+
+Resources:
+    https://www.youtube.com/watch?v=M6SBePBMznU
+    https://www.youtube.com/watch?v=Qqgck2ijUjU

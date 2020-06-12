@@ -1,7 +1,11 @@
 @author: Leon
 
 ### Depth First Search
-# Directed Graph
+# directed graph
+
+2   0207    https://leetcode.com/problems/course-schedule/
+
+3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0802    https://leetcode.com/problems/find-eventual-safe-states/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/

@@ -9,6 +9,7 @@ References:
 3   0216    https://leetcode.com/problems/combination-sum-iii/
 3   0254    https://leetcode.com/problems/factor-combinations/
 3   0320    https://leetcode.com/problems/generalized-abbreviation/
+3   0357    https://leetcode.com/problems/count-numbers-with-unique-digits/
 3   0401    https://leetcode.com/problems/binary-watch/
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
@@ -19,4 +20,5 @@ References:
 4   0351    https://leetcode.com/problems/android-unlock-patterns/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 
+5   0291    https://leetcode.com/problems/word-pattern-ii/
 5   0465    https://leetcode.com/problems/optimal-account-balancing/

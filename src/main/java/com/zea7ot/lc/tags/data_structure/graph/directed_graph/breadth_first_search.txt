@@ -4,6 +4,7 @@
 # Directed Graph
 # breadth first search
 
-3   0207    https://leetcode.com/problems/course-schedule/
+2   0207    https://leetcode.com/problems/course-schedule/
+
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
