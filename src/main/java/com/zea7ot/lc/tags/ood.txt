@@ -10,6 +10,7 @@ References:
 3   0705    https://leetcode.com/problems/design-hashset/
 3   1472    https://leetcode.com/problems/design-browser-history/
 
+4   0295    https://leetcode.com/problems/find-median-from-data-stream/
 
 6   0460    https://leetcode.com/problems/lfu-cache/
 
