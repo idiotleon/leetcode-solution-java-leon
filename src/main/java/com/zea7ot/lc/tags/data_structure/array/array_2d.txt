@@ -22,6 +22,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   1424    https://leetcode.com/problems/diagonal-traverse-ii/
 
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/
+4   0329    https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
 4   0351    https://leetcode.com/problems/android-unlock-patterns/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/

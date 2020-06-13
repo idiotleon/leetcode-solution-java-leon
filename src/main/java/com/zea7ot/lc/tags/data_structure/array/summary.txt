@@ -47,6 +47,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
+4   0329    https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
 4   0351    https://leetcode.com/problems/android-unlock-patterns/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
