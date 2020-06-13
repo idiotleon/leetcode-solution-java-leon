@@ -14,6 +14,7 @@
 
 4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0294    https://leetcode.com/problems/flip-game-ii/
+4   0329    https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/

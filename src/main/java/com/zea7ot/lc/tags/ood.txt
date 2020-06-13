@@ -4,12 +4,18 @@ References:
 
 ### Object-Oriented Design
 
+3   0348    https://leetcode.com/problems/design-tic-tac-toe/
+3   0380    https://leetcode.com/problems/insert-delete-getrandom-o1/
 3   0528    https://leetcode.com/problems/random-pick-with-weight/
+3   0705    https://leetcode.com/problems/design-hashset/
 3   1472    https://leetcode.com/problems/design-browser-history/
 
+4   0295    https://leetcode.com/problems/find-median-from-data-stream/
+
+6   0460    https://leetcode.com/problems/lfu-cache/
 
 
-
+Problems not yet included in LC:
 3   find unique number in a data stream 
 https://leetcode.com/discuss/interview-question/414970/Amazon-or-Phone-Screen-or-First-Unique-Number-in-Data-Stream
 

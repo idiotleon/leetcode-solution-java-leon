@@ -12,6 +12,7 @@ References:
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
 
+4   0329    https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
 4   0351    https://leetcode.com/problems/android-unlock-patterns/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
