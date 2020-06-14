@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/longest-increasing-paths-in-a-matrix/
  * 
- * DFS + memorization (Top Down)
+ * DFS + memoization (Top Down)
  * 
  * Time Complexity:     O(M * N)
  * Space Complexity:    O(M * N)
