@@ -1,12 +1,12 @@
 /**
  * https://leetcode.com/problems/maximum-subarray/
  * 
- * Kadane's Algorithm
- * https://hackernoon.com/kadanes-algorithm-explained-50316f4fd8a6
+ *  Kadane's Algorithm
+ *  https://hackernoon.com/kadanes-algorithm-explained-50316f4fd8a6
  */
-package com.zea7ot.lc.lvl2.lc0053;
+package com.zea7ot.lc.lvl3.lc0053;
 
-public class SolutionApproachDP1 {
+public class SolutionApproach0KadanesAlgorithm1 {
     /**
      * Maximum sum subvector seen so far. The maximum is initially nums[0]. 
      * Suppose we've solved the problem for nums[1 .. i - 1], how can we extend that to nums[1 .. i]? 

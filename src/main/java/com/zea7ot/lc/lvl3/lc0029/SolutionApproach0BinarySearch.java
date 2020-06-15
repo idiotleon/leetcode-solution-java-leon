@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/divide-two-integers/
  * 
- * Time Complexity: O((lg(dividend)) ^ 2)
- * Space Complexity: O(1)
+ * Time Complexity:     O((lg(dividend)) ^ 2)
+ * Space Complexity:    O(1)
  * 
  * References:
  *  https://leetcode.com/problems/divide-two-integers/discuss/142849/C%2B%2BJavaPython-Should-Not-Use-%22long%22-Int

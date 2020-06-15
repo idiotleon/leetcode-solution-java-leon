@@ -1,12 +1,16 @@
 /**
  * https://leetcode.com/problems/maximum-subarray/
  * 
- * Time Complexity: O(NlgN)
- * Space Complexity: O(lgN);
+ * Time Complexity:     O(NlgN)
+ * Space Complexity:    O(lgN)
+ * 
+ * If you have figured out the O(n) solution, 
+ * try coding another solution using the divide and conquer approach, 
+ * which is more subtle.
  */
-package com.zea7ot.lc.lvl2.lc0053;
+package com.zea7ot.lc.lvl3.lc0053.followup;
 
-public class SolutionApproachDivideAndConquer {
+public class SolutionFollowUp2 {
     public int maxSubArray(int[] nums) {
         return maxSubArray(nums, 0, nums.length - 1);
     }

@@ -1,9 +1,12 @@
 /**
  * https://leetcode.com/problems/reverse-words-in-a-string/
+ * 
+ * Time Complexity:     O()
+ * Space Complexity:    O()
  */
 package com.zea7ot.lc.lvl3.lc0151;
 
-public class SolutionApproachTwoPtrs {
+public class SolutionApproach0TwoPointers {
     public String reverseWords(String str) {
         StringBuilder builder = trimSpace(str);
         reverse(builder, 0, builder.length() - 1);

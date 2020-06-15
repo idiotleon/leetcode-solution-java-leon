@@ -1,5 +1,8 @@
 /**
  * https://leetcode.com/problems/merge-intervals/
+ * 
+ * Time Complexity:     O(N * lg(N)) + O(N) ~ O(N * lg(N))
+ * Space Complexity:    O(N)
  */
 package com.zea7ot.lc.lvl3.lc0056;
 
@@ -8,7 +11,7 @@ import java.util.LinkedList;
 
 public class Solution{
     public int[][] merge(int[][] intervals) {
-        Arrays.sort(intervals, (interval1, interval2) -> interval1[0] - interval2[0]);
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
         
         LinkedList<int[]> merged = new LinkedList<int[]>();
         for(int[] interval : intervals){

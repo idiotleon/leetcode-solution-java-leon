@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/maximum-product-subarray/
  * 
- * Time Complexity: O(N)
- * Space Complexity: O(1)
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(1)
  * 
  * Because that there are possibly negative numbers and 0(s), 
  * the maximum product must come from either the previous minimum product(containing odd number of negative numbers) or the maximum product times the current value. 
@@ -11,14 +11,17 @@
  */
 package com.zea7ot.lc.lvl3.lc0152;
 
-public class SolutionApproachOnePass {
+public class SolutionApproach0OnePass {
     public int maxProduct(int[] nums) {
+        // sanity check
+        if(nums == null || nums.length == 0) return 0;
+
         int ans = Integer.MIN_VALUE;
         int minProduct = 1, maxProduct = 1;
         
-        for(int i = 0; i < nums.length; i++){
-            int curMin = Math.min(nums[i], Math.min(nums[i] * minProduct, nums[i] * maxProduct));
-            int curMax = Math.max(nums[i], Math.max(nums[i] * minProduct, nums[i] * maxProduct));
+        for(int num : nums){
+            int curMin = Math.min(num, Math.min(num * minProduct, num * maxProduct));
+            int curMax = Math.max(num, Math.max(num * minProduct, num * maxProduct));
             
             minProduct = curMin;
             maxProduct = curMax;

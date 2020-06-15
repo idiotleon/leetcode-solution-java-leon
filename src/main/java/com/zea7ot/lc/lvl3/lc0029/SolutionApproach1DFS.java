@@ -1,9 +1,12 @@
 /**
  * https://leetcode.com/problems/divide-two-integers/
+ * 
+ * Time Complexity:     O()
+ * Space Complexity:    O()
  */
 package com.zea7ot.lc.lvl3.lc0029;
 
-public class Solution{
+public class SolutionApproach1DFS{
     public int divide(int dividend, int divisor) {
         long result = divideLong(dividend, divisor);
         return result > Integer.MAX_VALUE ? Integer.MAX_VALUE : (int)result;

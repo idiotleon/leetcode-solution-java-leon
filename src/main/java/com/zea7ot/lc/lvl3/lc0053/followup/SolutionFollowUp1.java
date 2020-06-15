@@ -4,7 +4,7 @@
  * follow up: 
  *  to return the length of the maximum subarray
  */
-package com.zea7ot.lc.lvl2.lc0053.followup;
+package com.zea7ot.lc.lvl3.lc0053.followup;
 
 public class SolutionFollowUp1 {
     // to return the length of the maximum subarray

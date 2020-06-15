@@ -1,7 +1,9 @@
-Author: Leon
+@author: Leon
 References:
     https://github.com/huanminwu/LeetCode
 
 ### String
 # Two Pointers
+
 3   0680    https://leetcode.com/problems/valid-palindrome-ii/
+3   0763    https://leetcode.com/problems/partition-labels/
