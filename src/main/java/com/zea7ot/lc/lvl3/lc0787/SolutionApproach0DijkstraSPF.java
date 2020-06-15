@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/cheapest-flights-within-k-stops/
  * 
- * Time Complexity:
- * Space Complexity:
+ * Time Complexity:     O(V ^ 2) ~  O(n ^ 2)
+ * Space Complexity:    O(V + Elg(V)) ~ O(n + flights.length * lg(n))
  * 
  * References:
  *  https://leetcode.com/problems/cheapest-flights-within-k-stops/discuss/115541/JavaPython-Priority-Queue-Solution
@@ -23,7 +23,7 @@ public class SolutionApproach0DijkstraSPF {
             prices.get(flight[0]).put(flight[1], flight[2]);;
         }
         
-        Queue<int[]> minHeap = new PriorityQueue<int[]>((e0, e1) -> Integer.compare(e0[0], e1[0]));
+        Queue<int[]> minHeap = new PriorityQueue<int[]>((a, b) -> a[0] - b[0]);
         minHeap.add(new int[]{0, src, K + 1});
         
         while(!minHeap.isEmpty()){
@@ -34,8 +34,8 @@ public class SolutionApproach0DijkstraSPF {
             if(city == dst) return price;
             if(stops > 0){
                 Map<Integer, Integer> adj = prices.getOrDefault(city, new HashMap<Integer, Integer>());
-                for(int a : adj.keySet()){
-                    minHeap.add(new int[]{price + adj.get(a), a, stops - 1});
+                for(Map.Entry<Integer, Integer> entry : adj.entrySet()){
+                    minHeap.add(new int[]{price + entry.getValue(), entry.getKey(), stops - 1});
                 }
             }
         }
