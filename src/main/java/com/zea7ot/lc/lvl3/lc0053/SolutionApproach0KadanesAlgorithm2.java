@@ -1,12 +1,12 @@
 /**
  * https://leetcode.com/problems/maximum-subarray/
  * 
- * Kadane's Algorithm
- * https://hackernoon.com/kadanes-algorithm-explained-50316f4fd8a6
+ *  Kadane's Algorithm
+ *  https://hackernoon.com/kadanes-algorithm-explained-50316f4fd8a6
  */
-package com.zea7ot.lc.lvl2.lc0053;
+package com.zea7ot.lc.lvl3.lc0053;
 
-public class SolutionApproachDP2{
+public class SolutionApproach0KadanesAlgorithm2{
     /**
      * to reset if left sum is a negative value
      * https://leetcode.com/problems/maximum-subarray/discuss/20211/Accepted-O(n)-solution-in-java/20527
