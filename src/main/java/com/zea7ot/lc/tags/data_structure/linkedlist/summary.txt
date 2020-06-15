@@ -4,6 +4,7 @@ References:
 
 ### LinkedList
 
+3   0056    https://leetcode.com/problems/merge-intervals/
 3   0716    https://leetcode.com/problems/max-stack/
 3   1472    https://leetcode.com/problems/design-browser-history/
 

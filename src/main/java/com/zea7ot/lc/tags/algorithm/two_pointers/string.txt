@@ -4,5 +4,7 @@ References:
 
 ### 2 Pointer
 # String
+
 3   0680    https://leetcode.com/problems/valid-palindrome-ii/
+3   0763    https://leetcode.com/problems/partition-labels/
 3   1023    https://leetcode.com/problems/camelcase-matching/
