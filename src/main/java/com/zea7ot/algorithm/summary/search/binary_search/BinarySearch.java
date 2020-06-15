@@ -231,7 +231,7 @@ public class BinarySearch {
         return hi - 1;
     }
 
-    // yet unrecongized binary searches
+    // binary searches YET to recongize 
     // https://leetcode.com/problems/divide-chocolate/discuss/408503/JavaC%2B%2BPython-Binary-Search
     public int maximizeSweetness(int[] A, int K) {
         int lo = 1, hi = (int)1e9 / (K + 1);
