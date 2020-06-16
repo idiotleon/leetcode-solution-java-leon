@@ -6,3 +6,5 @@
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
+
+4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/

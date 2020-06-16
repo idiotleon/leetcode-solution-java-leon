@@ -1,0 +1,33 @@
+@author: Leon
+
+
+### Prefix
+
+2   0676    https://leetcode.com/problems/implement-magic-dictionary/
+2   0677    https://leetcode.com/problems/map-sum-pairs/
+2   0720    https://leetcode.com/problems/longest-word-in-dictionary/
+
+3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
+3   0454    https://leetcode.com/problems/4sum-ii/
+3   0525    https://leetcode.com/problems/contiguous-array/
+3   0560    https://leetcode.com/problems/subarray-sum-equals-k/
+3   0648    https://leetcode.com/problems/replace-words/
+3   0974    https://leetcode.com/problems/subarray-sums-divisible-by-k/
+3   1023    https://leetcode.com/problems/camelcase-matching/
+3   1065    https://leetcode.com/problems/index-pairs-of-a-string/
+
+4   0079    https://leetcode.com/problems/word-search/
+4   0211    https://leetcode.com/problems/add-and-search-word-data-structure-design/
+4   0421    https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
+4   1032    https://leetcode.com/problems/stream-of-characters/
+4   1124    https://leetcode.com/problems/longest-well-performing-interval/
+4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
+4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
+
+5   0212    https://leetcode.com/problems/word-search-ii/
+5   0336    https://leetcode.com/problems/palindrome-pairs/
+5   0425    https://leetcode.com/problems/word-squares/
+5   0472    https://leetcode.com/problems/concatenated-words/
+5   0642    https://leetcode.com/problems/design-search-autocomplete-system/
+
+

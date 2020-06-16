@@ -6,7 +6,18 @@ References:
 # sliding window
 
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
+4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 
+
+0209
+0862
+0904
+0992
+0930
+1004
+1234
+1248
+1358
 
 Resources:
     https://leetcode.com/problems/binary-subarrays-with-sum/discuss/187005/3-ways-to-solve-this-kind-of-problem
