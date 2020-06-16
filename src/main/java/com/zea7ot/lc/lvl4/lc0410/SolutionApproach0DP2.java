@@ -1,14 +1,19 @@
 /**
  * https://leetcode.com/problems/split-array-largest-sum/
  * 
- * http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-410-split-array-largest-sum/
- * Time Complexity: O(m * n ^ 2)
- * Space Complexity: O(m * n)
+ * Time Complexity:     O(m * (N ^ 2))
+ * Space Complexity:    O(m * N)
+ * 
+ * References:
+ *  http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-410-split-array-largest-sum/
  */
 package com.zea7ot.lc.lvl4.lc0410;
 
-public class SolutionApproachDP3 {
+public class SolutionApproach0DP2 {
     public int splitArray(int[] nums, int m) {
+        // sanity check
+        if(nums == null || nums.length == 0) return 0;
+
         final int N = nums.length;
         
         int[] preSums = new int[N];

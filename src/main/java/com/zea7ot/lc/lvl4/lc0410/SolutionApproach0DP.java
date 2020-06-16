@@ -1,10 +1,18 @@
 /**
  * https://leetcode.com/problems/split-array-largest-sum/ 
+ * 
+ * Time Complexity:     O(N * N * m)
+ * Space Complexity:    O(N * m)
+ * 
+ * this approach applies to situations where there is any negative number
  */
 package com.zea7ot.lc.lvl4.lc0410;
 
-public class SolutionApproachDP1 {
+public class SolutionApproach0DP {
     public int splitArray(int[] nums, int m) {
+        // sanity check
+        if(nums == null || nums.length == 0) return 0;
+
         final int N = nums.length;
         
         int[][] dp = new int[N + 1][m + 1];
