@@ -1,11 +1,11 @@
 /**
  * https://leetcode.com/problems/split-array-largest-sum/
  * 
- * https://youtu.be/_k-Jb4b7b_0
- * http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-410-split-array-largest-sum/
+ * Time Complexity:     O(N * lg(sum(nums) - max(nums))) ~ O(N * lg(sum(nums)))
+ *  N, the total amount of elements
+ *  sum(nums) - max(nums), the search range
  * 
- * Time Complexity: O(lg(sum(nums)) * n)
- * Space Complexity: O(1)
+ * Space Complexity:    O(1)
  * 
  * #BinarySearch
  * #Greedy
@@ -22,11 +22,13 @@
  * Given a candidate C, to compute the number groups k needed
  * 
  * if k > m: C is too small
- *  left = C + 1
+ *  lo = C + 1
  * else
- *  right = C
+ *  hi = C
  * 
  * References: 
+ *  https://youtu.be/_k-Jb4b7b_0
+ *  http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-410-split-array-largest-sum/
  *  https://leetcode.com/problems/divide-chocolate/discuss/408503/JavaC++Python-Binary-Search/494896
  *  https://leetcode.com/problems/divide-chocolate/discuss/408503/JavaC++Python-Binary-Search/380399
  *  https://leetcode.com/problems/divide-chocolate/discuss/408503/JavaC++Python-Binary-Search/394052
@@ -39,27 +41,28 @@ package com.zea7ot.lc.lvl4.lc0410;
 
 public class SolutionApproach0BinarySearch {
     public int splitArray(int[] nums, int m) {
+        // sanity check
         if(nums == null || nums.length == 0) return 0;
         
-        long left = 0, right = 1;
+        long lo = 0, hi = 0;
         for(int num : nums){
-            left = Math.max(left, num);
-            right += num;
+            lo = Math.max(lo, num);
+            hi += num;
         }
         
-        while(left < right){
-            long limit = left + (right - left) / 2;
+        while(lo < hi){
+            long mid = lo + (hi - lo) / 2;
             // if there are too many groups with such a limit
-            if(minGroups(nums, limit) > m){
+            if(minGroups(nums, mid) > m){
                 // to increase the limit
-                left = limit + 1;
+                lo = mid + 1;
             }else{
                 // otherwise to decrease the limit
-                right = limit;
+                hi = mid;
             }
         }
         
-        return (int)left;
+        return (int)lo;
     }
     
     private int minGroups(int[] nums, long limit){
