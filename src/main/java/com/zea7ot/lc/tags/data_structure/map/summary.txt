@@ -4,8 +4,9 @@
 
 2   0290    https://leetcode.com/problems/word-pattern/
 
-3   1048    https://leetcode.com/problems/longest-string-chain/
+3   0533    https://leetcode.com/problems/lonely-pixel-ii/
 3   0981    https://leetcode.com/problems/time-based-key-value-store/
+3   1048    https://leetcode.com/problems/longest-string-chain/
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0399    https://leetcode.com/problems/evaluate-division/
