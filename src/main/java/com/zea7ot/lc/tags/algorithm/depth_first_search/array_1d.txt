@@ -6,6 +6,7 @@
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 
 3   0377    https://leetcode.com/problems/combination-sum-iv/
+3   0491    https://leetcode.com/problems/increasing-subsequences/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
