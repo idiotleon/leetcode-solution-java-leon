@@ -11,6 +11,7 @@ References:
 3   0320    https://leetcode.com/problems/generalized-abbreviation/
 3   0357    https://leetcode.com/problems/count-numbers-with-unique-digits/
 3   0401    https://leetcode.com/problems/binary-watch/
+3   0491    https://leetcode.com/problems/increasing-subsequences/
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
 
@@ -22,3 +23,6 @@ References:
 
 5   0291    https://leetcode.com/problems/word-pattern-ii/
 5   0465    https://leetcode.com/problems/optimal-account-balancing/
+
+6   0488    https://leetcode.com/problems/zuma-game/
+

@@ -4,6 +4,7 @@ References:
 
 ### Queue
 # Monotonic Queue
+
 4   0239    https://leetcode.com/problems/sliding-window-maximum/
 4   0719    https://leetcode.com/problems/find-k-th-smallest-pair-distance/
 

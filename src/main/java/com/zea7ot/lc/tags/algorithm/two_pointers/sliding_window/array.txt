@@ -3,12 +3,14 @@ References:
     https://leetcode.com/tag/sliding-window/
 
 ### Sliding Window
-# Array
+# array
+
 1   0643    https://leetcode.com/problems/maximum-average-subarray-i/
 
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
+4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 
 
 

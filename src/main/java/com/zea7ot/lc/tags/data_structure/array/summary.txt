@@ -33,6 +33,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0406    https://leetcode.com/problems/queue-reconstruction-by-height/
 3   0436    https://leetcode.com/problems/find-right-interval/
+3   0491    https://leetcode.com/problems/increasing-subsequences/
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
@@ -53,6 +54,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0351    https://leetcode.com/problems/android-unlock-patterns/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0505    https://leetcode.com/problems/the-maze-ii/
 4   0630    https://leetcode.com/problems/course-schedule-iii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
@@ -77,6 +79,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
+4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 
 5   0327    https://leetcode.com/problems/count-of-range-sum/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/

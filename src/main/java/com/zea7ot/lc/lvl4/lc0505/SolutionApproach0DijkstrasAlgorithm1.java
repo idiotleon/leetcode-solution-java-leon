@@ -3,56 +3,54 @@
  * 
  * to find the next shortest stop from the starting point and then continue to explore from there.
  * 
- * Time Complexity:
- * Space Complexity:
+ * Time Complexity:     O(V + Elg(V)) ~ 
+ * Space Complexity:    O(Elg(V)) ~ 
  */
 package com.zea7ot.lc.lvl4.lc0505;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
-public class SolutionApproachPQ {
+public class SolutionApproach0DijkstrasAlgorithm1 {
     private static final int[] DIRS = {0, -1, 0, 1, 0};
     private int NR, NC;
     
     public int shortestDistance(int[][] maze, int[] start, int[] destination) {
-        // sanity check;
+        // sanity check
         if(maze == null || maze.length == 0 || maze[0].length == 0) return -1;
         
-        // boundaries/sizes of maze
-        NR = maze.length;
-        NC = maze[0].length;
+        // boundaries/sizes of the maze
+        this.NR = maze.length;
+        this.NC = maze[0].length;
         
-        int[][] visited = new int[NR][NC];
-        for(int[] row : visited){
+        int[][] distances = new int[NR][NC];
+        for(int[] row : distances){
             Arrays.fill(row, Integer.MAX_VALUE);
         }
-
-        visited[start[0]][start[1]] = 0;
+        distances[start[0]][start[1]] = 0;
         
         // min heap, by distance, the 1st element
-        PriorityQueue<int[]> processPQ = new PriorityQueue<int[]>((e0, e1) -> Integer.compare(e0[0], e1[0]));
-        processPQ.add(new int[]{0, start[0], start[1]});
+        PriorityQueue<int[]> minHeap = new PriorityQueue<int[]>((a, b) -> a[0] - b[0]);
+        minHeap.add(new int[]{0, start[0], start[1]});
         
-        while(!processPQ.isEmpty()){
-            int[] cur = processPQ.poll();
-            start[0] = cur[1];
-            start[1] = cur[2];
+        while(!minHeap.isEmpty()){
+            int[] top = minHeap.poll();
+            start[0] = top[1];
+            start[1] = top[2];
             // to compare by value
             if(Arrays.equals(start, destination)) break;
-            shortestDistance(maze, visited, start, processPQ);
+            shortestDistance(maze, distances, start, minHeap);
         }
         
-        int shortestDistance = visited[destination[0]][destination[1]];
-        if(shortestDistance == Integer.MAX_VALUE) return -1;
-        return shortestDistance;
+        int shortestDistance = distances[destination[0]][destination[1]];
+        return shortestDistance == Integer.MAX_VALUE ? -1 : shortestDistance;
     }
     
     private void shortestDistance(int[][] maze, 
-                    int[][] visited, 
-                    int[] start, 
-                    PriorityQueue<int[]> processPQ){
-        int distance = visited[start[0]][start[1]];
+                                  int[][] distances, 
+                                  int[] start, 
+                                  PriorityQueue<int[]> minHeap){
+        int distance = distances[start[0]][start[1]];
         for(int d = 0; d < 4; d++){
             int steps = 0;
             int row = start[0], col = start[1];
@@ -72,9 +70,9 @@ public class SolutionApproachPQ {
             if(row == start[0] && col == start[1]) continue;
             
             // to update with the shortest distance
-            if(visited[row][col] > distance + steps){
-                visited[row][col] = distance + steps;
-                processPQ.add(new int[]{visited[row][col], row, col});
+            if(distances[row][col] > distance + steps){
+                distances[row][col] = distance + steps;
+                minHeap.add(new int[]{distances[row][col], row, col});
             }
         }
     }

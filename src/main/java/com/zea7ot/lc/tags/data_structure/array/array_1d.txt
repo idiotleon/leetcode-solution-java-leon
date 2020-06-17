@@ -52,6 +52,7 @@ References:
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
+3   0491    https://leetcode.com/problems/increasing-subsequences/
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
@@ -70,6 +71,7 @@ References:
 4   1231    https://leetcode.com/problems/divide-chocolate/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
+4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 
 5   0327    https://leetcode.com/problems/count-of-range-sum/
