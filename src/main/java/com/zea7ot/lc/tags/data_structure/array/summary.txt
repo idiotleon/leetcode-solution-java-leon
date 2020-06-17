@@ -54,6 +54,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0351    https://leetcode.com/problems/android-unlock-patterns/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0505    https://leetcode.com/problems/the-maze-ii/
 4   0630    https://leetcode.com/problems/course-schedule-iii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/

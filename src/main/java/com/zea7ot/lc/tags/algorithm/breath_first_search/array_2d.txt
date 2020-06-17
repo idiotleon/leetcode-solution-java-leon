@@ -8,6 +8,7 @@
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
 
+4   0505    https://leetcode.com/problems/the-maze-ii/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
