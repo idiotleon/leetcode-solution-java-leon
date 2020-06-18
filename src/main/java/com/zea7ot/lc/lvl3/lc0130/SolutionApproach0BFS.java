@@ -32,7 +32,7 @@ public class SolutionApproach0BFS {
             }
         }
         
-        for(int col = 0; col < NC; col++){
+        for(int col = 1; col < NC - 1; col++){
             if(board[0][col] == 'O'){
                 board[0][col] = '+';
                 queue.add(new int[]{0, col});

@@ -12,6 +12,7 @@
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 
 5   0403     https://leetcode.com/problems/frog-jump/
