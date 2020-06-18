@@ -11,3 +11,5 @@
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
 3   0986    https://leetcode.com/problems/interval-list-intersections/
+
+4   0042    https://leetcode.com/problems/trapping-rain-water/

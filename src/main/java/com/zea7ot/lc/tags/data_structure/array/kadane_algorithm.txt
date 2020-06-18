@@ -1,0 +1,6 @@
+@author: Leon
+
+### Array
+# Kadane's Algorithm
+
+3   0053    https://leetcode.com/problems/maximum-subarray/
