@@ -15,7 +15,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.TreeMap;
 
-public class SolutionApproach0TreeMap1 {
+public class SolutionApproach0SweepLine1 {
     public List<List<Integer>> getSkyline(int[][] buildings) {
         List<List<Integer>> ans = new ArrayList<List<Integer>>();
         // sanity check

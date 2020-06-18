@@ -1,14 +1,15 @@
 /**
  * https://leetcode.com/problems/trapping-rain-water/
  * 
- * Time Complexity: O(n)
- * Space Complexity: O(1)
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(1)
  */
 package com.zea7ot.lc.lvl4.lc0042;
 
-public class SolutionApproachTwoPtrs1 {
+public class SolutionApproach0TwoPtrs1 {
     public int trap(int[] height) {
-        if(height.length == 0) return 0;
+        // sanity check
+        if(height == null || height.length == 0) return 0;
 
         int left = 0, right = height.length - 1;
         int ans = 0;

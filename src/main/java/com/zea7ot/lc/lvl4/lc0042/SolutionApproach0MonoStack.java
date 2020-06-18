@@ -1,12 +1,12 @@
 /**
  * https://leetcode.com/problems/trapping-rain-water/
  * 
- * Time Complexity: O(N)
- * Space Complexity: O(N)
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
  * 
- * to maintain a "descreasing" stack:
+ * to maintain a "non-increasing" stack:
  * 1. to contain indexes, instead of heights/values
- * 2. to maintain a decreasing order of heights in the stack
+ * 2. to maintain a non-increasing order of heights in the stack
  * 
  * in another word, the stack always keeps 
  * the (index of) left taller (compare to cur) column
@@ -21,15 +21,16 @@ package com.zea7ot.lc.lvl4.lc0042;
 
 import java.util.Stack;
 
-public class SolutionApproachStack {
-    public int trap(int[] height) {
+public class SolutionApproach0MonoStack {
+    public int trap(int[] height) { // [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
         // sanity check
         if(height == null || height.length < 2) return 0;
-        
+
+        final int N = height.length;
         Stack<Integer> stack = new Stack<Integer>();
         int water = 0, idx = 0;
-        final int L = height.length;
-        while(idx < L){
+
+        while(idx < N){
             // as long as the incoming height is non-increasing
             if(stack.isEmpty() || height[idx] <= height[stack.peek()]){
                 // to push it to the stack as candidates as left tallers columns

@@ -46,6 +46,7 @@ References:
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 
+4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0154    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
