@@ -23,6 +23,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
 3   1198    https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
+3   1272    https://leetcode.com/problems/remove-interval/
 3   1424    https://leetcode.com/problems/diagonal-traverse-ii/
 
 4   0218    https://leetcode.com/problems/the-skyline-problem/
