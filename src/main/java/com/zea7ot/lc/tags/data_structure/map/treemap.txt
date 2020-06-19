@@ -3,9 +3,19 @@
 ### Map
 # TreeMap
 
+2   0252    https://leetcode.com/problems/meeting-rooms/description/
+
+3   0056    https://leetcode.com/problems/merge-intervals/description/
+3   0253    https://leetcode.com/problems/meeting-rooms-ii/
 3   0729    https://leetcode.com/problems/my-calendar-i/
 3   0731    https://leetcode.com/problems/my-calendar-ii/
 3   0981    https://leetcode.com/problems/time-based-key-value-store/
 
+4   0057    https://leetcode.com/problems/insert-interval/description/
 4   0218    https://leetcode.com/problems/the-skyline-problem/
+4   0732    https://leetcode.com/problems/my-calendar-iii/
 
+
+
+Resources:
+    https://leetcode.com/problems/meeting-rooms-ii/discuss/203658/HashMapTreeMap-resolves-Scheduling-Problem

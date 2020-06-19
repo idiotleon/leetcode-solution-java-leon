@@ -1,43 +1,25 @@
 /**
- * https://leetcode.com/problems/my-calendar-ii/
+ * https://leetcode.com/problems/my-calendar-iii/
  * 
  * Time Complexity:     O(N * lg(d))
  * Space Complexity:    O(N * lg(d))
  * 
  * References:
- *  https://leetcode.com/problems/my-calendar-ii/discuss/109528/nlogd-Java-solution-using-segment-tree-with-lazy-propagation-(for-the-general-case-of-K-booking)
+ *  https://leetcode.com/problems/my-calendar-iii/discuss/288928/Lazy-Dynamic-Segment-Tree-A-general-template
  */
-package com.zea7ot.lc.lvl3.lc0731;
+package com.zea7ot.lc.lvl4.lc0732;
 
-public class SolutionApproach0SegmentedTree {
+public class SolutionApproach0SegmentTree {
     private SegmentTreeNode root;
 
-    public SolutionApproach0SegmentedTree() {
+    public SolutionApproach0SegmentTree() {
         this.root = new SegmentTreeNode(0, 1_000_000_000, 0);
     }
     
-    public boolean book(int start, int end) {
-        // sanity check
-        if(start > end) return false;
-
-        int k = query(root, start, end - 1);
-        // to generalize: 
-        // to replace '2' with 'K - 1',
-        // 'K' is the actual allowed overlaps
-        if(k >= 2) return false;
-        
+    public int book(int start, int end) {
+        if(start > end) return 0;
         update(root, start, end - 1, 1);
-        return true;
-    }
-    
-    private int query(SegmentTreeNode node, int i, int j){
-        if(i > j || node == null || i > node.low || j < node.high) return 0;
-        
-        if(i <= node.low && node.high <= j) return node.k;
-        
-        normalize(node);
-        
-        return Math.max(query(node.left, i, j), query(node.right, i, j));
+        return root.k;
     }
     
     private void update(SegmentTreeNode node, int i, int j, int val){

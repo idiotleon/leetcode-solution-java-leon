@@ -18,5 +18,6 @@ References:
 4   0298    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 4   0428    https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/
 4   0549    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/
+4   0732    https://leetcode.com/problems/my-calendar-iii/
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
