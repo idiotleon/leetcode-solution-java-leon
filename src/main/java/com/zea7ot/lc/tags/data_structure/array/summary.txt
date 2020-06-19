@@ -46,6 +46,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1060    https://leetcode.com/problems/missing-element-in-sorted-array/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
 3   1198    https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
+3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
