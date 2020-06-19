@@ -5,7 +5,8 @@ References:
 
 This serves the list of all the LC problems related to Binary Search, regardless of sub-categories
 
-###BinarySearch
+### Binary Search
+
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 
 2   0035    https://leetcode.com/problems/search-insert-position/
