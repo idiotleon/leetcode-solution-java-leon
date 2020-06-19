@@ -1,9 +1,11 @@
-Author: polyg7ot
+@author: Leon
 References:
     https://github.com/huanminwu/LeetCode
 
 ### String
+## Word Pattern
 # Rabin Karp
+
 4   0187    https://leetcode.com/problems/repeated-dna-sequences/
 4   0972    https://leetcode.com/problems/equal-rational-numbers/
 

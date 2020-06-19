@@ -3,7 +3,9 @@ References:
     https://github.com/huanminwu/LeetCode
 
 ### String
+## Word Pattern
 # KMP Algorithm
+
 2   0028    https://leetcode.com/problems/implement-strstr/
 2   1071    https://leetcode.com/problems/greatest-common-divisor-of-strings/
 

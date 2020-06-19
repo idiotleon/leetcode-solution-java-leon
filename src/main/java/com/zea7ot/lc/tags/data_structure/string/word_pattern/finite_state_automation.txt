@@ -1,0 +1,5 @@
+@author: Leon
+
+### String
+## Word Pattern
+# Finite State Automation
