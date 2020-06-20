@@ -6,5 +6,8 @@
 
 2   0207    https://leetcode.com/problems/course-schedule/
 
+3   0105    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 
+4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/

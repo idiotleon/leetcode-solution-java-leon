@@ -3,5 +3,8 @@
 ### Tree
 # Postorder Traversal
 
+3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/

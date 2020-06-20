@@ -15,12 +15,23 @@ import java.util.Deque;
 
 import com.zea7ot.data_structure.tree.TreeNode;
 
-public class SolutionApproach0Stack {
+public class SolutionApproach0SimulateDFS {
     public TreeNode constructFromPrePost(int[] pre, int[] post) {
+        // sanity check
+        if(pre == null || pre.length == 0 
+            || post == null || post.length == 0 
+            || pre.length != post.length) 
+                return null;
+
+        final int L = pre.length;
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
         stack.offer(new TreeNode(pre[0]));
         
-        for(int i = 1, j = 0; i < pre.length; ++i){
+        /**
+         * i, index for the preorder traversal
+         * j, index for the postorder traversal
+         */
+        for(int i = 1, j = 0; i < L; ++i){
             TreeNode node = new TreeNode(pre[i]);
             while(stack.getLast().val == post[j]){
                 stack.pollLast();
