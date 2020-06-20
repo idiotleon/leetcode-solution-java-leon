@@ -1,14 +1,16 @@
 @author: Leon
 
-### Sweep Line
+### Array
+# Greedy
 
-3   0729    https://leetcode.com/problems/my-calendar-i/
-3   0731    https://leetcode.com/problems/my-calendar-ii/
+3   0406    https://leetcode.com/problems/queue-reconstruction-by-height/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1272    https://leetcode.com/problems/remove-interval/
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
 
 4   0218    https://leetcode.com/problems/the-skyline-problem/
-4   0732    https://leetcode.com/problems/my-calendar-iii/
+4   0630    https://leetcode.com/problems/course-schedule-iii/
+4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 
 6   0391    https://leetcode.com/problems/perfect-rectangle/
+

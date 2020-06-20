@@ -97,6 +97,8 @@ This file serves as the total list of problems related to Array, regardless of a
 5   0786    https://leetcode.com/problems/k-th-smallest-prime-fraction/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
 
+6   0391    https://leetcode.com/problems/perfect-rectangle/
+
 
 Resources:
     https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22
