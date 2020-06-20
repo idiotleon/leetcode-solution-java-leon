@@ -1,15 +1,15 @@
 /**
- * https://www.youtube.com/watch?v=H4VrKHVG5qI
+ * Time Complexity:     O(M * N), in the worst case
+ * Space Complexity:    O(1)
  * 
- * https://github.com/mission-peace/interview/blob/master/src/com/interview/string/RabinKarpSearch.java
- * 
- * Time Complexity: O(N^2), in the worst case
- * Space Complexity: O(1)
+ * References:
+ *  https://www.youtube.com/watch?v=H4VrKHVG5qI
+ *  https://github.com/mission-peace/interview/blob/master/src/com/interview/string/RabinKarpSearch.java
  */
 package com.zea7ot.algorithm.summary.string.pattern_matching;
 
 public class RabinKarpSearch {
-    private final int PRIME = 1001;
+    private final int PRIME = 101;
 
     public int patternSearch(char[] text, char[] pattern){
         final int M = pattern.length, N = text.length;

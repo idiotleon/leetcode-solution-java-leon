@@ -38,6 +38,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
+3   0729    https://leetcode.com/problems/my-calendar-i/
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/
 3   0911    https://leetcode.com/problems/online-election/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
@@ -45,7 +46,10 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1060    https://leetcode.com/problems/missing-element-in-sorted-array/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
 3   1198    https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
+3   1229    https://leetcode.com/problems/meeting-scheduler/
+3   1272    https://leetcode.com/problems/remove-interval/
 3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
+3   1288    https://leetcode.com/problems/remove-covered-intervals/
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0174    https://leetcode.com/problems/dungeon-game/
@@ -91,7 +95,10 @@ This file serves as the total list of problems related to Array, regardless of a
 5   0644    https://leetcode.com/problems/maximum-average-subarray-ii/
 5   0774    https://leetcode.com/problems/minimize-max-distance-to-gas-station/
 5   0786    https://leetcode.com/problems/k-th-smallest-prime-fraction/
+5   0850    https://leetcode.com/problems/rectangle-area-ii/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
+
+6   0391    https://leetcode.com/problems/perfect-rectangle/
 
 
 Resources:

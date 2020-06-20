@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/reconstruct-itinerary/
  * 
- * Time Complexity: O(V + E) ~ O(N)
- * Space Complexity: O(N)
+ * Time Complexity:     O(V + E) ~ O(N)
+ * Space Complexity:    O(N)
  */
 package com.zea7ot.lc.lvl3.lc0332;
 
@@ -13,12 +13,13 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class SolutionApproachBacktrack {
+public class SolutionApproach0Backtrack {
     private int numTickets;
     private int numTicketsUsed;
     
     public List<String> findItinerary(List<List<String>> tickets) {
         LinkedList<String> routes = new LinkedList<String>();
+        // sanity check
         if(tickets == null || tickets.isEmpty()) return routes;
         
         Map<String, List<String>> adjList = new HashMap<String, List<String>>();
@@ -42,7 +43,7 @@ public class SolutionApproachBacktrack {
             Collections.sort(entry.getValue());
         }
         
-        // to DFS
+        // to backtrack
         routes.add("JFK");
         backtrack("JFK", routes, adjList);
         

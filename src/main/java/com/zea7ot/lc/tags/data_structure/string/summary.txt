@@ -29,5 +29,6 @@
 4   1111    https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/
 
 5   0291    https://leetcode.com/problems/word-pattern-ii/
+5   1044    https://leetcode.com/problems/longest-duplicate-substring/
 
 6   0488    https://leetcode.com/problems/zuma-game/

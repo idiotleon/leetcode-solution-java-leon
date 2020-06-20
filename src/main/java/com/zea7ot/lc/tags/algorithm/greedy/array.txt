@@ -7,6 +7,11 @@ References:
 
 3   0322    https://leetcode.com/problems/coin-change/
 3   0406    https://leetcode.com/problems/queue-reconstruction-by-height/
+3   1229    https://leetcode.com/problems/meeting-scheduler/
+3   1272    https://leetcode.com/problems/remove-interval/
+3   1288    https://leetcode.com/problems/remove-covered-intervals/
 
 4   0630    https://leetcode.com/problems/course-schedule-iii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
+
+5   0850    https://leetcode.com/problems/rectangle-area-ii/

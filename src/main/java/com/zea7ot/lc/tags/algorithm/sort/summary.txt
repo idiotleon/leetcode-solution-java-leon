@@ -9,6 +9,8 @@
 
 3   0056    https://leetcode.com/problems/merge-intervals/
 3   0075    https://leetcode.com/problems/sort-colors/
+3   1229    https://leetcode.com/problems/meeting-scheduler/
+3   1288    https://leetcode.com/problems/remove-covered-intervals/
 
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
 

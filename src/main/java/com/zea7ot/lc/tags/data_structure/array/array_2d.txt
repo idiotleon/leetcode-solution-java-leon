@@ -22,6 +22,9 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   0562    https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
 3   1198    https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
+3   1229    https://leetcode.com/problems/meeting-scheduler/
+3   1272    https://leetcode.com/problems/remove-interval/
+3   1288    https://leetcode.com/problems/remove-covered-intervals/
 3   1424    https://leetcode.com/problems/diagonal-traverse-ii/
 
 4   0218    https://leetcode.com/problems/the-skyline-problem/
@@ -39,4 +42,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
+5   0850    https://leetcode.com/problems/rectangle-area-ii/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
+
+6   0391    https://leetcode.com/problems/perfect-rectangle/
