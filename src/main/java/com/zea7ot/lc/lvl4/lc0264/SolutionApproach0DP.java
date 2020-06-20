@@ -1,8 +1,10 @@
 /**
  * https://leetcode.com/problems/ugly-number-ii/
  * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(N)
+ * Time Complexity:     O(n)
+ * Space Complexity:    O(n)
+ * 
+ * to push forward
  * 
  * References:
  *  https://leetcode.com/problems/ugly-number-ii/discuss/69364/My-16ms-C%2B%2B-DP-solution-with-short-explanation
