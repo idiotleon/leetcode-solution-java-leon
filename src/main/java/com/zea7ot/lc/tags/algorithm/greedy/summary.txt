@@ -5,6 +5,7 @@ References:
 ### Greedy
 
 3   0406    https://leetcode.com/problems/queue-reconstruction-by-height/
+3   0659    https://leetcode.com/problems/split-array-into-consecutive-subsequences/
 3   0729    https://leetcode.com/problems/my-calendar-i/
 3   0731    https://leetcode.com/problems/my-calendar-ii/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
