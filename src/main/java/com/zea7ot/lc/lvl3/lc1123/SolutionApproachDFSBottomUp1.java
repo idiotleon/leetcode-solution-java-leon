@@ -7,7 +7,7 @@
  */
 package com.zea7ot.lc.lvl3.lc1123;
 
-import com.zea7ot.data_structure.tree.TreeNode;
+import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproachDFSBottomUp1 {
     public TreeNode lcaDeepestLeaves(TreeNode root) {

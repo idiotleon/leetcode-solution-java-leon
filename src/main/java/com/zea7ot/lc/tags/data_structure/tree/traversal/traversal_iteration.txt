@@ -5,5 +5,9 @@ References:
 ### Tree
 # Traversal - iteration
 
+3   0105    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/

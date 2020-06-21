@@ -8,7 +8,7 @@
  */
 package com.zea7ot.lc.lvl3.lc0543.followup;
 
-import com.zea7ot.data_structure.tree.TreeNode;
+import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproahDFSBottomup {
     public int diameterOfBinaryTree(TreeNode root) {

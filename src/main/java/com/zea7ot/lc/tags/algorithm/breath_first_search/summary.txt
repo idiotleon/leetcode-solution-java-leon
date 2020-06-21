@@ -17,6 +17,7 @@ References:
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0279    https://leetcode.com/problems/perfect-squares/
 3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+3   0743    https://leetcode.com/problems/network-delay-time/
 3   0886    https://leetcode.com/problems/possible-bipartition/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/

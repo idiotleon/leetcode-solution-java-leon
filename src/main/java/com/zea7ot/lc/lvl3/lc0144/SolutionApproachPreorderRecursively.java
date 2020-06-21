@@ -6,7 +6,7 @@ package com.zea7ot.lc.lvl3.lc0144;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.zea7ot.data_structure.tree.TreeNode;
+import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproachPreorderRecursively {
     public List<Integer> preorderTraversal(TreeNode root) {

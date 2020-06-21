@@ -1,6 +1,6 @@
 package com.zea7ot.lc.lvl2.lc0074;
 
-import com.zea7ot.lc.utils.Constants.Matrix;
+import com.zea7ot.utils.Constants.Matrix;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;

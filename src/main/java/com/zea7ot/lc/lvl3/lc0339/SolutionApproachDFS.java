@@ -5,7 +5,7 @@ package com.zea7ot.lc.lvl3.lc0339;
 
 import java.util.List;
 
-import com.zea7ot.lc.utils.NestedInteger;
+import com.zea7ot.utils.NestedInteger;
 
 public class SolutionApproachDFS {
     private int sum;

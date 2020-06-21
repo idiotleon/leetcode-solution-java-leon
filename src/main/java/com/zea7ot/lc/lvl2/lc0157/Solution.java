@@ -3,7 +3,7 @@
  */
 package com.zea7ot.lc.lvl2.lc0157;
 
-import com.zea7ot.lc.utils.Reader4;
+import com.zea7ot.utils.Reader4;
 
 public class Solution extends Reader4 {
     public int read(char[] buf, int n) {

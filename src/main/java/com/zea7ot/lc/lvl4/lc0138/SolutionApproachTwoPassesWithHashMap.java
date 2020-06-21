@@ -6,7 +6,7 @@ package com.zea7ot.lc.lvl4.lc0138;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.zea7ot.data_structure.linkedlist.ListNodeWithRandomPtr;
+import com.zea7ot.utils.data_structure.linkedlist.ListNodeWithRandomPtr;
 
 public class SolutionApproachTwoPassesWithHashMap {
     public ListNodeWithRandomPtr copyRandomList(ListNodeWithRandomPtr head) {

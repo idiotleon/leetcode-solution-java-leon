@@ -8,6 +8,7 @@
 2   0392    https://leetcode.com/problems/is-subsequence/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
 
+3   0060    https://leetcode.com/problems/permutation-sequence/
 3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0320    https://leetcode.com/problems/generalized-abbreviation/
 3   0468    https://leetcode.com/problems/validate-ip-address/

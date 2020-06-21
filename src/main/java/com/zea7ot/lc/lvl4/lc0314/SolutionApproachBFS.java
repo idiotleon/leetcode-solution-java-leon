@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
 
-import com.zea7ot.data_structure.tree.TreeNode;
+import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproachBFS {
     public List<List<Integer>> verticalOrder(TreeNode root) {

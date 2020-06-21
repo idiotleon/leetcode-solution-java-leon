@@ -6,7 +6,7 @@
  */
 package com.zea7ot.lc.lvl3.lc0236;
 
-import com.zea7ot.data_structure.tree.TreeNode;
+import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproachDFS1 {
     private TreeNode result;

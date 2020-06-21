@@ -5,7 +5,10 @@
 2   0441    https://leetcode.com/problems/arranging-coins/
 2   0463    https://leetcode.com/problems/island-perimeter/
 
+3   0060    https://leetcode.com/problems/permutation-sequence/
 3   0357    https://leetcode.com/problems/count-numbers-with-unique-digits/
+
+4   0621    https://leetcode.com/problems/task-scheduler/
 
 5   0850    https://leetcode.com/problems/rectangle-area-ii/
 

@@ -6,7 +6,7 @@ package com.zea7ot.lc.lvl3.lc0113;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.zea7ot.data_structure.tree.TreeNode;
+import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproachBacktrack1 {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {

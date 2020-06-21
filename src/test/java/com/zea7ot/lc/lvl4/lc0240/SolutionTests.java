@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import com.zea7ot.lc.utils.Constants;
+import com.zea7ot.utils.Constants;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 

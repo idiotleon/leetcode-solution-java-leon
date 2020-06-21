@@ -3,7 +3,7 @@
  */
 package com.zea7ot.lc.lvl3.lc0147;
 
-import com.zea7ot.data_structure.linkedlist.ListNode;
+import com.zea7ot.utils.data_structure.linkedlist.ListNode;
 
 public class Solution {
     public ListNode insertionSortList(ListNode head) {
