@@ -12,6 +12,7 @@ References:
 3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 3   0659    https://leetcode.com/problems/split-array-into-consecutive-subsequences/
 3   0787    https://leetcode.com/problems/cheapest-flights-within-k-stops/
+3   1054    https://leetcode.com/problems/distant-barcodes/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 
 4   0218    https://leetcode.com/problems/the-skyline-problem/
