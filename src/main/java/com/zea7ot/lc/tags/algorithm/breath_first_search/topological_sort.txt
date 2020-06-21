@@ -1,11 +1,13 @@
 @author: Leon
 
 ### Breadth First Search
-# topological sort
+# Topological Sort
 
 2   0207    https://leetcode.com/problems/course-schedule/
 
 3   0210    https://leetcode.com/problems/course-schedule-ii/
+3   0743    https://leetcode.com/problems/network-delay-time/
+
 
 Resources:
     https://www.youtube.com/watch?v=M6SBePBMznU
