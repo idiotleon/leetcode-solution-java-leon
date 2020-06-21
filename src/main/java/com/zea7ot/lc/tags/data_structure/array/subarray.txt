@@ -3,7 +3,7 @@ References:
     https://github.com/huanminwu/LeetCode
 
 ### Array
-# subarray
+# Subarray
 
 2   0053    https://leetcode.com/problems/maximum-subarray/
 
