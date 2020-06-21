@@ -1,14 +1,16 @@
 /**
  * https://leetcode.com/problems/task-scheduler/
  * 
- * http://zxi.mytechroad.com/blog/greedy/leetcode-621-task-scheduler/
  * 
- * Time Complexity: O(N)
- * Space Complexity: O(1)
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(1)
+ * 
+ * References:
+ *  http://zxi.mytechroad.com/blog/greedy/leetcode-621-task-scheduler/
  */
 package com.zea7ot.lc.lvl4.lc0621;
 
-public class SolutionApproachMath {
+public class SolutionApproach0Math {
     public int leastInterval(char[] tasks, int n) {
         int[] counts = new int[26];
         for(char task : tasks){

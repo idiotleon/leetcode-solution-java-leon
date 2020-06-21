@@ -28,7 +28,7 @@ public class SolutionApproach0MaxHeap {
             freq.put(barcode, freq.getOrDefault(barcode, 0) + 1);
         }
 
-        Queue<Node> maxHeap = new PriorityQueue<Node>((a, b) -> b.count - a.count);
+        Queue<Node> maxHeap = new PriorityQueue<Node>((a, b) -> Integer.compare(b.count, a.count));
         for(Map.Entry<Integer, Integer> entry : freq.entrySet()){
             Node node = new Node(entry.getKey(), entry.getValue());
             maxHeap.offer(node);
