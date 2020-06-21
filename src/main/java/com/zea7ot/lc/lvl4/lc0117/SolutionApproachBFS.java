@@ -6,7 +6,7 @@ package com.zea7ot.lc.lvl4.lc0117;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.zea7ot.data_structure.tree.TreeNodeWithNextPtr;
+import com.zea7ot.utils.data_structure.tree.TreeNodeWithNextPtr;
 
 public class SolutionApproachBFS {
     public TreeNodeWithNextPtr connect(TreeNodeWithNextPtr root) {

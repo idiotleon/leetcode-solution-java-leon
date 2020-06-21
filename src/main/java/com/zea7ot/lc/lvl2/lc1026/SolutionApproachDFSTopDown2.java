@@ -3,7 +3,7 @@
  */
 package com.zea7ot.lc.lvl2.lc1026;
 
-import com.zea7ot.data_structure.tree.TreeNode;
+import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproachDFSTopDown2{
     public int maxAncestorDiff(TreeNode root) {

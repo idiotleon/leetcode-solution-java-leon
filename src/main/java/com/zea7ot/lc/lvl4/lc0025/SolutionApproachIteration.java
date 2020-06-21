@@ -3,7 +3,7 @@
  */
 package com.zea7ot.lc.lvl4.lc0025;
 
-import com.zea7ot.data_structure.linkedlist.ListNode;
+import com.zea7ot.utils.data_structure.linkedlist.ListNode;
 
 public class SolutionApproachIteration {
     public ListNode reverseKGroup(ListNode head, int k) {

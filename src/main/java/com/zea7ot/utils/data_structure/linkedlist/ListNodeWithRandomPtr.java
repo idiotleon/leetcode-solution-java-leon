@@ -1,0 +1,13 @@
+package com.zea7ot.utils.data_structure.linkedlist;
+
+public class ListNodeWithRandomPtr{
+    public int val;
+    public ListNodeWithRandomPtr random;
+    public ListNodeWithRandomPtr next;
+
+    public ListNodeWithRandomPtr(int val){
+        this.val = val;
+        this.random = null;
+        this.next = null;
+    }
+}

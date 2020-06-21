@@ -2,8 +2,10 @@ package com.zea7ot.lc.lvl4.lc1483;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+@Disabled
 public class SolutionTestApproach1ControlledDFSMemo {
     private SolutionApproach1ControlledDFSMemo solution;
     

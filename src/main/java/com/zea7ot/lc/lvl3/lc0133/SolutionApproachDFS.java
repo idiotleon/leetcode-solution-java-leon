@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.zea7ot.data_structure.graph.Vertex;
+import com.zea7ot.utils.data_structure.graph.Vertex;
 
 public class SolutionApproachDFS {
     private Map<Vertex, Vertex> visited = new HashMap<Vertex, Vertex>();

@@ -3,7 +3,7 @@
  */
 package com.zea7ot.lc.lvl3.lc0108;
 
-import com.zea7ot.data_structure.tree.TreeNode;
+import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproachDFSTopDown {
     public TreeNode sortedArrayToBST(int[] nums) {

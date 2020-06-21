@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
 
-import com.zea7ot.data_structure.graph.Vertex;
+import com.zea7ot.utils.data_structure.graph.Vertex;
 
 public class SolutionApproachBFS {
     public Vertex cloneGraph(Vertex node) {

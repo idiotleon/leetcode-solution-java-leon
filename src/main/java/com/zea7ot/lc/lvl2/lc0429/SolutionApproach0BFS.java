@@ -14,7 +14,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import com.zea7ot.data_structure.tree.NaryTreeNode;
+import com.zea7ot.utils.data_structure.tree.NaryTreeNode;
 
 public class SolutionApproach0BFS {
     public List<List<Integer>> levelOrder(NaryTreeNode root) {

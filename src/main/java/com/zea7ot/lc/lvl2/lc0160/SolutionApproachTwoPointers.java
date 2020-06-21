@@ -3,7 +3,7 @@
  */
 package com.zea7ot.lc.lvl2.lc0160;
 
-import com.zea7ot.data_structure.linkedlist.ListNode;
+import com.zea7ot.utils.data_structure.linkedlist.ListNode;
 
 public class SolutionApproachTwoPointers {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

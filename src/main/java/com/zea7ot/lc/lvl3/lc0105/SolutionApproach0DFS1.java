@@ -11,7 +11,7 @@ package com.zea7ot.lc.lvl3.lc0105;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.zea7ot.data_structure.tree.TreeNode;
+import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0DFS1 {
     public TreeNode buildTree(int[] preorder, int[] inorder) {

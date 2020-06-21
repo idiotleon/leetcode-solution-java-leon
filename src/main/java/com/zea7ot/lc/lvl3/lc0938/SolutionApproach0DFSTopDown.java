@@ -10,7 +10,7 @@
  */
 package com.zea7ot.lc.lvl3.lc0938;
 
-import com.zea7ot.data_structure.tree.TreeNode;
+import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0DFSTopDown {
     public int rangeSumBST(TreeNode root, int L, int R) {

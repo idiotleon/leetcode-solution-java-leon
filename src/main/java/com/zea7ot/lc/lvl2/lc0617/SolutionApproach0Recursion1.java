@@ -5,7 +5,7 @@
  */
 package com.zea7ot.lc.lvl2.lc0617;
 
-import com.zea7ot.data_structure.tree.TreeNode;
+import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0Recursion1 {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {

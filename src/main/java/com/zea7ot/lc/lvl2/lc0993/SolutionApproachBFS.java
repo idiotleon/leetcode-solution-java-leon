@@ -5,7 +5,7 @@ package com.zea7ot.lc.lvl2.lc0993;
 
 import java.util.LinkedList;
 
-import com.zea7ot.data_structure.tree.TreeNode;
+import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproachBFS {
     public boolean isCousins(TreeNode root, int x, int y) {

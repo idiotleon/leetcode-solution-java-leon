@@ -10,7 +10,7 @@
  */
 package com.zea7ot.lc.lvl4.lc0889;
 
-import com.zea7ot.data_structure.tree.TreeNode;
+import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0DivideAndConquer {
     private int preIdx = 0, postIdx = 0;

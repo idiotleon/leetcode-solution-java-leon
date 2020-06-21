@@ -3,7 +3,7 @@
  */
 package com.zea7ot.lc.lvl2.lc0328;
 
-import com.zea7ot.data_structure.linkedlist.ListNode;
+import com.zea7ot.utils.data_structure.linkedlist.ListNode;
 
 public class Solution {
     public ListNode oddEvenList(ListNode head) {

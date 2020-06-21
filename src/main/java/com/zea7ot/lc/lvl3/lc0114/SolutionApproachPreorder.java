@@ -6,7 +6,7 @@ package com.zea7ot.lc.lvl3.lc0114;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.zea7ot.data_structure.tree.TreeNode;
+import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproachPreorder {
     public void flatten(TreeNode root) {
