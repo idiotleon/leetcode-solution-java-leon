@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/dungeon-game/
  * 
- * Time Complexity: O(NR * NC)
- * Space Complexity: O(NR * NC)
+ * Time Complexity:     O(NR * NC)
+ * Space Complexity:    O(NR * NC)
  *  or O(1) if one modifying the original array
  * 
  * References:

@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/dungeon-game/
  * 
- * Time Complexity: O(NR * NC)
- * Space Complexity: O(NC)
+ * Time Complexity:     O(NR * NC)
+ * Space Complexity:    O(NC)
  * 
  * References:
  *  https://leetcode.com/problems/dungeon-game/discuss/52826/A-very-clean-and-intuitive-solution-(with-explanation)

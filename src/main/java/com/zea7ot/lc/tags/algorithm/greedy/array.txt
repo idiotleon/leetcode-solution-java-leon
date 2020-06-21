@@ -12,6 +12,7 @@ References:
 3   1272    https://leetcode.com/problems/remove-interval/
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
 
+4   0358    https://leetcode.com/problems/rearrange-string-k-distance-apart/
 4   0630    https://leetcode.com/problems/course-schedule-iii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 
