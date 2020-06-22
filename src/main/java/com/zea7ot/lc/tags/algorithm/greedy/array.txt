@@ -19,3 +19,4 @@ References:
 4   0759    https://leetcode.com/problems/employee-free-time/
 
 5   0850    https://leetcode.com/problems/rectangle-area-ii/
+5   0857    https://leetcode.com/problems/minimum-cost-to-hire-k-workers/
