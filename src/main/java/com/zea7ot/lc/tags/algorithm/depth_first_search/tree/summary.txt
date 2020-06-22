@@ -11,6 +11,7 @@ References:
 2   0951    https://leetcode.com/problems/flip-equivalent-binary-trees/
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 2   1302    https://leetcode.com/problems/deepest-leaves-sum/
+2   1315    https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/
 
 3   0236    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 3   0333    https://leetcode.com/problems/largest-bst-subtree/
