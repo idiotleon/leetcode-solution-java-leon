@@ -12,7 +12,12 @@ References:
 3   1272    https://leetcode.com/problems/remove-interval/
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
 
+4   0358    https://leetcode.com/problems/rearrange-string-k-distance-apart/
+4   0502    https://leetcode.com/problems/ipo/
 4   0630    https://leetcode.com/problems/course-schedule-iii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
+4   0759    https://leetcode.com/problems/employee-free-time/
+4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 
 5   0850    https://leetcode.com/problems/rectangle-area-ii/
+5   0857    https://leetcode.com/problems/minimum-cost-to-hire-k-workers/

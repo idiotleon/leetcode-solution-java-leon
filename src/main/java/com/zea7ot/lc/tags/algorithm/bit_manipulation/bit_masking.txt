@@ -6,6 +6,7 @@
 3   0355    https://leetcode.com/problems/lonely-pixel-ii/
 
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
 
 
 Resources:

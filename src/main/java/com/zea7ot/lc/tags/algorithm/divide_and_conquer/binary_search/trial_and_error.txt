@@ -9,6 +9,7 @@ References:
 4   0644    https://leetcode.com/problems/maximum-average-subarray-ii/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
 4   0719    https://leetcode.com/problems/find-k-th-smallest-pair-distance/
+4   1439    https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/
 
 5   0774    https://leetcode.com/problems/minimize-max-distance-to-gas-station/
 5   0786    https://leetcode.com/problems/k-th-smallest-prime-fraction/

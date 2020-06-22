@@ -1,0 +1,7 @@
+@author: Leon
+
+
+### String
+# Greedy
+
+4   0358    https://leetcode.com/problems/rearrange-string-k-distance-apart/

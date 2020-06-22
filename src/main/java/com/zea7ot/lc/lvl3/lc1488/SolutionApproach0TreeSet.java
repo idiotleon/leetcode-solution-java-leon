@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeSet;
 
-public class SolutionApproach1TreeSet {
+public class SolutionApproach0TreeSet {
     public int[] avoidFlood(int[] rains) {
         // sanity check
         if(rains == null || rains.length == 0) return new int[0];
@@ -39,7 +39,7 @@ public class SolutionApproach1TreeSet {
             }
         }
         
-        for(int i : zeros) ans[i] = 1;
+        for(int idx : zeros) ans[idx] = 1;
         
         return ans;
     }

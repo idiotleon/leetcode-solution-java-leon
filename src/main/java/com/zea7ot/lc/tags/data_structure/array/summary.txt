@@ -64,6 +64,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0407    https://leetcode.com/problems/trapping-rain-water-ii/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0502    https://leetcode.com/problems/ipo/
 4   0505    https://leetcode.com/problems/the-maze-ii/
 4   0630    https://leetcode.com/problems/course-schedule-iii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
@@ -72,10 +73,12 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0719    https://leetcode.com/problems/find-k-th-smallest-pair-distance/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0759    https://leetcode.com/problems/employee-free-time/
 4   0768    https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
 4   0769    https://leetcode.com/problems/max-chunks-to-make-sorted/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
+4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
@@ -89,6 +92,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
+4   1439    https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 

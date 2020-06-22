@@ -58,6 +58,7 @@ References:
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 3   0491    https://leetcode.com/problems/increasing-subsequences/
+4   0502    https://leetcode.com/problems/ipo/
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
