@@ -5,6 +5,7 @@ References:
 ### Bit Manipulation
 
 3   0137    https://leetcode.com/problems/single-number-ii/
+3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 
 4   0421    https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/

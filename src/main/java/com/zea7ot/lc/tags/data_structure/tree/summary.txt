@@ -15,6 +15,7 @@ References:
 3   0938    https://leetcode.com/problems/range-sum-of-bst/
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 3   1448    https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
 
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
