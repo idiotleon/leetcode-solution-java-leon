@@ -17,12 +17,12 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 public class SolutionApproach1BFS {
     public int goodNodes(TreeNode root) {
         // sanity check
-        if(root == null) return 0;
-        
+        if (root == null) return 0;
+
         Queue<Wrapper> queue = new LinkedList<Wrapper>();
         queue.add(new Wrapper(root, root.val));
         int count = 1;
-        
+
         while(!queue.isEmpty()){
             final int SIZE = queue.size();
             for(int i = 0; i < SIZE; i++){

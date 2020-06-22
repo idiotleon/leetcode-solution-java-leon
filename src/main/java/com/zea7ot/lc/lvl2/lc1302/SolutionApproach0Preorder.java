@@ -11,7 +11,7 @@ package com.zea7ot.lc.lvl2.lc1302;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach1Preorder {
+public class SolutionApproach0Preorder {
     public int deepestLeavesSum(TreeNode root) {
         // sanity check
         if(root == null) return 0;
