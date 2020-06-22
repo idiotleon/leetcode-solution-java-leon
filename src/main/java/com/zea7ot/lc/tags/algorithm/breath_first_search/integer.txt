@@ -5,3 +5,5 @@
 # integer
 
 3   0279    https://leetcode.com/problems/perfect-squares/
+
+5   0818    https://leetcode.com/problems/race-car/
