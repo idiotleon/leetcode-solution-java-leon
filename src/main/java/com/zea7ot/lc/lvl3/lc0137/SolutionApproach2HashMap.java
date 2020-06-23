@@ -1,12 +1,15 @@
 /**
  * https://leetcode.com/problems/single-number-ii/
+ * 
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
  */
 package com.zea7ot.lc.lvl3.lc0137;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class SolutionApproachHashMap {
+public class SolutionApproach2HashMap {
     public int singleNumber(int[] nums) {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         for(int num : nums){

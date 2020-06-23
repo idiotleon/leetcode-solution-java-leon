@@ -5,6 +5,7 @@
 
 2   0290    https://leetcode.com/problems/word-pattern/
 
+3   0137    https://leetcode.com/problems/single-number-ii/
 3   0533    https://leetcode.com/problems/lonely-pixel-ii/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 

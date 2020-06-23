@@ -1,4 +1,4 @@
-Author: Leon
+@author: Leon
 References:
     https://github.com/huanminwu/LeetCode
     https://leetcode.com/tag/breadth-first-search/
@@ -12,6 +12,8 @@ References:
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 2   0993    https://leetcode.com/problems/cousins-in-binary-tree/
 2   0951    https://leetcode.com/problems/flip-equivalent-binary-trees/
+2   1302    https://leetcode.com/problems/deepest-leaves-sum/
+2   1315    https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/
 
 3   0130    https://leetcode.com/problems/surrounded-regions/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
@@ -21,6 +23,7 @@ References:
 3   0886    https://leetcode.com/problems/possible-bipartition/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
+3   1448    https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
 
 4   0407    https://leetcode.com/problems/trapping-rain-water-ii/

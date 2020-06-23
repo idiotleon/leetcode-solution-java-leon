@@ -4,6 +4,7 @@
 
 2   0475    https://leetcode.com/problems/heaters/
 
+3   0137    https://leetcode.com/problems/single-number-ii/
 3   0200    https://leetcode.com/problems/number-of-islands/
 3   0261    https://leetcode.com/problems/graph-valid-tree/
 3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
@@ -11,6 +12,7 @@
 3   0684    https://leetcode.com/problems/redundant-connection/
 3   0729    https://leetcode.com/problems/my-calendar-i/
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/
+3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0264    https://leetcode.com/problems/ugly-number-ii/

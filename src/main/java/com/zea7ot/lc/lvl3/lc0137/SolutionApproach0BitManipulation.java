@@ -1,9 +1,12 @@
 /**
  * https://leetcode.com/problems/single-number-ii/
+ * 
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(1)
  */
 package com.zea7ot.lc.lvl3.lc0137;
 
-public class SolutionApproachBitOperation {
+public class SolutionApproach0BitManipulation {
     public int singleNumber(int[] nums) {
         int seenOnce = 0, seenTwice = 0;
         
