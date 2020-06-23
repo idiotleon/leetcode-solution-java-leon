@@ -23,6 +23,7 @@ References:
 3   0886    https://leetcode.com/problems/possible-bipartition/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
+3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 3   1391    https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/
 3   1448    https://leetcode.com/problems/count-good-nodes-in-binary-tree/
