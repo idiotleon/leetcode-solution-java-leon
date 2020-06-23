@@ -6,6 +6,7 @@
 2   0429    https://leetcode.com/problems/n-ary-tree-level-order-traversal/
 2   1302    https://leetcode.com/problems/deepest-leaves-sum/
 
+3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
 3   1448    https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 
