@@ -17,6 +17,7 @@ References:
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
 3   1273    https://leetcode.com/problems/delete-tree-nodes/
+3   1339    https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 3   1448    https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
