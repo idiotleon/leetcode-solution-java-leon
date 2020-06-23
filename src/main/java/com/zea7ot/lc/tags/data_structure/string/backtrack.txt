@@ -6,6 +6,7 @@ References:
 # backtrack
 
 3   0320    https://leetcode.com/problems/generalized-abbreviation/
+3   0756    https://leetcode.com/problems/pyramid-transition-matrix/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
 
 4   0267    https://leetcode.com/problems/palindrome-permutation-ii/
