@@ -1,9 +1,10 @@
-Author: Leon
+@author: Leon
 References:
     https://github.com/huanminwu/LeetCode
     https://leetcode.com/tag/union-find/
 
 ### Union Find
+
 3   0200    https://leetcode.com/problems/number-of-islands/
 3   0261    https://leetcode.com/problems/graph-valid-tree/
 3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
@@ -11,6 +12,7 @@ References:
 3   0684    https://leetcode.com/problems/redundant-connection/
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/
 3   0886    https://leetcode.com/problems/possible-bipartition/
+3   1391    https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0305    https://leetcode.com/problems/number-of-islands-ii/
