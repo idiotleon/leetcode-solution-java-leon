@@ -1,4 +1,20 @@
 @author: Leon
 
 ### Depth First Search
-# graph
+# Graph
+
+2   0207    https://leetcode.com/problems/course-schedule/
+
+3   0210    https://leetcode.com/problems/course-schedule-ii/
+3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+3   0582    https://leetcode.com/problems/kill-process/
+3   0802    https://leetcode.com/problems/find-eventual-safe-states/
+3   0851    https://leetcode.com/problems/loud-and-rich/
+3   0886    https://leetcode.com/problems/possible-bipartition/
+3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
+3   1245    https://leetcode.com/problems/tree-diameter/
+3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
+
+4   0399    https://leetcode.com/problems/evaluate-division/
+4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+
