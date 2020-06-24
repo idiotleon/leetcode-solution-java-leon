@@ -37,6 +37,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0491    https://leetcode.com/problems/increasing-subsequences/
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
+3   0638    https://leetcode.com/problems/shopping-offers/
 3   0659    https://leetcode.com/problems/split-array-into-consecutive-subsequences/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 3   0729    https://leetcode.com/problems/my-calendar-i/
