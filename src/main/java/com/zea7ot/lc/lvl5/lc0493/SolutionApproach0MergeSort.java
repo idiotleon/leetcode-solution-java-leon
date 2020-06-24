@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/reverse-pairs/
  * 
- * Time Complexity: O(N * lg(N))
- * Space Complexity: O()
+ * Time Complexity:     O(N * lg(N))
+ * Space Complexity:    O()
  * 
  * References:
  *  https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22

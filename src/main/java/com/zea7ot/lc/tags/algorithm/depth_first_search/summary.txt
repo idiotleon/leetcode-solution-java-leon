@@ -36,6 +36,7 @@ References:
 3   0687    https://leetcode.com/problems/longest-univalue-path/
 3   0756    https://leetcode.com/problems/pyramid-transition-matrix/
 3   0802    https://leetcode.com/problems/find-eventual-safe-states/
+3   0841    https://leetcode.com/problems/keys-and-rooms/
 3   0851    https://leetcode.com/problems/loud-and-rich/
 3   0865    https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 3   0886    https://leetcode.com/problems/possible-bipartition/
