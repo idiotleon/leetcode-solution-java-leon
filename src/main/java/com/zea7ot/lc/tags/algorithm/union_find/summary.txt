@@ -12,6 +12,7 @@ References:
 3   0684    https://leetcode.com/problems/redundant-connection/
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/
 3   0886    https://leetcode.com/problems/possible-bipartition/
+3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 3   1391    https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/
 
