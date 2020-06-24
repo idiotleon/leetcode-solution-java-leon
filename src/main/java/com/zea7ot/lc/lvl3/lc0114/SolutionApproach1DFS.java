@@ -1,11 +1,14 @@
 /**
  * https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+ * 
+ * Time Complexity:     O()
+ * Space Complexity:    O()
  */
 package com.zea7ot.lc.lvl3.lc0114;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproachDFS1 {
+public class SolutionApproach1DFS {
     public void flatten(TreeNode root) {
         dfs(root);
     }
