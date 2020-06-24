@@ -24,6 +24,7 @@ References:
 3   0886    https://leetcode.com/problems/possible-bipartition/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
+3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
 3   1236    https://leetcode.com/problems/web-crawler/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
