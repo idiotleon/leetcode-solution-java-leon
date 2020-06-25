@@ -29,6 +29,7 @@ References:
 4   0358    https://leetcode.com/problems/rearrange-string-k-distance-apart/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
+4   1028    https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1111    https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/
 
