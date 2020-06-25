@@ -45,6 +45,7 @@ References:
 2   0971    https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1023    https://leetcode.com/problems/camelcase-matching/
+3   1034    https://leetcode.com/problems/coloring-a-border/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/

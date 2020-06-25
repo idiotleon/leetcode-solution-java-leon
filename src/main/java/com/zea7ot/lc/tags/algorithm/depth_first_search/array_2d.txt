@@ -14,6 +14,7 @@ References:
 3   0638    https://leetcode.com/problems/shopping-offers/
 3   0841    https://leetcode.com/problems/keys-and-rooms/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
+3   1034    https://leetcode.com/problems/coloring-a-border/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
