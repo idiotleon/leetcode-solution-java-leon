@@ -13,6 +13,7 @@ References:
 3   0401    https://leetcode.com/problems/binary-watch/
 3   0491    https://leetcode.com/problems/increasing-subsequences/
 3   0638    https://leetcode.com/problems/shopping-offers/
+3   0753    https://leetcode.com/problems/cracking-the-safe/
 3   0756    https://leetcode.com/problems/pyramid-transition-matrix/
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/

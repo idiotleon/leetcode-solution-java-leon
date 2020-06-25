@@ -35,6 +35,7 @@ References:
 3   0582    https://leetcode.com/problems/kill-process/
 3   0638    https://leetcode.com/problems/shopping-offers/
 3   0687    https://leetcode.com/problems/longest-univalue-path/
+3   0753    https://leetcode.com/problems/cracking-the-safe/
 3   0756    https://leetcode.com/problems/pyramid-transition-matrix/
 3   0802    https://leetcode.com/problems/find-eventual-safe-states/
 3   0841    https://leetcode.com/problems/keys-and-rooms/
