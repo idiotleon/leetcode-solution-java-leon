@@ -3,11 +3,15 @@ References:
     https://github.com/huanminwu/LeetCode
 
 ### String
-# depth first search:
+# Depth First Search:
+
 3   0269    https://leetcode.com/problems/alien-dictionary/
 3   0439    https://leetcode.com/problems/ternary-expression-parser/
 3   0494    https://leetcode.com/problems/target-sum/
 3   1048    https://leetcode.com/problems/longest-string-chain/
+3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
+
+4   1028    https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
 
 5   0291    https://leetcode.com/problems/word-pattern-ii/
 5   0425    https://leetcode.com/problems/word-squares/

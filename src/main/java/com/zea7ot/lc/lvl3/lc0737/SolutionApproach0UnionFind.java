@@ -2,6 +2,7 @@
  * https://leetcode.com/problems/sentence-similarity-ii/
  * 
  * Time Complexity:     O(pairs.size() + 2 * words1.length * pairs.size() * lg(pairs.size())) ~ O(words1.length * pairs.size() * lg(pairs.size()) )
+ * 
  * Space Complexity:    O(pairs.size())
  * 
  * References:

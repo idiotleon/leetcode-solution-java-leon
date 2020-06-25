@@ -14,8 +14,10 @@ References:
 3   0468    https://leetcode.com/problems/validate-ip-address/
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
+3   0753    https://leetcode.com/problems/cracking-the-safe/
 3   0756    https://leetcode.com/problems/pyramid-transition-matrix/
 3   1048    https://leetcode.com/problems/longest-string-chain/
+3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 
@@ -28,6 +30,7 @@ References:
 4   0358    https://leetcode.com/problems/rearrange-string-k-distance-apart/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
+4   1028    https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1111    https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/
 

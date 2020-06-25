@@ -33,6 +33,7 @@ References:
 3   1448    https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
+3   1485    https://leetcode.com/problems/clone-binary-tree-with-random-pointer/
 
 4   0124    https://leetcode.com/problems/binary-tree-maximum-path-sum/
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
@@ -42,4 +43,5 @@ References:
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   0979    https://leetcode.com/problems/distribute-coins-in-binary-tree/
 4   1008    https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
+4   1028    https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
 4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/

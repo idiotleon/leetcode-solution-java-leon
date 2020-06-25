@@ -14,13 +14,16 @@ References:
 3   0638    https://leetcode.com/problems/shopping-offers/
 3   0841    https://leetcode.com/problems/keys-and-rooms/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
+3   1034    https://leetcode.com/problems/coloring-a-border/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
 
 4   0329    https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
 4   0351    https://leetcode.com/problems/android-unlock-patterns/
+4   0489    https://leetcode.com/problems/robot-room-cleaner/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+4   0980    https://leetcode.com/problems/unique-paths-iii/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/

@@ -4,8 +4,9 @@ References:
     https://leetcode.com/tag/queue/
 
 ### Queue
-# deque
+# Deque
 
 4   0239    https://leetcode.com/problems/sliding-window-maximum/
+4   1028    https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 4   1425    https://leetcode.com/problems/constrained-subsequence-sum/
