@@ -33,7 +33,7 @@ public class SolutionApproach0TopologicalSortDFS {
         
         int[] visit = new int[numCourses];
         for(int i = 0; i < numCourses; i++){
-            if(hasCycle(graph, i, visit)) {
+            if(hasCycle(i, visit, graph)) {
                 return false;
             }
         }
@@ -41,16 +41,16 @@ public class SolutionApproach0TopologicalSortDFS {
         return true;
     }
     
-    private boolean hasCycle(List<List<Integer>> graph,
-                             int vertex,
-                             int[] visit){ 
+    private boolean hasCycle(int vertex,
+                             int[] visit, 
+                             List<List<Integer>> graph){ 
         if(visit[vertex] == VISITING) return true;
         if(visit[vertex] == VISITED) return false;
         
         visit[vertex] = VISITING;
         
         for(int next : graph.get(vertex)){
-            if(hasCycle(graph, next, visit)){
+            if(hasCycle(next, visit, graph)){
                 return true;
             }
         }

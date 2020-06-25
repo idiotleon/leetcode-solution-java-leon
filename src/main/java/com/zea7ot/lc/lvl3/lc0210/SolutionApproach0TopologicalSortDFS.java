@@ -23,8 +23,9 @@ public class SolutionApproach0TopologicalSortDFS {
         if(numCourses <= 0) return new int[0];
 
         List<List<Integer>> graph = new ArrayList<List<Integer>>();
-        for(int i = 0; i < numCourses; i++) 
+        for(int i = 0; i < numCourses; i++){
             graph.add(new ArrayList<Integer>());
+        }
         
         for(int[] prerequisite : prerequisites){
             graph.get(prerequisite[0]).add(prerequisite[1]);
@@ -33,7 +34,7 @@ public class SolutionApproach0TopologicalSortDFS {
         List<Integer> res = new ArrayList<Integer>();
         int[] visited = new int[numCourses];
         for(int course = 0; course < numCourses; course++){
-            if(hasCycle(graph, course, visited, res)){
+            if(hasCycle(course, graph, visited, res)){
                 return new int[0];
             }
         }
@@ -41,8 +42,8 @@ public class SolutionApproach0TopologicalSortDFS {
         return res.stream().mapToInt(i -> i).toArray();
     }
     
-    private boolean hasCycle(List<List<Integer>> graph, 
-                             int vertex, 
+    private boolean hasCycle(int vertex, 
+                             List<List<Integer>> graph, 
                              int[] visited, 
                              List<Integer> res){
         if(visited[vertex] == VISITING) return true; // there is a cycle
@@ -50,7 +51,7 @@ public class SolutionApproach0TopologicalSortDFS {
         
         visited[vertex] = VISITING;
         for(int next : graph.get(vertex)){
-            if(hasCycle(graph, next, visited, res)){
+            if(hasCycle(next, graph, visited, res)){
                 return true;
             }
         }

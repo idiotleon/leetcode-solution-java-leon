@@ -33,7 +33,7 @@ public class SolutionApproach0TopologicalSortDFS1 {
         
         int[] visit = new int[numCourses];
         for(int i = 0; i < numCourses; i++){
-            if(!canFinish(graph, i, visit)) {
+            if(!canFinish(i, visit, graph)) {
                 return false;
             }
         }
@@ -41,16 +41,16 @@ public class SolutionApproach0TopologicalSortDFS1 {
         return true;
     }
     
-    private boolean canFinish(List<List<Integer>> graph,
-                             int course,
-                             int[] visit){
+    private boolean canFinish(int course,
+                              int[] visit, 
+                              List<List<Integer>> graph){
         if(visit[course] == VISITING) return false;
         if(visit[course] == VISITED) return true;
         
         visit[course] = VISITING;
         
         for(int next : graph.get(course)){
-            if(!canFinish(graph, next, visit)){
+            if(!canFinish(next, visit, graph)){
                 return false;
             }
         }

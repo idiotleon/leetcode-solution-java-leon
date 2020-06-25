@@ -36,7 +36,7 @@ public class SolutionApproach0ColoringDFS1 {
         
         while(!whiteSet.isEmpty()){
             int vertex = whiteSet.iterator().next();
-            if(hasCycle(graph, vertex, whiteSet, graySet, blackSet)){
+            if(hasCycle(vertex, whiteSet, graySet, blackSet, graph)){
                 return false;
             }
         }
@@ -44,11 +44,11 @@ public class SolutionApproach0ColoringDFS1 {
         return true;
     }
     
-    private boolean hasCycle(Map<Integer, List<Integer>> graph,
-                            int vertex,
-                            Set<Integer> whiteSet, 
-                            Set<Integer> graySet, 
-                            Set<Integer> blackSet){
+    private boolean hasCycle(int vertex,
+                             Set<Integer> whiteSet,
+                             Set<Integer> graySet,
+                             Set<Integer> blackSet, 
+                             Map<Integer, List<Integer>> graph){
         move(vertex, whiteSet, graySet);
         for(int next : graph.get(vertex)){
             
@@ -56,7 +56,7 @@ public class SolutionApproach0ColoringDFS1 {
             
             if(graySet.contains(next)) return true;
             
-            if(hasCycle(graph, next, whiteSet, graySet, blackSet)) return true;
+            if(hasCycle(next, whiteSet, graySet, blackSet, graph)) return true;
             
         }
         move(vertex, graySet, blackSet);
