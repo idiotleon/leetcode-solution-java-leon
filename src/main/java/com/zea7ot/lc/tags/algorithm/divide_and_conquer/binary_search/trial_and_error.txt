@@ -4,8 +4,10 @@ References:
 
 ### Binary Search
 # Trial and Error / Guess the Number
+
 3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 
+3   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0644    https://leetcode.com/problems/maximum-average-subarray-ii/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
 4   0719    https://leetcode.com/problems/find-k-th-smallest-pair-distance/

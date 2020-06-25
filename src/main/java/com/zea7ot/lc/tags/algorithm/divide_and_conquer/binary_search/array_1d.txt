@@ -28,6 +28,7 @@ References:
 
 4   0081    https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 4   0154    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
+4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/

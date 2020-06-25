@@ -1,13 +1,16 @@
 /**
  * https://leetcode.com/problems/find-the-duplicate-number/
  * 
- * Time Complexity: O(N)
- * Space Complexity: O(1)
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(1)
  */
 package com.zea7ot.lc.lvl4.lc0287;
 
-public class SolutionApproach0TwoPtrs {
+public class SolutionApproach0TwoPointers {
     public int findDuplicate(int[] nums) {
+        // sanity check
+        if(nums == null || nums.length == 0) return 0;
+        
         int tortoise = nums[0], hare = nums[0];
         
         do{
