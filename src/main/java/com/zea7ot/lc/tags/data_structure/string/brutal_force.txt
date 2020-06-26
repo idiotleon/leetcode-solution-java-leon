@@ -1,0 +1,7 @@
+@author: Leon
+
+
+### String
+# Brutal Force
+
+4   1152    https://leetcode.com/problems/analyze-user-website-visit-pattern/

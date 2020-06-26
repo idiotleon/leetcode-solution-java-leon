@@ -14,6 +14,7 @@ References:
 
 3   0105    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+3   0129    https://leetcode.com/problems/sum-root-to-leaf-numbers/
 3   0130    https://leetcode.com/problems/surrounded-regions/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0216    https://leetcode.com/problems/combination-sum-iii/
@@ -95,6 +96,7 @@ References:
 5   0425    https://leetcode.com/problems/word-squares/
 5   0472    https://leetcode.com/problems/concatenated-words/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
+5   1203    https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
 
 6   0488    https://leetcode.com/problems/zuma-game/
 

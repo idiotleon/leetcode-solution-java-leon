@@ -4,6 +4,7 @@
 # Postorder Traversal
 
 3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+3   0129    https://leetcode.com/problems/sum-root-to-leaf-numbers/
 3   1339    https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 

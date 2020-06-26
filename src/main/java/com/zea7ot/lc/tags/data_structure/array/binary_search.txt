@@ -3,13 +3,14 @@ References:
     https://leetcode.com/tag/binary-search/
 
 ### Array
-# binary search
+# Binary Search
 2   0704    https://leetcode.com/problems/binary-search/
 
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0436    https://leetcode.com/problems/find-right-interval/
 3   0911    https://leetcode.com/problems/online-election/
 
+4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
 4   0719    https://leetcode.com/problems/find-k-th-smallest-pair-distance/

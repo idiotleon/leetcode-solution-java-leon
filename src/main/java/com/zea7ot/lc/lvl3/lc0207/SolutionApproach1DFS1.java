@@ -23,24 +23,25 @@ public class SolutionApproach1DFS1 {
         }
         
         for(int i = 0; i < numCourses; i++){
-            if(isCyclic(graph, i, new boolean[numCourses])) 
+            if(isCyclic(i, new boolean[numCourses], graph)) 
                 return false;
         }
 
         return true;
     }
     
-    private boolean isCyclic(Map<Integer, List<Integer>> graph, 
-                             int start, 
-                             boolean[] visited){
+    private boolean isCyclic(int start, 
+                             boolean[] visited, 
+                             Map<Integer, List<Integer>> graph){
         
         if(!graph.containsKey(start)) return false;
         if(visited[start]) return true;
         visited[start] = true;
         
         for(int next : graph.get(start)){
-            if(isCyclic(graph, next, visited))
+            if(isCyclic(next, visited, graph)){
                 return true;
+            }
         }
 
         visited[start] = false;

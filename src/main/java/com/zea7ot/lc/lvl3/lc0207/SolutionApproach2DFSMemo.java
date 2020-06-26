@@ -29,7 +29,7 @@ public class SolutionApproach2DFSMemo {
         }
         
         for(int i = 0; i < numCourses; i++){
-            if(!hasNoCycle(graph, visited, i, memo)){
+            if(!hasNoCycle(i, visited, memo, graph)){
                 return false;
             }
         }
@@ -37,16 +37,16 @@ public class SolutionApproach2DFSMemo {
         return true;
     }
     
-    private boolean hasNoCycle(List<List<Integer>> graph, 
-                        boolean[] visited, 
-                        int course, 
-                        boolean[] memo){
+    private boolean hasNoCycle(int course,
+                               boolean[] visited, 
+                               boolean[] memo,
+                               List<List<Integer>> graph){
         if(visited[course]) return false;
         if(memo[course]) return true;
         
         visited[course] = true;
         for(int next : graph.get(course)){
-            if(!hasNoCycle(graph, visited, next, memo)){
+            if(!hasNoCycle(next, visited, memo, graph)){
                 return false;
             }
         }

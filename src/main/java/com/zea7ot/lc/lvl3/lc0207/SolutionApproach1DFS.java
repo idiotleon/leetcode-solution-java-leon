@@ -34,20 +34,20 @@ public class SolutionApproach1DFS {
         }
         
         for(int i = 0; i < numCourses; i++){
-            if(isCyclic(graph, 
-                        i, 
+            if(isCyclic(i, 
                         new boolean[numCourses], 
-                        new boolean[numCourses])) 
+                        new boolean[numCourses], 
+                        graph)) 
                 return false;
         }
 
         return true;
     }
     
-    private boolean isCyclic(List<List<Integer>> graph, 
-                             int start, 
+    private boolean isCyclic(int start, 
                              boolean[] visited, 
-                             boolean[] recStack){
+                             boolean[] recStack, 
+                             List<List<Integer>> graph){
         
         if(recStack[start]) return true;
         if(visited[start]) return false;
@@ -56,7 +56,7 @@ public class SolutionApproach1DFS {
         recStack[start] = true;
         
         for(int next : graph.get(start)){
-            if(isCyclic(graph, next, visited, recStack))
+            if(isCyclic(next, visited, recStack, graph))
                 return true;
         }
         
