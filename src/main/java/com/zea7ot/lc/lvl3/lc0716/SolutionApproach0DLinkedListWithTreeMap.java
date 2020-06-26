@@ -29,9 +29,7 @@ public class SolutionApproach0DLinkedListWithTreeMap {
     
     public void push(int x) {
         Node node = dll.add(x);
-        if(!map.containsKey(x)){
-            map.put(x, new ArrayList<Node>());
-        }
+        map.putIfAbsent(x, new ArrayList<Node>());
         map.get(x).add(node);
     }
     
@@ -63,14 +61,14 @@ public class SolutionApproach0DLinkedListWithTreeMap {
     private class DoubleLinkedList{
         protected Node head, tail;
         
-        public DoubleLinkedList(){
+        protected DoubleLinkedList(){
             this.head = new Node(-1);
             this.tail = new Node(-1);
             head.next = tail;
             tail.prev = head;
         }
         
-        public Node add(int val){
+        protected Node add(int val){
             Node x = new Node(val);
             x.next = tail;
             x.prev = tail.prev;
@@ -78,15 +76,15 @@ public class SolutionApproach0DLinkedListWithTreeMap {
             return x;
         }
         
-        public int pop(){
+        protected int pop(){
             return unlink(tail.prev).val;
         }
         
-        public int peek(){
+        protected int peek(){
             return tail.prev.val;
         }
         
-        public Node unlink(Node node){
+        protected Node unlink(Node node){
             node.prev.next = node.next;
             node.next.prev = node.prev;
             return node;
@@ -96,10 +94,9 @@ public class SolutionApproach0DLinkedListWithTreeMap {
     private class Node{
         protected int val;
         protected Node prev, next;
-        public Node(int val){
+        protected Node(int val){
             this.val = val;
-            this.prev = null;
-            this.next = null;
+            this.prev = this.next = null;
         }
     }
 }
