@@ -21,6 +21,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   0498    https://leetcode.com/problems/diagonal-traverse/ 
 3   0562    https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/
 3   0638    https://leetcode.com/problems/shopping-offers/
+3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1034    https://leetcode.com/problems/coloring-a-border/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
