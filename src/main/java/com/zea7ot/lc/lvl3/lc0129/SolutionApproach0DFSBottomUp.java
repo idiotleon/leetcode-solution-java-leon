@@ -1,6 +1,9 @@
 /**
  * https://leetcode.com/problems/sum-root-to-leaf-numbers/
  * 
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(H)
+ * 
  * Tabulation vs Memoization
  * https://www.geeksforgeeks.org/tabulation-vs-memoization/
  */
@@ -8,7 +11,7 @@ package com.zea7ot.lc.lvl3.lc0129;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproachDFSBottomUp {
+public class SolutionApproach0DFSBottomUp {
     public int sumNumbers(TreeNode root) {
         return dfs(root, 0);
     }
