@@ -13,6 +13,8 @@ References:
 4   0295    https://leetcode.com/problems/find-median-from-data-stream/
 4   0355    https://leetcode.com/problems/design-twitter/
 
+5   0588    https://leetcode.com/problems/design-in-memory-file-system/
+
 6   0460    https://leetcode.com/problems/lfu-cache/
 
 

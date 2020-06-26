@@ -16,3 +16,5 @@
 4   0745    https://leetcode.com/problems/prefix-and-suffix-search/
 4   0759    https://leetcode.com/problems/employee-free-time/
 4   1152    https://leetcode.com/problems/analyze-user-website-visit-pattern/
+
+5   0588    https://leetcode.com/problems/design-in-memory-file-system/
