@@ -4,6 +4,8 @@ References:
 
 ### Object-Oriented Design
 
+2   0535    https://leetcode.com/problems/encode-and-decode-tinyurl/
+
 3   0348    https://leetcode.com/problems/design-tic-tac-toe/
 3   0380    https://leetcode.com/problems/insert-delete-getrandom-o1/
 3   0528    https://leetcode.com/problems/random-pick-with-weight/
