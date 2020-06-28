@@ -1,70 +1,66 @@
 /**
  * https://leetcode.com/problems/reconstruct-itinerary/
  * 
- * Time Complexity:     O(V + E) ~ O(N)
- * Space Complexity:    O(N)
+ * Time Complexity:     O(N * lg(N)) + O(N) ~ O(N * lg(N))
+ * Space Complexity:    O(N) + 
+ * 
+ * References:
+ *  https://www.youtube.com/watch?v=LKSdX31pXjY
  */
 package com.zea7ot.lc.lvl3.lc0332;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
 public class SolutionApproach0Backtrack {
-    private int numTickets;
-    private int numTicketsUsed;
-    
     public List<String> findItinerary(List<List<String>> tickets) {
-        LinkedList<String> routes = new LinkedList<String>();
+        List<String> ans = new ArrayList<String>();
         // sanity check
-        if(tickets == null || tickets.isEmpty()) return routes;
+        if(tickets == null || tickets.isEmpty()) return ans;
         
-        Map<String, List<String>> adjList = new HashMap<String, List<String>>();
-        this.numTickets = tickets.size();
-        this.numTicketsUsed = 0;
+        final int N = tickets.size();
+        Map<String, List<String>> graph = buildGraph(tickets);
+
+        final String START = "JFK";
+        ans.add(START);
+        if(findItinerary(START, ans, graph, N + 1)) return ans;
+        return null;
+    }
+    
+    private boolean findItinerary(String source, 
+                                  List<String> route, 
+                                  Map<String, List<String>> graph, 
+                                  final int LEN){
+        if(route.size() == LEN) return true;
+        if(!graph.containsKey(source)) return false;
         
-        // to build up the graph
-        for(int i = 0; i < tickets.size(); i++){
-            if(!adjList.containsKey(tickets.get(i).get(0))){
-                List<String> list = new ArrayList<String>();
-                list.add(tickets.get(i).get(1));
-                adjList.put(tickets.get(i).get(0), list);
-            }else{
-                // to add to existing list
-                adjList.get(tickets.get(i).get(0)).add(tickets.get(i).get(1));
-            }
+        List<String> destinations = graph.get(source);
+        for(int i = 0; i < destinations.size(); i++){
+            String destination = destinations.get(i);
+            destinations.remove(i);
+            route.add(destination);
+            if(findItinerary(destination, route, graph, LEN)) return true;
+            route.remove(route.size() - 1);
+            destinations.add(i, destination);
         }
         
-        // to sort vertices in the adjacency list so that they appear in lexical order
-        for(Map.Entry<String, List<String>> entry : adjList.entrySet()){
+        return false;
+    }
+    
+    private Map<String, List<String>> buildGraph(List<List<String>> tickets){
+        Map<String, List<String>> graph = new HashMap<String, List<String>>();
+        for(List<String> ticket : tickets){
+            graph.putIfAbsent(ticket.get(0), new ArrayList<String>());
+            graph.get(ticket.get(0)).add(ticket.get(1));
+        }
+        
+        for(Map.Entry<String, List<String>> entry : graph.entrySet()){
             Collections.sort(entry.getValue());
         }
         
-        // to backtrack
-        routes.add("JFK");
-        backtrack("JFK", routes, adjList);
-        
-        return routes;
-    }
-    
-    private void backtrack(String v, LinkedList<String> routes, Map<String, List<String>> adjList){
-        if(!adjList.containsKey(v)) return;
-        List<String> list = adjList.get(v);
-        for(int i = 0; i < list.size(); i++){
-            String neighbor = list.get(i);
-            list.remove(i);
-            routes.add(neighbor);
-            numTicketsUsed++;
-            
-            backtrack(neighbor, routes, adjList);
-            if(numTickets == numTicketsUsed) return;
-            
-            list.add(i, neighbor);
-            routes.removeLast();
-            numTicketsUsed--;
-        }
+        return graph;
     }
 }
