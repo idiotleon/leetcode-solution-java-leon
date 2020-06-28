@@ -1,43 +1,36 @@
 /**
  * https://leetcode.com/problems/find-median-from-data-stream/
  * 
- * Time Complexities:
- *  addNum:     O(lg(N))
- *  findMedian: O(1)
- * 
- * Space Complexity:    O(N)
- * 
- * References:
- *  https://leetcode.com/problems/find-median-from-data-stream/discuss/74047/JavaPython-two-heap-solution-O(log-n)-add-O(1)-find
+ * Time Complexity:     O(lg(N))
+ * Space Complexity:    O(1)
  */
 package com.zea7ot.lc.lvl4.lc0295;
 
 import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class SolutionApproach0Heaps {
-    private PriorityQueue<Integer> small;
-    private PriorityQueue<Integer> large;
-    private boolean isEven;
+    private Queue<Integer> small;
+    private Queue<Integer> large;
 
     /** initialize your data structure here. */
     public SolutionApproach0Heaps() {
-        this.small = new PriorityQueue<Integer>((a, b) -> b - a);
+        this.small = new PriorityQueue<Integer>((a, b) -> Integer.compare(b, a));
         this.large = new PriorityQueue<Integer>();
-        this.isEven = true;
     }
     
     public void addNum(int num) {
-        if(isEven){
-            large.offer(num);
-            small.offer(large.poll());
+        if(small.size() <= large.size()){
+            large.add(num);
+            small.add(large.poll());
         }else{
-            small.offer(num);
-            large.offer(small.poll());
+            small.add(num);
+            large.add(small.poll());
         }
-        isEven = !isEven;
     }
     
     public double findMedian() {
+        boolean isEven = (small.size() + large.size()) % 2 == 0;
         if(isEven) return (small.peek() + large.peek()) / 2.0;
         else return small.peek();
     }

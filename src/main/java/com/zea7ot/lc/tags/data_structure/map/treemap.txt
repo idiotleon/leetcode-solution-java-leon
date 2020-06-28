@@ -16,6 +16,8 @@
 4   0732    https://leetcode.com/problems/my-calendar-iii/
 4   0759    https://leetcode.com/problems/employee-free-time/
 
+5   0588    https://leetcode.com/problems/design-in-memory-file-system/
+
 
 Resources:
     https://leetcode.com/problems/meeting-rooms-ii/discuss/203658/HashMapTreeMap-resolves-Scheduling-Problem
