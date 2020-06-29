@@ -21,6 +21,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
 3   0056    https://leetcode.com/problems/merge-intervals/
+3   0062    https://leetcode.com/problems/unique-paths/
 3   0075    https://leetcode.com/problems/sort-colors/
 3   0130    https://leetcode.com/problems/surrounded-regions/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
