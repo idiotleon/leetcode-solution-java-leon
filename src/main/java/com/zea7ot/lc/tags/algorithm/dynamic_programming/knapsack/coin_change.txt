@@ -8,6 +8,7 @@
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
+3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
 
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
