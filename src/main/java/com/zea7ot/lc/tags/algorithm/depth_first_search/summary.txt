@@ -54,6 +54,7 @@ References:
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
 3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
+3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
 3   1236    https://leetcode.com/problems/web-crawler/
 3   1245    https://leetcode.com/problems/tree-diameter/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
