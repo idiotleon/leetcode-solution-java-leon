@@ -1,22 +1,18 @@
 @author: Leon
 References:
     https://leetcode.com/tag/linked-list/
-    
-### LinkedList
-# doubly linked list
 
+### LinkedList
+
+3   0056    https://leetcode.com/problems/merge-intervals/
 3   0430    https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
+3   0491    https://leetcode.com/problems/increasing-subsequences/
 3   0716    https://leetcode.com/problems/max-stack/
 3   1472    https://leetcode.com/problems/design-browser-history/
 
 4   0146    https://leetcode.com/problems/lru-cache/
-
-
+4   0735    https://leetcode.com/problems/asteroid-collision/
 
 
 3   find unique number in a data stream 
 https://leetcode.com/discuss/interview-question/414970/Amazon-or-Phone-Screen-or-First-Unique-Number-in-Data-Stream
-
-
-Resources:
-    https://leetcode.com/articles/max-stack/
