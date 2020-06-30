@@ -107,6 +107,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 
+5   0212    https://leetcode.com/problems/word-search-ii/
 5   0327    https://leetcode.com/problems/count-of-range-sum/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0493    https://leetcode.com/problems/reverse-pairs/

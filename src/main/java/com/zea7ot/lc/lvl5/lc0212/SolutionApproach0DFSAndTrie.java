@@ -19,36 +19,33 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SolutionApproach0DFSAndTrie {
-    private static final int[][] DIRS = {{-1, 0}, {0, -1}, {1, 0}, {0, 1}};
-    // boundaries of char[][] board
-    private int NR, NC;
+    private static final int[] DIRS = {0, -1, 0, 1, 0};
     
     public List<String> findWords(char[][] board, String[] words) {
         List<String> ans = new ArrayList<String>();
         // sanity check
         if(board == null || board.length == 0 || words == null || words.length == 0) return ans;
         
-        NR = board.length;
-        NC = board[0].length;
+        final int NR = board.length, NC = board[0].length;
         
         TrieNode root = buildTrie(words);
         for(int row = 0; row < NR; row++){
             for(int col = 0; col < NC; col++){
-                backtrack(board, root, row, col, ans);
+                backtrack(row, col, board, root, ans);
             }
         }
         
         return ans;
     }
     
-    private void backtrack(char[][] board,
-                     TrieNode node, 
-                     int row, 
-                     int col, 
-                     List<String> res){
+    private void backtrack(int row, 
+                           int col, 
+                           char[][] board,
+                           TrieNode node, 
+                           List<String> res){
+        final int NR = board.length, NC = board[0].length;
         // termination conditions
         if(row < 0 || row >= NR || col < 0 || col >= NC) return;
-        
         char cur = board[row][col];
         if(cur == '#' || node.children[cur - 'a'] == null) return;
         
@@ -60,9 +57,9 @@ public class SolutionApproach0DFSAndTrie {
 
         // to backtrack
         board[row][col] = '#';
-        for(int[] dir : DIRS){
-            int r = row + dir[0], c = col + dir[1];
-            backtrack(board, node, r, c, res);
+        for(int d = 0; d < 4; d++){
+            int r = row + DIRS[d], c = col + DIRS[d + 1];
+            backtrack(r, c, board, node, res);
         }
         board[row][col] = cur;
     }
@@ -71,11 +68,11 @@ public class SolutionApproach0DFSAndTrie {
         TrieNode root = new TrieNode();
         for(String word : words){
             TrieNode node = root;
-            for(char c : word.toCharArray()){
-                if(node.children[c - 'a'] == null){
-                    node.children[c - 'a'] = new TrieNode();
+            for(char ch : word.toCharArray()){
+                if(node.children[ch - 'a'] == null){
+                    node.children[ch - 'a'] = new TrieNode();
                 }
-                node = node.children[c - 'a'];
+                node = node.children[ch - 'a'];
             }
             node.word = word;
         }
@@ -83,8 +80,13 @@ public class SolutionApproach0DFSAndTrie {
         return root;
     }
     
-    class TrieNode{
-        public String word;
-        public TrieNode[] children = new TrieNode[26];
+    private class TrieNode{
+        protected String word;
+        protected TrieNode[] children;
+
+        protected TrieNode(){
+            this.word = null;
+            this.children = new TrieNode[26];
+        }
     }
 }
