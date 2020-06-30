@@ -18,6 +18,7 @@ References:
 3   0756    https://leetcode.com/problems/pyramid-transition-matrix/
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
+3   1219    https://leetcode.com/problems/path-with-maximum-gold/
 
 4   0267    https://leetcode.com/problems/palindrome-permutation-ii/
 4   0294    https://leetcode.com/problems/flip-game-ii/
