@@ -3,5 +3,6 @@ References:
     https://github.com/huanminwu/LeetCode
 
 ### Dynamic Programming
-# DP - 3D
+# DP - 3 Dimensional
+
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
