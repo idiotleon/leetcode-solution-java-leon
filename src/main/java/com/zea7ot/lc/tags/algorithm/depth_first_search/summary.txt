@@ -55,6 +55,7 @@ References:
 3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
+3   1219    https://leetcode.com/problems/path-with-maximum-gold/
 3   1236    https://leetcode.com/problems/web-crawler/
 3   1245    https://leetcode.com/problems/tree-diameter/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
@@ -93,6 +94,7 @@ References:
 4   1028    https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 
+5   0212    https://leetcode.com/problems/word-search-ii/
 5   0291    https://leetcode.com/problems/word-pattern-ii/
 5   0403    https://leetcode.com/problems/frog-jump/
 5   0425    https://leetcode.com/problems/word-squares/

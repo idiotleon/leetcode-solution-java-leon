@@ -8,10 +8,13 @@ String - parsing:
 1   0258    https://leetcode.com/problems/add-digits/
 1   0415    https://leetcode.com/problems/add-strings/
 
+2   0165    https://leetcode.com/problems/compare-version-numbers/
+
 3   0071    https://leetcode.com/problems/simplify-path/
 3   0394    https://leetcode.com/problems/decode-string/
 3   0439    https://leetcode.com/problems/ternary-expression-parser/
 3   0468    https://leetcode.com/problems/validate-ip-address/
+3   0640    https://leetcode.com/problems/solve-the-equation/
 3   1360    https://leetcode.com/problems/number-of-days-between-two-dates/
 
 4   0043    https://leetcode.com/problems/multiply-strings/

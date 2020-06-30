@@ -1,10 +1,16 @@
 /**
  * https://leetcode.com/problems/unique-paths/
+ * 
+ * Time Complexity:     O(m * n)
+ * Space Complexity:    O(m * n)
  */
 package com.zea7ot.lc.lvl3.lc0062;
 
-public class SolutionApproachDP {
+public class SolutionApproach0DP2Dimen {
     public int uniquePaths(int m, int n) {
+        // sanity check
+        if(m <= 0 || n <= 0) return 0;
+
         int[][] dp = new int[m][n];
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){

@@ -13,6 +13,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 2   1465    https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
 
 3   0056    https://leetcode.com/problems/merge-intervals/
+3   0062    https://leetcode.com/problems/unique-paths/
 3   0130    https://leetcode.com/problems/surrounded-regions/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
@@ -26,6 +27,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   1034    https://leetcode.com/problems/coloring-a-border/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
 3   1198    https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
+3   1219    https://leetcode.com/problems/path-with-maximum-gold/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1272    https://leetcode.com/problems/remove-interval/
@@ -50,6 +52,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 4   1439    https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/
 
+5   0212    https://leetcode.com/problems/word-search-ii/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
 5   0850    https://leetcode.com/problems/rectangle-area-ii/

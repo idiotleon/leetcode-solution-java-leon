@@ -21,6 +21,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
 3   0056    https://leetcode.com/problems/merge-intervals/
+3   0062    https://leetcode.com/problems/unique-paths/
 3   0075    https://leetcode.com/problems/sort-colors/
 3   0130    https://leetcode.com/problems/surrounded-regions/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
@@ -47,12 +48,14 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0980    https://leetcode.com/problems/unique-paths-iii/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
+3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 3   1034    https://leetcode.com/problems/coloring-a-border/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1054    https://leetcode.com/problems/distant-barcodes/
 3   1060    https://leetcode.com/problems/missing-element-in-sorted-array/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
 3   1198    https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
+3   1219    https://leetcode.com/problems/path-with-maximum-gold/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1272    https://leetcode.com/problems/remove-interval/
@@ -104,6 +107,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 
+5   0212    https://leetcode.com/problems/word-search-ii/
 5   0327    https://leetcode.com/problems/count-of-range-sum/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0493    https://leetcode.com/problems/reverse-pairs/

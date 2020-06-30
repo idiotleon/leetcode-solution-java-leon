@@ -15,6 +15,7 @@ References:
 3   0841    https://leetcode.com/problems/keys-and-rooms/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1034    https://leetcode.com/problems/coloring-a-border/
+3   1219    https://leetcode.com/problems/path-with-maximum-gold/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
@@ -26,4 +27,5 @@ References:
 4   0980    https://leetcode.com/problems/unique-paths-iii/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 
+5   0212    https://leetcode.com/problems/word-search-ii/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
