@@ -14,6 +14,7 @@
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 
+4   0317    https://leetcode.com/problems/shortest-distance-from-all-buildings/
 4   0505    https://leetcode.com/problems/the-maze-ii/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
