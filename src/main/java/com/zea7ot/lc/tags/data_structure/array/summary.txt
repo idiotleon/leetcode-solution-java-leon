@@ -47,6 +47,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0911    https://leetcode.com/problems/online-election/
 4   0980    https://leetcode.com/problems/unique-paths-iii/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
+3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 3   1034    https://leetcode.com/problems/coloring-a-border/
