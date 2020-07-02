@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/max-chunks-to-make-sorted/
  * 
- * Time Complexity: O(N)
- * Space Complexity: O(N)
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
  * 
  * References:
  *  https://leetcode.com/problems/max-chunks-to-make-sorted-ii/discuss/135830/c%2B%2B-Using-Stack-with-O(n)-space-and-time-complexity.-With-7-lines.-4ms.-Beats-100
@@ -18,6 +18,7 @@ import java.util.Stack;
 
 public class SolutionApproach0MonoStack {
     public int maxChunksToSorted(int[] nums) {
+        // sanity check
         if(nums == null || nums.length == 0) return 0;
         final int N = nums.length;
 

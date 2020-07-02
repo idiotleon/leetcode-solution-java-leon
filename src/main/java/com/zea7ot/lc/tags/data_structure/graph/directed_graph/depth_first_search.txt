@@ -1,10 +1,11 @@
 @author: Leon
 
 ### Graph
-## directed graph
-# depth first search
+## Directed Graph
+# Depth First Search
 
 2   0207    https://leetcode.com/problems/course-schedule/
+2   0690    https://leetcode.com/problems/employee-importance/
 
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0277    https://leetcode.com/problems/find-the-celebrity/

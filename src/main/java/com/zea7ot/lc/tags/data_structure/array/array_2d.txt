@@ -9,6 +9,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 0051
 
 2   0207    https://leetcode.com/problems/course-schedule/
+2   0690    https://leetcode.com/problems/employee-importance/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1465    https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
 
@@ -16,6 +17,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   0062    https://leetcode.com/problems/unique-paths/
 3   0130    https://leetcode.com/problems/surrounded-regions/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
+3   0289    https://leetcode.com/problems/game-of-life/
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
 3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 3   0436    https://leetcode.com/problems/find-right-interval/
@@ -25,6 +27,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1034    https://leetcode.com/problems/coloring-a-border/
+3   1057    https://leetcode.com/problems/campus-bikes/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
 3   1198    https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/

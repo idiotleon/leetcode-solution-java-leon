@@ -11,11 +11,13 @@ This file serves as the total list of problems related to Array, regardless of a
 
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
+2   0690    https://leetcode.com/problems/employee-importance/
 2   0704    https://leetcode.com/problems/binary-search/
 2   0744    https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
+2   1375    https://leetcode.com/problems/bulb-switcher-iii/
 2   1464    https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
 2   1465    https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
@@ -47,10 +49,12 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0911    https://leetcode.com/problems/online-election/
 4   0980    https://leetcode.com/problems/unique-paths-iii/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
+3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 3   1034    https://leetcode.com/problems/coloring-a-border/
 3   1048    https://leetcode.com/problems/longest-string-chain/
+3   1057    https://leetcode.com/problems/campus-bikes/
 3   1054    https://leetcode.com/problems/distant-barcodes/
 3   1060    https://leetcode.com/problems/missing-element-in-sorted-array/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/

@@ -1,0 +1,9 @@
+@author: Leon
+
+
+### Greedy
+# String
+
+2   0984    https://leetcode.com/problems/string-without-aaa-or-bbb/
+
+3   1405    https://leetcode.com/problems/longest-happy-string/

@@ -5,6 +5,7 @@
 # breadth first search
 
 2   0207    https://leetcode.com/problems/course-schedule/
+2   0690    https://leetcode.com/problems/employee-importance/
 
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0743    https://leetcode.com/problems/network-delay-time/

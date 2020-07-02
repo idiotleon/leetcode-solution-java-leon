@@ -9,10 +9,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-public class SolutionApproachOneHashMap {
+public class SolutionApproach1HashMap {
     private Map<Integer, List<Integer>> map;
 
-    public SolutionApproachOneHashMap(int[] nums) {
+    public SolutionApproach1HashMap(int[] nums) {
         map = new HashMap<Integer, List<Integer>>();
         
         for(int i = 0; i < nums.length; i++){
