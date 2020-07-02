@@ -19,8 +19,8 @@ public class SolutionApproach0TwoPointers {
         final int L = str.length();
 
         int[] lastIndexes = new int[26];
+        // to record the last index of each char
         for(int i = 0; i < L; i++){
-            // to record the last index of each char
             lastIndexes[CHS[i] - 'a'] = i;
         }
         

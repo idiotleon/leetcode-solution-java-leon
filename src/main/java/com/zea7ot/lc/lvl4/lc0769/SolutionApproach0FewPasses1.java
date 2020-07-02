@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/max-chunks-to-make-sorted/
  * 
- * Time Complexity: O(3 * N) ~ O(N)
- * Space Complexity: O(N)
+ * Time Complexity:     O(3 * N) ~ O(N)
+ * Space Complexity:    O(N)
  * 
  *  "Each time all elements to the left are smaller than, 
  *  or equal to, all elements to the right,

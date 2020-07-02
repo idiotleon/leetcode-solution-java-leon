@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/max-chunks-to-make-sorted/
  * 
- * Time Complexity: O(2 * N) ~ O(N)
- * Space Complexity: O(N)
+ * Time Complexity:     O(2 * N) ~ O(N)
+ * Space Complexity:    O(N)
  * 
  *  "Each time all elements to the left are smaller than, 
  *  or equal to, all elements to the right,
@@ -21,6 +21,7 @@ package com.zea7ot.lc.lvl4.lc0769;
 
 public class SolutionApproach0FewPasses {
     public int maxChunksToSorted(int[] nums) {
+        // sanity check
         if(nums == null || nums.length == 0) return 0;
         
         final int N = nums.length;
