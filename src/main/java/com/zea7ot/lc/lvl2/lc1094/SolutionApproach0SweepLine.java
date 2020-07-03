@@ -1,0 +1,35 @@
+/**
+ * https://leetcode.com/problems/car-pooling/
+ * 
+ * Time Complexity:     O(N) ~ O(1001)
+ * Space Complexity:    O(1001) ~ O(1)
+ * 
+ * References:
+ *  https://leetcode.com/problems/car-pooling/discuss/317611/C%2B%2BJava-O(n)-Thousand-and-One-Stops
+ */
+package com.zea7ot.lc.lvl2.lc1094;
+
+public class SolutionApproach0SweepLine {
+    public boolean carPooling(int[][] trips, int capacity) {
+        final int RANGE = 1001;
+        int[] stops = new int[RANGE];
+        for(int[] trip : trips){
+            stops[trip[1]] += trip[0];
+            stops[trip[2]] -= trip[0];
+        }
+        
+        for(int stop : stops){
+            capacity -= stop;
+            if(capacity < 0) 
+                return false;
+        }
+        
+        return true;
+        
+        // equivalently
+        // for(int i = 0; i < RANGE && capacity >= 0; i++)
+        //     capacity -= stops[i];
+        
+        // return capacity >= 0;
+    }
+}
