@@ -27,6 +27,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1034    https://leetcode.com/problems/coloring-a-border/
+3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
 3   1057    https://leetcode.com/problems/campus-bikes/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
 3   1198    https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
