@@ -53,6 +53,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 4   0505    https://leetcode.com/problems/the-maze-ii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
+4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0759    https://leetcode.com/problems/employee-free-time/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/

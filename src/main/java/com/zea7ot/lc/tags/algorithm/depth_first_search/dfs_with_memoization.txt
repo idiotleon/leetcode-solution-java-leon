@@ -20,6 +20,7 @@
 4   0312    https://leetcode.com/problems/burst-balloons/
 4   0329    https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
+4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 

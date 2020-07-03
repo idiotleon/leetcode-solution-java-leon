@@ -43,6 +43,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
