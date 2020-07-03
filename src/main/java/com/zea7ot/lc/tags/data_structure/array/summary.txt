@@ -72,6 +72,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
+4   0135    https://leetcode.com/problems/candy/
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0218    https://leetcode.com/problems/the-skyline-problem/
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/
