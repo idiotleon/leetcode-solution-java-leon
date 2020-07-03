@@ -1,7 +1,0 @@
-@author: Leon
-
-### Depth First Search
-## Tree
-# Stack Simulation
-
-2   1214    https://leetcode.com/problems/two-sum-bsts/

@@ -7,6 +7,7 @@ References:
 
 2   0951    https://leetcode.com/problems/flip-equivalent-binary-trees/
 2   0971    https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/
+2   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
 2   1302    https://leetcode.com/problems/deepest-leaves-sum/
 
 3   0105    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
@@ -28,7 +29,9 @@ References:
 
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
 4   0298    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
+4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
 4   0549    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0979    https://leetcode.com/problems/distribute-coins-in-binary-tree/
+4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
