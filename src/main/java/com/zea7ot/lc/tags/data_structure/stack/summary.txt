@@ -10,6 +10,7 @@ References:
 2   0496    https://leetcode.com/problems/next-greater-element-i/
 2   0971    https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/
 2   1196    https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/
+2   1214    https://leetcode.com/problems/two-sum-bsts/
 
 3   0105    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/

@@ -1,8 +1,7 @@
 @author: Leon
 
 ### Depth First Search
-# Inorder Traversal
+## Tree
+# Stack Simulation
 
 2   1214    https://leetcode.com/problems/two-sum-bsts/
-
-4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
