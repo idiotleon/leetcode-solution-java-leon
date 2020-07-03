@@ -65,6 +65,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1272    https://leetcode.com/problems/remove-interval/
+3   1275    https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/
 3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
