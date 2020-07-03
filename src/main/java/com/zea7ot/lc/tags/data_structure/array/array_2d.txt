@@ -27,6 +27,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1034    https://leetcode.com/problems/coloring-a-border/
+3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
 3   1057    https://leetcode.com/problems/campus-bikes/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
 3   1198    https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
@@ -34,6 +35,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1272    https://leetcode.com/problems/remove-interval/
+3   1275    https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
 3   1424    https://leetcode.com/problems/diagonal-traverse-ii/
 

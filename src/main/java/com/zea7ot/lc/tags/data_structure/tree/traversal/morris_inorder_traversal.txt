@@ -4,4 +4,9 @@
 ## Traversal
 # Morris Inorder Traversal
 
+
 3   0114    https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+
+4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
+4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
+

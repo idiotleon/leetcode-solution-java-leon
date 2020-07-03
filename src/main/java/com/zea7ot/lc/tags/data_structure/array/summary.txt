@@ -11,6 +11,7 @@ This file serves as the total list of problems related to Array, regardless of a
 
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
+2   0622    https://leetcode.com/problems/design-circular-queue/
 2   0690    https://leetcode.com/problems/employee-importance/
 2   0704    https://leetcode.com/problems/binary-search/
 2   0744    https://leetcode.com/problems/find-smallest-letter-greater-than-target/
@@ -47,12 +48,14 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   0911    https://leetcode.com/problems/online-election/
+3   0969    https://leetcode.com/problems/pancake-sorting/
 4   0980    https://leetcode.com/problems/unique-paths-iii/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 3   1034    https://leetcode.com/problems/coloring-a-border/
+3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1057    https://leetcode.com/problems/campus-bikes/
 3   1054    https://leetcode.com/problems/distant-barcodes/
@@ -63,11 +66,13 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1272    https://leetcode.com/problems/remove-interval/
+3   1275    https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/
 3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
+4   0135    https://leetcode.com/problems/candy/
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0218    https://leetcode.com/problems/the-skyline-problem/
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/

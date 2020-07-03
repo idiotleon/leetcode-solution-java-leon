@@ -42,6 +42,8 @@ References:
 3   0729    https://leetcode.com/problems/my-calendar-i/
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/
 3   0911    https://leetcode.com/problems/online-election/
+3   0957    https://leetcode.com/problems/prison-cells-after-n-days/
+3   0969    https://leetcode.com/problems/pancake-sorting/
 3   0974    https://leetcode.com/problems/subarray-sums-divisible-by-k/
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
@@ -53,6 +55,7 @@ References:
 
 4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
+4   0135    https://leetcode.com/problems/candy/
 4   0154    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0312    https://leetcode.com/problems/burst-balloons/

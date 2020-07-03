@@ -1,0 +1,8 @@
+@author: Leon
+
+
+### Graph
+## Undirected Graph
+# Greedy
+
+3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
