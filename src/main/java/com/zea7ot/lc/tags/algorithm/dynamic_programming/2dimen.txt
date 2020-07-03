@@ -15,6 +15,7 @@ References:
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
+3   1139    https://leetcode.com/problems/largest-1-bordered-square/
 3   1277    https://leetcode.com/problems/count-square-submatrices-with-all-ones/
 
 4   0072    https://leetcode.com/problems/edit-distance/

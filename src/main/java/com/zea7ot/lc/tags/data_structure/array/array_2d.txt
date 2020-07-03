@@ -30,6 +30,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
 3   1057    https://leetcode.com/problems/campus-bikes/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
+3   1139    https://leetcode.com/problems/largest-1-bordered-square/
 3   1198    https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/
 3   1229    https://leetcode.com/problems/meeting-scheduler/

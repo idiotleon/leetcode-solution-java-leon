@@ -61,6 +61,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1054    https://leetcode.com/problems/distant-barcodes/
 3   1060    https://leetcode.com/problems/missing-element-in-sorted-array/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
+3   1139    https://leetcode.com/problems/largest-1-bordered-square/
 3   1198    https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
