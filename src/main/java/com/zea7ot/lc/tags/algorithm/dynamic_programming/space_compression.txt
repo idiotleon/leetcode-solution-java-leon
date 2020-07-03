@@ -17,6 +17,7 @@ References:
 3   1139    https://leetcode.com/problems/largest-1-bordered-square/
 
 4   0174    https://leetcode.com/problems/dungeon-game/
+4   0221    https://leetcode.com/problems/maximal-square/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   0740    https://leetcode.com/problems/delete-and-earn/
