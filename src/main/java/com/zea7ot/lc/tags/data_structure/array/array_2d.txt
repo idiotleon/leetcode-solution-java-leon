@@ -9,6 +9,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 0051
 
 2   0207    https://leetcode.com/problems/course-schedule/
+2   0310    https://leetcode.com/problems/minimum-height-trees/
 2   0690    https://leetcode.com/problems/employee-importance/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1465    https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
@@ -30,6 +31,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
 3   1057    https://leetcode.com/problems/campus-bikes/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
+3   1139    https://leetcode.com/problems/largest-1-bordered-square/
 3   1198    https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
@@ -40,6 +42,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   1424    https://leetcode.com/problems/diagonal-traverse-ii/
 
 4   0218    https://leetcode.com/problems/the-skyline-problem/
+4   0221    https://leetcode.com/problems/maximal-square/
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/
 4   0218    https://leetcode.com/problems/the-skyline-problem/
 4   0296    https://leetcode.com/problems/best-meeting-point/
@@ -51,6 +54,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 4   0505    https://leetcode.com/problems/the-maze-ii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
+4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0759    https://leetcode.com/problems/employee-free-time/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/

@@ -15,16 +15,19 @@ References:
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
+3   1139    https://leetcode.com/problems/largest-1-bordered-square/
 3   1277    https://leetcode.com/problems/count-square-submatrices-with-all-ones/
 
 4   0072    https://leetcode.com/problems/edit-distance/
 4   0097    https://leetcode.com/problems/interleaving-string/
 4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0174    https://leetcode.com/problems/dungeon-game/
+4   0221    https://leetcode.com/problems/maximal-square/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
+4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
