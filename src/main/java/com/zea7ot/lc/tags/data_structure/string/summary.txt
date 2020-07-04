@@ -23,6 +23,7 @@ References:
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
+3   1247    https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/
 3   1360    https://leetcode.com/problems/number-of-days-between-two-dates/
 3   1405    https://leetcode.com/problems/longest-happy-string/
 
