@@ -1,12 +1,13 @@
 @author: Leon
 
 ### Dynamic Programming
-# longest increasing subsequence
+# Longest Increasing Subsequence
 
 2   0674    https://leetcode.com/problems/longest-continuous-increasing-subsequence/
 
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
+3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 
 4   0139    https://leetcode.com/problems/word-break/
