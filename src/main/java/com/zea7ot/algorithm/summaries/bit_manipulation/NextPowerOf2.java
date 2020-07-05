@@ -2,7 +2,7 @@
  * References:
  *  https://github.com/mission-peace/interview/blob/master/src/com/interview/bits/NextPowerOf2.java
  */
-package com.zea7ot.algorithm.summary.bit;
+package com.zea7ot.algorithm.summaries.bit_manipulation;
 
 public class NextPowerOf2 {
     public int nextPowerOf2(int num){

@@ -5,9 +5,9 @@
  *  https://www.youtube.com/watch?v=xuoQdt5pHj0
  *  https://github.com/mission-peace/interview/blob/master/src/com/interview/tree/SegmentTreeMinimumRangeQuery.java
  */
-package com.zea7ot.algorithm.summary.tree;
+package com.zea7ot.algorithm.summaries.tree;
 
-import com.zea7ot.algorithm.summary.bit.NextPowerOf2;
+import com.zea7ot.algorithm.summaries.bit_manipulation.NextPowerOf2;
 
 public class SegmentedTreeMinimumRangeQuery {
     /**
