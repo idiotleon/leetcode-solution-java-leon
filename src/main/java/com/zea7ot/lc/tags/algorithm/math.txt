@@ -12,6 +12,7 @@
 
 4   0621    https://leetcode.com/problems/task-scheduler/
 
+5   0335    https://leetcode.com/problems/self-crossing/
 5   0850    https://leetcode.com/problems/rectangle-area-ii/
 
 6   0391    https://leetcode.com/problems/perfect-rectangle/
