@@ -4,3 +4,5 @@
 # Bucket Sort
 
 3   1057    https://leetcode.com/problems/campus-bikes/
+
+4   0895    https://leetcode.com/problems/maximum-frequency-stack/
