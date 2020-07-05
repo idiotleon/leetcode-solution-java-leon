@@ -1,6 +1,6 @@
 @author: Leon
 
 ### Linked List
-# Palindrome
+# Recursion
 
 3   0234    https://leetcode.com/problems/palindrome-linked-list/

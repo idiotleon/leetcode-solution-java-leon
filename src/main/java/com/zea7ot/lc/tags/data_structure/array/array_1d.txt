@@ -42,6 +42,7 @@ References:
 3   0659    https://leetcode.com/problems/split-array-into-consecutive-subsequences/
 3   0729    https://leetcode.com/problems/my-calendar-i/
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/
+3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
 3   0911    https://leetcode.com/problems/online-election/
 3   0957    https://leetcode.com/problems/prison-cells-after-n-days/
 3   0969    https://leetcode.com/problems/pancake-sorting/

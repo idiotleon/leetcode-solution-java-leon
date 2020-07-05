@@ -12,6 +12,7 @@
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
 
+4   0895    https://leetcode.com/problems/maximum-frequency-stack/
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
 
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
