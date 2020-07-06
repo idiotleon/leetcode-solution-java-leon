@@ -1,4 +1,4 @@
-package com.zea7ot.algorithm.summary.union_find;
+package com.zea7ot.algorithm.summaries.union_find;
 
 import java.util.HashMap;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.zea7ot.algorithm.summary.search.biselect_search;
+package com.zea7ot.algorithm.summaries.search.biselect_search;
 // package com.polyg7ot.algorithm.template.search.biselect_search;
 
 // import java.util.Arrays;

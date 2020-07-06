@@ -4,7 +4,7 @@
  * Time Complexity: O(N)
  * Space Complexity: O(N)
  */
-package com.zea7ot.algorithm.summary.string.pattern_matching;
+package com.zea7ot.algorithm.summaries.string.pattern_matching;
 
 public class KMPAlgorithm {
     public int[] buildKMPTable(String pattern){

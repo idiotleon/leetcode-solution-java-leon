@@ -22,7 +22,7 @@
  *  https://www.youtube.com/watch?v=v57lNF2mb_s
  *  https://www.youtube.com/watch?v=J-IQxfYRTto
  */
-package com.zea7ot.algorithm.summary.search.binary_search;
+package com.zea7ot.algorithm.summaries.search.binary_search;
 
 public class BinarySearch {
     /**

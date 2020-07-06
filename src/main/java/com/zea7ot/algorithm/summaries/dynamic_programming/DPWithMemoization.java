@@ -29,7 +29,7 @@
  * References:
  *  https://www.youtube.com/watch?v=OQi4n8EKRD8
  */
-package com.zea7ot.algorithm.summary.dynamic_programming;
+package com.zea7ot.algorithm.summaries.dynamic_programming;
 
 public class DPWithMemoization {
     

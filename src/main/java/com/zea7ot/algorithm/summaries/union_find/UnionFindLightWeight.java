@@ -5,7 +5,7 @@
  * Problems:
  *  https://leetcode.com/problems/redundant-connection/
  */
-package com.zea7ot.algorithm.summary.union_find;
+package com.zea7ot.algorithm.summaries.union_find;
 
 public class UnionFindLightWeight {
     public int find(int[] parents, int vertex){

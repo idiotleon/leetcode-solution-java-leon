@@ -20,7 +20,7 @@
  * References:
  *  https://www.youtube.com/watch?v=OQi4n8EKRD8
  */
-package com.zea7ot.algorithm.summary.sort.merge_sort;
+package com.zea7ot.algorithm.summaries.sort.merge_sort;
 
 public class MergeSort {
     

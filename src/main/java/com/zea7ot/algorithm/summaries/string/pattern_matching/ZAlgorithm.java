@@ -3,7 +3,7 @@
  * 
  * https://github.com/mission-peace/interview/blob/master/src/com/interview/string/ZAlgorithm.java
  */
-package com.zea7ot.algorithm.summary.string.pattern_matching;
+package com.zea7ot.algorithm.summaries.string.pattern_matching;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -2,7 +2,7 @@
  * @author: Leon
  * 
  */
-package com.zea7ot.algorithm.summary.search.binary_search;
+package com.zea7ot.algorithm.summaries.search.binary_search;
 
 public class DemoApp {
     public static void main(String[] args){

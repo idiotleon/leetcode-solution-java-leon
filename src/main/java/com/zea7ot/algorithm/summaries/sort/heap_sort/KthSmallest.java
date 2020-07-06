@@ -1,4 +1,4 @@
-package com.zea7ot.algorithm.summary.sort.heap_sort;
+package com.zea7ot.algorithm.summaries.sort.heap_sort;
 
 import java.util.Collections;
 import java.util.Comparator;

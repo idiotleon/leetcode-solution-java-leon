@@ -30,7 +30,7 @@
  * References:
  *  https://www.youtube.com/watch?v=OQi4n8EKRD8
  */
-package com.zea7ot.algorithm.summary.sort.quick_sort;
+package com.zea7ot.algorithm.summaries.sort.quick_sort;
 
 public class QuickSort {
     public void quickSort(int[] nums, int start, int end){

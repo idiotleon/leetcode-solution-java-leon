@@ -2,7 +2,7 @@
  * 
  * 
  */
-package com.zea7ot.algorithm.summary.graph.minimum_spanning_tree;
+package com.zea7ot.algorithm.summaries.graph.minimum_spanning_tree;
 
 public class KruskalsAlgorithm {
     

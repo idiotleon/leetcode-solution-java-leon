@@ -18,7 +18,7 @@
  * References:
  *  https://www.youtube.com/watch?v=OQi4n8EKRD8
  */
-package com.zea7ot.algorithm.summary.traversal;
+package com.zea7ot.algorithm.summaries.traversal;
 
 public class InorderTraversal {
     

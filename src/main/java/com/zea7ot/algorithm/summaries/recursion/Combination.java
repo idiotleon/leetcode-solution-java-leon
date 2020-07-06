@@ -15,7 +15,7 @@
  * References:
  *  https://www.youtube.com/watch?v=OQi4n8EKRD8
  */
-package com.zea7ot.algorithm.summary.recursion;
+package com.zea7ot.algorithm.summaries.recursion;
 
 public class Combination {
     

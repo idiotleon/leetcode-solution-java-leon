@@ -1,4 +1,4 @@
-package com.zea7ot.algorithm.summary.search.binary_search;
+package com.zea7ot.algorithm.summaries.search.binary_search;
 
 public class BinarySearchRecursively {
     public int binarySearch(int[] nums, int left, int right, int target){

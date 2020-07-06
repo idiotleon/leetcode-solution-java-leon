@@ -14,7 +14,7 @@
  * References:
  *  https://www.youtube.com/watch?v=VJnUwsE4fWA
  */
-package com.zea7ot.algorithm.summary.union_find;
+package com.zea7ot.algorithm.summaries.union_find;
 
 public class UnionFind {
     private int[] roots;

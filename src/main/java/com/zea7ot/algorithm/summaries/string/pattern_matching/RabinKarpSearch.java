@@ -6,7 +6,7 @@
  *  https://www.youtube.com/watch?v=H4VrKHVG5qI
  *  https://github.com/mission-peace/interview/blob/master/src/com/interview/string/RabinKarpSearch.java
  */
-package com.zea7ot.algorithm.summary.string.pattern_matching;
+package com.zea7ot.algorithm.summaries.string.pattern_matching;
 
 public class RabinKarpSearch {
     private final int PRIME = 101;

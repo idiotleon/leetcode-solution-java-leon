@@ -1,4 +1,4 @@
-package com.zea7ot.algorithm.summary.search.binary_search;
+package com.zea7ot.algorithm.summaries.search.binary_search;
 
 public class BinarySearchLowerBound {
     public int getLowerBound(int[] nums, int target){

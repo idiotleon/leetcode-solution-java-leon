@@ -1,4 +1,4 @@
-package com.zea7ot.algorithm.summary.dynamic_programming;
+package com.zea7ot.algorithm.summaries.dynamic_programming;
 
 public class LongestIncreasingSubsequence {
     

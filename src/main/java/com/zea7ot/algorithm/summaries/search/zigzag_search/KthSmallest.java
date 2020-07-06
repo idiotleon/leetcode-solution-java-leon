@@ -1,4 +1,4 @@
-package com.zea7ot.algorithm.summary.search.zigzag_search;
+package com.zea7ot.algorithm.summaries.search.zigzag_search;
 
 public class KthSmallest {
     /**
