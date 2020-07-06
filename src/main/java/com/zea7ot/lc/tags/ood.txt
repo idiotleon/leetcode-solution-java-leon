@@ -21,6 +21,7 @@ References:
 4   0855    https://leetcode.com/problems/exam-room/
 
 5   0588    https://leetcode.com/problems/design-in-memory-file-system/
+5   0715    https://leetcode.com/problems/range-module/
 
 6   0460    https://leetcode.com/problems/lfu-cache/
 

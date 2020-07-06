@@ -20,3 +20,4 @@
 4   1152    https://leetcode.com/problems/analyze-user-website-visit-pattern/
 
 5   0588    https://leetcode.com/problems/design-in-memory-file-system/
+5   0715    https://leetcode.com/problems/range-module/
