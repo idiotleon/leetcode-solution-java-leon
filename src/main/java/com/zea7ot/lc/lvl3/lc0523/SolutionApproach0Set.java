@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/continuous-subarray-sum/submissions/
  * 
- * Time Complexity: O(N)
- * Space Complexity: O(N)
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
  * 
  * https://leetcode.com/problems/continuous-subarray-sum/discuss/99506/Concise-C%2B%2B-solution-use-set-instead-of-map
  * 
@@ -21,14 +21,14 @@ public class SolutionApproach0Set {
         if(nums == null || nums.length == 0) return false;
 
         final int N = nums.length; 
-        int sum = 0, pre = 0;
+        int sum = 0, prev = 0;
         Set<Integer> modk = new HashSet<Integer>();
         for(int i = 0; i < N; i++){
             sum += nums[i];
             int mod = k == 0 ? sum : sum % k;
             if(modk.contains(mod)) return true;
-            modk.add(pre);
-            pre = mod;
+            modk.add(prev);
+            prev = mod;
         }
         return false;
     }
