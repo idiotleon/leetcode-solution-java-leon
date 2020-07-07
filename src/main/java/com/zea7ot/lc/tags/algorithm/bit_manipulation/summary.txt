@@ -4,6 +4,8 @@ References:
 
 ### Bit Manipulation
 
+2   0461    https://leetcode.com/problems/hamming-distance/
+
 3   0137    https://leetcode.com/problems/single-number-ii/
 3   0289    https://leetcode.com/problems/game-of-life/
 3   1275    https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/

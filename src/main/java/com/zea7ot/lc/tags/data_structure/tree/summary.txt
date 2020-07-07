@@ -43,3 +43,4 @@ References:
 4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
 4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
 
+5   0715    https://leetcode.com/problems/range-module/

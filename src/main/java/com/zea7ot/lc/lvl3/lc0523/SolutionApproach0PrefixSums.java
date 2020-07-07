@@ -21,19 +21,16 @@ public class SolutionApproach0PrefixSums {
         if(nums == null || nums.length == 0) return false;
         
         final int N = nums.length;
+        int runningSum = 0;
         Map<Integer, Integer> prefixSums = new HashMap<Integer, Integer>();
         prefixSums.put(0, -1);
-        
-        int runningSum = 0;
         for(int i = 0; i < N; i++){
             runningSum += nums[i];
             if(k != 0) runningSum %= k;
-            Integer prevIdx = prefixSums.get(runningSum);
-            if(prevIdx != null){
+            if(prefixSums.containsKey(runningSum)){
+                int prevIdx = prefixSums.get(runningSum);
                 if(i - prevIdx > 1) return true;
-            }else{
-                prefixSums.put(runningSum, i);
-            }
+            }else prefixSums.put(runningSum, i);
         }
         
         return false;

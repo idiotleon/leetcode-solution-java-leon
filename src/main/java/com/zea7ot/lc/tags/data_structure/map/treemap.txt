@@ -17,6 +17,7 @@
 4   0759    https://leetcode.com/problems/employee-free-time/
 
 5   0588    https://leetcode.com/problems/design-in-memory-file-system/
+5   0715    https://leetcode.com/problems/range-module/
 
 
 Resources:

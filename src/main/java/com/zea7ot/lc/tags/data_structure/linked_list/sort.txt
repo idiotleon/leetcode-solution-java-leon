@@ -1,6 +1,8 @@
-Author: polyg7ot
+@author: Leon
 References:
     https://github.com/huanminwu/LeetCode
 
-### LinkedList
+### Linked List
 # Sort
+
+4   0148    https://leetcode.com/problems/sort-list/

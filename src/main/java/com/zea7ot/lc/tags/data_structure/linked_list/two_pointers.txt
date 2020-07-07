@@ -1,5 +1,7 @@
 @author: Leon
 
-### LinkedList
+### Linked List
 # Two Pointers
-4   0142    4   0142    https://leetcode.com/problems/linked-list-cycle-ii/
+
+4   0142    https://leetcode.com/problems/linked-list-cycle-ii/
+4   0148    https://leetcode.com/problems/sort-list/

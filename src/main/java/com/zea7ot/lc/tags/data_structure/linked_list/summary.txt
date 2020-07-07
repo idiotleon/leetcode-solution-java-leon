@@ -13,6 +13,7 @@ References:
 3   1472    https://leetcode.com/problems/design-browser-history/
 
 4   0146    https://leetcode.com/problems/lru-cache/
+4   0148    https://leetcode.com/problems/sort-list/
 4   0735    https://leetcode.com/problems/asteroid-collision/
 
 
