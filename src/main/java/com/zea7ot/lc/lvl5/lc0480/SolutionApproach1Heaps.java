@@ -2,12 +2,13 @@
  * https://leetcode.com/problems/sliding-window-median/
  * 
  * Time Complexity:     O(N * k)
+ *  addition in priorities queues costs O(lg(k)), while deletion costs O(k)
+ * 
  * Space Complexity:    O(N)
  */
 package com.zea7ot.lc.lvl5.lc0480;
 
 import java.util.PriorityQueue;
-import java.util.Queue;
 
 public class SolutionApproach1Heaps {
     public double[] medianSlidingWindow(int[] nums, int k) {
@@ -16,8 +17,8 @@ public class SolutionApproach1Heaps {
         
         final int N = nums.length;
         double[] ans = new double[N - k + 1];
-        Queue<Integer> lo = new PriorityQueue<Integer>((a, b) -> Integer.compare(b, a));
-        Queue<Integer> hi = new PriorityQueue<Integer>();
+        PriorityQueue<Integer> lo = new PriorityQueue<Integer>((a, b) -> Integer.compare(b, a));
+        PriorityQueue<Integer> hi = new PriorityQueue<Integer>();
         
         for(int i = 0; i < N; i++){
             if(lo.size() <= hi.size()){
@@ -32,7 +33,7 @@ public class SolutionApproach1Heaps {
                 double median;
 
                 if(lo.size() == hi.size()){
-                    median = (double)((long)lo.peek() + (long)hi.peek()) / 2;
+                    median = ((double)lo.peek() + (double)hi.peek()) / 2;
                 }else{
                     median = (double)lo.peek();
                 }
