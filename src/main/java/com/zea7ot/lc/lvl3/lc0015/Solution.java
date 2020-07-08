@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/3sum
  * 
  * Time Complexity:     O(N ^ 2) + O(N * lg(N)) ~ O(N ^ 2)
- * Space Complexity:    O()
+ * Space Complexity:    O(1)
  */
 package com.zea7ot.lc.lvl3.lc0015;
 
@@ -30,7 +30,7 @@ public class Solution {
                     j++;
                     k--;
                     while(j < k && nums[j] == nums[j - 1]) j++;
-                    while(j < k && nums[k] == nums[k + 1]) k--;;
+                    while(j < k && nums[k] == nums[k + 1]) k--;
                 }else if(nums[j] + nums[k] > target) k--;
                 else j++;
             }
