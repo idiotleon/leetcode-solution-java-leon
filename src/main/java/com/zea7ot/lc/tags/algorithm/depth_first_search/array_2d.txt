@@ -28,5 +28,6 @@ References:
 4   0980    https://leetcode.com/problems/unique-paths-iii/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 
+5   0037    https://leetcode.com/problems/sudoku-solver/
 5   0212    https://leetcode.com/problems/word-search-ii/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
