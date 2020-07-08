@@ -18,6 +18,7 @@ References:
 
 3   0114    https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 3   0129    https://leetcode.com/problems/sum-root-to-leaf-numbers/
+3   0235    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 3   0236    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 3   0285    https://leetcode.com/problems/inorder-successor-in-bst/
 3   0333    https://leetcode.com/problems/largest-bst-subtree/
