@@ -18,7 +18,7 @@ import java.util.Arrays;
 public class SolutionApproach0DPWithBinarySearch {
     public int maxEnvelopes(int[][] envelopes) {
         // sanity check
-        if(envelopes == null || envelopes.length == 0 || envelopes.length < 2) return 0;
+        if(envelopes == null || envelopes.length == 0 || envelopes[0].length < 2) return 0;
 
         // to sort:
         //  1. with width increasing
