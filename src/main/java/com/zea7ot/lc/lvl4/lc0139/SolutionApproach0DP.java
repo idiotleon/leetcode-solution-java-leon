@@ -1,16 +1,17 @@
 /**
  * https://leetcode.com/problems/word-break/
  * 
- * Time Complexity: O(n^2)
- * Space Complexity: O(n)
+ * Time Complexity:     O(N ^ 2)
+ * Space Complexity:    O(N)
  * 
- * https://leetcode.com/problems/word-break/discuss/44054/Java-DP-solution
+ * References:
+ *  https://leetcode.com/problems/word-break/discuss/44054/Java-DP-solution
  */
 package com.zea7ot.lc.lvl4.lc0139;
 
 import java.util.List;
 
-public class SolutionApproachDP {
+public class SolutionApproach0DP {
     public boolean wordBreak(String str, List<String> wordDict) {
         if(str == null || str.length() == 0) return false;
         

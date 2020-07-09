@@ -1,9 +1,11 @@
 /**
  * https://leetcode.com/problems/word-break/
  * 
- * https://leetcode.com/problems/word-break/discuss/43819/DFS-with-Path-Memorizing-Java-Solution
- * Time Complexity: O(n^2)
- * Space Complexity: O(n)
+ * Time Complexity:     O(N ^ 2)
+ * Space Complexity:    O(N)
+ * 
+ * References:
+ *  https://leetcode.com/problems/word-break/discuss/43819/DFS-with-Path-Memorizing-Java-Solution
  */
 package com.zea7ot.lc.lvl4.lc0139;
 
@@ -11,7 +13,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class SolutionApproachMemorizedDFS {
+public class SolutionApproach0DFSMemo {
     public boolean wordBreak(String s, List<String> wordDict) {
         Set<Integer> visited = new HashSet<Integer>();
         return dfs(s, 0, new HashSet<String>(wordDict), visited);

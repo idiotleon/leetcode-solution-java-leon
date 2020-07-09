@@ -4,6 +4,7 @@
 # Preorder Traversal
 
 3   0105    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+3   0662    https://leetcode.com/problems/maximum-width-of-binary-tree/
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 
 4   0298    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/

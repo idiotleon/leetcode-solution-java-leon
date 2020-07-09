@@ -26,27 +26,27 @@ public class SolutionApproach0Backtrack {
         if(sum % k != 0) return false;
         
         boolean[] visited = new boolean[N];
-        return canPartition(nums, visited, 0, k, 0, 0, sum / k);
+        return canPartition(0, 0, visited, 0, k, nums, sum / k);
     }
     
-    private boolean canPartition(int[] nums, 
+    private boolean canPartition(int curSum,
+                                 int curNum,
                                  boolean[] visited, 
                                  int start, 
-                                 int k, 
-                                 int curSum, 
-                                 int curNum, 
+                                 int k,
+                                 int[] nums, 
                                  int target){
         if(k == 1) return true;
         // such a pruning only applies on the promise that all numbers are positive
         if(curSum > target) return false;
         if(curSum == target && curNum > 0){
-            return canPartition(nums, visited, 0, k - 1, 0, 0, target);
+            return canPartition(0, 0, visited, 0, k - 1, nums, target);
         }
         
         for(int i = start; i < nums.length; i++){
             if(!visited[i]){
                 visited[i] = true;
-                if(canPartition(nums, visited, i + 1, k, curSum + nums[i], curNum++, target)) return true;
+                if(canPartition(curSum + nums[i], curNum++, visited, i + 1, k, nums, target)) return true;
                 visited[i] = false;
             }
         }

@@ -1,11 +1,7 @@
 @author: Leon
-References:
-    https://github.com/huanminwu/LeetCode
-    https://leetcode.com/tag/dynamic-programming/
 
 ### Dynamic Programming
 ## Knapsack
-# 0/1 Knapsack
 
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
@@ -17,7 +13,3 @@ References:
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 
-
-Resources:
-    https://www.kancloud.cn/kancloud/pack/70124
-    https://www.youtube.com/watch?v=8LusJS5-AGo

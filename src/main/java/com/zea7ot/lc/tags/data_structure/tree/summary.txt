@@ -18,6 +18,7 @@ References:
 3   0285    https://leetcode.com/problems/inorder-successor-in-bst/
 3   0332    https://leetcode.com/problems/reconstruct-itinerary/
 3   0545    https://leetcode.com/problems/boundary-of-binary-tree/
+3   0662    https://leetcode.com/problems/maximum-width-of-binary-tree/
 3   0731    https://leetcode.com/problems/my-calendar-ii/
 3   0938    https://leetcode.com/problems/range-sum-of-bst/
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/

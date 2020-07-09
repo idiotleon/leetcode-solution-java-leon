@@ -1,13 +1,18 @@
 /**
  * https://leetcode.com/problems/critical-connections-in-a-network/
  * Instead of returning articulation bridges, to return articulation points
+ * 
+ * 
+ * 
+ * References:
+ *  https://www.youtube.com/watch?v=2kREIkF9UAs
  */
 package com.zea7ot.lc.lvl4.lc1192.followup;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SolutionApproachDFS {
+public class SolutionApproach0TarjansAlgorithm {
     private int id;
     private int[] ids, low;
     private boolean[] visited;
@@ -24,21 +29,12 @@ public class SolutionApproachDFS {
         id = 0;
         low = new int[n];
         visited = new boolean[n];
-        graph = new ArrayList<List<Integer>>();
-        
-        // to build up the graph
-        for(int i = 0; i < n; i++) {
-            graph.add(new ArrayList<Integer>());
-        }
 
-        for(List<Integer> connection : connections) {
-            graph.get(connection.get(0)).add(connection.get(1));
-            graph.get(connection.get(1)).add(connection.get(0));
-        }
+        graph = buildGraph(n, connections);
 
         // magic
         for(int i = 0; i < n; i++) {
-            if(visited[i] == false) {
+            if(!visited[i]) {
                 dfs(i, -1);
             }
         }
@@ -65,5 +61,20 @@ public class SolutionApproachDFS {
                 low[at] = Math.min(low[at], ids[to]);
             }
         }
+    }
+
+    private List<List<Integer>> buildGraph(int n, List<List<Integer>> connections){
+        // to build up the graph
+        List<List<Integer>> graph = new ArrayList<List<Integer>>();
+        for(int i = 0; i < n; i++){
+            graph.add(new ArrayList<Integer>());
+        }
+                
+        for(List<Integer> conn : connections){
+            int u = conn.get(0), v = conn.get(1);
+            graph.get(u).add(v);
+            graph.get(v).add(u);
+        }
+        return graph;
     }
 }
