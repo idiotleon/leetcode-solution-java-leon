@@ -20,6 +20,7 @@ References:
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0279    https://leetcode.com/problems/perfect-squares/
 3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+3   0662    https://leetcode.com/problems/maximum-width-of-binary-tree/
 3   0743    https://leetcode.com/problems/network-delay-time/
 3   0841    https://leetcode.com/problems/keys-and-rooms/
 3   0886    https://leetcode.com/problems/possible-bipartition/
