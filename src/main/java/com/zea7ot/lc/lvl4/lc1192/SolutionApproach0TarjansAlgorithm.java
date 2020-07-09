@@ -1,5 +1,11 @@
 /**
  * https://leetcode.com/problems/critical-connections-in-a-network/
+ * 
+ * Time Complexity:     O()
+ * Space Complexity:    O()
+ * 
+ * References:
+ *  https://www.youtube.com/watch?v=2kREIkF9UAs
  */
 package com.zea7ot.lc.lvl4.lc1192;
 
@@ -7,7 +13,7 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SolutionApproachDFS {
+public class SolutionApproach0TarjansAlgorithm {
     private boolean[] visited;
     private int[] ids;
     private int id;
@@ -16,8 +22,8 @@ public class SolutionApproachDFS {
     private List<List<Integer>> graph;
     
     public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connections) {
-        // sanity check
         ans = new ArrayList<List<Integer>>();
+        // sanity check
         if(n <= 0) return ans;
         
         // prepartion work
@@ -27,15 +33,7 @@ public class SolutionApproachDFS {
         low = new int[n];
         
         // to build up the graph
-        graph = new ArrayList<List<Integer>>();
-        for(int i = 0; i < n; i++){
-            graph.add(new ArrayList<Integer>());
-        }
-        
-        for(List<Integer> conn : connections){
-            graph.get(conn.get(0)).add(conn.get(1));
-            graph.get(conn.get(1)).add(conn.get(0));
-        }
+        graph = buildGraph(n, connections);
         
         // core logic
         for(int i = 0; i < n; i++){
@@ -61,9 +59,22 @@ public class SolutionApproachDFS {
                 if(ids[at] < low[to]){
                     ans.add(Arrays.asList(at, to));
                 }
-            }else{
-                low[at] = Math.min(low[at], ids[to]);
-            }
+            }else low[at] = Math.min(low[at], ids[to]);
         }
+    }
+
+    private List<List<Integer>> buildGraph(int n, List<List<Integer>> connections){
+        // to build up the graph
+        List<List<Integer>> graph = new ArrayList<List<Integer>>();
+        for(int i = 0; i < n; i++){
+            graph.add(new ArrayList<Integer>());
+        }
+                
+        for(List<Integer> conn : connections){
+            int u = conn.get(0), v = conn.get(1);
+            graph.get(u).add(v);
+            graph.get(v).add(u);
+        }
+        return graph;
     }
 }
