@@ -1,0 +1,8 @@
+If either `p` or `q` is not on the tree, to return the node that is on the tree.
+
+If `p` and `q` are the same node (to return itself).
+
+to find lowest common ancestors of many nodes instead of two.
+
+
+https://www.youtube.com/watch?v=sD1IoalFomA

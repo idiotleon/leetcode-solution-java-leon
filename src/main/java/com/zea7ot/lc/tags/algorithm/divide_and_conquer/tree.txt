@@ -3,4 +3,6 @@
 ### Divide and Conquer
 # Tree
 
+3   0235    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/

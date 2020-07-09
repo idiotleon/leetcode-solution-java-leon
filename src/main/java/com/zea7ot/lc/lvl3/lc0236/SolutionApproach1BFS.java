@@ -1,5 +1,8 @@
 /**
  * https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+ * 
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
  */
 package com.zea7ot.lc.lvl3.lc0236;
 
@@ -12,7 +15,7 @@ import java.util.Set;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproachBFS {
+public class SolutionApproach1BFS {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         Map<TreeNode, TreeNode> parent = new HashMap<TreeNode, TreeNode>();
         Queue<TreeNode> queue = new LinkedList<TreeNode>();

@@ -1,17 +1,21 @@
 /**
  * https://leetcode.com/problems/find-median-from-data-stream/
  * 
- * Time Complexity:     O(lg(N))
- * Space Complexity:    O(1)
+ * Time Complexities:     
+ *  `addNum(int num)`:  O(lg(N))
+ *  `findMedian()`:     O(1)
+ * 
+ * Space Complexity:    O(NUM(addNum()))
  */
 package com.zea7ot.lc.lvl4.lc0295;
 
 import java.util.PriorityQueue;
-import java.util.Queue;
 
 public class SolutionApproach0Heaps {
-    private Queue<Integer> small;
-    private Queue<Integer> large;
+    // max heap
+    private PriorityQueue<Integer> small;
+    // min heap
+    private PriorityQueue<Integer> large;
 
     /** initialize your data structure here. */
     public SolutionApproach0Heaps() {
@@ -30,8 +34,7 @@ public class SolutionApproach0Heaps {
     }
     
     public double findMedian() {
-        boolean isEven = (small.size() + large.size()) % 2 == 0;
-        if(isEven) return (small.peek() + large.peek()) / 2.0;
+        if(small.size() == large.size()) return (small.peek() + large.peek()) / 2.0;
         else return small.peek();
     }
 }

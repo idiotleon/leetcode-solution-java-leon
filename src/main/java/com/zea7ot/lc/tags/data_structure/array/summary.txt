@@ -39,6 +39,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0373    https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0406    https://leetcode.com/problems/queue-reconstruction-by-height/
+3   0419    https://leetcode.com/problems/battleships-in-a-board/
 3   0436    https://leetcode.com/problems/find-right-interval/
 3   0491    https://leetcode.com/problems/increasing-subsequences/
 3   0494    https://leetcode.com/problems/target-sum/

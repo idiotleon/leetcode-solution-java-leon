@@ -21,6 +21,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   0289    https://leetcode.com/problems/game-of-life/
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
 3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+3   0419    https://leetcode.com/problems/battleships-in-a-board/
 3   0436    https://leetcode.com/problems/find-right-interval/
 3   0498    https://leetcode.com/problems/diagonal-traverse/ 
 3   0562    https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/
