@@ -4,6 +4,8 @@ References:
 
 ### Linked List
 
+1   1290    https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+
 2   0369    https://leetcode.com/problems/plus-one-linked-list/
 2   0707    https://leetcode.com/problems/design-linked-list/
 2   0817    https://leetcode.com/problems/linked-list-components/

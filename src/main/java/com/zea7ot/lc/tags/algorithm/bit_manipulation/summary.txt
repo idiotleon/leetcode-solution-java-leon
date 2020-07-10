@@ -4,6 +4,8 @@ References:
 
 ### Bit Manipulation
 
+1   1290    https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+
 2   0461    https://leetcode.com/problems/hamming-distance/
 
 3   0137    https://leetcode.com/problems/single-number-ii/
