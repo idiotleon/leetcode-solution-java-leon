@@ -1,4 +1,4 @@
-Author: Leon
+@author: Leon
 References:
     https://github.com/huanminwu/LeetCode
     https://leetcode.com/tag/stack/
