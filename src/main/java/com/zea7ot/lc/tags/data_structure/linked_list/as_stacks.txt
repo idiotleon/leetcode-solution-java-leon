@@ -1,7 +1,0 @@
-@author: Leon
-
-
-### Linked List
-# Stack
-
-4   0735    https://leetcode.com/problems/asteroid-collision/
