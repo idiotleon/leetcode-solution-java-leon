@@ -12,6 +12,7 @@ package com.zea7ot.lc.lvl3.lc0430;
 
 public class SolutionApproach0Recursion {
     public Node flatten(Node head) {
+        // sanity check
         if(head == null) return null;
         flattenTail(head);
         return head;

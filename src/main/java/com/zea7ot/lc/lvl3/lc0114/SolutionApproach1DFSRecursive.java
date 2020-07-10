@@ -8,7 +8,7 @@ package com.zea7ot.lc.lvl3.lc0114;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach1DFS {
+public class SolutionApproach1DFSRecursive {
     public void flatten(TreeNode root) {
         dfs(root);
     }

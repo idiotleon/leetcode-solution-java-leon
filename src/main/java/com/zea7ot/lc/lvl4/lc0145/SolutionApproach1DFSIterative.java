@@ -1,25 +1,30 @@
 /**
  * https://leetcode.com/problems/binary-tree-postorder-traversal/
  * 
- * To make sure that all children of a node are traversed
- * https://leetcode.com/problems/binary-tree-postorder-traversal/discuss/45551/Preorder-Inorder-and-Postorder-Iteratively-Summarization/44991
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(H)
+ * 
+ * References:
+ *  To make sure that all children of a node are traversed
+ *  https://leetcode.com/problems/binary-tree-postorder-traversal/discuss/45551/Preorder-Inorder-and-Postorder-Iteratively-Summarization/44991
  */
 package com.zea7ot.lc.lvl4.lc0145;
 
 import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.List;
-import java.util.Stack;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0Interation {
+public class SolutionApproach1DFSIterative {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<Integer>();
+        // sanity check
         if(root == null) return ans;
         
-        Stack<TreeNode> stack = new Stack<TreeNode>();
+        Deque<TreeNode> stack = new LinkedList<TreeNode>();
         TreeNode cur = root;
-        
         while(cur != null || !stack.isEmpty()){
             while(!isLeaf(cur)){
                 stack.push(cur);
