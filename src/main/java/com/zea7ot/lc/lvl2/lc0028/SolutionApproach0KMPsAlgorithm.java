@@ -1,12 +1,12 @@
 /**
  * https://leetcode.com/problems/implement-strstr/
  * 
- * Time Complexity: O(M + N)
- * Space Complexity: O(N)
+ * Time Complexity:     O(M + N)
+ * Space Complexity:    O(N)
  */
 package com.zea7ot.lc.lvl2.lc0028;
 
-public class SolutionApproachKMP {
+public class SolutionApproach0KMPsAlgorithm {
     public int strStr(String haystack, String needle) {
         final int M = haystack.length(), N = needle.length();
         if(M < N) return -1;
