@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
-public class TestSolutionApproachStack1 {
-    private final SolutionApproachStack1 solution = new SolutionApproachStack1();
+public class TestSolutionApproach0MonoStack1 {
+    private final SolutionApproach0MonoStack1 solution = new SolutionApproach0MonoStack1();
 
     /**
      * ["StockSpanner","next","next","next","next","next","next","next"]

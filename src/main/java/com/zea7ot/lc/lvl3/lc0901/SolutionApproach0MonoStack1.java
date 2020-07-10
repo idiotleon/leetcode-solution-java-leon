@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/online-stock-span/
  * 
- * Time Complexity: O(N)
- * Space Complexity: O(N)
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
  * 
  * !!!incorrect:
  * counts of last larger numbers are bigger by one
@@ -13,11 +13,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class SolutionApproachStack1 {
+public class SolutionApproach0MonoStack1 {
     private List<Integer> prices;
     private Stack<Integer> idxStack;
 
-    public SolutionApproachStack1() {
+    public SolutionApproach0MonoStack1() {
         prices = new ArrayList<Integer>();
         idxStack = new Stack<Integer>();
     }
