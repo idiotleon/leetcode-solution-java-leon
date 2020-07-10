@@ -25,6 +25,7 @@ References:
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 3   1247    https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/
 3   1360    https://leetcode.com/problems/number-of-days-between-two-dates/
+3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/
 3   1405    https://leetcode.com/problems/longest-happy-string/
 
 4   0076    https://leetcode.com/problems/minimum-window-substring/

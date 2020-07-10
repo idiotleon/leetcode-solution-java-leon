@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/next-greater-element-ii/
  * 
- * Time Complexity: O(N)
- * Space Complexity: O(N)
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
  * 
  * to maintain a "non-increasing" stack
  * 1. the contents are indexes, instead of values
@@ -11,26 +11,27 @@
 package com.zea7ot.lc.lvl3.lc0503;
 
 import java.util.Arrays;
-import java.util.Stack;
+import java.util.Deque;
+import java.util.LinkedList;
 
-public class SolutionApproachStack {
+public class SolutionApproach0MonoStack {
     public int[] nextGreaterElements(int[] nums) {
+        // sanity check
         if(nums == null || nums.length == 0) return new int[0];
         
-        final int L = nums.length;
-        int[] ans = new int[L];
+        final int N = nums.length;
+        int[] ans = new int[N];
         Arrays.fill(ans, -1);
         
-        Stack<Integer> idxStack = new Stack<Integer>();
+        Deque<Integer> idxStack = new LinkedList<Integer>();
         
         int idx = 0;
-        while(idx < 2 * L){
-            while(!idxStack.isEmpty() && nums[idxStack.peek()] < nums[idx % L]){
-                ans[idxStack.pop()] = nums[idx % L];
+        while(idx < 2 * N){
+            while(!idxStack.isEmpty() && nums[idxStack.peek()] < nums[idx % N]){
+                ans[idxStack.pop()] = nums[idx % N];
             }
             
-            idxStack.add(idx % L);
-            
+            idxStack.push(idx % N);
             idx++;
         }
         

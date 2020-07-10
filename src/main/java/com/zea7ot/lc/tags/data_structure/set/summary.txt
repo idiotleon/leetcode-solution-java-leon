@@ -3,6 +3,7 @@
 ### Set
 
 2   0475    https://leetcode.com/problems/heaters/
+2   0817    https://leetcode.com/problems/linked-list-components/
 
 3   0137    https://leetcode.com/problems/single-number-ii/
 3   0200    https://leetcode.com/problems/number-of-islands/

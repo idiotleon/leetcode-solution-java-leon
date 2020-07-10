@@ -3,6 +3,8 @@
 ### Linked List
 # Recursion
 
+2   0369    https://leetcode.com/problems/plus-one-linked-list/
+
 3   0234    https://leetcode.com/problems/palindrome-linked-list/
 
 4   0148    https://leetcode.com/problems/sort-list/

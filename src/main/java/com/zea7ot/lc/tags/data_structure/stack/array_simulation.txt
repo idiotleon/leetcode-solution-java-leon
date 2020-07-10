@@ -1,3 +1,5 @@
+@author: Leon
+
 ### Stack
 # Array Simulation
 

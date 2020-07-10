@@ -1,4 +1,4 @@
-Author: polyg7ot
+@author: Leon
 References:
     https://github.com/huanminwu/LeetCode
 
@@ -13,6 +13,7 @@ References:
 3   0560    https://leetcode.com/problems/subarray-sum-equals-k/
 3   0974    https://leetcode.com/problems/subarray-sums-divisible-by-k/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
+3   1171    https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/
 
 4   1124    https://leetcode.com/problems/longest-well-performing-interval/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/

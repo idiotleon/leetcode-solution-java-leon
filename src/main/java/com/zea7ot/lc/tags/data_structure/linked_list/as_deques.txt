@@ -1,0 +1,8 @@
+@author: Leon
+
+### Linked List
+# Stack
+
+3   1019    https://leetcode.com/problems/next-greater-node-in-linked-list/
+
+4   0735    https://leetcode.com/problems/asteroid-collision/

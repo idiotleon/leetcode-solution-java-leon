@@ -3,5 +3,7 @@
 ### Linked List
 # Two Pointers
 
+2   1474    https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/
+
 4   0142    https://leetcode.com/problems/linked-list-cycle-ii/
 4   0148    https://leetcode.com/problems/sort-list/

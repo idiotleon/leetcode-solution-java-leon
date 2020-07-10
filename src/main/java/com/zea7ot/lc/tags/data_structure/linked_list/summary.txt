@@ -4,6 +4,13 @@ References:
 
 ### Linked List
 
+1   1290    https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+
+2   0369    https://leetcode.com/problems/plus-one-linked-list/
+2   0707    https://leetcode.com/problems/design-linked-list/
+2   0817    https://leetcode.com/problems/linked-list-components/
+2   1474    https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/
+
 3   0056    https://leetcode.com/problems/merge-intervals/
 3   0234    https://leetcode.com/problems/palindrome-linked-list/
 3   0430    https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
@@ -11,6 +18,9 @@ References:
 3   0491    https://leetcode.com/problems/increasing-subsequences/
 3   0708    https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/
 3   0716    https://leetcode.com/problems/max-stack/
+3   1019    https://leetcode.com/problems/next-greater-node-in-linked-list/
+3   1171    https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/
+3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/
 3   1472    https://leetcode.com/problems/design-browser-history/
 
 4   0146    https://leetcode.com/problems/lru-cache/
