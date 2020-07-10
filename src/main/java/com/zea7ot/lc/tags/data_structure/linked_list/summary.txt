@@ -4,6 +4,7 @@ References:
 
 ### Linked List
 
+2   0707    https://leetcode.com/problems/design-linked-list/
 2   0817    https://leetcode.com/problems/linked-list-components/
 
 3   0056    https://leetcode.com/problems/merge-intervals/
