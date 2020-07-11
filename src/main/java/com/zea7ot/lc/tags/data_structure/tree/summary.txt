@@ -28,6 +28,7 @@ References:
 3   1339    https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
+3   1382    https://leetcode.com/problems/balance-a-binary-search-tree/
 3   1448    https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
