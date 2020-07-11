@@ -36,6 +36,8 @@ References:
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
+5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
+
 
 Resources:
     https://www.hackerearth.com/practice/algorithms/dynamic-programming/2-dimensional/tutorial/

@@ -62,6 +62,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
 5   0818    https://leetcode.com/problems/race-car/
+5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
 
 
 
