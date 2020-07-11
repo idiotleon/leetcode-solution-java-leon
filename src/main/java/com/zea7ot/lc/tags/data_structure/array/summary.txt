@@ -53,6 +53,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   0911    https://leetcode.com/problems/online-election/
+3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
 3   0969    https://leetcode.com/problems/pancake-sorting/
 4   0980    https://leetcode.com/problems/unique-paths-iii/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
