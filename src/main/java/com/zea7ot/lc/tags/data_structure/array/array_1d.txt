@@ -28,6 +28,7 @@ References:
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3   0162    https://leetcode.com/problems/find-peak-element/
+3   0229    https://leetcode.com/problems/majority-element-ii/
 3   0275    https://leetcode.com/problems/h-index-ii/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
