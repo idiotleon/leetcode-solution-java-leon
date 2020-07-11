@@ -1,7 +1,6 @@
 @author: Leon
 
-
-### Range Query
+### Tree
 # Binary Indexed Tree
 
 4   0307    https://leetcode.com/problems/range-sum-query-mutable/
