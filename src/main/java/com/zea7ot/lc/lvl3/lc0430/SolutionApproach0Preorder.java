@@ -13,6 +13,7 @@ import java.util.Stack;
 
 public class SolutionApproach0Preorder {
     public Node flatten(Node head) {
+        // sanity check
         if(head == null) return head;
         
         Stack<Node> stack = new Stack<Node>();

@@ -9,6 +9,10 @@
  * 
  * The ans[i], is to store from beginng until current index i (Non inclusive), all possible partitions. 
  * From the past "ans" we can determine current "ans".
+ * 
+ * References:
+ *  https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)
+ *  https://leetcode.com/problems/palindrome-partitioning/discuss/41982/Java-DP-%2B-DFS-solution
  */
 package com.zea7ot.lc.lvl3.lc0131;
 

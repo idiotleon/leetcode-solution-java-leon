@@ -27,6 +27,7 @@ public class SolutionApproach0MorrisInorderTraversal {
                 cur.right = cur.left;
                 cur.left = null;
             }
+
             cur = cur.right;
         }
     }

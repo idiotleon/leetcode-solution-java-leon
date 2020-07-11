@@ -5,6 +5,8 @@ References:
 ### Breadth First Search
 # Tree
 
+1   1161    https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
+
 2   0226    https://leetcode.com/problems/invert-binary-tree/
 2   0429    https://leetcode.com/problems/n-ary-tree-level-order-traversal/
 2   0617    https://leetcode.com/problems/merge-two-binary-trees/
