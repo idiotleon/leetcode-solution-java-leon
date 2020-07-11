@@ -13,6 +13,7 @@ public class SolutionApproach0Preorder1 {
     private Node prev = null;
     
     public Node flatten(Node head) {
+        // sanity check
         if(head == null) return head;
         
         Node child = head.child;

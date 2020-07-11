@@ -4,6 +4,8 @@ References:
 
 ### Depth First Search
 
+1   1161    https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
+
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0463    https://leetcode.com/problems/island-perimeter/
 2   0720    https://leetcode.com/problems/longest-word-in-dictionary/
@@ -68,6 +70,7 @@ References:
 3   1339    https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
+3   1382    https://leetcode.com/problems/balance-a-binary-search-tree/
 3   1391    https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/
 3   1448    https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
@@ -114,6 +117,7 @@ References:
 5   0472    https://leetcode.com/problems/concatenated-words/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
 5   1203    https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
+5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
 
 6   0488    https://leetcode.com/problems/zuma-game/
 

@@ -70,6 +70,7 @@ This serves the list of all the LC problems related to Binary Search, regardless
 5   0644    https://leetcode.com/problems/maximum-average-subarray-ii/
 5   0786    https://leetcode.com/problems/k-th-smallest-prime-fraction/
 5   1044    https://leetcode.com/problems/longest-duplicate-substring/
+5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
 
 
 

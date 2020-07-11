@@ -13,6 +13,7 @@ public class SolutionApproach0Postorder {
     private Node prev = null;
     
     public Node flatten(Node head) {
+        // sanity check
         if(head == null) return head;
         
         flatten(head.next);

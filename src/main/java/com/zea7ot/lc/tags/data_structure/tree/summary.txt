@@ -4,6 +4,8 @@ References:
 
 ### Tree
 
+1   1161    https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
+
 2   0429    https://leetcode.com/problems/n-ary-tree-level-order-traversal/
 2   0951    https://leetcode.com/problems/flip-equivalent-binary-trees/
 2   0971    https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/
@@ -28,6 +30,7 @@ References:
 3   1339    https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
+3   1382    https://leetcode.com/problems/balance-a-binary-search-tree/
 3   1448    https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
@@ -36,6 +39,7 @@ References:
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 4   0298    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
+4   0307    https://leetcode.com/problems/range-sum-query-mutable/
 4   0428    https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/
 4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
 4   0549    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/

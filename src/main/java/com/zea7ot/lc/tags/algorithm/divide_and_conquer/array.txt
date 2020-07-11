@@ -1,3 +1,5 @@
+@author: Leon
+
 ### Divide and Conquer
 # Array
 

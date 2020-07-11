@@ -20,9 +20,11 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
+3   0647    https://leetcode.com/problems/palindromic-substrings/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
+3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1139    https://leetcode.com/problems/largest-1-bordered-square/
@@ -62,6 +64,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
 5   0818    https://leetcode.com/problems/race-car/
+5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
 
 
 

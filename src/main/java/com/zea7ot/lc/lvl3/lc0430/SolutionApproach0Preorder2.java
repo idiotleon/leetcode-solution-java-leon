@@ -13,7 +13,9 @@ public class SolutionApproach0Preorder2 {
     private Node prev = null;
     
     public Node flatten(Node head) {
+        // sanity check
         if(head == null) return head;
+        
         Node child = head.child;
         Node next = head.next;
         if(prev == null) prev = head;

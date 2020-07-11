@@ -8,6 +8,7 @@
 
 3   0056    https://leetcode.com/problems/merge-intervals/
 3   0075    https://leetcode.com/problems/sort-colors/
+3   0912    https://leetcode.com/problems/sort-an-array/
 3   0969    https://leetcode.com/problems/pancake-sorting/
 3   1057    https://leetcode.com/problems/campus-bikes/
 
