@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/cheapest-flights-within-k-stops/
  * 
- * Time Complexity:     O(V ^ 2) ~  O(n ^ 2)
- * Space Complexity:    O(V + Elg(V)) ~ O(n + flights.length * lg(n))
+ * Time Complexity:     O(V + E * lg(V)) ~  O(n + edges.length * lg(n))
+ * Space Complexity:    O(V) ~ O(n)
  * 
  * References:
  *  https://leetcode.com/problems/cheapest-flights-within-k-stops/discuss/115541/JavaPython-Priority-Queue-Solution
@@ -10,36 +10,61 @@
  */
 package com.zea7ot.lc.lvl3.lc0787;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.PriorityQueue;
-import java.util.Queue;
 
 public class SolutionApproach0DijkstraSPF {
-    public int findCminHeapestPrice(int n, int[][] flights, int src, int dst, int K) {
-        Map<Integer, Map<Integer, Integer>> prices = new HashMap<Integer, Map<Integer, Integer>>();
-        for(int[] flight : flights){
-            prices.putIfAbsent(flight[0], new HashMap<Integer, Integer>());
-            prices.get(flight[0]).put(flight[1], flight[2]);;
-        }
+    public int findCheapestPrice(int n, int[][] flights, int src, int dst, int K) {
+        if(n <= 0) return 0;
         
-        Queue<int[]> minHeap = new PriorityQueue<int[]>((a, b) -> a[0] - b[0]);
-        minHeap.add(new int[]{0, src, K + 1});
+        List<List<Flight>> graph = buildGraph(n, flights);
+        
+        PriorityQueue<Flight> minHeap = new PriorityQueue<Flight>((a, b) -> Integer.compare(a.price, b.price));
+        minHeap.offer(new Flight(src, 0, K + 1));
         
         while(!minHeap.isEmpty()){
-            int[] top = minHeap.poll();
-            int price = top[0];
-            int city = top[1];
-            int stops = top[2];
+            Flight cur = minHeap.poll();
+            int city = cur.city;
+            int price = cur.price;
+            int stops = cur.stops;
             if(city == dst) return price;
             if(stops > 0){
-                Map<Integer, Integer> adj = prices.getOrDefault(city, new HashMap<Integer, Integer>());
-                for(Map.Entry<Integer, Integer> entry : adj.entrySet()){
-                    minHeap.add(new int[]{price + entry.getValue(), entry.getKey(), stops - 1});
+                for(Flight next : graph.get(city)){
+                    minHeap.add(new Flight(next.city, price + next.price, stops - 1));
                 }
             }
         }
         
         return -1;
+    }
+    
+    private List<List<Flight>> buildGraph(int n, int[][] flights){
+        List<List<Flight>> graph = new ArrayList<List<Flight>>(n);
+        for(int i = 0; i < n; i++) graph.add(new ArrayList<Flight>());
+        for(int[] flight : flights){
+            int start = flight[0];
+            int city = flight[1];
+            int price = flight[2];
+            graph.get(start).add(new Flight(city, price));
+        }
+        return graph;
+    }
+    
+    private class Flight{
+        protected int city;
+        protected int price;
+        protected int stops;
+        
+        protected Flight(int city, int price){
+            this.city = city;
+            this.price = price;
+            this.stops = -1;
+        }
+        
+        protected Flight(int city, int price, int stops){
+            this(city, price);
+            this.stops = stops;
+        }
     }
 }
