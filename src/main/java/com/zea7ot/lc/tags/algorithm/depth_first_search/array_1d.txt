@@ -1,8 +1,10 @@
 @author: Leon
 
 ### Depth First Search
-# array - 1 dimensional
+# Array - 1 Dimensional
 
+2   0078    https://leetcode.com/problems/subsets/
+2   0090    https://leetcode.com/problems/subsets-ii/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 
 3   0105    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/

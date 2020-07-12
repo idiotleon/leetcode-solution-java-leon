@@ -1,8 +1,12 @@
 /**
  * https://leetcode.com/problems/palindrome-partitioning/
  * 
- * Time Complexity:     O()
- * Space Complexity:    O()
+ * Time Complexity:     O((2 ^ N) * (N ^ 2))
+ * Space Complexity:    O(N)
+ * 
+ * References:
+ *  https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)
+ *  https://leetcode.com/problems/palindrome-partitioning/discuss/41982/Java-DP-%2B-DFS-solution
  */
 package com.zea7ot.lc.lvl3.lc0131;
 
@@ -12,31 +16,36 @@ import java.util.List;
 public class SolutionApproach0Backtrack {
     public List<List<String>> partition(String s) {
         List<List<String>> ans = new ArrayList<>();
-        backtrack(ans, new ArrayList<String>(), s, 0);
+        // sanity check
+        if(s == null || s.isEmpty()) return ans;
+
+        backtrack(new ArrayList<String>(), 0, s, ans);
         return ans;
     }
     
-    private void backtrack(List<List<String>> ans, 
-                           List<String> intermediate, 
-                           String str, 
-                           int startPos){
-        if(startPos == str.length()){
-            ans.add(new ArrayList<String>(intermediate));
+    private void backtrack(List<String> intermediate, 
+                           int startPos, 
+                           String str,
+                           List<List<String>> res){
+        final int L = str.length();
+        if(startPos == L){
+            res.add(new ArrayList<String>(intermediate));
             return;
         }
         
-        for(int i = startPos; i < str.length(); i++){
+        for(int i = startPos; i < L; i++){
             if(isPalindrome(str, startPos, i)){
                 intermediate.add(str.substring(startPos, i + 1));
-                backtrack(ans, intermediate, str, i + 1);
+                backtrack(intermediate, i + 1, str, res);
                 intermediate.remove(intermediate.size() - 1);
             }
         }
     }
     
-    private boolean isPalindrome(String str, int left, int right){
-        while(left < right){
-            if(str.charAt(left++) != str.charAt(right--)){
+    private boolean isPalindrome(String str, int lo, int hi){
+        char[] chs = str.toCharArray();
+        while(lo < hi){
+            if(chs[lo++] != chs[hi--]){
                 return false;
             }
         }
