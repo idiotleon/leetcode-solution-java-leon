@@ -63,6 +63,7 @@ References:
 4   0135    https://leetcode.com/problems/candy/
 4   0154    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
+4   0309    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 4   0312    https://leetcode.com/problems/burst-balloons/
 4   0313    https://leetcode.com/problems/super-ugly-number/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
@@ -92,6 +93,7 @@ References:
 4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 
+5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 5   0327    https://leetcode.com/problems/count-of-range-sum/
 5   0644    https://leetcode.com/problems/maximum-average-subarray-ii/
 5   0774    https://leetcode.com/problems/minimize-max-distance-to-gas-station/
