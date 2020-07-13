@@ -14,13 +14,16 @@ public class SolutionApproach0SweepLine {
         final int RANGE = 1001;
         int[] stops = new int[RANGE];
         for(int[] trip : trips){
-            stops[trip[1]] += trip[0];
-            stops[trip[2]] -= trip[0];
+            int passengers = trip[0];
+            int start = trip[1];
+            int end = trip[2];
+            stops[start] += passengers;
+            stops[end] -= passengers;
         }
         
         for(int stop : stops){
             capacity -= stop;
-            if(capacity < 0) 
+            if(capacity < 0)
                 return false;
         }
         

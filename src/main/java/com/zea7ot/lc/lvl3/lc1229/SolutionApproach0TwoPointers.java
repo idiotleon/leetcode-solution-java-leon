@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/meeting-scheduler/
  * 
- * Time Complexity:     O(N * lg(N))
+ * Time Complexity:     O(max(N1, N2) * lg(max(N1, N2)))
  * Space Complexity:    O(1)
  * 
  * References:
@@ -15,19 +15,19 @@ import java.util.List;
 
 public class SolutionApproach0TwoPointers {
     public List<Integer> minAvailableDuration(int[][] slots1, int[][] slots2, int duration) {
-        Arrays.sort(slots1, (a, b) -> a[0] - b[0]);
-        Arrays.sort(slots2, (a, b) -> a[0] - b[0]);
+        Arrays.sort(slots1, (a, b) -> Integer.compare(a[0], b[0]));
+        Arrays.sort(slots2, (a, b) -> Integer.compare(a[0], b[0]));
 
         int idx1 = 0, idx2 = 0;
-        final int L1 = slots1.length, L2 = slots2.length;
-        while(idx1 < L1 && idx2 < L2){
+        final int N1 = slots1.length, N2 = slots2.length;
+        while(idx1 < N1 && idx2 < N2){
             int intersectStart = Math.max(slots1[idx1][0], slots2[idx2][0]);
             int intersectEnd = Math.min(slots1[idx1][1], slots2[idx2][1]);
 
             if(intersectStart + duration <= intersectEnd){
                 return Arrays.asList(intersectStart, intersectStart + duration);
-            }else if(slots1[idx1][1] < slots2[idx2][1]) idx1++;
-            else idx2++;
+            }else if(slots1[idx1][1] < slots2[idx2][1]) ++idx1;
+            else ++idx2;
         }
 
         return new ArrayList<Integer>();

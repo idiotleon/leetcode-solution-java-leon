@@ -15,9 +15,9 @@ package com.zea7ot.lc.lvl3.lc0253;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class SolutionApproach0TreeMap {
-    // sanity check
+public class SolutionApproach0SweepLine {
     public int minMeetingRooms(int[][] intervals) {
+        // sanity check
         if(intervals == null || intervals.length == 0) return 0;
         
         Map<Integer, Integer> timeline = new TreeMap<Integer, Integer>();

@@ -1,11 +1,13 @@
 /**
  * https://leetcode.com/problems/meeting-scheduler/
  * 
- * Time Complexity:     O(N * lg(N))
- *  N, total elements in both "slots1" and "slot2"
+ * Time Complexity:     O((N1 + N2) * lg(N1 + N2))
+ *  N1, total elements in "slots1" 
+ *  N2, total elements in "slots2"
  * 
- * Space Complexity:    O(N)
- *  N, total elements in both "slots1" and "slot2"
+ * Space Complexity:    O(N1 + N2)
+ *  N1, total elements in "slots1" 
+ *  N2, total elements in "slots2"
  * 
  * References:
  *  https://leetcode.com/problems/meeting-scheduler/discuss/408506/JavaPython-3-simple-code-using-PriorityQueueheapq-w-brief-explanation-and-analysis
@@ -16,11 +18,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.PriorityQueue;
-import java.util.Queue;
 
 public class SolutionApproach0SweepLine {
     public List<Integer> minAvailableDuration(int[][] slots1, int[][] slots2, int duration) {
-        Queue<int[]> minHeap = new PriorityQueue<int[]>((a, b) -> (a[0] - b[0]));
+        // to help find the !earliest! elighble time
+        PriorityQueue<int[]> minHeap = new PriorityQueue<int[]>((a, b) -> Integer.compare(a[0], b[0]));
         for(int[] slot : slots1){
             if(slot[1] - slot[0] >= duration){
                 minHeap.offer(slot);
