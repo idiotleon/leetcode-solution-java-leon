@@ -12,15 +12,15 @@ package com.zea7ot.lc.lvl4.lc0759;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;
-import java.util.Queue;
 
-public class SolutionApproach0Greey {
+public class SolutionApproach0Greedy {
     public List<Interval> employeeFreeTime(List<List<Interval>> schedule) {
         List<Interval> ans = new ArrayList<Interval>();
         // sanity check
         if(schedule == null || schedule.isEmpty()) return ans;
         
-        Queue<int[]> minHeap = new PriorityQueue<int[]>((a, b) -> Integer.compare(schedule.get(a[0]).get(a[1]).start, schedule.get(b[0]).get(b[1]).start));
+        PriorityQueue<int[]> minHeap = new PriorityQueue<int[]>((a, b) 
+            -> Integer.compare(schedule.get(a[0]).get(a[1]).start, schedule.get(b[0]).get(b[1]).start));
         for(int i = 0; i < schedule.size(); i++){
             minHeap.add(new int[]{i, 0});
         }

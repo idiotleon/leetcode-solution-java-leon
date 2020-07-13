@@ -22,16 +22,16 @@ public class SolutionApproach0SweepLine {
         // sanity check
         if(schedule == null || schedule.isEmpty()) return ans;
         
-        Map<Integer, Integer> map = new TreeMap<Integer, Integer>(); // key: timestamp, value: score
+        Map<Integer, Integer> timeline = new TreeMap<Integer, Integer>(); // key: timestamp, value: score
         schedule.forEach(list -> {
             for(Interval interval : list){
-                map.put(interval.start, map.getOrDefault(interval.start, 0) + 1);
-                map.put(interval.end, map.getOrDefault(interval.end, 0) - 1);
+                timeline.put(interval.start, timeline.getOrDefault(interval.start, 0) + 1);
+                timeline.put(interval.end, timeline.getOrDefault(interval.end, 0) - 1);
             }
         });
         
         int start = -1, score = 0;
-        for(Map.Entry<Integer, Integer> entry : map.entrySet()){
+        for(Map.Entry<Integer, Integer> entry : timeline.entrySet()){
             int snap = entry.getKey();
             score += entry.getValue();
             if(score == 0 && start == -1) start = snap;

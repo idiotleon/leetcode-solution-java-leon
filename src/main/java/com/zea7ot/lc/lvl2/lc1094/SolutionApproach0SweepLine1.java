@@ -16,8 +16,11 @@ public class SolutionApproach0SweepLine1 {
     public boolean carPooling(int[][] trips, int capacity) {
         Map<Integer, Integer> map = new TreeMap<Integer, Integer>();
         for(int[] trip : trips){
-            map.put(trip[1], map.getOrDefault(trip[1], 0) + trip[0]);
-            map.put(trip[2], map.getOrDefault(trip[2], 0) - trip[0]);
+            int passengers = trip[0];
+            int start = trip[1];
+            int end = trip[2];
+            map.put(start, map.getOrDefault(start, 0) + passengers);
+            map.put(end, map.getOrDefault(end, 0) - passengers);
         }
         
         for(int value : map.values()){

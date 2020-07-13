@@ -1,7 +1,9 @@
 /**
  * https://leetcode.com/problems/subsets/
  * 
- * Time Complexity:     O(2 ^ N) + O(N * lg(N)) ~ O(2 ^ N)
+ * Time Complexity:     O(N * 2 ^ N) + O(N * lg(N)) ~ O(N * 2 ^ N)
+ *  `ans.add(new ArrayList<Integer>(intermediate));` is of O(N)
+ * 
  * Space Complexity:    O()
  * 
  * References:

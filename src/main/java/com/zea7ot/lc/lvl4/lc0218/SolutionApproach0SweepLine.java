@@ -70,14 +70,12 @@ public class SolutionApproach0SweepLine {
         }
         
         @Override
-        public int compareTo(BuildingPoint o){
-            if(this.x == o.x){
-                if(this.isStart && o.isStart) return o.height - this.height;
-                if(!this.isStart && !o.isStart) return this.height - o.height;
-                return this.isStart ? -1 : 1;
-            }
-            
-            return this.x - o.x;
+        public int compareTo(BuildingPoint that){
+            if(this.x != that.x) return Integer.compare(this.x, that.x);
+                
+            if(this.isStart && that.isStart) return Integer.compare(that.height, this.height);
+            if(!this.isStart && !that.isStart) return Integer.compare(this.height, that.height);
+            return this.isStart ? -1 : 1;
         }
     }
 }

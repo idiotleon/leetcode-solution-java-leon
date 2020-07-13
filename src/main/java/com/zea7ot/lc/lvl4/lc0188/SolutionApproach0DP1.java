@@ -1,19 +1,21 @@
 /**
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
  * 
- * https://www.youtube.com/watch?v=oDhu5uGq_ic
- * https://github.com/mission-peace/interview/blob/master/src/com/interview/dynamic/StockBuySellKTransactions.java
+ * Formula is
+ * T[i][j] = max(T[i][j-1], prices[j] + maxDiff)
+ * maxDiff = max(maxDiff, T[i-1][j] - prices[j])
  * 
  * This is faster method which does optimization on slower method
  * Time complexity here is O(K * number of days)
  * 
- * Formula is
- * T[i][j] = max(T[i][j-1], prices[j] + maxDiff)
- * maxDiff = max(maxDiff, T[i-1][j] - prices[j])
+ * 
+ * References:
+ *  https://www.youtube.com/watch?v=oDhu5uGq_ic
+ *  https://github.com/mission-peace/interview/blob/master/src/com/interview/dynamic/StockBuySellKTransactions.java
  */
 package com.zea7ot.lc.lvl4.lc0188;
 
-public class SolutionApproachOptimizedDP{
+public class SolutionApproach0DP1{
     public int maxProfit(int k, int[] prices) {
         if(k == 0 || prices.length == 0) return 0;
         

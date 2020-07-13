@@ -1,21 +1,19 @@
 /**
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
+ *
+ * Time complexity:     O(number of transactions * number of days)
+ * Space complexity:    O(number of transcations * number of days)
+ *
+ * 
+ * References:
+ *  https://leetcode.com/discuss/15153/a-clean-dp-solution-which-generalizes-to-k-transactions
+ *  https://www.youtube.com/watch?v=oDhu5uGq_ic
+ *  https://github.com/mission-peace/interview/blob/master/src/com/interview/dynamic/StockBuySellKTransactions.java
  */
 package com.zea7ot.lc.lvl4.lc0188;
 
-/**
- * https://www.youtube.com/watch?v=oDhu5uGq_ic
- * https://github.com/mission-peace/interview/blob/master/src/com/interview/dynamic/StockBuySellKTransactions.java
- * 
- * Given stockc prices for certain days and at most k transactions how to buy and sell
- * to maximize profit.
- *
- * Time complexity - O(number of transactions * number of days)
- * Space complexity - O(number of transcations * number of days)
- *
- * https://leetcode.com/discuss/15153/a-clean-dp-solution-which-generalizes-to-k-transactions
- */
-public class SolutionApproachDP{
+
+public class SolutionApproach0DP2{
     public int maxProfit(int k, int[] prices) {
         // sanity check
         if(k == 0 || prices.length == 0) return 0;

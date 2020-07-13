@@ -28,6 +28,7 @@ public class SolutionApproach0SweepLine {
         for(int val : timeline.values()){
             k = Math.max(k, ongoing += val);
         }
+        
         return k;
     }
 }

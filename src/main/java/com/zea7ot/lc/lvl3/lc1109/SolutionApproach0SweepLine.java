@@ -9,12 +9,16 @@
  */
 package com.zea7ot.lc.lvl3.lc1109;
 
-public class SolutionApproach0RunningSums {
+public class SolutionApproach0SweepLine {
     public int[] corpFlightBookings(int[][] bookings, int n) {
         int[] ans = new int[n];
         for(int[] booking : bookings){
-            ans[booking[0] - 1] += booking[2];
-            if(booking[1] < n) ans[booking[1]] -= booking[2];
+            // 0-indexed
+            int iLabel = booking[0] - 1;
+            int jLabel = booking[1];
+            int seats = booking[2];
+            ans[iLabel] += seats;
+            if(jLabel < n) ans[jLabel] -= seats;
         }
         
         for(int i = 1; i < n; ++i)
