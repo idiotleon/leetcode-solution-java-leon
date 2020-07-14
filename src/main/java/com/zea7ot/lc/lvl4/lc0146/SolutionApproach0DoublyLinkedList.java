@@ -6,25 +6,25 @@ package com.zea7ot.lc.lvl4.lc0146;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SolutionApproachDLinkedList {
-    private Map<Integer, DLinkedNode> cache;
+public class SolutionApproach0DoublyLinkedList {
+    private Map<Integer, DLLNode> cache;
     private int size, capacity;
-    private DLinkedNode head, tail;
+    private DLLNode head, tail;
 
-    public SolutionApproachDLinkedList(int capacity) {
-        this.cache = new HashMap<Integer, DLinkedNode>();
+    public SolutionApproach0DoublyLinkedList(int capacity) {
+        this.cache = new HashMap<Integer, DLLNode>();
         this.size = 0;
         this.capacity = capacity;
         
-        head = new DLinkedNode();
-        tail = new DLinkedNode();
+        head = new DLLNode(-1, -1);
+        tail = new DLLNode(-1, -1);
         
         head.next = tail;
         tail.prev = head;
     }
     
     public int get(int key) {
-        DLinkedNode node = cache.get(key);
+        DLLNode node = cache.get(key);
         if(node == null) return -1;
         
         moveToHead(node);
@@ -33,12 +33,10 @@ public class SolutionApproachDLinkedList {
     }
     
     public void put(int key, int value) {
-        DLinkedNode node = cache.get(key);
+        DLLNode node = cache.get(key);
         
         if(node == null){
-            DLinkedNode newNode = new DLinkedNode();
-            newNode.key = key;
-            newNode.value = value;
+            DLLNode newNode = new DLLNode(key, value);
             
             cache.put(key, newNode);
             addNode(newNode);
@@ -46,7 +44,7 @@ public class SolutionApproachDLinkedList {
             ++size;
             
             if(size > capacity){
-                DLinkedNode last = popTail();
+                DLLNode last = popTail();
                 cache.remove(last.key);
                 --size;
             }
@@ -56,13 +54,13 @@ public class SolutionApproachDLinkedList {
         }
     }
     
-    private DLinkedNode popTail(){
-        DLinkedNode last = tail.prev;
+    private DLLNode popTail(){
+        DLLNode last = tail.prev;
         removeNode(last);
         return last;
     }
     
-    private void addNode(DLinkedNode node){
+    private void addNode(DLLNode node){
         node.prev = head;
         node.next = head.next;
         
@@ -70,23 +68,29 @@ public class SolutionApproachDLinkedList {
         head.next = node;
     }
     
-    private void removeNode(DLinkedNode node){
-        DLinkedNode prev = node.prev;
-        DLinkedNode next = node.next;
+    private void removeNode(DLLNode node){
+        DLLNode prev = node.prev;
+        DLLNode next = node.next;
         
         prev.next = next;
         next.prev = prev;
     }
     
-    private void moveToHead(DLinkedNode node){
+    private void moveToHead(DLLNode node){
         removeNode(node);
         addNode(node);
     }
 
-    private class DLinkedNode{
-        int key;
-        int value;
-        DLinkedNode prev;
-        DLinkedNode next;
+    private class DLLNode{
+        protected int key;
+        protected int value;
+        protected DLLNode prev;
+        protected DLLNode next;
+
+        protected DLLNode(int key, int value){
+            this.key = key;
+            this.value = value;
+            this.prev = this.next = null;
+        }
     }
 }

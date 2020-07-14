@@ -6,14 +6,14 @@ package com.zea7ot.lc.lvl4.lc0146;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class SolutionApproachLinkedHashMap extends LinkedHashMap<Integer, Integer> {
+public class SolutionApproach1LinkedHashMap extends LinkedHashMap<Integer, Integer> {
     
     // just to remove warning about lack of serialVersionUID
     private static final long serialVersionUID = 1L;
     
     private int capacity;
 
-    public SolutionApproachLinkedHashMap(int capacity) {
+    public SolutionApproach1LinkedHashMap(int capacity) {
         super(capacity, 0.75f, true);
         this.capacity = capacity;
     }
