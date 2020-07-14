@@ -41,7 +41,7 @@ public class SolutionApproach0UnionFind {
         private int[] parent, rank;
         
         protected UnionFind(char[][] grid){
-            int NR = grid.length, NC = grid[0].length;
+            final int NR = grid.length, NC = grid[0].length;
             parent = new int[NR * NC];
             rank = new int[NR * NC];
             

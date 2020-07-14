@@ -1,14 +1,14 @@
 /**
  * https://leetcode.com/problems/merge-k-sorted-lists/
  * 
- * Time Complexity: O(Nlgk)
- * Space Complexity: O(1)
+ * Time Complexity:     O(N * lg(k))
+ * Space Complexity:    O(1)
  */
 package com.zea7ot.lc.lvl4.lc0023;
 
 import com.zea7ot.utils.data_structure.linkedlist.ListNode;
 
-class SolutionApproachDivideAndConquer {
+class SolutionApproach0DivideAndConquer {
     public ListNode mergeKLists(ListNode[] lists) {
         if(lists == null || lists.length == 0) return null;
         
