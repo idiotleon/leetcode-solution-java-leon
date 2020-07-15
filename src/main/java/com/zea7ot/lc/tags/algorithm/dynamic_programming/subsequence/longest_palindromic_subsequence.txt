@@ -1,7 +1,7 @@
 @author: Leon
 
 ### Dynamic Programming
-# palindrome
+# Palindrome
 
 3   0647    https://leetcode.com/problems/palindromic-substrings/
 
