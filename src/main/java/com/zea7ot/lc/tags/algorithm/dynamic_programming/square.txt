@@ -1,6 +1,5 @@
 @author: Leon
 
-
 ### Dynamic Programming
 # Square
 
