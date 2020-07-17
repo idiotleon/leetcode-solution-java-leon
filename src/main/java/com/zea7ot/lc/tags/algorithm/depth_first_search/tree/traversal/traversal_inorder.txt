@@ -3,9 +3,14 @@
 ### Depth First Search
 # Inorder Traversal
 
+2   0501    https://leetcode.com/problems/find-mode-in-binary-search-tree/
 2   1214    https://leetcode.com/problems/two-sum-bsts/
 
 3   0285    https://leetcode.com/problems/inorder-successor-in-bst/
+3   0510    https://leetcode.com/problems/inorder-successor-in-bst-ii/
+3   0530    https://leetcode.com/problems/minimum-absolute-difference-in-bst/
+3   0536    https://leetcode.com/problems/construct-binary-tree-from-string/
+3   0783    https://leetcode.com/problems/minimum-distance-between-bst-nodes/
 3   1382    https://leetcode.com/problems/balance-a-binary-search-tree/
 
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/

@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/reverse-words-in-a-string/
  * 
- * Time Complexity:     O()
- * Space Complexity:    O()
+ * Time Complexity:     O(L)
+ * Space Complexity:    O(L)
  */
 package com.zea7ot.lc.lvl3.lc0151;
 
@@ -15,43 +15,45 @@ public class SolutionApproach0TwoPointers {
     }
     
     private StringBuilder trimSpace(String str){
-        int left = 0, right = str.length() - 1;
+        final int L = str.length();
+        int lo = 0, hi = L - 1;
         // to remove leading spaces
-        while(left <= right && str.charAt(left) == ' ') ++left;
+        while(lo <= hi && str.charAt(lo) == ' ') ++lo;
         // to remove trailing spaces
-        while(left <= right && str.charAt(right) == ' ') --right;
+        while(lo <= hi && str.charAt(hi) == ' ') --hi;
         
         // to reduce multiple spaces to a single one
-        StringBuilder builder = new StringBuilder();
-        while(left <= right){
-            char c = str.charAt(left);
+        StringBuilder builder = new StringBuilder(str);
+        while(lo <= hi){
+            char ch = str.charAt(lo);
             
-            if(c != ' ') builder.append(c);
+            if(ch != ' ') builder.append(ch);
             else if(builder.charAt(builder.length() - 1) != ' ') 
-                builder.append(c);
+                builder.append(ch);
             
-            ++left;
+            ++lo;
         }
         
         return builder;
     }
     
     private void reverseEachWord(StringBuilder builder){
-        int n = builder.length(), start = 0, end = 0;
+        final int L = builder.length();
+        int start = 0, end = 0;
         
-        while(start < n){
-            while(end < n && builder.charAt(end) != ' ') ++end;
+        while(start < L){
+            while(end < L && builder.charAt(end) != ' ') ++end;
             reverse(builder, start, end - 1);
             start = end + 1;
             ++end;
         }
     }
     
-    private void reverse(StringBuilder stringBuilder, int left, int right){
-        while(left < right){
-            char temp = stringBuilder.charAt(left);
-            stringBuilder.setCharAt(left++, stringBuilder.charAt(right));
-            stringBuilder.setCharAt(right--, temp);
+    private void reverse(StringBuilder builder, int lo, int hi){
+        while(lo < hi){
+            char ch = builder.charAt(lo);
+            builder.setCharAt(lo++, builder.charAt(hi));
+            builder.setCharAt(hi--, ch);
         }
     }
 }
