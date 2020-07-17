@@ -7,6 +7,8 @@
 2   0501    https://leetcode.com/problems/find-mode-in-binary-search-tree/
 
 3   0114    https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+3   0530    https://leetcode.com/problems/minimum-absolute-difference-in-bst/
+3   0783    https://leetcode.com/problems/minimum-distance-between-bst-nodes/
 
 4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
 4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
