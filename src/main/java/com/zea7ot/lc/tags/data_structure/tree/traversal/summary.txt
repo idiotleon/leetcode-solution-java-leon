@@ -3,6 +3,8 @@
 ### Tree
 # Traversals
 
+2   0501    https://leetcode.com/problems/find-mode-in-binary-search-tree/
+
 3   0285    https://leetcode.com/problems/inorder-successor-in-bst/
 3   0662    https://leetcode.com/problems/maximum-width-of-binary-tree/
 3   0545    https://leetcode.com/problems/boundary-of-binary-tree/
