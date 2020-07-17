@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/powx-n/
  * 
- * Time Complexity: O(lg(N))
- * Space Complexity: O(N)
+ * Time Complexity:     O(lg(N))
+ * Space Complexity:    O(N)
  */
 package com.zea7ot.lc.lvl3.lc0050;
 
