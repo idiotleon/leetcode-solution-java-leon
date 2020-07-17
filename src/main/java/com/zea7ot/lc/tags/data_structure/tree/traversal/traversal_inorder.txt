@@ -10,6 +10,7 @@ References:
 3   0105    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 3   0285    https://leetcode.com/problems/inorder-successor-in-bst/
+3   0510    https://leetcode.com/problems/inorder-successor-in-bst-ii/
 3   1382    https://leetcode.com/problems/balance-a-binary-search-tree/
 
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
