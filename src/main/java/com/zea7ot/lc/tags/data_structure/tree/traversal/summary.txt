@@ -4,6 +4,7 @@
 # Traversals
 
 2   0501    https://leetcode.com/problems/find-mode-in-binary-search-tree/
+2   0563    https://leetcode.com/problems/binary-tree-tilt/
 
 3   0285    https://leetcode.com/problems/inorder-successor-in-bst/
 3   0508    https://leetcode.com/problems/most-frequent-subtree-sum/
