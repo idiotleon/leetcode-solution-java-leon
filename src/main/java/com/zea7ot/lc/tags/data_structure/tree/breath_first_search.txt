@@ -3,6 +3,7 @@
 ### Tree
 # Breadth First Search
 
+1   0559    https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
 1   1161    https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
 
 2   0429    https://leetcode.com/problems/n-ary-tree-level-order-traversal/
