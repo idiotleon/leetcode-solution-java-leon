@@ -9,7 +9,8 @@
  */
 package com.zea7ot.lc.lvl3.lc0210;
 
-import java.util.LinkedList;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class SolutionApproach0TopologicalSortBFS1 {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
@@ -19,22 +20,22 @@ public class SolutionApproach0TopologicalSortBFS1 {
         if(numCourses <= 0) return ans;
         
         int[][] matrix = new int[numCourses][numCourses];
-        int[] indegree = new int[numCourses];
+        int[] counts = new int[numCourses];
         
         for(int[] prerequisite : prerequisites){
             int ready = prerequisite[0];
             int pre = prerequisite[1];
             
             if(matrix[pre][ready] == 0){
-                ++indegree[ready];
+                ++counts[ready];
             }
             
             matrix[pre][ready] = 1;
         }
         
-        LinkedList<Integer> queue = new LinkedList<Integer>();
+        Deque<Integer> queue = new ArrayDeque<Integer>();
         for(int i = 0; i < numCourses; i++){
-            if(indegree[i] == 0){
+            if(counts[i] == 0){
                 queue.add(i);
             }
         }
@@ -46,7 +47,7 @@ public class SolutionApproach0TopologicalSortBFS1 {
             
             for(int i = 0; i < numCourses; i++){
                 if(matrix[course][i] == 1){
-                    if(--indegree[i] == 0){
+                    if(--counts[i] == 0){
                         queue.add(i);
                     }
                 }

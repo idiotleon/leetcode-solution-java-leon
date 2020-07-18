@@ -28,7 +28,9 @@ public class SolutionApproach0TopologicalSortDFS {
         }
         
         for(int[] prerequisite : prerequisites){
-            graph.get(prerequisite[0]).add(prerequisite[1]);
+            int ready = prerequisite[0];
+            int pre = prerequisite[1];
+            graph.get(ready).add(pre);
         }
         
         List<Integer> res = new ArrayList<Integer>();
