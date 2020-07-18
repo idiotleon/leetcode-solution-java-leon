@@ -7,6 +7,7 @@
 
 3   0105    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 3   0536    https://leetcode.com/problems/construct-binary-tree-from-string/
+3   0654    https://leetcode.com/problems/maximum-binary-tree/
 3   0662    https://leetcode.com/problems/maximum-width-of-binary-tree/
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 
