@@ -43,6 +43,7 @@ References:
 3   0652    https://leetcode.com/problems/find-duplicate-subtrees/
 3   0654    https://leetcode.com/problems/maximum-binary-tree/
 3   0662    https://leetcode.com/problems/maximum-width-of-binary-tree/
+3   0663    https://leetcode.com/problems/equal-tree-partition/
 3   0687    https://leetcode.com/problems/longest-univalue-path/
 3   0783    https://leetcode.com/problems/minimum-distance-between-bst-nodes/
 3   0865    https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/

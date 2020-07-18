@@ -56,6 +56,7 @@ References:
 3   0638    https://leetcode.com/problems/shopping-offers/
 3   0652    https://leetcode.com/problems/find-duplicate-subtrees/
 3   0654    https://leetcode.com/problems/maximum-binary-tree/
+3   0663    https://leetcode.com/problems/equal-tree-partition/
 3   0687    https://leetcode.com/problems/longest-univalue-path/
 3   0753    https://leetcode.com/problems/cracking-the-safe/
 3   0756    https://leetcode.com/problems/pyramid-transition-matrix/
