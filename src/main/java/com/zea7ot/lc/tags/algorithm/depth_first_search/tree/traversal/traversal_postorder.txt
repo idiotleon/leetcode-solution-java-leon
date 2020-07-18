@@ -12,6 +12,7 @@
 3   0430    https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
 3   0508    https://leetcode.com/problems/most-frequent-subtree-sum/
 3   0623    https://leetcode.com/problems/add-one-row-to-tree/
+3   0652    https://leetcode.com/problems/find-duplicate-subtrees/
 3   1339    https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 

@@ -21,6 +21,7 @@ References:
 3   0530    https://leetcode.com/problems/minimum-absolute-difference-in-bst/
 3   0545    https://leetcode.com/problems/boundary-of-binary-tree/
 3   0623    https://leetcode.com/problems/add-one-row-to-tree/
+3   0652    https://leetcode.com/problems/find-duplicate-subtrees/
 3   0662    https://leetcode.com/problems/maximum-width-of-binary-tree/
 3   0783    https://leetcode.com/problems/minimum-distance-between-bst-nodes/
 3   0938    https://leetcode.com/problems/range-sum-of-bst/
