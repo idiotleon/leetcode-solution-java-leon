@@ -7,6 +7,7 @@
 2   0563    https://leetcode.com/problems/binary-tree-tilt/
 2   0589    https://leetcode.com/problems/n-ary-tree-preorder-traversal/
 2   0655    https://leetcode.com/problems/print-binary-tree/
+2   0669    https://leetcode.com/problems/trim-a-binary-search-tree/
 
 3   0285    https://leetcode.com/problems/inorder-successor-in-bst/
 3   0508    https://leetcode.com/problems/most-frequent-subtree-sum/
