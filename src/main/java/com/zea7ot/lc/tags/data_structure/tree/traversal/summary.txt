@@ -37,4 +37,5 @@
 4   0250    https://leetcode.com/problems/count-univalue-subtrees/
 4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
 4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
+4   0894    https://leetcode.com/problems/all-possible-full-binary-trees/
 4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
