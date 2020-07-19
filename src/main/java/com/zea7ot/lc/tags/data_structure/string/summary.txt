@@ -4,6 +4,8 @@ References:
 
 ### String
 
+1   0067    https://leetcode.com/problems/add-binary/
+
 2   0165    https://leetcode.com/problems/compare-version-numbers/
 2   0290    https://leetcode.com/problems/word-pattern/
 2   0392    https://leetcode.com/problems/is-subsequence/

@@ -2,8 +2,9 @@
 References:
     https://github.com/huanminwu/LeetCode
 
-###String
-String - parsing:
+### String
+# String - Parsing:
+
 1   0067    https://leetcode.com/problems/add-binary/
 1   0258    https://leetcode.com/problems/add-digits/
 1   0415    https://leetcode.com/problems/add-strings/
