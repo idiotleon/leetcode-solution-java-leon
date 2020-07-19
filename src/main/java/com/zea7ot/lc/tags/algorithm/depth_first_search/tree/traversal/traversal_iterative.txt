@@ -4,6 +4,8 @@
 ## Tree
 # Traversal Iterative
 
+1   0872    https://leetcode.com/problems/leaf-similar-trees/
+
 2   1214    https://leetcode.com/problems/two-sum-bsts/
 
 3   0450    https://leetcode.com/problems/delete-node-in-a-bst/
