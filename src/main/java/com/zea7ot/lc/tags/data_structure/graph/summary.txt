@@ -24,5 +24,6 @@ References:
 3   1514    https://leetcode.com/problems/path-with-maximum-probability/
 
 4   0305    https://leetcode.com/problems/number-of-islands-ii/
+4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
 
 5   1203    https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/

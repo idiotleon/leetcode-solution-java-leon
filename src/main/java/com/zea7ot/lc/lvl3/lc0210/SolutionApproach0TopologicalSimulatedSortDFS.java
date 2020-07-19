@@ -9,7 +9,8 @@
  */
 package com.zea7ot.lc.lvl3.lc0210;
 
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class SolutionApproach0TopologicalSimulatedSortDFS {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
@@ -23,7 +24,7 @@ public class SolutionApproach0TopologicalSimulatedSortDFS {
             ++counts[prerequisite[0]];
         }
         
-        Stack<Integer> stack = new Stack<Integer>();
+        Deque<Integer> stack = new ArrayDeque<Integer>();
         for(int i = 0; i < numCourses; i++){
             if(counts[i] == 0) {
                 stack.push(i);

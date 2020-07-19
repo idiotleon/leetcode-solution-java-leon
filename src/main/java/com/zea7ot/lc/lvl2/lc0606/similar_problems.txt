@@ -1,0 +1,3 @@
+2   0606    https://leetcode.com/problems/construct-string-from-binary-tree/
+
+3   0536    https://leetcode.com/problems/construct-binary-tree-from-string/

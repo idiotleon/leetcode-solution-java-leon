@@ -3,9 +3,14 @@
 ### Tree
 # Preorder Traversal
 
+2   0589    https://leetcode.com/problems/n-ary-tree-preorder-traversal/
+2   0637    https://leetcode.com/problems/average-of-levels-in-binary-tree/
+
 3   0105    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 3   0536    https://leetcode.com/problems/construct-binary-tree-from-string/
+3   0654    https://leetcode.com/problems/maximum-binary-tree/
 3   0662    https://leetcode.com/problems/maximum-width-of-binary-tree/
+3   0666    https://leetcode.com/problems/path-sum-iv/
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 
 4   0298    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/

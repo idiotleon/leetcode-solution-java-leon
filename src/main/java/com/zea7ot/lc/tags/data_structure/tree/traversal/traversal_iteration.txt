@@ -5,6 +5,7 @@ References:
 ### Tree
 # Traversal - iteration
 
+2   0701    https://leetcode.com/problems/insert-into-a-binary-search-tree/
 2   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
 
 3   0105    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/

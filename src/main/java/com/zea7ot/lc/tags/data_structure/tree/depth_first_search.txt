@@ -5,8 +5,12 @@ References:
 ### Tree
 # Depth First Search
 
+1   0559    https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
 1   1161    https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
 
+2   0637    https://leetcode.com/problems/average-of-levels-in-binary-tree/
+2   0655    https://leetcode.com/problems/print-binary-tree/
+2   0669    https://leetcode.com/problems/trim-a-binary-search-tree/
 2   0951    https://leetcode.com/problems/flip-equivalent-binary-trees/
 2   0971    https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/
 2   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
@@ -19,6 +23,8 @@ References:
 3   0285    https://leetcode.com/problems/inorder-successor-in-bst/
 3   0530    https://leetcode.com/problems/minimum-absolute-difference-in-bst/
 3   0545    https://leetcode.com/problems/boundary-of-binary-tree/
+3   0623    https://leetcode.com/problems/add-one-row-to-tree/
+3   0652    https://leetcode.com/problems/find-duplicate-subtrees/
 3   0662    https://leetcode.com/problems/maximum-width-of-binary-tree/
 3   0783    https://leetcode.com/problems/minimum-distance-between-bst-nodes/
 3   0938    https://leetcode.com/problems/range-sum-of-bst/
@@ -39,6 +45,7 @@ References:
 4   0298    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
 4   0549    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/
+4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0979    https://leetcode.com/problems/distribute-coins-in-binary-tree/
