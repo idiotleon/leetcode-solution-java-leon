@@ -4,6 +4,7 @@
 # Traversals
 
 1   0671    https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/
+1   0700    https://leetcode.com/problems/search-in-a-binary-search-tree/
 
 2   0501    https://leetcode.com/problems/find-mode-in-binary-search-tree/
 2   0563    https://leetcode.com/problems/binary-tree-tilt/
@@ -13,6 +14,7 @@
 2   0701    https://leetcode.com/problems/insert-into-a-binary-search-tree/
 
 3   0285    https://leetcode.com/problems/inorder-successor-in-bst/
+3   0450    https://leetcode.com/problems/delete-node-in-a-bst/
 3   0508    https://leetcode.com/problems/most-frequent-subtree-sum/
 3   0510    https://leetcode.com/problems/inorder-successor-in-bst-ii/
 3   0530    https://leetcode.com/problems/minimum-absolute-difference-in-bst/
@@ -25,8 +27,10 @@
 3   0662    https://leetcode.com/problems/maximum-width-of-binary-tree/
 3   0663    https://leetcode.com/problems/equal-tree-partition/
 3   0666    https://leetcode.com/problems/path-sum-iv/
+3   0776    https://leetcode.com/problems/split-bst/
 3   0783    https://leetcode.com/problems/minimum-distance-between-bst-nodes/
 3   1382    https://leetcode.com/problems/balance-a-binary-search-tree/
+3   1519    https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/
 
 4   0250    https://leetcode.com/problems/count-univalue-subtrees/
 4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
