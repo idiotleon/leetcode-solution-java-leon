@@ -8,6 +8,7 @@ References:
 
 1   0559    https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
 1   0671    https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/
+1   0700    https://leetcode.com/problems/search-in-a-binary-search-tree/
 1   1161    https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
 
 2   0226    https://leetcode.com/problems/invert-binary-tree/
@@ -36,6 +37,7 @@ References:
 3   0333    https://leetcode.com/problems/largest-bst-subtree/
 3   0430    https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
 3   0437    https://leetcode.com/problems/path-sum-iii/
+3   0450    https://leetcode.com/problems/delete-node-in-a-bst/
 3   0508    https://leetcode.com/problems/most-frequent-subtree-sum/
 3   0510    https://leetcode.com/problems/inorder-successor-in-bst-ii/
 3   0530    https://leetcode.com/problems/minimum-absolute-difference-in-bst/
@@ -49,6 +51,7 @@ References:
 3   0663    https://leetcode.com/problems/equal-tree-partition/
 3   0666    https://leetcode.com/problems/path-sum-iv/
 3   0687    https://leetcode.com/problems/longest-univalue-path/
+3   0776    https://leetcode.com/problems/split-bst/
 3   0783    https://leetcode.com/problems/minimum-distance-between-bst-nodes/
 3   0865    https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 3   0938    https://leetcode.com/problems/range-sum-of-bst/
