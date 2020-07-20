@@ -11,14 +11,15 @@ References:
 2   0053    https://leetcode.com/problems/maximum-subarray/
 2   0198    https://leetcode.com/problems/house-robber/
 2   0361    https://leetcode.com/problems/bomb-enemy/
-3   0376    https://leetcode.com/problems/wiggle-subsequence/
 2   0413    https://leetcode.com/problems/arithmetic-slices/
 
 3   0091    https://leetcode.com/problems/decode-ways/
 3   0256    https://leetcode.com/problems/paint-house/
 3   0264    https://leetcode.com/problems/ugly-number-ii/
+3   0276    https://leetcode.com/problems/paint-fence/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0338    https://leetcode.com/problems/counting-bits/
+3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
 3   0494    https://leetcode.com/problems/target-sum/

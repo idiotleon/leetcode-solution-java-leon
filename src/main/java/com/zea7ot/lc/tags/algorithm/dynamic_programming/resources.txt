@@ -1,0 +1,5 @@
+@author: Leon
+
+### Dynamic Programming
+
+https://www.youtube.com/watch?v=FLbqgyJ-70I&t=142s

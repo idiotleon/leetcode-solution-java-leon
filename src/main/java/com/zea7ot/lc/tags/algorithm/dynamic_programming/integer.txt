@@ -1,10 +1,11 @@
 @author: Leon
 
 ### Dynamic Programming
-# integer
+# Integer
 
 1   0204    https://leetcode.com/problems/count-primes/
 
 3   0264    https://leetcode.com/problems/ugly-number-ii/
+3   0276    https://leetcode.com/problems/paint-fence/
 
 5   0818    https://leetcode.com/problems/race-car/
