@@ -11,6 +11,7 @@ References:
 2   0053    https://leetcode.com/problems/maximum-subarray/
 2   0198    https://leetcode.com/problems/house-robber/
 2   0361    https://leetcode.com/problems/bomb-enemy/
+3   0376    https://leetcode.com/problems/wiggle-subsequence/
 2   0413    https://leetcode.com/problems/arithmetic-slices/
 
 3   0091    https://leetcode.com/problems/decode-ways/

@@ -15,6 +15,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   0264    https://leetcode.com/problems/ugly-number-ii/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0338    https://leetcode.com/problems/counting-bits/
+3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
 3   0494    https://leetcode.com/problems/target-sum/
@@ -52,6 +53,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
+4   0894    https://leetcode.com/problems/all-possible-full-binary-trees/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/

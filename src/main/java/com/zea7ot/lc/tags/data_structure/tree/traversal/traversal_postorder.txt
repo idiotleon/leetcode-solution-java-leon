@@ -5,6 +5,7 @@
 
 2   0563    https://leetcode.com/problems/binary-tree-tilt/
 2   0669    https://leetcode.com/problems/trim-a-binary-search-tree/
+2   0814    https://leetcode.com/problems/binary-tree-pruning/
 
 3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 3   0129    https://leetcode.com/problems/sum-root-to-leaf-numbers/
@@ -15,6 +16,7 @@
 3   0663    https://leetcode.com/problems/equal-tree-partition/
 3   1339    https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
+3   1519    https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/
 
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
 4   0250    https://leetcode.com/problems/count-univalue-subtrees/

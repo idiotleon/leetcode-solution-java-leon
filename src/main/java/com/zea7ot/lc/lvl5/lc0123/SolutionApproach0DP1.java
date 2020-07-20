@@ -2,15 +2,16 @@
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
  * 
  * Time Complexity:     O(k * (N ^ 2))
- * 
  * Space Complexity:    O(kN)
+ * 
+ * a general appraoch with at most k transactions
  * 
  * References:
  *  https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/discuss/135704/Detail-explanation-of-DP-solution
  */
 package com.zea7ot.lc.lvl5.lc0123;
 
-public class SolutionApproach0DP2 {
+public class SolutionApproach0DP1 {
     public int maxProfit(int[] prices) {
         // sanity check
         if(prices == null || prices.length == 0) return 0;
