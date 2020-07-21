@@ -4,7 +4,7 @@
  *  Kadane's Algorithm
  *  https://hackernoon.com/kadanes-algorithm-explained-50316f4fd8a6
  */
-package com.zea7ot.lc.lvl3.lc0053;
+package com.zea7ot.lc.lvl2.lc0053;
 
 public class SolutionApproach0KadanesAlgorithm1 {
     /**
@@ -16,8 +16,12 @@ public class SolutionApproach0KadanesAlgorithm1 {
      * https://leetcode.com/problems/maximum-subarray/discuss/20211/Accepted-O(n)-solution-in-java
      */
     public int maxSubArray(int[] nums) {
+        // sanity check
+        if(nums == null || nums.length == 0) return 0;
+
+        final int N = nums.length;
         int maxSoFar = nums[0], maxEndingHere = nums[0];
-        for(int i = 1; i < nums.length; ++i){
+        for(int i = 1; i < N; ++i){
             maxEndingHere = Math.max(maxEndingHere + nums[i], nums[i]);
             maxSoFar = Math.max(maxSoFar, maxEndingHere);
         }

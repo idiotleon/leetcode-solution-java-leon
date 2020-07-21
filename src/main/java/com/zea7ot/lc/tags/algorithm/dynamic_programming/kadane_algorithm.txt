@@ -4,3 +4,5 @@
 # Kadane's Algorithm
 
 3   0053    https://leetcode.com/problems/maximum-subarray/
+
+4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/

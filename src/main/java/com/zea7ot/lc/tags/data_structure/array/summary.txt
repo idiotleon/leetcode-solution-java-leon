@@ -127,6 +127,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
+4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
 4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1231    https://leetcode.com/problems/divide-chocolate/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/

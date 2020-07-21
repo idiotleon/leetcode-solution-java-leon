@@ -4,7 +4,7 @@
  *  Kadane's Algorithm
  *  https://hackernoon.com/kadanes-algorithm-explained-50316f4fd8a6
  */
-package com.zea7ot.lc.lvl3.lc0053;
+package com.zea7ot.lc.lvl2.lc0053;
 
 public class SolutionApproach0KadanesAlgorithm3{
     public int maxSubArray(int[] nums) {
