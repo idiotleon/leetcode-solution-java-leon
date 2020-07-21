@@ -8,7 +8,7 @@
  * References:
  *  https://www.baeldung.com/java-quicksort
  */
-package com.zea7ot.algorithm.summaries.sort.quick_sort;
+package com.zea7ot.algorithm.summaries.sort.quick_sort.single_way;
 
 public class QuickSortPartitionEnd {
     public int[] sortArray(int[] nums) {

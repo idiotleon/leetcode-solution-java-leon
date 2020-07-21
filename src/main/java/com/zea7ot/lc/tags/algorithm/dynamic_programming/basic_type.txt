@@ -2,6 +2,17 @@
 
 
 ### Dynamic Programming
-# Basic
+# Basic Type
 
+2   0198    https://leetcode.com/problems/house-robber/
+
+3   0213    https://leetcode.com/problems/house-robber-ii/
+3   0276    https://leetcode.com/problems/paint-fence/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
+3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
+
+4   0265    https://leetcode.com/problems/paint-house-ii/
+4   0309    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
+
+5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/

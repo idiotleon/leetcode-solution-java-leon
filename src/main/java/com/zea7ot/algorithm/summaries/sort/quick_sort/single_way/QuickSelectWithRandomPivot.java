@@ -4,7 +4,7 @@
  *  Averagely:  O(N)
  *  Worst:      O(N ^ 2)
  */
-package com.zea7ot.algorithm.summaries.sort.quick_sort;
+package com.zea7ot.algorithm.summaries.sort.quick_sort.single_way;
 
 import java.util.Random;
 

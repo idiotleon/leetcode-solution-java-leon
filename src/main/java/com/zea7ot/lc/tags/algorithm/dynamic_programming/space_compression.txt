@@ -4,11 +4,13 @@ References:
     https://leetcode.com/tag/dynamic-programming/
 
 ### Dynamic Programming
-# space compression
+# Space Compression
 
+3   0256    https://leetcode.com/problems/paint-house/
+3   0276    https://leetcode.com/problems/paint-fence/
+3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
-4   0494    https://leetcode.com/problems/target-sum/
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
@@ -18,6 +20,7 @@ References:
 
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0221    https://leetcode.com/problems/maximal-square/
+4   0494    https://leetcode.com/problems/target-sum/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
