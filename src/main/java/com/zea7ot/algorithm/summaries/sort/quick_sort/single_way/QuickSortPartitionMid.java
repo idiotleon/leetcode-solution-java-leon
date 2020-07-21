@@ -31,7 +31,7 @@
  *  https://www.programcreek.com/2012/11/quicksort-array-in-java/
  *  https://www.youtube.com/watch?v=OQi4n8EKRD8
  */ 
-package com.zea7ot.algorithm.summaries.sort.quick_sort;
+package com.zea7ot.algorithm.summaries.sort.quick_sort.single_way;
 
 public class QuickSortPartitionMid {
     public int[] sortArray(int[] nums) {
