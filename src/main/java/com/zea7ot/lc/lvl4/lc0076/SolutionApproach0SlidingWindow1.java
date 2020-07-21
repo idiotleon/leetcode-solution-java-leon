@@ -1,12 +1,12 @@
 /**
  * https://leetcode.com/problems/minimum-window-substring/
  * 
- * Time Complexity: O(N)
- * Space Complexity: O(1)
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(1)
  */
 package com.zea7ot.lc.lvl4.lc0076;
 
-public class SolutionApproachTwoPtrs1 {
+public class SolutionApproach0SlidingWindow1 {
     public String minWindow(String s, String t) {
         // sanity check
         if(s == null || s.length() == 0 || t == null || t.length() == 0) return "";
