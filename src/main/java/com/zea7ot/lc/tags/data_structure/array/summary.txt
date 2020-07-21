@@ -59,7 +59,6 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0912    https://leetcode.com/problems/sort-an-array/
 3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
 3   0969    https://leetcode.com/problems/pancake-sorting/
-4   0980    https://leetcode.com/problems/unique-paths-iii/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
@@ -121,6 +120,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0916    https://leetcode.com/problems/word-subsets/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+4   0980    https://leetcode.com/problems/unique-paths-iii/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
@@ -128,6 +128,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1231    https://leetcode.com/problems/divide-chocolate/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
+4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/

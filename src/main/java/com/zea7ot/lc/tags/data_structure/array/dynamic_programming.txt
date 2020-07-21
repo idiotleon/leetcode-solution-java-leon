@@ -29,6 +29,7 @@
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
+4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
