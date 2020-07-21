@@ -24,14 +24,15 @@ public class SolutionApproach0DP {
         // sanity check 
         if(words == null || words.length == 0) return 0;
         
-        Arrays.sort(words, (a, b) -> a.length() - b.length());
+        Arrays.sort(words, (a, b) -> Integer.compare(a.length(), b.length()));
         Map<String, Integer> dp = new HashMap<String, Integer>();
         
-        int ans = 0;
+        int ans = 1;
         for(String word : words){
             if(dp.containsKey(word)) continue;
             dp.put(word, 1);
-            for(int i = 0; i < word.length(); i++){
+            final int L = word.length();
+            for(int i = 0; i < L; ++i){
                 StringBuilder builder = new StringBuilder(word);
                 String previous = builder.deleteCharAt(i).toString();
                 if(dp.containsKey(previous)

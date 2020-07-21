@@ -1,6 +1,6 @@
 @author: Leon
 References:
-    https://www.youtube.com/watch?v=FLbqgyJ-70I
+    https://youtu.be/FLbqgyJ-70I?t=2578
 
 ### Dynamic Programming
 # Basic Type II
