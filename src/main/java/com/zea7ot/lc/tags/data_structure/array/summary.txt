@@ -88,6 +88,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0218    https://leetcode.com/problems/the-skyline-problem/
 4   0221    https://leetcode.com/problems/maximal-square/
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/
+4   0265    https://leetcode.com/problems/paint-house-ii/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0296    https://leetcode.com/problems/best-meeting-point/
 4   0309    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
