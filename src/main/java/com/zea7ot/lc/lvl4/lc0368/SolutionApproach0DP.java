@@ -27,28 +27,34 @@ public class SolutionApproach0DP {  // [2,3,4,9,8]
         Arrays.fill(dp, 1);
         
         // to find the length of largest subset it has
-        for(int i = 1; i < N; i++){
-            for(int j = i - 1; j >= 0; j--){
-                if(nums[i] % nums[j] == 0){
-                    dp[i] = Math.max(dp[i], dp[j] + 1);
+        for(int hi = 1; hi < N; ++hi){
+            for(int lo = hi - 1; lo >= 0; --lo){
+                if(nums[hi] % nums[lo] == 0){
+                    dp[hi] = Math.max(dp[hi], dp[lo] + 1);
                 }
             }
         }
        
         // to get the index of the element as the tail of the longest divisible subset
         int idxMaxLen = 0;
-        for(int i = 1; i < N; i++){
+        for(int i = 1; i < N; ++i){
             idxMaxLen = dp[i] > dp[idxMaxLen] ? i : idxMaxLen;
         }
+        // equivalently
+        // for(int i = 1; i < N; i++){
+        //     if(dp[i] > dp[idxMaxLen]){
+        //         idxMaxLen = i;
+        //     }
+        // }
         
         // from nums[idxMaxLen] to 0, 
         // to add every element which belongs to the largest subset
         int maxLenTail = nums[idxMaxLen], curMaxLen = dp[idxMaxLen];
-        for(int i = idxMaxLen; i >= 0; i--){
+        for(int i = idxMaxLen; i >= 0; --i){
             if(maxLenTail % nums[i] == 0 && dp[i] == curMaxLen){
                 ans.add(nums[i]);
                 maxLenTail = nums[i];
-                curMaxLen--;
+                --curMaxLen;
             }
         }
         
