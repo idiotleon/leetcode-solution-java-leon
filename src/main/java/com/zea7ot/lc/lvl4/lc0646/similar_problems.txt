@@ -1,3 +1,5 @@
+@author: Leon
+
 # Longest Increasing Subsequence
 2   0674    https://leetcode.com/problems/longest-continuous-increasing-subsequence/
 
@@ -8,6 +10,8 @@
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
+4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 

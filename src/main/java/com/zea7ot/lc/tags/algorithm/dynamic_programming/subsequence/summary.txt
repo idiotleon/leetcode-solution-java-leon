@@ -29,7 +29,9 @@
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
+4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
+4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/

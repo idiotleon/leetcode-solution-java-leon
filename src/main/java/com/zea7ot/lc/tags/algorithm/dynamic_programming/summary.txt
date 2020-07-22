@@ -46,6 +46,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0294    https://leetcode.com/problems/flip-game-ii/
 4   0312    https://leetcode.com/problems/burst-balloons/
 4   0313    https://leetcode.com/problems/super-ugly-number/
+4   0337    https://leetcode.com/problems/house-robber-iii/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
@@ -61,9 +62,11 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
-4   1035    https://leetcode.com/problems/uncrossed-lines/
+4   1035    https://leetcode.com/problems/uncrossed-lines/4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
+4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
+4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
 4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/

@@ -21,6 +21,8 @@ References:
 4   0321    https://leetcode.com/problems/create-maximum-number/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
+4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
+4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1124    https://leetcode.com/problems/longest-well-performing-interval/
 4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
 4   1231    https://leetcode.com/problems/divide-chocolate/

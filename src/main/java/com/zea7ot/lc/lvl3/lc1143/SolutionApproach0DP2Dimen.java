@@ -9,7 +9,7 @@
  */
 package com.zea7ot.lc.lvl3.lc1143;
 
-public class SolutionApproach0DP2D {
+public class SolutionApproach0DP2Dimen {
     public int longestCommonSubsequence(String text1, String text2) {
         final int L1 = text1.length(), L2 = text2.length();
         int[][] dp = new int[L1 + 1][L2 + 1];
