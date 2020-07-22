@@ -13,7 +13,7 @@
  */
 package com.zea7ot.lc.lvl3.lc1143;
 
-public class SolutionApproach0DP2D1 {
+public class SolutionApproach0DP2Dimen1 {
     public int longestCommonSubsequence(String text1, String text2) {
         final int L1 = text1.length(), L2 = text2.length();
         if(L1 < L2) return longestCommonSubsequence(text2, text1);
