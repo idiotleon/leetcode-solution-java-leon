@@ -18,6 +18,7 @@
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
+4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 

@@ -1,40 +1,44 @@
 /**
  * https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+ * 
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(W)
  */
 package com.zea7ot.lc.lvl3.lc0103;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproachBFS {
+public class SolutionApproach0BFS {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        // sanity check
         if(root == null) return ans;
         
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        Deque<TreeNode> queue = new ArrayDeque<TreeNode>();
         queue.add(root);
         int level = 0;
-        List<Integer> intermediate = new ArrayList<Integer>();
         
         while(!queue.isEmpty()){
-            intermediate.clear();
-            int size = queue.size();
+            final int SIZE = queue.size();
+            LinkedList<Integer> intermediate = new LinkedList<Integer>();
             
-            for(int i = 0; i < size; i++){
+            for(int i = 0; i < SIZE; i++){
                 TreeNode cur = queue.poll();
-                if(level % 2 == 0) intermediate.add(cur.val);
-                else intermediate.add(0, cur.val);
+                if(level % 2 == 0) intermediate.addLast(cur.val);
+                else intermediate.addFirst(cur.val);
 
                 if(cur.left != null) queue.add(cur.left);
                 if(cur.right != null) queue.add(cur.right);
             }
             
             ++level;
-            ans.add(new ArrayList<Integer>(intermediate));
+            ans.add(intermediate);
         }
         
         return ans;
