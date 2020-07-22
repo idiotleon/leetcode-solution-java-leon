@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/edit-distance/
  * 
- * Time Complexity:     O(M * N)
- * Space Complexity:    O(M * N)
+ * Time Complexity:     O(L1 * L2)
+ * Space Complexity:    O(L1 * L2)
  * 
  * References:
  *  https://leetcode.com/problems/edit-distance/discuss/25849/Java-DP-solution-O(nm)
@@ -11,23 +11,17 @@
  */
 package com.zea7ot.lc.lvl4.lc0072;
 
-public class SolutionApproach0DP2D {
+public class SolutionApproach0DP2Dimen {
     public int minDistance(String word1, String word2) {
-        final int M = word1.length(), N = word2.length();
+        final int L1 = word1.length(), L2 = word2.length();
         
-        int[][] costs = new int[M + 1][N + 1];
+        int[][] costs = new int[L1 + 1][L2 + 1];
         // to initialize costs(int[][])
-        // please make sure it is fully initialized
-        for(int i = 0; i <= M; i++){
-            costs[i][0] = i;
-        }
-        // please make sure it is fully initialized
-        for(int i = 1; i <= N; i++){
-            costs[0][i] = i;
-        }
+        for(int i = 0; i <= L1; ++i) costs[i][0] = i;
+        for(int j = 1; j <= L2; ++j) costs[0][j] = j;
         
-        for(int i = 0; i < M; i++){
-            for(int j = 0; j < N; j++){
+        for(int i = 0; i < L1; ++i){
+            for(int j = 0; j < L2; ++j){
                 if(word1.charAt(i) == word2.charAt(j)){
                     costs[i + 1][j + 1] = costs[i][j];
                 }else{
@@ -36,11 +30,11 @@ public class SolutionApproach0DP2D {
                     int delete = costs[i + 1][j];
                     
                     costs[i + 1][j + 1] = Math.min(replace, Math.min(insert, delete));
-                    costs[i + 1][j + 1]++;
+                    ++costs[i + 1][j + 1];
                 }
             }
         }
         
-        return costs[M][N];
+        return costs[L1][L2];
     }
 }
