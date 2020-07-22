@@ -6,7 +6,7 @@
  */
 package com.zea7ot.lc.lvl2.lc0674;
 
-public class SolutionApproach0OnePass {
+public class SolutionApproach0Greedy {
     public int findLengthOfLCIS(int[] nums) {
         // sanity check
         if(nums == null || nums.length == 0) return 0;
