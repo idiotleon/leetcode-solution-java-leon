@@ -23,14 +23,14 @@ public class SolutionApproach0Greedy {
         // sanity check
         if(pairs == null || pairs.length == 0) return 0;
 
-        final int L = pairs.length;
-        Arrays.sort(pairs, (a, b) -> a[1] - b[1]);
-        int pre = pairs[0][1];
+        final int N = pairs.length;
+        Arrays.sort(pairs, (a, b) -> Integer.compare(a[1], b[1]));
+        int prevEnd = pairs[0][1];
         int count = 1;
-        for(int i = 1; i < L; i++){
-            if(pairs[i][0] > pre){
-                count++;
-                pre = pairs[i][1];
+        for(int i = 1; i < N; ++i){
+            if(pairs[i][0] > prevEnd){
+                ++count;
+                prevEnd = pairs[i][1];
             }
         }
         

@@ -20,15 +20,15 @@ public class SolutionApproach0DP {
         // sanity check
         if(nums == null || nums.length == 0) return 0;
 
-        final int N = 10001;
-        int[] sums = new int[N];
+        final int RANGE = 10001;
+        int[] sums = new int[RANGE];
         
         for(int num : nums){
             sums[num] += num;
         }
         
         int take = 0, skip = 0;
-        for(int i = 0; i < N; ++i){
+        for(int i = 0; i < RANGE; ++i){
             int takei = skip + sums[i];
             int skipi = Math.max(skip, take);
             take = takei;

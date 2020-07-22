@@ -9,7 +9,7 @@
  */
 package com.zea7ot.lc.lvl3.lc0487;
 
-public class SolutionApproachDP1 {
+public class SolutionApproach0DP1 {
     public int findMaxConsecutiveOnes(int[] nums) {
         final int N = nums.length;
         int ans = 0, count = 0;

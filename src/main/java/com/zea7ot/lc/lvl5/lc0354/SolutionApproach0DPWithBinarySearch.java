@@ -7,9 +7,6 @@
  * References:  
  *  https://leetcode.com/problems/russian-doll-envelopes/discuss/82763/Java-NLogN-Solution-with-Explanation/87015
  *  https://leetcode.com/problems/russian-doll-envelopes/discuss/82763/Java-NLogN-Solution-with-Explanation/87032
- * 
- * Similar Problems:
- *  3   300     https://leetcode.com/problems/longest-increasing-subsequence/
  */
 package com.zea7ot.lc.lvl5.lc0354;
 
@@ -20,12 +17,12 @@ public class SolutionApproach0DPWithBinarySearch {
         // sanity check
         if(envelopes == null || envelopes.length == 0 || envelopes[0].length < 2) return 0;
 
+        final int N = envelopes.length;
         // to sort:
         //  1. with width increasing
-        //  2. with 1 satisified, with height decreasing
-        Arrays.sort(envelopes, (a, b) -> a[0] == b[0] ? b[1] - a[1] : a[0] - b[0]);
-        final int L = envelopes.length;
-        int[] dp = new int[L];
+        //  2. with the same width(s), with height decreasing
+        Arrays.sort(envelopes, (a, b) -> a[0] == b[0] ? Integer.compare(b[1], a[1]) : Integer.compare(a[0], b[0]));
+        int[] dp = new int[N];
         int size = 0;
         
         for(int[] envelope : envelopes){
@@ -38,7 +35,7 @@ public class SolutionApproach0DPWithBinarySearch {
             
             dp[lo] = envelope[1];
             
-            if(lo == size) size++;
+            if(lo == size) ++size;
         }
         
         return size;

@@ -1,0 +1,35 @@
+# Longest Increasing Subsequence
+2   0674    https://leetcode.com/problems/longest-continuous-increasing-subsequence/
+
+3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
+3   1048    https://leetcode.com/problems/longest-string-chain/
+
+4   0368    https://leetcode.com/problems/largest-divisible-subset/
+4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
+4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+4   0740    https://leetcode.com/problems/delete-and-earn/
+
+5   0354    https://leetcode.com/problems/russian-doll-envelopes/
+
+# Longest Common Subsequence
+3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
+3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
+3   1143    https://leetcode.com/problems/longest-common-subsequence/
+
+4   0072    https://leetcode.com/problems/edit-distance/
+4   0115    https://leetcode.com/problems/distinct-subsequences/
+4   1092    https://leetcode.com/problems/shortest-common-supersequence/
+
+
+# Longest Consecutive sequence
+4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
+4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
+4   0549    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/
+
+
+
+# Palindrome
+3   0647    https://leetcode.com/problems/palindromic-substrings/
+
+
+

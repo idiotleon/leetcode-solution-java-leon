@@ -19,7 +19,7 @@ public class SolutionApproach1DP2Dimen1 {
         
         final int N = envelopes.length;
         int max = 1;
-        // do not understand
+        // todo: do not understand
         Arrays.sort(envelopes, (a, b) -> Integer.compare(b[0] * b[1], a[0] * a[1]));
         int[] dp = new int[N];
         for(int i = 0; i < N; i++){

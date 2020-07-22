@@ -4,17 +4,21 @@
  * follow up: 
  *  to return the length of the maximum subarray
  */
-package com.zea7ot.lc.lvl3.lc0053.followup;
+package com.zea7ot.lc.lvl2.lc0053.followup;
 
 public class SolutionFollowUp1 {
     // to return the length of the maximum subarray
     public int lengthOfMaxSubArray(int[] nums) {
+        // sanity check
+        if(nums == null || nums.length == 0) return 0;
+
+        final int N = nums.length;
         int maxSoFar = Integer.MIN_VALUE, maxEndingHere = 0;
         int start = 0, prevStart = 0, end = 0;
             
-        for(int i = 0; i < nums.length; i++){
+        for(int i = 0; i < N; i++){
             maxEndingHere += nums[i];
-                
+            
             if(maxSoFar < maxEndingHere){
                 maxSoFar = maxEndingHere;
                 // to get the start from the previous round
