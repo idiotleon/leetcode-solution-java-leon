@@ -18,8 +18,9 @@ public class SolutionApproach0DP1 {
         if(nums == null || nums.length == 0) return 0;
         
         final int N = nums.length;
-        int[] lens = new int[N], counts = new int[N];
+        int[] lens = new int[N];
         Arrays.fill(lens, 1);
+        int[] counts = new int[N];
         Arrays.fill(counts, 1);
         
         int maxLen = 0, ans = 0;

@@ -17,8 +17,9 @@ public class SolutionApproach0DP {
         if(nums == null || nums.length == 0) return 0;
         
         final int N = nums.length;
-        int[] lens = new int[N], counts = new int[N];
+        int[] lens = new int[N];
         Arrays.fill(lens, 1);
+        int[] counts = new int[N];
         Arrays.fill(counts, 1);
         
         int maxLen = 0, ans = 0;
@@ -27,16 +28,14 @@ public class SolutionApproach0DP {
                 if(nums[i] > nums[j]){
                     if(lens[i] == lens[j] + 1) {
                         counts[i] += counts[j];
-                    }
-
-                    if(lens[i] < lens[j] + 1){
+                    }else if(lens[i] < lens[j] + 1){
                         lens[i] = lens[j] + 1;
                         counts[i] = counts[j];
                     }
                 }
-            
-                maxLen = Math.max(maxLen, lens[i]);
             }
+
+            maxLen = Math.max(maxLen, lens[i]);
         }
         
         for(int i = 0; i < N; i++){
