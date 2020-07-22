@@ -9,7 +9,7 @@
  */
 package com.zea7ot.lc.lvl4.lc1092;
 
-public class SolutionApproachDFSMemo {
+public class SolutionApproach1DFSMemo {
     public String shortestCommonSupersequence(String str1, String str2) {
         final int M = str1.length(), N = str2.length();
         String[][] memo = new String[M][N];
