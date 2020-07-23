@@ -14,4 +14,5 @@
 4   0139    https://leetcode.com/problems/word-break/
 4   0294    https://leetcode.com/problems/flip-game-ii/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
+4   0727    https://leetcode.com/problems/minimum-window-subsequence/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/

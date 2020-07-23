@@ -10,6 +10,7 @@
 4   0072    https://leetcode.com/problems/edit-distance/
 4   0097    https://leetcode.com/problems/interleaving-string/
 4   0115    https://leetcode.com/problems/distinct-subsequences/
+4   0727    https://leetcode.com/problems/minimum-window-subsequence/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
