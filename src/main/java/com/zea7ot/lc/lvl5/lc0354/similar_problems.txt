@@ -1,3 +1,5 @@
+@author: Leon
+
 # Longest Increasing Subsequence
 2   0674    https://leetcode.com/problems/longest-continuous-increasing-subsequence/
 
@@ -13,6 +15,8 @@
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 
+
+
 # Longest Common Subsequence
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
@@ -20,7 +24,10 @@
 
 4   0072    https://leetcode.com/problems/edit-distance/
 4   0115    https://leetcode.com/problems/distinct-subsequences/
+4   0727    https://leetcode.com/problems/minimum-window-subsequence/
+4   1035    https://leetcode.com/problems/uncrossed-lines/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
+
 
 
 # Longest Consecutive sequence
@@ -32,6 +39,3 @@
 
 # Palindrome
 3   0647    https://leetcode.com/problems/palindromic-substrings/
-
-
-
