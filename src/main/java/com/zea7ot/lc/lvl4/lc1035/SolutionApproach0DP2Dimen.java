@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/uncrossed-lines/
  * 
- * Time Complexity: O(N ^ 2)
- * Space Complexity: O(N ^ 2)
+ * Time Complexity:     O(N ^ 2)
+ * Space Complexity:    O(N ^ 2)
  * 
  * References:
  *  https://leetcode.com/problems/uncrossed-lines/discuss/282842/JavaC%2B%2BPython-DP-The-Longest-Common-Subsequence
@@ -12,15 +12,15 @@
  */
 package com.zea7ot.lc.lvl4.lc1035;
 
-public class SolutionApproach0DP {
+public class SolutionApproach0DP2Dimen {
     public int maxUncrossedLines(int[] A, int[] B) {
         // sanity check
         if(A == null || B == null || A.length == 0 || B.length == 0) return 0;
 
-        final int M = A.length, N = B.length;
-        int[][] dp = new int[M + 1][N + 1];
-        for(int i = 1; i <= M; i++){
-            for(int j = 1; j <= N; j++){
+        final int LEN_A = A.length, LEN_B = B.length;
+        int[][] dp = new int[LEN_A + 1][LEN_B + 1];
+        for(int i = 1; i <= LEN_A; ++i){
+            for(int j = 1; j <= LEN_B; ++j){
                 if(A[i - 1] == B[j - 1]){
                     dp[i][j] = 1 + dp[i - 1][j - 1];
                 }else{
@@ -29,6 +29,6 @@ public class SolutionApproach0DP {
             }
         }
         
-        return dp[M][N];
+        return dp[LEN_A][LEN_B];
     }
 }

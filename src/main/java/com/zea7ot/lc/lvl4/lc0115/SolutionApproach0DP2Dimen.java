@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/distinct-subsequences/
  * 
- * Time Complexity:     O(M * N)
- * Space Complexity:    O(M * N)
+ * Time Complexity:     O(LEN_S * LEN_T)
+ * Space Complexity:    O(LEN_S * LEN_T)
  * 
  * References:
  *  https://leetcode.com/problems/distinct-subsequences/discuss/37413/Concise-JAVA-solution-based-on-DP
@@ -10,16 +10,14 @@
  */
 package com.zea7ot.lc.lvl4.lc0115;
 
-public class SolutionApproach0DP2D {
+public class SolutionApproach0DP2Dimen {
     public int numDistinct(String s, String t) {
-        final int M = s.length(), N = t.length();
-        int[][] dp = new int[M + 1][N + 1];
-        for(int i = 0; i < M; i++){
-            dp[i][0] = 1;
-        }
+        final int LEN_S = s.length(), LEN_T = t.length();
+        int[][] dp = new int[LEN_S + 1][LEN_T + 1];
+        for(int i = 0; i < LEN_S; i++) dp[i][0] = 1;
         
-        for(int i = 1; i <= M; i++){
-            for(int j = 1; j <= N; j++){
+        for(int i = 1; i <= LEN_S; ++i){
+            for(int j = 1; j <= LEN_T; ++j){
                 if(s.charAt(i - 1) == t.charAt(j - 1)){
                     dp[i][j] = dp[i - 1][j] + dp[i - 1][j - 1];
                 }else{
@@ -28,6 +26,6 @@ public class SolutionApproach0DP2D {
             }
         }
         
-        return dp[M][N];
+        return dp[LEN_S][LEN_T];
     }
 }

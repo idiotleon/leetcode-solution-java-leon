@@ -11,10 +11,11 @@ package com.zea7ot.lc.lvl4.lc0097;
 
 public class SolutionApproach0DFSMemo {
     public boolean isInterleave(String s1, String s2, String s3) {
-        char[] chs1 = s1.toCharArray(), chs2 = s2.toCharArray(), chs3 = s3.toCharArray();
         final int L1 = s1.length(), L2 = s2.length(), L3 = s3.length();
         // sanity check
         if(L1 + L2 != L3) return false;
+
+        char[] chs1 = s1.toCharArray(), chs2 = s2.toCharArray(), chs3 = s3.toCharArray();
         return isInterleave(0, 0, 0, chs1, chs2, chs3, new Boolean[L1 + 1][L2 + 1]);
     }
     

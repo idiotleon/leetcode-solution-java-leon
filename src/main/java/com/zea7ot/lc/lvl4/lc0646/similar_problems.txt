@@ -35,5 +35,6 @@
 # Palindrome
 3   0647    https://leetcode.com/problems/palindromic-substrings/
 
-
+4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
+4   1216    https://leetcode.com/problems/valid-palindrome-iii/
 

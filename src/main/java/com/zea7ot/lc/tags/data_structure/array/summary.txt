@@ -34,6 +34,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0229    https://leetcode.com/problems/majority-element-ii/
 3   0256    https://leetcode.com/problems/paint-house/
+3   0260    https://leetcode.com/problems/single-number-iii/
 3   0275    https://leetcode.com/problems/h-index-ii/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
@@ -126,6 +127,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
+4   1035    https://leetcode.com/problems/uncrossed-lines/
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/

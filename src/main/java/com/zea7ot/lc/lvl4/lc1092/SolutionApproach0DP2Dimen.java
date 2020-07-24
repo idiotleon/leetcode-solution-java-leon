@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/shortest-common-supersequence/
  * 
- * Time Complexity:     O(M * N)
- * Space Complexity:    O(M * N * L)
+ * Time Complexity:     O(L1 * L2)
+ * Space Complexity:    O(L1 * L2 * L)
  *  L, the length of Longest Common Subsequence
  * 
  * a bottom-up approach
@@ -15,7 +15,7 @@ package com.zea7ot.lc.lvl4.lc1092;
 
 import java.util.Arrays;
 
-public class SolutionApproach0DP {
+public class SolutionApproach0DP2Dimen {
     public String shortestCommonSupersequence(String str1, String str2) {
         char[] chs1 = str1.toCharArray(), chs2 = str2.toCharArray();
         char[] chs = longestCommonSubsequence(chs1, chs2).toCharArray();
@@ -23,16 +23,16 @@ public class SolutionApproach0DP {
         int i = 0, j = 0;
         StringBuilder builder = new StringBuilder();
         
-        for(char c : chs){
-            while(chs1[i] != c){
+        for(char ch : chs){
+            while(chs1[i] != ch){
                 builder.append(chs1[i++]);
             }
             
-            while(chs2[j] != c){
+            while(chs2[j] != ch){
                 builder.append(chs2[j++]);
             }
             
-            builder.append(c);
+            builder.append(ch);
             i++;
             j++;
         }
@@ -42,12 +42,12 @@ public class SolutionApproach0DP {
     }
     
     private String longestCommonSubsequence(char[] chs1, char[] chs2){
-        final int M = chs1.length, N = chs2.length;
-        String[][] dp = new String[M + 1][N + 1];
+        final int L1 = chs1.length, L2 = chs2.length;
+        String[][] dp = new String[L1 + 1][L2 + 1];
         for(String[] row : dp) Arrays.fill(row, "");
         
-        for(int i = 1; i <= M; i++){
-            for(int j = 1; j <= N; j++){
+        for(int i = 1; i <= L1; i++){
+            for(int j = 1; j <= L2; j++){
                 if(chs1[i - 1] == chs2[j - 1]){
                     dp[i][j] = dp[i - 1][j - 1] + chs1[i - 1];
                 }else{
@@ -56,6 +56,6 @@ public class SolutionApproach0DP {
             }
         }
         
-        return dp[M][N];
+        return dp[L1][L2];
     }
 }

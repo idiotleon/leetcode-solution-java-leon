@@ -1,5 +1,13 @@
 @author: Leon
 
+# Palindrome
+3   0647    https://leetcode.com/problems/palindromic-substrings/
+
+4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
+4   1216    https://leetcode.com/problems/valid-palindrome-iii/
+
+
+
 # Longest Increasing Subsequence
 2   0674    https://leetcode.com/problems/longest-continuous-increasing-subsequence/
 
@@ -34,11 +42,3 @@
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0549    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/
-
-
-
-# Palindrome
-3   0647    https://leetcode.com/problems/palindromic-substrings/
-
-4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
-4   1216    https://leetcode.com/problems/valid-palindrome-iii/

@@ -1,22 +1,18 @@
 /**
- * https://leetcode.com/problems/longest-palindromic-subsequence/
+ * https://leetcode.com/problems/valid-palindrome-iii/
  * 
  * Time Complexity:     O(L ^ 2)
- * Space Compelxity:    O(L ^ 2)
- * 
- * References:
- *  https://leetcode.com/problems/longest-palindromic-subsequence/discuss/99101/Straight-forward-Java-DP-solution
- *  https://leetcode.com/problems/longest-palindromic-subsequence/discuss/99101/Straight-forward-Java-DP-solution/162610
+ * Space Complexity:    O()
  */
-package com.zea7ot.lc.lvl4.lc0516;
+package com.zea7ot.lc.lvl4.lc1216;
 
 public class SolutionApproach0DFSMemo {
-    public int longestPalindromeSubseq(String s) {
+    public boolean isValidPalindrome(String s, int k) {
         // sanity check
-        if(s == null || s.isEmpty()) return 0;
+        if(s == null || s.isEmpty() || k <= 0) return false;
         final int L = s.length();
         Integer[][] memo = new Integer[L][L];
-        return dfs(0, L - 1, s, memo);
+        return L - dfs(0, L - 1, s, memo) <= k;
     }
     
     private int dfs(int i, int j, String str, Integer[][] memo){

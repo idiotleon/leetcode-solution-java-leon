@@ -7,3 +7,6 @@
 
 4   0072    https://leetcode.com/problems/edit-distance/
 4   0097    https://leetcode.com/problems/interleaving-string/
+4   0115    https://leetcode.com/problems/distinct-subsequences/
+4   0727    https://leetcode.com/problems/minimum-window-subsequence/
+
