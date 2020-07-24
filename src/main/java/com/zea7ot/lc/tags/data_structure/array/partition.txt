@@ -16,3 +16,4 @@ References:
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
+4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
