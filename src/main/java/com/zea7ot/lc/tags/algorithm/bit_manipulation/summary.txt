@@ -10,7 +10,7 @@ References:
 2   0461    https://leetcode.com/problems/hamming-distance/
 
 3   0137    https://leetcode.com/problems/single-number-ii/
-3   0260    https://leetcode.com/problems/single-number-iii/discuss/68900/Accepted-C%2B%2BJava-O(n)-time-O(1)-space-Easy-Solution-with-Detail-Explanations
+3   0260    https://leetcode.com/problems/single-number-iii/
 3   0289    https://leetcode.com/problems/game-of-life/
 3   1275    https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/
 3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
