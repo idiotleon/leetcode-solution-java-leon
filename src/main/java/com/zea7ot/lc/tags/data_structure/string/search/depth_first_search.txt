@@ -15,6 +15,8 @@ References:
 4   0726    https://leetcode.com/problems/number-of-atoms/
 4   1028    https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
+4   1216    https://leetcode.com/problems/valid-palindrome-iii/
+4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 
 5   0291    https://leetcode.com/problems/word-pattern-ii/
 5   0425    https://leetcode.com/problems/word-squares/

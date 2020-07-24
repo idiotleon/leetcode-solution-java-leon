@@ -38,6 +38,7 @@ References:
 4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
+4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/

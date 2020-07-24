@@ -39,3 +39,5 @@
 
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   1216    https://leetcode.com/problems/valid-palindrome-iii/
+4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
+

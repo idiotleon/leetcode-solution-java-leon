@@ -49,8 +49,10 @@ References:
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0401    https://leetcode.com/problems/binary-watch/
 3   0430    https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
+3   0437    https://leetcode.com/problems/path-sum-iii/
 3   0439    https://leetcode.com/problems/ternary-expression-parser/
 3   0450    https://leetcode.com/problems/delete-node-in-a-bst/
+3   0491    https://leetcode.com/problems/increasing-subsequences/
 3   0494    https://leetcode.com/problems/target-sum/
 3   0508    https://leetcode.com/problems/most-frequent-subtree-sum/
 3   0510    https://leetcode.com/problems/inorder-successor-in-bst-ii/
@@ -116,9 +118,7 @@ References:
 4   0337    https://leetcode.com/problems/house-robber-iii/
 4   0351    https://leetcode.com/problems/android-unlock-patterns/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
-3   0437    https://leetcode.com/problems/path-sum-iii/
 4   0489    https://leetcode.com/problems/robot-room-cleaner/
-3   0491    https://leetcode.com/problems/increasing-subsequences/
 4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
 4   0549    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
@@ -135,6 +135,8 @@ References:
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1028    https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
 4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
+4   1216    https://leetcode.com/problems/valid-palindrome-iii/
+4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 
 5   0037    https://leetcode.com/problems/sudoku-solver/
