@@ -37,6 +37,7 @@ References:
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/

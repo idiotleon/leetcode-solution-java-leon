@@ -22,6 +22,7 @@
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0894    https://leetcode.com/problems/all-possible-full-binary-trees/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1216    https://leetcode.com/problems/valid-palindrome-iii/

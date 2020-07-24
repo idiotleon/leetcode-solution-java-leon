@@ -39,6 +39,7 @@ References:
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0406    https://leetcode.com/problems/queue-reconstruction-by-height/
 3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
+3   0491    https://leetcode.com/problems/increasing-subsequences/
 3   0494    https://leetcode.com/problems/target-sum/
 3   0523    https://leetcode.com/problems/continuous-subarray-sum/
 3   0525    https://leetcode.com/problems/contiguous-array/
@@ -72,7 +73,6 @@ References:
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
-3   0491    https://leetcode.com/problems/increasing-subsequences/
 4   0502    https://leetcode.com/problems/ipo/
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
@@ -83,6 +83,7 @@ References:
 4   0769    https://leetcode.com/problems/max-chunks-to-make-sorted/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
+4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
