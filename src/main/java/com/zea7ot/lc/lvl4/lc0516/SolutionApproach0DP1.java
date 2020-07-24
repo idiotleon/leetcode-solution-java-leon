@@ -2,15 +2,11 @@
  * https://leetcode.com/problems/longest-palindromic-subsequence/
  * 
  * Time Complexity:     O(L ^ 2)
- * Space Complexity:    O(L ^ 2) + O(L)/O(1)
- * 
- *  dp[i][j] represents the length of lognest palindromic subsequence, 
- *      in the substring(i, j), both ends inclusive.
- *  i represents the left index
- *  j represents the right index
+ * Space Complexity:    O(L)
  * 
  * References:
- *  https://leetcode.com/problems/longest-palindromic-subsequence/discuss/99101/Straight-forward-Java-DP-solution
+ *  https://leetcode.com/problems/longest-palindromic-subsequence/discuss/194748/Java-DP-From-O(n2)-to-O(n)-space-with-only-one-array
+ *  https://www.youtube.com/watch?v=_nCsPn7_OgI
  */
 package com.zea7ot.lc.lvl4.lc0516;
 
@@ -18,23 +14,24 @@ public class SolutionApproach0DP1 {
     public int longestPalindromeSubseq(String s) {
         // sanity check
         if(s == null || s.isEmpty()) return 0;
-        
         final int L = s.length();
         
-        int[][] dp = new int[L][L];
-        
         char[] chs = s.toCharArray();
+        int[] dp = new int[L];
         for(int i = L - 1; i >= 0; i--){
-            dp[i][i] = 1;   // base case
+            dp[i] = 1;
+            int prev = 0;
             for(int j = i + 1; j < L; j++){
+                int temp = dp[j];
                 if(chs[i] == chs[j]){
-                    dp[i][j] = dp[i + 1][j - 1] + 2;
+                    dp[j] = prev + 2;
                 }else{
-                    dp[i][j] = Math.max(dp[i + 1][j], dp[i][j - 1]);
+                    dp[j] = Math.max(dp[j], dp[j - 1]);
                 }
+                prev = temp;
             }
         }
         
-        return dp[0][L - 1];
+        return dp[L - 1];
     }
 }
