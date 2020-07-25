@@ -5,3 +5,5 @@
 # 0/1
 
 3   0494    https://leetcode.com/problems/target-sum/
+
+4   1049    https://leetcode.com/problems/last-stone-weight-ii/
