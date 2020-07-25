@@ -7,4 +7,5 @@
 3   0494    https://leetcode.com/problems/target-sum/
 
 4   0474    https://leetcode.com/problems/ones-and-zeroes/
+4   0879    https://leetcode.com/problems/profitable-schemes/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/

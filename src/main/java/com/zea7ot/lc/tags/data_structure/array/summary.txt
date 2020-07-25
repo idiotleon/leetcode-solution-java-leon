@@ -123,6 +123,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
+4   0879    https://leetcode.com/problems/profitable-schemes/
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0916    https://leetcode.com/problems/word-subsets/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/

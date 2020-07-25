@@ -37,3 +37,4 @@ References:
 
 Resources:
     https://www.hackerearth.com/practice/algorithms/dynamic-programming/state-space-reduction/tutorial/
+    https://youtu.be/MjOIR61txFc?t=588
