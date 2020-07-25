@@ -1,4 +1,4 @@
-package com.zea7ot.algorithm.companies.facebook.array.leftmost.util;
+package com.zea7ot.by_companies.facebook.array.leftmost.util;
 
 import java.util.Arrays;
 import java.util.List;

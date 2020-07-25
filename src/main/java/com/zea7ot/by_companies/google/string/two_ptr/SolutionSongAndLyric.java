@@ -6,7 +6,7 @@
  * Example:
  * boom, 和 Best applicatiOn On Mainland china
  */
-package com.zea7ot.algorithm.companies.google.string.two_ptr;
+package com.zea7ot.by_companies.google.string.two_ptr;
 
 public class SolutionSongAndLyric {
     public boolean canBeFound(String song, String lyric){

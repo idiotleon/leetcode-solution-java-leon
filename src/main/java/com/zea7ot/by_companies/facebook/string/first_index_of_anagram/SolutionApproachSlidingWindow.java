@@ -8,7 +8,7 @@
  * source: "important", target: "ant" -> return 5
  * source: "verygood", target:"god" -> return -1. Even though "g", "o", "d" exists in "verygood"
  */
-package com.zea7ot.algorithm.companies.facebook.string.first_index_of_anagram;
+package com.zea7ot.by_companies.facebook.string.first_index_of_anagram;
 
 public class SolutionApproachSlidingWindow {
     public int firstIndexOfAnagram(String str, String pt){

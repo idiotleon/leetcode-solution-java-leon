@@ -3,7 +3,7 @@
  * 
  * NOT YET completed
  */
-package com.zea7ot.algorithm.companies.others.tree.traverse_binary_tree_with_parent_pointer;
+package com.zea7ot.by_companies.others.tree.traverse_binary_tree_with_parent_pointer;
 
 import java.util.ArrayList;
 import java.util.List;

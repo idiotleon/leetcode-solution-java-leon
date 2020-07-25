@@ -25,7 +25,7 @@
  * 
  * Solution is not verified
  */
-package com.zea7ot.algorithm.companies.google.graph.how_many_paths_from_top_to_bottom;
+package com.zea7ot.by_companies.google.graph.how_many_paths_from_top_to_bottom;
 
 import java.util.HashSet;
 import java.util.LinkedList;

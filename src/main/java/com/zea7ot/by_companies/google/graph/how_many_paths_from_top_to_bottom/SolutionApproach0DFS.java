@@ -25,7 +25,7 @@
  * 
  * solution is NOT verified
  */
-package com.zea7ot.algorithm.companies.google.graph.how_many_paths_from_top_to_bottom;
+package com.zea7ot.by_companies.google.graph.how_many_paths_from_top_to_bottom;
 
 public class SolutionApproach0DFS {
     private static final int[] DIRS = {0, -1, 0, 1, 0};

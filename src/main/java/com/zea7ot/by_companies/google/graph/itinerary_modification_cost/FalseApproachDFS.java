@@ -26,7 +26,7 @@
  *  this approach lies on the assumption that previously visited airports is NOT going
  *  to be re-visited, which is WRONG
  */
-package com.zea7ot.algorithm.companies.google.graph.itinerary_modification_cost;
+package com.zea7ot.by_companies.google.graph.itinerary_modification_cost;
 
 import java.util.HashMap;
 import java.util.HashSet;

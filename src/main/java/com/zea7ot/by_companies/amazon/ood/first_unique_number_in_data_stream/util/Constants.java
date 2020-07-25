@@ -1,4 +1,4 @@
-package com.zea7ot.algorithm.companies.amazon.ood.first_unique_number_in_data_stream.util;
+package com.zea7ot.by_companies.amazon.ood.first_unique_number_in_data_stream.util;
 
 public class Constants {
     // the response to return where there is no unqiue number
