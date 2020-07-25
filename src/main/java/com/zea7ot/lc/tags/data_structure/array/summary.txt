@@ -30,6 +30,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0075    https://leetcode.com/problems/sort-colors/
 3   0130    https://leetcode.com/problems/surrounded-regions/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
+3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3   0162    https://leetcode.com/problems/find-peak-element/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0229    https://leetcode.com/problems/majority-element-ii/
