@@ -1,7 +1,8 @@
 @author: Leon
 
+
 ### Dynamic Programming
-# Binary Search
+# with Binary Searches
 
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 

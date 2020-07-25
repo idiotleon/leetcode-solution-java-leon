@@ -9,15 +9,15 @@
  */
 package com.zea7ot.lc.lvl4.lc0410;
 
-public class SolutionApproach0DP2 {
+public class SolutionApproach0DP2Dimen1 {
     public int splitArray(int[] nums, int m) {
         // sanity check
         if(nums == null || nums.length == 0) return 0;
 
         final int N = nums.length;
         
-        int[] preSums = new int[N];
-        preSums[0] = nums[0];
+        int[] prefixSums = new int[N];
+        prefixSums[0] = nums[0];
         
         int[][] dp = new int[m + 1][N];
         for(int i = 0; i < m + 1; i++){
@@ -27,17 +27,17 @@ public class SolutionApproach0DP2 {
         }
         
         for(int i = 1; i < N; i++){
-            preSums[i] = preSums[i - 1] + nums[i];
+            prefixSums[i] = prefixSums[i - 1] + nums[i];
         }
         
         for(int i = 0; i < N; i++){
-            dp[1][i] = preSums[i];
+            dp[1][i] = prefixSums[i];
         }
         
         for(int i = 2; i < m + 1; i++){
             for(int j = i - 1; j < N; ++j){
                 for(int k = 0; k < j; k++){
-                    dp[i][j] = Math.min(dp[i][j], Math.max(dp[i - 1][k], preSums[j] - preSums[k]));
+                    dp[i][j] = Math.min(dp[i][j], Math.max(dp[i - 1][k], prefixSums[j] - prefixSums[k]));
                 }
             }
         }

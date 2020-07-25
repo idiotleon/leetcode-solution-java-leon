@@ -32,14 +32,10 @@
  *  https://leetcode.com/problems/divide-chocolate/discuss/408503/JavaC++Python-Binary-Search/494896
  *  https://leetcode.com/problems/divide-chocolate/discuss/408503/JavaC++Python-Binary-Search/380399
  *  https://leetcode.com/problems/divide-chocolate/discuss/408503/JavaC++Python-Binary-Search/394052
- * 
- * Similar Problems:
- *  https://leetcode.com/problems/divide-chocolate/
- *  https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
  */
 package com.zea7ot.lc.lvl4.lc0410;
 
-public class SolutionApproach0BinarySearch {
+public class SolutionApproach0TrialAndError {
     public int splitArray(int[] nums, int m) {
         // sanity check
         if(nums == null || nums.length == 0) return 0;
@@ -72,9 +68,7 @@ public class SolutionApproach0BinarySearch {
             if(sum + num > limit){
                 sum = num;
                 ++groups;
-            }else{
-                sum += num;
-            }
+            }else sum += num;
         }
         
         return groups;
