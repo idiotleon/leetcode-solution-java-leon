@@ -14,7 +14,7 @@ package com.zea7ot.lc.lvl4.lc1278;
 
 import java.util.Arrays;
 
-public class SolutionApproach0DP {
+public class SolutionApproach0DP2Dimen1 {
     public int palindromePartition(String s, int K) {
         final int L = s.length();
         

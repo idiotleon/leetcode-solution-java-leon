@@ -16,7 +16,7 @@
  */
 package com.zea7ot.lc.lvl4.lc1278;
 
-public class SolutionApproach0DP1 {
+public class SolutionApproach0DP2Dimen2 {
     public int palindromePartition(String s, int K) {
         final int L = s.length();
         if(L <= K) return 0;
