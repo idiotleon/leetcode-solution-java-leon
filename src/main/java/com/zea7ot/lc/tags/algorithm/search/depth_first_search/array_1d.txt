@@ -12,6 +12,7 @@
 4   0312    https://leetcode.com/problems/burst-balloons/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0491    https://leetcode.com/problems/increasing-subsequences/
+3   0494    https://leetcode.com/problems/target-sum/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1273    https://leetcode.com/problems/delete-tree-nodes/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/

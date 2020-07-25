@@ -3,11 +3,12 @@
 ### Array
 # Depth First Search
 
+2   0690    https://leetcode.com/problems/employee-importance/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 
 3   0130    https://leetcode.com/problems/surrounded-regions/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
-2   0690    https://leetcode.com/problems/employee-importance/
+3   0494    https://leetcode.com/problems/target-sum/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
 3   1048    https://leetcode.com/problems/longest-string-chain/

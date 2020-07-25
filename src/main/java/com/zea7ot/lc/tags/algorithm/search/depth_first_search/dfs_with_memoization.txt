@@ -8,6 +8,7 @@
 3   0279    https://leetcode.com/problems/perfect-squares/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
+3   0494    https://leetcode.com/problems/target-sum/
 3   0851    https://leetcode.com/problems/loud-and-rich/
 3   0865    https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 3   1048    https://leetcode.com/problems/longest-string-chain/
