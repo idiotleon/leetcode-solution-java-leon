@@ -1,0 +1,63 @@
+@author: Leon
+
+
+### Array
+## Search
+# Summary
+
+2   0690    https://leetcode.com/problems/employee-importance/
+2   0704    https://leetcode.com/problems/binary-search/
+2   0784    https://leetcode.com/problems/letter-case-permutation/
+
+3   0130    https://leetcode.com/problems/surrounded-regions/
+3   0207    https://leetcode.com/problems/course-schedule/
+3   0210    https://leetcode.com/problems/course-schedule-ii/
+3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
+3   0377    https://leetcode.com/problems/combination-sum-iv/
+3   0436    https://leetcode.com/problems/find-right-interval/
+3   0494    https://leetcode.com/problems/target-sum/
+3   0491    https://leetcode.com/problems/increasing-subsequences/
+2   0690    https://leetcode.com/problems/employee-importance/
+3   0909    https://leetcode.com/problems/snakes-and-ladders/
+3   0911    https://leetcode.com/problems/online-election/
+3   1020    https://leetcode.com/problems/number-of-enclaves/
+3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
+3   1048    https://leetcode.com/problems/longest-string-chain/
+3   1254    https://leetcode.com/problems/number-of-closed-islands/
+3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
+
+4   0287    https://leetcode.com/problems/find-the-duplicate-number/
+4   0312    https://leetcode.com/problems/burst-balloons/
+4   0317    https://leetcode.com/problems/shortest-distance-from-all-buildings/
+4   0351    https://leetcode.com/problems/android-unlock-patterns/
+4   0368    https://leetcode.com/problems/largest-divisible-subset/
+4   0407    https://leetcode.com/problems/trapping-rain-water-ii/
+4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0489    https://leetcode.com/problems/robot-room-cleaner/
+4   0505    https://leetcode.com/problems/the-maze-ii/
+4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
+4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+4   0719    https://leetcode.com/problems/find-k-th-smallest-pair-distance/
+4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0813    https://leetcode.com/problems/largest-sum-of-averages/
+4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
+4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
+4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+4   0980    https://leetcode.com/problems/unique-paths-iii/
+4   1231    https://leetcode.com/problems/divide-chocolate/
+4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
+4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
+4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
+4   1439    https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/
+
+5   0037    https://leetcode.com/problems/sudoku-solver/
+5   0140    https://leetcode.com/problems/word-break-ii/
+5   0212    https://leetcode.com/problems/word-search-ii/
+5   0493    https://leetcode.com/problems/reverse-pairs/
+5   0499    https://leetcode.com/problems/the-maze-iii/
+5   0644    https://leetcode.com/problems/maximum-average-subarray-ii/
+5   0774    https://leetcode.com/problems/minimize-max-distance-to-gas-station/
+5   0786    https://leetcode.com/problems/k-th-smallest-prime-fraction/
+5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
+
+

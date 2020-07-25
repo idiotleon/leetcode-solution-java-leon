@@ -8,6 +8,7 @@
 3   0279    https://leetcode.com/problems/perfect-squares/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
+3   0494    https://leetcode.com/problems/target-sum/
 3   0851    https://leetcode.com/problems/loud-and-rich/
 3   0865    https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 3   1048    https://leetcode.com/problems/longest-string-chain/
@@ -19,11 +20,16 @@
 4   0294    https://leetcode.com/problems/flip-game-ii/
 4   0312    https://leetcode.com/problems/burst-balloons/
 4   0329    https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0894    https://leetcode.com/problems/all-possible-full-binary-trees/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
+4   1216    https://leetcode.com/problems/valid-palindrome-iii/
+4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
+4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 
 5   0140    https://leetcode.com/problems/word-break-ii/
 5   0472    https://leetcode.com/problems/concatenated-words/

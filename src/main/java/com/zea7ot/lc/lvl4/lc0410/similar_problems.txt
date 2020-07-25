@@ -1,0 +1,18 @@
+@author: Leon
+References:
+    https://leetcode.com/problems/split-array-largest-sum/
+    https://www.youtube.com/watch?v=FLbqgyJ-70I&t=142s
+
+
+
+# Dynamic Programming
+4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0813    https://leetcode.com/problems/largest-sum-of-averages/
+4   1278    https://leetcode.com/problems/palindrome-partitioning-iii/
+4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
+
+
+
+# Trial and Error - Binary Search
+4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+4   1231    https://leetcode.com/problems/divide-chocolate/

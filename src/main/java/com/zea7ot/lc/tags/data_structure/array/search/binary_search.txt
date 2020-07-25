@@ -4,6 +4,7 @@ References:
 
 ### Array
 # Binary Search
+
 2   0704    https://leetcode.com/problems/binary-search/
 
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/

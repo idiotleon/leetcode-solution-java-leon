@@ -19,18 +19,17 @@ public class SolutionApproach1DFSMemo {
         if(S > sum || S < -sum) return 0;
 
         Integer[][] memo = new Integer[nums.length + 1][sum * 2 + 1];
-        return dfs(nums, 0, sum, S + sum, memo);
+        return dfs(0, sum, S + sum, nums, memo);
     }
     
-    private int dfs(int[] nums, int idx, int sum, int target, Integer[][] memo){
+    private int dfs(int idx, int sum, int target, int[] nums, Integer[][] memo){
         if(idx == nums.length) return sum == target ? 1 : 0;
-        
         if(memo[idx][sum] != null) return memo[idx][sum];
         
-        int ans = 0;
-        ans = dfs(nums, idx + 1, sum + nums[idx], target, memo) 
-            + dfs(nums, idx + 1, sum - nums[idx], target, memo);
+        int res = 0;
+        res = dfs(idx + 1, sum + nums[idx], target, nums, memo) 
+            + dfs(idx + 1, sum - nums[idx], target, nums, memo);
         
-        return memo[idx][sum] = ans;
+        return memo[idx][sum] = res;
     }
 }

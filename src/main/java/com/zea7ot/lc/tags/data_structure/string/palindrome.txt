@@ -8,3 +8,6 @@
 
 4   0132    https://leetcode.com/problems/132-pattern/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
+4   1216    https://leetcode.com/problems/valid-palindrome-iii/
+4   1278    https://leetcode.com/problems/palindrome-partitioning-iii/
+4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/

@@ -17,18 +17,16 @@ public class SolutionApproach2DFSNavively1 {
         if(nums == null || nums.length == 0) return 0;
         
         this.count = 0;
-        dfs(nums, 0, 0, S);
+        dfs(0, 0, nums, S);
         return count;
     }
     
-    private void dfs(int[] nums, int i, int sum, int S){
-        if(i == nums.length){
-            if(sum == S){
-                count++;
-            }
+    private void dfs(int idx, int sum, int[] nums, int S){
+        if(idx == nums.length){
+            if(sum == S) count++;
         }else{
-            dfs(nums, i + 1, sum + nums[i], S);
-            dfs(nums, i + 1, sum - nums[i], S);
+            dfs(idx + 1, sum + nums[idx], nums, S);
+            dfs(idx + 1, sum - nums[idx], nums, S);
         }
     }
 }

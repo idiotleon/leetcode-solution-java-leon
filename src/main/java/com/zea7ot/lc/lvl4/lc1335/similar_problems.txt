@@ -1,0 +1,9 @@
+@author: Leon
+References:
+    https://leetcode.com/problems/split-array-largest-sum/
+    https://www.youtube.com/watch?v=FLbqgyJ-70I&t=142s
+
+4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0813    https://leetcode.com/problems/largest-sum-of-averages/
+4   1278    https://leetcode.com/problems/palindrome-partitioning-iii/
+4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/

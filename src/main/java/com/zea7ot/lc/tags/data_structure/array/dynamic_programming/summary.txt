@@ -39,6 +39,7 @@
 4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
+4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 

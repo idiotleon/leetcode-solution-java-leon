@@ -1,7 +1,7 @@
 @author: Leon
 
 ### Array
-# backtrack
+# Backtrack
 
 3   0491    https://leetcode.com/problems/increasing-subsequences/
 

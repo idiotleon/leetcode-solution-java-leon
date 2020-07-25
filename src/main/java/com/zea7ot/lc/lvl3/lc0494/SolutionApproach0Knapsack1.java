@@ -22,12 +22,14 @@ public class SolutionApproach0Knapsack1 {
         // sanity check
         if(S < -sum || S > sum) return 0;
         
+        final int RANGE = sum * 2 + 1;
+
         final int L = nums.length;
-        int[][] dp = new int[L + 1][sum * 2 + 1];
+        int[][] dp = new int[L + 1][RANGE];
         dp[0][sum] = 1;
         
         for(int i = 1; i <= L; i++){
-            for(int j = 0; j < 2 * sum + 1; j++){
+            for(int j = 0; j < RANGE; j++){
                 if(j + nums[i - 1] < 2 * sum + 1){
                     dp[i][j] += dp[i - 1][j + nums[i - 1]];
                 }

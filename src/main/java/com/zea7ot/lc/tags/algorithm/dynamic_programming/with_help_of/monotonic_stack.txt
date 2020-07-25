@@ -1,0 +1,7 @@
+@author: Leon
+
+
+### Dynamic Programming
+# with Monotonic Stacks
+
+4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/

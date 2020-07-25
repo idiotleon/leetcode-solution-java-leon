@@ -49,6 +49,9 @@ References:
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1111    https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/
 4   1152    https://leetcode.com/problems/analyze-user-website-visit-pattern/
+4   1216    https://leetcode.com/problems/valid-palindrome-iii/
+4   1278    https://leetcode.com/problems/palindrome-partitioning-iii/
+4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 
 5   0140    https://leetcode.com/problems/word-break-ii/
 5   0291    https://leetcode.com/problems/word-pattern-ii/

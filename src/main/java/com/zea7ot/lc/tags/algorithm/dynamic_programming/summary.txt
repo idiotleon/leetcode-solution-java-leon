@@ -58,6 +58,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0727    https://leetcode.com/problems/minimum-window-subsequence/
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
+4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   0894    https://leetcode.com/problems/all-possible-full-binary-trees/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
@@ -72,7 +73,10 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
 4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
+4   1278    https://leetcode.com/problems/palindrome-partitioning-iii/
 4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
+4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
+4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 
 5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/

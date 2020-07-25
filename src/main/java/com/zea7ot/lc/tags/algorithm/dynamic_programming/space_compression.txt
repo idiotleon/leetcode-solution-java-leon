@@ -25,8 +25,13 @@ References:
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
+4   1216    https://leetcode.com/problems/valid-palindrome-iii/
+4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
+4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
+
 
 
 Resources:

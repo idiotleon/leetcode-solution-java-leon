@@ -3,11 +3,12 @@
 ### Array
 # Depth First Search
 
+2   0690    https://leetcode.com/problems/employee-importance/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 
 3   0130    https://leetcode.com/problems/surrounded-regions/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
-2   0690    https://leetcode.com/problems/employee-importance/
+3   0494    https://leetcode.com/problems/target-sum/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
 3   1048    https://leetcode.com/problems/longest-string-chain/
@@ -19,8 +20,10 @@
 4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 
 5   0140    https://leetcode.com/problems/word-break-ii/

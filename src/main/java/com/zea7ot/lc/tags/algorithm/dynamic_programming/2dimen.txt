@@ -33,11 +33,14 @@ References:
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0727    https://leetcode.com/problems/minimum-window-subsequence/
+4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
+4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
+4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/

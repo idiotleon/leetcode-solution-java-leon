@@ -17,17 +17,17 @@ public class SolutionApproach2DFSNaively {
         if(nums == null || nums.length == 0) return 0;
         this.count = 0;
         
-        dfs(nums, 0, 0, S);
+        dfs(0, 0, nums, S);
         return count;
     }
     
-    private void dfs(int[] nums, int idx, int sum, int S){
+    private void dfs(int idx, int sum, int[] nums, int S){
         if(idx == nums.length){
             if(sum == S) count++;
             return;
         }
         
-        dfs(nums, idx + 1, sum + nums[idx], S);
-        dfs(nums, idx + 1, sum - nums[idx], S);
+        dfs(idx + 1, sum + nums[idx], nums, S);
+        dfs(idx + 1, sum - nums[idx], nums, S);
     }
 }
