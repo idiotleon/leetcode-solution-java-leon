@@ -1,7 +1,9 @@
 @author: Leon
 
 ### Depth First Search
-# integer
+# Integer
+
+1   0258    https://leetcode.com/problems/add-digits/
 
 2   0263    https://leetcode.com/problems/ugly-number/
 
