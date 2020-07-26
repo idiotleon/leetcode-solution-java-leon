@@ -27,6 +27,7 @@ References:
 4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0221    https://leetcode.com/problems/maximal-square/
+4   0312    https://leetcode.com/problems/burst-balloons/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
