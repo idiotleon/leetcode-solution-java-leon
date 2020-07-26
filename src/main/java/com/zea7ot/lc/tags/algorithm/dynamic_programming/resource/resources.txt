@@ -2,4 +2,10 @@
 
 ### Dynamic Programming
 
-https://www.youtube.com/watch?v=FLbqgyJ-70I&t=142s
+    https://www.youtube.com/watch?v=FLbqgyJ-70I&t=142s
+
+## Knapsack
+    https://www.kancloud.cn/kancloud/pack/70124
+    https://www.youtube.com/watch?v=CO0r6kcwHUU
+    https://www.youtube.com/watch?v=rM_G4dboKhc
+    https://www.youtube.com/watch?v=nLmhmB6NzcM

@@ -1,10 +1,11 @@
 @author: Leon
 
 ### Dynamic Programming
-# Palindrome
+# Longest Palindromic Subsequence
 
 3   0647    https://leetcode.com/problems/palindromic-substrings/
 
+4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   1278    https://leetcode.com/problems/palindrome-partitioning-iii/
 
 

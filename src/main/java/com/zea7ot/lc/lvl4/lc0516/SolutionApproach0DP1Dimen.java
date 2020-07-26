@@ -7,10 +7,11 @@
  * References:
  *  https://leetcode.com/problems/longest-palindromic-subsequence/discuss/194748/Java-DP-From-O(n2)-to-O(n)-space-with-only-one-array
  *  https://www.youtube.com/watch?v=_nCsPn7_OgI
+ *  https://youtu.be/FLbqgyJ-70I?t=6680
  */
 package com.zea7ot.lc.lvl4.lc0516;
 
-public class SolutionApproach0DP1 {
+public class SolutionApproach0DP1Dimen {
     public int longestPalindromeSubseq(String s) {
         // sanity check
         if(s == null || s.isEmpty()) return 0;
