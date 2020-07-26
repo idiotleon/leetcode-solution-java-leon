@@ -1,9 +1,12 @@
 /**
  * https://leetcode.com/problems/add-digits/
+ * 
+ * Time Complexity:     O()
+ * Space Complexity:    O()
  */
 package com.zea7ot.lc.lvl1.lc0258;
 
-public class SolutionApproachIteration {
+public class SolutionApproach1Iteration {
     public int addDigits(int num) {
         while(num >= 10){
             int temp = 0;
