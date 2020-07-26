@@ -16,3 +16,9 @@
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
+
+
+
+# Resources
+    https://www.youtube.com/watch?v=CO0r6kcwHUU
+    https://www.youtube.com/watch?v=rM_G4dboKhc

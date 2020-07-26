@@ -26,10 +26,11 @@
  *  https://www.youtube.com/watch?v=_nCsPn7_OgI
  *  https://leetcode.com/problems/longest-palindromic-subsequence/discuss/99101/Straight-forward-Java-DP-solution/103142
  *  https://leetcode.com/problems/longest-palindromic-subsequence/discuss/99101/Straight-forward-Java-DP-solution
+ *  https://youtu.be/FLbqgyJ-70I?t=6680
  */
 package com.zea7ot.lc.lvl4.lc0516;
 
-public class SolutionApproach0DP {
+public class SolutionApproach0DP2Dimen1 {
     public int longestPalindromeSubseq(String s) {
         // sanity check
         if(s == null || s.isEmpty()) return 0;
