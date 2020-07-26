@@ -34,6 +34,8 @@ References:
 4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0727    https://leetcode.com/problems/minimum-window-subsequence/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
+4   0879    https://leetcode.com/problems/profitable-schemes/
+4   0956    https://leetcode.com/problems/tallest-billboard/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/

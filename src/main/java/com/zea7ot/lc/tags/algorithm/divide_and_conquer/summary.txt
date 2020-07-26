@@ -4,6 +4,7 @@
 
 2   0052    https://leetcode.com/problems/maximum-subarray/
 
+3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3   0235    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 
 4   0148    https://leetcode.com/problems/sort-list/

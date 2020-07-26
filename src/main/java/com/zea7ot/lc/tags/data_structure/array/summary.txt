@@ -30,6 +30,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0075    https://leetcode.com/problems/sort-colors/
 3   0130    https://leetcode.com/problems/surrounded-regions/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
+3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3   0162    https://leetcode.com/problems/find-peak-element/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0229    https://leetcode.com/problems/majority-element-ii/
@@ -103,6 +104,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0407    https://leetcode.com/problems/trapping-rain-water-ii/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0489    https://leetcode.com/problems/robot-room-cleaner/
+4   0474    https://leetcode.com/problems/ones-and-zeroes/
 4   0502    https://leetcode.com/problems/ipo/
 4   0505    https://leetcode.com/problems/the-maze-ii/
 4   0630    https://leetcode.com/problems/course-schedule-iii/
@@ -121,9 +123,11 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
+4   0879    https://leetcode.com/problems/profitable-schemes/
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0916    https://leetcode.com/problems/word-subsets/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+4   0956    https://leetcode.com/problems/tallest-billboard/
 4   0980    https://leetcode.com/problems/unique-paths-iii/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/

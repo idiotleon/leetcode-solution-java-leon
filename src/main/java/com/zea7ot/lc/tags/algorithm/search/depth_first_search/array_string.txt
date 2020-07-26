@@ -3,12 +3,14 @@ References:
     https://leetcode.com/tag/depth-first-search/
 
 ### Depth First Search
-# array - string:
+# Array - String:
 
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1236    https://leetcode.com/problems/web-crawler/
+
+4   0474    https://leetcode.com/problems/ones-and-zeroes/
 
 5   0140    https://leetcode.com/problems/word-break-ii/
 5   0472    https://leetcode.com/problems/concatenated-words/

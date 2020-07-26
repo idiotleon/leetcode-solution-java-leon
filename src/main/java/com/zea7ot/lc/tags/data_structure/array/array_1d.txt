@@ -25,7 +25,6 @@ References:
 3   0075    https://leetcode.com/problems/sort-colors/
 3   0134    https://leetcode.com/problems/gas-station/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
-3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3   0162    https://leetcode.com/problems/find-peak-element/
 3   0229    https://leetcode.com/problems/majority-element-ii/
@@ -84,8 +83,10 @@ References:
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
+4   0879    https://leetcode.com/problems/profitable-schemes/
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
+4   0956    https://leetcode.com/problems/tallest-billboard/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/

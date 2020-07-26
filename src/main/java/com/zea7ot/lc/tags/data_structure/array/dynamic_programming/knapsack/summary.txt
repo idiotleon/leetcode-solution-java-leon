@@ -2,7 +2,7 @@
 
 ### Array
 ## Knapsack
-# 0/1
+# Summary
 
 3   0494    https://leetcode.com/problems/target-sum/
 

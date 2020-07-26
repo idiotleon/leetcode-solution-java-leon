@@ -20,12 +20,14 @@ References:
 
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0221    https://leetcode.com/problems/maximal-square/
+4   0474    https://leetcode.com/problems/ones-and-zeroes/
 4   0494    https://leetcode.com/problems/target-sum/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
+4   0956    https://leetcode.com/problems/tallest-billboard/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1216    https://leetcode.com/problems/valid-palindrome-iii/
@@ -36,3 +38,4 @@ References:
 
 Resources:
     https://www.hackerearth.com/practice/algorithms/dynamic-programming/state-space-reduction/tutorial/
+    https://youtu.be/MjOIR61txFc?t=588
