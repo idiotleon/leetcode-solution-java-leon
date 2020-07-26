@@ -23,6 +23,7 @@ References:
 3   0662    https://leetcode.com/problems/maximum-width-of-binary-tree/
 3   1448    https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
+3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
 
 4   0428    https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/
 4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/

@@ -15,6 +15,7 @@
 3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 3   1391    https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
+3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
 
 4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
