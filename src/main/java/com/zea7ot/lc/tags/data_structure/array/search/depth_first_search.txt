@@ -32,3 +32,4 @@
 5   0212    https://leetcode.com/problems/word-search-ii/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
 
+6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/

@@ -36,4 +36,5 @@
 5   0472    https://leetcode.com/problems/concatenated-words/
 5   0642    https://leetcode.com/problems/design-search-autocomplete-system/
 
+6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
 

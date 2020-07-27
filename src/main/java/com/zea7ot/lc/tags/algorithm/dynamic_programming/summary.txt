@@ -90,6 +90,8 @@ This serves the total list of problems related to Dynamic Programming, regardles
 5   0818    https://leetcode.com/problems/race-car/
 5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
 
+6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
+
 
 
 Resources:

@@ -51,5 +51,4 @@
 5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 
-
-
+6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
