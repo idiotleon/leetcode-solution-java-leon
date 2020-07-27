@@ -3,6 +3,7 @@
 ### Array
 # Greedy
 
+2   0896    https://leetcode.com/problems/monotonic-array/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 
 3   0376    https://leetcode.com/problems/wiggle-subsequence/

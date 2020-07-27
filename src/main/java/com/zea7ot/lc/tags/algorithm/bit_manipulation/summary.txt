@@ -10,6 +10,7 @@ References:
 1   1290    https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
 
 2   0461    https://leetcode.com/problems/hamming-distance/
+2   0896    https://leetcode.com/problems/monotonic-array/
 
 3   0137    https://leetcode.com/problems/single-number-ii/
 3   0260    https://leetcode.com/problems/single-number-iii/

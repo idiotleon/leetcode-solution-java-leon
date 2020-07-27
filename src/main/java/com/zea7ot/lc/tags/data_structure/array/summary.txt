@@ -18,6 +18,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0744    https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
+2   0896    https://leetcode.com/problems/monotonic-array/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
 2   1375    https://leetcode.com/problems/bulb-switcher-iii/
