@@ -77,6 +77,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
 4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
+4   1246    https://leetcode.com/problems/palindrome-removal/
 4   1278    https://leetcode.com/problems/palindrome-partitioning-iii/
 4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
 4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
