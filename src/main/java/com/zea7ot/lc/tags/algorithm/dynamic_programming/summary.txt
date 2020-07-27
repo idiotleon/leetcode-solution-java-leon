@@ -74,6 +74,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
+4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
 4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
@@ -87,7 +88,9 @@ This serves the total list of problems related to Dynamic Programming, regardles
 5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
+5   0691    https://leetcode.com/problems/stickers-to-spell-word/
 5   0818    https://leetcode.com/problems/race-car/
+5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
 5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
 
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/

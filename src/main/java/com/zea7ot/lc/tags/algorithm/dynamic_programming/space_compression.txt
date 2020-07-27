@@ -31,8 +31,12 @@ References:
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1216    https://leetcode.com/problems/valid-palindrome-iii/
+4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
+
+5   0691    https://leetcode.com/problems/stickers-to-spell-word/
+5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
 
 
 

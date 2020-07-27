@@ -143,6 +143,7 @@ References:
 4   1028    https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
 4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
 4   1216    https://leetcode.com/problems/valid-palindrome-iii/
+4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
@@ -154,8 +155,10 @@ References:
 5   0403    https://leetcode.com/problems/frog-jump/
 5   0425    https://leetcode.com/problems/word-squares/
 5   0472    https://leetcode.com/problems/concatenated-words/
+5   0691    https://leetcode.com/problems/stickers-to-spell-word/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
 5   1203    https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
+5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
 5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
 
 6   0488    https://leetcode.com/problems/zuma-game/

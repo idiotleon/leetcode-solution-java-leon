@@ -19,7 +19,11 @@ References:
 4   0956    https://leetcode.com/problems/tallest-billboard/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
+4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
+
+5   0691    https://leetcode.com/problems/stickers-to-spell-word/
+5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
 
 
 Resources:

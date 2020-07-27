@@ -13,5 +13,6 @@
 4   0474    https://leetcode.com/problems/ones-and-zeroes/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   0916    https://leetcode.com/problems/word-subsets/
+4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 
 5   0140    https://leetcode.com/problems/word-break-ii/

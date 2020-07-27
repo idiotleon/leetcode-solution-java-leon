@@ -29,12 +29,15 @@
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0894    https://leetcode.com/problems/all-possible-full-binary-trees/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
+4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 4   1216    https://leetcode.com/problems/valid-palindrome-iii/
 4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 
 5   0140    https://leetcode.com/problems/word-break-ii/
 5   0472    https://leetcode.com/problems/concatenated-words/
+5   0691    https://leetcode.com/problems/stickers-to-spell-word/
+5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
 5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
 
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
