@@ -15,6 +15,7 @@ References:
 2   0704    https://leetcode.com/problems/binary-search/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
+2   0896    https://leetcode.com/problems/monotonic-array/
 2   0973    https://leetcode.com/problems/k-closest-points-to-origin/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
 2   1375    https://leetcode.com/problems/bulb-switcher-iii/
