@@ -22,6 +22,9 @@ References:
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
 4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 
+6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
+
+
 
 Resource:
 store previous sum and the times of this sum, because sum[i, j] = sum[0, j] - sum[0, i - 1], this is a very very important idea

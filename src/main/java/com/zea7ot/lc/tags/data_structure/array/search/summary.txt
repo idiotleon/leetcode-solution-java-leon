@@ -63,4 +63,4 @@
 5   0786    https://leetcode.com/problems/k-th-smallest-prime-fraction/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
 
-
+6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/

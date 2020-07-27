@@ -36,3 +36,5 @@
 5   0140    https://leetcode.com/problems/word-break-ii/
 5   0472    https://leetcode.com/problems/concatenated-words/
 5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
+
+6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
