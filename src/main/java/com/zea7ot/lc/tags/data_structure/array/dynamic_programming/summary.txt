@@ -39,6 +39,7 @@
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
+4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
 4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
@@ -50,5 +51,7 @@
 
 5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
+5   0691    https://leetcode.com/problems/stickers-to-spell-word/
+5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
 
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/

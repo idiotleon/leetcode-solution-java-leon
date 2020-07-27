@@ -90,6 +90,9 @@ References:
 
 
 # 状态压缩
-0691
-1125
-1349
+    https://youtu.be/FLbqgyJ-70I?t=11205
+
+4   1125
+
+5   0691    https://leetcode.com/problems/stickers-to-spell-word/
+5   1349

@@ -12,6 +12,11 @@
 4   0052    https://leetcode.com/problems/n-queens-ii/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
+4   1125    https://leetcode.com/problems/smallest-sufficient-team/
+
+5   0691    https://leetcode.com/problems/stickers-to-spell-word/
+5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
+
 
 
 Resources:
