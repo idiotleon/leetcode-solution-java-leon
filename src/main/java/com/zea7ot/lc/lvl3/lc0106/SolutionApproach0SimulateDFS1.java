@@ -25,12 +25,12 @@ public class SolutionApproach0SimulateDFS1 {
             || inorder.length != postorder.length) 
                 return null;
         
-        final int L = inorder.length;        
+        final int N = inorder.length;        
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
-        TreeNode root = new TreeNode(postorder[L - 1]);
+        TreeNode root = new TreeNode(postorder[N - 1]);
         stack.push(root);
         
-        for(int i = L - 2, j = L - 1; i >= 0; --i){
+        for(int i = N - 2, j = N - 1; i >= 0; --i){
             // postorder[i] is the rightmost node,
             // the child till the element in inorder traveral that is not equal
             if(stack.peek().val != inorder[j]){

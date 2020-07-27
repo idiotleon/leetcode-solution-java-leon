@@ -15,6 +15,7 @@
 2   0701    https://leetcode.com/problems/insert-into-a-binary-search-tree/
 2   0814    https://leetcode.com/problems/binary-tree-pruning/
 
+3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 3   0285    https://leetcode.com/problems/inorder-successor-in-bst/
 3   0450    https://leetcode.com/problems/delete-node-in-a-bst/
 3   0508    https://leetcode.com/problems/most-frequent-subtree-sum/

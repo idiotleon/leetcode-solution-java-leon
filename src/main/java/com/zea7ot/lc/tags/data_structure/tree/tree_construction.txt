@@ -3,4 +3,5 @@
 ### Tree
 # Tree Construction
 
+3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 3   0654    https://leetcode.com/problems/maximum-binary-tree/
