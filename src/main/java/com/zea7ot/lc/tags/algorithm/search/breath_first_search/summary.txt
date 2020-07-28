@@ -39,6 +39,7 @@ References:
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
+3   1233    https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/
 3   1236    https://leetcode.com/problems/web-crawler/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
