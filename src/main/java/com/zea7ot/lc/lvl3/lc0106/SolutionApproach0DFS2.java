@@ -21,14 +21,14 @@ public class SolutionApproach0DFS2 {
             || inorder.length != postorder.length) 
                 return null;
         
-        final int L = postorder.length;
+        final int N = postorder.length;
         Map<Integer, Integer> idxMap = new HashMap<Integer, Integer>();
-        for(int i = 0; i < L; i++){
+        for(int i = 0; i < N; i++){
             idxMap.put(inorder[i], i);
         }
-        int[] idxPostorder = new int[]{L - 1};
+        int[] idxPostorder = new int[]{N - 1};
         
-        return dfs(idxMap, postorder, idxPostorder, 0, L);
+        return dfs(idxMap, postorder, idxPostorder, 0, N);
     }
     
     private TreeNode dfs(Map<Integer, Integer> idxMap, 

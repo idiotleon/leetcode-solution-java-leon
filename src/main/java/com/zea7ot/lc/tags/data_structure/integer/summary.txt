@@ -2,9 +2,13 @@
 
 ### Integer
 
+1   0258    https://leetcode.com/problems/add-digits/
+
 2   0263    https://leetcode.com/problems/ugly-number/
 
 3   0279    https://leetcode.com/problems/perfect-squares/
 3   0357    https://leetcode.com/problems/count-numbers-with-unique-digits/
+
+4   0375    https://leetcode.com/problems/guess-number-higher-or-lower-ii/
 
 5   0818    https://leetcode.com/problems/race-car/

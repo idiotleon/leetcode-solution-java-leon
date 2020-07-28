@@ -21,7 +21,9 @@
 4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0139    https://leetcode.com/problems/word-break/
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
+4   0312    https://leetcode.com/problems/burst-balloons/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
+4   0375    https://leetcode.com/problems/guess-number-higher-or-lower-ii/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0549    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
@@ -37,10 +39,10 @@
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
+4   1246    https://leetcode.com/problems/palindrome-removal/
 4   1278    https://leetcode.com/problems/palindrome-partitioning-iii/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 
-
-
+6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/

@@ -24,6 +24,10 @@
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
+4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 
-5   0403     https://leetcode.com/problems/frog-jump/
+5   0403    https://leetcode.com/problems/frog-jump/
+5   0691    https://leetcode.com/problems/stickers-to-spell-word/
+
+6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/

@@ -45,6 +45,7 @@ References:
 3   1391    https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/
 3   1448    https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
+3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
 
 4   0317    https://leetcode.com/problems/shortest-distance-from-all-buildings/
 4   0407    https://leetcode.com/problems/trapping-rain-water-ii/
@@ -54,6 +55,7 @@ References:
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
 
+5   0691    https://leetcode.com/problems/stickers-to-spell-word/
 5   0818    https://leetcode.com/problems/race-car/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
 5   1203    https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/

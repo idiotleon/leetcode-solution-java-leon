@@ -2,8 +2,10 @@
 
 
 ### Breadth First Search
-# array - 1 dimensional
+# Array - 1 Dimensional
 
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
+
+5   0691    https://leetcode.com/problems/stickers-to-spell-word/

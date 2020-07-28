@@ -20,28 +20,29 @@ public class SolutionApproach0DFS {
             || postorder.length == 0 
             || inorder.length != postorder.length) 
                 return null;
-        final int L = postorder.length;
-        return dfs(inorder, postorder, L - 1, 0, L - 1);
+
+        final int N = postorder.length;
+        return dfs(N - 1, 0, N - 1, postorder, inorder);
     }
     
-    private TreeNode dfs(int[] inorder, 
-                         int[] postorder, 
-                         int idxPostorder, 
+    private TreeNode dfs(int idxPostorder, 
                          int inorderStart, 
-                         int inorderEnd){
+                         int inorderEnd, 
+                         int[] postorder,
+                         int[] inorder){
         if(idxPostorder < 0 || inorderStart > inorderEnd) return null;
         
-        final int L = postorder.length;
+        final int N = postorder.length;
         int rootVal = postorder[idxPostorder];
         TreeNode root = new TreeNode(rootVal);
         int idxInorder = 0;
-        while(idxInorder < L){
+        while(idxInorder < N){
             if(inorder[idxInorder] == rootVal) break;
-            idxInorder++;
+            ++idxInorder;
         }
         
-        root.right = dfs(inorder, postorder, idxPostorder - 1, idxInorder + 1, inorderEnd);
-        root.left = dfs(inorder, postorder, idxPostorder - (inorderEnd - idxInorder + 1), inorderStart, idxInorder - 1);
+        root.right = dfs(idxPostorder - 1, idxInorder + 1, inorderEnd, postorder, inorder);
+        root.left = dfs(idxPostorder - (inorderEnd - idxInorder + 1), inorderStart, idxInorder - 1, postorder, inorder);
         return root;
     }
 }

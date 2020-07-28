@@ -2,12 +2,15 @@
 References:
     https://leetcode.com/tag/bit-manipulation/
 
+
+
 ### Bit Manipulation
 
 1   0067    https://leetcode.com/problems/add-binary/
 1   1290    https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
 
 2   0461    https://leetcode.com/problems/hamming-distance/
+2   0896    https://leetcode.com/problems/monotonic-array/
 
 3   0137    https://leetcode.com/problems/single-number-ii/
 3   0260    https://leetcode.com/problems/single-number-iii/
@@ -20,6 +23,9 @@ References:
 4   0421    https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
+4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 
 5   0327    https://leetcode.com/problems/count-of-range-sum/
 5   0493    https://leetcode.com/problems/reverse-pairs/
+5   0691    https://leetcode.com/problems/stickers-to-spell-word/
+5   1349    https://leetcode.com/problems/maximum-students-taking-exam/

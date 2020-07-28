@@ -21,9 +21,9 @@ public class SolutionApproach0DFS1 {
             || inorder.length != postorder.length) 
                 return null;
 
-        final int L = postorder.length;
-        int[] idxInorder = new int[]{L - 1};
-        int[] idxPostorder = new int[]{L - 1};
+        final int N = postorder.length;
+        int[] idxInorder = new int[]{N - 1};
+        int[] idxPostorder = new int[]{N - 1};
         return dfs(inorder, idxInorder, postorder, idxPostorder, null);
     }
     

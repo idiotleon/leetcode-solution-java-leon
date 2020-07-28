@@ -8,6 +8,7 @@
 
 2   1214    https://leetcode.com/problems/two-sum-bsts/
 
+3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 3   0450    https://leetcode.com/problems/delete-node-in-a-bst/
 3   0536    https://leetcode.com/problems/construct-binary-tree-from-string/
 3   0776    https://leetcode.com/problems/split-bst/

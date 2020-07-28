@@ -31,6 +31,7 @@ References:
 2   1302    https://leetcode.com/problems/deepest-leaves-sum/
 2   1315    https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/
 
+3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 3   0114    https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 3   0129    https://leetcode.com/problems/sum-root-to-leaf-numbers/
 3   0235    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
@@ -71,6 +72,7 @@ References:
 3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
 3   1485    https://leetcode.com/problems/clone-binary-tree-with-random-pointer/
+3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
 
 4   0124    https://leetcode.com/problems/binary-tree-maximum-path-sum/
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/

@@ -24,19 +24,19 @@ public class SolutionApproach0SimulateDFS {
             || inorder.length != postorder.length) 
                 return null;
         
-        final int L = inorder.length;
-        int idxInorder = L - 1, idxPostorder = L - 1;
+        final int N = inorder.length;
+        int idxInorder = N - 1, idxPostorder = N - 1;
         
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
         TreeNode prev = null;
         TreeNode root = new TreeNode(postorder[idxPostorder]);
         stack.push(root);
-        idxPostorder--;
+        --idxPostorder;
         
         while(idxPostorder >= 0){
             while(!stack.isEmpty() && stack.peek().val == inorder[idxInorder]){
                 prev = stack.pop();
-                idxInorder--;
+                --idxInorder;
             }
             
             TreeNode node = new TreeNode(postorder[idxPostorder]);
@@ -49,7 +49,7 @@ public class SolutionApproach0SimulateDFS {
             
             stack.push(node);
             prev = null;
-            idxPostorder--;
+            --idxPostorder;
         }
         return root;
     }
