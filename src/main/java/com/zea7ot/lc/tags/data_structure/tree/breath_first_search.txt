@@ -10,6 +10,7 @@
 2   0429    https://leetcode.com/problems/n-ary-tree-level-order-traversal/
 2   0637    https://leetcode.com/problems/average-of-levels-in-binary-tree/
 2   0655    https://leetcode.com/problems/print-binary-tree/
+2   0958    https://leetcode.com/problems/check-completeness-of-a-binary-tree/
 2   1302    https://leetcode.com/problems/deepest-leaves-sum/
 
 3   0623    https://leetcode.com/problems/add-one-row-to-tree/
