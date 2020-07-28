@@ -9,6 +9,7 @@
 3   0253    https://leetcode.com/problems/meeting-rooms-ii/
 3   0729    https://leetcode.com/problems/my-calendar-i/
 3   0731    https://leetcode.com/problems/my-calendar-ii/
+3   0939    https://leetcode.com/problems/minimum-area-rectangle/
 3   0981    https://leetcode.com/problems/time-based-key-value-store/
 3   1146    https://leetcode.com/problems/snapshot-array/
 

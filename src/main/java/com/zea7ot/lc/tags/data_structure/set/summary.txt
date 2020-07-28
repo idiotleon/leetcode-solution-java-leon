@@ -14,6 +14,7 @@
 3   0684    https://leetcode.com/problems/redundant-connection/
 3   0729    https://leetcode.com/problems/my-calendar-i/
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/
+3   0939    https://leetcode.com/problems/minimum-area-rectangle/
 3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
