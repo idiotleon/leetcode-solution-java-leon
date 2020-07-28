@@ -9,6 +9,7 @@ References:
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0406    https://leetcode.com/problems/queue-reconstruction-by-height/
 3   0659    https://leetcode.com/problems/split-array-into-consecutive-subsequences/
+3   0758    https://leetcode.com/problems/bold-words-in-string/
 3   0775    https://leetcode.com/problems/global-and-local-inversions/
 3   0957    https://leetcode.com/problems/prison-cells-after-n-days/
 3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
