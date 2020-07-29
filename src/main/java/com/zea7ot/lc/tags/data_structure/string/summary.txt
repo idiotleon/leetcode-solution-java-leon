@@ -21,6 +21,7 @@ References:
 3   0640    https://leetcode.com/problems/solve-the-equation/
 3   0647    https://leetcode.com/problems/palindromic-substrings/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
+2   0791    https://leetcode.com/problems/custom-sort-string/
 3   0753    https://leetcode.com/problems/cracking-the-safe/
 3   0756    https://leetcode.com/problems/pyramid-transition-matrix/
 3   1048    https://leetcode.com/problems/longest-string-chain/
