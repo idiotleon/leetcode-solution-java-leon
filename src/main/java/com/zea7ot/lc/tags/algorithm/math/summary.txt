@@ -17,6 +17,7 @@
 
 4   0031    https://leetcode.com/problems/next-permutation/
 4   0621    https://leetcode.com/problems/task-scheduler/
+4   0963    https://leetcode.com/problems/minimum-area-rectangle-ii/
 
 5   0335    https://leetcode.com/problems/self-crossing/
 5   0850    https://leetcode.com/problems/rectangle-area-ii/
