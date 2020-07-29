@@ -12,6 +12,7 @@ References:
 3   0454    https://leetcode.com/problems/4sum-ii/
 3   0523    https://leetcode.com/problems/continuous-subarray-sum/
 3   0525    https://leetcode.com/problems/contiguous-array/
+3   0548    https://leetcode.com/problems/split-array-with-equal-sum/
 3   0560    https://leetcode.com/problems/subarray-sum-equals-k/
 3   0974    https://leetcode.com/problems/subarray-sums-divisible-by-k/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/

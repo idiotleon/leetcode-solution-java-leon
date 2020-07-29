@@ -12,6 +12,7 @@ References:
 3   0648    https://leetcode.com/problems/replace-words/
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1065    https://leetcode.com/problems/index-pairs-of-a-string/
+3   1233    https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/
 
 4   0079    https://leetcode.com/problems/word-search/
 4   0211    https://leetcode.com/problems/add-and-search-word-data-structure-design/
