@@ -15,6 +15,7 @@
 4   0294    https://leetcode.com/problems/flip-game-ii/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0727    https://leetcode.com/problems/minimum-window-subsequence/
+4   1062    https://leetcode.com/problems/longest-repeating-substring/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1216    https://leetcode.com/problems/valid-palindrome-iii/
 4   1278    https://leetcode.com/problems/palindrome-partitioning-iii/

@@ -13,6 +13,7 @@
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
 
 
+
 # Longest Increasing Subsequence
 2   0674    https://leetcode.com/problems/longest-continuous-increasing-subsequence/
 
@@ -39,6 +40,7 @@
 4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0727    https://leetcode.com/problems/minimum-window-subsequence/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
+4   1062    https://leetcode.com/problems/longest-repeating-substring/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 
 

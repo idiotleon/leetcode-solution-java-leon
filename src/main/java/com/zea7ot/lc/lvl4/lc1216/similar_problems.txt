@@ -3,9 +3,13 @@
 # Palindrome
 3   0647    https://leetcode.com/problems/palindromic-substrings/
 
+4   0312    https://leetcode.com/problems/burst-balloons/
+4   0375    https://leetcode.com/problems/guess-number-higher-or-lower-ii/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   1216    https://leetcode.com/problems/valid-palindrome-iii/
-4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
+4   1246    https://leetcode.com/problems/palindrome-removal/
+
+6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
 
 
 
@@ -35,6 +39,7 @@
 4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0727    https://leetcode.com/problems/minimum-window-subsequence/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
+4   1062    https://leetcode.com/problems/longest-repeating-substring/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 
 
