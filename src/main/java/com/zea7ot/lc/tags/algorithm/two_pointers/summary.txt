@@ -7,6 +7,7 @@ References:
 1   0643    https://leetcode.com/problems/maximum-average-subarray-i/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
+2   0408    https://leetcode.com/problems/valid-word-abbreviation/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
