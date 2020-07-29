@@ -17,6 +17,7 @@ References:
 3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/
+3   0341    https://leetcode.com/problems/flatten-nested-list-iterator/
 3   0402    https://leetcode.com/problems/remove-k-digits/
 3   0503    https://leetcode.com/problems/next-greater-element-ii/
 3   0716    https://leetcode.com/problems/max-stack/
