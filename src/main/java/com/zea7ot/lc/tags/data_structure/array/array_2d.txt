@@ -8,6 +8,8 @@ What are considered as diagonals/anti-diagonals of rectangles (not squares)?
 https://en.wikipedia.org/wiki/Main_diagonal
 0051
 
+1   0766    https://leetcode.com/problems/toeplitz-matrix/
+
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0310    https://leetcode.com/problems/minimum-height-trees/
 2   0690    https://leetcode.com/problems/employee-importance/

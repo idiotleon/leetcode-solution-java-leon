@@ -11,10 +11,13 @@
 
 3   0060    https://leetcode.com/problems/permutation-sequence/
 3   0357    https://leetcode.com/problems/count-numbers-with-unique-digits/
+3   0400    https://leetcode.com/problems/nth-digit/
+3   0939    https://leetcode.com/problems/minimum-area-rectangle/
 3   1247    https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/
 
 4   0031    https://leetcode.com/problems/next-permutation/
 4   0621    https://leetcode.com/problems/task-scheduler/
+4   0963    https://leetcode.com/problems/minimum-area-rectangle-ii/
 
 5   0335    https://leetcode.com/problems/self-crossing/
 5   0850    https://leetcode.com/problems/rectangle-area-ii/

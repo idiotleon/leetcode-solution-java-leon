@@ -17,6 +17,7 @@ References:
 3   0320    https://leetcode.com/problems/generalized-abbreviation/
 3   0468    https://leetcode.com/problems/validate-ip-address/
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
+3   0609    https://leetcode.com/problems/find-duplicate-file-in-system/
 3   0640    https://leetcode.com/problems/solve-the-equation/
 3   0647    https://leetcode.com/problems/palindromic-substrings/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
@@ -26,6 +27,7 @@ References:
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
+3   1233    https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/
 3   1247    https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/
 3   1360    https://leetcode.com/problems/number-of-days-between-two-dates/
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/

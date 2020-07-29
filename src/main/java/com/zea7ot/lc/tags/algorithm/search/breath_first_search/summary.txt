@@ -20,6 +20,7 @@ References:
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 2   0993    https://leetcode.com/problems/cousins-in-binary-tree/
 2   0951    https://leetcode.com/problems/flip-equivalent-binary-trees/
+2   0958    https://leetcode.com/problems/check-completeness-of-a-binary-tree/
 2   1302    https://leetcode.com/problems/deepest-leaves-sum/
 2   1315    https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/
 
@@ -38,6 +39,7 @@ References:
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
+3   1233    https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/
 3   1236    https://leetcode.com/problems/web-crawler/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
