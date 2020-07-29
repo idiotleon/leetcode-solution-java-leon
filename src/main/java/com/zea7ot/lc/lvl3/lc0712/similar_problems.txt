@@ -10,6 +10,7 @@
 4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0727    https://leetcode.com/problems/minimum-window-subsequence/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
+4   1062    https://leetcode.com/problems/longest-repeating-substring/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 
 
