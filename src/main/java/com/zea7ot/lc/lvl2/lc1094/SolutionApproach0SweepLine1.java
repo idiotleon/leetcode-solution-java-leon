@@ -15,19 +15,20 @@ import java.util.TreeMap;
 public class SolutionApproach0SweepLine1 {
     public boolean carPooling(int[][] trips, int capacity) {
         Map<Integer, Integer> map = new TreeMap<Integer, Integer>();
-        for(int[] trip : trips){
+        for (int[] trip : trips) {
             int passengers = trip[0];
             int start = trip[1];
             int end = trip[2];
             map.put(start, map.getOrDefault(start, 0) + passengers);
             map.put(end, map.getOrDefault(end, 0) - passengers);
         }
-        
-        for(int value : map.values()){
+
+        for (int value : map.values()) {
             capacity -= value;
-            if(capacity < 0) return false;
+            if (capacity < 0)
+                return false;
         }
-        
+
         return true;
     }
 }

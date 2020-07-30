@@ -19,6 +19,7 @@ This serves the list of all the LC problems related to Binary Search, regardless
 2   0704    https://leetcode.com/problems/binary-search/
 2   0744    https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
+2   1287    https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
 
 3   0029    https://leetcode.com/problems/divide-two-integers/
 3   0033    https://leetcode.com/problems/search-in-rotated-sorted-array/

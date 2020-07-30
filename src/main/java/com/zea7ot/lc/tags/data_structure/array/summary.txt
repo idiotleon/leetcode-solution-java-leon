@@ -4,6 +4,7 @@ References:
 
 This file serves as the total list of problems related to Array, regardless of any subcategory
 ### Array
+# Summary
 
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   0766    https://leetcode.com/problems/toeplitz-matrix/
@@ -24,6 +25,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0896    https://leetcode.com/problems/monotonic-array/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
+2   1287    https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
 2   1375    https://leetcode.com/problems/bulb-switcher-iii/
 2   1464    https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
 2   1465    https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
@@ -49,7 +51,9 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0406    https://leetcode.com/problems/queue-reconstruction-by-height/
 3   0419    https://leetcode.com/problems/battleships-in-a-board/
+3   0435    https://leetcode.com/problems/non-overlapping-intervals/
 3   0436    https://leetcode.com/problems/find-right-interval/
+3   0452    https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
 3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
 3   0491    https://leetcode.com/problems/increasing-subsequences/
 3   0494    https://leetcode.com/problems/target-sum/
@@ -138,6 +142,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0879    https://leetcode.com/problems/profitable-schemes/
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0916    https://leetcode.com/problems/word-subsets/
+4   0918    https://leetcode.com/problems/maximum-sum-circular-subarray/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 4   0956    https://leetcode.com/problems/tallest-billboard/
 4   0980    https://leetcode.com/problems/unique-paths-iii/

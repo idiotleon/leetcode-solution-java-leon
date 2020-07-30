@@ -2,6 +2,9 @@
  * https://leetcode.com/problems/meeting-scheduler/
  * 
  * Time Complexity:     O(max(N1, N2) * lg(max(N1, N2)))
+ *  N1, total elements in `slots1` 
+ *  N2, total elements in `slots2`
+ * 
  * Space Complexity:    O(1)
  * 
  * References:
@@ -20,14 +23,16 @@ public class SolutionApproach0TwoPointers {
 
         int idx1 = 0, idx2 = 0;
         final int N1 = slots1.length, N2 = slots2.length;
-        while(idx1 < N1 && idx2 < N2){
-            int intersectStart = Math.max(slots1[idx1][0], slots2[idx2][0]);
-            int intersectEnd = Math.min(slots1[idx1][1], slots2[idx2][1]);
+        while (idx1 < N1 && idx2 < N2) {
+            int intersectionStart = Math.max(slots1[idx1][0], slots2[idx2][0]);
+            int intersectionEnd = Math.min(slots1[idx1][1], slots2[idx2][1]);
 
-            if(intersectStart + duration <= intersectEnd){
-                return Arrays.asList(intersectStart, intersectStart + duration);
-            }else if(slots1[idx1][1] < slots2[idx2][1]) ++idx1;
-            else ++idx2;
+            if (intersectionStart + duration <= intersectionEnd) {
+                return Arrays.asList(intersectionStart, intersectionStart + duration);
+            } else if (slots1[idx1][1] < slots2[idx2][1])
+                ++idx1;
+            else
+                ++idx2;
         }
 
         return new ArrayList<Integer>();
