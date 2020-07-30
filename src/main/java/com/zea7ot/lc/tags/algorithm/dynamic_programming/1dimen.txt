@@ -26,6 +26,7 @@ References:
 3   0494    https://leetcode.com/problems/target-sum/
 3   0562    https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/
 3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
+3   0935    https://leetcode.com/problems/knight-dialer/
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
