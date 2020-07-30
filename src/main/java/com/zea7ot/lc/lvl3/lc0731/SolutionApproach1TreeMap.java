@@ -15,7 +15,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class SolutionApproach1TreeMap {
-    private TreeMap<Integer, Integer> map;
+    private Map<Integer, Integer> map;
 
     public SolutionApproach1TreeMap() {
         this.map = new TreeMap<Integer, Integer>();
@@ -34,6 +34,7 @@ public class SolutionApproach1TreeMap {
                 return false;
             }
         }
+        
         return true;
     }
 }
