@@ -10,6 +10,7 @@ This file serves as the total list of problems related to Array, regardless of a
 1   1046    https://leetcode.com/problems/last-stone-weight/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
+2   0001    https://leetcode.com/problems/two-sum/
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0280    https://leetcode.com/problems/wiggle-sort/
 2   0310    https://leetcode.com/problems/minimum-height-trees/
@@ -92,6 +93,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
+3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0135    https://leetcode.com/problems/candy/

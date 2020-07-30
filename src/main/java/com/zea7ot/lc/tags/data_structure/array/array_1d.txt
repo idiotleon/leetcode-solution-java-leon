@@ -10,6 +10,7 @@ References:
 1   1046    https://leetcode.com/problems/last-stone-weight/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
+2   0001    https://leetcode.com/problems/two-sum/
 2   0053    https://leetcode.com/problems/maximum-subarray/
 2   0280    https://leetcode.com/problems/wiggle-sort/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
@@ -66,6 +67,7 @@ References:
 3   1109    https://leetcode.com/problems/corporate-flight-bookings/
 3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
+3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
 4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/

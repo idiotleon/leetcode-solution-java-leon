@@ -2,6 +2,6 @@
 
 
 ### Array
-# As stacks
+# As Stacks
 
 4   0735    https://leetcode.com/problems/asteroid-collision/
