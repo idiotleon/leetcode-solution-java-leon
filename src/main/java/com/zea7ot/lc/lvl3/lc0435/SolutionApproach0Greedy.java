@@ -11,18 +11,20 @@ package com.zea7ot.lc.lvl3.lc0435;
 
 import java.util.Arrays;
 
-public class SolutionApproach0Sorting {
+public class SolutionApproach0Greedy {
     public int eraseOverlapIntervals(int[][] intervals) {
+        // sanity check
         if(intervals == null || intervals.length == 0) return 0;
+
         final int N = intervals.length;
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[1], b[1]));
         
-        int count = 1;
-        int end = intervals[0][1];
+        int count = 0;
+        int end = Integer.MIN_VALUE;
         
-        for(int i = 1; i < N; ++i){
-            if(intervals[i][0] >= end){
-                end = intervals[i][1];
+        for(int[] interval : intervals){
+            if(interval[0] >= end){
+                end = interval[1];
                 ++count;
             }
         }

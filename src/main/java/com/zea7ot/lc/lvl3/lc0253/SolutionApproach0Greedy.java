@@ -9,7 +9,7 @@ package com.zea7ot.lc.lvl3.lc0253;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
-public class SolutionApproach0MinHeap {
+public class SolutionApproach0Greedy {
     public int minMeetingRooms(int[][] intervals) {
         // sanity check
         if(intervals == null || intervals.length == 0) return 0;

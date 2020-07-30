@@ -15,7 +15,7 @@ package com.zea7ot.lc.lvl3.lc0452;
 
 import java.util.Arrays;
 
-public class SolutionApproach0Sorting {
+public class SolutionApproach0Greedy {
     public int findMinArrowShots(int[][] points) {
         // sanity check
         if(points == null || points.length == 0) return 0;

@@ -9,9 +9,9 @@ package com.zea7ot.lc.lvl3.lc0056;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-public class Solution{
+public class SolutionApproach0Greedy{
     public int[][] merge(int[][] intervals) {
-        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
         
         LinkedList<int[]> merged = new LinkedList<int[]>();
         for(int[] interval : intervals){
