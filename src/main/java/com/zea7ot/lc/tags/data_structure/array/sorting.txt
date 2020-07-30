@@ -9,6 +9,7 @@
 
 3   0056    https://leetcode.com/problems/merge-intervals/
 3   0075    https://leetcode.com/problems/sort-colors/
+3   0435    https://leetcode.com/problems/non-overlapping-intervals/
 3   0452    https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
 3   0912    https://leetcode.com/problems/sort-an-array/
 3   0969    https://leetcode.com/problems/pancake-sorting/

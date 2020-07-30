@@ -8,6 +8,7 @@ References:
 3   0322    https://leetcode.com/problems/coin-change/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0406    https://leetcode.com/problems/queue-reconstruction-by-height/
+3   0435    https://leetcode.com/problems/non-overlapping-intervals/
 3   0452    https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
 3   0659    https://leetcode.com/problems/split-array-into-consecutive-subsequences/
 3   0758    https://leetcode.com/problems/bold-words-in-string/

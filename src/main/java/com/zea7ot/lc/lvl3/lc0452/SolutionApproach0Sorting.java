@@ -1,31 +1,32 @@
 /**
  * https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
  * 
- * http://zxi.mytechroad.com/blog/geometry/leetcode-452-minimum-number-of-arrows-to-burst-balloons/
+ * Time Complexity:     O(N * lg(N))
+ * Space Complexity:    O(1)
  * 
  * Steps:
  *  1. to sort by end point
  *  2. to merge if cur[0] (start of cur) < last, otherwise, a new arrow is required (then to reset "last")
  * 
- * Time Complexity: O(nlg(n))
- * Space Complexity: O(1)
+ * References:
+ *  http://zxi.mytechroad.com/blog/geometry/leetcode-452-minimum-number-of-arrows-to-burst-balloons/
  */
 package com.zea7ot.lc.lvl3.lc0452;
 
 import java.util.Arrays;
 
-public class SolutionApproachSweepLine {
+public class SolutionApproach0Sorting {
     public int findMinArrowShots(int[][] points) {
         // sanity check
         if(points == null || points.length == 0) return 0;
         
-        Arrays.sort(points, (p1, p2) -> Integer.compare(p1[1], p2[1]));
-        int last = points[0][1];
+        Arrays.sort(points, (a, b) -> Integer.compare(a[1], b[1]));
+        int prevEnd = points[0][1];
         int ans = 1;
         for(int[] point : points){
-            if(point[0] > last){
-                last = point[1];
-                ans++;
+            if(point[0] > prevEnd){
+                prevEnd = point[1];
+                ++ans;
             }
         }
         
