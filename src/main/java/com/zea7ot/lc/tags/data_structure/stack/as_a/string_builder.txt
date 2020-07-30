@@ -1,0 +1,6 @@
+@author: Leon
+
+### Stack
+## StringBuilders as Stacks
+
+2   1047    https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
