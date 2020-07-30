@@ -2,6 +2,7 @@
 
 ### Map
 
+2   0001    https://leetcode.com/problems/two-sum/
 2   0290    https://leetcode.com/problems/word-pattern/
 
 3   0137    https://leetcode.com/problems/single-number-ii/
@@ -11,6 +12,7 @@
 3   0560    https://leetcode.com/problems/subarray-sum-equals-k/
 3   0609    https://leetcode.com/problems/find-duplicate-file-in-system/
 3   0729    https://leetcode.com/problems/my-calendar-i/
+2   0791    https://leetcode.com/problems/custom-sort-string/
 3   0939    https://leetcode.com/problems/minimum-area-rectangle/
 3   0981    https://leetcode.com/problems/time-based-key-value-store/
 3   1048    https://leetcode.com/problems/longest-string-chain/

@@ -4,14 +4,18 @@ References:
 
 ### Two Pointers
 
+1   0345    https://leetcode.com/problems/reverse-vowels-of-a-string/
 1   0643    https://leetcode.com/problems/maximum-average-subarray-i/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
+2   0408    https://leetcode.com/problems/valid-word-abbreviation/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
 3   0986    https://leetcode.com/problems/interval-list-intersections/
+3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
+3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
 4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0076    https://leetcode.com/problems/minimum-window-substring/

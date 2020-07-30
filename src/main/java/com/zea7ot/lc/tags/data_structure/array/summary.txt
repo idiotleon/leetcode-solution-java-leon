@@ -10,7 +10,9 @@ This file serves as the total list of problems related to Array, regardless of a
 1   1046    https://leetcode.com/problems/last-stone-weight/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
+2   0001    https://leetcode.com/problems/two-sum/
 2   0207    https://leetcode.com/problems/course-schedule/
+2   0280    https://leetcode.com/problems/wiggle-sort/
 2   0310    https://leetcode.com/problems/minimum-height-trees/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
 2   0622    https://leetcode.com/problems/design-circular-queue/
@@ -57,6 +59,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0638    https://leetcode.com/problems/shopping-offers/
 3   0659    https://leetcode.com/problems/split-array-into-consecutive-subsequences/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
+3   0723    https://leetcode.com/problems/candy-crush/
 3   0729    https://leetcode.com/problems/my-calendar-i/
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/3   0775    https://leetcode.com/problems/global-and-local-inversions/
 3   0758    https://leetcode.com/problems/bold-words-in-string/
@@ -66,6 +69,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0911    https://leetcode.com/problems/online-election/
 3   0912    https://leetcode.com/problems/sort-an-array/
 3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
+3   0935    https://leetcode.com/problems/knight-dialer/
 3   0969    https://leetcode.com/problems/pancake-sorting/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
@@ -81,6 +85,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1109    https://leetcode.com/problems/corporate-flight-bookings/
 3   1139    https://leetcode.com/problems/largest-1-bordered-square/
 3   1198    https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
+3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
@@ -89,6 +94,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
+3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0135    https://leetcode.com/problems/candy/

@@ -5,6 +5,11 @@ References:
 ### String
 # Summary
 
+1   0345    https://leetcode.com/problems/reverse-vowels-of-a-string/
+
+2   0408    https://leetcode.com/problems/valid-word-abbreviation/
+2   1047    https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+
 3   0680    https://leetcode.com/problems/valid-palindrome-ii/
 3   0763    https://leetcode.com/problems/partition-labels/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/description/

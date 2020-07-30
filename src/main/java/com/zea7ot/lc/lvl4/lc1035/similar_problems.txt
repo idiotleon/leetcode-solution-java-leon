@@ -26,6 +26,7 @@
 4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0727    https://leetcode.com/problems/minimum-window-subsequence/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
+4   1062    https://leetcode.com/problems/longest-repeating-substring/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 
 
@@ -39,3 +40,7 @@
 
 # Palindrome
 3   0647    https://leetcode.com/problems/palindromic-substrings/
+
+4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
+4   1216    https://leetcode.com/problems/valid-palindrome-iii/
+4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/

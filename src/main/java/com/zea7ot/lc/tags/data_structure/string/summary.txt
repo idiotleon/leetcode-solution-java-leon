@@ -5,12 +5,15 @@ References:
 ### String
 
 1   0067    https://leetcode.com/problems/add-binary/
+1   0345    https://leetcode.com/problems/reverse-vowels-of-a-string/
 
 2   0165    https://leetcode.com/problems/compare-version-numbers/
 2   0290    https://leetcode.com/problems/word-pattern/
 2   0392    https://leetcode.com/problems/is-subsequence/
+2   0408    https://leetcode.com/problems/valid-word-abbreviation/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
 2   0984    https://leetcode.com/problems/string-without-aaa-or-bbb/
+2   1047    https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
 
 3   0060    https://leetcode.com/problems/permutation-sequence/
 3   0131    https://leetcode.com/problems/palindrome-partitioning/
@@ -21,6 +24,7 @@ References:
 3   0640    https://leetcode.com/problems/solve-the-equation/
 3   0647    https://leetcode.com/problems/palindromic-substrings/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
+2   0791    https://leetcode.com/problems/custom-sort-string/
 3   0753    https://leetcode.com/problems/cracking-the-safe/
 3   0756    https://leetcode.com/problems/pyramid-transition-matrix/
 3   1048    https://leetcode.com/problems/longest-string-chain/
@@ -49,6 +53,7 @@ References:
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   0916    https://leetcode.com/problems/word-subsets/
 4   1028    https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
+4   1062    https://leetcode.com/problems/longest-repeating-substring/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1111    https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/
 4   1152    https://leetcode.com/problems/analyze-user-website-visit-pattern/

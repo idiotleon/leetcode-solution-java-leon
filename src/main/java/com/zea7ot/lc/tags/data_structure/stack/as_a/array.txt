@@ -1,6 +1,6 @@
 @author: Leon
 
 ### Stack
-# Array Simulation
+# Arrays as Stacks
 
 4   0735    https://leetcode.com/problems/asteroid-collision/
