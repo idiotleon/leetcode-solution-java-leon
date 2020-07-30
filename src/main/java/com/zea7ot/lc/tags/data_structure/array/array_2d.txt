@@ -32,6 +32,7 @@ https://en.wikipedia.org/wiki/Main_diagonal
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
+3   0935    https://leetcode.com/problems/knight-dialer/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1034    https://leetcode.com/problems/coloring-a-border/
 3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
