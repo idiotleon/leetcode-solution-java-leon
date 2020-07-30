@@ -4,6 +4,7 @@ References:
 
 This file serves as the total list of problems related to Array, regardless of any subcategory
 ### Array
+# Summary
 
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   0766    https://leetcode.com/problems/toeplitz-matrix/
@@ -24,6 +25,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0896    https://leetcode.com/problems/monotonic-array/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
+2   1287    https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
 2   1375    https://leetcode.com/problems/bulb-switcher-iii/
 2   1464    https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
 2   1465    https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
