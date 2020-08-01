@@ -1,0 +1,7 @@
+@author: Leon
+
+
+### Integer
+# Depth First Search
+
+3   0050    https://leetcode.com/problems/powx-n/

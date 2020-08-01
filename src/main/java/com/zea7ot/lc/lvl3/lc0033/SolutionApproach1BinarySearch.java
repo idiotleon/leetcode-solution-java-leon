@@ -1,38 +1,40 @@
 /**
  * https://leetcode.com/problems/search-in-rotated-sorted-array/
  * 
- * Time Complexity: O(lg(N))
- * Space Complexity: O(1)
+ * Time Complexity:     O(lg(N))
+ * Space Complexity:    O(1)
  */
 package com.zea7ot.lc.lvl3.lc0033;
 
 public class SolutionApproach1BinarySearch {
     public int search2(int[] nums, int target) {
+        // sanity check
         if (nums == null || nums.length == 0)
             return -1;
 
-        int left = 0, right = nums.length - 1;
+        final int N = nums.length;
+        int lo = 0, hi = N - 1;
 
-        while (left < right) {
-            int mid = left + (right - left) / 2;
+        while (lo < hi) {
+            int mid = lo + (hi - lo) / 2;
 
             if (target == nums[mid]){
                 return mid;
-            }else if (nums[left] <= nums[mid]) {
-                if (target >= nums[left] && target <= nums[mid]){
-                    right = mid;
+            }else if (nums[lo] <= nums[mid]) {
+                if (target >= nums[lo] && target <= nums[mid]){
+                    hi = mid;
                 }else{
-                    left = mid + 1;
+                    lo = mid + 1;
                 }
             } else {
-                if (target >= nums[mid] && target <= nums[right]){
-                    left = mid + 1;
+                if (target >= nums[mid] && target <= nums[hi]){
+                    lo = mid + 1;
                 }else{
-                    right = mid;
+                    hi = mid;
                 }
             }
         }
 
-        return nums[left] == target ? left : -1;
+        return nums[lo] == target ? lo : -1;
     }
 }

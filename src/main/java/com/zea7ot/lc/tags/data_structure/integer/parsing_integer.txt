@@ -1,0 +1,7 @@
+@author: Leon
+
+
+### Integer
+# Parsing Integer
+
+3   0050    https://leetcode.com/problems/powx-n/

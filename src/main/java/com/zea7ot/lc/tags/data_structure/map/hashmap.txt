@@ -6,6 +6,7 @@
 2   0001    https://leetcode.com/problems/two-sum/
 2   0290    https://leetcode.com/problems/word-pattern/
 
+3   0049    https://leetcode.com/problems/group-anagrams/
 3   0137    https://leetcode.com/problems/single-number-ii/
 3   0437    https://leetcode.com/problems/path-sum-iii/
 3   0523    https://leetcode.com/problems/continuous-subarray-sum/

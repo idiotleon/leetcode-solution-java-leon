@@ -14,28 +14,34 @@ public class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> ans = new ArrayList<List<Integer>>();
         // sanity check
-        if(nums == null || nums.length == 0) return ans;
+        if (nums == null || nums.length == 0)
+            return ans;
 
         final int N = nums.length;
         Arrays.sort(nums);
-        for(int i = 0; i < N - 2; i++){
-            if(i > 0 && nums[i] == nums[i - 1]) continue;
-            
-            int j = i + 1, k = N - 1;
-            int target = -nums[i];
-            
-            while(j < k){
-                if(nums[j] + nums[k] == target){
-                    ans.add(Arrays.asList(nums[i], nums[j], nums[k]));
-                    j++;
-                    k--;
-                    while(j < k && nums[j] == nums[j - 1]) j++;
-                    while(j < k && nums[k] == nums[k + 1]) k--;
-                }else if(nums[j] + nums[k] > target) k--;
-                else j++;
+        for (int idx = 0; idx < N - 2; ++idx) {
+            if (idx > 0 && nums[idx] == nums[idx - 1])
+                continue;
+
+            int lo = idx + 1, hi = N - 1;
+            int target = -nums[idx];
+
+            while (lo < hi) {
+                if (nums[lo] + nums[hi] == target) {
+                    ans.add(Arrays.asList(nums[idx], nums[lo], nums[hi]));
+                    ++lo;
+                    --hi;
+                    while (lo < hi && nums[lo] == nums[lo - 1])
+                        ++lo;
+                    while (lo < hi && nums[hi] == nums[hi + 1])
+                        --hi;
+                } else if (nums[lo] + nums[hi] > target)
+                    --hi;
+                else
+                    ++lo;
             }
         }
-        
+
         return ans;
     }
 }

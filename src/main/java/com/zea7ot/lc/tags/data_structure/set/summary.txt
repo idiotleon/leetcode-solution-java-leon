@@ -5,6 +5,7 @@
 2   0475    https://leetcode.com/problems/heaters/
 2   0817    https://leetcode.com/problems/linked-list-components/
 
+3   0036    https://leetcode.com/problems/valid-sudoku/
 3   0137    https://leetcode.com/problems/single-number-ii/
 3   0200    https://leetcode.com/problems/number-of-islands/
 3   0261    https://leetcode.com/problems/graph-valid-tree/
