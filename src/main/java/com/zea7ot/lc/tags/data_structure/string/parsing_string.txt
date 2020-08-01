@@ -14,6 +14,8 @@ References:
 
 3   0029    https://leetcode.com/problems/divide-two-integers/
 3   0071    https://leetcode.com/problems/simplify-path/
+3   0091    https://leetcode.com/problems/decode-ways/
+3   0093    https://leetcode.com/problems/restore-ip-addresses/
 3   0394    https://leetcode.com/problems/decode-string/
 3   0439    https://leetcode.com/problems/ternary-expression-parser/
 3   0468    https://leetcode.com/problems/validate-ip-address/
