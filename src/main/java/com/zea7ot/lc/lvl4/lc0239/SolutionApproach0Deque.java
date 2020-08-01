@@ -3,35 +3,40 @@
  * 
  * Time Complexity:     O(N)
  * Space Complexity:    O(N)
+ * 
+ * References:
+ *  http://zxi.mytechroad.com/blog/heap/leetcode-239-sliding-window-maximum/
  */
 package com.zea7ot.lc.lvl4.lc0239;
 
-import java.util.LinkedList;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class SolutionApproach0Deque {
     public int[] maxSlidingWindow(int[] nums, int k) {
-        if(nums == null || nums.length == 0 || k <= 0) return new int[0];
-        
-        final int L = nums.length;
-        int[] ans = new int[L - k + 1];
+        // sanity check
+        if (nums == null || nums.length == 0 || k <= 0)
+            return new int[0];
+
+        final int N = nums.length;
+        int[] ans = new int[N - k + 1];
         int idx = 0;
-        
-        LinkedList<Integer> deque = new LinkedList<Integer>();
-        
-        for(int i = 0; i < L; i++){
-            while(!deque.isEmpty() && deque.peekFirst() < i - k + 1)
-                deque.removeFirst();
-            
-            while(!deque.isEmpty() && nums[deque.peekLast()] < nums[i])
-                deque.removeLast();
-            
-            deque.add(i);
-            
-            if(i >= k - 1){
-                ans[idx++] = nums[deque.peekFirst()];
-            }
+
+        Deque<Integer> idxDeque = new ArrayDeque<Integer>();
+
+        for (int i = 0; i < N; i++) {
+            while (!idxDeque.isEmpty() && idxDeque.peekFirst() < i - k + 1)
+                idxDeque.removeFirst();
+
+            while (!idxDeque.isEmpty() && nums[idxDeque.peekLast()] < nums[i])
+                idxDeque.removeLast();
+
+            idxDeque.addLast(i);
+
+            if (i >= k - 1) 
+                ans[idx++] = nums[idxDeque.peekFirst()];
         }
-        
+
         return ans;
     }
 }
