@@ -3,5 +3,6 @@
 ### Depth First Search
 # Linked List
 
+3   0086    https://leetcode.com/problems/partition-list/
 3   0430    https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/

@@ -16,6 +16,7 @@
 2   0814    https://leetcode.com/problems/binary-tree-pruning/
 2   0958    https://leetcode.com/problems/check-completeness-of-a-binary-tree/
 
+3   0098    https://leetcode.com/problems/validate-binary-search-tree/
 3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 3   0285    https://leetcode.com/problems/inorder-successor-in-bst/
 3   0450    https://leetcode.com/problems/delete-node-in-a-bst/
