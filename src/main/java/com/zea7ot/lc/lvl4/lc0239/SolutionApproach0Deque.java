@@ -1,14 +1,14 @@
 /**
  * https://leetcode.com/problems/sliding-window-maximum/
  * 
- * Time Complexity: O(N)
- * Space Complexity: O(N)
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
  */
 package com.zea7ot.lc.lvl4.lc0239;
 
 import java.util.LinkedList;
 
-public class SolutionApproachDeque {
+public class SolutionApproach0Deque {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if(nums == null || nums.length == 0 || k <= 0) return new int[0];
         

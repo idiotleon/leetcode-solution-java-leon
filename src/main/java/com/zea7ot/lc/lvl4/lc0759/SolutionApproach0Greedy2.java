@@ -18,24 +18,24 @@ public class SolutionApproach0Greedy2 {
     public List<Interval> employeeFreeTime(List<List<Interval>> schedule) {
         List<Interval> ans = new ArrayList<Interval>();
         // sanity check
-        if(schedule == null || schedule.isEmpty()) return ans;
-        
+        if (schedule == null || schedule.isEmpty())
+            return ans;
+
         Queue<Interval> minHeap = new PriorityQueue<Interval>((a, b) -> Integer.compare(a.start, b.start));
         schedule.forEach(list -> minHeap.addAll(list));
-        
+
         Interval prev = minHeap.poll();
-        while(!minHeap.isEmpty()){
-            if(prev.end < minHeap.peek().start){ // no intersection
+        while (!minHeap.isEmpty()) {
+            if (prev.end < minHeap.peek().start) { // no intersection
                 ans.add(new Interval(prev.end, minHeap.peek().start));
-                prev = minHeap.poll(); 
-            }else{
+                prev = minHeap.poll();
+            } else {
                 prev = prev.end < minHeap.peek().end ? minHeap.peek() : prev;
                 minHeap.poll();
             }
         }
-        
+
         return ans;
     }
-
 
 }

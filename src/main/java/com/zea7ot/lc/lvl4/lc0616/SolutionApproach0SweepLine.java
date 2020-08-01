@@ -15,23 +15,24 @@ public class SolutionApproach0SweepLine {
 
     public String addBoldTag(String s, String[] dict) {
         final int L = s.length();
-        int[] mark = new int[L + 1];
+
+        int[] marks = new int[L + 1];
         for(String word : dict){
-            int i = -1;
-            while((i = s.indexOf(word, i + 1)) >= 0){
-                ++mark[i];
-                --mark[i + word.length()];
+            int idx = -1;
+            while((idx = s.indexOf(word, idx + 1)) >= 0){
+                ++marks[idx];
+                --marks[idx + word.length()];
             }
         }
         
         StringBuilder builder = new StringBuilder();
-        int sum = 0;
-        for(int i = 0; i <= L; ++i){
-            int cur = sum + mark[i];
+        int sum = 0, idx = 0;
+        while(idx <= L){
+            int cur = sum + marks[idx];
             if(cur > 0 && sum == 0) builder.append(TAG_OPEN);
             if(cur == 0 && sum > 0) builder.append(TAG_CLOSED);
-            if(i == L) break;
-            builder.append(s.charAt(i));
+            if(idx == L) break;
+            builder.append(s.charAt(idx));
             sum = cur;
         }
         

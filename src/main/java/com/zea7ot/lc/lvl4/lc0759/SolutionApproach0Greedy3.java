@@ -17,20 +17,21 @@ public class SolutionApproach0Greedy3 {
     public List<Interval> employeeFreeTime(List<List<Interval>> schedule) {
         List<Interval> ans = new ArrayList<Interval>();
         // sanity check
-        if(schedule == null || schedule.isEmpty()) return ans;
-        
+        if (schedule == null || schedule.isEmpty())
+            return ans;
+
         List<Interval> timeline = new ArrayList<Interval>();
         schedule.forEach(list -> timeline.addAll(list));
         Collections.sort(timeline, (a, b) -> Integer.compare(a.start, b.start));
-        
+
         int end = timeline.get(0).end;
-        for(Interval cur : timeline){
-            if(cur.start > end){
+        for (Interval cur : timeline) {
+            if (cur.start > end) {
                 ans.add(new Interval(end, cur.start));
             }
             end = Math.max(end, cur.end);
         }
-        
+
         return ans;
     }
 }
