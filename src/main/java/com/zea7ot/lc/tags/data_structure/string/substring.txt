@@ -5,6 +5,8 @@ References:
 ### String
 # Substring
 
+3   0005    https://leetcode.com/problems/longest-palindromic-substring/
+
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 4   0139    https://leetcode.com/problems/word-break/
 4   1062    https://leetcode.com/problems/longest-repeating-substring/

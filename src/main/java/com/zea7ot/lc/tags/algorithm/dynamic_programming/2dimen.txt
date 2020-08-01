@@ -8,6 +8,7 @@ References:
 
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 
+3   0005    https://leetcode.com/problems/longest-palindromic-substring/
 3   0062    https://leetcode.com/problems/unique-paths/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/

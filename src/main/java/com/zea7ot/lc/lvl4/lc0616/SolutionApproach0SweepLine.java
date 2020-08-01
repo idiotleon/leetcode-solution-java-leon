@@ -34,6 +34,7 @@ public class SolutionApproach0SweepLine {
             if(idx == L) break;
             builder.append(s.charAt(idx));
             sum = cur;
+            ++idx;
         }
         
         return builder.toString();
