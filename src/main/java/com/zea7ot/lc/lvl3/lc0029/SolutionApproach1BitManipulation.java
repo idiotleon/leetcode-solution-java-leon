@@ -11,18 +11,19 @@ package com.zea7ot.lc.lvl3.lc0029;
 
 public class SolutionApproach1BitManipulation {
     public int divide(int dividend, int divisor) {
-        if(dividend == 1 << 31 && divisor == -1) return (1 << 31) - 1;
-        
+        if (dividend == 1 << 31 && divisor == -1)
+            return (1 << 31) - 1;
+
         int a = Math.abs(dividend), b = Math.abs(divisor);
         int ans = 0;
-        
-        for(int count = 31; count >= 0; count--){
-            if((a >>> count) - b >= 0){
+
+        for (int count = 31; count >= 0; count--) {
+            if ((a >>> count) - b >= 0) {
                 ans += 1 << count;
                 a -= b << count;
             }
         }
-        
+
         return (dividend > 0) == (divisor > 0) ? ans : -ans;
     }
 }

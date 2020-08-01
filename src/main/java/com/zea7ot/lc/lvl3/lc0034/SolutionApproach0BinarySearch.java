@@ -2,15 +2,15 @@
  * @author: Leon
  * https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
  * 
- * Time Complexity: O(2 * lg(N)) ~ O(lg(N))
- * Space Complexity: O(1)
+ * Time Complexity:     O(2 * lg(N)) ~ O(lg(N))
+ * Space Complexity:    O(1)
  * 
  * References:
  *  https://en.wikipedia.org/wiki/Binary_search_algorithm
  */
 package com.zea7ot.lc.lvl3.lc0034;
 
-public class SolutionApproach0BinarySearch0 {
+public class SolutionApproach0BinarySearch {
     public int[] searchRange(int[] nums, int target) {
         int start = binarySearchLeftmost(nums, target);
         int end = binarySearchRightmost(nums, target);
@@ -43,19 +43,20 @@ public class SolutionApproach0BinarySearch0 {
      *                  or were the target not in the array, see the above description
      */
     private int binarySearchLeftmost(int[] nums, int target){
-        int left = 0, right = nums.length;
-        while(left < right){
-            int mid = left + (right - left) / 2;
+        final int N = nums.length;
+        int lo = 0, hi = N;
+        while(lo < hi){
+            int mid = lo + (hi - lo) / 2;
             
-            if(target > nums[mid]) left = mid + 1;
+            if(target > nums[mid]) lo = mid + 1;
             // please pay attention to the equality condition:
             // once the target has been found,
             // still to find the left most one,
             // by discarding the right part
-            else right = mid; 
+            else hi = mid;
         }
         
-        return left;
+        return lo;
     }
     
     /**
@@ -79,18 +80,19 @@ public class SolutionApproach0BinarySearch0 {
      *                  or were the target not in the array, see the above description
      */ 
     private int binarySearchRightmost(int[] nums, int target){
-        int left = 0, right = nums.length;
-        while(left < right){
-            int mid = left + (right - left) / 2;
+        final int N = nums.length;
+        int lo = 0, hi = N;
+        while(lo < hi){
+            int mid = lo + (hi - lo) / 2;
             
-            if(target < nums[mid]) right = mid;
+            if(target < nums[mid]) hi = mid;
             // please pay attention to the equality condition:
             // once the target has been found,
             // still to find the right most one,
             // by discarding the left part
-            else left = mid + 1;
+            else lo = mid + 1;
         }
         
-        return right - 1;
+        return hi - 1;
     }
 }

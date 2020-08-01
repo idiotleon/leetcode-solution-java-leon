@@ -16,6 +16,8 @@ References:
 2   1047    https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
 
 3   0005    https://leetcode.com/problems/longest-palindromic-substring/
+3   0029    https://leetcode.com/problems/divide-two-integers/
+3   0049    https://leetcode.com/problems/group-anagrams/
 3   0060    https://leetcode.com/problems/permutation-sequence/
 3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0320    https://leetcode.com/problems/generalized-abbreviation/

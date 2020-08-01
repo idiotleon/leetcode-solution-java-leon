@@ -1,0 +1,31 @@
+@author: Leon
+
+0015    https://leetcode.com/problems/3sum/
+0016    https://leetcode.com/problems/3sum-closest/
+0033    https://leetcode.com/problems/search-in-rotated-sorted-array/
+0034    https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+0036    https://leetcode.com/problems/valid-sudoku/
+0039    https://leetcode.com/problems/combination-sum/
+0040    https://leetcode.com/problems/combination-sum-ii/
+0046    https://leetcode.com/problems/permutations/
+0047    https://leetcode.com/problems/permutations-ii/
+0048    https://leetcode.com/problems/rotate-image/
+0049    https://leetcode.com/problems/group-anagrams/
+0050    https://leetcode.com/problems/powx-n/
+0054
+0055
+0056
+0060
+0061
+0062
+0069
+0071
+0075
+0080
+0086
+0091
+0092
+0093
+0095
+0096
+0098

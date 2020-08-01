@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
  * 
- * Time Complexity: O(2 * lg(N)) ~ O(lg(N))
- * Space Complexity: O(1)
+ * Time Complexity:     O(2 * lg(N)) ~ O(lg(N))
+ * Space Complexity:    O(1)
  */
 package com.zea7ot.lc.lvl3.lc0034;
 
@@ -21,15 +21,15 @@ public class SolutionApproach1BinarySearch {
     }
     
     private int search(int[] nums, int target, boolean left){
-        int low = 0, high = nums.length;
+        int lo = 0, hi = nums.length;
         
-        while(low < high){
-            int mid = low + (high - low) / 2;
+        while(lo < hi){
+            int mid = lo + (hi - lo) / 2;
             if(nums[mid] > target || (left && nums[mid] == target))
-                high = mid;
-            else low = mid + 1;
+                hi = mid;
+            else lo = mid + 1;
         }
         
-        return low;
+        return lo;
     }
 }
