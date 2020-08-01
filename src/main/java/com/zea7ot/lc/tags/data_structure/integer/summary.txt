@@ -7,6 +7,7 @@
 2   0263    https://leetcode.com/problems/ugly-number/
 
 3   0050    https://leetcode.com/problems/powx-n/
+3   0069    https://leetcode.com/problems/sqrtx/
 3   0279    https://leetcode.com/problems/perfect-squares/
 3   0357    https://leetcode.com/problems/count-numbers-with-unique-digits/
 

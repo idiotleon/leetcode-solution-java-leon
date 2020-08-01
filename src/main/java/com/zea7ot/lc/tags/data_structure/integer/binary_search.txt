@@ -1,8 +1,6 @@
 @author: Leon
 
-
 ### Integer
-# Parsing Integer
+# Binary Search
 
-3   0050    https://leetcode.com/problems/powx-n/
 3   0069    https://leetcode.com/problems/sqrtx/

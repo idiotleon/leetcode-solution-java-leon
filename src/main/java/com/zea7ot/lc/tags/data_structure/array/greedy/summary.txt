@@ -6,6 +6,7 @@
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   0896    https://leetcode.com/problems/monotonic-array/
 
+3   0055    https://leetcode.com/problems/jump-game/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0406    https://leetcode.com/problems/queue-reconstruction-by-height/
 3   0435    https://leetcode.com/problems/non-overlapping-intervals/

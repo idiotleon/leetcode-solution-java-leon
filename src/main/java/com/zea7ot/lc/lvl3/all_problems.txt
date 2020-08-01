@@ -12,15 +12,15 @@
 0048    https://leetcode.com/problems/rotate-image/
 0049    https://leetcode.com/problems/group-anagrams/
 0050    https://leetcode.com/problems/powx-n/
-0054
-0055
-0056
-0060
-0061
-0062
-0069
-0071
-0075
+0054    https://leetcode.com/problems/spiral-matrix/
+0055    https://leetcode.com/problems/jump-game/
+0056    https://leetcode.com/problems/merge-intervals/
+0060    https://leetcode.com/problems/permutation-sequence/
+0061    https://leetcode.com/problems/rotate-list/
+0062    https://leetcode.com/problems/unique-paths/ 
+0069    https://leetcode.com/problems/sqrtx/
+0071    https://leetcode.com/problems/simplify-path/
+0075    https://leetcode.com/problems/sort-colors/
 0080
 0086
 0091
