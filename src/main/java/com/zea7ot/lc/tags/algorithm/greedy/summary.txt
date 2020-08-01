@@ -7,6 +7,7 @@ References:
 2   0984    https://leetcode.com/problems/string-without-aaa-or-bbb/
 2   1094    https://leetcode.com/problems/car-pooling/
 
+3   0055    https://leetcode.com/problems/jump-game/
 3   0253    https://leetcode.com/problems/meeting-rooms-ii/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0406    https://leetcode.com/problems/queue-reconstruction-by-height/

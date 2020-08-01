@@ -19,6 +19,7 @@ References:
 3   0029    https://leetcode.com/problems/divide-two-integers/
 3   0049    https://leetcode.com/problems/group-anagrams/
 3   0060    https://leetcode.com/problems/permutation-sequence/
+3   0071    https://leetcode.com/problems/simplify-path/
 3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0320    https://leetcode.com/problems/generalized-abbreviation/
 3   0468    https://leetcode.com/problems/validate-ip-address/
