@@ -1,17 +1,23 @@
 /**
  * https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+ * 
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(1)
  */
 package com.zea7ot.lc.lvl3.lc0080;
 
 public class Solution {
     public int removeDuplicates(int[] nums) {
-        int i = 0;
-        for(int num : nums){
-            if(i < 2 || num > nums[i - 2]){
-                nums[i++] = num;
+        // sanity check
+        if(nums == null || nums.length == 0) return 0;
+
+        int idx = 0;
+        for (int num : nums) {
+            if (idx < 2 || num > nums[idx - 2]) {
+                nums[idx++] = num;
             }
         }
-        
-        return i;
+
+        return idx;
     }
 }
