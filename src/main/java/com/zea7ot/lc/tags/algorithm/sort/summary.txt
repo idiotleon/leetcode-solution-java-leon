@@ -19,6 +19,7 @@
 3   1233    https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
 
+4   0023    https://leetcode.com/problems/merge-k-sorted-lists/
 4   0148    https://leetcode.com/problems/sort-list/
 4   0632    https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
 4   0895    https://leetcode.com/problems/maximum-frequency-stack/
