@@ -34,3 +34,5 @@
 0114    https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 0116    https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
 0119    https://leetcode.com/problems/pascals-triangle-ii/
+
+1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/
