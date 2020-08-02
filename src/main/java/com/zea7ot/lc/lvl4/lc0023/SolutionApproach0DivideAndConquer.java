@@ -1,7 +1,10 @@
 /**
  * https://leetcode.com/problems/merge-k-sorted-lists/
  * 
- * Time Complexity:     O(N * lg(k))
+ * Time Complexity:     O(K * L * lg(K))
+ *  K, the number of lists to be merged
+ *  L, the average length of lists
+ * 
  * Space Complexity:    O(1)
  */
 package com.zea7ot.lc.lvl4.lc0023;
@@ -10,40 +13,46 @@ import com.zea7ot.utils.data_structure.linkedlist.ListNode;
 
 class SolutionApproach0DivideAndConquer {
     public ListNode mergeKLists(ListNode[] lists) {
-        if(lists == null || lists.length == 0) return null;
-        
-        return mergeKLists(lists, 0, lists.length - 1);
+        // sanity check
+        if (lists == null || lists.length == 0)
+            return null;
+
+        final int N = lists.length;
+        return mergeKLists(0, N - 1, lists);
     }
-    
-    private ListNode mergeKLists(ListNode[] lists, int start, int end){
-        if(end < start) return null;
-        if(end - start == 0) return lists[start];
-        if(end - start == 1) return merge(lists[start], lists[end]);
-        
-        int mid = start + (end - start) / 2;
-        ListNode lower = mergeKLists(lists, start, mid);
-        ListNode upper = mergeKLists(lists, mid + 1, end);
-        
+
+    private ListNode mergeKLists(int lo, int hi, ListNode[] lists) {
+        if (hi < lo)
+            return null;
+        if (hi - lo == 0)
+            return lists[lo];
+        if (hi - lo == 1)
+            return merge(lists[lo], lists[hi]);
+
+        int mid = lo + (hi - lo) / 2;
+        ListNode lower = mergeKLists(lo, mid, lists);
+        ListNode upper = mergeKLists(mid + 1, hi, lists);
+
         return merge(lower, upper);
     }
-    
-    private ListNode merge(ListNode l1, ListNode l2){
+
+    private ListNode merge(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(-1), prev = dummy;
-        
-        while(l1 != null && l2 != null){
-            if(l1.val < l2.val){
+
+        while (l1 != null && l2 != null) {
+            if (l1.val < l2.val) {
                 prev.next = l1;
                 l1 = l1.next;
-            }else{
+            } else {
                 prev.next = l2;
                 l2 = l2.next;
             }
-            
+
             prev = prev.next;
         }
-        
+
         prev.next = (l1 == null) ? l2 : l1;
-        
+
         return dummy.next;
     }
 }
