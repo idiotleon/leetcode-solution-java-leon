@@ -22,3 +22,4 @@ References:
 4   0148    https://leetcode.com/problems/sort-list/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0632    https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
+4   1537    https://leetcode.com/problems/get-the-maximum-score/

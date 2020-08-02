@@ -36,6 +36,7 @@
 4   1216    https://leetcode.com/problems/valid-palindrome-iii/
 4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
+4   1537    https://leetcode.com/problems/get-the-maximum-score/
 
 5   0140    https://leetcode.com/problems/word-break-ii/
 5   0472    https://leetcode.com/problems/concatenated-words/
