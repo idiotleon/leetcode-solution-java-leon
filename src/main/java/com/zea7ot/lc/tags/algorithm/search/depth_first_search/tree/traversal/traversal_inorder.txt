@@ -5,6 +5,7 @@
 
 2   0501    https://leetcode.com/problems/find-mode-in-binary-search-tree/
 2   1214    https://leetcode.com/problems/two-sum-bsts/
+2   1379    https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/
 
 3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 3   0173    https://leetcode.com/problems/binary-search-tree-iterator/
