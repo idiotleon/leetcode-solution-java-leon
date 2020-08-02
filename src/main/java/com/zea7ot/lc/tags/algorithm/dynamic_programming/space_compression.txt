@@ -6,6 +6,9 @@ References:
 ### Dynamic Programming
 # Space Compression
 
+2   0063    https://leetcode.com/problems/unique-paths-ii/
+2   0064    https://leetcode.com/problems/minimum-path-sum/
+
 3   0256    https://leetcode.com/problems/paint-house/
 3   0276    https://leetcode.com/problems/paint-fence/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
@@ -18,6 +21,7 @@ References:
 3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
 3   1139    https://leetcode.com/problems/largest-1-bordered-square/
 
+4   0120    https://leetcode.com/problems/triangle/
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0221    https://leetcode.com/problems/maximal-square/
 4   0474    https://leetcode.com/problems/ones-and-zeroes/

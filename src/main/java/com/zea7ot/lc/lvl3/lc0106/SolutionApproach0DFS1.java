@@ -14,48 +14,42 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 public class SolutionApproach0DFS1 {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         // sanity check
-        if(inorder == null 
-            || inorder.length == 0 
-            || postorder == null 
-            || postorder.length == 0 
-            || inorder.length != postorder.length) 
-                return null;
+        if (inorder == null || inorder.length == 0 || postorder == null || postorder.length == 0
+                || inorder.length != postorder.length)
+            return null;
 
         final int N = postorder.length;
-        int[] idxInorder = new int[]{N - 1};
-        int[] idxPostorder = new int[]{N - 1};
+        int[] idxInorder = new int[] { N - 1 };
+        int[] idxPostorder = new int[] { N - 1 };
         return dfs(inorder, idxInorder, postorder, idxPostorder, null);
     }
-    
+
     /**
      * 
      * @param inorder
      * @param idxInorder
      * @param postorder
      * @param idxPostorder
-     * @param end   the boundary of the left subtree
+     * @param end          the boundary of the left subtree
      * @return
      */
-    private TreeNode dfs(int[] inorder, 
-                         int[] idxInorder,
-                         int[] postorder, 
-                         int[] idxPostorder, 
-                         TreeNode end){
-        if(idxPostorder[0] < 0) return null;
-        
+    private TreeNode dfs(int[] inorder, int[] idxInorder, int[] postorder, int[] idxPostorder, TreeNode end) {
+        if (idxPostorder[0] < 0)
+            return null;
+
         int rootVal = postorder[idxPostorder[0]];
         TreeNode root = new TreeNode(rootVal);
         idxPostorder[0]--;
-        
-        if(inorder[idxInorder[0]] != root.val){
+
+        if (inorder[idxInorder[0]] != root.val) {
             root.right = dfs(inorder, idxInorder, postorder, idxPostorder, root);
         }
-        
+
         idxInorder[0]--;
-        if((end == null) || (inorder[idxInorder[0]] != end.val)){
+        if ((end == null) || (inorder[idxInorder[0]] != end.val)) {
             root.left = dfs(inorder, idxInorder, postorder, idxPostorder, end);
         }
-        
+
         return root;
     }
 }

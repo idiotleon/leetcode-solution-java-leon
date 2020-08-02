@@ -6,10 +6,13 @@ References:
 ### Dynamic Programming
 # 2 Dimensional
 
+2   0063    https://leetcode.com/problems/unique-paths-ii/
+2   0064    https://leetcode.com/problems/minimum-path-sum/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 
 3   0005    https://leetcode.com/problems/longest-palindromic-substring/
 3   0062    https://leetcode.com/problems/unique-paths/
+3   0119    https://leetcode.com/problems/pascals-triangle-ii/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
 3   0647    https://leetcode.com/problems/palindromic-substrings/
@@ -26,6 +29,7 @@ References:
 4   0072    https://leetcode.com/problems/edit-distance/
 4   0097    https://leetcode.com/problems/interleaving-string/
 4   0115    https://leetcode.com/problems/distinct-subsequences/
+4   0120    https://leetcode.com/problems/triangle/
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0221    https://leetcode.com/problems/maximal-square/
 4   0312    https://leetcode.com/problems/burst-balloons/

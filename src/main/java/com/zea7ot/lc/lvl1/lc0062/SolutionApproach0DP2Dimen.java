@@ -4,7 +4,7 @@
  * Time Complexity:     O(m * n)
  * Space Complexity:    O(m * n)
  */
-package com.zea7ot.lc.lvl3.lc0062;
+package com.zea7ot.lc.lvl1.lc0062;
 
 public class SolutionApproach0DP2Dimen {
     public int uniquePaths(int m, int n) {

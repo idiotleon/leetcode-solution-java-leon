@@ -28,7 +28,7 @@ public class SolutionApproach0BFS {
             final int SIZE = queue.size();
             LinkedList<Integer> intermediate = new LinkedList<Integer>();
             
-            for(int i = 0; i < SIZE; i++){
+            for(int i = 0; i < SIZE; ++i){
                 TreeNode cur = queue.poll();
                 if(level % 2 == 0) intermediate.addLast(cur.val);
                 else intermediate.addFirst(cur.val);

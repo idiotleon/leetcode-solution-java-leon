@@ -1,12 +1,16 @@
 /**
  * https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+ * 
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(H)
+ * 
+ * a top-down approach
  */
 package com.zea7ot.lc.lvl3.lc0116;
 
-import com.zea7ot.utils.data_structure.tree.TreeNodeWithNextPtr;
-
-public class SolutionApproachDFSTopDown1 {
-    public TreeNodeWithNextPtr connect(TreeNodeWithNextPtr root) {
+public class SolutionApproach0Preorder1 {
+    public Node connect(Node root) {
+        // sanity check
         if(root == null) return root;
             
         if(root.left != null){
