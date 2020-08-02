@@ -29,6 +29,7 @@
 4   1246    https://leetcode.com/problems/palindrome-removal/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
+4   1537    https://leetcode.com/problems/get-the-maximum-score/
 
 5   0140    https://leetcode.com/problems/word-break-ii/
 5   0212    https://leetcode.com/problems/word-search-ii/

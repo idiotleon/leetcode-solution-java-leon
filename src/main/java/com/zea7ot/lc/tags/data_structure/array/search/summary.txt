@@ -54,6 +54,7 @@
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 4   1439    https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/
+4   1537    https://leetcode.com/problems/get-the-maximum-score/
 
 5   0037    https://leetcode.com/problems/sudoku-solver/
 5   0140    https://leetcode.com/problems/word-break-ii/
