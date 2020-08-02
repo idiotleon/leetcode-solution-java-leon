@@ -8,6 +8,8 @@ References:
 
 1   0766    https://leetcode.com/problems/toeplitz-matrix/
 
+2   0064    https://leetcode.com/problems/minimum-path-sum/
+2   0118    https://leetcode.com/problems/pascals-triangle/
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0310    https://leetcode.com/problems/minimum-height-trees/
 2   0690    https://leetcode.com/problems/employee-importance/
@@ -19,6 +21,8 @@ References:
 3   0054    https://leetcode.com/problems/spiral-matrix/
 3   0056    https://leetcode.com/problems/merge-intervals/
 3   0062    https://leetcode.com/problems/unique-paths/
+3   0119    https://leetcode.com/problems/pascals-triangle-ii/
+4   0120    https://leetcode.com/problems/triangle/
 3   0130    https://leetcode.com/problems/surrounded-regions/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0256    https://leetcode.com/problems/paint-house/
@@ -49,6 +53,7 @@ References:
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
 3   1424    https://leetcode.com/problems/diagonal-traverse-ii/
 
+4   0120    https://leetcode.com/problems/triangle/
 4   0218    https://leetcode.com/problems/the-skyline-problem/
 4   0221    https://leetcode.com/problems/maximal-square/
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/

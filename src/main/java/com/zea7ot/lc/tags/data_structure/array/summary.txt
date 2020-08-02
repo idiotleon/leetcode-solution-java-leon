@@ -12,6 +12,7 @@ This file serves as the total list of problems related to Array, regardless of a
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0001    https://leetcode.com/problems/two-sum/
+2   0118    https://leetcode.com/problems/pascals-triangle/
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0280    https://leetcode.com/problems/wiggle-sort/
 2   0310    https://leetcode.com/problems/minimum-height-trees/
@@ -38,6 +39,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0060    https://leetcode.com/problems/permutation-sequence/
 3   0062    https://leetcode.com/problems/unique-paths/
 3   0075    https://leetcode.com/problems/sort-colors/
+3   0119    https://leetcode.com/problems/pascals-triangle-ii/
 3   0130    https://leetcode.com/problems/surrounded-regions/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
@@ -104,6 +106,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
+4   0120    https://leetcode.com/problems/triangle/
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0135    https://leetcode.com/problems/candy/
 4   0174    https://leetcode.com/problems/dungeon-game/

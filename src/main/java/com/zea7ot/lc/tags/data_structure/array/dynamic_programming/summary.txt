@@ -4,9 +4,12 @@
 ## Dynamic Programming
 # Summary
 
+2   0064    https://leetcode.com/problems/minimum-path-sum/
+2   0118    https://leetcode.com/problems/pascals-triangle/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 
 3   0062    https://leetcode.com/problems/unique-paths/
+3   0119    https://leetcode.com/problems/pascals-triangle-ii/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0256    https://leetcode.com/problems/paint-house/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
@@ -20,6 +23,7 @@
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1139    https://leetcode.com/problems/largest-1-bordered-square/
 
+4   0120    https://leetcode.com/problems/triangle/
 4   0221    https://leetcode.com/problems/maximal-square/
 4   0265    https://leetcode.com/problems/paint-house-ii/
 4   0309    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/

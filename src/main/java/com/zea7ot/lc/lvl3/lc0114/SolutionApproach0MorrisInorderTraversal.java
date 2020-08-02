@@ -16,12 +16,11 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 public class SolutionApproach0MorrisInorderTraversal {
     public void flatten(TreeNode root) {
         TreeNode cur = root;
-        while(cur != null){
-            if(cur.left != null){
+        while (cur != null) {
+            if (cur.left != null) {
                 TreeNode predecessor = cur.left;
-                while(predecessor.right != null){
+                while (predecessor.right != null)
                     predecessor = predecessor.right;
-                }
 
                 predecessor.right = cur.right;
                 cur.right = cur.left;

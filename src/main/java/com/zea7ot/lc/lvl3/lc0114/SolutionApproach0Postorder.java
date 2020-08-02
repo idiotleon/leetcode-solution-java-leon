@@ -15,9 +15,10 @@ public class SolutionApproach0Postorder {
     public void flatten(TreeNode root) {
         flatten(root, null);
     }
-    
-    private TreeNode flatten(TreeNode node, TreeNode prev){
-        if(node == null) return prev;
+
+    private TreeNode flatten(TreeNode node, TreeNode prev) {
+        if (node == null)
+            return prev;
         prev = flatten(node.right, prev);
         prev = flatten(node.left, prev);
         node.right = prev;
