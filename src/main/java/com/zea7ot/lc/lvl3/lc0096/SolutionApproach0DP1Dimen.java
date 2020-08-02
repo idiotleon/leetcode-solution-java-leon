@@ -19,7 +19,7 @@
  */
 package com.zea7ot.lc.lvl3.lc0096;
 
-public class SolutionApproach0DP {
+public class SolutionApproach0DP1Dimen {
     public int numTrees(int n) {
         int[] dp = new int[n + 1];
         dp[0] = dp[1] = 1;

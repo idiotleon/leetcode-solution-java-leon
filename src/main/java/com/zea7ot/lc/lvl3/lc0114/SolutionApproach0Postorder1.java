@@ -14,17 +14,18 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0Postorder1 {
     private TreeNode prev = null;
-    
+
     public void flatten(TreeNode root) {
         // sanity check
-        if(root == null) return;
-        
+        if (root == null)
+            return;
+
         flatten(root.right);
         flatten(root.left);
-        
+
         root.right = prev;
         root.left = null;
-        
+
         prev = root;
     }
 }

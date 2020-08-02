@@ -13,7 +13,7 @@ import java.util.Map;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0DFS1 {
+public class SolutionApproach0DFSRecursive {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         // sanity check
         if(inorder == null 
@@ -44,7 +44,7 @@ public class SolutionApproach0DFS1 {
         TreeNode root = new TreeNode(rootVal);
         int index = idxMap.get(rootVal);
         
-        preIdx[0]++;
+        ++preIdx[0];
         root.left = dfs(idxMap, preorder, preIdx, inorderStart, index);
         root.right = dfs(idxMap, preorder, preIdx, index + 1, inorderRight);
         

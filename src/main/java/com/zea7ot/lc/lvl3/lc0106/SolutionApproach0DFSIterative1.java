@@ -15,30 +15,27 @@ import java.util.Deque;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0SimulateDFS1 {
+public class SolutionApproach0DFSIterative1 {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         // sanity check
-        if(inorder == null 
-            || inorder.length == 0 
-            || postorder == null 
-            || postorder.length == 0 
-            || inorder.length != postorder.length) 
-                return null;
-        
-        final int N = inorder.length;        
+        if (inorder == null || inorder.length == 0 || postorder == null || postorder.length == 0
+                || inorder.length != postorder.length)
+            return null;
+
+        final int N = inorder.length;
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
         TreeNode root = new TreeNode(postorder[N - 1]);
         stack.push(root);
-        
-        for(int i = N - 2, j = N - 1; i >= 0; --i){
+
+        for (int i = N - 2, j = N - 1; i >= 0; --i) {
             // postorder[i] is the rightmost node,
             // the child till the element in inorder traveral that is not equal
-            if(stack.peek().val != inorder[j]){
+            if (stack.peek().val != inorder[j]) {
                 stack.push(stack.peek().right = new TreeNode(postorder[i]));
-            }else{
+            } else {
                 TreeNode temp = null;
                 // to pop out all elements matching inorder elements
-                while(!stack.isEmpty() && stack.peek().val == inorder[j]){
+                while (!stack.isEmpty() && stack.peek().val == inorder[j]) {
                     temp = stack.pop();
                     j--;
                 }
@@ -46,7 +43,7 @@ public class SolutionApproach0SimulateDFS1 {
                 stack.push(temp.left = new TreeNode(postorder[i]));
             }
         }
-        
+
         return root;
     }
 }

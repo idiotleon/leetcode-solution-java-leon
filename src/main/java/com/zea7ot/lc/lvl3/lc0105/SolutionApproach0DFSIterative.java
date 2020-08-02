@@ -15,34 +15,31 @@ import java.util.Deque;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0SimulateDFS {
+public class SolutionApproach0DFSIterative {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         // sanity check
-        if(inorder == null 
-            || inorder.length == 0 
-            || preorder == null 
-            || preorder.length == 0 
-            || inorder.length != preorder.length)
-                return null;
-        
-        final int L = preorder.length;
+        if (inorder == null || inorder.length == 0 || preorder == null || preorder.length == 0
+                || inorder.length != preorder.length)
+            return null;
+
+        final int N = preorder.length;
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
         TreeNode root = new TreeNode(preorder[0]), cur = root;
-        for(int i = 1, j = 0; i < L; i++){
-            if(cur.val != inorder[j]){
+        for (int i = 1, j = 0; i < N; i++) {
+            if (cur.val != inorder[j]) {
                 cur.left = new TreeNode(preorder[i]);
                 stack.push(cur);
                 cur = cur.left;
-            }else{
-                j++;
-                while(!stack.isEmpty() && stack.peek().val == inorder[j]){
+            } else {
+                ++j;
+                while (!stack.isEmpty() && stack.peek().val == inorder[j]) {
                     cur = stack.pop();
-                    j++;
+                    ++j;
                 }
                 cur = cur.right = new TreeNode(preorder[i]);
             }
         }
-        
+
         return root;
     }
 }
