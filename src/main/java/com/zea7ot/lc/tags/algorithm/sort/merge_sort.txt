@@ -2,6 +2,8 @@
 
 ### Merge Sort
 
+2   1305    https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
+
 3   0912    https://leetcode.com/problems/sort-an-array/
 
 4   0148    https://leetcode.com/problems/sort-list/
