@@ -18,7 +18,7 @@ import java.util.List;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0InorderTraversalIterative {
+public class SolutionApproach0ControlledInorderIterative {
     public List<Integer> getAllElements(TreeNode root1, TreeNode root2) {
         List<Integer> ans = new ArrayList<Integer>();
         Deque<TreeNode> stack1 = new ArrayDeque<TreeNode>();
