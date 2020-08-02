@@ -16,6 +16,7 @@
 2   0701    https://leetcode.com/problems/insert-into-a-binary-search-tree/
 2   0814    https://leetcode.com/problems/binary-tree-pruning/
 2   0958    https://leetcode.com/problems/check-completeness-of-a-binary-tree/
+2   1305    https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
 
 3   0098    https://leetcode.com/problems/validate-binary-search-tree/
 3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
