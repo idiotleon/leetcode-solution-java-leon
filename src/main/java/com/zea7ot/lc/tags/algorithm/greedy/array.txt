@@ -21,6 +21,7 @@ References:
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1272    https://leetcode.com/problems/remove-interval/
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
+3   1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/
 
 4   0358    https://leetcode.com/problems/rearrange-string-k-distance-apart/
 4   0502    https://leetcode.com/problems/ipo/

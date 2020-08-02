@@ -105,6 +105,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
+3   1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/
 
 4   0120    https://leetcode.com/problems/triangle/
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
