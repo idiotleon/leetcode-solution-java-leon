@@ -8,6 +8,7 @@ References:
 1   0067    https://leetcode.com/problems/add-binary/
 1   0258    https://leetcode.com/problems/add-digits/
 1   0415    https://leetcode.com/problems/add-strings/
+1   0520    https://leetcode.com/problems/detect-capital/
 
 2   0165    https://leetcode.com/problems/compare-version-numbers/
 2   0408    https://leetcode.com/problems/valid-word-abbreviation/

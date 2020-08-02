@@ -11,7 +11,7 @@ import java.util.List;
 public class SolutionApproach0DP2Dimen {
     public int minimumTotal(List<List<Integer>> triangle) {
         // sanity check
-        if (triangle == null || triangle.isEmpty())
+        if (triangle == null || triangle.isEmpty() || triangle.get(0).isEmpty())
             return 0;
 
         final int NR = triangle.size();
