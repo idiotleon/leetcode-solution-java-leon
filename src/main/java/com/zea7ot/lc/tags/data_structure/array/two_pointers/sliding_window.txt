@@ -5,6 +5,7 @@ References:
 ### Array
 # Sliding Window
 
+3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
