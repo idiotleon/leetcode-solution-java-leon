@@ -1,0 +1,7 @@
+@author: Leon
+
+
+### Tree
+# N-Ary Tree
+
+3   1522    https://leetcode.com/problems/diameter-of-n-ary-tree/

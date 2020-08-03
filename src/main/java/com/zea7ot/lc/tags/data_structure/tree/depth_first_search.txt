@@ -53,6 +53,7 @@ References:
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
 3   1485    https://leetcode.com/problems/clone-binary-tree-with-random-pointer/
 3   1519    https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/
+3   1522    https://leetcode.com/problems/diameter-of-n-ary-tree/
 3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
 
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
