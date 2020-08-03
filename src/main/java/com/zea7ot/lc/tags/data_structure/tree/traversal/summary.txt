@@ -42,6 +42,7 @@
 3   0666    https://leetcode.com/problems/path-sum-iv/
 3   0776    https://leetcode.com/problems/split-bst/
 3   0783    https://leetcode.com/problems/minimum-distance-between-bst-nodes/
+3   1245    https://leetcode.com/problems/tree-diameter/
 3   1382    https://leetcode.com/problems/balance-a-binary-search-tree/
 3   1519    https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/
 3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
