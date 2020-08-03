@@ -1,5 +1,7 @@
 @author: Leon
 
+### Level 3
+
 0015    https://leetcode.com/problems/3sum/
 0016    https://leetcode.com/problems/3sum-closest/
 0033    https://leetcode.com/problems/search-in-rotated-sorted-array/
@@ -35,4 +37,7 @@
 0116    https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
 0119    https://leetcode.com/problems/pascals-triangle-ii/
 
+1245    https://leetcode.com/problems/tree-diameter/
+
+1522    https://leetcode.com/problems/diameter-of-n-ary-tree/
 1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/

@@ -12,7 +12,7 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0PostorderRecursive {
     public int diameterOfBinaryTree(TreeNode root) {
-        int[] max = {0};
+        int[] max = { 0 };
         postorder(root, max);
         return max[0];
     }
