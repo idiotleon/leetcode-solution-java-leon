@@ -1,0 +1,4 @@
+@author: Leon
+
+3   0031    https://leetcode.com/problems/next-permutation/
+3   0556    https://leetcode.com/problems/next-greater-element-iii/
