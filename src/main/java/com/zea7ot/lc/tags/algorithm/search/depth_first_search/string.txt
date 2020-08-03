@@ -7,6 +7,7 @@
 3   0269    https://leetcode.com/problems/alien-dictionary/
 3   0439    https://leetcode.com/problems/ternary-expression-parser/
 3   0494    https://leetcode.com/problems/target-sum/
+3   0681    https://leetcode.com/problems/next-closest-time/
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 
 4   0097    https://leetcode.com/problems/interleaving-string/

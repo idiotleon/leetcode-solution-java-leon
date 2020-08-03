@@ -26,6 +26,7 @@ References:
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/
 3   1472    https://leetcode.com/problems/design-browser-history/
 
+4   0023    https://leetcode.com/problems/merge-k-sorted-lists/
 4   0146    https://leetcode.com/problems/lru-cache/
 4   0148    https://leetcode.com/problems/sort-list/
 4   0735    https://leetcode.com/problems/asteroid-collision/

@@ -4,12 +4,14 @@ References:
 
 ### Object-Oriented Design
 
+2   0359    https://leetcode.com/problems/logger-rate-limiter/
 2   0384    https://leetcode.com/problems/shuffle-an-array/
 2   0398    https://leetcode.com/problems/random-pick-index/
 2   0535    https://leetcode.com/problems/encode-and-decode-tinyurl/
 2   0622    https://leetcode.com/problems/design-circular-queue/
 2   0707    https://leetcode.com/problems/design-linked-list/
 
+3   0173    https://leetcode.com/problems/binary-search-tree-iterator/
 3   0284    https://leetcode.com/problems/peeking-iterator/
 3   0348    https://leetcode.com/problems/design-tic-tac-toe/
 3   0379    https://leetcode.com/problems/design-phone-directory/

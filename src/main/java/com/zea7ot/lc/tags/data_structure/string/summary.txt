@@ -6,6 +6,7 @@ References:
 
 1   0067    https://leetcode.com/problems/add-binary/
 1   0345    https://leetcode.com/problems/reverse-vowels-of-a-string/
+1   0520    https://leetcode.com/problems/detect-capital/
 
 2   0165    https://leetcode.com/problems/compare-version-numbers/
 2   0290    https://leetcode.com/problems/word-pattern/
@@ -24,12 +25,15 @@ References:
 3   0091    https://leetcode.com/problems/decode-ways/
 3   0093    https://leetcode.com/problems/restore-ip-addresses/
 3   0131    https://leetcode.com/problems/palindrome-partitioning/
+3   0228    https://leetcode.com/problems/summary-ranges/
 3   0320    https://leetcode.com/problems/generalized-abbreviation/
+3   0388    https://leetcode.com/problems/longest-absolute-file-path/
 3   0468    https://leetcode.com/problems/validate-ip-address/
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
 3   0609    https://leetcode.com/problems/find-duplicate-file-in-system/
 3   0640    https://leetcode.com/problems/solve-the-equation/
 3   0647    https://leetcode.com/problems/palindromic-substrings/
+3   0681    https://leetcode.com/problems/next-closest-time/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 3   0753    https://leetcode.com/problems/cracking-the-safe/
 3   0756    https://leetcode.com/problems/pyramid-transition-matrix/

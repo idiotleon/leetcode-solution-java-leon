@@ -9,6 +9,8 @@ References:
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
 2   0692    https://leetcode.com/problems/top-k-frequent-words/
 2   0973    https://leetcode.com/problems/k-closest-points-to-origin/
+2   1305    https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
+2   1379    https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/
 
 3   0353    https://leetcode.com/problems/design-snake-game/
 3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
@@ -20,6 +22,7 @@ References:
 3   1405    https://leetcode.com/problems/longest-happy-string/
 3   1514    https://leetcode.com/problems/path-with-maximum-probability/
 
+4   0023    https://leetcode.com/problems/merge-k-sorted-lists/
 4   0218    https://leetcode.com/problems/the-skyline-problem/
 4   0239    https://leetcode.com/problems/sliding-window-maximum/
 4   0313    https://leetcode.com/problems/super-ugly-number/

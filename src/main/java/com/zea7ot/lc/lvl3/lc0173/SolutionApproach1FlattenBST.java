@@ -1,24 +1,24 @@
 /**
  * https://leetcode.com/problems/binary-search-tree-iterator/
  * 
- * Time Complexity: O(N)
+ * Time Complexity:     O(N)
  *  next()      O(1)
  *  hasNext()   O(1)
  * 
- * Space Complexity: O(N)
+ * Space Complexity:    O(N)
  */
-package com.zea7ot.lc.lvl4.lc0173;
+package com.zea7ot.lc.lvl3.lc0173;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproachFlattenBST{
+public class SolutionApproach1FlattenBST{
     private List<Integer> nodesSorted;
     private int index;
 
-    public SolutionApproachFlattenBST(TreeNode root) {
+    public SolutionApproach1FlattenBST(TreeNode root) {
         this.nodesSorted = new ArrayList<Integer>();
         this.index = -1;
         this.inorder(root);

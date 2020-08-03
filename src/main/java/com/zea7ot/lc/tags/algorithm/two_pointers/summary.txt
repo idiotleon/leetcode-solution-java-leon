@@ -12,6 +12,7 @@ References:
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
+3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
 3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
@@ -22,3 +23,4 @@ References:
 4   0148    https://leetcode.com/problems/sort-list/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0632    https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
+4   1537    https://leetcode.com/problems/get-the-maximum-score/

@@ -20,6 +20,7 @@
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1272    https://leetcode.com/problems/remove-interval/
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
+3   1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/
 
 4   0135    https://leetcode.com/problems/candy/
 4   0218    https://leetcode.com/problems/the-skyline-problem/
@@ -31,4 +32,3 @@
 5   0850    https://leetcode.com/problems/rectangle-area-ii/
 
 6   0391    https://leetcode.com/problems/perfect-rectangle/
-
