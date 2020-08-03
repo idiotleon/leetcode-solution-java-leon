@@ -10,6 +10,7 @@ References:
 3   0841    https://leetcode.com/problems/keys-and-rooms/
 3   0886    https://leetcode.com/problems/possible-bipartition/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
+3   1245    https://leetcode.com/problems/tree-diameter/
 3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 3   1391    https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/

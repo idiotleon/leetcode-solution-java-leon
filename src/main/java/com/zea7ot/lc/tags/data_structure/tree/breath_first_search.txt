@@ -17,6 +17,7 @@
 3   0103    https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
 3   0623    https://leetcode.com/problems/add-one-row-to-tree/
 3   0662    https://leetcode.com/problems/maximum-width-of-binary-tree/
+3   1245    https://leetcode.com/problems/tree-diameter/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
 3   1448    https://leetcode.com/problems/count-good-nodes-in-binary-tree/
