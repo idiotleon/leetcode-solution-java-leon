@@ -9,6 +9,7 @@
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
+3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
