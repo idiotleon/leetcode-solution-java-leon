@@ -13,12 +13,13 @@ package com.zea7ot.lc.lvl2.lc0280;
 public class SolutionApproach0Sorting1 {
     public void wiggleSort(int[] nums) {
         // sanity check
-        if(nums == null || nums.length == 0) return;
+        if (nums == null || nums.length == 0)
+            return;
 
         final int N = nums.length;
-        for(int i = 1; i < N; ++i){
+        for (int i = 1; i < N; ++i) {
             int temp = nums[i - 1];
-            if((i % 2 == 1) == (temp > nums[i])){
+            if ((i % 2 == 1) == (temp > nums[i])) {
                 nums[i - 1] = nums[i];
                 nums[i] = temp;
             }

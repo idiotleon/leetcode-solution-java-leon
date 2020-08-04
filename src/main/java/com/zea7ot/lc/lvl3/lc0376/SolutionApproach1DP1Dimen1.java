@@ -16,25 +16,26 @@ import java.util.Arrays;
 public class SolutionApproach1DP1Dimen1 {
     public int wiggleMaxLength(int[] nums) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
-        
+        if (nums == null || nums.length == 0)
+            return 0;
+
         final int N = nums.length;
         int[][] dp = new int[N][2];
         Arrays.fill(dp[0], 1);
-        
-        for(int i = 1; i < N; i++){
-            if(nums[i - 1] < nums[i]){
+
+        for (int i = 1; i < N; i++) {
+            if (nums[i - 1] < nums[i]) {
                 dp[i][0] = dp[i - 1][1] + 1;
                 dp[i][1] = dp[i - 1][1];
-            }else if(nums[i - 1] > nums[i]){
+            } else if (nums[i - 1] > nums[i]) {
                 dp[i][1] = dp[i - 1][0] + 1;
                 dp[i][0] = dp[i - 1][0];
-            }else{
+            } else {
                 dp[i][0] = dp[i - 1][0];
                 dp[i][1] = dp[i - 1][1];
             }
         }
-        
+
         return Math.max(dp[N - 1][0], dp[N - 1][1]);
     }
 }

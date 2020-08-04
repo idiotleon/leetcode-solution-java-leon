@@ -1,0 +1,10 @@
+@author: Leon
+
+2   0280    https://leetcode.com/problems/wiggle-sort/
+
+3   0376    https://leetcode.com/problems/wiggle-subsequence/
+
+5   0324    https://leetcode.com/problems/wiggle-sort-ii/
+
+Resources:
+    https://leetcode.com/problems/wiggle-sort-ii/discuss/77684/summary-of-the-various-solutions-to-wiggle-sort-for-your-reference/81858
