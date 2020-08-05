@@ -5,6 +5,7 @@ References:
 ### String
 
 1   0067    https://leetcode.com/problems/add-binary/
+1   0125    https://leetcode.com/problems/valid-palindrome/
 1   0345    https://leetcode.com/problems/reverse-vowels-of-a-string/
 1   0520    https://leetcode.com/problems/detect-capital/
 
@@ -38,6 +39,7 @@ References:
 3   0753    https://leetcode.com/problems/cracking-the-safe/
 3   0756    https://leetcode.com/problems/pyramid-transition-matrix/
 3   1048    https://leetcode.com/problems/longest-string-chain/
+3   1055    https://leetcode.com/problems/shortest-way-to-form-string/
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/

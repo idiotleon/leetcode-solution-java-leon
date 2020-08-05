@@ -73,6 +73,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0729    https://leetcode.com/problems/my-calendar-i/
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/3   0775    https://leetcode.com/problems/global-and-local-inversions/
+3   0750    https://leetcode.com/problems/number-of-corner-rectangles/
 3   0758    https://leetcode.com/problems/bold-words-in-string/
 3   0775    https://leetcode.com/problems/global-and-local-inversions/
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
@@ -183,6 +184,7 @@ This file serves as the total list of problems related to Array, regardless of a
 5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 5   0140    https://leetcode.com/problems/word-break-ii/
 5   0212    https://leetcode.com/problems/word-search-ii/
+5   0324    https://leetcode.com/problems/wiggle-sort-ii/
 5   0327    https://leetcode.com/problems/count-of-range-sum/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0493    https://leetcode.com/problems/reverse-pairs/

@@ -43,6 +43,7 @@ References:
 3   0508    https://leetcode.com/problems/most-frequent-subtree-sum/
 3   0510    https://leetcode.com/problems/inorder-successor-in-bst-ii/
 3   0530    https://leetcode.com/problems/minimum-absolute-difference-in-bst/
+3   0543    https://leetcode.com/problems/diameter-of-binary-tree/
 3   0545    https://leetcode.com/problems/boundary-of-binary-tree/
 3   0623    https://leetcode.com/problems/add-one-row-to-tree/
 3   0652    https://leetcode.com/problems/find-duplicate-subtrees/
@@ -66,6 +67,7 @@ References:
 3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
 3   1485    https://leetcode.com/problems/clone-binary-tree-with-random-pointer/
+3   1522    https://leetcode.com/problems/diameter-of-n-ary-tree/
 3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
 
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
