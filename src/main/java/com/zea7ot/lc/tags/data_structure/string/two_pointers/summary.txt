@@ -14,6 +14,7 @@ References:
 3   0680    https://leetcode.com/problems/valid-palindrome-ii/
 3   0763    https://leetcode.com/problems/partition-labels/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/description/
+3   1055    https://leetcode.com/problems/shortest-way-to-form-string/
 
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 4   0727    https://leetcode.com/problems/minimum-window-subsequence/
