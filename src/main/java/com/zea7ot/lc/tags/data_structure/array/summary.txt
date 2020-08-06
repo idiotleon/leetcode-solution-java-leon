@@ -53,6 +53,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
 3   0338    https://leetcode.com/problems/counting-bits/
+3   0360    https://leetcode.com/problems/sort-transformed-array/
 3   0373    https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
@@ -66,9 +67,9 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
 3   0548    https://leetcode.com/problems/split-array-with-equal-sum/
-4   0616    https://leetcode.com/problems/add-bold-tag-in-string/
 3   0638    https://leetcode.com/problems/shopping-offers/
 3   0659    https://leetcode.com/problems/split-array-into-consecutive-subsequences/
+3   0714    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0729    https://leetcode.com/problems/my-calendar-i/
@@ -130,10 +131,12 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0407    https://leetcode.com/problems/trapping-rain-water-ii/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0442    https://leetcode.com/problems/find-all-duplicates-in-an-array/
 4   0489    https://leetcode.com/problems/robot-room-cleaner/
 4   0474    https://leetcode.com/problems/ones-and-zeroes/
 4   0502    https://leetcode.com/problems/ipo/
 4   0505    https://leetcode.com/problems/the-maze-ii/
+4   0616    https://leetcode.com/problems/add-bold-tag-in-string/
 4   0630    https://leetcode.com/problems/course-schedule-iii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
@@ -146,6 +149,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0768    https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
 4   0769    https://leetcode.com/problems/max-chunks-to-make-sorted/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
+4   0794    https://leetcode.com/problems/valid-tic-tac-toe-state/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/

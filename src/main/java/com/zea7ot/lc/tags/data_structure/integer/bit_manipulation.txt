@@ -1,0 +1,7 @@
+@author: Leon
+
+
+### Integer
+# Bit Manipulation
+
+3   0477    https://leetcode.com/problems/total-hamming-distance/

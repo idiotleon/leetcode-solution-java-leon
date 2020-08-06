@@ -66,3 +66,5 @@ References:
 4   0894    https://leetcode.com/problems/all-possible-full-binary-trees/
 4   0979    https://leetcode.com/problems/distribute-coins-in-binary-tree/
 4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
+4   1361    https://leetcode.com/problems/validate-binary-tree-nodes/
+
