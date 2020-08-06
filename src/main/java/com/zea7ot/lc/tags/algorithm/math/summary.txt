@@ -16,6 +16,7 @@
 3   0357    https://leetcode.com/problems/count-numbers-with-unique-digits/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
 3   0400    https://leetcode.com/problems/nth-digit/
+3   0593    https://leetcode.com/problems/valid-square/
 3   0750    https://leetcode.com/problems/number-of-corner-rectangles/
 3   0939    https://leetcode.com/problems/minimum-area-rectangle/
 3   1247    https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/
