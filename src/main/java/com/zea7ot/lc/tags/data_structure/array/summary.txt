@@ -90,6 +90,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
+3   1033    https://leetcode.com/problems/moving-stones-until-consecutive/
 3   1034    https://leetcode.com/problems/coloring-a-border/
 3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
 3   1048    https://leetcode.com/problems/longest-string-chain/
@@ -166,6 +167,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
+4   1040    https://leetcode.com/problems/moving-stones-until-consecutive-ii/
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
