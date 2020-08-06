@@ -53,6 +53,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
 3   0338    https://leetcode.com/problems/counting-bits/
+3   0360    https://leetcode.com/problems/sort-transformed-array/
 3   0373    https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
@@ -66,7 +67,6 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
 3   0548    https://leetcode.com/problems/split-array-with-equal-sum/
-4   0616    https://leetcode.com/problems/add-bold-tag-in-string/
 3   0638    https://leetcode.com/problems/shopping-offers/
 3   0659    https://leetcode.com/problems/split-array-into-consecutive-subsequences/
 3   0714    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
@@ -135,6 +135,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0474    https://leetcode.com/problems/ones-and-zeroes/
 4   0502    https://leetcode.com/problems/ipo/
 4   0505    https://leetcode.com/problems/the-maze-ii/
+4   0616    https://leetcode.com/problems/add-bold-tag-in-string/
 4   0630    https://leetcode.com/problems/course-schedule-iii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
