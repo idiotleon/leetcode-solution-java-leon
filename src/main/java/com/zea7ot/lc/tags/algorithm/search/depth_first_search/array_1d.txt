@@ -26,6 +26,7 @@
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
+4   1361    https://leetcode.com/problems/validate-binary-tree-nodes/
 4   1537    https://leetcode.com/problems/get-the-maximum-score/
 
 5   0403    https://leetcode.com/problems/frog-jump/

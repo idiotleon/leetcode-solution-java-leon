@@ -158,6 +158,7 @@ References:
 4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
+4   1361    https://leetcode.com/problems/validate-binary-tree-nodes/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 4   1537    https://leetcode.com/problems/get-the-maximum-score/
 
