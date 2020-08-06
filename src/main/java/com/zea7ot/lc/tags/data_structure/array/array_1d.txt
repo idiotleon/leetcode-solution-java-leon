@@ -70,6 +70,7 @@ References:
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
 3   1023    https://leetcode.com/problems/camelcase-matching/
+3   1033    https://leetcode.com/problems/moving-stones-until-consecutive/
 3   1060    https://leetcode.com/problems/missing-element-in-sorted-array/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1054    https://leetcode.com/problems/distant-barcodes/
@@ -110,6 +111,7 @@ References:
 4   0956    https://leetcode.com/problems/tallest-billboard/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
+4   1040    https://leetcode.com/problems/moving-stones-until-consecutive-ii/
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 4   1124    https://leetcode.com/problems/longest-well-performing-interval/

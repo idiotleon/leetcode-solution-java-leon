@@ -1,0 +1,5 @@
+@author: Leon
+
+3   1033    https://leetcode.com/problems/moving-stones-until-consecutive/
+
+4   1040    https://leetcode.com/problems/moving-stones-until-consecutive-ii/
