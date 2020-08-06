@@ -1,6 +1,9 @@
 @author: Leon
 
 
+### Math
+# Permutation
+
 3   0060    https://leetcode.com/problems/permutation-sequence/
 3   1053    https://leetcode.com/problems/previous-permutation-with-one-swap/
 
