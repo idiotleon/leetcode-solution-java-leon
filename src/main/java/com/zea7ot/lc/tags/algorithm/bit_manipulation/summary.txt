@@ -16,6 +16,7 @@ References:
 3   0137    https://leetcode.com/problems/single-number-ii/
 3   0260    https://leetcode.com/problems/single-number-iii/
 3   0289    https://leetcode.com/problems/game-of-life/
+3   0393    https://leetcode.com/problems/utf-8-validation/
 3   0477    https://leetcode.com/problems/total-hamming-distance/
 3   0750    https://leetcode.com/problems/number-of-corner-rectangles/
 3   1275    https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/
