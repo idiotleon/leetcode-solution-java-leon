@@ -9,5 +9,5 @@
 3   0750    https://leetcode.com/problems/number-of-corner-rectangles/
 3   0939    https://leetcode.com/problems/minimum-area-rectangle/
 
+4   0478    https://leetcode.com/problems/generate-random-point-in-a-circle/
 4   0963    https://leetcode.com/problems/minimum-area-rectangle-ii/
-
