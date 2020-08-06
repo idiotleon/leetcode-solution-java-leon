@@ -1,0 +1,7 @@
+@author: Leon
+
+
+### Array
+# Simulated as a HashMap
+
+4   0442    https://leetcode.com/problems/find-all-duplicates-in-an-array/
