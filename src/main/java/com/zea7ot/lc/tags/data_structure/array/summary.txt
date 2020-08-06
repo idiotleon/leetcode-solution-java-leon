@@ -131,6 +131,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0407    https://leetcode.com/problems/trapping-rain-water-ii/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0442    https://leetcode.com/problems/find-all-duplicates-in-an-array/
 4   0489    https://leetcode.com/problems/robot-room-cleaner/
 4   0474    https://leetcode.com/problems/ones-and-zeroes/
 4   0502    https://leetcode.com/problems/ipo/
