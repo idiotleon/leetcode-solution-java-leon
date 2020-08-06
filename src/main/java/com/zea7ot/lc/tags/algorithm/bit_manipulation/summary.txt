@@ -31,3 +31,9 @@ References:
 5   0493    https://leetcode.com/problems/reverse-pairs/
 5   0691    https://leetcode.com/problems/stickers-to-spell-word/
 5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
+
+
+Resources:
+    https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary%3A-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently
+    http://graphics.stanford.edu/~seander/bithacks.html
+    https://leetcode.com/problems/sum-of-two-integers/discuss/132479/Simple-explanation-on-how-to-arrive-at-the-solution
