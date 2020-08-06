@@ -16,4 +16,6 @@ References:
 3   0797    https://leetcode.com/problems/all-paths-from-source-to-target/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
 
+4   1361    https://leetcode.com/problems/validate-binary-tree-nodes/
+
 5   1203    https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
