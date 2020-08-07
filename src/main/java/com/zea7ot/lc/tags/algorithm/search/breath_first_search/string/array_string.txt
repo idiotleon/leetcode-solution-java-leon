@@ -1,12 +1,13 @@
 @author: Leon
+References:
 
 
 ### Breadth First Search
-# Array - 1 Dimensional
+# Array - String
 
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 
-3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
+3   1236    https://leetcode.com/problems/web-crawler/
 
 4   0839    https://leetcode.com/problems/similar-string-groups/
 

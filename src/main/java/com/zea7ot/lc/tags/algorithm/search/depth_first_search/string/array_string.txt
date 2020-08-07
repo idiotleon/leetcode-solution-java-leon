@@ -11,6 +11,7 @@ References:
 3   1236    https://leetcode.com/problems/web-crawler/
 
 4   0474    https://leetcode.com/problems/ones-and-zeroes/
+4   0839    https://leetcode.com/problems/similar-string-groups/
 4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 
 5   0140    https://leetcode.com/problems/word-break-ii/
