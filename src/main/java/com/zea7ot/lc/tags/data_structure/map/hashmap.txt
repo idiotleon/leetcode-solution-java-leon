@@ -5,6 +5,7 @@
 
 2   0001    https://leetcode.com/problems/two-sum/
 2   0290    https://leetcode.com/problems/word-pattern/
+2   0791    https://leetcode.com/problems/custom-sort-string/
 
 3   0049    https://leetcode.com/problems/group-anagrams/
 3   0137    https://leetcode.com/problems/single-number-ii/
@@ -13,8 +14,8 @@
 3   0533    https://leetcode.com/problems/lonely-pixel-ii/
 3   0560    https://leetcode.com/problems/subarray-sum-equals-k/
 3   0609    https://leetcode.com/problems/find-duplicate-file-in-system/
-2   0791    https://leetcode.com/problems/custom-sort-string/
 3   0939    https://leetcode.com/problems/minimum-area-rectangle/
+3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 3   1048    https://leetcode.com/problems/longest-string-chain/
  
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
