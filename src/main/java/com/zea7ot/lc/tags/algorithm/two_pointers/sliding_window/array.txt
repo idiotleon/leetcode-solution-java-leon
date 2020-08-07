@@ -12,6 +12,7 @@ References:
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 
 4   0632    https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
+4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 
