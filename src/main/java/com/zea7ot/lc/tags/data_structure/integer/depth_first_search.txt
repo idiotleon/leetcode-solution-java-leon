@@ -5,3 +5,5 @@
 # Depth First Search
 
 3   0050    https://leetcode.com/problems/powx-n/
+
+4   1269    https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/

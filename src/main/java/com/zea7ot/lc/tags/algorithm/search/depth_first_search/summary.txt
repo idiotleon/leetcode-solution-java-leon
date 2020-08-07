@@ -158,6 +158,7 @@ References:
 4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
 4   1216    https://leetcode.com/problems/valid-palindrome-iii/
 4   1125    https://leetcode.com/problems/smallest-sufficient-team/
+4   1269    https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
 4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 4   1361    https://leetcode.com/problems/validate-binary-tree-nodes/
