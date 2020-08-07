@@ -1,4 +1,4 @@
-Author: Leon
+@author: Leon
 References:
     https://github.com/huanminwu/LeetCode
     https://leetcode.com/tag/union-find/
@@ -18,6 +18,7 @@ References:
 4   0399    https://leetcode.com/problems/evaluate-division/
 4   0684    https://leetcode.com/problems/redundant-connection/
 4   0765    https://leetcode.com/problems/couples-holding-hands/
+4   0839    https://leetcode.com/problems/similar-string-groups/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 
 5   0685    https://leetcode.com/problems/redundant-connection-ii/

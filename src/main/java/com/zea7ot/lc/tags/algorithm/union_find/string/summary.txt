@@ -1,6 +1,9 @@
 @author: Leon
 
-### Breadth First Search
-# String
+### Union Find
+## String
+# Summary
 
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
+
+4   0839    https://leetcode.com/problems/similar-string-groups/

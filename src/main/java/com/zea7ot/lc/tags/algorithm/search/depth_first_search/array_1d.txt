@@ -22,6 +22,7 @@
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0740    https://leetcode.com/problems/delete-and-earn/4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
+4   0839    https://leetcode.com/problems/similar-string-groups/
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1125    https://leetcode.com/problems/smallest-sufficient-team/
