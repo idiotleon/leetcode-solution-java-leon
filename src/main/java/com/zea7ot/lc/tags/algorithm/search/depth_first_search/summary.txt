@@ -147,6 +147,7 @@ References:
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
+5   0827    https://leetcode.com/problems/making-a-large-island/
 4   0839    https://leetcode.com/problems/similar-string-groups/
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
