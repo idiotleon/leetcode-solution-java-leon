@@ -86,6 +86,7 @@ References:
 5   0212    https://leetcode.com/problems/word-search-ii/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
+5   0827    https://leetcode.com/problems/making-a-large-island/
 5   0850    https://leetcode.com/problems/rectangle-area-ii/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
 
