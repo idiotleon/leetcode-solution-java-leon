@@ -1,6 +1,0 @@
-@author: Leon
-
-### Union Find
-# String
-
-3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/

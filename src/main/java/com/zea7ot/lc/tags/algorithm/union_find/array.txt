@@ -12,5 +12,6 @@ References:
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0765    https://leetcode.com/problems/couples-holding-hands/
+4   0839    https://leetcode.com/problems/similar-string-groups/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 4   1361    https://leetcode.com/problems/validate-binary-tree-nodes/

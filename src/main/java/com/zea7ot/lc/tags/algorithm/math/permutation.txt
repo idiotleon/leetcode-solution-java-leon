@@ -1,0 +1,14 @@
+@author: Leon
+
+
+### Math
+# Permutation
+
+3   0060    https://leetcode.com/problems/permutation-sequence/
+3   1053    https://leetcode.com/problems/previous-permutation-with-one-swap/
+
+4   0031    https://leetcode.com/problems/next-permutation/
+4   0556    https://leetcode.com/problems/next-greater-element-iii/
+
+
+previous permutation

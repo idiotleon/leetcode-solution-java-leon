@@ -23,7 +23,7 @@ public class SolutionApproach0Deque {
         final int N = nums.length;
 
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < N; ++i) {
             TreeNode root = new TreeNode(nums[i]);
             while (!stack.isEmpty() && stack.peek().val < nums[i])
                 root.left = stack.pop();

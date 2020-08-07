@@ -1,0 +1,8 @@
+@author: Leon
+
+
+### Array
+## Dynamic Programming
+# Subarray
+
+4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/

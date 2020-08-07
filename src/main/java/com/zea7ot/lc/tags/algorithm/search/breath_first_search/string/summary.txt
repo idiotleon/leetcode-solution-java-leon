@@ -1,12 +1,14 @@
 @author: Leon
-References:
-
 
 ### Breadth First Search
-# array - string
+## String
+# Summary
 
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 
+3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 3   1236    https://leetcode.com/problems/web-crawler/
+
+4   0839    https://leetcode.com/problems/similar-string-groups/
 
 5   0691    https://leetcode.com/problems/stickers-to-spell-word/
