@@ -2,8 +2,6 @@
 
 
 ### Array
-# Simulated as Stacks
+# Monotonic Stack
 
 3   0962    https://leetcode.com/problems/maximum-width-ramp/
-
-4   0735    https://leetcode.com/problems/asteroid-collision/
