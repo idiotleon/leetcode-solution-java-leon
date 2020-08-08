@@ -13,6 +13,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 2   0063    https://leetcode.com/problems/unique-paths-ii/
 2   0064    https://leetcode.com/problems/minimum-path-sum/
 2   0122    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 2   0413    https://leetcode.com/problems/arithmetic-slices/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 
@@ -26,6 +27,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   0264    https://leetcode.com/problems/ugly-number-ii/
 3   0276    https://leetcode.com/problems/paint-fence/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
+3   0304    https://leetcode.com/problems/range-sum-query-2d-immutable/
 3   0338    https://leetcode.com/problems/counting-bits/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
@@ -97,10 +99,12 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 4   1246    https://leetcode.com/problems/palindrome-removal/
+4   1269    https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
 4   1278    https://leetcode.com/problems/palindrome-partitioning-iii/
 4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
 4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
+4   1411    https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 
 5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/

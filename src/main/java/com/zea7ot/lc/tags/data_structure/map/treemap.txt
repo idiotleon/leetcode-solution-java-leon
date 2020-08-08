@@ -11,6 +11,7 @@
 3   0731    https://leetcode.com/problems/my-calendar-ii/
 3   0939    https://leetcode.com/problems/minimum-area-rectangle/
 3   0981    https://leetcode.com/problems/time-based-key-value-store/
+3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 3   1146    https://leetcode.com/problems/snapshot-array/
 
 4   0057    https://leetcode.com/problems/insert-interval/description/

@@ -15,6 +15,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0118    https://leetcode.com/problems/pascals-triangle/
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0280    https://leetcode.com/problems/wiggle-sort/
+2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 2   0310    https://leetcode.com/problems/minimum-height-trees/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
 2   0622    https://leetcode.com/problems/design-circular-queue/
@@ -53,6 +54,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0275    https://leetcode.com/problems/h-index-ii/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
+3   0304    https://leetcode.com/problems/range-sum-query-2d-immutable/
 3   0338    https://leetcode.com/problems/counting-bits/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
 3   0373    https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
@@ -155,6 +157,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0794    https://leetcode.com/problems/valid-tic-tac-toe-state/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
+4   0815    https://leetcode.com/problems/bus-routes/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   0879    https://leetcode.com/problems/profitable-schemes/
@@ -199,6 +202,7 @@ This file serves as the total list of problems related to Array, regardless of a
 5   0644    https://leetcode.com/problems/maximum-average-subarray-ii/
 5   0774    https://leetcode.com/problems/minimize-max-distance-to-gas-station/
 5   0786    https://leetcode.com/problems/k-th-smallest-prime-fraction/
+5   0827    https://leetcode.com/problems/making-a-large-island/
 5   0850    https://leetcode.com/problems/rectangle-area-ii/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
 

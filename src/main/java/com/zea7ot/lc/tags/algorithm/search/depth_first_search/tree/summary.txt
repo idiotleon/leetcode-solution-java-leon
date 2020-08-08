@@ -68,8 +68,8 @@ References:
 3   0776    https://leetcode.com/problems/split-bst/
 3   0783    https://leetcode.com/problems/minimum-distance-between-bst-nodes/
 3   0865    https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
-4   0894    https://leetcode.com/problems/all-possible-full-binary-trees/
 3   0938    https://leetcode.com/problems/range-sum-of-bst/
+3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
@@ -95,6 +95,7 @@ References:
 4   0535    https://leetcode.com/problems/convert-bst-to-greater-tree/
 4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+4   0894    https://leetcode.com/problems/all-possible-full-binary-trees/
 4   0979    https://leetcode.com/problems/distribute-coins-in-binary-tree/
 4   1008    https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
 4   1028    https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/

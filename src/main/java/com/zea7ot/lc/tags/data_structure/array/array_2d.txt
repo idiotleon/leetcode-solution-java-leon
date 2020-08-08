@@ -29,6 +29,7 @@ References:
 3   0256    https://leetcode.com/problems/paint-house/
 3   0289    https://leetcode.com/problems/game-of-life/
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
+3   0304    https://leetcode.com/problems/range-sum-query-2d-immutable/
 3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 3   0419    https://leetcode.com/problems/battleships-in-a-board/
 3   0436    https://leetcode.com/problems/find-right-interval/
@@ -73,6 +74,7 @@ References:
 4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0759    https://leetcode.com/problems/employee-free-time/
 4   0794    https://leetcode.com/problems/valid-tic-tac-toe-state/
+4   0815    https://leetcode.com/problems/bus-routes/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   0980    https://leetcode.com/problems/unique-paths-iii/
@@ -86,6 +88,7 @@ References:
 5   0212    https://leetcode.com/problems/word-search-ii/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
+5   0827    https://leetcode.com/problems/making-a-large-island/
 5   0850    https://leetcode.com/problems/rectangle-area-ii/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
 

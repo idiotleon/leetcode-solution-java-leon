@@ -4,4 +4,6 @@
 ### Dynamic Programming
 # Subarray
 
+2   0303    https://leetcode.com/problems/range-sum-query-immutable/
+
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
