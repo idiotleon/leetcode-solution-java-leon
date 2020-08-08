@@ -44,6 +44,7 @@
 4   0719    https://leetcode.com/problems/find-k-th-smallest-pair-distance/
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
+4   0815    https://leetcode.com/problems/bus-routes/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/

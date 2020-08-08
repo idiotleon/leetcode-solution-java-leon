@@ -155,6 +155,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0794    https://leetcode.com/problems/valid-tic-tac-toe-state/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
+4   0815    https://leetcode.com/problems/bus-routes/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   0879    https://leetcode.com/problems/profitable-schemes/
