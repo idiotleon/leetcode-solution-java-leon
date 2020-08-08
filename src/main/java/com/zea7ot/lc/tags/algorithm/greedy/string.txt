@@ -10,3 +10,4 @@
 3   1405    https://leetcode.com/problems/longest-happy-string/
 
 4   0616    https://leetcode.com/problems/add-bold-tag-in-string/
+4   0936    https://leetcode.com/problems/stamping-the-sequence/

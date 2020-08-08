@@ -4,3 +4,4 @@
 # Sequence
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
+4   0936    https://leetcode.com/problems/stamping-the-sequence/

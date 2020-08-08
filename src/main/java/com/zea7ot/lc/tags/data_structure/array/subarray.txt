@@ -6,6 +6,7 @@ References:
 # Subarray
 
 2   0053    https://leetcode.com/problems/maximum-subarray/
+2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/

@@ -1,9 +1,8 @@
 /**
  * https://leetcode.com/problems/range-sum-query-mutable/
  * 
- * Time Complexities:
- * 
- * Space Complexity:
+ * Time Complexities:   O()
+ * Space Complexity:    O()
  * 
  * References:
  *  https://leetcode.com/problems/range-sum-query-mutable/discuss/75753/Java-using-Binary-Indexed-Tree-with-clear-explanation
@@ -20,33 +19,33 @@ public class SolutionApproach0BinaryIndexedTree {
         this.nums = nums;
         this.N = nums.length;
         this.BIT = new int[N + 1];
-        for(int i = 0; i < N; i++) 
+        for (int i = 0; i < N; i++)
             init(i, nums[i]);
     }
-    
-    public void update(int i, int val){
+
+    public void update(int i, int val) {
         int diff = val - nums[i];
         nums[i] = val;
         init(i, diff);
     }
-    
-    public int sumRange(int i, int j){
+
+    public int sumRange(int i, int j) {
         return getSum(j) - getSum(i - 1);
     }
-    
-    private int getSum(int i){
+
+    private int getSum(int i) {
         int sum = 0;
         i++;
-        while(i > 0){
+        while (i > 0) {
             sum += BIT[i];
             i -= (i & -i);
         }
         return sum;
     }
-    
-    private void init(int i, int val){
+
+    private void init(int i, int val) {
         ++i;
-        while(i <= N){
+        while (i <= N) {
             BIT[i] += val;
             i += (i & -i);
         }
