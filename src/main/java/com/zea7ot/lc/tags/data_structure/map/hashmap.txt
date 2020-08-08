@@ -15,6 +15,7 @@
 3   0560    https://leetcode.com/problems/subarray-sum-equals-k/
 3   0609    https://leetcode.com/problems/find-duplicate-file-in-system/
 3   0939    https://leetcode.com/problems/minimum-area-rectangle/
+3   0966    https://leetcode.com/problems/vowel-spellchecker/
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 3   1048    https://leetcode.com/problems/longest-string-chain/
  

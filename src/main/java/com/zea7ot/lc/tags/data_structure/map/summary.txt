@@ -15,6 +15,7 @@
 3   0729    https://leetcode.com/problems/my-calendar-i/
 2   0791    https://leetcode.com/problems/custom-sort-string/
 3   0939    https://leetcode.com/problems/minimum-area-rectangle/
+3   0966    https://leetcode.com/problems/vowel-spellchecker/
 3   0981    https://leetcode.com/problems/time-based-key-value-store/
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 3   1048    https://leetcode.com/problems/longest-string-chain/

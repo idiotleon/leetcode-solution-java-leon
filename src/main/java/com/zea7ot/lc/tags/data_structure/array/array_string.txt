@@ -8,6 +8,7 @@
 
 3   0228    https://leetcode.com/problems/summary-ranges/
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/
+3   0966    https://leetcode.com/problems/vowel-spellchecker/
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 

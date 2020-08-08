@@ -55,7 +55,6 @@ References:
 3   0525    https://leetcode.com/problems/contiguous-array/
 3   0548    https://leetcode.com/problems/split-array-with-equal-sum/
 3   0560    https://leetcode.com/problems/subarray-sum-equals-k/
-4   0616    https://leetcode.com/problems/add-bold-tag-in-string/
 3   0659    https://leetcode.com/problems/split-array-into-consecutive-subsequences/
 3   0714    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 3   0729    https://leetcode.com/problems/my-calendar-i/
@@ -67,6 +66,7 @@ References:
 3   0911    https://leetcode.com/problems/online-election/
 3   0957    https://leetcode.com/problems/prison-cells-after-n-days/
 3   0962    https://leetcode.com/problems/maximum-width-ramp/
+3   0966    https://leetcode.com/problems/vowel-spellchecker/
 3   0969    https://leetcode.com/problems/pancake-sorting/
 3   0974    https://leetcode.com/problems/subarray-sums-divisible-by-k/
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
@@ -97,6 +97,7 @@ References:
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0502    https://leetcode.com/problems/ipo/
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
+4   0616    https://leetcode.com/problems/add-bold-tag-in-string/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
