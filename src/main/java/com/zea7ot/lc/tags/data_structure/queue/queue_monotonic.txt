@@ -8,5 +8,9 @@ References:
 4   0239    https://leetcode.com/problems/sliding-window-maximum/
 4   0719    https://leetcode.com/problems/find-k-th-smallest-pair-distance/
 
+5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
+
+
+
 Resources:
     https://leetcode.com/problems/find-k-th-smallest-pair-distance/discuss/109082/Approach-the-problem-using-the-"trial-and-error"-algorithm/311780

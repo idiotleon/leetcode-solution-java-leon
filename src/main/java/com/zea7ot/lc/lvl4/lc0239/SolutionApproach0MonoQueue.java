@@ -12,7 +12,7 @@ package com.zea7ot.lc.lvl4.lc0239;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class SolutionApproach0Deque {
+public class SolutionApproach0MonoQueue {
     public int[] maxSlidingWindow(int[] nums, int k) {
         // sanity check
         if (nums == null || nums.length == 0 || k <= 0)

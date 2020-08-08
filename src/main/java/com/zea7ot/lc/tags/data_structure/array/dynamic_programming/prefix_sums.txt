@@ -17,6 +17,8 @@
 4   1124    https://leetcode.com/problems/longest-well-performing-interval/
 4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 
+5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
+
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
 
 

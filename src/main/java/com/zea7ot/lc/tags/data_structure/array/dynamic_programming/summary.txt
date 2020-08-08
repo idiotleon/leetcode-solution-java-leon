@@ -62,6 +62,7 @@
 5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0691    https://leetcode.com/problems/stickers-to-spell-word/
+5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
 5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
 
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/

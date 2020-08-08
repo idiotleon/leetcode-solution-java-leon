@@ -63,5 +63,5 @@ References:
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0691    https://leetcode.com/problems/stickers-to-spell-word/
 5   0818    https://leetcode.com/problems/race-car/
+5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
 5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
-

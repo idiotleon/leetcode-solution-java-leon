@@ -39,6 +39,6 @@
 5   0425    https://leetcode.com/problems/word-squares/
 5   0472    https://leetcode.com/problems/concatenated-words/
 5   0642    https://leetcode.com/problems/design-search-autocomplete-system/
+5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
 
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
-

@@ -46,3 +46,4 @@ References:
 5   0786    https://leetcode.com/problems/k-th-smallest-prime-fraction/
 5   0818    https://leetcode.com/problems/race-car/
 5   0857    https://leetcode.com/problems/minimum-cost-to-hire-k-workers/
+5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/

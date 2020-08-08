@@ -1,12 +1,20 @@
 @author: Leon
 
 
-# Monotonic Stack/Queue
+# Prefix Sums
 
-4   0239    https://leetcode.com/problems/sliding-window-maximum/description/
+2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
+
+5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
+
+
+
+# Monotonic Queue
+
 4   0004    https://leetcode.com/problems/median-of-two-sorted-arrays/
 4   0239    https://leetcode.com/problems/sliding-window-maximum/
 4   0295    https://leetcode.com/problems/find-median-from-data-stream/
 
 5   0480    https://leetcode.com/problems/sliding-window-median/
 5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
+
