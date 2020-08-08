@@ -16,12 +16,14 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach1DFSNaively {
     public int pathSum(TreeNode root, int target) {
-        if(root == null) return 0;
+        if (root == null)
+            return 0;
         return dfs(root, target) + pathSum(root.left, target) + pathSum(root.right, target);
     }
-    
-    private int dfs(TreeNode node, int target){
-        if(node == null) return 0;
+
+    private int dfs(TreeNode node, int target) {
+        if (node == null)
+            return 0;
         target -= node.val;
         return (target == 0 ? 1 : 0) + dfs(node.left, target) + dfs(node.right, target);
     }

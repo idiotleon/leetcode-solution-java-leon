@@ -17,20 +17,22 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 public class SolutionApproach0PrefixSum {
     public int pathSum(TreeNode root, int sum) {
         // sanity check
-        if(root == null) return 0;
+        if (root == null)
+            return 0;
 
         Map<Integer, Integer> prefixSums = new HashMap<Integer, Integer>();
         prefixSums.put(0, 1);
         return dfs(0, sum, root, prefixSums);
     }
-    
-    private int dfs(int curSum, int target, TreeNode node, Map<Integer, Integer> prefixSums){
-        if(node == null) return 0;
-        
+
+    private int dfs(int curSum, int target, TreeNode node, Map<Integer, Integer> prefixSums) {
+        if (node == null)
+            return 0;
+
         curSum += node.val;
         int res = prefixSums.getOrDefault(curSum - target, 0);
         prefixSums.put(curSum, prefixSums.getOrDefault(curSum, 0) + 1);
-        
+
         res += dfs(curSum, target, node.left, prefixSums) + dfs(curSum, target, node.right, prefixSums);
         prefixSums.put(curSum, prefixSums.get(curSum) - 1);
         return res;
