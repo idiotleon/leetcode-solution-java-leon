@@ -32,6 +32,7 @@
 4   1032    https://leetcode.com/problems/stream-of-characters/
 4   1124    https://leetcode.com/problems/longest-well-performing-interval/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
+4   1371    https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
 4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 
 5   0212    https://leetcode.com/problems/word-search-ii/
