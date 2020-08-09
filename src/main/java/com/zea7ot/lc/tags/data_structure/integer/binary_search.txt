@@ -4,3 +4,5 @@
 # Binary Search
 
 3   0069    https://leetcode.com/problems/sqrtx/
+
+4   0887    https://leetcode.com/problems/super-egg-drop/
