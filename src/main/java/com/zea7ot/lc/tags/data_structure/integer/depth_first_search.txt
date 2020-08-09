@@ -6,4 +6,5 @@
 
 3   0050    https://leetcode.com/problems/powx-n/
 
+4   0887    https://leetcode.com/problems/super-egg-drop/
 4   1269    https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/

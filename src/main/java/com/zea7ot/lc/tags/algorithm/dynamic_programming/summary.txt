@@ -21,7 +21,6 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   0091    https://leetcode.com/problems/decode-ways/
 3   0096    https://leetcode.com/problems/unique-binary-search-trees/
 3   0119    https://leetcode.com/problems/pascals-triangle-ii/
-4   0120    https://leetcode.com/problems/triangle/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0256    https://leetcode.com/problems/paint-house/
 3   0264    https://leetcode.com/problems/ugly-number-ii/
@@ -82,6 +81,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   0879    https://leetcode.com/problems/profitable-schemes/
+4   0887    https://leetcode.com/problems/super-egg-drop/
 4   0894    https://leetcode.com/problems/all-possible-full-binary-trees/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   0918    https://leetcode.com/problems/maximum-sum-circular-subarray/
