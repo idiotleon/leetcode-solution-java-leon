@@ -1,4 +1,30 @@
 @author: Leon
 
+1   0597    https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate/
+1   1113    https://leetcode.com/problems/reported-posts/
+1   1141    https://leetcode.com/problems/user-activity-for-the-past-30-days-i/
 
+2   0178    https://leetcode.com/problems/rank-scores/
+2   0614    https://leetcode.com/problems/second-degree-follower/
+2   1075    https://leetcode.com/problems/project-employees-i/
+2   1076    https://leetcode.com/problems/project-employees-ii/
+2   1142    https://leetcode.com/problems/user-activity-for-the-past-30-days-ii/
+2   1241    https://leetcode.com/problems/number-of-comments-per-post/
+
+3   0176    https://leetcode.com/problems/second-highest-salary/
+3   0181    https://leetcode.com/problems/employees-earning-more-than-their-managers/
+3   0550    https://leetcode.com/problems/game-play-analysis-iv/
+3   0602    https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/
+3   1077    https://leetcode.com/problems/project-employees-iii/
+3   1211    https://leetcode.com/problems/queries-quality-and-percentage/
+3   1264    https://leetcode.com/problems/page-recommendations/
+3   1132    https://leetcode.com/problems/reported-posts-ii/
+
+4   0578    https://leetcode.com/problems/get-highest-answer-rate-question/
+
+5   1225    https://leetcode.com/problems/report-contiguous-dates/
+
+
+1322    https://leetcode.com/problems/ads-performance/
+1398    https://leetcode.com/problems/customers-who-bought-products-a-and-b-but-not-c/
 1445    https://leetcode.com/problems/apples-oranges/

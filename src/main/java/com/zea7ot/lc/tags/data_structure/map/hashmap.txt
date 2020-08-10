@@ -30,4 +30,5 @@
 4   1152    https://leetcode.com/problems/analyze-user-website-visit-pattern/
 4   1371    https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
 
+5   0381    https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/
 5   0588    https://leetcode.com/problems/design-in-memory-file-system/

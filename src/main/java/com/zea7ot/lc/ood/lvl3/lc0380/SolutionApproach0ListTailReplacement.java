@@ -9,7 +9,7 @@
  * Space Complexity:    O(N)
  *  N, (inserted - removed) elements
  */
-package com.zea7ot.lc.lvl3.lc0380;
+package com.zea7ot.lc.ood.lvl3.lc0380;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -28,21 +28,29 @@ public class SolutionApproach0ListTailReplacement {
         this.idxMap = new HashMap<Integer, Integer>();
         this.rand = new Random();
     }
-    
-    /** Inserts a value to the set. Returns true if the set did not already contain the specified element. */
+
+    /**
+     * Inserts a value to the set. Returns true if the set did not already contain
+     * the specified element.
+     */
     public boolean insert(int val) {
-        if(idxMap.containsKey(val)) return false;
-        
+        if (idxMap.containsKey(val))
+            return false;
+
         final int SIZE = list.size();
         idxMap.put(val, SIZE);
         list.add(val);
         return true;
     }
-    
-    /** Removes a value from the set. Returns true if the set contained the specified element. */
+
+    /**
+     * Removes a value from the set. Returns true if the set contained the specified
+     * element.
+     */
     public boolean remove(int val) {
-        if(!idxMap.containsKey(val)) return false;
-        
+        if (!idxMap.containsKey(val))
+            return false;
+
         final int SIZE = list.size(), TAIL = list.get(SIZE - 1);
         final int IDX = idxMap.get(val);
         list.set(IDX, TAIL);
@@ -51,7 +59,7 @@ public class SolutionApproach0ListTailReplacement {
         list.remove(SIZE - 1);
         return true;
     }
-    
+
     /** Get a random element from the set. */
     public int getRandom() {
         return list.get(rand.nextInt(list.size()));

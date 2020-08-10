@@ -1,0 +1,6 @@
+@author: Leon
+
+
+3   0380    https://leetcode.com/problems/insert-delete-getrandom-o1/
+
+5   0381    https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/
