@@ -8,7 +8,7 @@ package com.zea7ot.lc.lvl3.lc0270;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach1InorderRecursive {
+public class SolutionApproach0BinarySearchRecursive {
     public int closestValue(TreeNode root, double target) {
         if (root == null)
             return 0;

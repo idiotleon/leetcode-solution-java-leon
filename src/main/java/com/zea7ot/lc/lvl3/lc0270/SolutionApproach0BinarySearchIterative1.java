@@ -8,7 +8,7 @@ package com.zea7ot.lc.lvl3.lc0270;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0BinarySearch1 {
+public class SolutionApproach0BinarySearchIterative1 {
     public int closestValue(TreeNode root, double target) {
         double closest = Double.MAX_VALUE;
         int ans = root.val;

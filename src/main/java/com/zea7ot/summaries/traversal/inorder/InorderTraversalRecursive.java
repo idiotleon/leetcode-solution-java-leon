@@ -23,17 +23,20 @@ import java.util.List;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class DFSRecursive {
-    public List<Integer> inorderTraverse(TreeNode root){
+public class InorderTraversalRecursive {
+    public List<Integer> inorderTraverse(TreeNode root) {
         List<Integer> ans = new ArrayList<Integer>();
-        if(root == null) return ans;
+        // sanity check
+        if (root == null)
+            return ans;
 
         inorderTraverse(root, ans);
         return ans;
     }
 
-    private void inorderTraverse(TreeNode node, List<Integer> res){
-        if(node == null) return;
+    private void inorderTraverse(TreeNode node, List<Integer> res) {
+        if (node == null)
+            return;
 
         inorderTraverse(node.left, res);
         res.add(node.val);

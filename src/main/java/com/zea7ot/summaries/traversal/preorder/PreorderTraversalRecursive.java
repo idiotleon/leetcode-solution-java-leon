@@ -9,18 +9,20 @@ import java.util.List;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class DFSRecursive {
-    public List<Integer> preorderTraverse(TreeNode root){
+public class PreorderTraversalRecursive {
+    public List<Integer> preorderTraverse(TreeNode root) {
         List<Integer> ans = new ArrayList<Integer>();
         // sanity check
-        if(root == null) return ans;
+        if (root == null)
+            return ans;
 
         preorder(root, ans);
         return ans;
     }
 
-    private void preorder(TreeNode node, List<Integer> res){
-        if(node == null) return;
+    private void preorder(TreeNode node, List<Integer> res) {
+        if (node == null)
+            return;
 
         res.add(node.val);
         preorder(node.left, res);

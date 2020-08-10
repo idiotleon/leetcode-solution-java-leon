@@ -9,7 +9,7 @@ import java.util.List;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class DFSRecursive {
+public class PostorderTraversalRecursive {
     public List<Integer> postorderTraverse(TreeNode root){
         List<Integer> ans = new ArrayList<Integer>();
         // sanity check
