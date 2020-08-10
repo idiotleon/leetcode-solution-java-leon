@@ -1,8 +1,9 @@
-Author: polyg7ot
+@author: polyg7ot
 References:
     https://github.com/huanminwu/LeetCode
 
 ### Dynamic Programming
+## By Dimensions
 # 3 Dimensional
 
 3   1139    https://leetcode.com/problems/largest-1-bordered-square/

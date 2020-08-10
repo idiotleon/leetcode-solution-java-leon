@@ -4,6 +4,7 @@ References:
     https://leetcode.com/tag/dynamic-programming/
 
 ### Dynamic Programming
+## By Dimensions
 # 2 Dimensional
 
 2   0063    https://leetcode.com/problems/unique-paths-ii/
