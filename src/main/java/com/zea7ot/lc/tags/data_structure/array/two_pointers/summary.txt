@@ -15,7 +15,7 @@
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
+4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 4   1537    https://leetcode.com/problems/get-the-maximum-score/
-

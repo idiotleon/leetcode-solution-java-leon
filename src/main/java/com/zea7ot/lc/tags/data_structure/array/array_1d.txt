@@ -82,6 +82,7 @@ References:
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 3   1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/
 
+4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0135    https://leetcode.com/problems/candy/

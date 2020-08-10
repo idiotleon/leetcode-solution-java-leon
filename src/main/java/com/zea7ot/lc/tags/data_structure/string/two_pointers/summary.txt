@@ -16,5 +16,6 @@ References:
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/description/
 3   1055    https://leetcode.com/problems/shortest-way-to-form-string/
 
+4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 4   0727    https://leetcode.com/problems/minimum-window-subsequence/

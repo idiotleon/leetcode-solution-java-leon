@@ -1,8 +1,10 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
 ### Integer
-# backtrack
+# Backtrack
 
 3   0216    https://leetcode.com/problems/combination-sum-iii/
 3   0254    https://leetcode.com/problems/factor-combinations/

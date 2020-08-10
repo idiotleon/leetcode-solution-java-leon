@@ -19,7 +19,8 @@
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1357    https://leetcode.com/problems/apply-discount-every-n-orders/
- 
+
+4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0399    https://leetcode.com/problems/evaluate-division/
 4   0442    https://leetcode.com/problems/find-all-duplicates-in-an-array/

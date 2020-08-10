@@ -7,6 +7,7 @@ References:
 
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/description/
 
+4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 
 

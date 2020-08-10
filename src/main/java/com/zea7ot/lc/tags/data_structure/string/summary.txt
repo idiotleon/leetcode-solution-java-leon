@@ -1,6 +1,8 @@
 @author: Leon
 References:
     https://leetcode.com/tag/string/
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 ### String
 
@@ -10,6 +12,8 @@ References:
 1   0520    https://leetcode.com/problems/detect-capital/
 
 2   0165    https://leetcode.com/problems/compare-version-numbers/
+2   0168    https://leetcode.com/problems/excel-sheet-column-title/
+2   0171    https://leetcode.com/problems/excel-sheet-column-number/
 2   0290    https://leetcode.com/problems/word-pattern/
 2   0392    https://leetcode.com/problems/is-subsequence/
 2   0408    https://leetcode.com/problems/valid-word-abbreviation/
@@ -50,6 +54,7 @@ References:
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/
 3   1405    https://leetcode.com/problems/longest-happy-string/
 
+4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0072    https://leetcode.com/problems/edit-distance/
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 4   0097    https://leetcode.com/problems/interleaving-string/
