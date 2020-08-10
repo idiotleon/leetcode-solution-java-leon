@@ -14,12 +14,12 @@ public class SolutionApproach0BinarySearchRecursive {
             return 0;
 
         Res res = new Res(Double.MAX_VALUE, 0);
-        inorder(root, target, res);
+        binarySearch(root, target, res);
 
         return res.node;
     }
 
-    private void inorder(TreeNode node, double target, Res res) {
+    private void binarySearch(TreeNode node, double target, Res res) {
         if (node == null)
             return;
 
@@ -29,9 +29,9 @@ public class SolutionApproach0BinarySearchRecursive {
         }
 
         if (node.val > target)
-            inorder(node.left, target, res);
+            binarySearch(node.left, target, res);
         else
-            inorder(node.right, target, res);
+            binarySearch(node.right, target, res);
     }
 
     private class Res {
