@@ -1,9 +1,11 @@
 @author: Leon
 References:
     https://docs.google.com/spreadsheets/d/1VMMHp5Qd_RmCoRKaNiE5wRs0dftXHzUTrlgQVZVleBg/edit?usp=sharing
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 ### String
-# backtrack
+# Backtrack
 
 3   0320    https://leetcode.com/problems/generalized-abbreviation/
 3   0753    https://leetcode.com/problems/cracking-the-safe/

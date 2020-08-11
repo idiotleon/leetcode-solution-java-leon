@@ -1,9 +1,13 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 ### Map
 
 2   0001    https://leetcode.com/problems/two-sum/
 2   0290    https://leetcode.com/problems/word-pattern/
+2   0953    https://leetcode.com/problems/verifying-an-alien-dictionary/
 
 3   0049    https://leetcode.com/problems/group-anagrams/
 3   0137    https://leetcode.com/problems/single-number-ii/
