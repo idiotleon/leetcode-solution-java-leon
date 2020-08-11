@@ -1,0 +1,8 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+2   0274    https://leetcode.com/problems/h-index/
+
+3   0275    https://leetcode.com/problems/h-index-ii/

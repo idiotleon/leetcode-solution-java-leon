@@ -1,6 +1,8 @@
 @author: Leon
 References:
     https://leetcode.com/tag/design/
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 ### Object-Oriented Design
 
