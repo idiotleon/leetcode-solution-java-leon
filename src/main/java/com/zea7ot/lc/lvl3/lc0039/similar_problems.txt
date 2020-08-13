@@ -3,7 +3,7 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
-# Backtrack
+### Backtrack
 
 2   0078    https://leetcode.com/problems/subsets/
 2   0090    https://leetcode.com/problems/subsets-ii/
@@ -13,3 +13,9 @@ References:
 3   0046    https://leetcode.com/problems/permutations/
 3   0047    https://leetcode.com/problems/permutations-ii/
 3   0131    https://leetcode.com/problems/palindrome-partitioning/
+
+
+
+# OOD
+
+3   1286    https://leetcode.com/problems/iterator-for-combination/
