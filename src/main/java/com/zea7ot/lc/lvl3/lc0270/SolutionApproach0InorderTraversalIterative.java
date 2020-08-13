@@ -11,7 +11,7 @@ import java.util.Deque;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0InorderIterative1 {
+public class SolutionApproach0InorderTraversalIterative {
     public int closestValue(TreeNode root, double target) {
         // sanity check
         if (root == null)
@@ -22,14 +22,13 @@ public class SolutionApproach0InorderIterative1 {
         int ans = root.val;
 
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
-        TreeNode cur = root;
-        while (cur != null || !stack.isEmpty()) {
-            pushLeft(stack, cur);
-            cur = stack.pop();
+        pushLeft(stack, root);
 
-            double curVariance = Math.abs(target - cur.val);
+        while (!stack.isEmpty()) {
+            TreeNode top = stack.pop();
+            double curVariance = Math.abs(target - top.val);
             if (curVariance < closest) {
-                ans = cur.val;
+                ans = top.val;
                 closest = curVariance;
             }
 
@@ -38,7 +37,8 @@ public class SolutionApproach0InorderIterative1 {
                 return ans;
             prevVariance = curVariance;
 
-            cur = cur.right;
+            if (top.right != null)
+                pushLeft(stack, top.right);
         }
 
         return ans;
