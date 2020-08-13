@@ -1,6 +1,7 @@
-Author: polyg7ot
+@author: polyg7ot
 References:
-    https://github.com/huanminwu/LeetCode
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 ### String
 ## Word Pattern

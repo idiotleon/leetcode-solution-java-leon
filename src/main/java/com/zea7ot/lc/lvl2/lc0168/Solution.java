@@ -1,22 +1,21 @@
 /**
  * https://leetcode.com/problems/excel-sheet-column-title/
+ * 
+ * Time Complexity:     O()
+ * Space Complexity:    O()
  */
 package com.zea7ot.lc.lvl2.lc0168;
 
 class Solution {
     public String convertToTitle(int n) {
-        String res = "";
+        StringBuilder builder = new StringBuilder();
         
         while(n != 0){
             char ch = (char)((n - 1) % 26 + 'A');
             n = (n - 1) / 26;
-            res = ch + res;
+            builder.insert(0, ch);
         }
         
-        return res;
-    }
-
-    public String convertToTitle2(int n) {
-        return n == 0 ? "" : convertToTitle((n - 1) / 26) + (char)((n - 1) % 26 + 'A');
+        return builder.toString();
     }
 }

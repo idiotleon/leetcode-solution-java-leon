@@ -1,9 +1,12 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
 ### String
 # Greedy
 
+2   0953    https://leetcode.com/problems/verifying-an-alien-dictionary/
 2   0984    https://leetcode.com/problems/string-without-aaa-or-bbb/
 
 3   0758    https://leetcode.com/problems/bold-words-in-string/

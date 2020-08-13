@@ -1,4 +1,7 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 ### Array
 # Sorting
@@ -7,13 +10,19 @@
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 
+3   0015    https://leetcode.com/problems/3sum/
+3   0016    https://leetcode.com/problems/3sum-closest/
 3   0056    https://leetcode.com/problems/merge-intervals/
 3   0075    https://leetcode.com/problems/sort-colors/
+3   0259    https://leetcode.com/problems/3sum-smaller/
 3   0435    https://leetcode.com/problems/non-overlapping-intervals/
 3   0452    https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0912    https://leetcode.com/problems/sort-an-array/
 3   0969    https://leetcode.com/problems/pancake-sorting/
 3   1057    https://leetcode.com/problems/campus-bikes/
+3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
+4   0018    https://leetcode.com/problems/4sum/
 4   0296    https://leetcode.com/problems/best-meeting-point/
 4   0759    https://leetcode.com/problems/employee-free-time/

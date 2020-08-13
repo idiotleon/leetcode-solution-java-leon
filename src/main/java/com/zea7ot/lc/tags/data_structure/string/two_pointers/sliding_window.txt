@@ -1,12 +1,14 @@
-Author: polyg7ot
+@author: polyg7ot
 References:
-    https://github.com/huanminwu/LeetCode
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 ### String
 # Sliding Window:
 
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/description/
 
+4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 
 

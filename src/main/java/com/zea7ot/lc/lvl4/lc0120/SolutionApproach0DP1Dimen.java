@@ -21,9 +21,8 @@ public class SolutionApproach0DP1Dimen {
             List<Integer> curRow = triangle.get(row);
             final int NC = curRow.size();
 
-            for (int col = 0; col < NC; ++col) {
+            for (int col = 0; col < NC; ++col)
                 dp[col] = Math.min(dp[col], dp[col + 1]) + curRow.get(col);
-            }
         }
 
         return dp[0];

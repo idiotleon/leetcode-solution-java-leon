@@ -1,58 +1,44 @@
 /**
  * https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+ * 
+ * Time Complexity:     O(L)
+ * Space Complexity:    O(L)
+ * 
+ * References:
+ *  https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/discuss/419402/JavaC%2B%2B-Stack
  */
 package com.zea7ot.lc.lvl3.lc1249;
 
-import java.util.LinkedList;
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
-public class SolutionApproachStack{
+public class SolutionApproachStack {
+    private static final char PLACE_HOLDER = '*';
+
     public String minRemoveToMakeValid(String s) {
+        final int L = s.length();
+        char[] chs = s.toCharArray();
         StringBuilder builder = new StringBuilder(s);
-        LinkedList<Integer> idxStack = new LinkedList<Integer>();
-        
-        for(int i = 0; i < s.length(); i++){
-            if(s.charAt(i) == '('){
-                idxStack.offer(i);
-            }
-            
-            if(s.charAt(i) == ')'){
-                if(idxStack.isEmpty()){
-                    builder.setCharAt(i, '*');
-                }else{
-                    idxStack.removeFirst();
-                }
-            }
-        }
-        
-        while(!idxStack.isEmpty()){
-            builder.setCharAt(idxStack.removeFirst(), '*');
-        }
-        
-        return builder.toString().replaceAll("\\*", "");
-    }
+        Deque<Integer> idxStack = new ArrayDeque<Integer>();
 
-    public String minRemoveToMakeValid2(String s) {
-        StringBuilder builder = new StringBuilder(s);
-        Stack<Integer> stack = new Stack<Integer>();
-        for(int i = 0; i < builder.length(); i++){
-            if(builder.charAt(i) == '('){
-                stack.add(i);
-            }
-            
-            if(builder.charAt(i) == ')'){
-                if(!stack.empty()){
-                    stack.pop();
-                }else{
-                    builder.setCharAt(i, '*');
+        for (int i = 0; i < L; ++i) {
+            char ch = chs[i];
+            if (ch == '(')
+                idxStack.offer(i);
+
+            if (ch == ')') {
+                if (idxStack.isEmpty()) {
+                    builder.setCharAt(i, PLACE_HOLDER);
+                } else {
+                    idxStack.pop();
                 }
             }
         }
-        
-        while(!stack.empty()){
-            builder.setCharAt(stack.pop(), '*');
+
+        while (!idxStack.isEmpty()) {
+            builder.setCharAt(idxStack.pop(), PLACE_HOLDER);
         }
-        
+
         return builder.toString().replaceAll("\\*", "");
     }
 }

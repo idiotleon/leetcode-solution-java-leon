@@ -1,6 +1,8 @@
 @author: Leon
 References:
     https://leetcode.com/tag/array/
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 This file serves as the total list of problems related to Array, regardless of any subcategory
 ### Array
@@ -49,6 +51,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0228    https://leetcode.com/problems/summary-ranges/
 3   0229    https://leetcode.com/problems/majority-element-ii/
+3   0238    https://leetcode.com/problems/product-of-array-except-self/
 3   0256    https://leetcode.com/problems/paint-house/
 3   0260    https://leetcode.com/problems/single-number-iii/
 3   0275    https://leetcode.com/problems/h-index-ii/
@@ -70,6 +73,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
 3   0548    https://leetcode.com/problems/split-array-with-equal-sum/
+3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0638    https://leetcode.com/problems/shopping-offers/
 3   0659    https://leetcode.com/problems/split-array-into-consecutive-subsequences/
 3   0714    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
@@ -118,6 +122,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 3   1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/
 
+4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0120    https://leetcode.com/problems/triangle/
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0135    https://leetcode.com/problems/candy/

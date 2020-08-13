@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/count-complete-tree-nodes/
  * 
- * Time Complexity: O(lg(N) ^ 2)
- * Space Complexity: O(lg(N))
+ * Time Complexity:     O(lg(N) ^ 2)
+ * Space Complexity:    O(lg(N))
  * 
  * the subtree of a complete binary tree also is a complete binary tree
  * 
@@ -15,23 +15,26 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0Recursion {
     public int countNodes(TreeNode root) {
-        if(root == null) return 0;
-        
+        // sanity check
+        if (root == null)
+            return 0;
+
         int leftHeight = 0, rightHeight = 0;
-        
+
         TreeNode left = root, right = root;
-        while(left != null){
-            leftHeight++;
+        while (left != null) {
+            ++leftHeight;
             left = left.left;
         }
-        
-        while(right != null){
-            rightHeight++;
+
+        while (right != null) {
+            ++rightHeight;
             right = right.right;
         }
-        
-        if(leftHeight == rightHeight) return (int)Math.pow(2, leftHeight) - 1;
-        
+
+        if (leftHeight == rightHeight)
+            return (int) Math.pow(2, leftHeight) - 1;
+
         return 1 + countNodes(root.left) + countNodes(root.right);
     }
 }

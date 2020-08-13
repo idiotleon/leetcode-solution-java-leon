@@ -1,0 +1,52 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode
+    https://leetcode.com/tag/dynamic-programming/
+
+### Dynamic Programming
+# Space Compression
+
+2   0063    https://leetcode.com/problems/unique-paths-ii/
+2   0064    https://leetcode.com/problems/minimum-path-sum/
+
+3   0256    https://leetcode.com/problems/paint-house/
+3   0276    https://leetcode.com/problems/paint-fence/
+3   0376    https://leetcode.com/problems/wiggle-subsequence/
+3   0377    https://leetcode.com/problems/combination-sum-iv/
+3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
+3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
+3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
+3   0714    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
+3   1048    https://leetcode.com/problems/longest-string-chain/
+3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
+3   1139    https://leetcode.com/problems/largest-1-bordered-square/
+
+4   0120    https://leetcode.com/problems/triangle/
+4   0174    https://leetcode.com/problems/dungeon-game/
+4   0221    https://leetcode.com/problems/maximal-square/
+4   0474    https://leetcode.com/problems/ones-and-zeroes/
+4   0494    https://leetcode.com/problems/target-sum/
+4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
+4   0576    https://leetcode.com/problems/out-of-boundary-paths/
+4   0639    https://leetcode.com/problems/decode-ways-ii/
+4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
+4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
+4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0813    https://leetcode.com/problems/largest-sum-of-averages/
+4   0956    https://leetcode.com/problems/tallest-billboard/
+4   1049    https://leetcode.com/problems/last-stone-weight-ii/
+4   1092    https://leetcode.com/problems/shortest-common-supersequence/
+4   1216    https://leetcode.com/problems/valid-palindrome-iii/
+4   1125    https://leetcode.com/problems/smallest-sufficient-team/
+4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
+4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
+
+5   0691    https://leetcode.com/problems/stickers-to-spell-word/
+5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
+
+
+
+Resources:
+    https://www.hackerearth.com/practice/algorithms/dynamic-programming/state-space-reduction/tutorial/
+    https://youtu.be/MjOIR61txFc?t=588

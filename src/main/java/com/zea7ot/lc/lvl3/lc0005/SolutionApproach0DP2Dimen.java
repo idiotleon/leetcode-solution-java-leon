@@ -15,26 +15,27 @@ package com.zea7ot.lc.lvl3.lc0005;
 public class SolutionApproach0DP2Dimen {
     public String longestPalindrome(String s) {
         // sanity check
-        if(s == null || s.length() < 2) return s;
-        
+        if (s == null || s.length() < 2)
+            return s;
+
         final int L = s.length();
         char[] chs = s.toCharArray();
-        
+
         int start = 0, end = 0;
 
         boolean[][] dp = new boolean[L][L];
-        
-        for(int i = L - 1; i >= 0; --i){
-            for(int j = i; j < L; ++j){
+
+        for (int i = L - 1; i >= 0; --i) {
+            for (int j = i; j < L; ++j) {
                 dp[i][j] = chs[i] == chs[j] && (j - i < 2 || dp[i + 1][j - 1]);
-                
-                if(dp[i][j] && j - i > end - start){
+
+                if (dp[i][j] && j - i > end - start) {
                     start = i;
                     end = j;
                 }
             }
         }
-        
+
         return s.substring(start, end + 1);
     }
 }

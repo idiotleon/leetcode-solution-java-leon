@@ -1,0 +1,12 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### N Pointers
+## 3 Pointers
+
+3   0015    https://leetcode.com/problems/3sum/
+3   0016    https://leetcode.com/problems/3sum-closest/
+3   0259    https://leetcode.com/problems/3sum-smaller/
+3   0611    https://leetcode.com/problems/valid-triangle-number/

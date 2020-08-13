@@ -1,6 +1,8 @@
 @author: Leon
 References:
     https://leetcode.com/tag/string/
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 ### String
 
@@ -10,11 +12,14 @@ References:
 1   0520    https://leetcode.com/problems/detect-capital/
 
 2   0165    https://leetcode.com/problems/compare-version-numbers/
+2   0168    https://leetcode.com/problems/excel-sheet-column-title/
+2   0171    https://leetcode.com/problems/excel-sheet-column-number/
 2   0290    https://leetcode.com/problems/word-pattern/
 2   0392    https://leetcode.com/problems/is-subsequence/
 2   0408    https://leetcode.com/problems/valid-word-abbreviation/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
 2   0791    https://leetcode.com/problems/custom-sort-string/
+2   0953    https://leetcode.com/problems/verifying-an-alien-dictionary/
 2   0984    https://leetcode.com/problems/string-without-aaa-or-bbb/
 2   1047    https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
 
@@ -50,6 +55,7 @@ References:
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/
 3   1405    https://leetcode.com/problems/longest-happy-string/
 
+4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0072    https://leetcode.com/problems/edit-distance/
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 4   0097    https://leetcode.com/problems/interleaving-string/
@@ -61,6 +67,7 @@ References:
 4   0358    https://leetcode.com/problems/rearrange-string-k-distance-apart/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0616    https://leetcode.com/problems/add-bold-tag-in-string/
+4   0639    https://leetcode.com/problems/decode-ways-ii/
 4   0726    https://leetcode.com/problems/number-of-atoms/
 4   0727    https://leetcode.com/problems/minimum-window-subsequence/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/

@@ -1,4 +1,7 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 ### Map
 # HashMap
@@ -6,6 +9,7 @@
 2   0001    https://leetcode.com/problems/two-sum/
 2   0290    https://leetcode.com/problems/word-pattern/
 2   0791    https://leetcode.com/problems/custom-sort-string/
+2   0953    https://leetcode.com/problems/verifying-an-alien-dictionary/
 
 3   0049    https://leetcode.com/problems/group-anagrams/
 3   0137    https://leetcode.com/problems/single-number-ii/
@@ -19,7 +23,8 @@
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1357    https://leetcode.com/problems/apply-discount-every-n-orders/
- 
+
+4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0399    https://leetcode.com/problems/evaluate-division/
 4   0442    https://leetcode.com/problems/find-all-duplicates-in-an-array/
@@ -30,4 +35,5 @@
 4   1152    https://leetcode.com/problems/analyze-user-website-visit-pattern/
 4   1371    https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
 
+5   0381    https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/
 5   0588    https://leetcode.com/problems/design-in-memory-file-system/

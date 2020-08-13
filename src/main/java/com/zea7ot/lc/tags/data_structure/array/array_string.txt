@@ -1,4 +1,7 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 ### Array
 # String - Array
@@ -12,6 +15,7 @@
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 
+4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0474    https://leetcode.com/problems/ones-and-zeroes/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   0916    https://leetcode.com/problems/word-subsets/

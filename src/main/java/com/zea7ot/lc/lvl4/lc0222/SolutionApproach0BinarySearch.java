@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/count-complete-tree-nodes/
  * 
- * Time Complexity: O(lg(N) ^ 2)
- * Space Complexity: O(lg(N))
+ * Time Complexity:     O(lg(N) ^ 2)
+ * Space Complexity:    O(lg(N))
  * 
  * to define the "midNode" of the last level as a node following the path "root->left->right->right->...->last level".
  * If midNode is null, then it means we should count the nodes on the last level in the left subtree.
@@ -17,34 +17,42 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0BinarySearch {
     public int countNodes(TreeNode root) {
-        if(root == null) return 0;
-        if(root.left == null) return 1;
+        // sanity check
+        if (root == null)
+            return 0;
+        if (root.left == null)
+            return 1;
         int height = 0, sum = 0;
         TreeNode node = root;
-        while(node.left != null){
+        while (node.left != null) {
             sum += (1 << height);
             height++;
             node = node.left;
         }
-        
+
         return sum + countLastLevel(root, height);
     }
-    
-    private int countLastLevel(TreeNode root, int height){
-        if(height == 1){
-            if(root.right != null) return 2;
-            else if(root.left != null) return 1;
-            else return 0;
+
+    private int countLastLevel(TreeNode root, int height) {
+        if (height == 1) {
+            if (root.right != null)
+                return 2;
+            else if (root.left != null)
+                return 1;
+            else
+                return 0;
         }
-        
+
         TreeNode midNode = root.left;
         int curHeight = 1;
-        while(curHeight < height){
+        while (curHeight < height) {
             curHeight++;
             midNode = midNode.right;
         }
-        
-        if(midNode == null) return countLastLevel(root.left, height - 1);
-        else return (1 << (height - 1)) + countLastLevel(root.right, height - 1);
+
+        if (midNode == null)
+            return countLastLevel(root.left, height - 1);
+        else
+            return (1 << (height - 1)) + countLastLevel(root.right, height - 1);
     }
 }
