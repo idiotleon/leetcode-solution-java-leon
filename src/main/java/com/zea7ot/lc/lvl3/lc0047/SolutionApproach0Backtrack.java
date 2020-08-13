@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/permutations-ii/
  * 
  * Time Complexity:     O(N!)
- * Space Complexity:    O()
+ * Space Complexity:    O(N)
  * 
  * References:
  *  https://medium.com/@vasanths294/permutation-combination-subset-time-complexity-eca924e00071
@@ -14,37 +14,39 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SolutionApproach0Backtrack{
+public class SolutionApproach0Backtrack {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> ans = new ArrayList<List<Integer>>();
         // sanity check
-        if(nums == null || nums.length == 0) return ans;
-        
+        if (nums == null || nums.length == 0)
+            return ans;
+
         final int N = nums.length;
-        boolean[] used = new boolean[N];
         // for duplicates
+        boolean[] used = new boolean[N];
         Arrays.sort(nums);
+
         backtrack(new ArrayList<Integer>(), used, nums, ans);
+
         return ans;
     }
-    
-    private void backtrack(List<Integer> intermediate, 
-                           boolean[] used, 
-                           int[] nums, 
-                           List<List<Integer>> ans){
+
+    private void backtrack(List<Integer> path, boolean[] used, int[] nums, List<List<Integer>> paths) {
         final int N = nums.length;
-        if(intermediate.size() == N){
-            ans.add(new ArrayList<Integer>(intermediate));
+        if (path.size() == N) {
+            paths.add(new ArrayList<Integer>(path));
             return;
         }
-        
-        for(int i = 0; i < N; i++){
-            if(used[i] || (i > 0 && nums[i - 1] == nums[i] && !used[i - 1])) continue;
+
+        for (int i = 0; i < N; i++) {
+            if (used[i] || (i > 0 && nums[i - 1] == nums[i] && !used[i - 1]))
+                continue;
+
             used[i] = true;
-            intermediate.add(nums[i]);
-            backtrack(intermediate, used, nums, ans);
+            path.add(nums[i]);
+            backtrack(path, used, nums, paths);
             used[i] = false;
-            intermediate.remove(intermediate.size() - 1);
+            path.remove(path.size() - 1);
         }
     }
 }

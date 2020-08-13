@@ -14,6 +14,8 @@ This file serves as the total list of problems related to Array, regardless of a
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0001    https://leetcode.com/problems/two-sum/
+2   0078    https://leetcode.com/problems/subsets/
+2   0090    https://leetcode.com/problems/subsets-ii/
 2   0118    https://leetcode.com/problems/pascals-triangle/
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0280    https://leetcode.com/problems/wiggle-sort/
@@ -36,6 +38,10 @@ This file serves as the total list of problems related to Array, regardless of a
 2   1465    https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
+3   0039    https://leetcode.com/problems/combination-sum/
+3   0040    https://leetcode.com/problems/combination-sum-ii/ 
+3   0046    https://leetcode.com/problems/permutations/
+3   0047    https://leetcode.com/problems/permutations-ii/
 3   0048    https://leetcode.com/problems/rotate-image/
 3   0054    https://leetcode.com/problems/spiral-matrix/
 3   0055    https://leetcode.com/problems/jump-game/
@@ -45,6 +51,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0075    https://leetcode.com/problems/sort-colors/
 3   0119    https://leetcode.com/problems/pascals-triangle-ii/
 3   0130    https://leetcode.com/problems/surrounded-regions/
+3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3   0162    https://leetcode.com/problems/find-peak-element/

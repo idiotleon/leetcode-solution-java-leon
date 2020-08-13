@@ -18,37 +18,37 @@ public class SolutionApproach0Backtrack {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> ans = new ArrayList<List<Integer>>();
         // sanity check
-        if(candidates == null || candidates.length == 0 || target < 1) return ans;
-        
+        if (candidates == null || candidates.length == 0 || target < 1)
+            return ans;
+
         Arrays.sort(candidates);
         final int N = candidates.length;
         boolean[] used = new boolean[N];
-        
-        backtrack(new ArrayList<Integer>(), target, 0, used, candidates, ans);
+
+        backtrack(0, target, new ArrayList<Integer>(), used, candidates, ans);
         return ans;
     }
-    
-    private void backtrack(List<Integer> intermediate, 
-                           int target, 
-                           int startIdx, 
-                           boolean[] used,
-                           int[] candidates, 
-                           List<List<Integer>> res){
-        if(target < 0) return;
-        
-        if(target == 0){
-            res.add(new ArrayList<Integer>(intermediate));
+
+    private void backtrack(int startIdx, int target, List<Integer> path, boolean[] used, int[] candidates,
+            List<List<Integer>> paths) {
+        if (target < 0)
+            return;
+
+        if (target == 0) {
+            paths.add(new ArrayList<Integer>(path));
             return;
         }
-        
-        // if the candidates array is sorted, "target >= candidates[i]" is used to prune further DFS
-        for(int i = startIdx; i < candidates.length && target >= candidates[i]; i++){
-            if(used[i] || (i > startIdx && !used[i - 1] && candidates[i - 1] == candidates[i])) continue;
+
+        // if the candidates array is sorted, "target >= candidates[i]" is used to prune
+        // further DFS
+        for (int i = startIdx; i < candidates.length && target >= candidates[i]; i++) {
+            if (used[i] || (i > startIdx && !used[i - 1] && candidates[i - 1] == candidates[i]))
+                continue;
             used[i] = true;
-            intermediate.add(candidates[i]);
-            backtrack(intermediate, target - candidates[i], i, used, candidates, res);
+            path.add(candidates[i]);
+            backtrack(i, target - candidates[i], path, used, candidates, paths);
             used[i] = false;
-            intermediate.remove(intermediate.size() - 1);
+            path.remove(path.size() - 1);
         }
     }
 }

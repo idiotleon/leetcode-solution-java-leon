@@ -7,12 +7,19 @@ References:
 ## Search
 # Summary
 
+2   0078    https://leetcode.com/problems/subsets/
+2   0090    https://leetcode.com/problems/subsets-ii/
 2   0690    https://leetcode.com/problems/employee-importance/
 2   0704    https://leetcode.com/problems/binary-search/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 2   1287    https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
 
+3   0039    https://leetcode.com/problems/combination-sum/
+3   0040    https://leetcode.com/problems/combination-sum-ii/ 
+3   0046    https://leetcode.com/problems/permutations/
+3   0047    https://leetcode.com/problems/permutations-ii/
 3   0130    https://leetcode.com/problems/surrounded-regions/
+3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3   0207    https://leetcode.com/problems/course-schedule/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
@@ -72,3 +79,8 @@ References:
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
 
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
+
+
+
+Resources:
+    https://leetcode.com/problems/combination-sum/discuss/16502/a-general-approach-to-backtracking-questions-in-java-subsets-permutations-combination-sum-palindrome-partitioning/653087

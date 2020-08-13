@@ -7,6 +7,11 @@ References:
 ## N Pointers
 # High-Low Pointers
 
+# 2 Pointers
+
+3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
+
+
 
 # 3 Pointers
 

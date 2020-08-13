@@ -19,22 +19,22 @@ package com.zea7ot.lc.lvl3.lc0131;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SolutionApproach0DP {
+public class SolutionApproach0DP2Dimen {
     public List<List<String>> partition(String s) {
         final int L = s.length();
         List<List<List<String>>> ans = new ArrayList<List<List<String>>>(L + 1);
-        for(int i = 0; i < L + 1; i++) ans.add(new ArrayList<List<String>>());
+        for (int i = 0; i < L + 1; i++)
+            ans.add(new ArrayList<List<String>>());
         // this cannot be skipped, otherwise the DP process will NOT be started
         ans.get(0).add(new ArrayList<String>());
-        
+
         boolean[][] pair = new boolean[L][L];
-        for(int i = 0; i < L; i++){
-            for(int left = 0; left <= i; left++){
-                if(s.charAt(left) == s.charAt(i) 
-                   && (i - left <= 1 || pair[left + 1][i - 1])){
+        for (int i = 0; i < L; i++) {
+            for (int left = 0; left <= i; left++) {
+                if (s.charAt(left) == s.charAt(i) && (i - left <= 1 || pair[left + 1][i - 1])) {
                     pair[left][i] = true;
                     String str = s.substring(left, i + 1);
-                    for(List<String> r : ans.get(left)){
+                    for (List<String> r : ans.get(left)) {
                         List<String> ri = new ArrayList<String>(r);
                         ri.add(str);
                         ans.get(i + 1).add(ri);
@@ -42,7 +42,7 @@ public class SolutionApproach0DP {
                 }
             }
         }
-        
+
         return ans.get(L);
     }
 }

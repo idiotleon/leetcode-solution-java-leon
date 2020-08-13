@@ -19,10 +19,10 @@ References:
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
+3   1055    https://leetcode.com/problems/shortest-way-to-form-string/
 3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
-3   1055    https://leetcode.com/problems/shortest-way-to-form-string/
 
 4   0018    https://leetcode.com/problems/4sum/
 4   0042    https://leetcode.com/problems/trapping-rain-water/

@@ -11,8 +11,13 @@ References:
 1   0872    https://leetcode.com/problems/leaf-similar-trees/
 1   1161    https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
 
+3   0039    https://leetcode.com/problems/combination-sum/
+3   0040    https://leetcode.com/problems/combination-sum-ii/ 
+3   0046    https://leetcode.com/problems/permutations/
+3   0047    https://leetcode.com/problems/permutations-ii/
 2   0078    https://leetcode.com/problems/subsets/
 2   0090    https://leetcode.com/problems/subsets-ii/
+3   0131    https://leetcode.com/problems/palindrome-partitioning/
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0404    https://leetcode.com/problems/sum-of-left-leaves/
 2   0463    https://leetcode.com/problems/island-perimeter/
@@ -188,3 +193,4 @@ References:
 Resources:
     https://leetcode.com/problems/race-car/discuss/124326/summary-of-the-bfs-and-dp-solutions-with-intuitive-explanation
     https://leetcode.com/problems/accounts-merge/discuss/109162/summary-for-dfs-templates
+    https://leetcode.com/problems/combination-sum/discuss/16502/a-general-approach-to-backtracking-questions-in-java-subsets-permutations-combination-sum-palindrome-partitioning/653087
