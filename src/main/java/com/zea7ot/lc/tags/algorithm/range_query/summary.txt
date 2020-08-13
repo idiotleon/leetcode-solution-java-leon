@@ -1,5 +1,8 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
+    
 ### Range Query
 
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/

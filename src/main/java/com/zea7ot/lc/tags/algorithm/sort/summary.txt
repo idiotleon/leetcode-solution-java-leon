@@ -1,4 +1,7 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+    
 
 ### Sorting
 
@@ -22,6 +25,7 @@
 
 4   0023    https://leetcode.com/problems/merge-k-sorted-lists/
 4   0148    https://leetcode.com/problems/sort-list/
+4   0269    https://leetcode.com/problems/alien-dictionary/
 4   0632    https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
 4   0895    https://leetcode.com/problems/maximum-frequency-stack/
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
