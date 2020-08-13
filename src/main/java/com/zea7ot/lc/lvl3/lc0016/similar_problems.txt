@@ -1,0 +1,31 @@
+@author: Leon
+References:
+    https://docs.google.com/spreadsheets/d/1VMMHp5Qd_RmCoRKaNiE5wRs0dftXHzUTrlgQVZVleBg/edit#gid=838109710
+
+
+# 3 Pointers
+# 3 Sum
+
+3   0015    https://leetcode.com/problems/3sum/
+3   0016    https://leetcode.com/problems/3sum-closest/
+3   0259    https://leetcode.com/problems/3sum-smaller/
+3   0611    https://leetcode.com/problems/valid-triangle-number/
+
+
+
+# 4 Pointers
+# 4 Sum
+
+4   0018    https://leetcode.com/problems/4sum/
+
+
+
+# 3 Sum
+
+3   0923    https://leetcode.com/problems/3sum-with-multiplicity/
+
+
+
+# 2 Sum
+
+2   0001    https://leetcode.com/problems/two-sum/

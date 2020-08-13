@@ -1,11 +1,14 @@
 @author: Leon
-
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+    
 
 ### Math
 # Geometry
 
 3   0223    https://leetcode.com/problems/rectangle-area/
 3   0593    https://leetcode.com/problems/valid-square/
+3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0750    https://leetcode.com/problems/number-of-corner-rectangles/
 3   0939    https://leetcode.com/problems/minimum-area-rectangle/
 

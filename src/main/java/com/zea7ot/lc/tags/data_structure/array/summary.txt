@@ -73,6 +73,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
 3   0548    https://leetcode.com/problems/split-array-with-equal-sum/
+3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0638    https://leetcode.com/problems/shopping-offers/
 3   0659    https://leetcode.com/problems/split-array-into-consecutive-subsequences/
 3   0714    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
