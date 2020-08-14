@@ -1,13 +1,14 @@
 /**
  * https://leetcode.com/problems/binary-search-tree-iterator/
  * 
- * Time Complexity:     O(N)
- *  next()      O(1)
- *  hasNext()   O(1)
+ * Time Complexity:     
+ *  construction:   O(N)
+ *  next()          O(1)
+ *  hasNext()       O(1)
  * 
  * Space Complexity:    O(N)
  */
-package com.zea7ot.lc.lvl3.lc0173;
+package com.zea7ot.lc.ood.lvl3.lc0173;
 
 import java.util.ArrayList;
 import java.util.List;
