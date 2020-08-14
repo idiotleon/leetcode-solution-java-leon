@@ -4,6 +4,8 @@ References:
 
 
 ### String
-# Linear Scan
+# Linear Scan / 1 Pointer
+
+1   0067    https://leetcode.com/problems/add-binary/
 
 2   0409    https://leetcode.com/problems/longest-palindrome/
