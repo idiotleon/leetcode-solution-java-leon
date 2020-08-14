@@ -4,6 +4,7 @@ References:
 
 
 ### Dynamic Programming
-## with help of Sorting
+## with help of 
+# Sorting
 
 3   1498   https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/

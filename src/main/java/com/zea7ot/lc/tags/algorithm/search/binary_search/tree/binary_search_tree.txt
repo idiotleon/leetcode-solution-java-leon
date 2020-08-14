@@ -1,7 +1,7 @@
 @author: Leon
 References:
-    https://github.com/huanminwu/LeetCod
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 ### Binary Search
 # Tree

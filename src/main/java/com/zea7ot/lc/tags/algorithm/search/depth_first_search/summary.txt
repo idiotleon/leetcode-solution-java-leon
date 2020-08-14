@@ -1,6 +1,8 @@
 @author: Leon
 References:
     https://leetcode.com/tag/depth-first-search/
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+    
 
 ### Depth First Search
 
@@ -11,8 +13,13 @@ References:
 1   0872    https://leetcode.com/problems/leaf-similar-trees/
 1   1161    https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
 
+3   0039    https://leetcode.com/problems/combination-sum/
+3   0040    https://leetcode.com/problems/combination-sum-ii/ 
+3   0046    https://leetcode.com/problems/permutations/
+3   0047    https://leetcode.com/problems/permutations-ii/
 2   0078    https://leetcode.com/problems/subsets/
 2   0090    https://leetcode.com/problems/subsets-ii/
+3   0131    https://leetcode.com/problems/palindrome-partitioning/
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0404    https://leetcode.com/problems/sum-of-left-leaves/
 2   0463    https://leetcode.com/problems/island-perimeter/
@@ -126,6 +133,7 @@ References:
 4   0097    https://leetcode.com/problems/interleaving-string/
 4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0124    https://leetcode.com/problems/binary-tree-maximum-path-sum/
+4   0138    https://leetcode.com/problems/copy-list-with-random-pointer/
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
 4   0250    https://leetcode.com/problems/count-univalue-subtrees/
 4   0267    https://leetcode.com/problems/palindrome-permutation-ii/
@@ -141,6 +149,7 @@ References:
 4   0474    https://leetcode.com/problems/ones-and-zeroes/
 4   0489    https://leetcode.com/problems/robot-room-cleaner/
 4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
+4   0545    https://leetcode.com/problems/boundary-of-binary-tree/
 4   0549    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/
 4   0576    https://leetcode.com/problems/out-of-boundary-paths/
 4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
@@ -148,7 +157,6 @@ References:
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
-5   0827    https://leetcode.com/problems/making-a-large-island/
 4   0839    https://leetcode.com/problems/similar-string-groups/
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
@@ -176,6 +184,7 @@ References:
 5   0425    https://leetcode.com/problems/word-squares/
 5   0472    https://leetcode.com/problems/concatenated-words/
 5   0691    https://leetcode.com/problems/stickers-to-spell-word/
+5   0827    https://leetcode.com/problems/making-a-large-island/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
 5   1203    https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
 5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
@@ -188,3 +197,4 @@ References:
 Resources:
     https://leetcode.com/problems/race-car/discuss/124326/summary-of-the-bfs-and-dp-solutions-with-intuitive-explanation
     https://leetcode.com/problems/accounts-merge/discuss/109162/summary-for-dfs-templates
+    https://leetcode.com/problems/combination-sum/discuss/16502/a-general-approach-to-backtracking-questions-in-java-subsets-permutations-combination-sum-palindrome-partitioning/653087

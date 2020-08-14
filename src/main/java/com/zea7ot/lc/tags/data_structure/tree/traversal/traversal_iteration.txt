@@ -1,6 +1,7 @@
 @author: Leon
 References:
-    https://github.com/huanminwu/LeetCode
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+    
 
 ### Tree
 # Traversal - Iteration
@@ -21,6 +22,7 @@ References:
 3   0450    https://leetcode.com/problems/delete-node-in-a-bst/
 3   0536    https://leetcode.com/problems/construct-binary-tree-from-string/
 3   0776    https://leetcode.com/problems/split-bst/
+3   0938    https://leetcode.com/problems/range-sum-of-bst/
 
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/

@@ -18,35 +18,40 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SolutionApproach0Backtrack{
+public class SolutionApproach0Backtrack {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        List<List<Integer>> ans = new ArrayList<>();
         // sanity check
-        if(candidates == null || candidates.length == 0) return ans;
-        
-        // to help prune it a little bit
+        if (candidates == null || candidates.length == 0)
+            return ans;
+
+        // to help prune a little bit
         Arrays.sort(candidates);
-        backtrack(new ArrayList<Integer>(), target, 0, candidates, ans);
+
+        backtrack(0, target, new ArrayList<>(), candidates, ans);
+
         return ans;
     }
-    
-    private void backtrack(List<Integer> intermediate, 
-                           int target, 
-                           int startPos, 
-                           int[] candidates,
-                           List<List<Integer>> ans){
-        if(target < 0) return;
-        
-        if(target == 0){
-            ans.add(new ArrayList<Integer>(intermediate));
+
+    private void backtrack(int startIdx, int target, List<Integer> path, int[] candidates, List<List<Integer>> paths) {
+
+        final int N = candidates.length;
+        if (target < 0)
+            return;
+
+        if (target == 0) {
+            paths.add(new ArrayList<>(path));
             return;
         }
-        
-        // to prune a little bit
-        for(int i = startPos; i < candidates.length && candidates[i] <= target; i++){
-            intermediate.add(candidates[i]);
-            backtrack(intermediate, target - candidates[i], i, candidates, ans);
-            intermediate.remove(intermediate.size() - 1);
+
+        // please pay attention to these two equivalent backtrack approaches
+        for (int i = startIdx; i < N && target >= candidates[i]; ++i) {
+            // target -= candidates[i];
+            path.add(candidates[i]);
+            // backtrack(i, target, path, candidates, paths);
+            backtrack(i, target - candidates[i], path, candidates, paths);
+            // target += candidates[i];
+            path.remove(path.size() - 1);
         }
     }
 }

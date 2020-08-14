@@ -6,10 +6,17 @@ References:
 ### Array
 # Depth First Search
 
+2   0078    https://leetcode.com/problems/subsets/
+2   0090    https://leetcode.com/problems/subsets-ii/
 2   0690    https://leetcode.com/problems/employee-importance/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 
+3   0039    https://leetcode.com/problems/combination-sum/
+3   0040    https://leetcode.com/problems/combination-sum-ii/ 
+3   0046    https://leetcode.com/problems/permutations/
+3   0047    https://leetcode.com/problems/permutations-ii/
 3   0130    https://leetcode.com/problems/surrounded-regions/
+3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0494    https://leetcode.com/problems/target-sum/
 3   0935    https://leetcode.com/problems/knight-dialer/

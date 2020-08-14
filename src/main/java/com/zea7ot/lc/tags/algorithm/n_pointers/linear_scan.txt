@@ -6,3 +6,5 @@ References:
 # Linear Scan / 1 Pointer
 
 3   0238    https://leetcode.com/problems/product-of-array-except-self/
+
+4   0138    https://leetcode.com/problems/copy-list-with-random-pointer/

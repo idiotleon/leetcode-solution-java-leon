@@ -6,6 +6,14 @@ References:
 ### Array
 # Backtrack
 
+2   0078    https://leetcode.com/problems/subsets/
+2   0090    https://leetcode.com/problems/subsets-ii/
+
+3   0039    https://leetcode.com/problems/combination-sum/
+3   0040    https://leetcode.com/problems/combination-sum-ii/ 
+3   0046    https://leetcode.com/problems/permutations/
+3   0047    https://leetcode.com/problems/permutations-ii/
+3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0491    https://leetcode.com/problems/increasing-subsequences/
 
 4   0351    https://leetcode.com/problems/android-unlock-patterns/

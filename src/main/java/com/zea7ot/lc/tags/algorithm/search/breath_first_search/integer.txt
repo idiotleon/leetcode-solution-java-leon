@@ -1,8 +1,10 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
 ### Breadth First Search
-# integer
+# Integer
 
 3   0279    https://leetcode.com/problems/perfect-squares/
 

@@ -13,9 +13,14 @@ package com.zea7ot.lc.lvl3.lc1498;
 import java.util.Arrays;
 
 public class SolutionApproach0TwoPointers {
+    private static final int MOD = (int) 1e9 + 7;
+
     public int numSubseq(int[] nums, int target) {
+        // sanity check
+        if (nums == null || nums.length == 0)
+            return 0;
+
         final int N = nums.length;
-        final int MOD = (int) 1e9 + 7;
 
         int[] mathPowMod = new int[N + 1];
         mathPowMod[0] = 1;

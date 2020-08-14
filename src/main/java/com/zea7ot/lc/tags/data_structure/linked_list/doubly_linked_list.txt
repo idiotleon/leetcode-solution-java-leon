@@ -4,7 +4,7 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
     
-### LinkedList
+### Linked List
 # Doubly Linked List
 
 2   0707    https://leetcode.com/problems/design-linked-list/

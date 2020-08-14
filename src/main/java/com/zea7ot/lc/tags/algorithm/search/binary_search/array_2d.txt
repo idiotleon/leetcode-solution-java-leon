@@ -1,11 +1,12 @@
 @author: Leon
 References:
-    https://github.com/huanminwu/LeetCode
-    https://leetcode.com/tag/binary-search/
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+    https://leetcode.com/tag/binary-search/
+
 
 ### Binary Search
-# Array - 2Dimen
+# Array - 2 Dimensional
+
 2   0074    https://leetcode.com/problems/search-a-2d-matrix/
 
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/

@@ -1,7 +1,10 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 ### Dynamic Programming
-# longest consecutive sequence
+# Longest Consecutive Sequence
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/

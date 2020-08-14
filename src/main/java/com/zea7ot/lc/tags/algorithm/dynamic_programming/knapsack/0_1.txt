@@ -1,7 +1,8 @@
 @author: Leon
 References:
-    https://github.com/huanminwu/LeetCode
     https://leetcode.com/tag/dynamic-programming/
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+    
 
 ### Dynamic Programming
 ## Knapsack
@@ -11,6 +12,7 @@ References:
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
+3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
 4   0312    https://leetcode.com/problems/burst-balloons/
 4   0474    https://leetcode.com/problems/ones-and-zeroes/

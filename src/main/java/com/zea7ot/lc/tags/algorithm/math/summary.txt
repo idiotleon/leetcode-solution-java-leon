@@ -26,6 +26,7 @@ References:
 3   1033    https://leetcode.com/problems/moving-stones-until-consecutive/
 3   1053    https://leetcode.com/problems/previous-permutation-with-one-swap/
 3   1247    https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/
+3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
 4   0004    https://leetcode.com/problems/median-of-two-sorted-arrays/
 4   0031    https://leetcode.com/problems/next-permutation/
