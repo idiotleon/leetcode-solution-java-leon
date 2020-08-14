@@ -13,28 +13,28 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SolutionApproach0Backtrack {
-    private List<Integer> bitPermuations;
+    private List<Integer> bitCombinations;
     private int idx;
     private final char[] CHS;
 
     public SolutionApproach0Backtrack(String characters, int combinationLength) {
-        this.bitPermuations = new ArrayList<Integer>();
+        this.bitCombinations = new ArrayList<Integer>();
         this.idx = 0;
         this.CHS = characters.toCharArray();
 
         final int L = characters.length();
         for (int i = (1 << L) - 1; i > 0; --i)
             if (countBits(i) == combinationLength)
-                bitPermuations.add(i);
+                bitCombinations.add(i);
     }
 
     public String next() {
-        int num = bitPermuations.get(idx++);
+        int num = bitCombinations.get(idx++);
         return retrieveString(num);
     }
 
     public boolean hasNext() {
-        return this.idx < bitPermuations.size();
+        return this.idx < bitCombinations.size();
     }
 
     private String retrieveString(int num) {
