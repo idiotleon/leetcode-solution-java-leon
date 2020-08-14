@@ -59,6 +59,7 @@ References:
 3   1522    https://leetcode.com/problems/diameter-of-n-ary-tree/
 3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
 
+4   0124    https://leetcode.com/problems/binary-tree-maximum-path-sum/
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
 4   0298    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
