@@ -44,6 +44,7 @@
 3   0666    https://leetcode.com/problems/path-sum-iv/
 3   0776    https://leetcode.com/problems/split-bst/
 3   0783    https://leetcode.com/problems/minimum-distance-between-bst-nodes/
+3   0938    https://leetcode.com/problems/range-sum-of-bst/
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 3   1245    https://leetcode.com/problems/tree-diameter/
 3   1382    https://leetcode.com/problems/balance-a-binary-search-tree/

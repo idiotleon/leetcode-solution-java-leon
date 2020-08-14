@@ -2,6 +2,8 @@
 References:
     https://leetcode.com/tag/trie/
     https://www.geeksforgeeks.org/trie-insert-and-search/
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+    
 
 ### Trie
 
