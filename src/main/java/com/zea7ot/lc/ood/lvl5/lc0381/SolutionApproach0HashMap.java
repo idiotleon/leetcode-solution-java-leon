@@ -7,7 +7,7 @@
  * References:
  *  https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/discuss/85541/C++-128m-Solution-Real-O(1)-Solution/245235
  */
-package com.zea7ot.lc.ood.lv5.lc0381;
+package com.zea7ot.lc.ood.lvl5.lc0381;
 
 import java.util.ArrayList;
 import java.util.HashMap;
