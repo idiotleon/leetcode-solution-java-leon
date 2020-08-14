@@ -21,6 +21,8 @@ References:
 
 4   0298    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 4   0314    https://leetcode.com/problems/binary-tree-vertical-order-traversal/
+4   0545    https://leetcode.com/problems/boundary-of-binary-tree/
+
 
 Resources:
     https://leetcode.com/articles/vertical-order-traversal-of-a-binary-tree/
