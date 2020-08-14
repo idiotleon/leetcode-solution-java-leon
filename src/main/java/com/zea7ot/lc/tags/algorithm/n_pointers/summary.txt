@@ -18,6 +18,7 @@ References:
 
 3   0238    https://leetcode.com/problems/product-of-array-except-self/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
+3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   0986    https://leetcode.com/problems/interval-list-intersections/

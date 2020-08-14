@@ -3,6 +3,6 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
-### Given API
+### API Given
 
 2   0278    https://leetcode.com/problems/first-bad-version/

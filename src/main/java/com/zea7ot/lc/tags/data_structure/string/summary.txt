@@ -35,6 +35,7 @@ References:
 3   0228    https://leetcode.com/problems/summary-ranges/
 3   0320    https://leetcode.com/problems/generalized-abbreviation/
 3   0388    https://leetcode.com/problems/longest-absolute-file-path/
+3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/
 3   0468    https://leetcode.com/problems/validate-ip-address/
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
 3   0609    https://leetcode.com/problems/find-duplicate-file-in-system/

@@ -7,6 +7,7 @@ References:
 # Substring
 
 3   0005    https://leetcode.com/problems/longest-palindromic-substring/
+3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/
 
 4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0076    https://leetcode.com/problems/minimum-window-substring/
@@ -20,3 +21,4 @@ References:
 #template
     https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
     https://leetcode.com/problems/minimum-size-subarray-sum/discuss/59110/O(N)-template-for-Minimum-Size-Subarray-Sum-and-Minimum-Window-Substring-and-Longest-Substring-Without-Repeating-Characters
+    
