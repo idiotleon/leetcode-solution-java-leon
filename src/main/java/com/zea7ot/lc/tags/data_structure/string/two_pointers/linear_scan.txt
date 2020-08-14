@@ -2,11 +2,8 @@
 References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
-    
+
 ### String
-# Sequence
+# Linear Scan
 
 2   0409    https://leetcode.com/problems/longest-palindrome/
-
-4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
-4   0936    https://leetcode.com/problems/stamping-the-sequence/

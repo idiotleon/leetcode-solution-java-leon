@@ -10,6 +10,7 @@ References:
 
 2   0035    https://leetcode.com/problems/search-insert-position/
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
+2   0278    https://leetcode.com/problems/first-bad-version/
 2   0475    https://leetcode.com/problems/heaters/
 2   0704    https://leetcode.com/problems/binary-search/
 2   0744    https://leetcode.com/problems/find-smallest-letter-greater-than-target/

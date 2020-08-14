@@ -1,0 +1,8 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Given API
+
+2   0278    https://leetcode.com/problems/first-bad-version/

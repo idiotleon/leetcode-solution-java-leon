@@ -19,7 +19,7 @@ References:
 3   0047    https://leetcode.com/problems/permutations-ii/
 2   0078    https://leetcode.com/problems/subsets/
 2   0090    https://leetcode.com/problems/subsets-ii/
-3   0131    https://leetcode.com/problems/palindrome-partitioning/
+2   0199    https://leetcode.com/problems/binary-tree-right-side-view/
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0404    https://leetcode.com/problems/sum-of-left-leaves/
 2   0463    https://leetcode.com/problems/island-perimeter/
@@ -51,6 +51,7 @@ References:
 3   0114    https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 3   0129    https://leetcode.com/problems/sum-root-to-leaf-numbers/
 3   0130    https://leetcode.com/problems/surrounded-regions/
+3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0173    https://leetcode.com/problems/binary-search-tree-iterator/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0216    https://leetcode.com/problems/combination-sum-iii/
