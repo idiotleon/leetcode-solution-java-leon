@@ -4,7 +4,7 @@ References:
 
 
 ### Linked List
-# Stack
+# As Stacks
 
 3   1019    https://leetcode.com/problems/next-greater-node-in-linked-list/
 

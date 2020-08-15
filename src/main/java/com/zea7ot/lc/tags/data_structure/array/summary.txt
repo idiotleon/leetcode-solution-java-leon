@@ -14,6 +14,7 @@ This file serves as the total list of problems related to Array, regardless of a
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0001    https://leetcode.com/problems/two-sum/
+2   0017    https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 2   0078    https://leetcode.com/problems/subsets/
 2   0090    https://leetcode.com/problems/subsets-ii/
 2   0118    https://leetcode.com/problems/pascals-triangle/

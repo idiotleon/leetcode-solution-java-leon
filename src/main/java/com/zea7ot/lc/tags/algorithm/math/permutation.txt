@@ -6,6 +6,8 @@ References:
 ### Math
 # Permutation
 
+3   0046    https://leetcode.com/problems/permutations/
+3   0047    https://leetcode.com/problems/permutations-ii/
 3   0060    https://leetcode.com/problems/permutation-sequence/
 3   1053    https://leetcode.com/problems/previous-permutation-with-one-swap/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/

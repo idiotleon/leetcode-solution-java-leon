@@ -5,8 +5,9 @@
  * 
  * References:
  *  https://www.youtube.com/watch?v=TWhCNrftDGM
+ *  https://leetcode.com/problems/random-pick-index/discuss/88072/Simple-Reservoir-Sampling-solution
  */
-package com.zea7ot.lc.lvl2.lc0398;
+package com.zea7ot.lc.ood.lvl2.lc0398;
 
 import java.util.Random;
 
@@ -18,18 +19,19 @@ public class SolutionApproach0ReservoirSampling {
         this.nums = nums;
         this.random = new Random();
     }
-    
+
     public int pick(int target) {
         int res = -1;
         int count = 0;
-        for(int i = 0; i < nums.length; i++){
-            if(nums[i] != target) continue;
-            
-            if(random.nextInt(++count) == 0){
+        for (int i = 0; i < nums.length; ++i) {
+            if (nums[i] != target)
+                continue;
+
+            if (random.nextInt(++count) == 0) {
                 res = i;
             }
         }
-        
+
         return res;
     }
 }

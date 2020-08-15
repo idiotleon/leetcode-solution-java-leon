@@ -1,0 +1,9 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Math
+# Probability - Random
+
+2   0398    https://leetcode.com/problems/random-pick-index/
