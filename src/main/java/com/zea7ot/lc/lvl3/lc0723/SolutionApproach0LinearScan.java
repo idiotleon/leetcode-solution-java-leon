@@ -10,10 +10,9 @@
  */
 package com.zea7ot.lc.lvl3.lc0723;
 
-public class Solution {
+public class SolutionApproach0LinearScan {
     public int[][] candyCrush(int[][] board) {
         final int NR = board.length, NC = board[0].length;
-
         boolean shouldContinue = false;
 
         // to crush candies horizontally
@@ -28,8 +27,8 @@ public class Solution {
         }
 
         // to crush candies vertically
-        for (int row = 0; row < NR - 2; ++row) {
-            for (int col = 0; col < NC; ++col) {
+        for (int col = 0; col < NC; ++col) {
+            for (int row = 0; row < NR - 2; ++row) {
                 int candy = Math.abs(board[row][col]);
                 if (candy > 0 && candy == Math.abs(board[row + 1][col]) && candy == Math.abs(board[row + 2][col])) {
                     board[row][col] = board[row + 1][col] = board[row + 2][col] = -candy;
@@ -45,12 +44,10 @@ public class Solution {
             // to start with the very bottom
             int r = NR - 1;
             // to pile up the candies left on the very column
-            for (int row = NR - 1; row >= 0; --row) {
+            for (int row = NR - 1; row >= 0; --row)
                 // if it is positive, there is a candy
-                if (board[row][col] > 0) {
+                if (board[row][col] > 0)
                     board[r--][col] = board[row][col];
-                }
-            }
 
             // to clear up the rest/top
             for (int row = r; row >= 0; --row)

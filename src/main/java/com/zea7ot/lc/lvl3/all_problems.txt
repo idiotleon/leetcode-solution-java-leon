@@ -40,6 +40,7 @@ References:
 0116    https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
 0119    https://leetcode.com/problems/pascals-triangle-ii/
 
+0723    https://leetcode.com/problems/candy-crush/
 0794    https://leetcode.com/problems/rotting-oranges/
 
 1245    https://leetcode.com/problems/tree-diameter/
