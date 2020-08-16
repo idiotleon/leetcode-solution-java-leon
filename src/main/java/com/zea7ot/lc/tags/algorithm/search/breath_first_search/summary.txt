@@ -10,6 +10,8 @@ References:
 1   0671    https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/
 1   1161    https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
 
+2   0017    https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+2   0199    https://leetcode.com/problems/binary-tree-right-side-view/
 2   0207    https://leetcode.com/problems/course-schedule/   
 2   0226    https://leetcode.com/problems/invert-binary-tree/
 2   0310    https://leetcode.com/problems/minimum-height-trees/
@@ -65,6 +67,7 @@ References:
 4   0839    https://leetcode.com/problems/similar-string-groups/
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
+4   1553    https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
 
 5   0691    https://leetcode.com/problems/stickers-to-spell-word/
 5   0818    https://leetcode.com/problems/race-car/

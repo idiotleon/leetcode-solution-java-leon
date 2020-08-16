@@ -1,0 +1,23 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Two Pointers
+## By Data Structure
+# String
+
+1   0067    https://leetcode.com/problems/add-binary/
+1   0125    https://leetcode.com/problems/valid-palindrome/
+1   0345    https://leetcode.com/problems/reverse-vowels-of-a-string/
+
+2   0408    https://leetcode.com/problems/valid-word-abbreviation/
+2   0409    https://leetcode.com/problems/longest-palindrome/
+
+3   0484    https://leetcode.com/problems/find-permutation/
+3   0680    https://leetcode.com/problems/valid-palindrome-ii/
+3   0763    https://leetcode.com/problems/partition-labels/
+3   1023    https://leetcode.com/problems/camelcase-matching/
+3   1055    https://leetcode.com/problems/shortest-way-to-form-string/
+
+4   0076    https://leetcode.com/problems/minimum-window-substring/

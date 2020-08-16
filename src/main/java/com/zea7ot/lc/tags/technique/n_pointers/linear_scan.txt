@@ -1,0 +1,15 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### N Pointers
+# Linear Scan / 1 Pointer
+
+2   0409    https://leetcode.com/problems/longest-palindrome/
+
+3   0238    https://leetcode.com/problems/product-of-array-except-self/
+3   0484    https://leetcode.com/problems/find-permutation/
+3   0723    https://leetcode.com/problems/candy-crush/
+
+4   0138    https://leetcode.com/problems/copy-list-with-random-pointer/

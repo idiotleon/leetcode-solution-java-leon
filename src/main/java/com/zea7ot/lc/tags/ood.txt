@@ -18,6 +18,7 @@ References:
 3   0348    https://leetcode.com/problems/design-tic-tac-toe/
 3   0379    https://leetcode.com/problems/design-phone-directory/
 3   0380    https://leetcode.com/problems/insert-delete-getrandom-o1/
+3   0398    https://leetcode.com/problems/random-pick-index/
 3   0528    https://leetcode.com/problems/random-pick-with-weight/
 3   0705    https://leetcode.com/problems/design-hashset/
 3   1357    https://leetcode.com/problems/apply-discount-every-n-orders/

@@ -35,6 +35,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
+3   0523    https://leetcode.com/problems/continuous-subarray-sum/
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
 3   0647    https://leetcode.com/problems/palindromic-substrings/
 3   0666    https://leetcode.com/problems/path-sum-iv/
@@ -111,6 +112,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   1371    https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
 4   1411    https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
+4   1553    https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
 
 5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/

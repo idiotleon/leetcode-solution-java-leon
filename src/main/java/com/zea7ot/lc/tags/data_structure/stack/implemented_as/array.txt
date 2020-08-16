@@ -1,0 +1,12 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+    https://leetcode.com/tag/stack/
+
+
+### Stack
+# Arrays as Stacks
+
+3   0388    https://leetcode.com/problems/longest-absolute-file-path/
+
+4   0735    https://leetcode.com/problems/asteroid-collision/

@@ -12,9 +12,11 @@ References:
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0001    https://leetcode.com/problems/two-sum/
+2   0017    https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 2   0078    https://leetcode.com/problems/subsets/
 2   0090    https://leetcode.com/problems/subsets-ii/
 2   0053    https://leetcode.com/problems/maximum-subarray/
+2   0278    https://leetcode.com/problems/first-bad-version/
 2   0280    https://leetcode.com/problems/wiggle-sort/
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/

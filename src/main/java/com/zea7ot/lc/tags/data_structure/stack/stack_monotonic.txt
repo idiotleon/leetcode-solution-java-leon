@@ -1,14 +1,16 @@
 @author: Leon
 References:
-    https://github.com/huanminwu/LeetCode
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
     https://leetcode.com/tag/stack/
     https://medium.com/algorithms-and-leetcode/monotonic-queue-explained-with-leetcode-problems-7db7c530c1d6
+
 
 ### Stack:
 # Monotonic Stack:
 
 2   0496    https://leetcode.com/problems/next-greater-element-i/
 
+3   0484    https://leetcode.com/problems/find-permutation/
 3   0503    https://leetcode.com/problems/next-greater-element-ii/
 3   0739    https://leetcode.com/problems/daily-temperatures/
 3   0901    https://leetcode.com/problems/online-stock-span/

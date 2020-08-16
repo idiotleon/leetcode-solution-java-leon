@@ -1,7 +1,8 @@
 @author: Leon
 References:
-    https://github.com/huanminwu/LeetCode
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
     https://leetcode.com/tag/stack/
+
 
 ### Stack
 
@@ -18,11 +19,13 @@ References:
 
 3   0105    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+3   0173    https://leetcode.com/problems/binary-search-tree-iterator/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/
 3   0341    https://leetcode.com/problems/flatten-nested-list-iterator/
 3   0388    https://leetcode.com/problems/longest-absolute-file-path/
 3   0402    https://leetcode.com/problems/remove-k-digits/
+3   0484    https://leetcode.com/problems/find-permutation/
 3   0503    https://leetcode.com/problems/next-greater-element-ii/
 3   0716    https://leetcode.com/problems/max-stack/
 3   0739    https://leetcode.com/problems/daily-temperatures/
@@ -39,6 +42,7 @@ References:
 4   0316    https://leetcode.com/problems/remove-duplicate-letters/
 4   0456    https://leetcode.com/problems/132-pattern/
 4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
+4   0636    https://leetcode.com/problems/exclusive-time-of-functions/
 4   0726    https://leetcode.com/problems/number-of-atoms/
 4   0735    https://leetcode.com/problems/asteroid-collision/
 4   0768    https://leetcode.com/problems/max-chunks-to-make-sorted-ii/

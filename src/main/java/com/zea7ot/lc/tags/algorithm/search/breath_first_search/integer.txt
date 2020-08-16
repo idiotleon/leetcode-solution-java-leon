@@ -8,4 +8,6 @@ References:
 
 3   0279    https://leetcode.com/problems/perfect-squares/
 
+4   1553    https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
+
 5   0818    https://leetcode.com/problems/race-car/

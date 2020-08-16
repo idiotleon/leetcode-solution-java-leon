@@ -1,8 +1,0 @@
-@author: Leon
-
-### Stack
-# Arrays as Stacks
-
-3   0388    https://leetcode.com/problems/longest-absolute-file-path/
-
-4   0735    https://leetcode.com/problems/asteroid-collision/

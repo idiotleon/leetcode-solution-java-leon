@@ -1,0 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+    https://leetcode.com/tag/stack/
+
+
+### Stack
+## StringBuilders as Stacks
+
+2   1047    https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/

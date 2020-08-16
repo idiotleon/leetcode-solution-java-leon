@@ -14,10 +14,12 @@ This file serves as the total list of problems related to Array, regardless of a
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0001    https://leetcode.com/problems/two-sum/
+2   0017    https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 2   0078    https://leetcode.com/problems/subsets/
 2   0090    https://leetcode.com/problems/subsets-ii/
 2   0118    https://leetcode.com/problems/pascals-triangle/
 2   0207    https://leetcode.com/problems/course-schedule/
+2   0278    https://leetcode.com/problems/first-bad-version/
 2   0280    https://leetcode.com/problems/wiggle-sort/
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 2   0310    https://leetcode.com/problems/minimum-height-trees/
@@ -79,6 +81,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0491    https://leetcode.com/problems/increasing-subsequences/
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
+3   0523    https://leetcode.com/problems/continuous-subarray-sum/
 3   0548    https://leetcode.com/problems/split-array-with-equal-sum/
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0638    https://leetcode.com/problems/shopping-offers/
