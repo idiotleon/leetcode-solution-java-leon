@@ -2,12 +2,8 @@
 References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
-
-### Breadth First Search
-# Integer
-
-3   0279    https://leetcode.com/problems/perfect-squares/
+    
+### Shortest Path
+# Breadth First Search
 
 4   1553    https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
-
-5   0818    https://leetcode.com/problems/race-car/

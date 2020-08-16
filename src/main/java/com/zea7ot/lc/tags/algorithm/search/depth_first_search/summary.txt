@@ -191,9 +191,11 @@ References:
 5   1203    https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
 5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
 5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
+4   1553    https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
 
 6   0488    https://leetcode.com/problems/zuma-game/
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
+
 
 
 Resources:
