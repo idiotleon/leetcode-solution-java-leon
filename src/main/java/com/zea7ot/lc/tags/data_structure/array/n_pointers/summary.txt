@@ -10,6 +10,7 @@ References:
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0881    https://leetcode.com/problems/boats-to-save-people/
+2   1103    https://leetcode.com/problems/distribute-candies-to-people/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
 3   0238    https://leetcode.com/problems/product-of-array-except-self/

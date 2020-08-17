@@ -7,6 +7,7 @@ References:
 # Linear Scan / 1 Pointer
 
 2   0409    https://leetcode.com/problems/longest-palindrome/
+2   1103    https://leetcode.com/problems/distribute-candies-to-people/
 
 3   0238    https://leetcode.com/problems/product-of-array-except-self/
 3   0484    https://leetcode.com/problems/find-permutation/

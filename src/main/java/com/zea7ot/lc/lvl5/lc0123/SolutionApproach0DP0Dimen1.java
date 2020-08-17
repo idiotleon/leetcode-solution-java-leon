@@ -9,7 +9,7 @@
  */
 package com.zea7ot.lc.lvl5.lc0123;
 
-public class SolutionAppraoch0DP0Dimen1 {
+public class SolutionApproach0DP0Dimen1 {
     public int maxProfit(int[] prices) {
         // sanity check
         if (prices == null || prices.length == 0)
