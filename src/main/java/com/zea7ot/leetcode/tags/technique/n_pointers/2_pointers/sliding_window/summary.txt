@@ -9,6 +9,7 @@ References:
 
 1   0643    https://leetcode.com/problems/maximum-average-subarray-i/
 
+2   0003    https://leetcode.com/problems/longest-substring-without-repeating-characters/
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 
 3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/

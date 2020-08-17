@@ -1,30 +1,33 @@
 /**
  * https://leetcode.com/problems/longest-substring-without-repeating-characters/
  * 
- * Time Complexity:     O(N)
+ * Time Complexity:     O(L)
  * Space Complexity:    O(1)
  */
 package com.zea7ot.leetcode.lvl2.lc0003;
 
 public class SolutionApproach0SlidingWindow1 {
     public int lengthOfLongestSubstring(String s) {
+        int longest = 0;
         // sanity check
-        if(s == null || s.length() == 0) return 0;
-        
+        if (s == null || s.isEmpty())
+            return longest;
+
         final int L = s.length();
         char[] chs = s.toCharArray();
         int[] freq = new int[128];
-        int left = 0, right = 0, longest = 0;
-        while(right < L){
-            ++freq[chs[right]];
-            while(freq[chs[right]] > 1){
-                --freq[chs[left++]];
-            }
-            // please pay more attention to where "right++" should be placed
-            right++;
-            longest = Math.max(longest, right - left);
+
+        int lo = 0, hi = 0;
+        while (hi < L) {
+            ++freq[chs[hi]];
+            while (freq[chs[hi]] > 1)
+                --freq[chs[lo++]];
+
+            // please pay attention to the relative position of the two lines right below
+            longest = Math.max(longest, hi - lo + 1);
+            ++hi;
         }
-        
+
         return longest;
     }
 }
