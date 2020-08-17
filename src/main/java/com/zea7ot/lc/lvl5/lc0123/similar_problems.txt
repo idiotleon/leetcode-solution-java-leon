@@ -1,4 +1,9 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Stocks
 
 2   0122    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 

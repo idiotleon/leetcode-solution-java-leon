@@ -1,18 +1,20 @@
 /**
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+ *  
+ * how about sell short?
  * 
  * Time Complexity:     O(N)
  * Space Complexity:    O(1)
  */
-package com.zea7ot.lc.lvl3.lc0121;
+package com.zea7ot.lc.lvl3.lc0121.followup;
 
 public class SolutionApproach0DP1 {
     public int maxProfit(int[] prices) {
-        int minPrice = Integer.MAX_VALUE, maxProfit = 0;
+        int maxPrice = Integer.MAX_VALUE, maxProfit = 0;
 
         for (int price : prices) {
-            minPrice = Math.min(minPrice, price);
-            maxProfit = Math.max(maxProfit, price - minPrice);
+            maxPrice = Math.max(maxPrice, price);
+            maxProfit = Math.max(maxProfit, maxPrice - price);
         }
 
         return maxProfit;
