@@ -1,4 +1,9 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Stock
 
 2   0122    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 
@@ -14,3 +19,5 @@
 
 Resources:
     https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/discuss/108870/Most-consistent-ways-of-dealing-with-the-series-of-stock-problems
+    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/discuss/108871/2-solutions-2-states-DP-solutions-clear-explanation!
+    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/discuss/160964/java-Using-State-Machine-like-stock-III

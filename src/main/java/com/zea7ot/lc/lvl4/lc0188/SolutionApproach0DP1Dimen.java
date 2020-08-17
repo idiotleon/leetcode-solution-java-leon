@@ -12,43 +12,46 @@
  */
 package com.zea7ot.lc.lvl4.lc0188;
 
-
-public class SolutionApproach0DP2{
+public class SolutionApproach0DP1Dimen {
     public int maxProfit(int k, int[] prices) {
         // sanity check
-        if(k == 0 || prices.length == 0) return 0;
-        
-        if(k >= prices.length) 
+        if (k == 0 || prices.length == 0)
+            return 0;
+
+        final int N = prices.length;
+
+        if (k >= N)
             return allTimeProfit(prices);
-        
-        int[] dp = new int[prices.length];
-        int[] prev = new int[prices.length];
-        for(int i = 1; i <= k; i++){
+
+        int[] dp = new int[N];
+        int[] prev = new int[N];
+        for (int i = 1; i <= k; i++) {
             int maxDiff = -prices[0];
-            for(int j = 1; j < prices.length; j++){
+            for (int j = 1; j < N; j++) {
                 dp[j] = Math.max(dp[j - 1], maxDiff + prices[j]);
                 maxDiff = Math.max(maxDiff, prev[j] - prices[j]);
             }
-            
-            for(int j = 1; j < prices.length; j++){
+
+            for (int j = 1; j < N; j++) {
                 prev[j] = dp[j];
             }
         }
-        
-        return dp[dp.length - 1];
+
+        return dp[N - 1];
     }
-    
-    private int allTimeProfit(int[] prices){
+
+    private int allTimeProfit(int[] prices) {
+        final int N = prices.length;
         int profit = 0, localMin = prices[0];
-        for(int i = 1; i < prices.length; i++){
-            if(prices[i - 1] >= prices[i]){
+        for (int i = 1; i < N; i++) {
+            if (prices[i - 1] >= prices[i]) {
                 localMin = prices[i];
-            }else{
+            } else {
                 profit += prices[i] - localMin;
                 localMin = prices[i];
             }
         }
-        
+
         return profit;
     }
 }
