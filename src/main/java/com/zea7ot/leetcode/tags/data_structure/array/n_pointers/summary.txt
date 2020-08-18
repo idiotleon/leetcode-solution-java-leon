@@ -1,0 +1,34 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Array
+## Two Pointers
+# Summary
+
+1   1470    https://leetcode.com/problems/shuffle-the-array/
+
+2   0881    https://leetcode.com/problems/boats-to-save-people/
+2   1103    https://leetcode.com/problems/distribute-candies-to-people/
+2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
+
+3   0238    https://leetcode.com/problems/product-of-array-except-self/
+3   0360    https://leetcode.com/problems/sort-transformed-array/
+3   0611    https://leetcode.com/problems/valid-triangle-number/
+3   0723    https://leetcode.com/problems/candy-crush/
+3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
+3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
+3   1229    https://leetcode.com/problems/meeting-scheduler/
+3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
+
+4   0018    https://leetcode.com/problems/4sum/
+4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+4   0287    https://leetcode.com/problems/find-the-duplicate-number/
+4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
+4   1537    https://leetcode.com/problems/get-the-maximum-score/
+
+
+
+Resources:
+    https://leetcode.com/problems/subarray-sum-equals-k/discuss/301242/General-summary-of-what-kind-of-problem-can-cannot-solved-by-Two-Pointers

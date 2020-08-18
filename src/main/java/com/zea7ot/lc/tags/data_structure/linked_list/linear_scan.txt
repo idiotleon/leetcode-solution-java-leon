@@ -1,9 +1,0 @@
-@author: Leon
-References:
-    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
-
-
-### Linked List
-# Linear Scan
-
-4   0138    https://leetcode.com/problems/copy-list-with-random-pointer/

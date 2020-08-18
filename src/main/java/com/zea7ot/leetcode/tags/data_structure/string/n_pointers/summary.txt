@@ -1,0 +1,27 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### String
+## N Pointers
+# Summary
+
+1   0067    https://leetcode.com/problems/add-binary/
+1   0125    https://leetcode.com/problems/valid-palindrome/
+1   0345    https://leetcode.com/problems/reverse-vowels-of-a-string/
+
+2   0003    https://leetcode.com/problems/longest-substring-without-repeating-characters/
+2   0408    https://leetcode.com/problems/valid-word-abbreviation/
+2   0409    https://leetcode.com/problems/longest-palindrome/
+2   1047    https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+
+3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/
+3   0680    https://leetcode.com/problems/valid-palindrome-ii/
+3   0763    https://leetcode.com/problems/partition-labels/
+3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/description/
+3   1055    https://leetcode.com/problems/shortest-way-to-form-string/
+
+4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+4   0076    https://leetcode.com/problems/minimum-window-substring/
+4   0727    https://leetcode.com/problems/minimum-window-subsequence/

@@ -1,0 +1,13 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Array
+## N Pointers
+# Linear Scan / 1 pointer
+
+2   1103    https://leetcode.com/problems/distribute-candies-to-people/
+
+3   0238    https://leetcode.com/problems/product-of-array-except-self/
+3   0723    https://leetcode.com/problems/candy-crush/

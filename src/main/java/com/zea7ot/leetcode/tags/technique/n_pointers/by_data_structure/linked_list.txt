@@ -1,0 +1,13 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### N Pointers
+## By Data Structure
+# Linked List
+
+2   0002    https://leetcode.com/problems/add-two-numbers/
+
+4   0142    https://leetcode.com/problems/linked-list-cycle-ii/
+4   0148    https://leetcode.com/problems/sort-list/

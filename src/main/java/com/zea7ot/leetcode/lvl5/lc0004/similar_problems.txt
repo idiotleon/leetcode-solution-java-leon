@@ -1,0 +1,52 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Median
+
+4   0239    https://leetcode.com/problems/sliding-window-maximum/
+4   0295    https://leetcode.com/problems/find-median-from-data-stream/
+
+5   0004    https://leetcode.com/problems/median-of-two-sorted-arrays/
+5   0480    https://leetcode.com/problems/sliding-window-median/
+
+
+
+###  Monotonic Queue
+
+4   0239    https://leetcode.com/problems/sliding-window-maximum/
+4   0719    https://leetcode.com/problems/find-k-th-smallest-pair-distance/
+
+5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
+
+
+
+# Prefix Sums
+
+2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
+
+5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
+
+
+
+### Monotonic Stack:
+
+2   0496    https://leetcode.com/problems/next-greater-element-i/
+
+3   0484    https://leetcode.com/problems/find-permutation/
+3   0503    https://leetcode.com/problems/next-greater-element-ii/
+3   0739    https://leetcode.com/problems/daily-temperatures/
+3   0901    https://leetcode.com/problems/online-stock-span/
+3   0962    https://leetcode.com/problems/maximum-width-ramp/
+3   1019    https://leetcode.com/problems/next-greater-node-in-linked-list/
+
+4   0042    https://leetcode.com/problems/trapping-rain-water/
+4   0084    https://leetcode.com/problems/largest-rectangle-in-histogram/
+4   0316    https://leetcode.com/problems/remove-duplicate-letters/
+4   0456    https://leetcode.com/problems/132-pattern/
+4   0768    https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
+4   0769    https://leetcode.com/problems/max-chunks-to-make-sorted/
+4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
+4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
+4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
