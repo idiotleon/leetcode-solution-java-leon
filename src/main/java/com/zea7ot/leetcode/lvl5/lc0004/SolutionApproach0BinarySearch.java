@@ -4,6 +4,7 @@
  * Time Complexity:     O(lg(min(L1, L2)))
  * Space Complexity:    O(1)
  * 
+ * 
  * to find such a partition (left and right parts, including both arrays):
  *  1. both parts have the same total elements
  *  2. every element on the left side is smaller or equal to the elements on the right side
@@ -16,14 +17,13 @@
  *  to return max(x2, y5), if `L1 + L2` is odd
  * 
  * 
- * 
  * References:
  *  https://www.youtube.com/watch?v=KB9IcSCDQ9k
  *  https://zxi.mytechroad.com/blog/algorithms/binary-search/leetcode-4-median-of-two-sorted-arrays/
  *  https://www.youtube.com/watch?v=LPFhl65R7ww
  *  https://github.com/mission-peace/interview/blob/master/src/com/interview/binarysearch/MedianOfTwoSortedArrayOfDifferentLength.java
  */
-package com.zea7ot.leetcode.lvl4.lc0004;
+package com.zea7ot.leetcode.lvl5.lc0004;
 
 public class SolutionApproach0BinarySearch {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

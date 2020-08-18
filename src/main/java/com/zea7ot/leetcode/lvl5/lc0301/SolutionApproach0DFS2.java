@@ -14,25 +14,31 @@ import java.util.List;
 
 public class SolutionApproach0DFS2 {
     public List<String> removeInvalidParentheses(String s) {
-        List<String> output = new ArrayList<String>();
-        dfs(s, output, 0, 0, '(', ')');
-        return output;
+        List<String> ans = new ArrayList<String>();
+        // sanity check
+        if (s == null)
+            return ans;
+
+        dfs(0, 0, s, '(', ')', ans);
+        return ans;
     }
 
-    private void dfs(String s, List<String> output, int iStart, int jStart, char openParen, char closedParen) {
+    private void dfs(int iStart, int jStart, String str, final char OPEN_PAREN, final char CLOSED_PAREN,
+            List<String> res) {
+        final int L = str.length();
         int numOpenParen = 0, numClosedParen = 0;
 
-        for (int i = iStart; i < s.length(); i++) {
-            if (s.charAt(i) == openParen)
+        for (int i = iStart; i < L; ++i) {
+            if (str.charAt(i) == OPEN_PAREN)
                 numOpenParen++;
-            if (s.charAt(i) == closedParen)
+            if (str.charAt(i) == CLOSED_PAREN)
                 numClosedParen++;
             if (numClosedParen > numOpenParen) { // there is an extra closed parenthese to remove
-                for (int j = jStart; j <= i; j++) { // to remove one at each position, skipping duplicates
-                    if (s.charAt(j) == closedParen && (j == jStart || s.charAt(j - 1) != closedParen)) {
+                for (int j = jStart; j <= i; ++j) { // to remove one at each position, skipping duplicates
+                    if (str.charAt(j) == CLOSED_PAREN && (j == jStart || str.charAt(j - 1) != CLOSED_PAREN)) {
                         // Recursion: iStart = i since we now have valid # closed parenthesis thru i.
                         // jStart = j prevents duplicates
-                        dfs(s.substring(0, j) + s.substring(j + 1, s.length()), output, i, j, openParen, closedParen);
+                        dfs(i, j, str.substring(0, j) + str.substring(j + 1), OPEN_PAREN, CLOSED_PAREN, res);
                     }
                 }
 
@@ -41,11 +47,11 @@ public class SolutionApproach0DFS2 {
         }
 
         // to check the opposite direction, since no invalid parenthesis can be detected
-        String reversed = new StringBuilder(s).reverse().toString();
-        if (openParen == '(') {
-            dfs(reversed, output, 0, 0, ')', '(');
+        String reversed = new StringBuilder(str).reverse().toString();
+        if (OPEN_PAREN == '(') {
+            dfs(0, 0, reversed, ')', '(', res);
         } else {
-            output.add(reversed);
+            res.add(reversed);
         }
     }
 }

@@ -8,7 +8,7 @@
  * References:
  *  https://leetcode.com/problems/median-of-two-sorted-arrays/discuss/2471/Very-concise-O(log(min(MN)))-iterative-solution-with-detailed-explanation
  */
-package com.zea7ot.leetcode.lvl4.lc0004;
+package com.zea7ot.leetcode.lvl5.lc0004;
 
 public class SolutionApproach1BinarySearch {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

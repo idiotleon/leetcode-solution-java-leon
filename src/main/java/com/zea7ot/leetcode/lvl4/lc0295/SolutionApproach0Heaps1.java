@@ -31,20 +31,22 @@ public class SolutionApproach0Heaps1 {
         // to start with the 0th element
         this.isEven = true;
     }
-    
+
     public void addNum(int num) {
-        if(isEven){
+        if (isEven) {
             large.offer(num);
             small.offer(large.poll());
-        }else{
+        } else {
             small.offer(num);
             large.offer(small.poll());
         }
         isEven = !isEven;
     }
-    
+
     public double findMedian() {
-        if(isEven) return (small.peek() + large.peek()) / 2.0;
-        else return small.peek();
+        if (isEven)
+            return (small.peek() + large.peek()) / 2.0;
+        else
+            return small.peek();
     }
 }

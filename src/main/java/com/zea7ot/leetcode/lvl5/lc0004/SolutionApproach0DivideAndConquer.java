@@ -8,7 +8,7 @@
  *  http://bit.ly/2YUmy9F
  *  http://bit.ly/34uQudj 
  */
-package com.zea7ot.leetcode.lvl4.lc0004;
+package com.zea7ot.leetcode.lvl5.lc0004;
 
 public class SolutionApproach0DivideAndConquer {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

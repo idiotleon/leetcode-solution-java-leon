@@ -23,7 +23,7 @@
  *  https://www.youtube.com/watch?v=KB9IcSCDQ9k
  *  https://zxi.mytechroad.com/blog/algorithms/binary-search/leetcode-4-median-of-two-sorted-arrays/
  */
-package com.zea7ot.leetcode.lvl4.lc0004;
+package com.zea7ot.leetcode.lvl5.lc0004;
 
 public class SolutionApproach0BinarySearch1 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

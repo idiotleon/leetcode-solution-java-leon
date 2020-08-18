@@ -3,6 +3,10 @@
  * 
  * Time Complexity:     O()
  * Space Complexity:    O()
+ * 
+ * References:
+ *  https://leetcode.com/problems/remove-invalid-parentheses/discuss/75027/Easy-Short-Concise-and-Fast-Java-DFS-3-ms-solution/156556
+ *  https://leetcode.com/problems/remove-invalid-parentheses/discuss/75027/Easy-Short-Concise-and-Fast-Java-DFS-3-ms-solution/147484
  */
 package com.zea7ot.leetcode.lvl5.lc0301;
 
@@ -10,24 +14,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SolutionApproach0DFS1 {
-    public List<String> removeInvalidParentheses(String s) {
+    public List<String> removeInvalidparent(String s) {
         List<String> ans = new ArrayList<String>();
-        dfs(s, ans, 0, 0, new char[] { '(', ')' });
+        // sanity check
+        if (s == null)
+            return ans;
+
+        dfs(0, 0, s, new char[] { '(', ')' }, ans);
         return ans;
     }
 
-    private void dfs(String str, List<String> ans, int iLast, int jLast, char[] par) {
-        for (int stack = 0, i = iLast; i < str.length(); ++i) {
-            if (str.charAt(i) == par[0])
+    private void dfs(int iLast, int jLast, String str, char[] paren, List<String> res) {
+        final int L = str.length();
+        for (int stack = 0, i = iLast; i < L; ++i) {
+            if (str.charAt(i) == paren[0])
                 stack++;
-            if (str.charAt(i) == par[1])
+            if (str.charAt(i) == paren[1])
                 stack--;
             if (stack >= 0)
                 continue;
 
             for (int j = jLast; j <= i; ++j) {
-                if (str.charAt(j) == par[1] && (j == jLast || str.charAt(j - 1) != par[1])) {
-                    dfs(str.substring(0, j) + str.substring(j + 1), ans, i, j, par);
+                if (str.charAt(j) == paren[1] && (j == jLast || str.charAt(j - 1) != paren[1])) {
+                    dfs(i, j, str.substring(0, j) + str.substring(j + 1), paren, res);
                 }
             }
 
@@ -35,10 +44,10 @@ public class SolutionApproach0DFS1 {
         }
 
         String reversed = new StringBuilder(str).reverse().toString();
-        if (par[0] == '(') {
-            dfs(reversed, ans, 0, 0, new char[] { ')', '(' });
+        if (paren[0] == '(') {
+            dfs(0, 0, reversed, new char[] { ')', '(' }, res);
         } else {
-            ans.add(reversed);
+            res.add(reversed);
         }
     }
 }

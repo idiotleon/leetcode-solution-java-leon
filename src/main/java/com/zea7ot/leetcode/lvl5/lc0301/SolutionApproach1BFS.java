@@ -20,10 +20,10 @@ import java.util.Set;
 
 class SolutionApproach1BFS {
     public List<String> removeInvalidParentheses(String s) {
-        List<String> res = new ArrayList<String>();
+        List<String> ans = new ArrayList<String>();
         // sanity check
         if (s == null)
-            return res;
+            return ans;
 
         Set<String> visited = new HashSet<String>();
         Deque<String> queue = new ArrayDeque<String>();
@@ -34,10 +34,11 @@ class SolutionApproach1BFS {
         boolean found = false;
 
         while (!queue.isEmpty()) {
-            s = queue.poll();
+            String str = queue.poll();
+            final int L = str.length();
 
-            if (isValid(s)) {
-                res.add(s);
+            if (isValid(str)) {
+                ans.add(str);
                 found = true;
             }
 
@@ -45,29 +46,30 @@ class SolutionApproach1BFS {
                 continue;
 
             // to generate all possible states
-            for (int i = 0; i < s.length(); i++) {
-                if (s.charAt(i) != '(' && s.charAt(i) != ')')
+            for (int i = 0; i < L; ++i) {
+                char ch = str.charAt(i);
+                if (ch != '(' && ch != ')')
                     continue;
 
-                String t = s.substring(0, i) + s.substring(i + 1);
+                String next = str.substring(0, i) + str.substring(i + 1);
 
-                if (!visited.contains(t)) {
-                    queue.add(t);
-                    visited.add(t);
-                }
+                if (!visited.add(next))
+                    continue;
+                queue.add(next);
             }
         }
 
-        return res;
+        return ans;
     }
 
     private boolean isValid(String str) {
+        final int L = str.length();
         int count = 0;
 
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = 0; i < L; ++i) {
             char ch = str.charAt(i);
             if (ch == '(')
-                count++;
+                ++count;
             if (ch == ')' && count-- == 0)
                 return false;
         }

@@ -10,13 +10,15 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0Recursion {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if(root == null) return null;
-        
+        if (root == null)
+            return null;
+
         int val = root.val;
-        if(val > p.val && val > q.val){
+        if (val > p.val && val > q.val) {
             return lowestCommonAncestor(root.left, p, q);
-        }else if(val < p.val && val < q.val){
+        } else if (val < p.val && val < q.val) {
             return lowestCommonAncestor(root.right, p, q);
-        }else return root;
+        } else
+            return root;
     }
 }

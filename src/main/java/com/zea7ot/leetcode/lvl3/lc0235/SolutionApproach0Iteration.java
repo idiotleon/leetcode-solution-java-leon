@@ -11,17 +11,19 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 public class SolutionApproach0Iteration {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         // sanity check
-        if(root == null) return null;
-        
+        if (root == null)
+            return null;
+
         TreeNode cur = root;
-        while(true){
-            if(p.val > cur.val && q.val > cur.val){
+        while (true) {
+            if (p.val > cur.val && q.val > cur.val) {
                 cur = cur.right;
-            }else if(p.val < cur.val && q.val < cur.val){
+            } else if (p.val < cur.val && q.val < cur.val) {
                 cur = cur.left;
-            }else break;
+            } else
+                break;
         }
-        
+
         return cur;
     }
 }

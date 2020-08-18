@@ -12,28 +12,29 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach1DFS1 {
     private TreeNode result;
-    
+
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         dfs(root, p, q);
         return result;
     }
-    
-    private int dfs(TreeNode root,
-                    TreeNode p,
-                    TreeNode q){
+
+    private int dfs(TreeNode root, TreeNode p, TreeNode q) {
         int count = 0;
-        if(root == null) return 0;
-        if(root == p || root == q) count = 1;
-        
+        if (root == null)
+            return 0;
+        if (root == p || root == q)
+            count = 1;
+
         count += dfs(root.left, p, q);
-        
-        if(count < 2){
+
+        if (count < 2) {
             count += dfs(root.right, p, q);
         }
-        
+
         // to find the answer for the first time 2 nodes are found
-        if(count == 2 && result == null) result = root;
-        
+        if (count == 2 && result == null)
+            result = root;
+
         return count;
     }
 }
