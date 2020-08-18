@@ -26,9 +26,9 @@ public class SolutionApproach0DP2Dimen {
         }
 
         int[][] dp = new int[k + 1][N];
-        for (int i = 1; i <= k; i++) {
+        for (int i = 1; i <= k; ++i) {
             int localMax = dp[i - 1][0] - prices[0];
-            for (int j = 1; j < N; j++) {
+            for (int j = 1; j < N; ++j) {
                 dp[i][j] = Math.max(dp[i][j - 1], prices[j] + localMax);
                 localMax = Math.max(localMax, dp[i - 1][j] - prices[j]);
             }

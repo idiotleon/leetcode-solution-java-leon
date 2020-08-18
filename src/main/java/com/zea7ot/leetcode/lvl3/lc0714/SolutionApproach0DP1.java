@@ -15,12 +15,11 @@ public class SolutionApproach0DP1 {
         if (prices == null || prices.length == 0)
             return 0;
 
-        int held = -prices[0], sold = 0;
+        int held = Integer.MIN_VALUE, sold = 0;
 
         for (int price : prices) {
-            int prevHold = held, prevSold = sold;
-            held = Math.max(prevHold, prevSold - price);
-            sold = Math.max(prevSold, prevHold + price - fee);
+            held = Math.max(held, sold - price);
+            sold = Math.max(sold, held + price - fee);
         }
 
         return sold;
