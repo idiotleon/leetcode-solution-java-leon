@@ -42,6 +42,7 @@ References:
 3   0841    https://leetcode.com/problems/keys-and-rooms/
 3   0886    https://leetcode.com/problems/possible-bipartition/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
+3   0967    https://leetcode.com/problems/numbers-with-same-consecutive-differences/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1034    https://leetcode.com/problems/coloring-a-border/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
