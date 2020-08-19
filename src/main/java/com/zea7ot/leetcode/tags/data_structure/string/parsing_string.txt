@@ -36,6 +36,7 @@ References:
 4   0616    https://leetcode.com/problems/add-bold-tag-in-string/
 4   0726    https://leetcode.com/problems/number-of-atoms/
 
+5   0282    https://leetcode.com/problems/expression-add-operators/
 5   0273    https://leetcode.com/problems/integer-to-english-words/
 5   0772    https://leetcode.com/problems/basic-calculator-iii/
 

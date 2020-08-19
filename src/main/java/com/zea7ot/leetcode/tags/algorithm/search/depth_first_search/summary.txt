@@ -183,6 +183,7 @@ References:
 5   0037    https://leetcode.com/problems/sudoku-solver/
 5   0140    https://leetcode.com/problems/word-break-ii/
 5   0212    https://leetcode.com/problems/word-search-ii/
+5   0282    https://leetcode.com/problems/expression-add-operators/
 5   0291    https://leetcode.com/problems/word-pattern-ii/
 5   0403    https://leetcode.com/problems/frog-jump/
 5   0425    https://leetcode.com/problems/word-squares/
