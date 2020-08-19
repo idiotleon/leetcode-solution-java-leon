@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 public class SolutionApproach0Backtrack2 {
-    private static final Map<String, String> phone = new HashMap<String, String>() {
+    private static final Map<String, String> PHONE = new HashMap<String, String>() {
         {
             put("2", "abc");
             put("3", "def");
@@ -46,7 +46,7 @@ public class SolutionApproach0Backtrack2 {
         }
 
         String digit = nextDigits.substring(0, 1);
-        String letters = phone.get(digit);
+        String letters = PHONE.get(digit);
 
         final int L = letters.length();
         for (int i = 0; i < L; i++) {
