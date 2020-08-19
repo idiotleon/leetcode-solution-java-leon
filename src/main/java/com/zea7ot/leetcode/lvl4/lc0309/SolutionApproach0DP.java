@@ -23,7 +23,7 @@ public class SolutionApproach0DP {
 
             sold = PREV_HELD + price;
             held = Math.max(PREV_HELD, PREV_COOLED_DOWN - price);
-            cooledDown = Math.max(PREV_SOLD, PREV_COOLED_DOWN);
+            cooledDown = Math.max(PREV_SOLD + price, PREV_COOLED_DOWN);
         }
 
         return Math.max(sold, cooledDown);
