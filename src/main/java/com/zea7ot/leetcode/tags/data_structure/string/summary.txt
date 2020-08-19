@@ -93,3 +93,8 @@ References:
 
 6   0420    https://leetcode.com/problems/strong-password-checker/
 6   0488    https://leetcode.com/problems/zuma-game/
+
+
+
+Resources:
+    https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/hua-dong-chuang-kou-ji-qiao-jin-jie

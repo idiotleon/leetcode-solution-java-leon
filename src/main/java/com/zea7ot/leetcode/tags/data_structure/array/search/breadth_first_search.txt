@@ -7,12 +7,13 @@ References:
 # Breadth First Search
 
 2   0017    https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+2   0690    https://leetcode.com/problems/employee-importance/
+2   0695    https://leetcode.com/problems/max-area-of-island/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 
 3   0130    https://leetcode.com/problems/surrounded-regions/
 3   0207    https://leetcode.com/problems/course-schedule/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
-2   0690    https://leetcode.com/problems/employee-importance/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/

@@ -5,7 +5,7 @@
  * Space Complexity:    O(1)
  * 
  * References:
- *  https://www.youtube.com/watch?v=jNy8yM0NBdw
+ *  https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/75928/Share-my-DP-solution-(By-State-Machine-Thinking)
  */
 package com.zea7ot.leetcode.lvl4.lc0309;
 
@@ -15,12 +15,12 @@ public class SolutionApproach0DP1 {
         if (prices == null || prices.length == 0)
             return 0;
 
-        int held = -prices[0], sold = 0, cooledDown = 0;
+        int sold = 0, held = Integer.MIN_VALUE, cooledDown = 0;
         for (int price : prices) {
-            int prevHeld = held, prevSold = sold, prevCooledDown = cooledDown;
-            sold = prevHeld + price;
-            held = Math.max(prevHeld, prevCooledDown - price);
-            cooledDown = Math.max(prevSold, prevCooledDown);
+            final int PREV_SOLD = sold;
+            sold = held + price;
+            held = Math.max(held, cooledDown - price);
+            cooledDown = Math.max(cooledDown, PREV_SOLD);
         }
 
         return Math.max(sold, cooledDown);

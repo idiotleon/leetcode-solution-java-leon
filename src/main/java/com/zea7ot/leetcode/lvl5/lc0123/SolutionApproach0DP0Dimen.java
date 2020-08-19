@@ -19,13 +19,13 @@ public class SolutionApproach0DP0Dimen {
         int sold1 = 0, sold2 = 0;
 
         for (int price : prices) {
-            int prevHeld1 = held1, prevHeld2 = held2;
-            int prevSold1 = sold1, prevSold2 = sold2;
+            final int PREV_HELD1 = held1, PREV_HELD2 = held2;
+            final int PREV_SOLD1 = sold1, PREV_SOLD2 = sold2;
 
-            held1 = Math.max(prevHeld1, -price);
-            sold1 = Math.max(prevSold1, prevHeld1 + price);
-            held2 = Math.max(prevHeld2, prevSold1 - price);
-            sold2 = Math.max(prevSold2, prevHeld2 + price);
+            held1 = Math.max(PREV_HELD1, -price);
+            sold1 = Math.max(PREV_SOLD1, PREV_HELD1 + price);
+            held2 = Math.max(PREV_HELD2, PREV_SOLD1 - price);
+            sold2 = Math.max(PREV_SOLD2, PREV_HELD2 + price);
         }
 
         return sold2;
