@@ -22,8 +22,8 @@ public class SolutionApproach0Iteration {
 
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
         stack.push(root);
-
         int sum = 0;
+        
         while (!stack.isEmpty()) {
             TreeNode top = stack.pop();
             if (top.val >= L)

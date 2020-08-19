@@ -1,11 +1,12 @@
 /**
  * https://leetcode.com/problems/remove-invalid-parentheses/
  * 
- * Time Complexity:     O()
- * Space Complexity:    O()
+ * Time Complexity:     O(2 ^ (OPEN_PAREN + CLOSED_PAREN))
+ * Space Complexity:    O((OPEN_PAREN + CLOSED_PAREN) ^ 2)
  * 
  * References:
  *  https://leetcode.com/problems/remove-invalid-parentheses/discuss/75027/Easy-Short-Concise-and-Fast-Java-DFS-3-ms-solution/156556
+ *  https://zxi.mytechroad.com/blog/searching/leetcode-301-remove-invalid-parentheses/
  */
 package com.zea7ot.leetcode.lvl5.lc0301;
 
@@ -20,7 +21,7 @@ public class SolutionApproach0DFS {
             return ans;
         // when str.isEmpty(), [""] is expected to be returned, instead of []
         // if(str == null || str.isEmpty()) return ans;
-        
+
         dfs(0, 0, str, '(', ')', ans);
         return ans;
     }
