@@ -20,7 +20,7 @@ public class SolutionApproach0SlidingWindow {
     private int distinct;
     private int longest;
 
-    public SolutionApproach0SlidingWindow(){
+    public SolutionApproach0SlidingWindow() {
         this.map = new HashMap<Character, DLLNode>();
         this.dll = new DoublyLinkedList();
         this.index = 0;
@@ -32,20 +32,21 @@ public class SolutionApproach0SlidingWindow {
         this.FREQ = new int[RANGE];
     }
 
-    public int lengthOfLongestSubstring(FakeCharAPI api, int k){
+    public int lengthOfLongestSubstring(FakeCharAPI api, int k) {
         char ch = api.generateAChar();
         lengthOfLongestSubstring(ch, k);
         return longest;
     }
 
-    private void lengthOfLongestSubstring(char ch, int k){
-        if(!map.containsKey(ch)) {
+    private void lengthOfLongestSubstring(char ch, int k) {
+        if (!map.containsKey(ch)) {
             DLLNode newNode = new DLLNode(ch, index);
             map.put(ch, newNode);
             dll.appendToLast(newNode);
             ++runningLen;
-            if(++FREQ[ch] == 0) ++distinct;
-        }else{
+            if (++FREQ[ch] == 0)
+                ++distinct;
+        } else {
             DLLNode node = map.get(ch);
             node.index = index;
             ++FREQ[ch];
@@ -57,12 +58,14 @@ public class SolutionApproach0SlidingWindow {
         this.index++;
     }
 
-    private void trimDistinct(int k){
-        while(distinct > k){
+    private void trimDistinct(int k) {
+        while (distinct > k) {
             DLLNode node = dll.removeFirst();
-            if(node == null) return;
+            if (node == null)
+                return;
             char ch = node.ch;
-            if(--FREQ[ch] == 0) --distinct;
+            if (--FREQ[ch] == 0)
+                --distinct;
             int lastIdx = node.index;
             // ?
             runningLen -= lastIdx;
@@ -72,11 +75,11 @@ public class SolutionApproach0SlidingWindow {
         }
     }
 
-    private class DoublyLinkedList{
+    private class DoublyLinkedList {
         protected DLLNode dummyHead;
         protected DLLNode dummyTail;
 
-        protected DoublyLinkedList(){
+        protected DoublyLinkedList() {
             this.dummyHead = new DLLNode(null, -1);
             this.dummyTail = new DLLNode(null, -1);
 
@@ -84,21 +87,23 @@ public class SolutionApproach0SlidingWindow {
             dummyTail.prev = dummyTail;
         }
 
-        protected DLLNode removeFirst(){
+        protected DLLNode removeFirst() {
             DLLNode node = dummyHead.next;
-            if(node == dummyTail) return null;
+            if (node == dummyTail)
+                return null;
             return remove(node);
         }
 
-        protected DLLNode remove(DLLNode node){
-            if(node == dummyHead || node == dummyTail) return null;
+        protected DLLNode remove(DLLNode node) {
+            if (node == dummyHead || node == dummyTail)
+                return null;
             DLLNode prev = node.prev, next = node.next;
             prev.next = next;
             next.prev = prev;
             return node;
         }
 
-        protected void appendToLast(DLLNode node){
+        protected void appendToLast(DLLNode node) {
             DLLNode prev = dummyTail.prev;
             prev.next = node;
             node.prev = prev;
@@ -107,17 +112,17 @@ public class SolutionApproach0SlidingWindow {
         }
     }
 
-    private class DLLNode{
+    private class DLLNode {
         protected int index;
         protected Character ch;
         protected DLLNode prev;
         protected DLLNode next;
 
-        protected DLLNode(Character ch){
+        protected DLLNode(Character ch) {
             this.ch = ch;
         }
 
-        protected DLLNode(Character ch, int index){
+        protected DLLNode(Character ch, int index) {
             this(ch);
             this.index = index;
         }

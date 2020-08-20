@@ -8,6 +8,7 @@ This file serves as the total list of problems related to Array, regardless of a
 ### Array
 # Summary
 
+1   0088    https://leetcode.com/problems/merge-sorted-array/
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   0766    https://leetcode.com/problems/toeplitz-matrix/
 1   1046    https://leetcode.com/problems/last-stone-weight/
@@ -28,6 +29,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0690    https://leetcode.com/problems/employee-importance/
 2   0695    https://leetcode.com/problems/max-area-of-island/
 2   0704    https://leetcode.com/problems/binary-search/
+2   0724    https://leetcode.com/problems/find-pivot-index/
 2   0744    https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
@@ -142,6 +144,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0218    https://leetcode.com/problems/the-skyline-problem/
 4   0221    https://leetcode.com/problems/maximal-square/
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/
+4   0249    https://leetcode.com/problems/group-shifted-strings/
 4   0265    https://leetcode.com/problems/paint-house-ii/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0296    https://leetcode.com/problems/best-meeting-point/

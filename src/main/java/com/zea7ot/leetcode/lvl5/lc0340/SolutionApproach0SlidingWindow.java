@@ -12,21 +12,23 @@ public class SolutionApproach0SlidingWindow {
         char[] chs = s.toCharArray();
         int[] freq = new int[256];
         int distinct = 0, longest = 0;
-        
+
         int lo = 0, hi = 0;
-        while(hi < L){
-            if(freq[chs[hi]]++ == 0) ++distinct;
-            while(distinct > k){
-                if(--freq[chs[lo]] == 0) --distinct;
-                lo++;
+        while (hi < L) {
+            if (freq[chs[hi]]++ == 0)
+                ++distinct;
+            while (distinct > k) {
+                if (--freq[chs[lo]] == 0)
+                    --distinct;
+                ++lo;
             }
 
             // please pay attention to the relative sequence of the below two lines,
             // which defines the running `length`.
             longest = Math.max(longest, hi - lo + 1);
-            hi++;
+            ++hi;
         }
-        
+
         return longest;
     }
 }

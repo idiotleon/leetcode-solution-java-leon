@@ -2,6 +2,21 @@
 References:
     https://leetcode.com/tag/trie/
     https://www.geeksforgeeks.org/trie-insert-and-search/
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Word
+
+4   0079    https://leetcode.com/problems/word-search/
+4   0126    https://leetcode.com/problems/word-ladder-ii/
+4   0127    https://leetcode.com/problems/word-ladder/
+4   0139    https://leetcode.com/problems/word-break/
+
+5   0140    https://leetcode.com/problems/word-break-ii/
+5   0212    https://leetcode.com/problems/word-search-ii/
+
+
+
 
 ### Trie
 

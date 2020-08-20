@@ -8,11 +8,11 @@ package com.zea7ot.leetcode.lvl1.lc0415;
 
 public class SolutionApproach0TwoPointers {
     public String addStrings(String num1, String num2) {
+        // sanity check
+        if(num1 == null || num1.isEmpty()) return num2;
+        if(num2 == null || num2.isEmpty()) return num1;
+
         final int L1 = num1.length(), L2 = num2.length();
-        if (L1 == 0)
-            return num2;
-        if (L2 == 0)
-            return num1;
         if (L1 < L2)
             return addStrings(num2, num1);
 
@@ -24,15 +24,15 @@ public class SolutionApproach0TwoPointers {
 
             int sum = n1 + n2 + carry;
             carry = sum / 10;
-            builder.insert(0, sum % 10);
+            builder.append(sum % 10);
 
             --idx1;
             --idx2;
         }
 
         if (carry > 0)
-            builder.insert(0, "1");
+            builder.append("1");
 
-        return builder.toString();
+        return builder.reverse().toString();
     }
 }

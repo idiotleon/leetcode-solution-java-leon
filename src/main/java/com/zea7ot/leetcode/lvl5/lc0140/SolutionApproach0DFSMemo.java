@@ -1,49 +1,62 @@
 /**
  * https://leetcode.com/problems/word-break-ii/
  * 
- * Time complexity :    O(N ^ 3). 
- *  Size of recursion tree can go up to (N ^ 2). 
- *  The creation of list takes (N ^ 2) time.
+ * Time Complexity:     O()
+ * Space Complexity:    O()
  * 
- * Space complexity :   O(N ^ 3). 
- *  The depth of the recursion tree can go up to (N ^ 2),
- *  and each activation record can contains a string list of size (N ^ 2).
+ * References:
+ *  https://leetcode.com/problems/word-break-ii/discuss/44179/Slightly-modified-DP-Java-solution
  */
 package com.zea7ot.leetcode.lvl5.lc0140;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 public class SolutionApproach0DFSMemo {
-    public List<String> wordBreak(String str, List<String> wordDict) {
-        Map<Integer, List<String>> memo = new HashMap<Integer, List<String>>();
-        Set<String> wordSet = new HashSet<String>(wordDict);
-        return wordBreak(str, wordSet, 0, memo);
+    public List<String> wordBreak(String s, List<String> wordDict) {
+        List<String> ans = new ArrayList<String>();
+        // sanity check
+        if (s == null || s.isEmpty())
+            return ans;
+
+        final Set<String> WORD_SET = new HashSet<String>(wordDict);
+        Map<String, List<String>> cache = new HashMap<>();
+
+        return dfs(s, WORD_SET, cache);
     }
-    
-    private List<String> wordBreak(String str, 
-                                   Set<String> wordSet, 
-                                   int start, 
-                                   Map<Integer, List<String>> memo){
-        if(memo.containsKey(start)) return memo.get(start);
-        List<String> res = new LinkedList<String>();
+
+    private List<String> dfs(String str, final Set<String> WORD_SET, final Map<String, List<String>> CACHE) {
+        if (CACHE.containsKey(str))
+            return CACHE.get(str);
         final int L = str.length();
-        if(start == L) res.add("");
-        
-        for(int end = start + 1; end <= L; end++){
-            String sub = str.substring(start, end);
-            if(!wordSet.contains(sub)) continue;
-            List<String> lists = wordBreak(str, wordSet, end, memo);
-            for(String list : lists){
-                res.add(sub + (list.equals("") ? "" : " ") + list);
-            }
+
+        List<String> res = new ArrayList<String>();
+        if (WORD_SET.contains(str))
+            res.add(str);
+
+        for (int i = 1; i < L; ++i) {
+            String left = str.substring(0, i), right = str.substring(i);
+            // if (WORD_SET.contains(left) && containsSuffix(right, WORD_SET))
+            if (WORD_SET.contains(left))
+                for (String sub : dfs(right, WORD_SET, CACHE))
+                    res.add(left + " " + sub);
         }
-        
-        memo.put(start, res);
+
+        CACHE.put(str, res);
         return res;
     }
+
+    // private boolean containsSuffix(String str, final Set<String> WORD_SET) {
+    // final int L = str.length();
+    // for (int i = 0; i < L; ++i) {
+    // if (WORD_SET.contains(str.substring(i)))
+    // return true;
+    // }
+
+    // return false;
+    // }
 }

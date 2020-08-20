@@ -6,6 +6,8 @@ References:
 ### N Pointers
 ## 3 Pointers
 
+1   0088    https://leetcode.com/problems/merge-sorted-array/
+
 3   0015    https://leetcode.com/problems/3sum/
 3   0016    https://leetcode.com/problems/3sum-closest/
 3   0259    https://leetcode.com/problems/3sum-smaller/

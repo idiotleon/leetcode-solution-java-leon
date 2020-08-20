@@ -7,6 +7,7 @@ References:
 ## By Data Structure
 # Array
 
+1   0088    https://leetcode.com/problems/merge-sorted-array/
 1   0643    https://leetcode.com/problems/maximum-average-subarray-i/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 

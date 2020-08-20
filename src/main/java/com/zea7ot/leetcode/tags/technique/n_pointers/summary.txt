@@ -7,6 +7,7 @@ References:
 # Summary
 
 1   0067    https://leetcode.com/problems/add-binary/
+1   0088    https://leetcode.com/problems/merge-sorted-array/
 1   0125    https://leetcode.com/problems/valid-palindrome/
 1   0345    https://leetcode.com/problems/reverse-vowels-of-a-string/
 1   0643    https://leetcode.com/problems/maximum-average-subarray-i/
@@ -16,6 +17,7 @@ References:
 2   0003    https://leetcode.com/problems/longest-substring-without-repeating-characters/
 2   0408    https://leetcode.com/problems/valid-word-abbreviation/
 2   0409    https://leetcode.com/problems/longest-palindrome/
+2   0724    https://leetcode.com/problems/find-pivot-index/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   1103    https://leetcode.com/problems/distribute-candies-to-people/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
