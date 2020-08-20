@@ -18,89 +18,92 @@ public class SolutionApproach0UnionFind1 {
     public int[] findRedundantDirectedConnection(int[][] edges) {
         final int N = edges.length;
         int edgeWithTwoParents = -1, edgeToCycle = -1;
-        
+
         // immediate parents
         int[] parents = new int[N + 1];
-        for(int i = 0; i < N; i++){
+        for (int i = 0; i < N; i++) {
             int u = edges[i][0], v = edges[i][1];
-            
-            if(parents[v] != 0){
+
+            if (parents[v] != 0) {
                 edgeWithTwoParents = i;
                 break;
-            }else{
+            } else {
                 parents[v] = u;
             }
         }
-        
+
         UnionFind unionFind = new UnionFind(N + 1);
-        for(int i = 0; i < N; i++){
-            if(i == edgeWithTwoParents) continue;
+        for (int i = 0; i < N; i++) {
+            if (i == edgeWithTwoParents)
+                continue;
             int u = edges[i][0], v = edges[i][1];
-            if(!unionFind.union(u, v)){
+            if (!unionFind.union(u, v)) {
                 edgeToCycle = i;
                 break;
             }
         }
-        
+
         // to handle the case where only the cyclic problem exists
-        if(edgeWithTwoParents == -1) return edges[edgeToCycle];
-        
+        if (edgeWithTwoParents == -1)
+            return edges[edgeToCycle];
+
         // to handle the case where the wrong edge has been remove,
         // by which a cycle exists, and the graph is separated into two parts
-        if(edgeToCycle != -1){
+        if (edgeToCycle != -1) {
             int v = edges[edgeWithTwoParents][1];
             int u = parents[v];
-            return new int[]{u, v};
+            return new int[] { u, v };
         }
-        
-        return edges[edgeWithTwoParents];
-        
-        /* another set of conditions
-        which is easier to understand, but verbose
 
-        if(edgeToCycle != -1 && edgeWithTwoParents != -1){
-            int v = edges[edgeWithTwoParents][1], u = parents[v];
-                return new int[]{u, v};
-            }
-            
-            if(edgeToCycle != -1) return edges[edgeToCycle];
-            if(edgeWithTwoParents != -1) return edges[edgeWithTwoParents];
-        */
+        return edges[edgeWithTwoParents];
+
+        /*
+         * another set of conditions which is easier to understand, but verbose
+         * 
+         * if(edgeToCycle != -1 && edgeWithTwoParents != -1){ int v =
+         * edges[edgeWithTwoParents][1], u = parents[v]; return new int[]{u, v}; }
+         * 
+         * if(edgeToCycle != -1) return edges[edgeToCycle]; if(edgeWithTwoParents != -1)
+         * return edges[edgeWithTwoParents];
+         */
     }
-    
-    private class UnionFind{
+
+    private class UnionFind {
         // ultimate roots
         private int[] roots;
         private int[] ranks;
-        
-        protected UnionFind(final int N){
+
+        protected UnionFind(final int N) {
             this.roots = new int[N];
-            for(int i = 0; i < N; i++){
+            for (int i = 0; i < N; i++) {
                 roots[i] = i;
             }
             this.ranks = new int[N];
         }
-        
-        protected int find(int x){
-            if(x != roots[x]){
+
+        protected int find(int x) {
+            if (x != roots[x]) {
                 roots[x] = find(roots[x]);
             }
-            
+
             return roots[x];
         }
-        
-        protected boolean union(int x, int y){
+
+        protected boolean union(int x, int y) {
             int rootX = find(x), rootY = find(y);
-            
-            if(rootX == rootY) return false;
-            
-            if(ranks[rootX] > ranks[rootY]) roots[rootY] = rootX;
-            else if(ranks[rootX] < ranks[rootY]) roots[rootX] = rootY;
-            else{
+
+            if (rootX == rootY)
+                return false;
+
+            if (ranks[rootX] > ranks[rootY])
+                roots[rootY] = rootX;
+            else if (ranks[rootX] < ranks[rootY])
+                roots[rootX] = rootY;
+            else {
                 roots[rootY] = rootX;
                 ++ranks[rootX];
             }
-            
+
             return true;
         }
     }

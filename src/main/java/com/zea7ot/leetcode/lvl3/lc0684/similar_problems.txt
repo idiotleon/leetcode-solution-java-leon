@@ -1,0 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Redundant Connection
+
+3   0684    https://leetcode.com/problems/redundant-connection/
+
+5   0685    https://leetcode.com/problems/redundant-connection-ii/
