@@ -34,24 +34,24 @@ public class SolutionApproach0Backtrack1 {
         if (digits == null || digits.isEmpty())
             return ans;
 
-        backtrack(new StringBuilder(), digits.toCharArray(), 0, ans);
+        backtrack(new StringBuilder(), 0, digits.toCharArray(), ans);
 
         return ans;
     }
 
-    private void backtrack(StringBuilder builder, char[] digits, int idx, List<String> ans) {
-        final int N = digits.length;
+    private void backtrack(StringBuilder builder, int idx, final char[] DIGITS, List<String> res) {
+        final int N = DIGITS.length;
         if (idx == N) {
-            ans.add(builder.toString());
+            res.add(builder.toString());
             return;
         }
 
-        char digit = digits[idx];
+        char digit = DIGITS[idx];
         String letters = phone.get(digit);
 
         for (char ch : letters.toCharArray()) {
             builder.append(ch);
-            backtrack(builder, digits, idx + 1, ans);
+            backtrack(builder, idx + 1, DIGITS, res);
             builder.deleteCharAt(builder.length() - 1);
         }
     }

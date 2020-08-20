@@ -26,6 +26,7 @@ References:
 
 4   0211    https://leetcode.com/problems/add-and-search-word-data-structure-design/
 4   0295    https://leetcode.com/problems/find-median-from-data-stream/
+4   0297    https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 4   0353    https://leetcode.com/problems/design-snake-game/
 4   0355    https://leetcode.com/problems/design-twitter/
 4   0855    https://leetcode.com/problems/exam-room/

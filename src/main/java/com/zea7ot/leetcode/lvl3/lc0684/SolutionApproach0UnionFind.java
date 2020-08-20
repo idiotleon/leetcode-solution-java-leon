@@ -1,36 +1,35 @@
 /**
  * https://leetcode.com/problems/redundant-connection
  * 
- * Time Complexity: O(N) ~ O(lg(N)) with union by rank and path compression
- * Time Complexity: O(N)
- * 
- * Similar Problems:
- *  https://leetcode.com/problems/redundant-connection-ii/
+ * Time Complexity:     O(N), O(lg(N)) with union by rank and path compression
+ * Time Complexity:     O(N)
  */
 package com.zea7ot.leetcode.lvl3.lc0684;
 
 public class SolutionApproach0UnionFind {
     public int[] findRedundantConnection(int[][] edges) {
-        int[] parents = new int[2001];
-        for(int i = 0; i < parents.length; i++){
-            parents[i] = i;
+        final int RANGE = 2001;
+        int[] roots = new int[RANGE];
+        for (int i = 0; i < RANGE; ++i)
+            roots[i] = i;
+
+        for (int[] edge : edges) {
+            int u = edge[0], v = edge[1];
+            int root1 = find(u, roots), root2 = find(v, roots);
+            if (root1 == root2)
+                return edge;
+            else
+                roots[root2] = root1;
         }
-        
-        for(int[] edge : edges){
-            int vertex1 = edge[0], vertex2 = edge[1];
-            int parent1 = find(parents, vertex1), parent2 = find(parents, vertex2);
-            if(parent1 == parent2) return edge;
-            else parents[parent2] = parent1;
-        }
-        
+
         return new int[2];
     }
-    
-    private int find(int[] parents, int x){
-        if(x != parents[x]){
+
+    private int find(int x, int[] roots) {
+        if (x != roots[x]) {
             // path compression
-            parents[x] = find(parents, parents[x]);
+            roots[x] = find(roots[x], roots);
         }
-        return parents[x];
+        return roots[x];
     }
 }

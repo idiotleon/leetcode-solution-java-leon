@@ -42,6 +42,7 @@ References:
 
 5   0037    https://leetcode.com/problems/sudoku-solver/
 5   0212    https://leetcode.com/problems/word-search-ii/
+5   0282    https://leetcode.com/problems/expression-add-operators/
 5   0291    https://leetcode.com/problems/word-pattern-ii/
 5   0465    https://leetcode.com/problems/optimal-account-balancing/
 

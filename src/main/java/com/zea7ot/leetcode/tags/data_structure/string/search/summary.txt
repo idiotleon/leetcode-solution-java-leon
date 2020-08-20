@@ -17,6 +17,7 @@ References:
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 
 4   0097    https://leetcode.com/problems/interleaving-string/
+4   0297    https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 4   0726    https://leetcode.com/problems/number-of-atoms/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   1028    https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
@@ -24,6 +25,7 @@ References:
 4   1216    https://leetcode.com/problems/valid-palindrome-iii/
 4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 
+5   0282    https://leetcode.com/problems/expression-add-operators/
 5   0291    https://leetcode.com/problems/word-pattern-ii/
 5   0425    https://leetcode.com/problems/word-squares/
 5   0472    https://leetcode.com/problems/concatenated-words/

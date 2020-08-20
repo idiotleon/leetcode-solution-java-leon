@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/exclusive-time-of-functions/
  * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(N)
+ * Time Complexity:     O(`n`)
+ * Space Complexity:    O(`n`)
  * 
  * `stack` is used to save the IDs, which should be pused in if it is a start, of functions
  * 
