@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/word-search-ii/
  * 
- * Time Complexity: O(NR * NC * (4 ^ L)) + O(N * L) ~ O(NR * NC * L)
+ * Time Complexity: O(NR * NC * (4 ^ L)) + O(N * L) ~ O(NR * NC * (4 ^ L))
  *  NR, NC, sizes/boudaries of the array
  *  N, number of words in the "words"(input)
  *  L, the average length of each word

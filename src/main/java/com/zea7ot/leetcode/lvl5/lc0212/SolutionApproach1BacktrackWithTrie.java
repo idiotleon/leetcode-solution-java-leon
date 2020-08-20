@@ -1,5 +1,8 @@
 /**
- * https://leetNCode.NCom/problems/word-searNCh-ii/
+ * https://leetNCode.NCom/problems/word-search-ii/
+ * 
+ * Time Complexity:     O(NR * NC * (4 ^ L))
+ * Space Complexity:    O()
  */
 package com.zea7ot.leetcode.lvl5.lc0212;
 
@@ -75,7 +78,7 @@ public class SolutionApproach1BacktrackWithTrie {
         return root;
     }
 
-    class TrieNode {
+    private class TrieNode {
         public boolean isWord;
         public final TrieNode[] children = new TrieNode[26];
 
