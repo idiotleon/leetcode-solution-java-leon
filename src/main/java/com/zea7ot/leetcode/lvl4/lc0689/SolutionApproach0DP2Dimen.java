@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
  * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(N)
+ * Time Complexity:     O(3 * N) ~ O(N)
+ * Space Complexity:    O(4 * N) ~ O(N)
  * 
  * References:
  *  https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/discuss/108230/Clean-Java-DP-O(n)-Solution.-Easy-extend-to-Sum-of-K-Non-Overlapping-SubArrays./110493
