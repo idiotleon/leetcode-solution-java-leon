@@ -12,3 +12,5 @@ References:
 3   0238    https://leetcode.com/problems/product-of-array-except-self/
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
+
+4   0249    https://leetcode.com/problems/group-shifted-strings/
