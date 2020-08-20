@@ -7,6 +7,7 @@ References:
 # Summary
 
 1   0067    https://leetcode.com/problems/add-binary/
+1   0088    https://leetcode.com/problems/merge-sorted-array/
 1   0125    https://leetcode.com/problems/valid-palindrome/
 1   0345    https://leetcode.com/problems/reverse-vowels-of-a-string/
 1   0643    https://leetcode.com/problems/maximum-average-subarray-i/

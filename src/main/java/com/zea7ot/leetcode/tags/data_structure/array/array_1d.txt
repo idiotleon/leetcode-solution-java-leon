@@ -6,6 +6,7 @@ References:
 ### Array
 # Array - 1 Dimensional
 
+1   0088    https://leetcode.com/problems/merge-sorted-array/
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   0997    https://leetcode.com/problems/find-the-town-judge/
 1   1046    https://leetcode.com/problems/last-stone-weight/

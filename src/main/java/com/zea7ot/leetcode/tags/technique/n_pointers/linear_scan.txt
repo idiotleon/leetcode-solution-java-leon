@@ -6,6 +6,8 @@ References:
 ### N Pointers
 # Linear Scan / 1 Pointer
 
+1   0088    https://leetcode.com/problems/merge-sorted-array/
+
 2   0002    https://leetcode.com/problems/add-two-numbers/
 2   0409    https://leetcode.com/problems/longest-palindrome/
 2   0724    https://leetcode.com/problems/find-pivot-index/
