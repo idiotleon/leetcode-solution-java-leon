@@ -16,8 +16,6 @@ public class SolutionApproach0TwoPointers {
             return false;
 
         final int LEN_S = s.length(), LEN_T = t.length();
-        if (Math.abs(LEN_S - LEN_T) > 1)
-            return false;
 
         if (LEN_S > LEN_T)
             return isOneEditDistance(t, s);
