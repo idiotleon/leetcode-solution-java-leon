@@ -6,7 +6,7 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0238;
 
-public class SolutionApproach0TwoPasses {
+public class SolutionApproach0LinearScan {
     public int[] productExceptSelf(int[] nums) {
         // sanity cehck
         if (nums == null || nums.length == 0)
