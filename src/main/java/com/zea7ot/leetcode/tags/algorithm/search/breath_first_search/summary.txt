@@ -39,7 +39,6 @@ References:
 3   0623    https://leetcode.com/problems/add-one-row-to-tree/
 3   0662    https://leetcode.com/problems/maximum-width-of-binary-tree/
 3   0743    https://leetcode.com/problems/network-delay-time/
-4   0839    https://leetcode.com/problems/similar-string-groups/
 3   0841    https://leetcode.com/problems/keys-and-rooms/
 3   0886    https://leetcode.com/problems/possible-bipartition/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
@@ -61,6 +60,7 @@ References:
 3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
 
 4   0317    https://leetcode.com/problems/shortest-distance-from-all-buildings/
+4   0301    https://leetcode.com/problems/remove-invalid-parentheses/
 4   0407    https://leetcode.com/problems/trapping-rain-water-ii/
 4   0428    https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/
 4   0505    https://leetcode.com/problems/the-maze-ii/
