@@ -14,27 +14,29 @@ package com.zea7ot.leetcode.lvl4.lc0072;
 public class SolutionApproach0DP2Dimen {
     public int minDistance(String word1, String word2) {
         final int L1 = word1.length(), L2 = word2.length();
-        
+        final char[] CHS1 = word1.toCharArray(), CHS2 = word2.toCharArray();
+
         int[][] costs = new int[L1 + 1][L2 + 1];
-        // to initialize costs(int[][])
-        for(int i = 0; i <= L1; ++i) costs[i][0] = i;
-        for(int j = 1; j <= L2; ++j) costs[0][j] = j;
-        
-        for(int i = 0; i < L1; ++i){
-            for(int j = 0; j < L2; ++j){
-                if(word1.charAt(i) == word2.charAt(j)){
-                    costs[i + 1][j + 1] = costs[i][j];
-                }else{
-                    int replace = costs[i][j];
-                    int insert = costs[i][j + 1];
-                    int delete = costs[i + 1][j];
-                    
-                    costs[i + 1][j + 1] = Math.min(replace, Math.min(insert, delete));
-                    ++costs[i + 1][j + 1];
+        for (int row = 0; row <= L1; ++row)
+            costs[row][0] = row;
+        for (int col = 0; col <= L2; ++col)
+            costs[0][col] = col;
+
+        for (int idx1 = 0; idx1 < L1; ++idx1) {
+            for (int idx2 = 0; idx2 < L2; ++idx2) {
+                if (CHS1[idx1] == CHS2[idx2])
+                    costs[idx1 + 1][idx2 + 1] = costs[idx1][idx2];
+                else {
+                    int insert = costs[idx1][idx2 + 1];
+                    int replace = costs[idx1][idx2];
+                    int delete = costs[idx1 + 1][idx2];
+
+                    costs[idx1 + 1][idx2 + 1] = Math.min(insert, Math.min(replace, delete));
+                    ++costs[idx1 + 1][idx2 + 1];
                 }
             }
         }
-        
+
         return costs[L1][L2];
     }
 }
