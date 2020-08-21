@@ -8,4 +8,6 @@ References:
 
 2   0002    https://leetcode.com/problems/add-two-numbers/
 
+3   0056    https://leetcode.com/problems/merge-intervals/
+
 4   0138    https://leetcode.com/problems/copy-list-with-random-pointer/

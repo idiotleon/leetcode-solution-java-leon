@@ -11,6 +11,7 @@ This file serves as the total list of problems related to Array, regardless of a
 1   0088    https://leetcode.com/problems/merge-sorted-array/
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   0766    https://leetcode.com/problems/toeplitz-matrix/
+1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   1046    https://leetcode.com/problems/last-stone-weight/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
@@ -68,6 +69,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0256    https://leetcode.com/problems/paint-house/
 3   0260    https://leetcode.com/problems/single-number-iii/
 3   0275    https://leetcode.com/problems/h-index-ii/
+3   0286    https://leetcode.com/problems/walls-and-gates/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
 3   0304    https://leetcode.com/problems/range-sum-query-2d-immutable/
@@ -104,6 +106,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   0911    https://leetcode.com/problems/online-election/
 3   0912    https://leetcode.com/problems/sort-an-array/
+3   0922    https://leetcode.com/problems/sort-array-by-parity-ii/
 3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
 3   0935    https://leetcode.com/problems/knight-dialer/
 3   0962    https://leetcode.com/problems/maximum-width-ramp/

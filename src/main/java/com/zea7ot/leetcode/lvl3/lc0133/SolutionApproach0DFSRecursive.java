@@ -17,22 +17,22 @@ public class SolutionApproach0DFSRecursive {
         if (node == null)
             return node;
 
-        Map<Vertex, Vertex> visited = new HashMap<Vertex, Vertex>();
-        return dfs(node, visited);
+        Map<Vertex, Vertex> map = new HashMap<Vertex, Vertex>();
+        return dfs(node, map);
     }
 
-    private Vertex dfs(Vertex node, Map<Vertex, Vertex> visited) {
+    private Vertex dfs(Vertex node, Map<Vertex, Vertex> map) {
         if (node == null)
             return node;
 
-        if (visited.containsKey(node))
-            return visited.get(node);
+        if (map.containsKey(node))
+            return map.get(node);
 
         Vertex clone = new Vertex(node.val);
-        visited.put(node, clone);
+        map.put(node, clone);
 
         for (Vertex neighbor : node.neighbors)
-            clone.neighbors.add(dfs(neighbor, visited));
+            clone.neighbors.add(dfs(neighbor, map));
 
         return clone;
     }

@@ -9,6 +9,8 @@ References:
 
 # 2 Pointers
 
+1   0905    https://leetcode.com/problems/sort-array-by-parity/
+
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
 

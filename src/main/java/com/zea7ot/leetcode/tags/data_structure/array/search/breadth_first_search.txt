@@ -14,6 +14,7 @@ References:
 3   0130    https://leetcode.com/problems/surrounded-regions/
 3   0207    https://leetcode.com/problems/course-schedule/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
+3   0286    https://leetcode.com/problems/walls-and-gates/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
