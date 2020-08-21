@@ -9,6 +9,7 @@ References:
 
 1   0088    https://leetcode.com/problems/merge-sorted-array/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
+1   0997    https://leetcode.com/problems/find-the-town-judge/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0724    https://leetcode.com/problems/find-pivot-index/
