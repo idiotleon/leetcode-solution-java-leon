@@ -9,6 +9,7 @@ References:
 
 1   0088    https://leetcode.com/problems/merge-sorted-array/
 1   0643    https://leetcode.com/problems/maximum-average-subarray-i/
+1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0001    https://leetcode.com/problems/two-sum/
@@ -26,6 +27,7 @@ References:
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
+3   0922    https://leetcode.com/problems/sort-array-by-parity-ii/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
 3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1229    https://leetcode.com/problems/meeting-scheduler/

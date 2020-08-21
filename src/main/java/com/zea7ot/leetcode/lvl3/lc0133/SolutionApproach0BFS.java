@@ -15,30 +15,30 @@ import java.util.Map;
 import com.zea7ot.utils.data_structure.graph.Vertex;
 
 public class SolutionApproach0BFS {
-    public Vertex cloneGraph(Vertex node) {
+    public Vertex cloneGraph(Vertex vertex) {
         // sanity check
-        if (node == null)
-            return node;
+        if (vertex == null)
+            return vertex;
 
-        Map<Vertex, Vertex> visited = new HashMap<Vertex, Vertex>();
         Deque<Vertex> queue = new ArrayDeque<Vertex>();
-        queue.add(node);
+        queue.add(vertex);
 
-        visited.put(node, new Vertex(node.val, new ArrayList<Vertex>()));
+        Map<Vertex, Vertex> map = new HashMap<Vertex, Vertex>();
+        map.put(vertex, new Vertex(vertex.val, new ArrayList<Vertex>()));
 
         while (!queue.isEmpty()) {
             Vertex cur = queue.poll();
 
             for (Vertex neighbor : cur.neighbors) {
-                if (!visited.containsKey(neighbor)) {
-                    visited.put(neighbor, new Vertex(neighbor.val, new ArrayList<Vertex>()));
+                if (!map.containsKey(neighbor)) {
+                    map.put(neighbor, new Vertex(neighbor.val, new ArrayList<Vertex>()));
                     queue.add(neighbor);
                 }
 
-                visited.get(cur).neighbors.add(visited.get(neighbor));
+                map.get(cur).neighbors.add(map.get(neighbor));
             }
         }
 
-        return visited.get(node);
+        return map.get(vertex);
     }
 }

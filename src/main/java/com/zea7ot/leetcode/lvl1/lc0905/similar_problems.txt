@@ -3,12 +3,10 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
-### Array
-## N Pointers - 2 Pointers
-# Summary
+### High Low Pointers
 
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 
+2   0283    https://leetcode.com/problems/move-zeroes/
+
 3   0922    https://leetcode.com/problems/sort-array-by-parity-ii/
-3   0986    https://leetcode.com/problems/interval-list-intersections/
-3   1498   https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/

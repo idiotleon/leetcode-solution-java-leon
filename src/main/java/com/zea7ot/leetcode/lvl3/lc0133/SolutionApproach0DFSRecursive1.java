@@ -13,23 +13,23 @@ import java.util.Map;
 import com.zea7ot.utils.data_structure.graph.Vertex;
 
 public class SolutionApproach0DFSRecursive1 {
-    private Map<Vertex, Vertex> visited = new HashMap<Vertex, Vertex>();
+    private Map<Vertex, Vertex> map = new HashMap<Vertex, Vertex>();
 
     public Vertex cloneGraph(Vertex node) {
         // sanity check
         if (node == null)
             return node;
 
-        if (visited.containsKey(node))
-            return visited.get(node);
+        if (map.containsKey(node))
+            return map.get(node);
 
-        Vertex cloneNode = new Vertex(node.val, new ArrayList<Vertex>());
-        visited.put(node, cloneNode);
+        Vertex clone = new Vertex(node.val, new ArrayList<Vertex>());
+        map.put(node, clone);
 
         for (Vertex neighbor : node.neighbors) {
-            cloneNode.neighbors.add(cloneGraph(neighbor));
+            clone.neighbors.add(cloneGraph(neighbor));
         }
 
-        return cloneNode;
+        return clone;
     }
 }

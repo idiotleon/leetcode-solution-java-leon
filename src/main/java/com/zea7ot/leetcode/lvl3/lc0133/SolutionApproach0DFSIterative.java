@@ -14,28 +14,29 @@ import java.util.Map;
 import com.zea7ot.utils.data_structure.graph.Vertex;
 
 public class SolutionApproach0DFSIterative {
-    public Vertex cloneGraph(Vertex Vertex) {
+    public Vertex cloneGraph(Vertex vertex) {
         // sanity check
-        if (Vertex == null)
-            return Vertex;
+        if (vertex == null)
+            return vertex;
 
         Deque<Vertex> stack = new ArrayDeque<Vertex>();
-        stack.push(Vertex);
-        Map<Vertex, Vertex> visited = new HashMap<Vertex, Vertex>();
-        visited.put(Vertex, new Vertex(Vertex.val));
+        stack.push(vertex);
+
+        Map<Vertex, Vertex> map = new HashMap<Vertex, Vertex>();
+        map.put(vertex, new Vertex(vertex.val));
 
         while (!stack.isEmpty()) {
             Vertex top = stack.pop();
             for (Vertex neighbor : top.neighbors) {
-                if (!visited.containsKey(neighbor)) {
-                    visited.put(neighbor, new Vertex(neighbor.val));
+                if (!map.containsKey(neighbor)) {
+                    map.put(neighbor, new Vertex(neighbor.val));
                     stack.push(neighbor);
                 }
 
-                visited.get(top).neighbors.add(visited.get(neighbor));
+                map.get(top).neighbors.add(map.get(neighbor));
             }
         }
 
-        return visited.get(Vertex);
+        return map.get(vertex);
     }
 }

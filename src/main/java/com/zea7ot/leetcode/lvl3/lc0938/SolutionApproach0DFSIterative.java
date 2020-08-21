@@ -14,7 +14,7 @@ import java.util.Deque;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0Iteration {
+public class SolutionApproach0DFSIterative {
     public int rangeSumBST(TreeNode root, int L, int R) {
         // sanity check
         if (root == null || L > R)
@@ -23,7 +23,7 @@ public class SolutionApproach0Iteration {
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
         stack.push(root);
         int sum = 0;
-        
+
         while (!stack.isEmpty()) {
             TreeNode top = stack.pop();
             if (top.val >= L)
