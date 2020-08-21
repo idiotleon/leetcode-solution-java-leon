@@ -9,5 +9,5 @@
 package com.zea7ot.leetcode.ood.lvl3.lc0173.followup;
 
 public class Solution {
-    
+
 }
