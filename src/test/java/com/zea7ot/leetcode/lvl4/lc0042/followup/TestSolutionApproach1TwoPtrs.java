@@ -9,7 +9,7 @@ public class TestSolutionApproach1TwoPtrs {
 
     @Test
     void test1(){
-        final int [] heights = {0,1,0,2,1,0,1,3,2,1,2,1};
-        assertEquals(1, solution.trap(heights));
+        final int [] HEIGHTS = {0,1,0,2,1,0,1,3,2,1,2,1};
+        assertEquals(1, solution.trap(HEIGHTS));
     }
 }   

@@ -9,7 +9,7 @@
  *  https://leetcode.com/problems/remove-invalid-parentheses/discuss/75027/Easy-Short-Concise-and-Fast-Java-DFS-3-ms-solution/147484
  *  https://zxi.mytechroad.com/blog/searching/leetcode-301-remove-invalid-parentheses/
  */
-package com.zea7ot.leetcode.lvl5.lc0301;
+package com.zea7ot.leetcode.lvl4.lc0301;
 
 import java.util.ArrayList;
 import java.util.List;
