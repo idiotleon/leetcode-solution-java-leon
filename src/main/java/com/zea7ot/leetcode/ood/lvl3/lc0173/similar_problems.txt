@@ -1,7 +1,20 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Binary Search Tree
 
 2   1305    https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
 
 3   0173    https://leetcode.com/problems/binary-search-tree-iterator/
 
 4   0023    https://leetcode.com/problems/merge-k-sorted-lists/
+
+
+
+### Stack
+
+3   0173    https://leetcode.com/problems/binary-search-tree-iterator/
+3   0339    https://leetcode.com/problems/nested-list-weight-sum/
+3   0341    https://leetcode.com/problems/flatten-nested-list-iterator/
