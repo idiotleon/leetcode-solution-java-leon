@@ -1,4 +1,7 @@
 @author: Leon
+References: 
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 ### Tree
 ## Traversal
@@ -18,6 +21,7 @@
 2   0814    https://leetcode.com/problems/binary-tree-pruning/
 2   0958    https://leetcode.com/problems/check-completeness-of-a-binary-tree/
 2   0998    https://leetcode.com/problems/maximum-binary-tree-ii/
+2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 2   1305    https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
 2   1379    https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/
 
