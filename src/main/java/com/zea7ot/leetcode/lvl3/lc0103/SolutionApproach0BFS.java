@@ -18,29 +18,34 @@ public class SolutionApproach0BFS {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> ans = new ArrayList<List<Integer>>();
         // sanity check
-        if(root == null) return ans;
-        
+        if (root == null)
+            return ans;
+
         Deque<TreeNode> queue = new ArrayDeque<TreeNode>();
         queue.add(root);
         int level = 0;
-        
-        while(!queue.isEmpty()){
+
+        while (!queue.isEmpty()) {
             final int SIZE = queue.size();
             LinkedList<Integer> intermediate = new LinkedList<Integer>();
-            
-            for(int i = 0; i < SIZE; ++i){
-                TreeNode cur = queue.poll();
-                if(level % 2 == 0) intermediate.addLast(cur.val);
-                else intermediate.addFirst(cur.val);
 
-                if(cur.left != null) queue.add(cur.left);
-                if(cur.right != null) queue.add(cur.right);
+            for (int i = 0; i < SIZE; ++i) {
+                TreeNode cur = queue.poll();
+                if (level % 2 == 0)
+                    intermediate.addLast(cur.val);
+                else
+                    intermediate.addFirst(cur.val);
+
+                if (cur.left != null)
+                    queue.add(cur.left);
+                if (cur.right != null)
+                    queue.add(cur.right);
             }
-            
+
             ++level;
             ans.add(intermediate);
         }
-        
+
         return ans;
     }
 }

@@ -1,0 +1,24 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Diagonal
+### Zigzag
+
+1   0766    https://leetcode.com/problems/toeplitz-matrix/
+
+3   0103    https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+3   0498    https://leetcode.com/problems/diagonal-traverse/
+3   1329    https://leetcode.com/problems/sort-the-matrix-diagonally/
+3   1424    https://leetcode.com/problems/diagonal-traverse-ii/
+
+
+
+### Linear Scan
+
+1   0766    https://leetcode.com/problems/toeplitz-matrix/
+
+3   0498    https://leetcode.com/problems/diagonal-traverse/
+3   1329    https://leetcode.com/problems/sort-the-matrix-diagonally/
+3   1424    https://leetcode.com/problems/diagonal-traverse-ii/

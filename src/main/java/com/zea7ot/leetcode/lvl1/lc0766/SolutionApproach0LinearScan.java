@@ -9,7 +9,7 @@
  */
 package com.zea7ot.leetcode.lvl1.lc0766;
 
-public class Solution {
+public class SolutionApproach0LinearScan {
     public boolean isToeplitzMatrix(int[][] matrix) {
         final int NR = matrix.length, NC = matrix[0].length;
         for(int row = 0; row < NR - 1; ++row){
