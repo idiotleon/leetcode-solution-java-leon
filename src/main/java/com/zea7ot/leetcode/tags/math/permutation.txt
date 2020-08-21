@@ -15,6 +15,3 @@ References:
 
 4   0031    https://leetcode.com/problems/next-permutation/
 4   0556    https://leetcode.com/problems/next-greater-element-iii/
-
-
-previous permutation
