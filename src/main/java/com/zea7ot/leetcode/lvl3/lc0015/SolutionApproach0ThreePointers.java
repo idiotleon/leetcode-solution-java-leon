@@ -27,7 +27,8 @@ public class SolutionApproach0ThreePointers {
             int target = -nums[idx];
 
             while (lo < hi) {
-                if (nums[lo] + nums[hi] == target) {
+                int sum = nums[lo] + nums[hi];
+                if (sum == target) {
                     ans.add(Arrays.asList(nums[idx], nums[lo], nums[hi]));
                     ++lo;
                     --hi;
@@ -35,7 +36,7 @@ public class SolutionApproach0ThreePointers {
                         ++lo;
                     while (lo < hi && nums[hi] == nums[hi + 1])
                         --hi;
-                } else if (nums[lo] + nums[hi] > target)
+                } else if (sum > target)
                     --hi;
                 else
                     ++lo;

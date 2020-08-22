@@ -51,6 +51,5 @@ public class SolutionApproach0FourPointers {
         }
 
         return ans;
-
     }
 }
