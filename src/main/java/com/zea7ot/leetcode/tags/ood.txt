@@ -31,6 +31,7 @@ References:
 4   0353    https://leetcode.com/problems/design-snake-game/
 4   0355    https://leetcode.com/problems/design-twitter/
 4   0855    https://leetcode.com/problems/exam-room/
+4   1032    https://leetcode.com/problems/stream-of-characters/
 
 5   0381    https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/
 5   0588    https://leetcode.com/problems/design-in-memory-file-system/
