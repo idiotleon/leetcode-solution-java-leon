@@ -7,5 +7,5 @@
 package com.zea7ot.leetcode.lvl4.lc1368;
 
 public class SolutionApproach1DP2Dimen {
-    
+
 }

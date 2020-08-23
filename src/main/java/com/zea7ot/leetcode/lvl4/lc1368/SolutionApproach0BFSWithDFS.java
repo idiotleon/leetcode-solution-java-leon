@@ -18,51 +18,53 @@
  */
 package com.zea7ot.leetcode.lvl4.lc1368;
 
+import java.util.ArrayDeque;
 import java.util.Arrays;
-import java.util.LinkedList;
+import java.util.Deque;
 import java.util.Queue;
 
 public class SolutionApproach0BFSWithDFS {
-    private static final int[][] DIRS = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-    private int NR, NC;
-    
+    private static final int[][] DIRS = { { 0, 1 }, { 0, -1 }, { 1, 0 }, { -1, 0 } };
+
     public int minCost(int[][] grid) {
         // sanity check
-        if(grid == null || grid.length == 0) return 0;
-        
-        NR = grid.length;
-        NC = grid[0].length;
-        
+        if (grid == null || grid.length == 0 || grid[0].length == 0)
+            return 0;
+
+        final int NR = grid.length, NC = grid[0].length;
+
         int cost = 0;
-        
+
         int[][] dp = new int[NR][NC];
-        for(int[] row : dp) Arrays.fill(row, Integer.MAX_VALUE);
-        Queue<int[]> queue = new LinkedList<int[]>();
+        for (int[] row : dp)
+            Arrays.fill(row, Integer.MAX_VALUE);
+
+        Deque<int[]> queue = new ArrayDeque<int[]>();
         dfs(grid, 0, 0, dp, cost, queue);
-        while(!queue.isEmpty()){
-            cost++;
-            
+        while (!queue.isEmpty()) {
+            ++cost;
+
             final int SIZE = queue.size();
-            for(int i = 0; i < SIZE; i++){
+            for (int i = 0; i < SIZE; i++) {
                 int[] cur = queue.poll();
                 int row = cur[0], col = cur[1];
-                for(final int[] DIR : DIRS){
+                for (final int[] DIR : DIRS) {
                     dfs(grid, row + DIR[0], col + DIR[1], dp, cost, queue);
                 }
             }
         }
-        
+
         return dp[NR - 1][NC - 1];
     }
-    
-    private void dfs(int[][] grid, int row, int col, 
-                     int[][] dp, int cost, 
-                     Queue<int[]> queue){
-        if(row < 0 || row >= NR || col < 0 || col >= NC || dp[row][col] != Integer.MAX_VALUE) return;
+
+    private void dfs(int[][] grid, int row, int col, int[][] dp, int cost, Queue<int[]> queue) {
+        final int NR = grid.length, NC = grid[0].length;
+        if (row < 0 || row >= NR || col < 0 || col >= NC || dp[row][col] != Integer.MAX_VALUE)
+            return;
         dp[row][col] = cost;
-        
-        queue.offer(new int[]{row, col});
-        
+
+        queue.offer(new int[] { row, col });
+
         int nextDir = grid[row][col] - 1;
         dfs(grid, row + DIRS[nextDir][0], col + DIRS[nextDir][1], dp, cost, queue);
     }
