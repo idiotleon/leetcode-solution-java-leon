@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
 
-public class SolutionApproach0DijkstraSPF1 {
+public class SolutionApproach0DijkstrasSPF1 {
     public int findCminHeapestPrice(int n, int[][] flights, int src, int dst, int K) {
         Map<Integer, Map<Integer, Integer>> prices = new HashMap<Integer, Map<Integer, Integer>>();
         for(int[] flight : flights){

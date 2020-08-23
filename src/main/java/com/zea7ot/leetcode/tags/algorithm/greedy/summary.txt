@@ -19,8 +19,10 @@ References:
 3   0659    https://leetcode.com/problems/split-array-into-consecutive-subsequences/
 3   0729    https://leetcode.com/problems/my-calendar-i/
 3   0731    https://leetcode.com/problems/my-calendar-ii/
+3   0743    https://leetcode.com/problems/network-delay-time/
 3   0758    https://leetcode.com/problems/bold-words-in-string/
 3   0775    https://leetcode.com/problems/global-and-local-inversions/
+3   0787    https://leetcode.com/problems/cheapest-flights-within-k-stops/
 3   0957    https://leetcode.com/problems/prison-cells-after-n-days/
 3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
 3   1057    https://leetcode.com/problems/campus-bikes/
@@ -29,12 +31,15 @@ References:
 3   1272    https://leetcode.com/problems/remove-interval/
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
 3   1405    https://leetcode.com/problems/longest-happy-string/
+3   1514    https://leetcode.com/problems/path-with-maximum-probability/
 3   1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/
 
 4   0218    https://leetcode.com/problems/the-skyline-problem/
 4   0337    https://leetcode.com/problems/house-robber-iii/
 4   0358    https://leetcode.com/problems/rearrange-string-k-distance-apart/
+4   0407    https://leetcode.com/problems/trapping-rain-water-ii/
 4   0502    https://leetcode.com/problems/ipo/
+4   0505    https://leetcode.com/problems/the-maze-ii/
 4   0616    https://leetcode.com/problems/add-bold-tag-in-string/
 4   0621    https://leetcode.com/problems/task-scheduler/
 4   0630    https://leetcode.com/problems/course-schedule-iii/
@@ -44,7 +49,9 @@ References:
 4   0759    https://leetcode.com/problems/employee-free-time/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   0936    https://leetcode.com/problems/stamping-the-sequence/
+4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 
+5   0499    https://leetcode.com/problems/the-maze-iii/
 5   0850    https://leetcode.com/problems/rectangle-area-ii/
 5   0857    https://leetcode.com/problems/minimum-cost-to-hire-k-workers/
 

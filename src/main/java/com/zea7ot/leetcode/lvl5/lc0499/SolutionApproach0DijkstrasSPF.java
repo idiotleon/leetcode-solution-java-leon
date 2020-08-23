@@ -11,7 +11,7 @@ package com.zea7ot.leetcode.lvl5.lc0499;
 
 import java.util.PriorityQueue;
 
-public class SolutionApproach0DijkstrasAlgorithm {
+public class SolutionApproach0DijkstrasSPF {
     private static final int[][] DIRS = { { 1, 0 }, { 0, -1 }, { 0, 1 }, { -1, 0 } };
     // to strictly align with DIRS(int[][])
     private static final char[] MOVES = { 'd', 'l', 'r', 'u' };
@@ -63,7 +63,7 @@ public class SolutionApproach0DijkstrasAlgorithm {
     private Position moveForward(Position cur, int direction, int[] hole, int[][] maze) {
         int row = cur.row, col = cur.col;
         int distance = cur.distance;
-        while (isValid(row, col, maze)) {
+        while (isValid(row + DIRS[direction][0], col + DIRS[direction][1], maze)) {
             row += DIRS[direction][0];
             col += DIRS[direction][1];
             ++distance;
@@ -71,10 +71,6 @@ public class SolutionApproach0DijkstrasAlgorithm {
                 return new Position(row, col, distance, cur.moves);
         }
 
-        // to move one step back from the wall
-        row -= DIRS[direction][0];
-        col -= DIRS[direction][1];
-        --distance;
         return new Position(row, col, distance, cur.moves);
     }
 

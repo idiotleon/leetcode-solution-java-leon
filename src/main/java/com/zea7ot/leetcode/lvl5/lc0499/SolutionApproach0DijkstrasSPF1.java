@@ -11,7 +11,7 @@ package com.zea7ot.leetcode.lvl5.lc0499;
 
 import java.util.PriorityQueue;
 
-public class SolutionApproach0DijkstrasAlgorithm1 {
+public class SolutionApproach0DijkstrasSPF1 {
     private static final int[][] DIRS = { { 1, 0 }, { 0, -1 }, { 0, 1 }, { -1, 0 } };
     // to strictly align with DIRS(int[][])
     private static final char[] MOVES = { 'd', 'l', 'r', 'u' };

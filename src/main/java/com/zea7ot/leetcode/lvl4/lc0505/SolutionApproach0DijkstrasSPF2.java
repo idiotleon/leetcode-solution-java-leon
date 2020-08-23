@@ -11,7 +11,7 @@ package com.zea7ot.leetcode.lvl4.lc0505;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
-public class SolutionApproach0DijkstrasAlgorithm2 {
+public class SolutionApproach0DijkstrasSPF2 {
     private static final int[] DIRS = { 0, -1, 0, 1, 0 };
 
     public int shortestDistance(int[][] maze, int[] start, int[] destination) {
