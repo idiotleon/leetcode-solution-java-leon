@@ -11,7 +11,7 @@ package com.zea7ot.leetcode.lvl5.lc0499;
 
 import java.util.PriorityQueue;
 
-public class SolutionApproach0DijkstrasAlgorithm {
+public class SolutionApproach0DijkstrasAlgorithm1 {
     private static final int[][] DIRS = { { 1, 0 }, { 0, -1 }, { 0, 1 }, { -1, 0 } };
     // to strictly align with DIRS(int[][])
     private static final char[] MOVES = { 'd', 'l', 'r', 'u' };
@@ -19,15 +19,10 @@ public class SolutionApproach0DijkstrasAlgorithm {
     private static final String IMPOSSIBLE = "impossible";
 
     public String findShortestWay(int[][] maze, int[] ball, int[] hole) {
-        // sanity check
-        if (maze == null || maze.length == 0 || maze[0].length == 0)
-            return "";
-
         final int NR = maze.length, NC = maze[0].length;
         boolean[][] visited = new boolean[NR][NC];
 
-        PriorityQueue<Position> minHeap = new PriorityQueue<Position>((a,
-                b) -> a.distance == b.distance ? a.moves.compareTo(b.moves) : Integer.compare(a.distance, b.distance));
+        PriorityQueue<Position> minHeap = new PriorityQueue<Position>();
         minHeap.offer(new Position(ball[0], ball[1], 0, ""));
 
         while (!minHeap.isEmpty()) {
@@ -41,7 +36,7 @@ public class SolutionApproach0DijkstrasAlgorithm {
             visited[cur.row][cur.col] = true;
 
             for (int d = 0; d < 4; ++d) {
-                Position next = moveForward(cur, d, hole, maze);
+                Position next = moveForward(maze, cur, d, hole);
                 minHeap.offer(new Position(next.row, next.col, next.distance, next.moves + MOVES[d]));
             }
         }
@@ -53,14 +48,14 @@ public class SolutionApproach0DijkstrasAlgorithm {
      * to move from the currently given position, and move in the currently given
      * direction, until hitting a wall
      * 
+     * @param maze
      * @param cur
      * @param direction
      * @param hole
-     * @param maze
      * @return the last position/coordinate of the ball right before hitting the
      *         wall
      */
-    private Position moveForward(Position cur, int direction, int[] hole, int[][] maze) {
+    private Position moveForward(int[][] maze, Position cur, int direction, int[] hole) {
         int row = cur.row, col = cur.col;
         int distance = cur.distance;
         while (isValid(row, col, maze)) {
@@ -83,7 +78,7 @@ public class SolutionApproach0DijkstrasAlgorithm {
         return row >= 0 && row < NR && col >= 0 && col < NC && maze[row][col] == 0;
     }
 
-    private class Position {
+    private class Position implements Comparable<Position> {
         protected int row;
         protected int col;
         protected int distance;
@@ -94,6 +89,13 @@ public class SolutionApproach0DijkstrasAlgorithm {
             this.col = col;
             this.distance = distance;
             this.moves = moves;
+        }
+
+        // @Override
+        public int compareTo(Position that) {
+            if (this.distance == that.distance)
+                return this.moves.compareTo(that.moves);
+            return this.distance - that.distance;
         }
     }
 }

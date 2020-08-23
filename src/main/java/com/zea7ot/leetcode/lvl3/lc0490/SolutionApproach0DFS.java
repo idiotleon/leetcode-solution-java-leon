@@ -12,44 +12,43 @@ package com.zea7ot.leetcode.lvl3.lc0490;
 import java.util.Arrays;
 
 public class SolutionApproach0DFS {
-    private static final int[][] DIRS = {{-1, 0},{1, 0}, {0, -1}, {0, 1}};
-    private int NR, NC;
-    
+    private static final int[] DIRS = { 0, -1, 0, 1, 0 };
+
     public boolean hasPath(int[][] maze, int[] start, int[] destination) {
         // sanity check
-        if(maze == null || maze.length == 0) return false;
-        
-        this.NR = maze.length;
-        this.NC = maze[0].length;
+        if (maze == null || maze.length == 0)
+            return false;
+
+        final int NR = maze.length, NC = maze[0].length;
         boolean[][] visited = new boolean[NR][NC];
-        
+
         return dfs(maze, start, destination, visited);
     }
-    
-    private boolean dfs(int[][] maze, 
-                        int[] pos,
-                        int[] destination, 
-                        boolean[][] visited){
+
+    private boolean dfs(int[][] maze, int[] pos, int[] destination, boolean[][] visited) {
         int row = pos[0], col = pos[1];
-        if(visited[row][col]) return false;
-        if(Arrays.equals(pos, destination)) return true;
-        
+        if (visited[row][col])
+            return false;
+        if (Arrays.equals(pos, destination))
+            return true;
+
         visited[row][col] = true;
-        for(final int[] DIR : DIRS){
+        for (int d = 0; d < 4; ++d) {
             int r = row, c = col;
-            while(isValid(maze, r + DIR[0], c + DIR[1])){
-                r += DIR[0];
-                c += DIR[1];
+            while (isValid(r + DIRS[d], c + DIRS[d + 1], maze)) {
+                r += DIRS[d];
+                c += DIRS[d + 1];
             }
-            
-            if(dfs(maze, new int[]{r, c}, destination, visited)) 
+
+            if (dfs(maze, new int[] { r, c }, destination, visited))
                 return true;
         }
-        
+
         return false;
     }
-    
-    private boolean isValid(int[][] maze, int row, int col){
+
+    private boolean isValid(int row, int col, int[][] maze) {
+        final int NR = maze.length, NC = maze[0].length;
         return row >= 0 && row < NR && col >= 0 && col < NC && maze[row][col] == 0;
     }
 }
