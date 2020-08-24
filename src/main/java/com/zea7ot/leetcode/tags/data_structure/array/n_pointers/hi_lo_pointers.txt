@@ -18,3 +18,5 @@ References:
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1498   https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
+
+4   0992    https://leetcode.com/problems/subarrays-with-k-different-integers/

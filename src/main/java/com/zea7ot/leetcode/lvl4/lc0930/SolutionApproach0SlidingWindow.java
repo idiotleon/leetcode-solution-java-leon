@@ -29,19 +29,21 @@ public class SolutionApproach0SlidingWindow {
     private int atMost(int[] nums, int S) {
         if (S < 0)
             return 0;
-        final int L = nums.length;
-        int ans = 0;
-        for (int i = 0, j = 0; j < L; j++) {
-            S -= nums[j];
+        final int N = nums.length;
+        int longest = 0;
+        int lo = 0, hi = 0;
+        while (hi < N) {
+            S -= nums[hi];
             while (S < 0)
-                S += nums[i++];
+                S += nums[lo++];
 
             // any subarray, containing the designated 1s,
             // with different number of zeros,
             // is valid
-            ans += j - i + 1;
+            longest += hi - lo + 1;
+            ++hi;
         }
 
-        return ans;
+        return longest;
     }
 }

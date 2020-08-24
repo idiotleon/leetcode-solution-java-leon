@@ -1,0 +1,34 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### K Distinct
+# Array
+
+4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
+4   0992    https://leetcode.com/problems/subarrays-with-k-different-integers/
+
+
+# String
+
+2   0003    https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
+
+5   0340    https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
+
+
+
+Resources:
+    https://leetcode.com/problems/subarrays-with-k-different-integers/discuss/235002/One-code-template-to-solve-all-of-these-problems!
+
+
+
+### Sliding Window
+
+
+
+
+Resources:
+    https://leetcode.com/problems/subarrays-with-k-different-integers/discuss/523136/JavaC++Python-Sliding-Window/556706
