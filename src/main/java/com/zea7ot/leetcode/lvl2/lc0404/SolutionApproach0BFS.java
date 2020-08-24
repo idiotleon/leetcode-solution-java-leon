@@ -16,20 +16,25 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0BFS {
     public int sumOfLeftLeaves(TreeNode root) {
-        if(root == null) return 0;
-        
-        int ans = 0;
+        if (root == null)
+            return 0;
+
+        int sum = 0;
         Deque<TreeNode> queue = new ArrayDeque<TreeNode>();
         queue.offer(root);
-        
-        while(!queue.isEmpty()){
+
+        while (!queue.isEmpty()) {
             TreeNode node = queue.poll();
-            
-            if(node.left != null && node.left.left == null && node.left.right == null) ans += node.left.val;
-            if(node.left != null) queue.offer(node.left);
-            if(node.right != null) queue.offer(node.right);
+
+            if (node.left != null && node.left.left == null && node.left.right == null)
+                sum += node.left.val;
+
+            if (node.left != null)
+                queue.offer(node.left);
+            if (node.right != null)
+                queue.offer(node.right);
         }
-        
-        return ans;
+
+        return sum;
     }
 }

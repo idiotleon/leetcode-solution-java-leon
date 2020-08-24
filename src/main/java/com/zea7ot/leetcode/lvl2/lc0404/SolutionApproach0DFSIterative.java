@@ -16,25 +16,29 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0DFSIterative {
     public int sumOfLeftLeaves(TreeNode root) {
-        if(root == null) return 0;
-        int ans = 0;
+        // sanity check
+        if (root == null)
+            return 0;
+
+        int sum = 0;
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
         stack.push(root);
-        
-        while(!stack.isEmpty()){
+
+        while (!stack.isEmpty()) {
             TreeNode node = stack.pop();
-            if(node.left != null){
-                if(node.left.left == null && node.left.right == null)
-                    ans += node.left.val;
-                else stack.push(node.left);
+            if (node.left != null) {
+                if (node.left.left == null && node.left.right == null)
+                    sum += node.left.val;
+                else
+                    stack.push(node.left);
             }
-            
-            if(node.right != null){
-                if(node.right.left != null || node.right.right != null)
+
+            if (node.right != null) {
+                if (node.right.left != null || node.right.right != null)
                     stack.push(node.right);
             }
         }
-        
-        return ans;
+
+        return sum;
     }
 }
