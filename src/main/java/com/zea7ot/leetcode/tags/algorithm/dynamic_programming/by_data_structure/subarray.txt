@@ -10,5 +10,6 @@ References:
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
+4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 
 5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
