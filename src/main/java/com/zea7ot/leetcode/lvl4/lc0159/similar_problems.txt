@@ -1,0 +1,15 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Longest Subarray
+### Two Distinct
+
+3   0904    https://leetcode.com/problems/fruit-into-baskets/
+
+4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
+
+
+
+### Sliding Window
