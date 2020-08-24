@@ -3,7 +3,7 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
-### Two Pointers
+### N Pointers
 # Summary
 
 1   0067    https://leetcode.com/problems/add-binary/
@@ -17,6 +17,7 @@ References:
 
 2   0002    https://leetcode.com/problems/add-two-numbers/
 2   0003    https://leetcode.com/problems/longest-substring-without-repeating-characters/
+2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 2   0408    https://leetcode.com/problems/valid-word-abbreviation/
 2   0409    https://leetcode.com/problems/longest-palindrome/
 2   0724    https://leetcode.com/problems/find-pivot-index/
@@ -31,8 +32,10 @@ References:
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
+3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0922    https://leetcode.com/problems/sort-array-by-parity-ii/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
+3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1055    https://leetcode.com/problems/shortest-way-to-form-string/
 3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
@@ -44,9 +47,11 @@ References:
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 4   0138    https://leetcode.com/problems/copy-list-with-random-pointer/
 4   0148    https://leetcode.com/problems/sort-list/
+4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0632    https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
+4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   1537    https://leetcode.com/problems/get-the-maximum-score/
 
 

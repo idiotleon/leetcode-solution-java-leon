@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class TestSolutionApproach0DjikstrasAlgorithm {
-    private SolutionApproach0DijkstrasAlgorithm solution = new SolutionApproach0DijkstrasAlgorithm();
+    private SolutionApproach0DijkstrasSPF solution = new SolutionApproach0DijkstrasSPF();
 
     @Test
     void test() {

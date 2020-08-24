@@ -13,9 +13,11 @@ References:
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0001    https://leetcode.com/problems/two-sum/
+2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 2   0287    https://leetcode.com/problems/find-the-duplicate-number/
 2   0475    https://leetcode.com/problems/heaters/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
+3   0904    https://leetcode.com/problems/fruit-into-baskets/
 2   1103    https://leetcode.com/problems/distribute-candies-to-people/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
@@ -29,6 +31,7 @@ References:
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   0922    https://leetcode.com/problems/sort-array-by-parity-ii/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
+3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
@@ -38,4 +41,5 @@ References:
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0632    https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
+4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   1537    https://leetcode.com/problems/get-the-maximum-score/

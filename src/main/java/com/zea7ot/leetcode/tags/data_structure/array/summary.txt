@@ -21,6 +21,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0090    https://leetcode.com/problems/subsets-ii/
 2   0118    https://leetcode.com/problems/pascals-triangle/
 2   0207    https://leetcode.com/problems/course-schedule/
+2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 2   0278    https://leetcode.com/problems/first-bad-version/
 2   0280    https://leetcode.com/problems/wiggle-sort/
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
@@ -103,6 +104,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0764    https://leetcode.com/problems/largest-plus-sign/
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
+3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   0911    https://leetcode.com/problems/online-election/
 3   0912    https://leetcode.com/problems/sort-an-array/
@@ -114,6 +116,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0969    https://leetcode.com/problems/pancake-sorting/
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
+3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 3   1033    https://leetcode.com/problems/moving-stones-until-consecutive/
@@ -190,6 +193,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0916    https://leetcode.com/problems/word-subsets/
 4   0918    https://leetcode.com/problems/maximum-sum-circular-subarray/
+4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 4   0956    https://leetcode.com/problems/tallest-billboard/
 4   0980    https://leetcode.com/problems/unique-paths-iii/

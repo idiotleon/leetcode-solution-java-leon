@@ -14,6 +14,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 2   0063    https://leetcode.com/problems/unique-paths-ii/
 2   0064    https://leetcode.com/problems/minimum-path-sum/
 2   0122    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 2   0413    https://leetcode.com/problems/arithmetic-slices/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
@@ -89,6 +90,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0894    https://leetcode.com/problems/all-possible-full-binary-trees/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   0918    https://leetcode.com/problems/maximum-sum-circular-subarray/
+4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   0956    https://leetcode.com/problems/tallest-billboard/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/

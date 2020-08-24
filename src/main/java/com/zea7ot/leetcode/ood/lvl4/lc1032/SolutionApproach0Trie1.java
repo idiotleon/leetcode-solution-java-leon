@@ -12,7 +12,7 @@
  * References:
  *  https://leetcode.com/problems/stream-of-characters/discuss/278250/Python-Trie-Solution-with-Explanation
  */
-package com.zea7ot.leetcode.lvl4.lc1032;
+package com.zea7ot.leetcode.ood.lvl4.lc1032;
 
 public class SolutionApproach0Trie1 {
     private final static int MOD = 2000;

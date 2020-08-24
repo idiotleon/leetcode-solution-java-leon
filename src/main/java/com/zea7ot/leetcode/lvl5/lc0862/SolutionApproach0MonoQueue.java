@@ -20,23 +20,22 @@ public class SolutionApproach0MonoQueue {
 
         final int N = nums.length;
         int[] prefixSums = new int[N + 1];
-        for (int i = 0; i < N; ++i) {
+        for (int i = 0; i < N; ++i)
             prefixSums[i + 1] = prefixSums[i] + nums[i];
-        }
 
         Deque<Integer> deque = new ArrayDeque<Integer>();
         int shortest = Integer.MAX_VALUE;
 
-        for (int i = 0; i < N + 1; ++i) {
+        for (int i = 0; i <= N; ++i) {
             while (!deque.isEmpty() && prefixSums[i] - prefixSums[deque.peekFirst()] >= K)
                 shortest = Math.min(shortest, i - deque.pollFirst());
 
             // to discard all prefix sums that are larger than or equal to the current
             // prefix sum
-            while (!deque.isEmpty() && prefixSums[i] <= prefixSums[deque.peekLast()])
+            while (!deque.isEmpty() && prefixSums[deque.peekLast()] > prefixSums[i])
                 deque.pollLast();
 
-            deque.offerLast(i);
+            deque.offer(i);
         }
 
         return shortest == Integer.MAX_VALUE ? -1 : shortest;
