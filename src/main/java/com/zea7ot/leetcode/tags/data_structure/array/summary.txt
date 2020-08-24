@@ -21,6 +21,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0090    https://leetcode.com/problems/subsets-ii/
 2   0118    https://leetcode.com/problems/pascals-triangle/
 2   0207    https://leetcode.com/problems/course-schedule/
+2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 2   0278    https://leetcode.com/problems/first-bad-version/
 2   0280    https://leetcode.com/problems/wiggle-sort/
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/

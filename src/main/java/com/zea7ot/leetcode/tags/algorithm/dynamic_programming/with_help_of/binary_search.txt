@@ -7,6 +7,8 @@ References:
 ## with help of 
 # Binary Searches
 
+2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
+
 4   0887    https://leetcode.com/problems/super-egg-drop/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 

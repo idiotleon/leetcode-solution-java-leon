@@ -7,6 +7,7 @@ References:
 # Subarray
 
 2   0053    https://leetcode.com/problems/maximum-subarray/
+2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
@@ -18,6 +19,7 @@ References:
 3   0560    https://leetcode.com/problems/subarray-sum-equals-k/
 3   0713    https://leetcode.com/problems/subarray-product-less-than-k/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
+3   0764    https://leetcode.com/problems/largest-plus-sign/
 3   0974    https://leetcode.com/problems/subarray-sums-divisible-by-k/
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
