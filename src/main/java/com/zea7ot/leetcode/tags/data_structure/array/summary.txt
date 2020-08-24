@@ -104,6 +104,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0764    https://leetcode.com/problems/largest-plus-sign/
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
+3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   0911    https://leetcode.com/problems/online-election/
 3   0912    https://leetcode.com/problems/sort-an-array/

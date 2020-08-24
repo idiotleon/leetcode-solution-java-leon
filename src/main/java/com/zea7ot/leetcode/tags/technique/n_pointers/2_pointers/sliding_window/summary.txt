@@ -14,6 +14,7 @@ References:
 
 3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
+3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/description/
 
 4   0076    https://leetcode.com/problems/minimum-window-substring/

@@ -20,6 +20,7 @@ References:
 3   0713    https://leetcode.com/problems/subarray-product-less-than-k/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 3   0764    https://leetcode.com/problems/largest-plus-sign/
+3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0974    https://leetcode.com/problems/subarray-sums-divisible-by-k/
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
