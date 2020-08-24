@@ -7,6 +7,7 @@ References:
 # Geometry
 
 3   0223    https://leetcode.com/problems/rectangle-area/
+3   0497    https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/
 3   0593    https://leetcode.com/problems/valid-square/
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0750    https://leetcode.com/problems/number-of-corner-rectangles/

@@ -10,6 +10,7 @@ References:
 
 3   0056    https://leetcode.com/problems/merge-intervals/description/
 3   0253    https://leetcode.com/problems/meeting-rooms-ii/
+3   0497    https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/
 3   0729    https://leetcode.com/problems/my-calendar-i/
 3   0731    https://leetcode.com/problems/my-calendar-ii/
 3   0939    https://leetcode.com/problems/minimum-area-rectangle/
