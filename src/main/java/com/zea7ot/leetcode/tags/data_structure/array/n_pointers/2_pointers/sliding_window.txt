@@ -12,6 +12,7 @@ References:
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
+3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 
 4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/

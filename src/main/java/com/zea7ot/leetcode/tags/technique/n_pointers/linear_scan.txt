@@ -17,6 +17,7 @@ References:
 3   0484    https://leetcode.com/problems/find-permutation/
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
+3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 
 4   0065    https://leetcode.com/problems/valid-number/
 4   0138    https://leetcode.com/problems/copy-list-with-random-pointer/

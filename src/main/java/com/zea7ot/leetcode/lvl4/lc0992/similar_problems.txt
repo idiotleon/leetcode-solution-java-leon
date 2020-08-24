@@ -4,13 +4,14 @@ References:
 
 
 ### K Distinct
-# Array
+## Array
 
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   0992    https://leetcode.com/problems/subarrays-with-k-different-integers/
 
 
-# String
+### K Distinct
+## String
 
 2   0003    https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
@@ -26,6 +27,24 @@ Resources:
 
 
 ### Sliding Window
+### Subarray
+## Count
+
+4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
+4   0992    https://leetcode.com/problems/subarrays-with-k-different-integers/
+4   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
+
+
+
+### Sliding Window
+### Subarray
+## Longest vs Shortest
+
+
+
+
+
+
 
 
 

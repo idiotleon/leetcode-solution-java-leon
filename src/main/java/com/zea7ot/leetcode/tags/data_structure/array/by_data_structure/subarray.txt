@@ -25,6 +25,7 @@ References:
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
+3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 
 4   0321    https://leetcode.com/problems/create-maximum-number/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
