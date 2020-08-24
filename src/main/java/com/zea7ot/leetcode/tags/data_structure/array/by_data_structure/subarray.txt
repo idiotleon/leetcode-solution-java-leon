@@ -23,6 +23,7 @@ References:
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0974    https://leetcode.com/problems/subarray-sums-divisible-by-k/
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
+3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 
 4   0321    https://leetcode.com/problems/create-maximum-number/
