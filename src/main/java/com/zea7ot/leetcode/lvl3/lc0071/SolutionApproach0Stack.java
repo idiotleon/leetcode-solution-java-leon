@@ -44,8 +44,8 @@ public class SolutionApproach0Stack {
 
         // equivalently
         // while (!stack.isEmpty()) {
-        //     String last = stack.removeLast();
-        //     builder.append("/" + last);
+        // String last = stack.removeLast();
+        // builder.append("/" + last);
         // }
 
         return builder.toString();

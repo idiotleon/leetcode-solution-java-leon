@@ -6,7 +6,7 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0075;
 
-public class SolutionApproach0Sort {
+public class SolutionApproach0ThreePointers {
     public void sortColors(int[] nums) {
         // sanity check
         if (nums == null || nums.length < 2)
@@ -27,8 +27,8 @@ public class SolutionApproach0Sort {
                 swap(idx++, lo++, nums);
             /**
              * 1. Conditions of if{...}if{...}if{...} is apparently different from
-             * if{...}else if{...}else{...}. 2. After swapping "idx" and "hi", idx does
-             * not increment. Otherwise, [...0,2,...] is slipped through.
+             * if{...}else if{...}else{...}. 2. After swapping "idx" and "hi", idx does not
+             * increment. Otherwise, [...0,2,...] is slipped through.
              */
             else if (nums[idx] == 2)
                 swap(idx, hi--, nums);

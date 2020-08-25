@@ -9,7 +9,7 @@ package com.zea7ot.leetcode.lvl3.lc0054;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SolutionApproach0Array1 {
+public class SolutionApproach0LinearScan1 {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> ans = new ArrayList<Integer>();
         // sanity check

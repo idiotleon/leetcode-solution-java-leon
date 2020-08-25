@@ -6,10 +6,11 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0080;
 
-public class Solution {
+public class SolutionApproach0LinearScan {
     public int removeDuplicates(int[] nums) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
+        if (nums == null || nums.length == 0)
+            return 0;
 
         int idx = 0;
         for (int num : nums) {

@@ -18,18 +18,18 @@ public class SolutionApproach1BinarySearch {
         while (lo < hi) {
             int mid = lo + (hi - lo) / 2;
 
-            if (target == nums[mid]){
+            if (target == nums[mid]) {
                 return mid;
-            }else if (nums[lo] <= nums[mid]) {
-                if (target >= nums[lo] && target <= nums[mid]){
+            } else if (nums[lo] <= nums[mid]) {
+                if (target >= nums[lo] && target <= nums[mid]) {
                     hi = mid;
-                }else{
+                } else {
                     lo = mid + 1;
                 }
             } else {
-                if (target >= nums[mid] && target <= nums[hi]){
+                if (target >= nums[mid] && target <= nums[hi]) {
                     lo = mid + 1;
-                }else{
+                } else {
                     hi = mid;
                 }
             }

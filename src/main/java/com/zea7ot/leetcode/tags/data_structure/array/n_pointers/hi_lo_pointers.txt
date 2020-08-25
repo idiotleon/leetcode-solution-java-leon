@@ -3,10 +3,11 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
-### Array
-## N Pointers
-# Two Pointers
-# High-Low Pointers
+#### Array
+### N Pointers
+
+## High-Low Pointers
+# 2 Pointers
 
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   0997    https://leetcode.com/problems/find-the-town-judge/
@@ -21,3 +22,10 @@ References:
 3   1498   https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
 4   0992    https://leetcode.com/problems/subarrays-with-k-different-integers/
+
+
+
+## High-Low Pointers
+# 3 Pointers
+
+3   0075    https://leetcode.com/problems/sort-colors/
