@@ -8,6 +8,7 @@ References:
 
 3   0005    https://leetcode.com/problems/longest-palindromic-substring/
 3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/
+3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 
 4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0076    https://leetcode.com/problems/minimum-window-substring/

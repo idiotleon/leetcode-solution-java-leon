@@ -46,6 +46,6 @@ References:
 0794    https://leetcode.com/problems/rotting-oranges/
 
 1245    https://leetcode.com/problems/tree-diameter/
-
+1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 1522    https://leetcode.com/problems/diameter-of-n-ary-tree/
 1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/

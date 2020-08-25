@@ -18,7 +18,17 @@ References:
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
+3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 
 4   0065    https://leetcode.com/problems/valid-number/
 4   0138    https://leetcode.com/problems/copy-list-with-random-pointer/
 4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
+
+
+
+#### N Pointers
+### Linear Scan
+## Technique
+# Last Indexes/Occurences of
+
+3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
