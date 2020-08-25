@@ -23,6 +23,8 @@ References:
 
 3   0015    https://leetcode.com/problems/3sum/
 3   0016    https://leetcode.com/problems/3sum-closest/
+3   0075    https://leetcode.com/problems/sort-colors/
+3   0080    https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
 3   0238    https://leetcode.com/problems/product-of-array-except-self/
 3   0259    https://leetcode.com/problems/3sum-smaller/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
@@ -34,6 +36,7 @@ References:
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
+3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
 4   0018    https://leetcode.com/problems/4sum/

@@ -12,6 +12,7 @@ References:
 1   0872    https://leetcode.com/problems/leaf-similar-trees/
 
 2   0199    https://leetcode.com/problems/binary-tree-right-side-view/
+2   0404    https://leetcode.com/problems/sum-of-left-leaves/
 2   0501    https://leetcode.com/problems/find-mode-in-binary-search-tree/
 2   0563    https://leetcode.com/problems/binary-tree-tilt/
 2   0589    https://leetcode.com/problems/n-ary-tree-preorder-traversal/

@@ -25,6 +25,7 @@ References:
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
+3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 
 4   0321    https://leetcode.com/problems/create-maximum-number/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
@@ -32,6 +33,7 @@ References:
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   0918    https://leetcode.com/problems/maximum-sum-circular-subarray/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
+4   0992    https://leetcode.com/problems/subarrays-with-k-different-integers/
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1124    https://leetcode.com/problems/longest-well-performing-interval/
@@ -42,3 +44,8 @@ References:
 5   0327    https://leetcode.com/problems/count-of-range-sum/
 5   0493    https://leetcode.com/problems/reverse-pairs/
 5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
+
+
+
+Resources:
+    https://leetcode.com/problems/subarrays-with-k-different-integers/discuss/523136/JavaC++Python-Sliding-Window/556706

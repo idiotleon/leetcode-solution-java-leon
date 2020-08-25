@@ -6,5 +6,5 @@
 package com.zea7ot.leetcode.lvl3.lc0056.followup;
 
 public class Solution {
-    
+
 }

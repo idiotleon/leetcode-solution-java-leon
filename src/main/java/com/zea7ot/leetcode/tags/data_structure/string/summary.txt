@@ -56,6 +56,7 @@ References:
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 3   1233    https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/
 3   1247    https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/
+3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 3   1360    https://leetcode.com/problems/number-of-days-between-two-dates/
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/
 3   1405    https://leetcode.com/problems/longest-happy-string/
@@ -89,6 +90,7 @@ References:
 4   1111    https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/
 4   1152    https://leetcode.com/problems/analyze-user-website-visit-pattern/
 4   1216    https://leetcode.com/problems/valid-palindrome-iii/
+4   1234    https://leetcode.com/problems/replace-the-substring-for-balanced-string/
 4   1278    https://leetcode.com/problems/palindrome-partitioning-iii/
 4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 4   1371    https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/

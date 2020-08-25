@@ -6,7 +6,7 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0069;
 
-public class SolutionApproachBinarySearch {
+public class SolutionApproach0BinarySearch {
     public int mySqrt(int x) {
         if (x == 0)
             return 0;

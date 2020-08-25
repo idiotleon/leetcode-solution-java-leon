@@ -10,27 +10,29 @@
  */
 package com.zea7ot.leetcode.lvl3.lc1031;
 
-public class SolutionApproach0KadensAlgorithm {
+public class SolutionApproach0KadanesAlgorithm {
     public int maxSumTwoNoOverlap(int[] nums, int L, int M) {
-        if(nums == null || nums.length == 0) return 0;
+        // sanity cehck
+        if (nums == null || nums.length == 0)
+            return 0;
+
         final int N = nums.length;
-        
+
         int[] sums = new int[N];
-        
+
         sums[0] = nums[0];
-        for(int i = 1; i < N; i++){
+        for (int i = 1; i < N; ++i)
             sums[i] = Math.max(nums[i], sums[i - 1] + nums[i]);
-        }
-        
+
         int maxL = sums[L - 1];
         int maxM = sums[M - 1];
-        int ans = sums[L + M - 1];
-        for(int i = L + M; i < N; i++){
+        int max = sums[L + M - 1];
+        for (int i = L + M; i < N; i++) {
             maxL = Math.max(maxL, sums[i - M] - sums[i - M - L]); // maxL at index (i - M)
             maxM = Math.max(maxM, sums[i - L] - sums[i - M - L]); // maxM at index (i - L)
-            ans = Math.max(ans, Math.max(maxL + sums[i] - sums[i - M], maxM + sums[i] - sums[i - L]));
+            max = Math.max(max, Math.max(maxL + sums[i] - sums[i - M], maxM + sums[i] - sums[i - L]));
         }
-        
-        return ans;
+
+        return max;
     }
 }

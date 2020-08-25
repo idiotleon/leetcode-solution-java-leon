@@ -12,10 +12,13 @@ References:
 
 3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/description/
+3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
+4   1234    https://leetcode.com/problems/replace-the-substring-for-balanced-string/
+
 
 
 Resources:
-https://leetcode.com/problems/subarray-sum-equals-k/discuss/301242/General-summary-of-what-kind-of-problem-can-cannot-solved-by-Two-Pointers
+    https://leetcode.com/problems/subarray-sum-equals-k/discuss/301242/General-summary-of-what-kind-of-problem-can-cannot-solved-by-Two-Pointers
