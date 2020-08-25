@@ -13,6 +13,7 @@ References:
 3   0046    https://leetcode.com/problems/permutations/
 3   0047    https://leetcode.com/problems/permutations-ii/
 3   0131    https://leetcode.com/problems/palindrome-partitioning/
+3   0491    https://leetcode.com/problems/increasing-subsequences/
 
 
 
