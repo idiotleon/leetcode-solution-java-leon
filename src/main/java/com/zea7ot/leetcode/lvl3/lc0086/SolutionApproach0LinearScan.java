@@ -8,7 +8,7 @@ package com.zea7ot.leetcode.lvl3.lc0086;
 
 import com.zea7ot.utils.data_structure.linkedlist.ListNode;
 
-public class Solution {
+public class SolutionApproach0LinearScan {
     public ListNode partition(ListNode head, int x) {
         ListNode dummy1 = new ListNode(-1), dummy2 = new ListNode(-1);
         ListNode cur1 = dummy1, cur2 = dummy2;

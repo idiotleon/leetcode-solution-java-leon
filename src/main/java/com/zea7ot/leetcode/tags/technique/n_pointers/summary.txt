@@ -27,6 +27,8 @@ References:
 
 3   0075    https://leetcode.com/problems/sort-colors/
 3   0080    https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+3   0086    https://leetcode.com/problems/partition-list/
+3   0092    https://leetcode.com/problems/reverse-linked-list-ii/
 3   0238    https://leetcode.com/problems/product-of-array-except-self/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
 3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/
