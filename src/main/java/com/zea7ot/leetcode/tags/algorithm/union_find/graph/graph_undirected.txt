@@ -7,6 +7,7 @@ References:
 ### UnionFind
 # Undirected Graph
 
+3   0785    https://leetcode.com/problems/is-graph-bipartite/
 3   0886    https://leetcode.com/problems/possible-bipartition/
 3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 3   1391    https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/
