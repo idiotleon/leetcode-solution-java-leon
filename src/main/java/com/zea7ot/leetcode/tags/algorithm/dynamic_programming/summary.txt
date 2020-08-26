@@ -139,3 +139,16 @@ Resources:
     https://zxi.mytechroad.com/blog/leetcode-problem-categories/
     https://www.youtube.com/playlist?list=PLLuMmzMTgVK7vEbeHBDD42pqqG36jhuOr
     https://www.youtube.com/watch?v=kufFb-sReiA
+
+
+
+# Prefix Sums:
+    about why `count += prefixSums.get(sum - k)`
+    https://leetcode.com/problems/subarray-sum-equals-k/discuss/535507/Explanation-to-why-map.get(sum-k)-is-done-than-count%2B%2B
+
+    store previous sum and the times of this sum, because sum[i, j] = sum[0, j] - sum[0, i - 1], this is a very very important idea
+    https://leetcode.com/problems/binary-subarrays-with-sum/discuss/187005/3-ways-to-solve-this-kind-of-problem.
+
+    about preSum.put(0, 1);
+    https://leetcode.com/problems/subarray-sum-equals-k/discuss/102106/Java-Solution-PreSum-+-HashMap/416171
+    https://leetcode.com/problems/subarray-sum-equals-k/discuss/102106/Java-Solution-PreSum-+-HashMap/238328
