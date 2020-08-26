@@ -9,6 +9,7 @@ References:
 1   0088    https://leetcode.com/problems/merge-sorted-array/
 
 2   0002    https://leetcode.com/problems/add-two-numbers/
+2   0157    https://leetcode.com/problems/read-n-characters-given-read4/
 2   0409    https://leetcode.com/problems/longest-palindrome/
 2   0724    https://leetcode.com/problems/find-pivot-index/
 2   0859    https://leetcode.com/problems/buddy-strings/
@@ -26,6 +27,7 @@ References:
 
 4   0065    https://leetcode.com/problems/valid-number/
 4   0138    https://leetcode.com/problems/copy-list-with-random-pointer/
+4   0158    https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/
 4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
 
 
