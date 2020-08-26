@@ -1,9 +1,10 @@
-Author: polyg7ot
+@author: Leon
 References:
-    https://github.com/huanminwu/LeetCode
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
     https://leetcode.com/tag/union-find/
 
-### UnionFind
+
+### Union Find
 # Directed Graph
 4   0399    https://leetcode.com/problems/evaluate-division/
 

@@ -1,0 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Read N Characters
+
+2   0157    https://leetcode.com/problems/read-n-characters-given-read4/
+
+4   0158    https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/

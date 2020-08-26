@@ -8,7 +8,7 @@ package com.zea7ot.leetcode.lvl3.lc0092;
 
 import com.zea7ot.utils.data_structure.linkedlist.ListNode;
 
-public class Solution {
+public class SolutionApproach0LinearScan {
     public ListNode reverseBetween(ListNode head, int m, int n) {
         ListNode dummy = new ListNode(-1), prev = dummy, cur = head;
         dummy.next = head;
