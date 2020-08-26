@@ -1,0 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### String
+## N Pointers
+# High Low Pointers
+
+2   0246    https://leetcode.com/problems/strobogrammatic-number/
