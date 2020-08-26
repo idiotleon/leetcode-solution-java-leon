@@ -21,29 +21,31 @@ public class SolutionApproach0DFSMemo {
         int[] memo = new int[L];
         return dfs(days, 0, costs, memo);
     }
-    
-    private int dfs(int[] days, int day, int[] costs, int[] memo){
-        if(day == days.length) return 0;
-        
-        if(memo[day] != 0) return memo[day];
-        
+
+    private int dfs(int[] days, int day, int[] costs, int[] memo) {
+        if (day == days.length)
+            return 0;
+
+        if (memo[day] != 0)
+            return memo[day];
+
         int totalCostDay = costs[0] + dfs(days, getNextDayToBuy(days, day, DAY), costs, memo);
         int totalCostWeek = costs[1] + dfs(days, getNextDayToBuy(days, day, WEEK), costs, memo);
         int totalCostMonth = costs[2] + dfs(days, getNextDayToBuy(days, day, MONTH), costs, memo);
-        
+
         int minCost = Math.min(totalCostDay, Math.min(totalCostWeek, totalCostMonth));
-        
+
         return memo[day] = minCost;
     }
-    
-    private int getNextDayToBuy(int[] days, int day, int duration){
+
+    private int getNextDayToBuy(int[] days, int day, int duration) {
         int endDay = days[day] + duration - 1;
         int newDay = day;
-        
-        while(newDay < days.length && days[newDay] <= endDay){
+
+        while (newDay < days.length && days[newDay] <= endDay) {
             newDay++;
         }
-        
+
         return newDay;
     }
 }
