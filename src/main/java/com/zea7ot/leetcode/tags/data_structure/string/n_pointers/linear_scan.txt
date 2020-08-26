@@ -9,6 +9,7 @@ References:
 1   0067    https://leetcode.com/problems/add-binary/
 
 2   0409    https://leetcode.com/problems/longest-palindrome/
+2   0859    https://leetcode.com/problems/buddy-strings/
 
 3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 
