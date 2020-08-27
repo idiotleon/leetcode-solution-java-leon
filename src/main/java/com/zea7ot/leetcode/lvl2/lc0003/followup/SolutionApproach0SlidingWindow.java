@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/longest-substring-without-repeating-characters/
  * 
- * how about k repeating characters being allowed?
+ * how about k repeated characters being allowed?
  * 
  * Time Complexity:     O(L)
  * Space Complexity:    O(1)

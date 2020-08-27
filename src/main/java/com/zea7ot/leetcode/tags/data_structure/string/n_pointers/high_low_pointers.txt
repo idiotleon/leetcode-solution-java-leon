@@ -3,10 +3,12 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
-### String
-## N Pointers
-# High Low Pointers
+#### String
+### N Pointers
+## High Low Pointers
+# 2 Pointers
 
 2   0246    https://leetcode.com/problems/strobogrammatic-number/
 
+4   0076    https://leetcode.com/problems/minimum-window-substring/
 4   0395    https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/

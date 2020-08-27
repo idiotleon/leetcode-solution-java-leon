@@ -1,8 +1,11 @@
+
 /**
  * https://leetcode.com/problems/longest-substring-without-repeating-characters/
  * 
  * Time Complexity:     O(L)
  * Space Complexity:    O(1)
+ * 
+ * please be cautious that the `s` contains not just lower case letters
  */
 package com.zea7ot.leetcode.lvl2.lc0003;
 
@@ -19,12 +22,10 @@ public class SolutionApproach0SlidingWindow1 {
 
         int lo = 0, hi = 0;
         while (hi < L) {
-            ++freq[chs[hi]];
-            while (freq[chs[hi]] > 1)
-                --freq[chs[lo++]];
-
-            // please pay attention to the relative position of the two lines right below
+            lo = Math.max(lo, freq[chs[hi]]);
             longest = Math.max(longest, hi - lo + 1);
+            freq[chs[hi]] = hi + 1;
+
             ++hi;
         }
 
