@@ -36,6 +36,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0744    https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 2   0832    https://leetcode.com/problems/flipping-an-image/
+2   0852    https://leetcode.com/problems/peak-index-in-a-mountain-array/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   0885    https://leetcode.com/problems/spiral-matrix-iii/
 2   0896    https://leetcode.com/problems/monotonic-array/
