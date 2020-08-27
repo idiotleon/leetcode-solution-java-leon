@@ -58,6 +58,7 @@ References:
 4   0148    https://leetcode.com/problems/sort-list/
 4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
+4   0395    https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
 4   0632    https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/

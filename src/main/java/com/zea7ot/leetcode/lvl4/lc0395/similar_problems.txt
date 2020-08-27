@@ -4,9 +4,8 @@ References:
 
 
 ### String
-## N Pointers
-# High Low Pointers
+### Longest vs Shortest
+### Substring
 
-2   0246    https://leetcode.com/problems/strobogrammatic-number/
-
+4   0340    https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
 4   0395    https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
