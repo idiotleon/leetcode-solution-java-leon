@@ -25,7 +25,6 @@ References:
 3   0056    https://leetcode.com/problems/merge-intervals/
 3   0062    https://leetcode.com/problems/unique-paths/
 3   0119    https://leetcode.com/problems/pascals-triangle-ii/
-4   0120    https://leetcode.com/problems/triangle/
 3   0130    https://leetcode.com/problems/surrounded-regions/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0256    https://leetcode.com/problems/paint-house/
@@ -43,6 +42,7 @@ References:
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0750    https://leetcode.com/problems/number-of-corner-rectangles/
 3   0764    https://leetcode.com/problems/largest-plus-sign/
+3   0802    https://leetcode.com/problems/find-eventual-safe-states/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
 3   0935    https://leetcode.com/problems/knight-dialer/

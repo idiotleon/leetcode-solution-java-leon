@@ -35,6 +35,7 @@ References:
 3   0494    https://leetcode.com/problems/target-sum/
 3   0491    https://leetcode.com/problems/increasing-subsequences/
 2   0690    https://leetcode.com/problems/employee-importance/
+3   0802    https://leetcode.com/problems/find-eventual-safe-states/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   0911    https://leetcode.com/problems/online-election/
 3   0935    https://leetcode.com/problems/knight-dialer/
