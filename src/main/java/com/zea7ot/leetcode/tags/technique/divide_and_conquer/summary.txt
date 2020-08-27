@@ -4,6 +4,7 @@ References:
     
     
 ### Divide and Conquer
+# Summary
 
 2   0052    https://leetcode.com/problems/maximum-subarray/
 
@@ -14,6 +15,8 @@ References:
 4   0218    https://leetcode.com/problems/the-skyline-problem/
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
+4   0395    https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
 4   1439    https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/
 
+5   0085    https://leetcode.com/problems/maximal-rectangle/s
 5   0315    https://leetcode.com/problems/count-of-smaller-numbers-after-self/

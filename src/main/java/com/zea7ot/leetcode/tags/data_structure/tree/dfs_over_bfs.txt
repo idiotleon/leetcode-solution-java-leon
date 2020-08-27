@@ -5,6 +5,6 @@ References:
 
 ### Depth First Search
 ## Tree
-# DFS but not BFS
+# DFS over BFS
 
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/

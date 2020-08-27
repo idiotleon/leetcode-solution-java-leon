@@ -22,6 +22,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0118    https://leetcode.com/problems/pascals-triangle/
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
+2   0251    https://leetcode.com/problems/flatten-2d-vector/
 2   0278    https://leetcode.com/problems/first-bad-version/
 2   0280    https://leetcode.com/problems/wiggle-sort/
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
@@ -34,6 +35,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0724    https://leetcode.com/problems/find-pivot-index/
 2   0744    https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
+2   0832    https://leetcode.com/problems/flipping-an-image/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   0885    https://leetcode.com/problems/spiral-matrix-iii/
 2   0896    https://leetcode.com/problems/monotonic-array/

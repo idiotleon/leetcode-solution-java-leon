@@ -1,0 +1,11 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### String
+### Longest vs Shortest
+### Substring
+
+4   0340    https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
+4   0395    https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/

@@ -11,6 +11,7 @@ References:
 1   0125    https://leetcode.com/problems/valid-palindrome/
 1   0345    https://leetcode.com/problems/reverse-vowels-of-a-string/
 
+2   0246    https://leetcode.com/problems/strobogrammatic-number/
 2   0408    https://leetcode.com/problems/valid-word-abbreviation/
 2   0409    https://leetcode.com/problems/longest-palindrome/
 
@@ -23,4 +24,5 @@ References:
 
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
+4   0395    https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
 4   1234    https://leetcode.com/problems/replace-the-substring-for-balanced-string/
