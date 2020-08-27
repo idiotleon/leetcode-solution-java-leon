@@ -22,9 +22,9 @@ public class SolutionApproach0MaxHeap {
 
         int[][] ans = new int[K][2];
         int idx = K - 1;
-        while(idx >= 0)
+        while (idx >= 0)
             ans[idx--] = maxHeap.poll();
-        
+
         return ans;
     }
 }

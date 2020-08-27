@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/remove-invalid-parentheses/
  * 
- * Time Complexity:     O(2 ^ (OPEN_PAREN + CLOSED_PAREN))
- * Space Complexity:    O((OPEN_PAREN + CLOSED_PAREN) ^ 2)
+ * Time Complexity:     O((OPEN_PAREN + CLOSED_PAREN) * (2 ^ (OPEN_PAREN + CLOSED_PAREN))) ~ O(L * (2 ^ L))
+ * Space Complexity:    O((OPEN_PAREN + CLOSED_PAREN) ^ 2) ~ O(L ^ 2)
  * 
  * References:
  *  https://leetcode.com/problems/remove-invalid-parentheses/discuss/75027/Easy-Short-Concise-and-Fast-Java-DFS-3-ms-solution/156556
@@ -19,6 +19,7 @@ public class SolutionApproach0DFS {
 
     public List<String> removeInvalidParentheses(String s) {
         List<String> ans = new ArrayList<>();
+        // sanity check
         if (s == null)
             return ans;
         // when str.isEmpty(), [""] is expected to be returned, instead of []
@@ -32,19 +33,19 @@ public class SolutionApproach0DFS {
             List<String> res) {
 
         final int L = str.length();
-        char[] chs = str.toCharArray();
+        final char[] CHS = str.toCharArray();
 
         int stack = 0;
         for (int i = iStart; i < L; ++i) {
-            if (chs[i] == OPEN_PAREN)
+            if (CHS[i] == OPEN_PAREN)
                 ++stack;
-            if (chs[i] == CLOSED_PAREN)
+            if (CHS[i] == CLOSED_PAREN)
                 --stack;
             if (stack >= 0)
                 continue;
 
             for (int j = jStart; j <= i; ++j) {
-                if (chs[j] == CLOSED_PAREN && (j == jStart || chs[j - 1] != CLOSED_PAREN))
+                if (CHS[j] == CLOSED_PAREN && (j == jStart || CHS[j - 1] != CLOSED_PAREN))
                     dfs(i, j, str.substring(0, j) + str.substring(j + 1), OPEN_PAREN, CLOSED_PAREN, res);
             }
 

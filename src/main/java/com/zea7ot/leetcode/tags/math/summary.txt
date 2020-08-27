@@ -24,6 +24,7 @@ References:
 3   0060    https://leetcode.com/problems/permutation-sequence/
 3   0096    https://leetcode.com/problems/unique-binary-search-trees/
 3   0223    https://leetcode.com/problems/rectangle-area/
+3   0279    https://leetcode.com/problems/perfect-squares/
 3   0319    https://leetcode.com/problems/bulb-switcher/
 3   0357    https://leetcode.com/problems/count-numbers-with-unique-digits/
 3   0360    https://leetcode.com/problems/sort-transformed-array/

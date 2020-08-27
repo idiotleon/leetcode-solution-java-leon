@@ -26,9 +26,9 @@ public class SolutionApproach0TopologicalSort {
         final int N = words.length;
 
         // to prepare for the topological sort
-        List<Set<Integer>> nextSets = new ArrayList<>(TOTAL_ALPHABETS);
+        List<Set<Integer>> graph = new ArrayList<>(TOTAL_ALPHABETS);
         for (int i = 0; i < TOTAL_ALPHABETS; ++i)
-            nextSets.add(new HashSet<Integer>());
+            graph.add(new HashSet<Integer>());
 
         // indegrees/outdegrees
         int[] counts = new int[TOTAL_ALPHABETS];
@@ -51,14 +51,15 @@ public class SolutionApproach0TopologicalSort {
                 else if (j == LEN_CUR)
                     return "";
                 else {
-                    char prevCh = prevWord.charAt(j), curCh = curWord.charAt(j);
-                    if (prevCh == curCh)
+                    final char CH_PREV = prevWord.charAt(j);
+                    final char CH_CUR = curWord.charAt(j);
+                    if (CH_PREV == CH_CUR)
                         continue;
-                    int prevIdx = prevCh - 'a';
-                    int curIdx = curCh - 'a';
-                    if (!nextSets.get(prevIdx).contains(curIdx)) {
-                        nextSets.get(prevIdx).add(curIdx);
-                        ++counts[curIdx];
+                    final int IDX_PREV = CH_PREV - 'a';
+                    final int IDX_CUR = CH_CUR - 'a';
+                    if (!graph.get(IDX_PREV).contains(IDX_CUR)) {
+                        graph.get(IDX_PREV).add(IDX_CUR);
+                        ++counts[IDX_CUR];
                     }
 
                     // there is no need to check the following characters,
@@ -80,11 +81,9 @@ public class SolutionApproach0TopologicalSort {
             int idx = queue.poll();
             char ch = (char) (idx + 'a');
             builder.append(ch);
-            for (int next : nextSets.get(idx)) {
-                if (--counts[next] == 0) {
+            for (int next : graph.get(idx))
+                if (--counts[next] == 0)
                     queue.offer(next);
-                }
-            }
         }
 
         // there is any cycle
