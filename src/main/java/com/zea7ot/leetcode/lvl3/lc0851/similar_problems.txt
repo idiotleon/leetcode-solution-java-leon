@@ -1,11 +1,9 @@
 @author: Leon
-References:
+Reference:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
-    https://leetcode.com/tag/topological-sort/
 
 
-### Sorting:
-# Topological Sort
+### Topological Sort
 
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0310    https://leetcode.com/problems/minimum-height-trees/
