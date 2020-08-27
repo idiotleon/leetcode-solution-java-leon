@@ -1,0 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Array Manipulation
+
+2   0832    https://leetcode.com/problems/flipping-an-image/
+
+3   0048    https://leetcode.com/problems/rotate-image/
