@@ -21,6 +21,7 @@ References:
 3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0494    https://leetcode.com/problems/target-sum/
+3   0582    https://leetcode.com/problems/kill-process/
 3   0802    https://leetcode.com/problems/find-eventual-safe-states/
 3   0935    https://leetcode.com/problems/knight-dialer/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
