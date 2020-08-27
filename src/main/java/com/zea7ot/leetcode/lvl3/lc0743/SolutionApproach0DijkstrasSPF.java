@@ -2,8 +2,8 @@
  * @author: Leon
  * https://leetcode.com/problems/network-delay-time/
  * 
- * Time Complexity:     O()
- * Space Complexity:    O()
+ * Time Complexity:     O(V + E * lg(V)) ~ O(N + `times.length` * lg(N))
+ * Space Complexity:    O(E * lg(V)) ~ O(`times.length` * lg(N))
  */
 package com.zea7ot.leetcode.lvl3.lc0743;
 
@@ -36,14 +36,16 @@ public class SolutionApproach0DijkstrasSPF {
             if (seen.size() == N)
                 return time;
 
-            for (Node next : graph.get(id))
-                minHeap.offer(new Node(next.id, time + next.time));
+            for (Node next : graph.get(id)) {
+                next.time += time;
+                minHeap.offer(next);
+            }
         }
 
         return -1;
     }
 
-    private List<List<Node>> buildGraph(int N, int[][] times) {
+    private List<List<Node>> buildGraph(final int N, int[][] times) {
         List<List<Node>> graph = new ArrayList<>();
         for (int i = 0; i < N; ++i)
             graph.add(new ArrayList<>());
@@ -54,6 +56,7 @@ public class SolutionApproach0DijkstrasSPF {
             // to turn node IDs 0-indexed
             int to = t[1] - 1;
             int time = t[2];
+
             graph.get(from).add(new Node(to, time));
         }
 

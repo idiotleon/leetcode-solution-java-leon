@@ -12,8 +12,6 @@ References:
 
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0444    https://leetcode.com/problems/sequence-reconstruction/
-3   0582    https://leetcode.com/problems/kill-process/
-3   0743    https://leetcode.com/problems/network-delay-time/
 3   0802    https://leetcode.com/problems/find-eventual-safe-states/
 3   0851    https://leetcode.com/problems/loud-and-rich/
 
