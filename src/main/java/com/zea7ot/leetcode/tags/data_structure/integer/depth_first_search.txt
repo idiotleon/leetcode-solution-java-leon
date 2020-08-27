@@ -7,6 +7,7 @@ References:
 # Depth First Search
 
 3   0050    https://leetcode.com/problems/powx-n/
+3   0279    https://leetcode.com/problems/perfect-squares/
 3   0967    https://leetcode.com/problems/numbers-with-same-consecutive-differences/
 
 4   0887    https://leetcode.com/problems/super-egg-drop/
