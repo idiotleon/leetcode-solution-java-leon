@@ -12,34 +12,38 @@ package com.zea7ot.leetcode.lvl4.lc0128;
 import java.util.HashSet;
 import java.util.Set;
 
-public class SolutionApproach0Set {
+public class SolutionApproach0Set1 {
     public int longestConsecutive(int[] nums) {
         // sanity check
         if (nums == null || nums.length == 0)
             return 0;
 
+        final int N = nums.length;
+
         int longest = 0;
 
-        Set<Integer> set = new HashSet<>();
+        Set<Integer> set = new HashSet<Integer>();
         for (int num : nums)
             set.add(num);
 
-        for (int num : nums) {
-            int len = 1;
+        for (int i = 0; i < N; ++i) {
+            int count = 1;
 
-            int lo = num;
-            while (set.contains(--lo)) {
-                ++len;
-                set.remove(lo);
+            // to look left
+            int num = nums[i];
+            while (set.contains(--num)) {
+                ++count;
+                set.remove(num);
             }
 
-            int hi = num;
-            while (set.contains(++hi)) {
-                ++len;
-                set.remove(hi);
+            // to look right
+            num = nums[i];
+            while (set.contains(++num)) {
+                ++count;
+                set.remove(num);
             }
 
-            longest = Math.max(longest, len);
+            longest = Math.max(longest, count);
         }
 
         return longest;

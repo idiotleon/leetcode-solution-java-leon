@@ -37,6 +37,7 @@ References:
 
 4   0018    https://leetcode.com/problems/4sum/
 4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0249    https://leetcode.com/problems/group-shifted-strings/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0992    https://leetcode.com/problems/subarrays-with-k-different-integers/

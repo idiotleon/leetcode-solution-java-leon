@@ -1,0 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Array
+## By Data Structure
+# Sequence
+
+4   0128    https://leetcode.com/problems/longest-consecutive-sequence/

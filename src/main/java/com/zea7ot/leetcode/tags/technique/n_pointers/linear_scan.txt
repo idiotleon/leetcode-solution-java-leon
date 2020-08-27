@@ -28,6 +28,7 @@ References:
 3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 
 4   0065    https://leetcode.com/problems/valid-number/
+4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0138    https://leetcode.com/problems/copy-list-with-random-pointer/
 4   0158    https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/
 4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
