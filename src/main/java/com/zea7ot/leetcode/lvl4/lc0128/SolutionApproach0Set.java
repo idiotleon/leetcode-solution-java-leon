@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/longest-consecutive-sequence/
  * 
- * Time Complexity: O(N)
- * Space Complexity: O(N)
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
  * 
  * References:
  *  https://leetcode.com/problems/longest-consecutive-sequence/discuss/41130/Another-accepted-Java-O(n)-solution
@@ -14,33 +14,34 @@ import java.util.Set;
 
 public class SolutionApproach0Set {
     public int longestConsecutive(int[] nums) {
-        int max = 0;
-        
-        Set<Integer> set = new HashSet<Integer>();
-        for(int num : nums){
+        // sanity check
+        if (nums == null || nums.length == 0)
+            return 0;
+
+        int longest = 0;
+
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums)
             set.add(num);
-        }
-        
-        for(int i = 0; i < nums.length; i++){
-            int count = 1;
-            
-            // to look left
-            int num = nums[i];
-            while(set.contains(--num)){
-                count++;
-                set.remove(num);
+
+        for (int num : nums) {
+            int len = 1;
+
+            int lo = num;
+            while (set.contains(--lo)) {
+                ++len;
+                set.remove(lo);
             }
-            
-            // to look right
-            num = nums[i];
-            while(set.contains(++num)){
-                count++;
-                set.remove(num);
+
+            int hi = num;
+            while (set.contains(++hi)) {
+                ++len;
+                set.remove(hi);
             }
-            
-            max = Math.max(max, count);
+
+            longest = Math.max(longest, len);
         }
-        
-        return max;
+
+        return longest;
     }
 }

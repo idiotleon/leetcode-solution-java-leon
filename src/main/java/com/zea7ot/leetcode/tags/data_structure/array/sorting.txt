@@ -16,6 +16,7 @@ References:
 3   0075    https://leetcode.com/problems/sort-colors/
 3   0259    https://leetcode.com/problems/3sum-smaller/
 3   0435    https://leetcode.com/problems/non-overlapping-intervals/
+3   0444    https://leetcode.com/problems/sequence-reconstruction/
 3   0452    https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0912    https://leetcode.com/problems/sort-an-array/

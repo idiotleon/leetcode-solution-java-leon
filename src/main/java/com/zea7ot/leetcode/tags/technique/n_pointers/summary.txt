@@ -35,6 +35,7 @@ References:
 3   0238    https://leetcode.com/problems/product-of-array-except-self/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
 3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/
+3   0444    https://leetcode.com/problems/sequence-reconstruction/
 3   0484    https://leetcode.com/problems/find-permutation/
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0723    https://leetcode.com/problems/candy-crush/
@@ -54,6 +55,7 @@ References:
 4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0065    https://leetcode.com/problems/valid-number/
 4   0076    https://leetcode.com/problems/minimum-window-substring/
+4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0138    https://leetcode.com/problems/copy-list-with-random-pointer/
 4   0148    https://leetcode.com/problems/sort-list/
 4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/

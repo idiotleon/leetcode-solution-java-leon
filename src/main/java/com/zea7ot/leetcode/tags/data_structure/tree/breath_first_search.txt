@@ -20,6 +20,7 @@ References:
 2   1379    https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/
 
 3   0103    https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+3   0582    https://leetcode.com/problems/kill-process/
 3   0623    https://leetcode.com/problems/add-one-row-to-tree/
 3   0662    https://leetcode.com/problems/maximum-width-of-binary-tree/
 3   1245    https://leetcode.com/problems/tree-diameter/

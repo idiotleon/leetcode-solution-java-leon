@@ -29,6 +29,7 @@ References:
 3   0238    https://leetcode.com/problems/product-of-array-except-self/
 3   0259    https://leetcode.com/problems/3sum-smaller/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
+3   0444    https://leetcode.com/problems/sequence-reconstruction/
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
@@ -42,7 +43,9 @@ References:
 
 4   0018    https://leetcode.com/problems/4sum/
 4   0042    https://leetcode.com/problems/trapping-rain-water/
+4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
+4   0311    https://leetcode.com/problems/sparse-matrix-multiplication/
 4   0632    https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/

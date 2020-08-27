@@ -18,6 +18,7 @@ import java.util.List;
 
 public class SolutionApproach0Stack {
     private static final String START = "start";
+    private static final String SPLITTER = ":";
 
     public int[] exclusiveTime(int n, List<String> logs) {
         int[] ans = new int[n];
@@ -26,7 +27,7 @@ public class SolutionApproach0Stack {
         int prevTimestamp = 0;
 
         for (String log : logs) {
-            String[] res = log.split(":");
+            String[] res = log.split(SPLITTER);
             int id = Integer.parseInt(res[0]);
             String state = res[1];
             int timestamp = Integer.parseInt(res[2]);

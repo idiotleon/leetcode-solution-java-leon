@@ -6,4 +6,5 @@ References:
 ### Tree
 # N-Ary Tree
 
+3   0582    https://leetcode.com/problems/kill-process/
 3   1522    https://leetcode.com/problems/diameter-of-n-ary-tree/
