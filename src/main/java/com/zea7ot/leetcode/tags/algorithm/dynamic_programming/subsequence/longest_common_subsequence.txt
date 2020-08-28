@@ -1,7 +1,8 @@
 @author: Leon
 References:
+    https://leetcode.com/tag/dynamic-programming/
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
-    
+
 
 ### Dynamic Programming
 # Longest Common Subsequence
