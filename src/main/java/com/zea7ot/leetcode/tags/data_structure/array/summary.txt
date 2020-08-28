@@ -28,6 +28,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 2   0310    https://leetcode.com/problems/minimum-height-trees/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
+2   0605    https://leetcode.com/problems/can-place-flowers/
 2   0622    https://leetcode.com/problems/design-circular-queue/
 2   0690    https://leetcode.com/problems/employee-importance/
 2   0695    https://leetcode.com/problems/max-area-of-island/
