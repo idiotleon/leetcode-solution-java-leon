@@ -1,4 +1,18 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Calendar Series
+
+3   0729    https://leetcode.com/problems/my-calendar-i/
+3   0731    https://leetcode.com/problems/my-calendar-ii/
+
+4   0732    https://leetcode.com/problems/my-calendar-iii/
+
+
+
+### Sweep Line
 
 2   0252    https://leetcode.com/problems/meeting-rooms/
 2   1094    https://leetcode.com/problems/car-pooling/
