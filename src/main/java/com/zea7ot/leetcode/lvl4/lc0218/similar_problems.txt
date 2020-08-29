@@ -1,4 +1,9 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Sweep Line
 
 2   0252    https://leetcode.com/problems/meeting-rooms/
 2   1094    https://leetcode.com/problems/car-pooling/
@@ -23,3 +28,11 @@
 5   0850    https://leetcode.com/problems/rectangle-area-ii/
 
 6   0391    https://leetcode.com/problems/perfect-rectangle/
+
+
+
+### Segmented Tree
+
+
+
+### Binary Indexed Tree
