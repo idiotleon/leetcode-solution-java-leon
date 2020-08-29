@@ -5,7 +5,7 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
-### Word
+### Word Series
 
 4   0079    https://leetcode.com/problems/word-search/
 4   0126    https://leetcode.com/problems/word-ladder-ii/
