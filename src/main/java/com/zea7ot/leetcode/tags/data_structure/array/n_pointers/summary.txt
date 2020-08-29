@@ -13,9 +13,12 @@ References:
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0251    https://leetcode.com/problems/flatten-2d-vector/
+2   0605    https://leetcode.com/problems/can-place-flowers/
 2   0724    https://leetcode.com/problems/find-pivot-index/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
+2   0989    https://leetcode.com/problems/add-to-array-form-of-integer/
 2   1103    https://leetcode.com/problems/distribute-candies-to-people/
+2   1460    https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
 3   0075    https://leetcode.com/problems/sort-colors/

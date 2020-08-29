@@ -28,6 +28,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 2   0310    https://leetcode.com/problems/minimum-height-trees/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
+2   0605    https://leetcode.com/problems/can-place-flowers/
 2   0622    https://leetcode.com/problems/design-circular-queue/
 2   0690    https://leetcode.com/problems/employee-importance/
 2   0695    https://leetcode.com/problems/max-area-of-island/
@@ -40,11 +41,13 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   0885    https://leetcode.com/problems/spiral-matrix-iii/
 2   0896    https://leetcode.com/problems/monotonic-array/
+2   0989    https://leetcode.com/problems/add-to-array-form-of-integer/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1103    https://leetcode.com/problems/distribute-candies-to-people/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
 2   1287    https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
 2   1375    https://leetcode.com/problems/bulb-switcher-iii/
+2   1460    https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/
 2   1464    https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
 2   1465    https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/

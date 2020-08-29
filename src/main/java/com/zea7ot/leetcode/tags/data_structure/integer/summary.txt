@@ -4,11 +4,14 @@ References:
 
 
 ### Integer
+# Summary
 
 1   0258    https://leetcode.com/problems/add-digits/
+1   0509    https://leetcode.com/problems/fibonacci-number/
 
 2   0171    https://leetcode.com/problems/excel-sheet-column-number/
 2   0263    https://leetcode.com/problems/ugly-number/
+2   0989    https://leetcode.com/problems/add-to-array-form-of-integer/
 
 3   0050    https://leetcode.com/problems/powx-n/
 3   0069    https://leetcode.com/problems/sqrtx/

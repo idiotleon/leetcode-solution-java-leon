@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/word-break/
  * 
- * Time Complexity:     O(L ^ 2) + O(N) ~ O(L ^ 2)
+ * Time Complexity:     O(L ^ 2) + O(N * L) / O(N) ~ O(L ^ 2)
  * Space Complexity:    O(N)
  */
 package com.zea7ot.leetcode.lvl4.lc0139;
@@ -18,10 +18,10 @@ public class SolutionApproach0BFS {
         if (str == null || str.isEmpty())
             return false;
 
-        final Set<String> WORD_SET = new HashSet<String>(wordDict);
-        Set<String> visited = new HashSet<String>();
+        final Set<String> WORD_SET = new HashSet<>(wordDict);
+        Set<String> visited = new HashSet<>();
 
-        Deque<String> queue = new ArrayDeque<String>();
+        Deque<String> queue = new ArrayDeque<>();
         queue.offer(str);
 
         while (!queue.isEmpty()) {

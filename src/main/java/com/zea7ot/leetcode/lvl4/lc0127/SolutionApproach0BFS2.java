@@ -1,20 +1,15 @@
 /**
  * https://leetcode.com/problems/word-ladder/
  * 
- * Time Complexity:     O(N) + O(N * L * 26) ~ O(N * L)
- *  L, average length of words in the `wordList`
- * 
- * Space Complexity:    O(N) + O(W) ~ O(N)
- * 
- * one-end BFS approach
+ * Time Complexity:     O(N) + O(N * (L ^ 26)) ~ O(N * (26 ^ L))
+ * Space Complexity:    O(N)
  * 
  * References:
- *  https://leetcode.com/problems/word-ladder/discuss/40704/Java-Solution-using-BFS-with-explanation
+ *  https://leetcode.com/problems/word-ladder/discuss/40711/Two-end-BFS-in-Java-31ms./119588
+ *  https://leetcode.com/problems/word-ladder/discuss/40711/Two-end-BFS-in-Java-31ms.
  */
 package com.zea7ot.leetcode.lvl4.lc0127;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -26,47 +21,53 @@ public class SolutionApproach0BFS2 {
         if (!WORD_SET.contains(endWord))
             return 0;
 
-        Deque<String> queue = new ArrayDeque<String>();
-        queue.add(beginWord);
+        Set<String> visited = new HashSet<String>();
 
-        // to count the number of words transformed
+        Set<String> beginSet = new HashSet<String>();
+        beginSet.add(beginWord);
+        Set<String> endSet = new HashSet<String>();
+        endSet.add(endWord);
+
         int steps = 1;
-        while (!queue.isEmpty()) {
-            final int SIZE = queue.size();
+        while (!beginSet.isEmpty() && !endSet.isEmpty()) {
+            if (beginSet.size() > endSet.size())
+                swap(beginSet, endSet);
 
-            // for all words in this round
-            for (int i = 0; i < SIZE; ++i) {
-                String first = queue.poll();
-                final int LEN = first.length();
-                char[] chs = first.toCharArray();
+            Set<String> nextSet = new HashSet<String>();
+            for (String str : beginSet) {
+                final int LEN = str.length();
+                final char[] CHS = str.toCharArray();
 
-                // to traverse the current word
-                for (int j = 0; j < LEN; ++j) {
-                    char temp = chs[j];
-
-                    // to change one letter at a time
+                for (int i = 0; i < LEN; ++i) {
                     for (char ch = 'a'; ch <= 'z'; ++ch) {
-                        chs[j] = ch;
-                        String next = new String(chs);
+                        final char HOLD = CHS[i];
 
-                        // when "next" word is in the set
-                        if (!WORD_SET.contains(next))
-                            continue;
-                        if (next.equals(endWord))
+                        CHS[i] = ch;
+                        String word = String.valueOf(CHS);
+
+                        if (endSet.contains(word))
                             return steps + 1;
-                        queue.add(next);
-                        WORD_SET.remove(next);
-                    }
 
-                    // have to undo for the next change of letter
-                    chs[j] = temp;
+                        if (!visited.contains(word) && WORD_SET.contains(word)) {
+                            nextSet.add(word);
+                            visited.add(word);
+                        }
+
+                        CHS[i] = HOLD;
+                    }
                 }
             }
 
-            // this round ends with one letter changed
+            beginSet = nextSet;
             ++steps;
         }
 
         return 0;
+    }
+
+    private void swap(Set<String> set1, Set<String> set2) {
+        Set<String> set = set1;
+        set1 = set2;
+        set2 = set;
     }
 }
