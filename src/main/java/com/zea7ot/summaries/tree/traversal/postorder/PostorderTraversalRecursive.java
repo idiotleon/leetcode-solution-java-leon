@@ -2,7 +2,7 @@
  * Time Complexity:     O(N)
  * Space Complexity:    O(H)
  */
-package com.zea7ot.summaries.traversal.postorder;
+package com.zea7ot.summaries.tree.traversal.postorder;
 
 import java.util.ArrayList;
 import java.util.List;

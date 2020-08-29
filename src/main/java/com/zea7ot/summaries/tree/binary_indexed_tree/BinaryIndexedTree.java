@@ -9,7 +9,7 @@
  * https://github.com/mission-peace/interview/blob/master/src/com/interview/tree/FenwickTree.java
  * https://en.wikipedia.org/wiki/Fenwick_tree
  */
-package com.zea7ot.summaries.tree;
+package com.zea7ot.summaries.tree.binary_indexed_tree;
 
 public class BinaryIndexedTree {
     /**

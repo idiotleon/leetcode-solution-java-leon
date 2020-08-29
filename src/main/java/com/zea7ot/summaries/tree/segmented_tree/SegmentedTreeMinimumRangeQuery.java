@@ -5,7 +5,7 @@
  *  https://www.youtube.com/watch?v=xuoQdt5pHj0
  *  https://github.com/mission-peace/interview/blob/master/src/com/interview/tree/SegmentTreeMinimumRangeQuery.java
  */
-package com.zea7ot.summaries.tree;
+package com.zea7ot.summaries.tree.segmented_tree;
 
 import com.zea7ot.summaries.bit_manipulation.NextPowerOf2;
 
@@ -16,12 +16,12 @@ public class SegmentedTreeMinimumRangeQuery {
      * @param input
      * @return
      */
-    public int[] createSegmentTree(int[] input){
+    public int[] createSegmentTree(int[] input) {
         NextPowerOf2 np2 = new NextPowerOf2();
         int nextPowerOf2 = np2.nextPowerOf2(input.length);
         int[] segmentTree = new int[nextPowerOf2 * 2 - 1];
 
-        for(int i = 0; i < segmentTree.length; i++){
+        for (int i = 0; i < segmentTree.length; i++) {
             segmentTree[i] = Integer.MAX_VALUE;
         }
         constructSegementTree(input, segmentTree, 0, input.length - 1, 0);
@@ -31,13 +31,12 @@ public class SegmentedTreeMinimumRangeQuery {
     /**
      * to construct the segmented tree
      * 
-     * Time Complexity:     O(N)
-     *  O(4 * N), in the worst case
+     * Time Complexity: O(N) O(4 * N), in the worst case
      * 
-     * Space Complexity:    O(N)
+     * Space Complexity: O(N)
      */
-    public void constructSegementTree(int[] input, int[] segmentedTree, int low, int high, int idx){
-        if(low == high){
+    public void constructSegementTree(int[] input, int[] segmentedTree, int low, int high, int idx) {
+        if (low == high) {
             segmentedTree[idx] = input[low];
             return;
         }
@@ -56,7 +55,7 @@ public class SegmentedTreeMinimumRangeQuery {
      * @param idx
      * @param delta
      */
-    public void updateSegmentTree(int[] input, int[] segmentTree, int idx, int delta){
+    public void updateSegmentTree(int[] input, int[] segmentTree, int idx, int delta) {
         input[idx] += delta;
         updateSegmentTree(segmentTree, idx, delta, 0, input.length - 1, 0);
     }
@@ -70,8 +69,8 @@ public class SegmentedTreeMinimumRangeQuery {
      * @param endRange
      * @param delta
      */
-    public void updateSegmentTreeRange(int[] input, int[] segmentTree, int startRange, int endRange, int delta){
-        for(int i = startRange; i <= endRange; i++){
+    public void updateSegmentTreeRange(int[] input, int[] segmentTree, int startRange, int endRange, int delta) {
+        for (int i = startRange; i <= endRange; i++) {
             input[i] += delta;
         }
 
@@ -87,7 +86,7 @@ public class SegmentedTreeMinimumRangeQuery {
      * @param len
      * @return
      */
-    public int rangeMinimumQuery(int[] segmentTree, int queryLow, int queryHigh, int len){
+    public int rangeMinimumQuery(int[] segmentTree, int queryLow, int queryHigh, int len) {
         return rangeMinimumQuery(segmentTree, 0, len - 1, queryLow, queryHigh, 0);
     }
 
@@ -101,7 +100,8 @@ public class SegmentedTreeMinimumRangeQuery {
      * @param endRange
      * @param delta
      */
-    public void updateSegmentTreeRangeLazily(int[] input, int[] segmentTree, int[] lazy, int startRange, int endRange, int delta){
+    public void updateSegmentTreeRangeLazily(int[] input, int[] segmentTree, int[] lazy, int startRange, int endRange,
+            int delta) {
         updateSegmentTreeRangeLazily(segmentTree, lazy, startRange, endRange, delta, 0, input.length, 0);
     }
 
@@ -113,17 +113,16 @@ public class SegmentedTreeMinimumRangeQuery {
      * @param queryHigh
      * @param len
      */
-    public void rangeMinimumQueryLazily(int[] segmentTree, int[] lazy, int queryLow, int queryHigh, int len){
+    public void rangeMinimumQueryLazily(int[] segmentTree, int[] lazy, int queryLow, int queryHigh, int len) {
         rangeMinimumQueryLazily(segmentTree, lazy, queryLow, queryHigh, 0, len - 1, 0);
     }
 
     /**
      * to query the minimum value in the given range
      * 
-     * Time Complexity:     O(lg(N))
-     *  O(4 * lg(N)), in the worst case
+     * Time Complexity: O(lg(N)) O(4 * lg(N)), in the worst case
      * 
-     * Space Complexity:    O(1)
+     * Space Complexity: O(1)
      * 
      * @param segmentedTree
      * @param queryLow
@@ -133,17 +132,19 @@ public class SegmentedTreeMinimumRangeQuery {
      * @param idx
      * @return
      */
-    private int rangeMinimumQuery(int[] segmentedTree, int queryLow, int queryHigh, int low, int high, int idx){
+    private int rangeMinimumQuery(int[] segmentedTree, int queryLow, int queryHigh, int low, int high, int idx) {
         // total overlap
-        if(queryLow <= low && queryHigh >= high) return segmentedTree[idx];
+        if (queryLow <= low && queryHigh >= high)
+            return segmentedTree[idx];
 
         // no overlap
-        if(queryLow > high || queryHigh < low) return Integer.MAX_VALUE;
+        if (queryLow > high || queryHigh < low)
+            return Integer.MAX_VALUE;
 
         // partial overlap
         int mid = low + (high - low) / 2;
-        return Math.min(rangeMinimumQuery(segmentedTree, queryLow, queryHigh, low, mid, 2 * idx + 1), 
-                        rangeMinimumQuery(segmentedTree, queryLow, queryHigh, mid + 1, high, 2 * idx + 2));
+        return Math.min(rangeMinimumQuery(segmentedTree, queryLow, queryHigh, low, mid, 2 * idx + 1),
+                rangeMinimumQuery(segmentedTree, queryLow, queryHigh, mid + 1, high, 2 * idx + 2));
     }
 
     /**
@@ -155,10 +156,11 @@ public class SegmentedTreeMinimumRangeQuery {
      * @param high
      * @param pos
      */
-    private void updateSegmentTree(int[] segmentTree, int idx, int delta, int low, int high, int pos){
-        if(idx < low || idx > high) return;
+    private void updateSegmentTree(int[] segmentTree, int idx, int delta, int low, int high, int pos) {
+        if (idx < low || idx > high)
+            return;
 
-        if(low == high){
+        if (low == high) {
             segmentTree[idx] += delta;
             return;
         }
@@ -179,10 +181,12 @@ public class SegmentedTreeMinimumRangeQuery {
      * @param high
      * @param idx
      */
-    private void updateSegmentTreeRange(int[] segmentTree, int startRange, int endRange, int delta, int low, int high, int idx){
-        if(low > high || startRange > high || endRange < low) return;
+    private void updateSegmentTreeRange(int[] segmentTree, int startRange, int endRange, int delta, int low, int high,
+            int idx) {
+        if (low > high || startRange > high || endRange < low)
+            return;
 
-        if(low == high){
+        if (low == high) {
             segmentTree[idx] += delta;
             return;
         }
@@ -204,15 +208,17 @@ public class SegmentedTreeMinimumRangeQuery {
      * @param high
      * @param idx
      */
-    private void updateSegmentTreeRangeLazily(int[] segmentTree, int[] lazy, int startRange, int endRange, int delta, int low, int high, int idx){
-        if(low > high) return;
+    private void updateSegmentTreeRangeLazily(int[] segmentTree, int[] lazy, int startRange, int endRange, int delta,
+            int low, int high, int idx) {
+        if (low > high)
+            return;
 
         // to make sure all propagation is done at "idx".
         // if not, to update the segment tree at "idx",
         // and mark its children for lazy propagation.
-        if(lazy[idx] != 0){
+        if (lazy[idx] != 0) {
             segmentTree[idx] += lazy[idx];
-            if(low != high){    // not a leaf node  
+            if (low != high) { // not a leaf node
                 lazy[2 * idx + 1] += lazy[idx];
                 lazy[2 * idx + 2] += lazy[idx];
             }
@@ -220,12 +226,13 @@ public class SegmentedTreeMinimumRangeQuery {
         }
 
         // no overlap
-        if(startRange > high || endRange < low) return;
+        if (startRange > high || endRange < low)
+            return;
 
         // complete overlap
-        if(startRange <= low && endRange >= high){
+        if (startRange <= low && endRange >= high) {
             segmentTree[idx] += delta;
-            if(low != high){
+            if (low != high) {
                 lazy[2 * idx + 1] += delta;
                 lazy[2 * idx + 2] += delta;
             }
@@ -250,15 +257,17 @@ public class SegmentedTreeMinimumRangeQuery {
      * @param idx
      * @return
      */
-    private int rangeMinimumQueryLazily(int[] segmentTree, int[] lazy, int queryLow, int queryHigh, int low, int high, int idx){
-        if(low > high) return Integer.MAX_VALUE;
+    private int rangeMinimumQueryLazily(int[] segmentTree, int[] lazy, int queryLow, int queryHigh, int low, int high,
+            int idx) {
+        if (low > high)
+            return Integer.MAX_VALUE;
 
         // to make sure all propagation is done at "idx".
-        // if not, to update the segment tree at "idx", 
+        // if not, to update the segment tree at "idx",
         // and mark its children for propagation.
-        if(lazy[idx] != 0){
+        if (lazy[idx] != 0) {
             segmentTree[idx] += lazy[idx];
-            if(low != high){
+            if (low != high) {
                 lazy[2 * idx + 1] += lazy[idx];
                 lazy[2 * idx + 2] += lazy[idx];
             }
@@ -266,14 +275,16 @@ public class SegmentedTreeMinimumRangeQuery {
         }
 
         // no overlap
-        if(queryLow > high || queryHigh < low) return Integer.MAX_VALUE;
+        if (queryLow > high || queryHigh < low)
+            return Integer.MAX_VALUE;
 
         // complete overlap
-        if(queryLow <= low && queryHigh >= high) return segmentTree[idx];
+        if (queryLow <= low && queryHigh >= high)
+            return segmentTree[idx];
 
         // partial overlap
         int mid = low + (high - low) / 2;
-        return Math.min(rangeMinimumQueryLazily(segmentTree, lazy, queryLow, queryHigh, low, mid, 2 * idx + 1), 
-                        rangeMinimumQueryLazily(segmentTree, lazy, queryLow, queryHigh, mid + 1, high, 2 * idx + 2));
+        return Math.min(rangeMinimumQueryLazily(segmentTree, lazy, queryLow, queryHigh, low, mid, 2 * idx + 1),
+                rangeMinimumQueryLazily(segmentTree, lazy, queryLow, queryHigh, mid + 1, high, 2 * idx + 2));
     }
 }
