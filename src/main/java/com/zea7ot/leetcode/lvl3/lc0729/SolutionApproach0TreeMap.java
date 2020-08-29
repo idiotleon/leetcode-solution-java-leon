@@ -13,20 +13,20 @@ package com.zea7ot.leetcode.lvl3.lc0729;
 import java.util.TreeMap;
 
 public class SolutionApproach0TreeMap {
-    private TreeMap<Integer, Integer> map;
+    private TreeMap<Integer, Integer> timeline;
 
     public SolutionApproach0TreeMap() {
-        this.map = new TreeMap<Integer, Integer>();
+        this.timeline = new TreeMap<>();
     }
-    
+
     public boolean book(int start, int end) {
-        Integer low = map.lowerKey(end);
-        
-        if(low == null || map.get(low) <= start){
-            map.put(start, end);
+        Integer low = timeline.lowerKey(end);
+
+        if (low == null || timeline.get(low) <= start) {
+            timeline.put(start, end);
             return true;
         }
-        
+
         return false;
     }
 }
