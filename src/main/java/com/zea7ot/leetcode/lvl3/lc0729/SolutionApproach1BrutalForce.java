@@ -15,15 +15,15 @@ public class SolutionApproach1BrutalForce {
     public SolutionApproach1BrutalForce() {
         this.bookings = new ArrayList<int[]>();
     }
-    
+
     public boolean book(int start, int end) {
-        for(int[] booking : bookings){
-            if(Math.max(booking[0], start) < Math.min(booking[1], end)){
+        for (int[] booking : bookings) {
+            if (Math.max(booking[0], start) < Math.min(booking[1], end)) {
                 return false;
             }
         }
-        
-        bookings.add(new int[]{start, end});
+
+        bookings.add(new int[] { start, end });
         return true;
     }
 }

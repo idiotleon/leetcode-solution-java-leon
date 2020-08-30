@@ -17,15 +17,17 @@ public class SolutionApproach0TreeSet {
     public SolutionApproach0TreeSet() {
         this.bookings = new TreeSet<int[]>((a, b) -> a[0] - b[0]);
     }
-    
+
     public boolean book(int start, int end) {
-        int[] booking = new int[]{start, end};
+        int[] booking = new int[] { start, end };
         int[] floor = bookings.floor(booking);
         int[] ceiling = bookings.ceiling(booking);
         // the new "booking" starts within the "floor"
-        if(floor != null && start < floor[1]) return false;
+        if (floor != null && start < floor[1])
+            return false;
         // the new "booking" ends within the "ceiling"
-        if(ceiling != null && ceiling[0] < end) return false;
+        if (ceiling != null && ceiling[0] < end)
+            return false;
         bookings.add(booking);
         return true;
     }

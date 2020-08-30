@@ -1,10 +1,15 @@
 @author: Leon
 References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
-    
 
-### Range Query
-# Binary Indexed Tree
 
-4   0218    https://leetcode.com/problems/the-skyline-problem/
+
+### Segmented Tree
+
+4   0307    https://leetcode.com/problems/range-sum-query-mutable/
+
+
+
+### Binary Indexed Tree
+
 4   0307    https://leetcode.com/problems/range-sum-query-mutable/

@@ -13,45 +13,49 @@ package com.zea7ot.leetcode.lvl3.lc0969;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SolutionApproach0BrutalForce1 {
+public class SolutionApproach0Sorting1 {
     public List<Integer> pancakeSort(int[] nums) {
         List<Integer> ans = new ArrayList<Integer>();
         // sanity check
-        if(nums == null || nums.length == 0) return ans;
-        
-        int len = nums.length;
-        while(len > 1){
+        if (nums == null || nums.length == 0)
+            return ans;
+
+        final int N = nums.length;
+
+        int len = N;
+        while (len > 1) {
             int max = nums[0], index = 0;
-            for(int i = 0; i < len; i++){
-                if(nums[i] > max){
+            for (int i = 0; i < len; i++) {
+                if (nums[i] > max) {
                     max = nums[i];
                     index = i;
                 }
             }
-            
-            if(index == len - 1){
-                len--;
+
+            if (index == len - 1) {
+                --len;
                 continue;
             }
-            
+
             ans.add(index + 1);
             pancakeFlip(nums, index + 1);
             ans.add(len);
             pancakeFlip(nums, len);
             len--;
         }
-        
+
         return ans;
     }
-    
-    private void pancakeFlip(int[] nums, int len){
-        int lo = 0, hi = len - 1;
-        while(lo < hi){
-            int temp = nums[lo];
-            nums[lo] = nums[hi];
-            nums[hi] = temp;
-            lo++;
-            hi--;
-        }
+
+    private void pancakeFlip(int[] nums, int index) {
+        int lo = 0, hi = index;
+        while (lo < hi)
+            swap(lo++, hi--, nums);
+    }
+
+    private void swap(int i, int j, int[] nums) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 }

@@ -1,8 +1,12 @@
 /**
  * https://leetcode.com/problems/range-sum-query-mutable/
  * 
- * Time Complexities:   O()
- * Space Complexity:    O()
+ * Time Complexities:   
+ *  `update()`:     O(lg(N))
+ *  `sumRange()`:   O(lg(N) + k)
+ *      k, 
+ * 
+ * Space Complexity:    O(N)
  * 
  * References:
  *  https://leetcode.com/problems/range-sum-query-mutable/discuss/75724/17-ms-Java-solution-with-segment-tree
@@ -11,53 +15,68 @@
 package com.zea7ot.leetcode.lvl4.lc0307;
 
 public class SolutionApproach0SegmentTree {
-    private SegmentTreeNode root;
+    private SegmentedTree root;
 
     public SolutionApproach0SegmentTree(int[] nums) {
-        final int N = nums.length;
-        this.root = buildTree(0, N - 1, nums);
+        this.root = new SegmentedTree(nums);
     }
 
     public void update(int i, int val) {
-        update(root, i, val);
+        this.root.update(i, val);
     }
 
     public int sumRange(int i, int j) {
-        return sumRange(root, i, j);
+        return this.root.rangeQuery(i, j);
     }
 
-    private int sumRange(SegmentTreeNode node, int start, int end) {
-        if (node.end == end && node.start == start)
-            return node.sum;
-        else {
+    private class SegmentedTree {
+        private SegmentedTreeNode root;
+
+        private SegmentedTree(int[] nums) {
+            final int N = nums.length;
+            this.root = buildTree(0, N - 1, nums);
+        }
+
+        private int rangeQuery(int start, int end) {
+            return rangeQuery(start, end, root);
+        }
+
+        private int rangeQuery(int start, int end, SegmentedTreeNode node) {
+            if (node.end == end && node.start == start)
+                return node.sum;
+
             int mid = node.start + (node.end - node.start) / 2;
             if (end <= mid)
-                return sumRange(node.left, start, end);
+                return rangeQuery(start, end, node.left);
             else if (start >= mid + 1)
-                return sumRange(node.right, start, end);
+                return rangeQuery(start, end, node.right);
             else
-                return sumRange(node.right, mid + 1, end) + sumRange(node.left, start, mid);
+                return rangeQuery(mid + 1, end, node.right) + rangeQuery(start, mid, node.left);
         }
-    }
 
-    private void update(SegmentTreeNode node, int pos, int val) {
-        if (node.start == node.end)
-            node.sum = val;
-        else {
-            int mid = node.start + (node.end - node.start) / 2;
-            if (pos <= mid)
-                update(node.left, pos, val);
-            else
-                update(node.right, pos, val);
-            node.sum = node.left.sum + node.right.sum;
+        private void update(int pos, int val) {
+            update(pos, val, root);
         }
-    }
 
-    private SegmentTreeNode buildTree(int start, int end, int[] nums) {
-        if (start > end)
-            return null;
-        else {
-            SegmentTreeNode node = new SegmentTreeNode(start, end);
+        private void update(int pos, int val, SegmentedTreeNode node) {
+            if (node.start == node.end)
+                node.sum = val;
+            else {
+                int mid = node.start + (node.end - node.start) / 2;
+                if (pos <= mid)
+                    update(pos, val, node.left);
+                else
+                    update(pos, val, node.right);
+
+                node.sum = node.left.sum + node.right.sum;
+            }
+        }
+
+        private SegmentedTreeNode buildTree(int start, int end, int[] nums) {
+            if (start > end)
+                return null;
+
+            SegmentedTreeNode node = new SegmentedTreeNode(start, end);
             if (start == end)
                 node.sum = nums[start];
             else {
@@ -71,12 +90,12 @@ public class SolutionApproach0SegmentTree {
         }
     }
 
-    private class SegmentTreeNode {
-        protected int start, end;
-        protected SegmentTreeNode left, right;
-        protected int sum;
+    private class SegmentedTreeNode {
+        private int start, end;
+        private SegmentedTreeNode left, right;
+        private int sum;
 
-        protected SegmentTreeNode(int start, int end) {
+        private SegmentedTreeNode(int start, int end) {
             this.start = start;
             this.end = end;
             this.left = this.right = null;

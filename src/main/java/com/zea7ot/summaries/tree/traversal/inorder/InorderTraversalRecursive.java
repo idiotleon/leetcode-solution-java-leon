@@ -16,7 +16,7 @@
  * References:
  *  https://www.youtube.com/watch?v=OQi4n8EKRD8
  */
-package com.zea7ot.summaries.traversal.inorder;
+package com.zea7ot.summaries.tree.traversal.inorder;
 
 import java.util.ArrayList;
 import java.util.List;

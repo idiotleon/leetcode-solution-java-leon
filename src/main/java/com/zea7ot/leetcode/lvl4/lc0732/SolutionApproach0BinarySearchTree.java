@@ -16,9 +16,9 @@ public class SolutionApproach0BinarySearchTree {
     private int cur, count;
 
     public SolutionApproach0BinarySearchTree() {
-        
+
     }
-    
+
     public int book(int start, int end) {
         this.root = insert(root, start, 1);
         this.root = insert(root, end, -1);
@@ -27,34 +27,35 @@ public class SolutionApproach0BinarySearchTree {
         return count;
     }
 
-    private void count(BSTNode node){
-        if(node == null) return;
-        
+    private void count(BSTNode node) {
+        if (node == null)
+            return;
+
         count(node.left);
         cur += node.value;
         count = Math.max(count, cur);
         count(node.right);
     }
-    
-    private BSTNode insert(BSTNode node, int key, int value){
-        if(node == null){
+
+    private BSTNode insert(BSTNode node, int key, int value) {
+        if (node == null) {
             node = new BSTNode(key, value);
             return node;
-        }else if(node.key == key){
+        } else if (node.key == key) {
             node.value += value;
-        }else if(node.key < key){
+        } else if (node.key < key) {
             node.right = insert(node.right, key, value);
-        }else{
+        } else {
             node.left = insert(node.left, key, value);
         }
         return node;
     }
-    
-    private class BSTNode{
+
+    private class BSTNode {
         protected int key, value;
         protected BSTNode left, right;
-        
-        protected BSTNode(int key, int value){
+
+        protected BSTNode(int key, int value) {
             this.key = key;
             this.value = value;
         }

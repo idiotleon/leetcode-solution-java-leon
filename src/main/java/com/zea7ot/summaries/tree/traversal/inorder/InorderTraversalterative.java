@@ -2,7 +2,7 @@
  * Time Complexity:     O(N)
  * Space Complexity:    O(H)
  */
-package com.zea7ot.summaries.traversal.inorder;
+package com.zea7ot.summaries.tree.traversal.inorder;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

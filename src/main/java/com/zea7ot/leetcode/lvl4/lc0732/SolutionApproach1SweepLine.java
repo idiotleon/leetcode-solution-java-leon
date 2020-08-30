@@ -14,21 +14,20 @@ package com.zea7ot.leetcode.lvl4.lc0732;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class SolutionApproach0SweepLine {
+public class SolutionApproach1SweepLine {
     private Map<Integer, Integer> timeline;
 
-    public SolutionApproach0SweepLine() {
+    public SolutionApproach1SweepLine() {
         this.timeline = new TreeMap<Integer, Integer>();
     }
-    
+
     public int book(int start, int end) {
         timeline.put(start, timeline.getOrDefault(start, 0) + 1);
         timeline.put(end, timeline.getOrDefault(end, 0) - 1);
         int ongoing = 0, k = 0;
-        for(int val : timeline.values()){
+        for (int val : timeline.values())
             k = Math.max(k, ongoing += val);
-        }
-        
+
         return k;
     }
 }

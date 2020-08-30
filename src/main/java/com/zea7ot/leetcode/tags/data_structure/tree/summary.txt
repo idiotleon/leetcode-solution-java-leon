@@ -67,6 +67,7 @@ References:
 3   1245    https://leetcode.com/problems/tree-diameter/
 3   1273    https://leetcode.com/problems/delete-tree-nodes/
 3   1339    https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
+3   1353    https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 3   1382    https://leetcode.com/problems/balance-a-binary-search-tree/
@@ -79,6 +80,7 @@ References:
 
 4   0124    https://leetcode.com/problems/binary-tree-maximum-path-sum/
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
+4   0218    https://leetcode.com/problems/the-skyline-problem/
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 4   0239    https://leetcode.com/problems/sliding-window-maximum/
 4   0250    https://leetcode.com/problems/count-univalue-subtrees/

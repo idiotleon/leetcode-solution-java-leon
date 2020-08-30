@@ -12,10 +12,10 @@ package com.zea7ot.leetcode.lvl3.lc0729;
 
 import java.util.TreeMap;
 
-public class SolutionApproach0TreeMap {
+public class SolutionApproach0SweepLine {
     private TreeMap<Integer, Integer> timeline;
 
-    public SolutionApproach0TreeMap() {
+    public SolutionApproach0SweepLine() {
         this.timeline = new TreeMap<>();
     }
 

@@ -14,35 +14,37 @@ import java.util.Set;
 
 public class SolutionApproach0Backtrack1 {
     // directions/orders/sequence matter,
-    // in a way in which a robot can only turn 90 degrees, either CONSISTENTLY left or right, at one time
-    private static final int[][] DIRS = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
-    
+    // in a way in which a robot can only turn 90 degrees, either CONSISTENTLY left
+    // or right, at one time
+    private static final int[][] DIRS = { { 1, 0 }, { 0, 1 }, { -1, 0 }, { 0, -1 } };
+
     public void cleanRoom(FakeRobot robot) {
-        int[] start = {0, 0};
+        int[] start = { 0, 0 };
         Set<String> visited = new HashSet<String>();
         backtrack(start, 0, visited, robot);
     }
-    
+
     /**
      * 
-     * @param pos the current position
-     * @param dir the current direction, for later backtrack purpose
+     * @param pos     the current position
+     * @param dir     the current direction, for later backtrack purpose
      * @param visited
      * @param robot
      */
-    private void backtrack(int[] pos, int dir, Set<String> visited, FakeRobot robot){
+    private void backtrack(int[] pos, int dir, Set<String> visited, FakeRobot robot) {
         String position = pos[0] + "," + pos[1];
-        if(visited.contains(position)) return;
+        if (visited.contains(position))
+            return;
         visited.add(position);
         robot.clean();
-        for(int d = 0; d < 4; d++){
+        for (int d = 0; d < 4; d++) {
             int newDir = (dir + d) % 4;
-            if(!robot.move()){
+            if (!robot.move()) {
                 robot.turnRight();
                 continue;
             }
-            
-            int[] newPos = {pos[0] + DIRS[newDir][0], pos[1] + DIRS[newDir][1]};
+
+            int[] newPos = { pos[0] + DIRS[newDir][0], pos[1] + DIRS[newDir][1] };
             backtrack(newPos, newDir, visited, robot);
             robot.turnRight();
             robot.turnRight();

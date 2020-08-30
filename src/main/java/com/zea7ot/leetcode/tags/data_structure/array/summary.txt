@@ -90,6 +90,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0419    https://leetcode.com/problems/battleships-in-a-board/
 3   0435    https://leetcode.com/problems/non-overlapping-intervals/
 3   0436    https://leetcode.com/problems/find-right-interval/
+3   0444    https://leetcode.com/problems/sequence-reconstruction/
 3   0452    https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
 3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
 3   0491    https://leetcode.com/problems/increasing-subsequences/
@@ -177,7 +178,6 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0407    https://leetcode.com/problems/trapping-rain-water-ii/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0442    https://leetcode.com/problems/find-all-duplicates-in-an-array/
-3   0444    https://leetcode.com/problems/sequence-reconstruction/
 4   0489    https://leetcode.com/problems/robot-room-cleaner/
 4   0474    https://leetcode.com/problems/ones-and-zeroes/
 4   0502    https://leetcode.com/problems/ipo/

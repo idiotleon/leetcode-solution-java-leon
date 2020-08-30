@@ -1,5 +1,5 @@
 /**
- * https://leetcode.com/problems/my-calendar-ii/
+ * https://leetcode.com/problems/my-calendar-i/
  * 
  * Time Complexity:     O(N * lg(`RANGE`))
  * Space Complexity:    O(N * lg(`RANGE`))
@@ -7,7 +7,7 @@
  * References:
  *  https://leetcode.com/problems/my-calendar-ii/discuss/109528/nlogd-Java-solution-using-segment-tree-with-lazy-propagation-(for-the-general-case-of-K-booking)
  */
-package com.zea7ot.leetcode.lvl3.lc0731;
+package com.zea7ot.leetcode.lvl3.lc0729;
 
 public class SolutionApproach0SegmentedTree {
     private SegmentedTreeNode root;
@@ -18,15 +18,12 @@ public class SolutionApproach0SegmentedTree {
     }
 
     public boolean book(int start, int end) {
-        // sanity check
         if (start > end)
             return false;
 
         int k = query(root, start, end - 1);
-        // to generalize:
-        // to replace '2' with 'K - 1',
-        // 'K' is the actual allowed overlaps
-        if (k >= 2)
+        // to return false if any interval occupied
+        if (k > 0)
             return false;
 
         update(root, start, end - 1, 1);
@@ -72,7 +69,7 @@ public class SolutionApproach0SegmentedTree {
                 node.right = new SegmentedTreeNode(MID + 1, node.HIGH, node.k);
             } else if (node.lazy > 0) {
                 node.left.k += node.lazy;
-                node.left.lazy += node.lazy;
+                node.right.lazy = node.lazy;
 
                 node.right.k += node.lazy;
                 node.right.lazy += node.lazy;
@@ -91,7 +88,6 @@ public class SolutionApproach0SegmentedTree {
             this.LOW = LOW;
             this.HIGH = HIGH;
             this.k = k;
-            this.lazy = 0;
             this.left = this.right = null;
         }
     }
