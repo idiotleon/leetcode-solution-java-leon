@@ -40,7 +40,7 @@ References:
 
 
 
-### Segmented Tree
+### Segment Tree
 
 
 ### Segmented Tree
