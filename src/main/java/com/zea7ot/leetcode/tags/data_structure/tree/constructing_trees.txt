@@ -12,3 +12,8 @@ References:
 3   0108    https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 3   0109    https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
 3   0654    https://leetcode.com/problems/maximum-binary-tree/
+3   0731    https://leetcode.com/problems/my-calendar-ii/
+3   1353    https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/
+
+4   0218    https://leetcode.com/problems/the-skyline-problem/
+4   0732    https://leetcode.com/problems/my-calendar-iii/

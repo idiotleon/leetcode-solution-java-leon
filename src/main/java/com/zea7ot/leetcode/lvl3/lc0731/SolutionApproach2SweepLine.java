@@ -14,10 +14,10 @@ package com.zea7ot.leetcode.lvl3.lc0731;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class SolutionApproach1TreeMap {
+public class SolutionApproach2SweepLine {
     private Map<Integer, Integer> timeline;
 
-    public SolutionApproach1TreeMap() {
+    public SolutionApproach2SweepLine() {
         this.timeline = new TreeMap<Integer, Integer>();
     }
 
