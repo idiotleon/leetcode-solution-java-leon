@@ -19,7 +19,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class SolutionApproach0SegmentedTree {
+public class SolutionApproach0SegmentTree {
     public List<List<Integer>> getSkyline(int[][] buildings) {
         Set<Integer> set = new TreeSet<>();
         for (int[] building : buildings) {
@@ -35,7 +35,7 @@ public class SolutionApproach0SegmentedTree {
             rMap.put(k++, iter);
         }
 
-        SegmentedTree segTree = new SegmentedTree(k << 4);
+        SegmentTree segTree = new SegmentTree(k << 4);
 
         // to turn `k` into 0-indexed
         --k;
@@ -55,10 +55,10 @@ public class SolutionApproach0SegmentedTree {
         return ans;
     }
 
-    private class SegmentedTree {
+    private class SegmentTree {
         private int[] segTree;
 
-        private SegmentedTree(final int SIZE) {
+        private SegmentTree(final int SIZE) {
             this.segTree = new int[SIZE];
         }
 

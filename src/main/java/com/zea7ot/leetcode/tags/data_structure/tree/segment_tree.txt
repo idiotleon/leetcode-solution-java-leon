@@ -3,7 +3,7 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
-### Segmented Tree
+### Segment Tree
 
 3   0731    https://leetcode.com/problems/my-calendar-ii/
 3   1353    https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/

@@ -1,75 +1,95 @@
 /**
  * https://leetcode.com/problems/rectangle-area-ii/
  * 
- * Time Complexity:     O(N * lg(N))
+ * Time Complexity:     O((N ^ 2) * lg(N))
  * Space Complexity:    O(N)
  * 
  * References:
- *  https://leetcode.com/problems/rectangle-area-ii/discuss/137941/Java-TreeMap-solution-inspired-by-Skyline-and-Meeting-Room
+ *  https://leetcode.com/problems/rectangle-area-ii/discuss/188832/Java-Line-Sweep-With-Sub-Class-Interval
  */
 package com.zea7ot.leetcode.lvl5.lc0850;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
+import java.util.Arrays;
 import java.util.TreeMap;
 
 public class SolutionApproach0SweepLine {
+    private static final int MOD = (int) 1e9 + 7;
+
     public int rectangleArea(int[][] rectangles) {
         // sanity check
-        if(rectangles == null || rectangles.length == 0) return 0;
-        
-        final int MOD = 1_000_000_007;
-        List<Point> points = new ArrayList<Point>();
-        for(int[] rect : rectangles){
-            points.add(new Point(rect[0], rect[1], 1));
-            points.add(new Point(rect[0], rect[3], -1));
-            points.add(new Point(rect[2], rect[1], -1));
-            points.add(new Point(rect[2], rect[3], 1));
+        if (rectangles == null || rectangles.length == 0)
+            return 0;
+
+        final int N = rectangles.length;
+        final int OPEN = 0, CLOSED = 1;
+        final int[][] EVENTS = new int[N * 2][4];
+
+        int idx = 0;
+        for (int[] rectangle : rectangles) {
+            EVENTS[idx++] = new int[] { rectangle[1], OPEN, rectangle[0], rectangle[2] };
+            EVENTS[idx++] = new int[] { rectangle[3], CLOSED, rectangle[0], rectangle[2] };
         }
-        
-        Collections.sort(points, (a, b) -> (a.x == b.x) ? b.y - a.y : a.x - b.x);
-        
-        TreeMap<Integer, Integer> map = new TreeMap<Integer, Integer>();
-        int preX = -1;
-        int preY = -1;
-        int ans = 0;
-        for(int i = 0; i < points.size(); i++){
-            Point point = points.get(i);
-            map.put(point.y, map.getOrDefault(point.y, 0) + point.val);
-            if(i == points.size() - 1 || points.get(i + 1).x > point.x){
-                if(preX > -1){
-                    ans += ((long)preY * (point.x - preX)) % MOD;
-                    ans %= MOD;
-                }
-                preY = calcY(map);
-                preX = point.x;
+
+        Arrays.sort(EVENTS, (a, b) -> Integer.compare(a[0], b[0]));
+
+        final TreeMap<Interval, Integer> AXIS_X = new TreeMap<>((a, b) -> {
+            if (a.start != b.start)
+                return Integer.compare(a.start, b.start);
+            return Integer.compare(a.end, b.end);
+        });
+
+        int prevY = EVENTS[0][0];
+        long ans = 0;
+        for (final int[] EVENT : EVENTS) {
+            int curY = EVENT[0], type = EVENT[1], x1 = EVENT[2], x2 = EVENT[3];
+
+            if (curY > prevY) {
+                ans += sweepLine(AXIS_X) * (curY - prevY);
+                prevY = curY;
+            }
+
+            if (type == OPEN) {
+                addInterval(x1, x2, AXIS_X);
+            } else {
+                removeInterval(x1, x2, AXIS_X);
             }
         }
-        
-        return ans;
+
+        ans %= MOD;
+        return (int) ans;
     }
-    
-    private int calcY(TreeMap<Integer, Integer> map){
-        int result = 0, pre = -1, count = 0;
-        for(Map.Entry<Integer, Integer> entry : map.entrySet()){
-            if(pre >= 0 && count > 0){
-                result += entry.getKey() - pre;
-            }
-            count += entry.getValue();
-            pre = entry.getKey();
+
+    private long sweepLine(TreeMap<Interval, Integer> AXIS_X) {
+        long query = 0;
+        int cur = -1;
+        for (Interval interval : AXIS_X.keySet()) {
+            cur = Math.max(cur, interval.start);
+            query += Math.max(interval.end - cur, 0);
+            cur = Math.max(cur, interval.end);
         }
-        return result;
+
+        return query;
     }
-    
-    private class Point{
-        protected int x, y, val;
-        
-        protected Point(int x, int y, int val){
-            this.x = x;
-            this.y = y;
-            this.val = val;
+
+    private void removeInterval(int x1, int x2, TreeMap<Interval, Integer> AXIS_X) {
+        Interval interval = new Interval(x1, x2);
+        AXIS_X.put(interval, AXIS_X.getOrDefault(interval, 0) - 1);
+        if (AXIS_X.get(interval) == 0)
+            AXIS_X.remove(interval);
+    }
+
+    private void addInterval(int x1, int x2, TreeMap<Interval, Integer> AXIS_X) {
+        Interval interval = new Interval(x1, x2);
+        AXIS_X.put(interval, AXIS_X.getOrDefault(interval, 0) + 1);
+    }
+
+    private class Interval {
+        private int start;
+        private int end;
+
+        private Interval(int start, int end) {
+            this.start = start;
+            this.end = end;
         }
     }
 }
