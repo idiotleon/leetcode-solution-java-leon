@@ -41,8 +41,10 @@ public class SolutionApproach0TopologicalSort {
 
         // to build up the graph
         for (int i = 1; i < N; ++i) {
-            String prevWord = words[i - 1], curWord = words[i];
-            final int LEN_PREV = prevWord.length(), LEN_CUR = curWord.length();
+            final String WORD_PREV = words[i - 1];
+            final String WORD_CUR = words[i];
+            final int LEN_PREV = WORD_PREV.length();
+            final int LEN_CUR = WORD_CUR.length();
             final int LEN = Math.max(LEN_PREV, LEN_CUR);
 
             for (int j = 0; j < LEN; ++j) {
@@ -51,8 +53,8 @@ public class SolutionApproach0TopologicalSort {
                 else if (j == LEN_CUR)
                     return "";
                 else {
-                    final char CH_PREV = prevWord.charAt(j);
-                    final char CH_CUR = curWord.charAt(j);
+                    final char CH_PREV = WORD_PREV.charAt(j);
+                    final char CH_CUR = WORD_CUR.charAt(j);
                     if (CH_PREV == CH_CUR)
                         continue;
                     final int IDX_PREV = CH_PREV - 'a';
@@ -71,17 +73,16 @@ public class SolutionApproach0TopologicalSort {
 
         // to topological sort
         Deque<Integer> queue = new ArrayDeque<Integer>();
-        for (int i = 0; i < TOTAL_ALPHABETS; ++i) {
+        for (int i = 0; i < TOTAL_ALPHABETS; ++i)
             if (counts[i] == 0)
                 queue.add(i);
-        }
 
         StringBuilder builder = new StringBuilder();
         while (!queue.isEmpty()) {
-            int idx = queue.poll();
-            char ch = (char) (idx + 'a');
+            int cur = queue.poll();
+            char ch = (char) (cur + 'a');
             builder.append(ch);
-            for (int next : graph.get(idx))
+            for (int next : graph.get(cur))
                 if (--counts[next] == 0)
                     queue.offer(next);
         }

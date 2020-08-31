@@ -5,4 +5,6 @@ References:
 
 ### Interative Problems
 
+2   1428    https://leetcode.com/problems/leftmost-column-with-at-least-a-one/
+
 5   0843    https://leetcode.com/problems/guess-the-word/

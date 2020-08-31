@@ -14,7 +14,7 @@ import java.util.List;
 
 public class SolutionApproach0SlidingWindow {
     public List<Integer> findAnagrams(String s, String p) {
-        List<Integer> ans = new ArrayList<Integer>();
+        List<Integer> ans = new ArrayList<>();
         // sanity check
         if (s == null || s.isEmpty() || p == null || p.isEmpty())
             return ans;
