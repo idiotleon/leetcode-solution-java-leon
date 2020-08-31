@@ -68,6 +68,7 @@ References:
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0406    https://leetcode.com/problems/queue-reconstruction-by-height/
+4   0410    https://leetcode.com/problems/split-array-largest-sum/
 3   0435    https://leetcode.com/problems/non-overlapping-intervals/
 3   0444    https://leetcode.com/problems/sequence-reconstruction/
 3   0452    https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/

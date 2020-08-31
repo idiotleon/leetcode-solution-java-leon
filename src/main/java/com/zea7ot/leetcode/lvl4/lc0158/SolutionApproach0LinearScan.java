@@ -24,6 +24,7 @@ public class SolutionApproach0LinearScan extends FakeReader4 {
     public int read(char[] buf, int n) {
         int idx = 0;
         while (idx < n) {
+            // to reset the counter and buffer
             if (bufferIdx == charsToRead) {
                 bufferIdx = 0;
                 charsToRead = read4(buffer);

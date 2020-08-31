@@ -14,21 +14,26 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 public class SolutionApproach0Recursion {
     public TreeNode deleteNode(TreeNode root, int key) {
         // sanity check
-        if(root == null) return null;
-        
-        if(root.val > key) root.left = deleteNode(root.left, key);
-        else if(root.val < key) root.right = deleteNode(root.right, key);
-        else{
-            if(root.left == null) return root.right;
-            if(root.right == null) return root.left;
-            
+        if (root == null)
+            return null;
+
+        if (root.val > key)
+            root.left = deleteNode(root.left, key);
+        else if (root.val < key)
+            root.right = deleteNode(root.right, key);
+        else {
+            if (root.left == null)
+                return root.right;
+            if (root.right == null)
+                return root.left;
+
             TreeNode rightSmallest = root.right;
-            while(rightSmallest.left != null)
+            while (rightSmallest.left != null)
                 rightSmallest = rightSmallest.left;
             rightSmallest.left = root.left;
             return root.right;
         }
-        
+
         return root;
     }
 }

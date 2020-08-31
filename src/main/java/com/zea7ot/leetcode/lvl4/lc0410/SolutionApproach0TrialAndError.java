@@ -38,39 +38,41 @@ package com.zea7ot.leetcode.lvl4.lc0410;
 public class SolutionApproach0TrialAndError {
     public int splitArray(int[] nums, int m) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
-        
+        if (nums == null || nums.length == 0)
+            return 0;
+
         long lo = 0, hi = 0;
-        for(int num : nums){
+        for (int num : nums) {
             lo = Math.max(lo, num);
             hi += num;
         }
-        
-        while(lo < hi){
+
+        while (lo < hi) {
             long mid = lo + (hi - lo) / 2;
             // if there are too many groups with such a limit
-            if(minGroups(nums, mid) > m){
+            if (minGroups(mid, nums) > m) {
                 // to increase the limit
                 lo = mid + 1;
-            }else{
+            } else {
                 // otherwise to decrease the limit
                 hi = mid;
             }
         }
-        
-        return (int)lo;
+
+        return (int) lo;
     }
-    
-    private int minGroups(int[] nums, long limit){
+
+    private int minGroups(long limit, int[] nums) {
         long sum = 0;
         int groups = 1;
-        for(int num : nums){
-            if(sum + num > limit){
+        for (int num : nums) {
+            if (sum + num > limit) {
                 sum = num;
                 ++groups;
-            }else sum += num;
+            } else
+                sum += num;
         }
-        
+
         return groups;
     }
 }

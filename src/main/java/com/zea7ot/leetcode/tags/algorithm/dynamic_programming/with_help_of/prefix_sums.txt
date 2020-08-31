@@ -9,6 +9,7 @@ References:
 
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 
+4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   1371    https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
 

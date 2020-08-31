@@ -18,6 +18,7 @@ References:
 3   0974    https://leetcode.com/problems/subarray-sums-divisible-by-k/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 
+4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   1124    https://leetcode.com/problems/longest-well-performing-interval/
 4   1371    https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/

@@ -46,10 +46,10 @@ public class SolutionApproach0StringBuilder {
 
     // preorder
     private TreeNode deserialize(Deque<String> queue) {
-        String val = queue.poll();
-        if (SEPARATOR.equals(val))
+        String cur = queue.poll();
+        if (SEPARATOR.equals(cur))
             return null;
-        TreeNode root = new TreeNode(Integer.valueOf(val));
+        TreeNode root = new TreeNode(Integer.valueOf(cur));
         root.left = deserialize(queue);
         root.right = deserialize(queue);
         return root;

@@ -21,33 +21,38 @@ package com.zea7ot.leetcode.lvl4.lc0410;
 
 import java.util.Arrays;
 
-public class SolutionApproach0DFSMemo {    
+public class SolutionApproach0DFSMemo {
     public int splitArray(int[] nums, int m) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
-        
+        if (nums == null || nums.length == 0)
+            return 0;
+
         final int N = nums.length;
-        
+
         int[][] memo = new int[N][m + 1];
-        for(int[] row : memo) Arrays.fill(row, Integer.MAX_VALUE);
+        for (int[] row : memo)
+            Arrays.fill(row, Integer.MAX_VALUE);
 
         int[] prefixSums = new int[N];
         prefixSums[0] = nums[0];
-        for(int i = 1; i < N; ++i)
+        for (int i = 1; i < N; ++i)
             prefixSums[i] = prefixSums[i - 1] + nums[i];
-        
+
         return splitArray(N - 1, m, prefixSums, nums, memo);
     }
-    
-    private int splitArray(int k, int m, int[] prefixSums, int[] nums, int[][] memo){
-        if(m == 1) return prefixSums[k];
-        if(m > k + 1) return Integer.MAX_VALUE;
-        if(memo[k][m] != Integer.MAX_VALUE) return memo[k][m];
+
+    private int splitArray(int k, int m, int[] prefixSums, int[] nums, int[][] memo) {
+        if (m == 1)
+            return prefixSums[k];
+        if (m > k + 1)
+            return Integer.MAX_VALUE;
+        if (memo[k][m] != Integer.MAX_VALUE)
+            return memo[k][m];
         int res = Integer.MAX_VALUE;
-        for(int i = 0; i < k; i++){
+        for (int i = 0; i < k; i++) {
             res = Math.min(res, Math.max(splitArray(i, m - 1, prefixSums, nums, memo), prefixSums[k] - prefixSums[i]));
         }
-        
+
         return memo[k][m] = res;
     }
 }

@@ -63,6 +63,7 @@ References:
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
 3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
 
+4   0297    https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 4   0317    https://leetcode.com/problems/shortest-distance-from-all-buildings/
 4   0301    https://leetcode.com/problems/remove-invalid-parentheses/
 4   0407    https://leetcode.com/problems/trapping-rain-water-ii/
