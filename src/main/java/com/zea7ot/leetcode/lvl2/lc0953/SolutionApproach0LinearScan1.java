@@ -6,7 +6,7 @@
  */
 package com.zea7ot.leetcode.lvl2.lc0953;
 
-public class SolutionApproach0HashMap1 {
+public class SolutionApproach0LinearScan1 {
     public boolean isAlienSorted(String[] words, String order) {
         final int L = order.length();
         char[] chs = order.toCharArray();
