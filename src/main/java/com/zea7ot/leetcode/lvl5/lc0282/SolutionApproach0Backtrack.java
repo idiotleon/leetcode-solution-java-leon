@@ -18,7 +18,7 @@ public class SolutionApproach0Backtrack {
     private static final char SIGN_MULTI = '*';
 
     public List<String> addOperators(String num, int target) {
-        List<String> ans = new ArrayList<String>();
+        List<String> ans = new ArrayList<>();
         // sanity check
         if (num == null || num.isEmpty())
             return ans;
@@ -31,11 +31,12 @@ public class SolutionApproach0Backtrack {
             List<String> res) {
         final int L = num.length();
 
-        if (idx == L)
+        if (idx == L) {
             if (target == prev) {
                 res.add(builder.toString());
                 return;
             }
+        }
 
         for (int i = idx; i < L; ++i) {
             if (i != idx && num.charAt(idx) == '0')

@@ -49,7 +49,7 @@ public class SolutionApproach0StringBuilder {
         String cur = queue.poll();
         if (SEPARATOR.equals(cur))
             return null;
-        TreeNode root = new TreeNode(Integer.valueOf(cur));
+        TreeNode root = new TreeNode(Integer.parseInt(cur));
         root.left = deserialize(queue);
         root.right = deserialize(queue);
         return root;
