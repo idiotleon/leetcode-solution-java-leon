@@ -22,6 +22,7 @@ References:
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/
 3   0341    https://leetcode.com/problems/flatten-nested-list-iterator/
 3   0388    https://leetcode.com/problems/longest-absolute-file-path/
+3   0394    https://leetcode.com/problems/decode-string/
 3   0402    https://leetcode.com/problems/remove-k-digits/
 3   0439    https://leetcode.com/problems/ternary-expression-parser/
 3   0484    https://leetcode.com/problems/find-permutation/
