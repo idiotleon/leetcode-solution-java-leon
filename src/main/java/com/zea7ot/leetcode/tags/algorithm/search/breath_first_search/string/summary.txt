@@ -13,6 +13,7 @@ References:
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 3   1236    https://leetcode.com/problems/web-crawler/
 
+4   0297    https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 4   0301    https://leetcode.com/problems/remove-invalid-parentheses/
 4   0839    https://leetcode.com/problems/similar-string-groups/
 
