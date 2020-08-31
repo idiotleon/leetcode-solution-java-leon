@@ -15,9 +15,8 @@ public class SolutionApproach1MinHeap {
 
         for (int num : nums) {
             minHeap.add(num);
-            if (minHeap.size() > k) {
+            if (minHeap.size() > k)
                 minHeap.poll();
-            }
         }
 
         return minHeap.poll();

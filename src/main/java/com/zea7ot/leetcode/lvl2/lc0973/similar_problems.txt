@@ -1,0 +1,13 @@
+@author: Leon
+Reference:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Top K
+
+2   0215    https://leetcode.com/problems/kth-largest-element-in-an-array/
+2   0347    https://leetcode.com/problems/top-k-frequent-elements/
+2   0692    https://leetcode.com/problems/top-k-frequent-words/
+2   0973    https://leetcode.com/problems/k-closest-points-to-origin/
+
+3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/

@@ -60,6 +60,7 @@ References:
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 3   1233    https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/
 3   1247    https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/
+3   1249    https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
 3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 3   1360    https://leetcode.com/problems/number-of-days-between-two-dates/
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/

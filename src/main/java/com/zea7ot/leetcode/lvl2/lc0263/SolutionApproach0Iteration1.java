@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/ugly-number/
  * 
- * Time Complexity:     O(N)
+ * Time Complexity:     O(lg(`num`))
  * Space Complexity:    O(1)
  * 
  * References:
@@ -12,18 +12,19 @@ package com.zea7ot.leetcode.lvl2.lc0263;
 public class SolutionApproach0Iteration1 {
     public boolean isUgly(int num) {
         // sanity check
-        if(num <= 0) return false;
-        
-        int[] factors = {2, 3, 5};
+        if (num <= 0)
+            return false;
+
+        int[] factors = { 2, 3, 5 };
         int k = 0;
-        while(k < 3){
-            if(num % factors[k] == 0){
+        while (k < 3) {
+            if (num % factors[k] == 0) {
                 num /= factors[k];
-            }else{
-                k++;
+            } else {
+                ++k;
             }
         }
-        
+
         return num == 1;
     }
 }

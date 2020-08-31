@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/valid-palindrome-ii/
  * 
- * Time Complexity:     O(L)
+ * Time Complexity:     O(`L`)
  * Space Complexity:    O(1)
  * 
  * 
@@ -16,9 +16,14 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0680;
 
-public class SolutionApproach0TwoPointers1 {
+public class SolutionApproach0HighLowPointers1 {
     public boolean validPalindrome(String s) {
-        for (int i = 0, j = s.length() - 1; i < j; i++, j--) {
+        // sanity check
+        if (s == null || s.isEmpty())
+            return false;
+
+        final int L = s.length();
+        for (int i = 0, j = L - 1; i < j; i++, j--) {
             if (s.charAt(i) != s.charAt(j)) {
                 int i1 = i, j1 = j - 1;
                 int i2 = i + 1, j2 = j;

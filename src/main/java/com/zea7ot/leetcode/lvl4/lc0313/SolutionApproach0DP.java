@@ -1,10 +1,10 @@
 /**
  * https://leetcode.com/problems/super-ugly-number/
  * 
- * Time Complexity:     O(L * n)
+ * Time Complexity:     O(N * `n`)
  *  L, length of primes(int[])
  * 
- * Space Complexity:    O(n) + O(L)
+ * Space Complexity:    O(`n`) + O(N)
  * 
  * to push forward
  * 
@@ -19,30 +19,30 @@ import java.util.Arrays;
 public class SolutionApproach0DP {
     public int nthSuperUglyNumber(int n, int[] primes) {
         // sanity check
-        if(n <= 0 || primes == null || primes.length == 0) return 0;
+        if (n <= 0 || primes == null || primes.length == 0)
+            return 0;
 
-        final int L = primes.length;
+        final int N = primes.length;
         int[] ugly = new int[n];
-        int[] idx = new int[L];
-        int[] val = new int[L];
-        Arrays.fill(val, 1);
-        
+        int[] indexes = new int[N];
+        int[] values = new int[N];
+        Arrays.fill(values, 1);
+
         int next = 1;
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; ++i) {
             ugly[i] = next;
             next = Integer.MAX_VALUE;
 
-            for(int j = 0; j < L; j++){
+            for (int j = 0; j < N; ++j) {
                 // to skip any duplicate and avoid any extra multiplication
-                if(val[j] == ugly[i]){
-                    val[j] = ugly[idx[j]++] * primes[j];
-                }
-                
+                if (values[j] == ugly[i])
+                    values[j] = ugly[indexes[j]++] * primes[j];
+
                 // to find the next ugly number
-                next = Math.min(next, val[j]);
+                next = Math.min(next, values[j]);
             }
         }
-        
+
         return ugly[n - 1];
     }
 }

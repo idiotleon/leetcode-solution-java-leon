@@ -11,7 +11,7 @@ package com.zea7ot.leetcode.lvl3.lc1353;
 
 import java.util.Arrays;
 
-public class SolutionApproach0SegmentedTree3 {
+public class SolutionApproach0SegmentTree {
     private int[] ALL_DAYS;
 
     public int maxEvents(int[][] events) {
@@ -34,18 +34,18 @@ public class SolutionApproach0SegmentedTree3 {
         return count;
     }
 
-    private int rangeQuery(int idx, int lo, int hi, final int LEFT, final int RIGHT) {
-        if (lo >= LEFT && hi <= RIGHT)
+    private int rangeQuery(int idx, int lo, int hi, final int RANGE_LOW, final int RANGE_HIGH) {
+        if (lo >= RANGE_LOW && hi <= RANGE_HIGH)
             return ALL_DAYS[idx];
 
         int mid = lo + (hi - lo) / 2;
         int res = Integer.MAX_VALUE;
 
-        if (mid >= LEFT && lo <= RIGHT)
-            res = Math.min(res, rangeQuery(2 * idx, lo, mid, LEFT, RIGHT));
+        if (mid >= RANGE_LOW && lo <= RANGE_HIGH)
+            res = Math.min(res, rangeQuery(2 * idx, lo, mid, RANGE_LOW, RANGE_HIGH));
 
-        if (mid + 1 <= RIGHT && hi >= LEFT)
-            res = Math.min(res, rangeQuery(2 * idx + 1, mid + 1, hi, LEFT, RIGHT));
+        if (mid + 1 <= RANGE_HIGH && hi >= RANGE_LOW)
+            res = Math.min(res, rangeQuery(2 * idx + 1, mid + 1, hi, RANGE_LOW, RANGE_HIGH));
 
         return res;
     }

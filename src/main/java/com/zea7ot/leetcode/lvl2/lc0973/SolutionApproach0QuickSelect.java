@@ -17,20 +17,19 @@ public class SolutionApproach0QuickSelect {
         final int N = points.length;
         int lo = 0, hi = N - 1;
         while (lo < hi) {
-            int mid = partition(points, lo, hi);
+            int mid = partition(lo, hi, points);
             if (mid == K)
                 break;
-            if (mid < K) {
+            if (mid < K)
                 lo = mid + 1;
-            } else {
+            else
                 hi = mid;
-            }
         }
 
         return Arrays.copyOfRange(points, 0, K);
     }
 
-    private int partition(int[][] nums, int lo, int hi) {
+    private int partition(int lo, int hi, int[][] nums) {
         int[] pivot = nums[lo];
         while (lo < hi) {
             while (lo < hi && compare(nums[hi], pivot) >= 0)
@@ -45,7 +44,7 @@ public class SolutionApproach0QuickSelect {
         return lo;
     }
 
-    private int compare(int[] p1, int[] p2) {
-        return p1[0] * p1[0] + p1[1] * p1[1] - p2[0] * p2[0] - p2[1] * p2[1];
+    private int compare(int[] a, int[] b) {
+        return a[0] * a[0] + a[1] * a[1] - b[0] * b[0] - b[1] * b[1];
     }
 }

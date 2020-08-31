@@ -1,12 +1,12 @@
 /**
  * https://leetcode.com/problems/valid-palindrome-ii/
  * 
- * Time Complexity:     O(N)
+ * Time Complexity:     O(`L`)
  * Space Complexity:    O(1)
  */
 package com.zea7ot.leetcode.lvl3.lc0680;
 
-public class SolutionApproach0TwoPointers {
+public class SolutionApproach0HighLowPointers {
     public boolean validPalindrome(String s) {
         final int L = s.length();
         int lo = -1, hi = L - 1;

@@ -10,20 +10,22 @@ import java.util.PriorityQueue;
 
 public class SolutionApproach0MaxHeap {
     public int[][] kClosest(int[][] points, int K) {
+        // sanity check
+        if (points == null || points.length < K)
+            return points;
+
         PriorityQueue<int[]> maxHeap = new PriorityQueue<int[]>(
                 (a, b) -> Long.compare((b[0] * b[0] + b[1] * b[1]), (a[0] * a[0] + a[1] * a[1])));
 
         for (int[] point : points) {
             maxHeap.offer(point);
-            if (maxHeap.size() > K) {
+            if (maxHeap.size() > K)
                 maxHeap.poll();
-            }
         }
 
         int[][] ans = new int[K][2];
-        int idx = K - 1;
-        while (idx >= 0)
-            ans[idx--] = maxHeap.poll();
+        for (int i = K - 1; i >= 0; --i)
+            ans[i] = maxHeap.poll();
 
         return ans;
     }

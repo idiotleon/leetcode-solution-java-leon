@@ -15,7 +15,7 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0DFSRecursive {
     public List<Integer> rightSideView(TreeNode root) {
-        List<Integer> ans = new ArrayList<Integer>();
+        List<Integer> ans = new ArrayList<>();
         // sanity check
         if (root == null)
             return ans;
