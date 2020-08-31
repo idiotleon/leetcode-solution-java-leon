@@ -1,10 +1,10 @@
 /**
  * https://leetcode.com/problems/super-ugly-number/
  * 
- * Time Complexity:     O(L * n)
+ * Time Complexity:     O(N * `n`)
  *  L, length of primes(int[])
  * 
- * Space Complexity:    O(n) + O(L)
+ * Space Complexity:    O(`n`) + O(N)
  * 
  * to push forward
  * 
@@ -17,27 +17,29 @@ package com.zea7ot.leetcode.lvl4.lc0313;
 public class SolutionApproach0DP1 {
     public int nthSuperUglyNumber(int n, int[] primes) {
         // sanity check
-        if(n <= 0 || primes == null || primes.length == 0) return 0;
+        if (n <= 0 || primes == null || primes.length == 0)
+            return 0;
 
-        final int L = primes.length;
+        final int N = primes.length;
         int[] ugly = new int[n];
-        int[] idx = new int[L];
-        
+        int[] indexes = new int[N];
+
         ugly[0] = 1;
-        for(int i = 1; i < n; i++){
-            ugly[i]= Integer.MAX_VALUE;
-            for(int j = 0; j < L; j++){
-                ugly[i] = Math.min(ugly[i], primes[j] * ugly[idx[j]]);
+        for (int i = 1; i < n; ++i) {
+            // to find the next
+            ugly[i] = Integer.MAX_VALUE;
+            for (int j = 0; j < N; ++j) {
+                ugly[i] = Math.min(ugly[i], primes[j] * ugly[indexes[j]]);
             }
-            
+
             // to skip any duplicate
-            for(int j = 0; j < L; j++){
-                while(primes[j] * ugly[idx[j]] <= ugly[i]){
-                    idx[j]++;
+            for (int j = 0; j < N; ++j) {
+                while (primes[j] * ugly[indexes[j]] <= ugly[i]) {
+                    ++indexes[j];
                 }
             }
         }
-        
+
         return ugly[n - 1];
     }
 }

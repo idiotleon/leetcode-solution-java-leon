@@ -8,6 +8,7 @@ References:
 # Trial and Error / Guess the Number
 
 3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+3   1201    https://leetcode.com/problems/ugly-number-iii/
 
 3   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0644    https://leetcode.com/problems/maximum-average-subarray-ii/
