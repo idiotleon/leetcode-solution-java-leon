@@ -10,34 +10,43 @@
 package com.zea7ot.leetcode.lvl4.lc0358;
 
 public class SolutionApproach0Greedy {
+    private static final int ALPHABET = 26;
+
     public String rearrangeString(String s, int k) {
+        // sanity check
+        if (s == null || s.isEmpty())
+            return "";
+        if (k == 0)
+            return s;
+
         final int L = s.length();
-        char[] chs = s.toCharArray();
-        int[] freq = new int[26];
-        int[] valid = new int[26];
-        for(char ch : chs) ++freq[ch - 'a'];
-        
+        int[] freq = new int[ALPHABET];
+        for (char ch : s.toCharArray())
+            ++freq[ch - 'a'];
+
+        int[] nextValid = new int[ALPHABET];
         StringBuilder builder = new StringBuilder();
-        for(int i = 0; i < L; i++){
-            int candidatePos = findValidMax(freq, valid, i);
-            if(candidatePos == -1) return "";
-            --freq[candidatePos];
-            valid[candidatePos] = i + k;
-            builder.append((char)(candidatePos + 'a'));
+        for (int i = 0; i < L; ++i) {
+            final int IDX = findValidMax(freq, nextValid, i);
+            if (IDX == -1)
+                return "";
+            --freq[IDX];
+            nextValid[IDX] = i + k;
+            builder.append((char) (IDX + 'a'));
         }
         return builder.toString();
     }
-    
-    private int findValidMax(int[] freq, int[] valid, int index){
+
+    private int findValidMax(int[] freq, int[] nextValid, int index) {
         int max = Integer.MIN_VALUE;
-        int candidatePos = -1;
-        for(int i = 0; i < freq.length; i++){
-            if(freq[i] > 0 && freq[i] > max && index >= valid[i]){
+        int idx = -1;
+        for (int i = 0; i < ALPHABET; ++i) {
+            if (freq[i] > 0 && freq[i] > max && index >= nextValid[i]) {
                 max = freq[i];
-                candidatePos = i;
+                idx = i;
             }
         }
-        
-        return candidatePos;
+
+        return idx;
     }
 }

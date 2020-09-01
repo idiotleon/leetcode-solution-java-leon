@@ -1,0 +1,18 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### CPU - Single Threaded
+
+4   0621    https://leetcode.com/problems/task-scheduler/
+4   0636    https://leetcode.com/problems/exclusive-time-of-functions/
+
+
+
+### k Distance Apart
+### No Adjacency
+
+2   0767    https://leetcode.com/problems/reorganize-string/
+
+4   0358    https://leetcode.com/problems/rearrange-string-k-distance-apart/

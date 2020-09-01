@@ -9,7 +9,7 @@
  */
 package com.zea7ot.leetcode.lvl4.lc0621;
 
-public class SolutionApproach0Math {
+public class SolutionApproach0Greedy {
     public int leastInterval(char[] tasks, int n) {
         final int N = tasks.length;
 
