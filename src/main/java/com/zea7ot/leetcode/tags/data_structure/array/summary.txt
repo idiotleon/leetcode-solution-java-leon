@@ -122,6 +122,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0922    https://leetcode.com/problems/sort-array-by-parity-ii/
 3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
 3   0935    https://leetcode.com/problems/knight-dialer/
+3   0949    https://leetcode.com/problems/largest-time-for-given-digits/
 3   0962    https://leetcode.com/problems/maximum-width-ramp/
 3   0966    https://leetcode.com/problems/vowel-spellchecker/
 3   0969    https://leetcode.com/problems/pancake-sorting/

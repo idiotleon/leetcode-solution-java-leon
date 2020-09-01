@@ -36,7 +36,8 @@ References:
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0670    https://leetcode.com/problems/maximum-swap/
 3   0750    https://leetcode.com/problems/number-of-corner-rectangles/
-3   0939    https://leetcode.com/problems/minimum-area-rectangle/
+3   0939    https://leetcode.com/problems/minimum-area-rectangle/3   0949    https://leetcode.com/problems/largest-time-for-given-digits/
+3   0949    https://leetcode.com/problems/largest-time-for-given-digits/
 3   1033    https://leetcode.com/problems/moving-stones-until-consecutive/
 3   1053    https://leetcode.com/problems/previous-permutation-with-one-swap/
 3   1201    https://leetcode.com/problems/ugly-number-iii/
