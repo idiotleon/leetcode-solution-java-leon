@@ -9,25 +9,24 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0430;
 
-public class SolutionApproach0Preorder2 {
+public class SolutionApproach0PostorderRecursive {
     private Node prev = null;
-    
+
     public Node flatten(Node head) {
         // sanity check
-        if(head == null) return head;
-        
-        Node child = head.child;
-        Node next = head.next;
-        if(prev == null) prev = head;
-        else{
-            prev.next = head;
-            head.prev = prev;
-            prev.child = null;
+        if (head == null)
+            return head;
+
+        flatten(head.next);
+        flatten(head.child);
+
+        head.next = prev;
+        if (prev != null) {
+            prev.prev = head;
         }
-        
+
+        head.child = null;
         prev = head;
-        flatten(child);
-        flatten(next);
         return head;
     }
 }

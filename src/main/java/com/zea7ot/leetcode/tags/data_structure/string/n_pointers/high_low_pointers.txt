@@ -9,6 +9,7 @@ References:
 # 2 Pointers
 
 2   0246    https://leetcode.com/problems/strobogrammatic-number/
+2   0443    https://leetcode.com/problems/string-compression/
 
 3   0680    https://leetcode.com/problems/valid-palindrome-ii/
 

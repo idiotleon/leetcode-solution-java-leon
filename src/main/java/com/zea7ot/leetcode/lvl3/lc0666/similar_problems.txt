@@ -15,10 +15,3 @@ References:
 
 4   0124    https://leetcode.com/problems/binary-tree-maximum-path-sum/
 4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
-
-
-
-### Dynamic Programming
-
-4   0265    https://leetcode.com/problems/paint-house-ii/
-4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/

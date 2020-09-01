@@ -9,30 +9,34 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0430;
 
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
-public class SolutionApproach0Preorder {
+public class SolutionApproach0PreorderIterative {
     public Node flatten(Node head) {
         // sanity check
-        if(head == null) return head;
-        
-        Stack<Node> stack = new Stack<Node>();
+        if (head == null)
+            return head;
+
+        Deque<Node> stack = new ArrayDeque<>();
         stack.push(head);
         Node prev = null;
-        
+
         // preorder: root, child, next
-        while(!stack.isEmpty()){
+        while (!stack.isEmpty()) {
             Node cur = stack.pop();
-            if(prev != null){
+            if (prev != null) {
                 prev.next = cur;
                 cur.prev = prev;
                 prev.child = null;
             }
-            if(cur.next != null) stack.push(cur.next);
-            if(cur.child != null) stack.push(cur.child);
+            if (cur.next != null)
+                stack.push(cur.next);
+            if (cur.child != null)
+                stack.push(cur.child);
             prev = cur;
         }
-        
+
         return head;
     }
 }

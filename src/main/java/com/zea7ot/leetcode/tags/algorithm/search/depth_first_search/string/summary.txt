@@ -13,6 +13,7 @@ References:
 
 3   0247    https://leetcode.com/problems/strobogrammatic-number-ii/
 3   0269    https://leetcode.com/problems/alien-dictionary/
+3   0394    https://leetcode.com/problems/decode-string/
 3   0439    https://leetcode.com/problems/ternary-expression-parser/
 3   0494    https://leetcode.com/problems/target-sum/
 3   0681    https://leetcode.com/problems/next-closest-time/
