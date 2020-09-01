@@ -13,12 +13,12 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0Backtrack {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
-        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        List<List<Integer>> ans = new ArrayList<>();
         // sanity check
         if (root == null)
             return ans;
 
-        backtrack(root, sum, new ArrayList<Integer>(), ans);
+        backtrack(root, sum, new ArrayList<>(), ans);
         return ans;
     }
 
@@ -29,7 +29,7 @@ public class SolutionApproach0Backtrack {
         path.add(node.val);
 
         if (remainingSum == node.val && node.left == null && node.right == null) {
-            paths.add(new ArrayList<Integer>(path));
+            paths.add(new ArrayList<>(path));
         } else {
             backtrack(node.left, remainingSum - node.val, path, paths);
             backtrack(node.right, remainingSum - node.val, path, paths);

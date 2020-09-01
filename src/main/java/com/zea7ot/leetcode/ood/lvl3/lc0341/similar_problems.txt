@@ -3,6 +3,15 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
+### Flatten
+
+3   0114    https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+3   0339    https://leetcode.com/problems/nested-list-weight-sum/
+3   0341    https://leetcode.com/problems/flatten-nested-list-iterator/
+3   0430    https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
+
+
+
 ### Nested List/Integer
 
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/

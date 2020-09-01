@@ -2,8 +2,9 @@
  * https://leetcode.com/problems/flatten-nested-list-iterator/
  * 
  * Time Complexities:
- * 
- * 
+ *  `next()`:       O()
+ *  `hasNext()`:    O()
+ *  
  * Space Complexity:    O()
  * 
  * References:
@@ -23,7 +24,6 @@ public class SolutionApproach0Stack implements Iterator<Integer> {
 
     public SolutionApproach0Stack(List<NestedInteger> nestedList) {
         this.stack = new ArrayDeque<NestedInteger>();
-
         flattenNestedList(nestedList);
     }
 
@@ -46,8 +46,8 @@ public class SolutionApproach0Stack implements Iterator<Integer> {
     }
 
     private void flattenNestedList(List<NestedInteger> nestedList) {
-        final int N = nestedList.size();
-        for (int i = N - 1; i >= 0; --i)
+        final int SIZE = nestedList.size();
+        for (int i = SIZE - 1; i >= 0; --i)
             stack.push(nestedList.get(i));
     }
 }
