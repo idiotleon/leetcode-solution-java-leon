@@ -122,6 +122,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0922    https://leetcode.com/problems/sort-array-by-parity-ii/
 3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
 3   0935    https://leetcode.com/problems/knight-dialer/
+3   0949    https://leetcode.com/problems/largest-time-for-given-digits/
 3   0962    https://leetcode.com/problems/maximum-width-ramp/
 3   0966    https://leetcode.com/problems/vowel-spellchecker/
 3   0969    https://leetcode.com/problems/pancake-sorting/
@@ -183,6 +184,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0502    https://leetcode.com/problems/ipo/
 4   0505    https://leetcode.com/problems/the-maze-ii/
 4   0616    https://leetcode.com/problems/add-bold-tag-in-string/
+4   0621    https://leetcode.com/problems/task-scheduler/
 4   0630    https://leetcode.com/problems/course-schedule-iii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/

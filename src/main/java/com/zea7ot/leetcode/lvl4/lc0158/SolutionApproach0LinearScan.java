@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/
  * 
- * Time Complexity:     O(n)
+ * Time Complexity:     O(`n`)
  * Space Complexity:    O(4) ~ O(1)
  * 
  * References:
