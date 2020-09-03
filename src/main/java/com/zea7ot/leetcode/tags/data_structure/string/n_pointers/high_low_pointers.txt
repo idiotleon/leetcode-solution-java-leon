@@ -15,3 +15,4 @@ References:
 
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 4   0395    https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
+4   1316    https://leetcode.com/problems/distinct-echo-substrings/

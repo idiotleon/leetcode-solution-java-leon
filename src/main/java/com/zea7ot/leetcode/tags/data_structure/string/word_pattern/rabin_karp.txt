@@ -11,3 +11,15 @@ References:
 4   0972    https://leetcode.com/problems/equal-rational-numbers/
 
 5   1044    https://leetcode.com/problems/longest-duplicate-substring/
+
+
+
+# Rolling Hash
+
+4   1316    https://leetcode.com/problems/distinct-echo-substrings/
+
+
+
+# Rolling Hash
+
+4   1316    https://leetcode.com/problems/distinct-echo-substrings/
