@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/tree-diameter/
  * 
- * Time Complexity:     O(N)
+ * Time Complexity:     O(2 * N) ~ O(N)
  * Space Complexity:    O(N)
  * 
  * References:
@@ -40,7 +40,7 @@ public class SolutionApproach0BFS {
         int[] distances = new int[N + 1];
         Arrays.fill(distances, -1);
 
-        Deque<Integer> queue = new ArrayDeque<Integer>();
+        Deque<Integer> queue = new ArrayDeque<>();
         queue.offer(start);
         distances[start] = 0;
 
@@ -70,10 +70,10 @@ public class SolutionApproach0BFS {
 
     private List<List<Integer>> buildGraph(int[][] edges) {
         final int N = edges.length;
-        List<List<Integer>> graph = new ArrayList<List<Integer>>();
+        List<List<Integer>> graph = new ArrayList<>();
         // since it is a "tree", all nodes are connected
         for (int i = 0; i < N + 1; ++i)
-            graph.add(new ArrayList<Integer>());
+            graph.add(new ArrayList<>());
 
         for (int[] edge : edges) {
             int u = edge[0], v = edge[1];

@@ -6,3 +6,14 @@ References:
 ### Factors
 
 3   1201    https://leetcode.com/problems/ugly-number-iii/
+
+
+
+## Greatest Common Divisor
+
+2   1071    https://leetcode.com/problems/greatest-common-divisor-of-strings/
+
+
+
+## Least Common Multiple
+

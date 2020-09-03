@@ -1,13 +1,13 @@
 /**
  * https://leetcode.com/problems/linked-list-in-binary-tree/
  * 
- * Time Complexity:     O(M + N)
- *  M, amount of nodes of the linked list
+ * Time Complexity:     O(L + N) ~ O(max(L, N))
+ *  L, amount of nodes of the linked list
  *  N, amount of nodes of the tree
  * 
- * Space Complexity:    O(H + M)
+ * Space Complexity:    O(H + L) ~ O(max(H, L))
  *  H, height of the tree
- *  M, amount of nodes of the linked list
+ *  L, amount of nodes of the linked list
  * 
  * References:
  *  https://leetcode.com/problems/linked-list-in-binary-tree/discuss/535370/Java-KMP-Search-O(m%2Bn)-Clean-code
@@ -22,37 +22,44 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0KMPAlgorithm {
     public boolean isSubPath(ListNode head, TreeNode root) {
-        int[] needle = toArray(head);
-        int[] kmpTable = getKMPTable(needle);
-        return kmpSearch(root, 0, kmpTable, needle);
+        int[] pattern = toArray(head);
+        final int[] KMP = getKMPTable(pattern);
+        return kmpSearch(root, 0, KMP, pattern);
     }
-    
-    private boolean kmpSearch(TreeNode node, int j, int[] kmpTable, int[] needle){
-        if(j == needle.length) return true;
-        if(node == null) return false;
-        while(j > 0 && node.val != needle[j]) j = kmpTable[j - 1];
-        if(node.val == needle[j]) j++;
-        return kmpSearch(node.left, j, kmpTable, needle) || kmpSearch(node.right, j, kmpTable, needle);
-    }
-    
-    private int[] getKMPTable(int[] pattern){
+
+    private boolean kmpSearch(TreeNode node, int idx, final int[] KMP, int[] pattern) {
         final int N = pattern.length;
-        int[] kmpTable = new int[N];
-        for(int i = 1, j = 0; i < N; i++){
-            while(j > 0 && pattern[i] != pattern[j]) j = kmpTable[j - 1];
-            if(pattern[i] == pattern[j]) kmpTable[i] = ++j;
-        }
-        
-        return kmpTable;
+        if (idx == N)
+            return true;
+        if (node == null)
+            return false;
+        while (idx > 0 && node.val != pattern[idx])
+            idx = KMP[idx - 1];
+        if (node.val == pattern[idx])
+            ++idx;
+        return kmpSearch(node.left, idx, KMP, pattern) || kmpSearch(node.right, idx, KMP, pattern);
     }
-    
-    private int[] toArray(ListNode head){
-        List<Integer> list = new ArrayList<Integer>();
-        while(head != null){
+
+    private int[] getKMPTable(int[] pattern) {
+        final int N = pattern.length;
+        final int[] KMP = new int[N];
+        for (int i = 1, j = 0; i < N; i++) {
+            while (j > 0 && pattern[i] != pattern[j])
+                j = KMP[j - 1];
+            if (pattern[i] == pattern[j])
+                KMP[i] = ++j;
+        }
+
+        return KMP;
+    }
+
+    private int[] toArray(ListNode head) {
+        List<Integer> list = new ArrayList<>();
+        while (head != null) {
             list.add(head.val);
             head = head.next;
         }
-        
+
         return list.stream().mapToInt(i -> i).toArray();
     }
 }
