@@ -18,6 +18,7 @@ References:
 
 3   0220    https://leetcode.com/problems/contains-duplicate-iii/
 3   0680    https://leetcode.com/problems/valid-palindrome-ii/
+3   0763    https://leetcode.com/problems/partition-labels/description/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
