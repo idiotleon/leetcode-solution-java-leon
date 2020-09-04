@@ -5,64 +5,45 @@
  * Space Complexity:    O(L)
  * 
  * References:
- *  https://leetcode.com/problems/distinct-echo-substrings/discuss/492704/Easy100-Sliding-Window-Rolling-Counter
+ *  https://leetcode.com/problems/distinct-echo-substrings/discuss/477217/Java-Brute-force-and-Hash-Solution-Clean-code/426033
+ *  https://leetcode.com/problems/distinct-echo-substrings/discuss/477217/Java-Brute-force-and-Hash-Solution-Clean-code
  */
 package com.zea7ot.leetcode.lvl4.lc1316;
 
-import java.math.BigInteger;
 import java.util.HashSet;
-import java.util.Random;
 import java.util.Set;
 
 public class SolutionApproach0RollingHash {
-    public int distinctEchoSubstrings(String text) {
-        // sanity check
-        if (text == null || text.isEmpty())
-            return 0;
+    private static final long BASE = 29L;
+    private static final long MOD = (long) 1e9 + 7;
 
+    public int distinctEchoSubstrings(String text) {
+        final Set<Long> SET = new HashSet<>();
         final int L = text.length();
         final char[] CHS = text.toCharArray();
 
-        final int RADIX = 256;
-        final long PRIME = calculateRandomPrime();
         final long[] HASHES = new long[L + 1];
         final long[] POWERS = new long[L + 1];
         POWERS[0] = 1;
+
         for (int i = 1; i <= L; ++i) {
-            HASHES[i] = (HASHES[i - 1] * RADIX + CHS[i - 1]) % PRIME;
-            POWERS[i] = (POWERS[i - 1] * RADIX) % PRIME;
+            HASHES[i] = (HASHES[i - 1] * BASE + CHS[i - 1]) % MOD;
+            POWERS[i] = POWERS[i - 1] * BASE % MOD;
         }
 
-        final Set<Long> SET = new HashSet<>();
-
-        for (int len = 1; len <= L / 2; ++len) {
-            int lo = 0, hi = len;
-            int count = 0;
-            while (lo < L - len) {
-                if (CHS[lo] == CHS[hi])
-                    ++count;
-                else
-                    count = 0;
-
-                if (count == len) {
-                    SET.add(getHash(lo - len + 1, lo + 1, HASHES, POWERS, PRIME));
-                    --count;
-                }
-
-                ++hi;
-                ++lo;
+        for (int i = 0; i < L; ++i)
+            for (int len = 2; i + len <= L; len += 2) {
+                int mid = i + len / 2;
+                long hash1 = getHash(i, mid, HASHES, POWERS);
+                long hash2 = getHash(mid, i + len, HASHES, POWERS);
+                if (hash1 == hash2)
+                    SET.add(hash1);
             }
-        }
 
         return SET.size();
     }
 
-    private long getHash(int lo, int hi, final long[] HASHES, final long[] POWERS, final long PRIME) {
-        return (HASHES[hi] + PRIME - HASHES[lo] * POWERS[hi - lo] % PRIME) % PRIME;
-    }
-
-    private long calculateRandomPrime() {
-        BigInteger prime = BigInteger.probablePrime(31, new Random());
-        return prime.longValue();
+    private long getHash(int lo, int hi, final long[] HASHES, final long[] POWERS) {
+        return (HASHES[hi] - HASHES[lo] * POWERS[hi - lo] % MOD + MOD) % MOD;
     }
 }
