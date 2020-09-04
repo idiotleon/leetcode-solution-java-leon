@@ -21,6 +21,7 @@ References:
 3   0731    https://leetcode.com/problems/my-calendar-ii/
 3   0743    https://leetcode.com/problems/network-delay-time/
 3   0758    https://leetcode.com/problems/bold-words-in-string/
+3   0763    https://leetcode.com/problems/partition-labels/description/
 3   0775    https://leetcode.com/problems/global-and-local-inversions/
 3   0787    https://leetcode.com/problems/cheapest-flights-within-k-stops/
 3   0957    https://leetcode.com/problems/prison-cells-after-n-days/

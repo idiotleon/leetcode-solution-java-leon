@@ -1,3 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Greedy
+
 2   1375    https://leetcode.com/problems/bulb-switcher-iii/
 
 3   0763    https://leetcode.com/problems/partition-labels/description/

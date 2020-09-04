@@ -15,7 +15,7 @@ References:
 
 
 
-### Lowest Common Ancestor
+## Lowest Common Ancestor
 
 3   0235    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 3   0236    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/

@@ -15,12 +15,12 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class SolutionApproach0DFS {
+public class SolutionApproach0DFSRecursive {
     public List<String> crawl(String startUrl, FakeHtmlParser htmlParser) {
-        String hostname = getHostname(startUrl);
+        final String HOST_NAME = parseHostname(startUrl);
         Set<String> seen = new HashSet<>();
         seen.add(startUrl);
-        dfs(startUrl, hostname, htmlParser, seen);
+        dfs(startUrl, HOST_NAME, htmlParser, seen);
         return new ArrayList<>(seen);
     }
 
@@ -32,7 +32,7 @@ public class SolutionApproach0DFS {
         }
     }
 
-    private String getHostname(String url) {
+    private String parseHostname(String url) {
         return url.split("/")[2];
     }
 }

@@ -8,3 +8,8 @@ References:
 
 3   0582    https://leetcode.com/problems/kill-process/
 3   1522    https://leetcode.com/problems/diameter-of-n-ary-tree/
+
+4   0428    https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/
+
+
+-1  1516    https://leetcode.com/problems/move-sub-tree-of-n-ary-tree/
