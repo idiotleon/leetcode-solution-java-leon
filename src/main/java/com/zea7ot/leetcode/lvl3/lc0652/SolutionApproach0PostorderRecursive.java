@@ -16,7 +16,7 @@ import java.util.Map;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0Postorder {
+public class SolutionApproach0PostorderRecursive {
     public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
         List<TreeNode> ans = new ArrayList<TreeNode>();
         // sanity check
