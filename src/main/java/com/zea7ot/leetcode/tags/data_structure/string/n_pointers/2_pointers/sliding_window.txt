@@ -7,6 +7,7 @@ References:
 # Sliding Window:
 
 2   0003    https://leetcode.com/problems/longest-substring-without-repeating-characters/
+2   0567    https://leetcode.com/problems/permutation-in-string/
 
 3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/description/
@@ -34,6 +35,8 @@ String - Longest vs Shortest
 
 
 # Rolling Hash
+
+2   0567    https://leetcode.com/problems/permutation-in-string/
 
 4   1316    https://leetcode.com/problems/distinct-echo-substrings/
 
