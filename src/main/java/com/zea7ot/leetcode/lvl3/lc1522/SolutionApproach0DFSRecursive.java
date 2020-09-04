@@ -11,21 +11,21 @@ package com.zea7ot.leetcode.lvl3.lc1522;
 
 import com.zea7ot.utils.data_structure.tree.NaryTreeNode;
 
-public class SolutionApproach0DFS {
-    private int maxDiameter = 0;
+public class SolutionApproach0DFSRecursive {
 
     public int diameter(NaryTreeNode root) {
-        return dfs(root, true);
+        int[] maxDiameter = { 0 };
+        return dfs(root, true, maxDiameter);
     }
 
-    public int dfs(NaryTreeNode node, boolean isRoot) {
+    private int dfs(NaryTreeNode node, boolean isRoot, int[] maxDiameter) {
         int maxDepth = 0;
         for (NaryTreeNode child : node.children) {
-            int depth = 1 + dfs(child, false);
-            maxDiameter = Math.max(maxDiameter, maxDepth + depth);
+            int depth = 1 + dfs(child, false, maxDiameter);
+            maxDiameter[0] = Math.max(maxDiameter[0], maxDepth + depth);
             maxDepth = Math.max(maxDepth, depth);
         }
 
-        return isRoot ? maxDiameter : maxDepth;
+        return isRoot ? maxDiameter[0] : maxDepth;
     }
 }

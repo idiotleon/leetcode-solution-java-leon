@@ -19,26 +19,25 @@ import java.util.Set;
 public class SolutionApproach0BFS {
     public List<String> crawl(String startUrl, FakeHtmlParser htmlParser) {
         Set<String> seen = new HashSet<>();
-        String hostname = getHostname(startUrl);
+        final String HOST_NAME = parseHostName(startUrl);
 
         Deque<String> queue = new ArrayDeque<>();
         queue.offer(startUrl);
         seen.add(startUrl);
 
         while (!queue.isEmpty()) {
-            String top = queue.poll();
-            for (String url : htmlParser.getUrls(top)) {
-                if (url.contains(hostname) && !seen.contains(url)) {
-                    queue.offer(url);
-                    seen.add(url);
-                }
+            String cur = queue.poll();
+            for (String url : htmlParser.getUrls(cur)) {
+                if (!url.contains(HOST_NAME) || !seen.add(url))
+                    continue;
+                queue.offer(url);
             }
         }
 
         return new ArrayList<>(seen);
     }
 
-    private String getHostname(String url) {
+    private String parseHostName(String url) {
         return url.split("/")[2];
     }
 }
