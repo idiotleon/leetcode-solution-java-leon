@@ -17,3 +17,18 @@ References:
 4   1316    https://leetcode.com/problems/distinct-echo-substrings/
 
 5   0214    https://leetcode.com/problems/shortest-palindrome/
+
+
+
+### Rolling Hash
+
+2   0567    https://leetcode.com/problems/permutation-in-string/
+
+4   1316    https://leetcode.com/problems/distinct-echo-substrings/
+
+5   0214    https://leetcode.com/problems/shortest-palindrome/
+5   1044    https://leetcode.com/problems/longest-duplicate-substring/
+
+
+
+### Sliding Window
