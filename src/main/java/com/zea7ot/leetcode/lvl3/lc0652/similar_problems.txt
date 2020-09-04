@@ -3,6 +3,25 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
+### Serialization
+
+3   0449    https://leetcode.com/problems/serialize-and-deserialize-bst/
+3   0652    https://leetcode.com/problems/find-duplicate-subtrees/
+
+4   0297    https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+4   0428    https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/
+
+
+
+### Deserialization
+
+3   0449    https://leetcode.com/problems/serialize-and-deserialize-bst/
+
+4   0297    https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+4   0428    https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/
+
+
+
 ### Subtree
 
 2   0100    https://leetcode.com/problems/same-tree/

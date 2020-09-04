@@ -5,7 +5,7 @@
  * Space Complexity:    O(N) + O(H) ~ O(N)
  * 
  * References:
- *  https://leetcode.com/problems/find-duplicate-subtrees/discuss/106011/Java-Concise-Postorder-Traversal-Solution
+ *  https://leetcode.com/problems/find-duplicate-subtrees/discuss/106055/C%2B%2B-Java-Clean-Code-with-Explanation
  *  https://leetcode.com/problems/find-duplicate-subtrees/discuss/106016/O(n)-time-and-space-lots-of-analysis
  * 
  *  whey the inorder traversal doest not work?
@@ -20,7 +20,7 @@ import java.util.Map;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0PostorderRecursive {
+public class SolutionApproach0PostorderRecursive1 {
     private static final String SEPARATOR = "#";
     private static final String SPLITTER = ",";
 
@@ -30,23 +30,24 @@ public class SolutionApproach0PostorderRecursive {
         if (root == null)
             return ans;
 
-        Map<String, Integer> freq = new HashMap<>();
-        postorder(root, freq, ans);
+        Map<String, List<TreeNode>> map = new HashMap<>();
+        postorder(root, map);
+
+        for (Map.Entry<String, List<TreeNode>> entry : map.entrySet())
+            if (entry.getValue().size() > 1)
+                ans.add(entry.getValue().get(0));
+
         return ans;
     }
 
-    private String postorder(TreeNode node, Map<String, Integer> freq, List<TreeNode> res) {
+    private String postorder(TreeNode node, Map<String, List<TreeNode>> map) {
         if (node == null)
             return SEPARATOR;
 
-        String serial = node.val + SPLITTER + postorder(node.left, freq, res) + SPLITTER
-                + postorder(node.right, freq, res);
+        String serial = node.val + SPLITTER + postorder(node.left, map) + SPLITTER + postorder(node.right, map);
 
-        // only to add the node when met for the first time
-        if (freq.getOrDefault(serial, 0) == 1)
-            res.add(node);
-
-        freq.put(serial, freq.getOrDefault(serial, 0) + 1);
+        map.putIfAbsent(serial, new ArrayList<>());
+        map.get(serial).add(node);
 
         return serial;
     }
