@@ -9,29 +9,31 @@ package com.zea7ot.leetcode.lvl3.lc1123;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproachDFSBottomUp1 {
+public class SolutionApproach0PostorderRecursive1 {
     public TreeNode lcaDeepestLeaves(TreeNode root) {
         TreeNodeWithDepth node = getLCA(root, 0);
         return node.node;
     }
-    
-    private TreeNodeWithDepth getLCA(TreeNode node, int depth){
-        if(node == null) return new TreeNodeWithDepth(node, depth);
-        
+
+    private TreeNodeWithDepth getLCA(TreeNode node, int depth) {
+        if (node == null)
+            return new TreeNodeWithDepth(node, depth);
+
         TreeNodeWithDepth left = getLCA(node.left, depth + 1);
         TreeNodeWithDepth right = getLCA(node.right, depth + 1);
-        
-        if(left.depth == right.depth){
+
+        if (left.depth == right.depth) {
             return new TreeNodeWithDepth(node, left.depth);
-        }else{
+        } else {
             return left.depth > right.depth ? left : right;
         }
     }
-    
-    private class TreeNodeWithDepth{
+
+    private class TreeNodeWithDepth {
         TreeNode node;
         int depth;
-        TreeNodeWithDepth(TreeNode node, int depth){
+
+        TreeNodeWithDepth(TreeNode node, int depth) {
             this.node = node;
             this.depth = depth;
         }

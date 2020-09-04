@@ -18,25 +18,21 @@ import java.util.Set;
 public class SolutionApproach0DFS {
     public List<String> crawl(String startUrl, FakeHtmlParser htmlParser) {
         String hostname = getHostname(startUrl);
-        Set<String> seen = new HashSet<String>();
+        Set<String> seen = new HashSet<>();
         seen.add(startUrl);
         dfs(startUrl, hostname, htmlParser, seen);
-        return new ArrayList<String>(seen);
+        return new ArrayList<>(seen);
     }
-    
-    private void dfs(String curUrl, 
-                     String hostname, 
-                     FakeHtmlParser htmlParser, 
-                     Set<String> seen){
-        
-        for(String url : htmlParser.getUrls(curUrl)){
-            if(url.contains(hostname) && seen.add(url)){
+
+    private void dfs(String curUrl, String hostname, FakeHtmlParser htmlParser, Set<String> seen) {
+        for (String url : htmlParser.getUrls(curUrl)) {
+            if (url.contains(hostname) && seen.add(url)) {
                 dfs(url, hostname, htmlParser, seen);
             }
         }
     }
-    
-    private String getHostname(String url){
+
+    private String getHostname(String url) {
         return url.split("/")[2];
     }
 }

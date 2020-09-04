@@ -8,7 +8,7 @@ package com.zea7ot.leetcode.lvl3.lc0235;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0Recursion {
+public class SolutionApproach0DFSRecursive1 {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null)
             return null;

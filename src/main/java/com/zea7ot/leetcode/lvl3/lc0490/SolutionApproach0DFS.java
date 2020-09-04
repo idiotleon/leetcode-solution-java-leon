@@ -9,8 +9,6 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0490;
 
-import java.util.Arrays;
-
 public class SolutionApproach0DFS {
     private static final int[] DIRS = { 0, -1, 0, 1, 0 };
 
@@ -22,14 +20,13 @@ public class SolutionApproach0DFS {
         final int NR = maze.length, NC = maze[0].length;
         boolean[][] visited = new boolean[NR][NC];
 
-        return dfs(maze, start, destination, visited);
+        return dfs(start[0], start[1], visited, maze, destination);
     }
 
-    private boolean dfs(int[][] maze, int[] pos, int[] destination, boolean[][] visited) {
-        int row = pos[0], col = pos[1];
+    private boolean dfs(int row, int col, boolean[][] visited, int[][] maze, int[] destination) {
         if (visited[row][col])
             return false;
-        if (Arrays.equals(pos, destination))
+        if (row == destination[0] && col == destination[1])
             return true;
 
         visited[row][col] = true;
@@ -40,7 +37,7 @@ public class SolutionApproach0DFS {
                 c += DIRS[d + 1];
             }
 
-            if (dfs(maze, new int[] { r, c }, destination, visited))
+            if (dfs(r, c, visited, maze, destination))
                 return true;
         }
 
