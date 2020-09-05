@@ -23,4 +23,5 @@ References:
 
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
+4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
 4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
