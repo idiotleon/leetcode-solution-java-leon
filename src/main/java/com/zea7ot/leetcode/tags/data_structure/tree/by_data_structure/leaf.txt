@@ -6,6 +6,10 @@ References:
 ### Leaf
 ## Deepest Leaves
 
+2   0404    https://leetcode.com/problems/sum-of-left-leaves/
+2   1022    https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
+2   1302    https://leetcode.com/problems/deepest-leaves-sum/
+
 3   0865    https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 

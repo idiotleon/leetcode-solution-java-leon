@@ -5,4 +5,4 @@ References:
 
 ### Depth First Search
 ## Tree
-# BFS but not DFS
+# BFS over DFS

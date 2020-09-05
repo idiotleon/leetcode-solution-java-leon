@@ -14,30 +14,32 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 public class SolutionApproach0Preorder {
     public int deepestLeavesSum(TreeNode root) {
         // sanity check
-        if(root == null) return 0;
+        if (root == null)
+            return 0;
 
-        int[] maxDepth = {0};
-        int[] sum = {0};
-        preorder(root, maxDepth, sum, 0);
-        
+        int[] deepest = { 0 };
+        int[] sum = { 0 };
+        preorder(root, 0, deepest, sum);
+
         return sum[0];
     }
-    
-    private void preorder(TreeNode node, int[] maxDepth, int[] sum, int curDepth){
-        if(node == null) return;
-        
-        if(node.left == null && node.right == null){
-            if(curDepth == maxDepth[0]){
+
+    private void preorder(TreeNode node, int depth, int[] deepest, int[] sum) {
+        if (node == null)
+            return;
+
+        if (node.left == null && node.right == null) {
+            if (depth == deepest[0]) {
                 sum[0] += node.val;
-            }else if(curDepth > maxDepth[0]){
+            } else if (depth > deepest[0]) {
                 sum[0] = node.val;
-                maxDepth[0] = curDepth;
+                deepest[0] = depth;
             }
             // curDepth < maxDepth[0]
             // else return;
         }
-        
-        preorder(node.left, maxDepth, sum, curDepth + 1);
-        preorder(node.right, maxDepth, sum, curDepth + 1);
+
+        preorder(node.left, depth + 1, deepest, sum);
+        preorder(node.right, depth + 1, deepest, sum);
     }
 }

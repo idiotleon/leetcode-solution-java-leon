@@ -20,21 +20,32 @@ public class SolutionApproach0BFS {
             return 0;
 
         int sum = 0;
-        Deque<TreeNode> queue = new ArrayDeque<TreeNode>();
+        Deque<TreeNode> queue = new ArrayDeque<>();
         queue.offer(root);
 
         while (!queue.isEmpty()) {
-            TreeNode node = queue.poll();
+            final int SIZE = queue.size();
 
-            if (node.left != null && node.left.left == null && node.left.right == null)
-                sum += node.left.val;
+            for (int i = 0; i < SIZE; ++i) {
+                TreeNode node = queue.poll();
 
-            if (node.left != null)
-                queue.offer(node.left);
-            if (node.right != null)
-                queue.offer(node.right);
+                if (isLeaf(node.left))
+                    sum += node.left.val;
+
+                if (node.left != null)
+                    queue.offer(node.left);
+
+                if (node.right != null)
+                    queue.offer(node.right);
+            }
         }
 
         return sum;
+    }
+
+    private boolean isLeaf(TreeNode node) {
+        if (node == null)
+            return false;
+        return node.left == null && node.right == null;
     }
 }
