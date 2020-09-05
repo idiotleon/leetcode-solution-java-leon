@@ -5,6 +5,8 @@ References:
 
 ### Word Series
 
+2   0433    https://leetcode.com/problems/minimum-genetic-mutation/
+
 4   0079    https://leetcode.com/problems/word-search/
 4   0126    https://leetcode.com/problems/word-ladder-ii/
 4   0127    https://leetcode.com/problems/word-ladder/
