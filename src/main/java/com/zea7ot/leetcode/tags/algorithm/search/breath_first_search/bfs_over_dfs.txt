@@ -4,6 +4,6 @@ References:
 
 
 ### Breadth First Search
-# BFS but not DFS
+# BFS over DFS
 
 4   0317    https://leetcode.com/problems/shortest-distance-from-all-buildings/
