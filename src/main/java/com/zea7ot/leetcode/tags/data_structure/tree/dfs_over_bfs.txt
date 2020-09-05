@@ -7,6 +7,8 @@ References:
 ## Tree
 # DFS over BFS
 
+1   0872    https://leetcode.com/problems/leaf-similar-trees/
+
 2   0366    https://leetcode.com/problems/find-leaves-of-binary-tree/
 2   1022    https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/

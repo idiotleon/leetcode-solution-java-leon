@@ -6,6 +6,8 @@ References:
 ### Leaf
 ## Deepest Leaves
 
+1   0872    https://leetcode.com/problems/leaf-similar-trees/
+
 2   0366    https://leetcode.com/problems/find-leaves-of-binary-tree/
 2   0404    https://leetcode.com/problems/sum-of-left-leaves/
 2   1022    https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/

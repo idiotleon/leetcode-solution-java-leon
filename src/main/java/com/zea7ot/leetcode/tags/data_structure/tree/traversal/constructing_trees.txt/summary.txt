@@ -5,8 +5,10 @@ References:
 
 ### Tree
 ## Constructing Trees
+# Summary
 
 1   0700    https://leetcode.com/problems/search-in-a-binary-search-tree/
+1   0872    https://leetcode.com/problems/leaf-similar-trees/
 
 2   0617    https://leetcode.com/problems/merge-two-binary-trees/
 2   0701    https://leetcode.com/problems/insert-into-a-binary-search-tree/
@@ -31,6 +33,8 @@ References:
 
 
 ## Serialization
+
+1   0872    https://leetcode.com/problems/leaf-similar-trees/
 
 3   0449    https://leetcode.com/problems/serialize-and-deserialize-bst/
 3   0652    https://leetcode.com/problems/find-duplicate-subtrees/

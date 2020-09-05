@@ -6,6 +6,8 @@ References:
 ### Depth First Search
 # Preorder Traversal
 
+1   0872    https://leetcode.com/problems/leaf-similar-trees/
+
 2   0589    https://leetcode.com/problems/n-ary-tree-preorder-traversal/
 2   0637    https://leetcode.com/problems/average-of-levels-in-binary-tree/
 2   1022    https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
