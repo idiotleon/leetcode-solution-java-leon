@@ -6,6 +6,7 @@ References:
 ### Depth First Search
 # Postorder Traversal
 
+2   0366    https://leetcode.com/problems/find-leaves-of-binary-tree/
 2   0563    https://leetcode.com/problems/binary-tree-tilt/
 2   0590    https://leetcode.com/problems/n-ary-tree-postorder-traversal/
 2   0669    https://leetcode.com/problems/trim-a-binary-search-tree/

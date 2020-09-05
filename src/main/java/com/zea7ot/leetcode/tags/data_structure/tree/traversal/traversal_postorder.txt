@@ -6,6 +6,7 @@ References:
 ### Tree
 # Postorder Traversal
 
+2   0366    https://leetcode.com/problems/find-leaves-of-binary-tree/
 2   0563    https://leetcode.com/problems/binary-tree-tilt/
 2   0669    https://leetcode.com/problems/trim-a-binary-search-tree/
 2   0814    https://leetcode.com/problems/binary-tree-pruning/

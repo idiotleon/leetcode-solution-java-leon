@@ -35,6 +35,7 @@ References:
 3   0173    https://leetcode.com/problems/binary-search-tree-iterator/
 3   0285    https://leetcode.com/problems/inorder-successor-in-bst/3   0437    https://leetcode.com/problems/path-sum-iii/
 3   0333    https://leetcode.com/problems/largest-bst-subtree/
+2   0366    https://leetcode.com/problems/find-leaves-of-binary-tree/
 3   0437    https://leetcode.com/problems/path-sum-iii/
 3   0450    https://leetcode.com/problems/delete-node-in-a-bst/
 3   0508    https://leetcode.com/problems/most-frequent-subtree-sum/
