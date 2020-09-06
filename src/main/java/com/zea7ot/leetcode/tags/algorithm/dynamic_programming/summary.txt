@@ -110,6 +110,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   1269    https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
 4   1278    https://leetcode.com/problems/palindrome-partitioning-iii/
 4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
+4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
 4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 4   1316    https://leetcode.com/problems/distinct-echo-substrings/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/

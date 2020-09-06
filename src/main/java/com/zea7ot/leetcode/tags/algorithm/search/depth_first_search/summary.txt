@@ -184,12 +184,14 @@ References:
 4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
 4   1216    https://leetcode.com/problems/valid-palindrome-iii/
 4   1125    https://leetcode.com/problems/smallest-sufficient-team/
+4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
 4   1269    https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
 4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 4   1361    https://leetcode.com/problems/validate-binary-tree-nodes/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 4   1537    https://leetcode.com/problems/get-the-maximum-score/
+4   1553    https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
 
 5   0037    https://leetcode.com/problems/sudoku-solver/
 5   0140    https://leetcode.com/problems/word-break-ii/
@@ -205,7 +207,6 @@ References:
 5   1203    https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
 5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
 5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
-4   1553    https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
 
 6   0488    https://leetcode.com/problems/zuma-game/
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/

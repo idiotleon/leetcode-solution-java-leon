@@ -3,8 +3,8 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
     
 
-### Tree
-# Dynamic Programming
+### Dynamic Programming
+# Tree
 
 3   0096    https://leetcode.com/problems/unique-binary-search-trees/
 

@@ -82,5 +82,6 @@ References:
 4   0968    https://leetcode.com/problems/binary-tree-cameras/
 4   0979    https://leetcode.com/problems/distribute-coins-in-binary-tree/
 4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
+4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
 4   1361    https://leetcode.com/problems/validate-binary-tree-nodes/
 
