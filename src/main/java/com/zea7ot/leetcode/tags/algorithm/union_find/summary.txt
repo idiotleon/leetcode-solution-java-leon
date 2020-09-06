@@ -29,5 +29,6 @@ References:
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 4   0952    https://leetcode.com/problems/largest-component-size-by-common-factor/
 4   1361    https://leetcode.com/problems/validate-binary-tree-nodes/
+4   1579    https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/
 
 5   0685    https://leetcode.com/problems/redundant-connection-ii/

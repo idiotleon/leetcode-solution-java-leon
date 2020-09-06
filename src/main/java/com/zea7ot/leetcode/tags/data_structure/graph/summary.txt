@@ -36,5 +36,6 @@ References:
 4   0815    https://leetcode.com/problems/bus-routes/
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   1361    https://leetcode.com/problems/validate-binary-tree-nodes/
+4   1579    https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/
 
 5   1203    https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
