@@ -75,9 +75,6 @@ public class SolutionApproach0BFS {
         if (node == null)
             return false;
 
-        if (node.left == null && node.right == null)
-            return true;
-
-        return false;
+        return node.left == null && node.right == null;
     }
 }
