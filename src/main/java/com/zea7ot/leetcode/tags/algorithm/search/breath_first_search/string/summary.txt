@@ -8,6 +8,7 @@ References:
 # Summary
 
 2   0017    https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+2   0433    https://leetcode.com/problems/minimum-genetic-mutation/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/

@@ -6,6 +6,8 @@ References:
 ### Tree
 # Traversal - Inorder
 
+1   0872    https://leetcode.com/problems/leaf-similar-trees/
+
 2   0501    https://leetcode.com/problems/find-mode-in-binary-search-tree/
 2   1305    https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
 
@@ -21,4 +23,6 @@ References:
 
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
+4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
+4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/

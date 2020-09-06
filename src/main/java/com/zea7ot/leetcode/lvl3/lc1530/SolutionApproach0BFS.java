@@ -18,67 +18,87 @@ import java.util.Set;
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0BFS {
-    private int count;
-    
     public int countPairs(TreeNode root, int distance) {
         // sanity check
-        if(root == null || (root.left == null && root.right == null)) return 0;
-        
+        if (root == null || (root.left == null && root.right == null))
+            return 0;
+
         // step 1:
-		//  1. to find all leaves
-		//  2. to build up the map `toParent`, kind of turning a tree into an undirected graph.
-		//  To turn a tree into a real undirected is technically feasible but not recommended or necessary because of the extra efforts and code
-        Map<TreeNode, TreeNode> toParent = new HashMap<TreeNode, TreeNode>();
-        Set<TreeNode> leaves = new HashSet<TreeNode>();
-        dfs(root, toParent, leaves);
-        
-        this.count = 0;
-        
+        // 1. to find all leaves
+        // 2. to build up the map `toParent`, kind of turning a tree into an undirected
+        // graph.
+        // To turn a tree into a real undirected is technically feasible but not
+        // recommended or necessary because of the extra efforts and code
+        Map<TreeNode, TreeNode> map = new HashMap<>();
+        Set<TreeNode> leaves = new HashSet<>();
+        dfs(root, map, leaves);
+
+        int[] count = { 0 };
+
         // step 2:
         // to BFS with each `leaf` to find all eligible/good nodes
-        // this remains to be optimized because of doubled/overlapped costs between each node in one pair
-        for(TreeNode leaf : leaves)
-            bfs(leaf, toParent, leaves, distance);
-        
-        return count / 2;
+        // this remains to be optimized because of doubled/overlapped costs between each
+        // node in one pair
+        for (TreeNode leaf : leaves)
+            bfs(leaf, map, leaves, distance + 1, count);
+
+        return count[0] / 2;
     }
-    
-    private void bfs(TreeNode node, Map<TreeNode, TreeNode> toParent, Set<TreeNode> leaves, int distance){
-        Set<TreeNode> visited = new HashSet<TreeNode>();
-        Deque<TreeNode> queue = new ArrayDeque<TreeNode>();
+
+    private void bfs(TreeNode node, Map<TreeNode, TreeNode> map, Set<TreeNode> leaves, final int DISTANCE,
+            int[] count) {
+        Deque<TreeNode> queue = new ArrayDeque<>();
         queue.offer(node);
-        while(!queue.isEmpty()){
+
+        Set<TreeNode> seen = new HashSet<>();
+
+        int steps = 0;
+        while (!queue.isEmpty()) {
             final int SIZE = queue.size();
-            
-            for(int i = 0; i < SIZE; ++i){
-                TreeNode top = queue.poll();
-                if(!visited.add(top)) continue;
-                if(leaves.contains(top) && top != node) ++count;
-                
-                if(top.left != null) queue.offer(top.left);
-                if(top.right != null) queue.offer(top.right);
-                if(toParent.containsKey(top)) queue.offer(toParent.get(top));
+
+            for (int i = 0; i < SIZE; ++i) {
+                TreeNode cur = queue.poll();
+                if (!seen.add(cur))
+                    continue;
+
+                if (leaves.contains(cur) && cur != node)
+                    ++count[0];
+
+                if (cur.left != null)
+                    queue.offer(cur.left);
+
+                if (cur.right != null)
+                    queue.offer(cur.right);
+
+                if (map.containsKey(cur))
+                    queue.offer(map.get(cur));
             }
-            
-            if(--distance == -1) break;
+
+            if (++steps == DISTANCE)
+                break;
         }
     }
-    
-    private void dfs(TreeNode node, Map<TreeNode, TreeNode> toParent, Set<TreeNode> leaves){
-        if(isLeaf(node)) leaves.add(node);
-        
-        if(node.left != null){
-            toParent.put(node.left, node);
-            dfs(node.left, toParent, leaves);
-        }
-        
-        if(node.right != null){
-            toParent.put(node.right, node);
-            dfs(node.right, toParent, leaves);
-        }
+
+    private void dfs(TreeNode node, Map<TreeNode, TreeNode> map, Set<TreeNode> leaves) {
+        if (node == null)
+            return;
+
+        if (isLeaf(node))
+            leaves.add(node);
+
+        if (node.left != null)
+            map.put(node.left, node);
+
+        if (node.right != null)
+            map.put(node.right, node);
+
+        dfs(node.left, map, leaves);
+        dfs(node.right, map, leaves);
     }
-    
-    private boolean isLeaf(TreeNode node){
+
+    private boolean isLeaf(TreeNode node) {
+        if (node == null)
+            return false;
         return node.left == null && node.right == null;
     }
 }

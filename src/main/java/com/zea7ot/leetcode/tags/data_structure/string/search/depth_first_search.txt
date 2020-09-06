@@ -6,6 +6,7 @@ References:
 ### String
 # Depth First Search:
 
+2   0988    https://leetcode.com/problems/smallest-string-starting-from-leaf/
 2   1047    https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
 
 3   0247    https://leetcode.com/problems/strobogrammatic-number-ii/

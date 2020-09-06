@@ -22,6 +22,7 @@ References:
 3   0016    https://leetcode.com/problems/3sum-closest/
 3   0259    https://leetcode.com/problems/3sum-smaller/
 3   0611    https://leetcode.com/problems/valid-triangle-number/
+3   1577    https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/
 
 
 

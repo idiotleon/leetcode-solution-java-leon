@@ -11,21 +11,31 @@ package com.zea7ot.leetcode.lvl1.lc0872;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0DFS1 {
+public class SolutionApproach0PreorderRecursive {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         StringBuilder leaves1 = new StringBuilder();
+        preorder(root1, leaves1);
         StringBuilder leaves2 = new StringBuilder();
-        dfs(root1, leaves1);
-        dfs(root2, leaves2);
+        preorder(root2, leaves2);
+
         return leaves1.toString().equals(leaves2.toString());
     }
-    
-    private void dfs(TreeNode node, StringBuilder builder){
-        if(node == null) return;
-        if(node.left == null && node.right == null)
+
+    private void preorder(TreeNode node, StringBuilder builder) {
+        if (node == null)
+            return;
+
+        if (isLeaf(node))
             builder.append(String.valueOf(node.val) + "-");
-        
-        dfs(node.left, builder);
-        dfs(node.right, builder);
+
+        preorder(node.left, builder);
+        preorder(node.right, builder);
+    }
+
+    private boolean isLeaf(TreeNode node) {
+        if (node == null)
+            return false;
+
+        return node.left == null && node.right == null;
     }
 }

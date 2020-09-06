@@ -21,6 +21,7 @@ References:
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1498   https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
+3   1577    https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/
 
 4   0220    https://leetcode.com/problems/contains-duplicate-iii/
 4   0992    https://leetcode.com/problems/subarrays-with-k-different-integers/
@@ -31,3 +32,4 @@ References:
 # 3 Pointers
 
 3   0075    https://leetcode.com/problems/sort-colors/
+3   1577    https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/

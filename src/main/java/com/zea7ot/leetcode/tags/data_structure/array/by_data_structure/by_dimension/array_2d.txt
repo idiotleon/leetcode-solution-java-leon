@@ -43,6 +43,7 @@ References:
 3   0750    https://leetcode.com/problems/number-of-corner-rectangles/
 3   0764    https://leetcode.com/problems/largest-plus-sign/
 3   0802    https://leetcode.com/problems/find-eventual-safe-states/
+3   0835    https://leetcode.com/problems/image-overlap/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
 3   0935    https://leetcode.com/problems/knight-dialer/
@@ -118,5 +119,6 @@ https://en.wikipedia.org/wiki/Main_diagonal
 2   0832    https://leetcode.com/problems/flipping-an-image/
 
 3   0048    https://leetcode.com/problems/rotate-image/
+3   0835    https://leetcode.com/problems/image-overlap/
 
 4   0311    https://leetcode.com/problems/sparse-matrix-multiplication/

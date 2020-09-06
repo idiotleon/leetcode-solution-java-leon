@@ -16,5 +16,6 @@ References:
 4   0399    https://leetcode.com/problems/evaluate-division/
 4   0684    https://leetcode.com/problems/redundant-connection/
 4   1361    https://leetcode.com/problems/validate-binary-tree-nodes/
+4   1579    https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/
 
 5   0685    https://leetcode.com/problems/redundant-connection-ii/

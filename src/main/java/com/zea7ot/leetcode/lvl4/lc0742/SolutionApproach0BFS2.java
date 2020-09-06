@@ -23,55 +23,61 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 public class SolutionApproach0BFS2 {
     public int findClosestLeaf(TreeNode root, int k) {
         // sanity check
-        if(root.left == null && root.right == null) return root.val;
-        
+        if (root.left == null && root.right == null)
+            return root.val;
+
         // to build the graph
-        Map<Integer, List<TreeNode>> graph = new HashMap<Integer, List<TreeNode>>();
+        Map<TreeNode, List<TreeNode>> graph = new HashMap<TreeNode, List<TreeNode>>();
         Deque<TreeNode> queue = new ArrayDeque<TreeNode>();
+
         queue.offer(root);
         TreeNode start = null;
-        
-        while(!queue.isEmpty()){
+
+        while (!queue.isEmpty()) {
             TreeNode node = queue.poll();
-            graph.putIfAbsent(node.val, new ArrayList<TreeNode>());
-            
-            if(node.left != null){
-                graph.get(node.val).add(node.left);
-                graph.putIfAbsent(node.left.val, new ArrayList<TreeNode>());
-                graph.get(node.left.val).add(node);
+            graph.putIfAbsent(node, new ArrayList<TreeNode>());
+
+            if (node.left != null) {
+                graph.get(node).add(node.left);
+                graph.putIfAbsent(node.left, new ArrayList<TreeNode>());
+                graph.get(node.left).add(node);
                 queue.offer(node.left);
             }
-            
-            if(node.right != null){
-                graph.get(node.val).add(node.right);
-                graph.putIfAbsent(node.right.val, new ArrayList<TreeNode>());
-                graph.get(node.right.val).add(node);
+
+            if (node.right != null) {
+                graph.get(node).add(node.right);
+                graph.putIfAbsent(node.right, new ArrayList<TreeNode>());
+                graph.get(node.right).add(node);
                 queue.offer(node.right);
             }
-            
-            if(node.val == k) start = node;
+
+            if (node.val == k)
+                start = node;
         }
-        
+
         // to BFS
         queue.clear();
         queue.offer(start);
         Set<TreeNode> seen = new HashSet<TreeNode>();
         seen.add(start);
-        while(!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             TreeNode node = queue.poll();
-            
-            List<TreeNode> edges = graph.get(node.val);
-            if(edges.size() == 1 && node != root) return node.val;
-            
-            for(TreeNode edge : edges){
-                if(seen.contains(edge)) continue;
-                
-                if(graph.get(edge.val).size() == 1 && edge != root) return edge.val;
+
+            List<TreeNode> edges = graph.get(node);
+            if (edges.size() == 1 && node != root)
+                return node.val;
+
+            for (TreeNode edge : edges) {
+                if (seen.contains(edge))
+                    continue;
+
+                if (graph.get(edge).size() == 1 && edge != root)
+                    return edge.val;
                 queue.offer(edge);
                 seen.add(edge);
             }
         }
-        
+
         return root.val;
     }
 }
