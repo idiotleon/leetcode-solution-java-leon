@@ -5,7 +5,59 @@ References:
 
 ### Monotonic Stack
 
+2   0496    https://leetcode.com/problems/next-greater-element-i/
+
+3   0484    https://leetcode.com/problems/find-permutation/
+3   0503    https://leetcode.com/problems/next-greater-element-ii/
+3   0739    https://leetcode.com/problems/daily-temperatures/
+3   0901    https://leetcode.com/problems/online-stock-span/
+3   0962    https://leetcode.com/problems/maximum-width-ramp/
+3   1019    https://leetcode.com/problems/next-greater-node-in-linked-list/
+
+4   0042    https://leetcode.com/problems/trapping-rain-water/
+4   0084    https://leetcode.com/problems/largest-rectangle-in-histogram/
+4   0316    https://leetcode.com/problems/remove-duplicate-letters/
+4   0456    https://leetcode.com/problems/132-pattern/
+4   0768    https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
+4   0769    https://leetcode.com/problems/max-chunks-to-make-sorted/
+4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
+4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
+4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
+4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
+
+5   0085    https://leetcode.com/problems/maximal-rectangle/
+
+
 
 
 ### Leaf
+
+1   0872    https://leetcode.com/problems/leaf-similar-trees/
+
+2   0366    https://leetcode.com/problems/find-leaves-of-binary-tree/
+2   0404    https://leetcode.com/problems/sum-of-left-leaves/
+2   0988    https://leetcode.com/problems/smallest-string-starting-from-leaf/
+2   1022    https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
+2   1302    https://leetcode.com/problems/deepest-leaves-sum/
+2   1325    https://leetcode.com/problems/delete-leaves-with-a-given-value/
+2   1430    https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/
+
+3   0865    https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
+3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
+3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
+3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
+
+4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
+4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
+
+
+
+### Leaf
+## Deepest Leaves
+
+2   1302    https://leetcode.com/problems/deepest-leaves-sum/
+
+3   0865    https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
+3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
+
 
