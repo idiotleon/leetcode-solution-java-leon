@@ -11,6 +11,7 @@ References:
 
 2   1214    https://leetcode.com/problems/two-sum-bsts/
 2   1379    https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/
+2   1430    https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/
 
 3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 3   0173    https://leetcode.com/problems/binary-search-tree-iterator/
