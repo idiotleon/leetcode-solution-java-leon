@@ -12,6 +12,7 @@ References:
 2   0563    https://leetcode.com/problems/binary-tree-tilt/
 2   0669    https://leetcode.com/problems/trim-a-binary-search-tree/
 2   0814    https://leetcode.com/problems/binary-tree-pruning/
+2   0988    https://leetcode.com/problems/smallest-string-starting-from-leaf/
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 
 3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
