@@ -45,6 +45,7 @@ References:
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
+3   1577    https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/
 
 4   0018    https://leetcode.com/problems/4sum/
 4   0042    https://leetcode.com/problems/trapping-rain-water/
