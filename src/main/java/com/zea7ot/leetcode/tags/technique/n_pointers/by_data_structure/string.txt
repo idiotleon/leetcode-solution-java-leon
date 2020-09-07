@@ -17,6 +17,7 @@ References:
 2   0953    https://leetcode.com/problems/verifying-an-alien-dictionary/
 2   1578    https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/
 
+3   0150    https://leetcode.com/problems/evaluate-reverse-polish-notation/
 3   0484    https://leetcode.com/problems/find-permutation/
 3   0680    https://leetcode.com/problems/valid-palindrome-ii/
 3   0763    https://leetcode.com/problems/partition-labels/

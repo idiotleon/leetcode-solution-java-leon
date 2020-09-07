@@ -16,25 +16,33 @@ import java.util.Set;
 
 public class SolutionApproach0HashMap {
     public boolean wordPattern(String pattern, String str) {
+        final int L = pattern.length();
         String[] arr = str.split(" ");
-        Map<Character, String> map = new HashMap<Character, String>();
-        Set<String> used = new HashSet<String>();
-        
-        if(arr.length != pattern.length()) return false;
-        char[] chs = pattern.toCharArray();
-        for(int i = 0; i < arr.length; i++){
-            char ch = chs[i];
-            if(map.containsKey(ch)){
-                if(!map.get(ch).equals(arr[i])) return false;
-            }else{
+        final int N = arr.length;
+        // sanity check
+        if (N != L)
+            return false;
+
+        Map<Character, String> map = new HashMap<>();
+        final Set<String> SEEN = new HashSet<>();
+
+        final char[] CHS = pattern.toCharArray();
+        for (int i = 0; i < N; ++i) {
+            final char CH = CHS[i];
+            final String WORD = arr[i];
+
+            if (map.containsKey(CH)) {
+                if (!map.get(CH).equals(WORD))
+                    return false;
+            } else {
                 // str, represented by one pattern,
                 // cannot be represented by another one.
-                if(used.contains(arr[i])) return false;
-                map.put(ch, arr[i]);
-                used.add(arr[i]);
+                if (!SEEN.add(WORD))
+                    return false;
+                map.put(CH, WORD);
             }
         }
-        
+
         return true;
     }
 }

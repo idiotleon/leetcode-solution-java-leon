@@ -24,6 +24,7 @@ References:
 3   0080    https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
 3   0086    https://leetcode.com/problems/partition-list/
 3   0092    https://leetcode.com/problems/reverse-linked-list-ii/
+3   0150    https://leetcode.com/problems/evaluate-reverse-polish-notation/
 3   0238    https://leetcode.com/problems/product-of-array-except-self/
 3   0444    https://leetcode.com/problems/sequence-reconstruction/
 3   0484    https://leetcode.com/problems/find-permutation/
