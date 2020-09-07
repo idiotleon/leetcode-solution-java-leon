@@ -11,20 +11,23 @@ package com.zea7ot.leetcode.lvl3.lc1080;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0DFS1 {
+public class SolutionApproach0DFSRecursive1 {
     public TreeNode sufficientSubset(TreeNode root, int limit) {
         // sanity check
-        if(root == null) return null;
-        if(isLeaf(root))
+        if (root == null)
+            return null;
+        if (isLeaf(root))
             return root.val < limit ? null : root;
-        
+
         root.left = sufficientSubset(root.left, limit - root.val);
         root.right = sufficientSubset(root.right, limit - root.val);
         return isLeaf(root) ? null : root;
     }
-    
-    private boolean isLeaf(TreeNode node){
-        if(node == null) return false;
+
+    private boolean isLeaf(TreeNode node) {
+        if (node == null)
+            return false;
+            
         return node.left == null && node.right == null;
     }
 }

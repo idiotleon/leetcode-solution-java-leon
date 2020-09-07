@@ -8,3 +8,11 @@ References:
 # Insert a TreeNode
 
 2   0998    https://leetcode.com/problems/maximum-binary-tree-ii/
+
+
+
+# Delete a TreeNode
+
+2   1325    https://leetcode.com/problems/delete-leaves-with-a-given-value/
+
+3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/

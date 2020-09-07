@@ -12,6 +12,8 @@ References:
 2   0637    https://leetcode.com/problems/average-of-levels-in-binary-tree/
 2   0988    https://leetcode.com/problems/smallest-string-starting-from-leaf/
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
+2   1325    https://leetcode.com/problems/delete-leaves-with-a-given-value/
+2   1430    https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/
 
 3   0105    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 3   0536    https://leetcode.com/problems/construct-binary-tree-from-string/
@@ -21,6 +23,7 @@ References:
 3   0662    https://leetcode.com/problems/maximum-width-of-binary-tree/
 3   0666    https://leetcode.com/problems/path-sum-iv/
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
+3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
 
 4   0298    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 4   0545    https://leetcode.com/problems/boundary-of-binary-tree/
