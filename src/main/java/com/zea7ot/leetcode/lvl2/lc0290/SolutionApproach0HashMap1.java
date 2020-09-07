@@ -20,24 +20,25 @@ public class SolutionApproach0HashMap1 {
     public boolean wordPattern(String pattern, String str) {
         String[] arr = str.split(" ");
         Map<Character, String> map = new HashMap<Character, String>();
-        
-        if(arr.length != pattern.length()) return false;
+
+        if (arr.length != pattern.length())
+            return false;
         char[] chs = pattern.toCharArray();
-        for(int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             char ch = chs[i];
-            if(map.containsKey(ch)){
-                if(!map.get(ch).equals(arr[i])) return false;
-            }else{
+            if (map.containsKey(ch)) {
+                if (!map.get(ch).equals(arr[i]))
+                    return false;
+            } else {
                 /**
-                 * pattern = "abba"
-                 * str = "dog dog dog dog"
-                 * expected: false
+                 * pattern = "abba" str = "dog dog dog dog" expected: false
                  */
-                if(map.containsValue(arr[i])) return false;
+                if (map.containsValue(arr[i]))
+                    return false;
                 map.put(ch, arr[i]);
             }
         }
-        
+
         return true;
     }
 }

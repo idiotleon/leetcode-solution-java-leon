@@ -23,6 +23,7 @@ References:
 2   1047    https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
 2   1578    https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/
 
+3   0150    https://leetcode.com/problems/evaluate-reverse-polish-notation/
 3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/
 3   0680    https://leetcode.com/problems/valid-palindrome-ii/
 3   0763    https://leetcode.com/problems/partition-labels/

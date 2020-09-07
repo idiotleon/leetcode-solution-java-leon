@@ -13,6 +13,7 @@ References:
 2   0622    https://leetcode.com/problems/design-circular-queue/
 2   0707    https://leetcode.com/problems/design-linked-list/
 
+3   0155    https://leetcode.com/problems/min-stack/
 3   0173    https://leetcode.com/problems/binary-search-tree-iterator/
 3   0284    https://leetcode.com/problems/peeking-iterator/
 3   0341    https://leetcode.com/problems/flatten-nested-list-iterator/

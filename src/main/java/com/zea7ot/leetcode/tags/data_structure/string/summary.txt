@@ -45,6 +45,8 @@ References:
 3   0091    https://leetcode.com/problems/decode-ways/
 3   0093    https://leetcode.com/problems/restore-ip-addresses/
 3   0131    https://leetcode.com/problems/palindrome-partitioning/
+3   0150    https://leetcode.com/problems/evaluate-reverse-polish-notation/
+3   0163    https://leetcode.com/problems/missing-ranges/
 3   0228    https://leetcode.com/problems/summary-ranges/
 3   0247    https://leetcode.com/problems/strobogrammatic-number-ii/
 3   0320    https://leetcode.com/problems/generalized-abbreviation/
