@@ -71,6 +71,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3   0162    https://leetcode.com/problems/find-peak-element/
 3   0163    https://leetcode.com/problems/missing-ranges/
+3   0167    https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0220    https://leetcode.com/problems/contains-duplicate-iii/
 3   0228    https://leetcode.com/problems/summary-ranges/
