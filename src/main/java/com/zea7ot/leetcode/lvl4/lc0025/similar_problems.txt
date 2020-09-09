@@ -1,0 +1,12 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Reverse a Linked List
+
+2   0206    https://leetcode.com/problems/reverse-linked-list/
+
+3   0092    https://leetcode.com/problems/reverse-linked-list-ii/
+
+4   0025    https://leetcode.com/problems/reverse-nodes-in-k-group/
