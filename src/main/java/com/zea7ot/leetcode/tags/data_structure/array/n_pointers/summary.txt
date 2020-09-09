@@ -8,6 +8,7 @@ References:
 # Summary
 
 1   0088    https://leetcode.com/problems/merge-sorted-array/
+1   0346    https://leetcode.com/problems/moving-average-from-data-stream/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   0997    https://leetcode.com/problems/find-the-town-judge/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
@@ -24,6 +25,8 @@ References:
 3   0075    https://leetcode.com/problems/sort-colors/
 3   0080    https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
 3   0163    https://leetcode.com/problems/missing-ranges/
+3   0167    https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+3   0186    https://leetcode.com/problems/reverse-words-in-a-string-ii/
 3   0220    https://leetcode.com/problems/contains-duplicate-iii/
 3   0238    https://leetcode.com/problems/product-of-array-except-self/
 3   0360    https://leetcode.com/problems/sort-transformed-array/

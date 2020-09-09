@@ -8,6 +8,7 @@ References:
 # Linear Scan / 1 pointer
 
 1   0088    https://leetcode.com/problems/merge-sorted-array/
+1   0346    https://leetcode.com/problems/moving-average-from-data-stream/
 
 2   0251    https://leetcode.com/problems/flatten-2d-vector/
 2   0605    https://leetcode.com/problems/can-place-flowers/

@@ -7,6 +7,7 @@ References:
 # Array - 1 Dimensional
 
 1   0088    https://leetcode.com/problems/merge-sorted-array/
+1   0346    https://leetcode.com/problems/moving-average-from-data-stream/
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   0997    https://leetcode.com/problems/find-the-town-judge/
@@ -56,6 +57,8 @@ References:
 3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3   0162    https://leetcode.com/problems/find-peak-element/
 3   0163    https://leetcode.com/problems/missing-ranges/
+3   0167    https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+3   0186    https://leetcode.com/problems/reverse-words-in-a-string-ii/
 3   0220    https://leetcode.com/problems/contains-duplicate-iii/
 3   0228    https://leetcode.com/problems/summary-ranges/
 3   0229    https://leetcode.com/problems/majority-element-ii/

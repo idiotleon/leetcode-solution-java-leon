@@ -17,6 +17,7 @@ References:
 
 3   0029    https://leetcode.com/problems/divide-two-integers/
 3   0137    https://leetcode.com/problems/single-number-ii/
+3   0169    https://leetcode.com/problems/majority-element/
 3   0260    https://leetcode.com/problems/single-number-iii/
 3   0289    https://leetcode.com/problems/game-of-life/
 3   0393    https://leetcode.com/problems/utf-8-validation/

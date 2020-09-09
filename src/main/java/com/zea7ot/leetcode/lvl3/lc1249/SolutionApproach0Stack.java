@@ -14,6 +14,8 @@ import java.util.Deque;
 
 public class SolutionApproach0Stack {
     private static final char PLACE_HOLDER = '.';
+    private static final char OPEN_PAREN = '(';
+    private static final char CLOSED_PAREN = ')';
 
     public String minRemoveToMakeValid(String s) {
         // santiy check
@@ -22,14 +24,14 @@ public class SolutionApproach0Stack {
 
         final int L = s.length();
         final char[] CHS = s.toCharArray();
-        Deque<Integer> stack = new ArrayDeque<Integer>();
+        Deque<Integer> stack = new ArrayDeque<>();
 
         for (int i = 0; i < L; ++i) {
-            char ch = CHS[i];
-            if (ch == '(')
+            final char CH = CHS[i];
+            if (CH == OPEN_PAREN)
                 stack.offer(i);
 
-            if (ch == ')') {
+            if (CH == CLOSED_PAREN) {
                 if (stack.isEmpty()) {
                     CHS[i] = PLACE_HOLDER;
                 } else {
@@ -41,6 +43,12 @@ public class SolutionApproach0Stack {
         while (!stack.isEmpty())
             CHS[stack.pop()] = PLACE_HOLDER;
 
-        return new String(CHS).replaceAll(String.valueOf(PLACE_HOLDER), "");
+        // to build up the answer
+        StringBuilder builder = new StringBuilder();
+        for (final char CH : CHS)
+            if (CH != PLACE_HOLDER)
+                builder.append(CH);
+
+        return builder.toString();
     }
 }

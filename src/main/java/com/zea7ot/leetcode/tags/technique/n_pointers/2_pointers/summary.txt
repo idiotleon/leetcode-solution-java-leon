@@ -21,6 +21,8 @@ References:
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 
+3   0167    https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+3   0186    https://leetcode.com/problems/reverse-words-in-a-string-ii/
 3   0220    https://leetcode.com/problems/contains-duplicate-iii/
 3   0238    https://leetcode.com/problems/product-of-array-except-self/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
