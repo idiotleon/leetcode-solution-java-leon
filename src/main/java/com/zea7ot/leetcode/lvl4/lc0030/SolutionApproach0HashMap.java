@@ -51,14 +51,15 @@ public class SolutionApproach0HashMap {
     }
 
     // another version of `isConcat(,,)`
-    // private boolean isConcat1(String sub, Map<String, Integer> freq, final int LEN) {
-    //     final int L = sub.length();
-    //     Map<String, Integer> seen = new HashMap<>();
-    //     for (int i = 0; i < L; i += LEN) {
-    //         String word = sub.substring(i, i + LEN);
-    //         seen.put(word, seen.getOrDefault(word, 0) + 1);
-    //     }
+    // private boolean isConcat1(String sub, Map<String, Integer> freq, final int
+    // LEN) {
+    // final int L = sub.length();
+    // Map<String, Integer> seen = new HashMap<>();
+    // for (int i = 0; i < L; i += LEN) {
+    // String word = sub.substring(i, i + LEN);
+    // seen.put(word, seen.getOrDefault(word, 0) + 1);
+    // }
 
-    //     return seen.equals(freq);
+    // return seen.equals(freq);
     // }
 }

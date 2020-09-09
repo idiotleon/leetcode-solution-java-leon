@@ -27,5 +27,6 @@ References:
 3   0986    https://leetcode.com/problems/interval-list-intersections/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 
+4   0041    https://leetcode.com/problems/first-missing-positive/
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0249    https://leetcode.com/problems/group-shifted-strings/

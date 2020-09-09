@@ -7,7 +7,7 @@
  * References:
  *  https://leetcode.com/problems/house-robber-iii/discuss/79330/step-by-step-tackling-of-the-problem
  */
-package com.zea7ot.leetcode.lvl4.lc0265;
+package com.zea7ot.leetcode.lvl4.lc0337;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
@@ -25,7 +25,10 @@ public class SolutionApproach0DFSMemo {
         int[] right = dfs(node.right);
         int[] res = new int[2];
 
+        // `idx` being 0 means the max value not having this node robbed
         res[0] = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
+
+        // `idx` being 1 means the max value having this node robbed
         res[1] = node.val + left[0] + right[0];
 
         return res;

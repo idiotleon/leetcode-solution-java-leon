@@ -68,6 +68,7 @@ References:
 3   1577    https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/
 
 4   0018    https://leetcode.com/problems/4sum/
+4   0041    https://leetcode.com/problems/first-missing-positive/
 4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0065    https://leetcode.com/problems/valid-number/
 4   0076    https://leetcode.com/problems/minimum-window-substring/
