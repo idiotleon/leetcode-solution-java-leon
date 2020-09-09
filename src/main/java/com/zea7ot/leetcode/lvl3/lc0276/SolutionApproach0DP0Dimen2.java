@@ -11,21 +11,24 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0276;
 
-public class SolutionApproach0DP2 {
+public class SolutionApproach0DP0Dimen2 {
     public int numWays(int n, int k) {
         int first = k;
         int second = k * k;
-        if(n == 0) return 0;
-        if(n == 1) return first;
-        if(n == 2) return second;
-        
+        if (n == 0)
+            return 0;
+        if (n == 1)
+            return first;
+        if (n == 2)
+            return second;
+
         int ans = 0;
-        for(int i = 2; i < n; i++){
+        for (int i = 2; i < n; i++) {
             ans = (first + second) * (k - 1);
             first = second;
             second = ans;
         }
-        
+
         return ans;
     }
 }

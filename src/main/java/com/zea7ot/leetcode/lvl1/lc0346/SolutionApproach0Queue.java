@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/moving-average-from-data-stream/
  * 
- * Time Complexity:     O(N)
+ * Time Complexity:     O(1)
  * Space Complexity:    O(`size`)
  */
 package com.zea7ot.leetcode.lvl1.lc0346;

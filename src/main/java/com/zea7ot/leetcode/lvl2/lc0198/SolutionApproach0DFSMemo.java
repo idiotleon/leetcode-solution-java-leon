@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/house-robber/
  * 
  * Time Complexity:     O(N)
- * Space Complexity:    O(N) + O(N)
+ * Space Complexity:    O(N) + O(N) ~ O(N)
  * 
  * References:
  *  https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.
@@ -13,17 +13,24 @@ import java.util.Arrays;
 
 public class SolutionApproach0DFSMemo {
     public int rob(int[] nums) {
+        // sanity check
+        if (nums == null || nums.length == 0)
+            return 0;
+
         final int N = nums.length;
-        int[] memo = new int[N + 1];
-        Arrays.fill(memo, -1);
-        return rob(nums, N - 1, memo);
+        final int[] MEMO = new int[N + 1];
+        Arrays.fill(MEMO, -1);
+
+        return dfs(N - 1, nums, MEMO);
     }
-    
-    private int rob(int[] nums, int i, int[] memo){
-        if(i < 0) return 0;
-        if(memo[i] >= 0) return memo[i];
-        int result = Math.max(rob(nums, i - 2, memo) + nums[i], rob(nums, i - 1, memo));
-        memo[i] = result;
-        return result;
+
+    private int dfs(int idx, int[] nums, final int[] MEMO) {
+        if (idx < 0)
+            return 0;
+        if (MEMO[idx] >= 0)
+            return MEMO[idx];
+
+        int res = Math.max(dfs(idx - 1, nums, MEMO), dfs(idx - 2, nums, MEMO) + nums[idx]);
+        return MEMO[idx] = res;
     }
 }

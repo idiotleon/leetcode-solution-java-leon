@@ -9,19 +9,20 @@
  */
 package com.zea7ot.leetcode.lvl2.lc0198;
 
-public class SolutionApproach0DP {
+public class SolutionApproach0DP0Dimen {
     public int rob(int[] nums) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
-        
+        if (nums == null || nums.length == 0)
+            return 0;
+
         int prevNo = 0, prevYes = 0;
-        
-        for(int num : nums){
+
+        for (int num : nums) {
             int temp = prevNo;
             prevNo = Math.max(prevNo, prevYes);
             prevYes = num + temp;
         }
-        
+
         return Math.max(prevNo, prevYes);
     }
 }

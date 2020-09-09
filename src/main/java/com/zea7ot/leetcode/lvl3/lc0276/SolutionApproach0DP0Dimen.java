@@ -11,22 +11,23 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0276;
 
-public class SolutionApproach0DP {
+public class SolutionApproach0DP0Dimen {
     public int numWays(int n, int k) {
         // sanity check
-        if(n <= 0) return 0;
-        
+        if (n <= 0)
+            return 0;
+
         // the previous two are of the same color
         int same = 0;
         // the previous two are of the different color
         int diff = k;
-        
-        for(int i = 1; i < n; i++){
-            int temp = same;
+
+        for (int i = 1; i < n; ++i) {
+            final int PREV_SAME = same;
             same = diff;
-            diff = (temp + diff) * (k - 1);
+            diff = (PREV_SAME + diff) * (k - 1);
         }
-        
+
         return same + diff;
     }
 }
