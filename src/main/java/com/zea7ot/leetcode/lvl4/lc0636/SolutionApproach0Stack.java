@@ -22,20 +22,23 @@ public class SolutionApproach0Stack {
 
     public int[] exclusiveTime(int n, List<String> logs) {
         int[] ans = new int[n];
+        // sanity check
+        if (n == 0 || logs.isEmpty())
+            return ans;
 
-        Deque<Integer> stack = new ArrayDeque<Integer>();
+        Deque<Integer> stack = new ArrayDeque<>();
         int prevTimestamp = 0;
 
         for (String log : logs) {
             String[] res = log.split(SPLITTER);
             int id = Integer.parseInt(res[0]);
             String state = res[1];
-            int timestamp = Integer.parseInt(res[2]);
+            int curTimestamp = Integer.parseInt(res[2]);
 
             if (!stack.isEmpty())
-                ans[stack.peek()] += timestamp - prevTimestamp;
+                ans[stack.peek()] += curTimestamp - prevTimestamp;
 
-            prevTimestamp = timestamp;
+            prevTimestamp = curTimestamp;
 
             if (state.equals(START))
                 stack.push(id);

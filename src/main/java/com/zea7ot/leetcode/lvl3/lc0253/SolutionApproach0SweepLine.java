@@ -18,18 +18,21 @@ import java.util.TreeMap;
 public class SolutionApproach0SweepLine {
     public int minMeetingRooms(int[][] intervals) {
         // sanity check
-        if(intervals == null || intervals.length == 0) return 0;
-        
-        Map<Integer, Integer> timeline = new TreeMap<Integer, Integer>();
-        for(int[] interval : intervals){
-            int start = interval[0], end = interval[1];
-            timeline.put(start, timeline.getOrDefault(start, 0) + 1);
-            timeline.put(end, timeline.getOrDefault(end, 0) - 1);
+        if (intervals == null || intervals.length == 0)
+            return 0;
+
+        Map<Integer, Integer> timeline = new TreeMap<>();
+        for (int[] interval : intervals) {
+            final int START = interval[0];
+            final int END = interval[1];
+
+            timeline.put(START, timeline.getOrDefault(START, 0) + 1);
+            timeline.put(END, timeline.getOrDefault(END, 0) - 1);
         }
-        
+
         int count = 0, ans = 0;
-        for(int val : timeline.values()){
-            count += val;
+        for (Map.Entry<Integer, Integer> entry : timeline.entrySet()) {
+            count += entry.getValue();
             ans = Math.max(ans, count);
         }
 
