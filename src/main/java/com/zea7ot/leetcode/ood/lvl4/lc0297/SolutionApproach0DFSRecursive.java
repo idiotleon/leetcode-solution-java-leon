@@ -2,12 +2,12 @@
  * https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
  * 
  * Time Complexities:
- *  serialize:      O(L)
- *  deserialize:    O(L)
+ *  serialize:      O(N)
+ *  deserialize:    O(L) / O(N)
  * 
  * Space Complexities:
- *  serialize:      O(L)
- *  deserialize:    O(lg(L))
+ *  serialize:      O(H)
+ *  deserialize:    O(lg(L)) / O(H)
  * 
  * References:
  *  https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/74253/Easy-to-understand-Java-Solution/77363
@@ -21,7 +21,7 @@ import java.util.Deque;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0StringBuilder {
+public class SolutionApproach0DFSRecursive {
     private static final String SEPARATOR = "#";
     private static final String SPLITTER = ",";
 

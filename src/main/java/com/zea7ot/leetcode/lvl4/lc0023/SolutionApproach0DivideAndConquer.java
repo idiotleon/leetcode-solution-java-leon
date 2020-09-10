@@ -11,7 +11,7 @@ package com.zea7ot.leetcode.lvl4.lc0023;
 
 import com.zea7ot.utils.data_structure.linkedlist.ListNode;
 
-class SolutionApproach0DivideAndConquer {
+public class SolutionApproach0DivideAndConquer {
     public ListNode mergeKLists(ListNode[] lists) {
         // sanity check
         if (lists == null || lists.length == 0)
