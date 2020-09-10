@@ -1,0 +1,22 @@
+@author: Leon
+References:
+    https://leetcode.com/tag/dynamic-programming/
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### House
+### Robbery / Paint
+
+2   0198    https://leetcode.com/problems/house-robber/
+
+3   0213    https://leetcode.com/problems/house-robber-ii/
+3   0256    https://leetcode.com/problems/paint-house/
+3   0276    https://leetcode.com/problems/paint-fence/
+
+4   0265    https://leetcode.com/problems/paint-house-ii/
+4   0337    https://leetcode.com/problems/house-robber-iii/
+4   1473    https://leetcode.com/problems/paint-house-iii/
+
+
+
+?4  1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/

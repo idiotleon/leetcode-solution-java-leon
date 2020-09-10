@@ -15,6 +15,7 @@ public class SolutionApproach0PostorderRecursive {
     private TreeNode lca;
 
     public TreeNode lcaDeepestLeaves(TreeNode root) {
+        this.lca = null;
         int[] deepest = { 0 };
         postorder(root, 0, deepest);
         return lca;

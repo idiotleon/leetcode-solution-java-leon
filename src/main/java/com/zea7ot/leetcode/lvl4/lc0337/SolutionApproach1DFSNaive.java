@@ -7,11 +7,11 @@
  * References:
  *  https://leetcode.com/problems/house-robber-iii/discuss/79330/step-by-step-tackling-of-the-problem
  */
-package com.zea7ot.leetcode.lvl4.lc0265;
+package com.zea7ot.leetcode.lvl4.lc0337;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach2DFSNaive {
+public class SolutionApproach1DFSNaive {
     public int rob(TreeNode root) {
         return dfs(root);
     }

@@ -7,7 +7,7 @@
  * References:
  *  https://leetcode.com/problems/partition-to-k-equal-sum-subsets/discuss/108730/javacstraightforward-dfs-solution
  */
-package com.zea7ot.leetcode.lvl4.lc0265;
+package com.zea7ot.leetcode.lvl4.lc0337;
 
 import java.util.HashMap;
 import java.util.Map;

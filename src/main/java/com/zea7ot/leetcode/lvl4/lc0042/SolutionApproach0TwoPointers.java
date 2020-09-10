@@ -6,26 +6,27 @@
  */
 package com.zea7ot.leetcode.lvl4.lc0042;
 
-public class SolutionApproach0TwoPtrs{
-    public int trap(int[] height){  // [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
+public class SolutionApproach0TwoPointers {
+    public int trap(int[] height) { // [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
         // sanity check
-        if(height == null || height.length == 0) return 0;
-        
+        if (height == null || height.length < 2)
+            return 0;
+
         final int N = height.length; // 12
         int left = 0, right = N - 1; // left: 0, right: 11
         int water = 0;
         int leftMax = height[left], rightMax = height[right]; // leftMax: 0, rightMax: 1
-        
-        while(left < right){
-            if(leftMax < rightMax){
+
+        while (left < right) {
+            if (leftMax < rightMax) {
                 water += leftMax - height[left];
                 leftMax = Math.max(leftMax, height[++left]);
-            }else{ 
+            } else {
                 water += rightMax - height[right];
                 rightMax = Math.max(rightMax, height[--right]);
             }
         }
-        
+
         return water;
     }
 }
