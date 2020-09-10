@@ -29,3 +29,8 @@ References:
 5   0527    https://leetcode.com/problems/word-abbreviation/
 5   0588    https://leetcode.com/problems/design-in-memory-file-system/
 5   0642    https://leetcode.com/problems/design-search-autocomplete-system/
+
+
+Resource:
+    https://leetcode.com/problems/top-k-frequent-words/discuss/431008/summary-of-all-the-methods-you-can-imagine-of-this-problem/691132
+    
