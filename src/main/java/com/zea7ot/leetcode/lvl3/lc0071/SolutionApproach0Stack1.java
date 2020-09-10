@@ -9,7 +9,7 @@ package com.zea7ot.leetcode.lvl3.lc0071;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class SolutionApproach0Stack {
+public class SolutionApproach0Stack1 {
     public String simplifyPath(String path) {
         // sanity check
         if (path == null || path.isEmpty())

@@ -16,25 +16,25 @@ public class SolutionApproach0SlidingWindow {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> ans = new ArrayList<>();
         // sanity check
-        if (s == null || s.isEmpty() || p == null || p.isEmpty())
+        if (s == null || s.isEmpty() || p == null || p.isEmpty() || s.length() < p.length())
             return ans;
 
         final int LEN_S = s.length(), LEN_P = p.length();
 
         int[] hash = new int[26];
-        for (char ch : p.toCharArray())
-            ++hash[ch - 'a'];
+        for (final char CH : p.toCharArray())
+            ++hash[CH - 'a'];
 
-        char[] chs = s.toCharArray();
+        final char[] CHS = s.toCharArray();
         int lo = 0, hi = 0, count = LEN_P;
         while (hi < LEN_S) {
-            if (hash[chs[hi++] - 'a']-- > 0)
+            if (hash[CHS[hi++] - 'a']-- > 0)
                 --count;
 
             if (count == 0)
                 ans.add(lo);
 
-            if (hi - lo == LEN_P && hash[chs[lo++] - 'a']++ >= 0)
+            if (hi - lo == LEN_P && hash[CHS[lo++] - 'a']++ >= 0)
                 ++count;
         }
 

@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/top-k-frequent-elements/
  * 
- * Time Complexity:     O(N * lg(N))
+ * Time Complexity:     O(N * lg(k))
  * Space Complexity:    O(N)
  */
 package com.zea7ot.leetcode.lvl2.lc0347;
@@ -12,21 +12,26 @@ import java.util.PriorityQueue;
 
 public class SolutionApproach0MinHeap {
     public int[] topKFrequent(int[] nums, int k) {
-        Map<Integer, Integer> freqMap = new HashMap<Integer, Integer>();
-        for(int num : nums){
-            freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
-        }
-        
-        PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>((a, b) -> Integer.compare(freqMap.get(a), freqMap.get(b)));
-        for(int key : freqMap.keySet()){
+        int[] ans = new int[k];
+        // sanity check
+        if (nums == null || nums.length == 0)
+            return ans;
+
+        Map<Integer, Integer> freqs = new HashMap<>();
+        for (int num : nums)
+            freqs.put(num, freqs.getOrDefault(num, 0) + 1);
+
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>((a, b) -> Integer.compare(freqs.get(a), freqs.get(b)));
+
+        for (int key : freqs.keySet()) {
             minHeap.offer(key);
-            if(minHeap.size() > k) minHeap.poll();
+            if (minHeap.size() > k)
+                minHeap.poll();
         }
-        
-        final int SIZE = minHeap.size();
-        int[] ans = new int[SIZE];
-        int idx = SIZE - 1;
-        while(!minHeap.isEmpty()) ans[idx--] = minHeap.poll();
+
+        int idx = k - 1;
+        while (!minHeap.isEmpty())
+            ans[idx--] = minHeap.poll();
         return ans;
     }
 }

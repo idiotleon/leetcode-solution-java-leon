@@ -27,7 +27,7 @@ public class SolutionApproach0PrefixSums {
 
         final int N = nums.length;
         int runningSum = 0;
-        Map<Integer, Integer> prefixSums = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> prefixSums = new HashMap<>();
         prefixSums.put(0, -1);
 
         for (int i = 0; i < N; ++i) {

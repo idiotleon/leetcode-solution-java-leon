@@ -72,6 +72,7 @@ References:
 4   0407    https://leetcode.com/problems/trapping-rain-water-ii/
 4   0428    https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/
 4   0505    https://leetcode.com/problems/the-maze-ii/
+4   0721    https://leetcode.com/problems/accounts-merge/
 4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
 4   0815    https://leetcode.com/problems/bus-routes/
 4   0839    https://leetcode.com/problems/similar-string-groups/
