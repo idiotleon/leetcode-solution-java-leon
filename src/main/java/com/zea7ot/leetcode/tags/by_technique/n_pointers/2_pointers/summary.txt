@@ -26,6 +26,7 @@ References:
 3   0220    https://leetcode.com/problems/contains-duplicate-iii/
 3   0238    https://leetcode.com/problems/product-of-array-except-self/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
+3   0424    https://leetcode.com/problems/longest-repeating-character-replacement/
 3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0680    https://leetcode.com/problems/valid-palindrome-ii/

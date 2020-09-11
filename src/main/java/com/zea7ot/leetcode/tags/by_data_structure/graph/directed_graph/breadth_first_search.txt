@@ -5,7 +5,7 @@ References:
 
 ### Graph
 # Directed Graph
-# breadth first search
+# Breadth First Search
 
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0310    https://leetcode.com/problems/minimum-height-trees/

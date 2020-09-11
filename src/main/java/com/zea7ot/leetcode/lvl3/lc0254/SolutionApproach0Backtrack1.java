@@ -12,29 +12,27 @@ import java.util.List;
 
 public class SolutionApproach0Backtrack1 {
     public List<List<Integer>> getFactors(int n) {
-        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        List<List<Integer>> ans = new ArrayList<>();
         // sanity check
-        if(n <= 3) return ans;
-        
-        backtrack(new ArrayList<Integer>(), n, 2, ans);
+        if (n <= 3)
+            return ans;
+
+        backtrack(n, 2, new ArrayList<>(), ans);
         return ans;
     }
-    
-    private void backtrack(List<Integer> path, 
-                           int target, 
-                           int start, 
-                           List<List<Integer>> paths){
-        if(target == 1 && path.size() > 1){
-            paths.add(new ArrayList<Integer>(path));
+
+    private void backtrack(int target, int start, List<Integer> path, List<List<Integer>> paths) {
+        if (target == 1 && path.size() > 1) {
+            paths.add(new ArrayList<>(path));
             return;
         }
-        
-        for(int i = start; i * i <= target; i++){
-            if(target % i == 0){
-                path.add(i);
-                backtrack(path, target / i, i, paths);
-                path.remove(path.size() - 1);
-            }
+
+        for (int i = start; i <= target; ++i) {
+            if (target % i != 0)
+                continue;
+            path.add(i);
+            backtrack(target / i, i, path, paths);
+            path.remove(path.size() - 1);
         }
     }
 }
