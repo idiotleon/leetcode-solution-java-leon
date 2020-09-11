@@ -44,6 +44,7 @@ References:
 3   0086    https://leetcode.com/problems/partition-list/
 3   0092    https://leetcode.com/problems/reverse-linked-list-ii/
 3   0150    https://leetcode.com/problems/evaluate-reverse-polish-notation/
+3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0167    https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 3   0186    https://leetcode.com/problems/reverse-words-in-a-string-ii/
 3   0220    https://leetcode.com/problems/contains-duplicate-iii/

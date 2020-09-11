@@ -12,17 +12,19 @@ package com.zea7ot.leetcode.lvl3.lc0152;
 public class SolutionApproach0TwoPointers {
     public int maxProduct(int[] nums) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
+        if (nums == null || nums.length == 0)
+            return 0;
 
         final int N = nums.length;
-        int ans = nums[0], left = 0, right = 0;
-        
-        for(int i = 0; i < N; i++){
-            left = (left == 0 ? 1 : left) * nums[i];
-            right = (right == 0 ? 1 : right) * nums[N - 1 - i];
-            ans = Math.max(ans, Math.max(left, right));
+        int ans = nums[0];
+        int lo = 0, hi = 0;
+
+        for (int i = 0; i < N; ++i) {
+            lo = (lo == 0 ? 1 : lo) * nums[i];
+            hi = (hi == 0 ? 1 : hi) * nums[N - 1 - i];
+            ans = Math.max(ans, Math.max(lo, hi));
         }
-        
+
         return ans;
     }
 }

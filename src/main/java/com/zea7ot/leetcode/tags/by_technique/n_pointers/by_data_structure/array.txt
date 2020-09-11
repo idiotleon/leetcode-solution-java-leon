@@ -29,6 +29,7 @@ References:
 3   0016    https://leetcode.com/problems/3sum-closest/
 3   0075    https://leetcode.com/problems/sort-colors/
 3   0080    https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0167    https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 3   0220    https://leetcode.com/problems/contains-duplicate-iii/
 3   0238    https://leetcode.com/problems/product-of-array-except-self/
