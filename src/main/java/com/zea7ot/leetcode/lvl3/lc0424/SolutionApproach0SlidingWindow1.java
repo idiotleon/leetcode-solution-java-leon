@@ -9,7 +9,7 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0424;
 
-public class SolutionApproach0SlidingWindow {
+public class SolutionApproach0SlidingWindow1 {
     public int characterReplacement(String s, int k) {
         // sanity check
         if (s == null || s.isEmpty())
@@ -19,19 +19,22 @@ public class SolutionApproach0SlidingWindow {
         final char[] CHS = s.toCharArray();
 
         final int[] FREQS = new int[26];
+        int longest = 0;
         int maxCount = 0;
         int lo = 0, hi = 0;
 
         while (hi < L) {
             maxCount = Math.max(maxCount, ++FREQS[CHS[hi] - 'A']);
 
-            final int LEN = hi - lo + 1;
-            if (maxCount + k < LEN)
+            if (maxCount + k >= hi - lo + 1) {
+                longest = Math.max(maxCount, hi - lo + 1);
+            } else {
                 --FREQS[CHS[lo++] - 'A'];
+            }
 
             ++hi;
         }
 
-        return L - lo;
+        return longest;
     }
 }

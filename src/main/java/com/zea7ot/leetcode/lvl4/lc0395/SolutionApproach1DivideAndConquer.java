@@ -23,15 +23,16 @@ public class SolutionApproach1DivideAndConquer {
     }
 
     private int dfs(int lo, int hi, final char[] CHS, final int K) {
-        if (hi - lo + 1 < K)
+        final int LEN = hi - lo + 1;
+        if (LEN < K)
             return 0;
 
-        int[] freq = new int[26];
+        final int[] FREQS = new int[26];
         for (int i = lo; i <= hi; ++i)
-            ++freq[CHS[i] - 'a'];
+            ++FREQS[CHS[i] - 'a'];
 
         for (char ch = 'a'; ch <= 'z'; ++ch) {
-            if (freq[ch - 'a'] == 0 || freq[ch - 'a'] >= K)
+            if (FREQS[ch - 'a'] == 0 || FREQS[ch - 'a'] >= K)
                 continue;
             for (int j = lo; j <= hi; ++j) {
                 if (CHS[j] != ch)
