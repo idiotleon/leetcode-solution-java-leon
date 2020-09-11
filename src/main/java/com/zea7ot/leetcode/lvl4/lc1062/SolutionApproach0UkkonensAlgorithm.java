@@ -7,5 +7,5 @@
 package com.zea7ot.leetcode.lvl4.lc1062;
 
 public class SolutionApproach0UkkonensAlgorithm {
-    
+
 }

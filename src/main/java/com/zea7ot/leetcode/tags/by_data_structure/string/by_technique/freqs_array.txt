@@ -1,0 +1,14 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### String
+## By Technique
+# an array as the FREQuencieS map
+
+2   0299    https://leetcode.com/problems/bulls-and-cows/
+2   1100    https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/
+
+3   0424    https://leetcode.com/problems/longest-repeating-character-replacement/
+3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/

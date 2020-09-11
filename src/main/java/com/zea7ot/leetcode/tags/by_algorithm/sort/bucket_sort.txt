@@ -1,0 +1,20 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+    
+    
+### Sort
+# Bucket Sort
+
+2   0791    https://leetcode.com/problems/custom-sort-string/
+
+3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
+3   1057    https://leetcode.com/problems/campus-bikes/
+3   1156    https://leetcode.com/problems/swap-for-longest-repeated-character-substring/
+
+4   0895    https://leetcode.com/problems/maximum-frequency-stack/
+
+
+
+Resource:
+    https://leetcode.com/problems/top-k-frequent-words/discuss/431008/summary-of-all-the-methods-you-can-imagine-of-this-problem/691132

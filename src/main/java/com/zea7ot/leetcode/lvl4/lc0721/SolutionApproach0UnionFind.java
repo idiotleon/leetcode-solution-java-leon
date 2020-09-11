@@ -50,8 +50,6 @@ public class SolutionApproach0UnionFind {
             final int NC = accounts.get(row).size();
             for (int col = 1; col < NC; ++col)
                 CUR_SET.add(accounts.get(row).get(col));
-
-            // map.put(IDX_ROOT, CUR_SET);
         }
 
         for (Map.Entry<Integer, Set<String>> entry : map.entrySet()) {

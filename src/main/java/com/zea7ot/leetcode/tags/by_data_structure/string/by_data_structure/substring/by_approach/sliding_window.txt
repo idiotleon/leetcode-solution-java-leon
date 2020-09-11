@@ -1,0 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### String
+## Substring
+# Sliding Window
+
+2   1100    https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/
