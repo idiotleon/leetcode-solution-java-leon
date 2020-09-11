@@ -8,6 +8,7 @@ References:
 # Longest vs Shortest
 
 3   0424    https://leetcode.com/problems/longest-repeating-character-replacement/
+3   1156    https://leetcode.com/problems/swap-for-longest-repeated-character-substring/
 
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 4   0340    https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/

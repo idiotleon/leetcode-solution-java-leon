@@ -10,6 +10,7 @@ References:
 
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   1057    https://leetcode.com/problems/campus-bikes/
+3   1156    https://leetcode.com/problems/swap-for-longest-repeated-character-substring/
 
 4   0895    https://leetcode.com/problems/maximum-frequency-stack/
 

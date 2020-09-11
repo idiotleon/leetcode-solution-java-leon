@@ -81,6 +81,7 @@ References:
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
+3   1156    https://leetcode.com/problems/swap-for-longest-repeated-character-substring/
 3   1233    https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/
 3   1247    https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/
 3   1249    https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
