@@ -9,7 +9,7 @@
  */
 package com.zea7ot.leetcode.lvl4.lc0395;
 
-public class SolutionApproach1DivideAndConquer {
+public class SolutionApproach1DFSRecursive {
     public int longestSubstring(String s, int k) {
         // sanity check
         if (s == null || s.isEmpty())

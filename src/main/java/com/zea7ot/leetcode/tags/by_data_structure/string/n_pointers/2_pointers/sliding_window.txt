@@ -4,6 +4,7 @@ References:
 
 
 ### String
+## 2 Pointers
 # Sliding Window:
 
 2   0003    https://leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -23,14 +24,18 @@ References:
 
 
 
-String - Longest vs Shortest
+## Longest vs Shortest
+
+4   0340    https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
+4   0395    https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
+
+
+## to do:
+String - Substring - Longest vs Shortest
 0516
 1062
 1092
 1143
-
-4   0340    https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
-4   0395    https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
 
 
 

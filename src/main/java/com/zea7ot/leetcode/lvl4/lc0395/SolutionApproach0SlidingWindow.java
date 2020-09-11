@@ -6,6 +6,7 @@
  * 
  * References:
  *  https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/discuss/87739/Java-Strict-O(N)-Two-Pointer-Solution/188126
+ *  https://www.cnblogs.com/grandyang/p/5852352.html
  */
 package com.zea7ot.leetcode.lvl4.lc0395;
 
