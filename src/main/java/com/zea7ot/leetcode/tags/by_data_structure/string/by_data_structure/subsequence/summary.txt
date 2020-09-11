@@ -4,7 +4,8 @@ References:
 
     
 ### String
-# Subsequence
+## Subsequence
+# Summary
 
 2   0674    https://leetcode.com/problems/longest-continuous-increasing-subsequence/
 
@@ -33,6 +34,3 @@ References:
 4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
-
-
-

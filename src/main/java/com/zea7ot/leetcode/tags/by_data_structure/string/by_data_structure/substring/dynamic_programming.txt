@@ -1,0 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### String
+## Substring
+# Dynamic Programming
+
+4   1062    https://leetcode.com/problems/longest-repeating-substring/

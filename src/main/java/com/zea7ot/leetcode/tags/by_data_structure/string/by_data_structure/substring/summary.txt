@@ -4,7 +4,8 @@ References:
 
 
 ### String
-# Substring
+## Substring
+# Summary
 
 2   0028    https://leetcode.com/problems/implement-strstr/
 2   0567    https://leetcode.com/problems/permutation-in-string/
@@ -41,7 +42,7 @@ References:
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 4   0340    https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
 4   0395    https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
-
+4   1062    https://leetcode.com/problems/longest-repeating-substring/
 
 
 

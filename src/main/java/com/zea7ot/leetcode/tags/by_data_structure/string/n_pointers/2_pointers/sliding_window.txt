@@ -30,15 +30,6 @@ References:
 4   0395    https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
 
 
-## to do:
-String - Substring - Longest vs Shortest
-0516
-1062
-1092
-1143
-
-
-
 
 # Rolling Hash
 

@@ -4,7 +4,7 @@ References:
 
     
 ### String
-# Dynamic Programming
+## Dynamic Programming
 
 3   0005    https://leetcode.com/problems/longest-palindromic-substring/
 3   0091    https://leetcode.com/problems/decode-ways/
@@ -30,3 +30,9 @@ References:
 4   1371    https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
 
 5   0010    https://leetcode.com/problems/regular-expression-matching/
+
+
+
+# Longest vs Shortest
+
+4   1062    https://leetcode.com/problems/longest-repeating-substring/
