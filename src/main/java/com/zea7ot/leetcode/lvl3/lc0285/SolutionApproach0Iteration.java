@@ -19,13 +19,16 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 public class SolutionApproach0Iteration {
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
         TreeNode successor = null;
-        while(root != null){
-            if(p.val < root.val){
-                successor = root;
-                root = root.left;
-            }else root = root.right;
+        TreeNode cur = root;
+        while (cur != null) {
+            if (p.val < cur.val) {
+                successor = cur;
+                cur = cur.left;
+            } else {
+                cur = cur.right;
+            }
         }
-        
+
         return successor;
     }
 }

@@ -2,7 +2,6 @@
  * https://leetcode.com/problems/inorder-successor-in-bst/
  * 
  * Time Complexity:     O(H)
- * 
  * Space Complexity:    O(1)
  * 
  * References:
@@ -13,12 +12,14 @@ package com.zea7ot.leetcode.lvl3.lc0285;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0Recursion {
+public class SolutionApproach0InorderRecursive1 {
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
-        if(root == null) return null;
-        
-        if(root.val <= p.val) return inorderSuccessor(root.right, p);
-        else{
+        if (root == null)
+            return null;
+
+        if (root.val <= p.val)
+            return inorderSuccessor(root.right, p);
+        else {
             TreeNode left = inorderSuccessor(root.left, p);
             return (left == null) ? root : left;
         }
