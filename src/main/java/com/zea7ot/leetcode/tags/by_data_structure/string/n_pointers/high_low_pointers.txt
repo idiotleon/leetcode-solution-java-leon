@@ -17,6 +17,7 @@ References:
 3   0186    https://leetcode.com/problems/reverse-words-in-a-string-ii/
 3   0424    https://leetcode.com/problems/longest-repeating-character-replacement/
 3   0680    https://leetcode.com/problems/valid-palindrome-ii/
+3   0696    https://leetcode.com/problems/count-binary-substrings/
 3   0763    https://leetcode.com/problems/partition-labels/description/
 3   1208    https://leetcode.com/problems/get-equal-substrings-within-budget/
 
