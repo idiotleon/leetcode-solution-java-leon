@@ -10,6 +10,7 @@ References:
 1   0700    https://leetcode.com/problems/search-in-a-binary-search-tree/
 1   1161    https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
 
+2   0094    https://leetcode.com/problems/binary-tree-inorder-traversal/
 2   0199    https://leetcode.com/problems/binary-tree-right-side-view/
 2   0366    https://leetcode.com/problems/find-leaves-of-binary-tree/
 2   0404    https://leetcode.com/problems/sum-of-left-leaves/
@@ -73,6 +74,7 @@ References:
 
 4   0124    https://leetcode.com/problems/binary-tree-maximum-path-sum/
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
+4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 4   0298    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
 4   0545    https://leetcode.com/problems/boundary-of-binary-tree/

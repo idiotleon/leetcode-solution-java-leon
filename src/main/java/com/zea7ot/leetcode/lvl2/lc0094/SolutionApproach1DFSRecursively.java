@@ -15,15 +15,17 @@ public class SolutionApproach1DFSRecursively {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<Integer>();
         // sanity check
-        if(root == null) return ans;
-        
+        if (root == null)
+            return ans;
+
         inorderTraverse(root, ans);
         return ans;
     }
-    
-    private void inorderTraverse(TreeNode node, List<Integer> res){
-        if(node == null) return;
-        
+
+    private void inorderTraverse(TreeNode node, List<Integer> res) {
+        if (node == null)
+            return;
+
         inorderTraverse(node.left, res);
         res.add(node.val);
         inorderTraverse(node.right, res);

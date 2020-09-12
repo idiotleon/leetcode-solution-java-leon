@@ -19,34 +19,39 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach1DFSIterative {
     public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer> ans = new ArrayList<Integer>();
+        List<Integer> ans = new ArrayList<>();
         // sanity check
-        if(root == null) return ans;
-        
-        Deque<TreeNode> stack = new LinkedList<TreeNode>();
+        if (root == null)
+            return ans;
+
+        Deque<TreeNode> stack = new LinkedList<>();
         TreeNode cur = root;
-        while(cur != null || !stack.isEmpty()){
-            while(!isLeaf(cur)){
+        while (cur != null || !stack.isEmpty()) {
+            while (!isLeaf(cur)) {
                 stack.push(cur);
                 cur = cur.left;
             }
-            
-            if(cur != null) ans.add(cur.val);
-            
-            while(!stack.isEmpty() && cur == stack.peek().right){
+
+            if (cur != null)
+                ans.add(cur.val);
+
+            while (!stack.isEmpty() && cur == stack.peek().right) {
                 cur = stack.pop();
                 ans.add(cur.val);
             }
-            
-            if(stack.isEmpty()) cur = null;
-            else cur = stack.peek().right;
+
+            if (stack.isEmpty())
+                cur = null;
+            else
+                cur = stack.peek().right;
         }
-        
+
         return ans;
     }
-    
-    private boolean isLeaf(TreeNode node){
-        if(node == null) return true;
+
+    private boolean isLeaf(TreeNode node) {
+        if (node == null)
+            return true;
         return node.left == null && node.right == null;
     }
 }

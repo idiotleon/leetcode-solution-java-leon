@@ -10,20 +10,25 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SolutionApproach0PrefixSums1 {
-    public int subarraySum(int[] nums, int k) {
-        int sum = 0, count = 0;
-        Map<Integer, Integer> prefixSums = new HashMap<Integer, Integer>();
+    public int subarraySum(int[] nums, final int K) {
+        // sanity check
+        if (nums == null || nums.length == 0)
+            return 0;
 
+        final Map<Integer, Integer> PREFIX_SUMS = new HashMap<>();
+
+        int count = 0;
+        int sum = 0;
         for (int num : nums) {
             sum += num;
 
-            if (sum == k)
+            if (sum == K)
                 ++count;
+            if (PREFIX_SUMS.containsKey(sum - K))
+                count += PREFIX_SUMS.get(sum - K);
 
-            if (prefixSums.containsKey(sum - k))
-                count += prefixSums.get(sum - k);
+            PREFIX_SUMS.put(sum, PREFIX_SUMS.getOrDefault(sum, 0) + 1);
 
-            prefixSums.put(sum, prefixSums.getOrDefault(sum, 0) + 1);
         }
 
         return count;
