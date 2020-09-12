@@ -12,34 +12,33 @@ import java.util.List;
 
 public class SolutionApproach0Backtrack {
     public List<List<Integer>> combinationSum3(int k, int n) {
-        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        List<List<Integer>> ans = new ArrayList<>();
         // sanity check
         final int FACTORIAL_NINE = 362880;
-        if(k <= 0 || k > 9 || n <= 0 || n > FACTORIAL_NINE) return ans;
-        
-        backtrack(new ArrayList<Integer>(), 1, k, n, ans);
-        
+        if (k <= 0 || k > 9 || n <= 0 || n > FACTORIAL_NINE)
+            return ans;
+
+        backtrack(k, n, 1, new ArrayList<>(), ans);
+
         return ans;
     }
-    
-    private void backtrack(List<Integer> intermediate, 
-                           int start, 
-                           int k, 
-                           int target, 
-                           List<List<Integer>> ans){
-        if(target < 0 || k < 0) return;
-        
-        if(k == 0){
-            if(target == 0){
-                ans.add(new ArrayList<Integer>(intermediate));
+
+    private void backtrack(final int K, final int N, int start, final List<Integer> PATH,
+            final List<List<Integer>> PATHS) {
+        if (N < 0 || K < 0)
+            return;
+
+        if (K == 0) {
+            if (N == 0) {
+                PATHS.add(new ArrayList<>(PATH));
                 return;
             }
         }
-        
-        for(int i = start; i < 10; i++){
-            intermediate.add(i);
-            backtrack(intermediate, i + 1, k - 1, target - i, ans);
-            intermediate.remove(intermediate.size() - 1);
+
+        for (int i = start; i < 10; i++) {
+            PATH.add(i);
+            backtrack(K - 1, N - i, i + 1, PATH, PATHS);
+            PATH.remove(PATH.size() - 1);
         }
     }
 }
