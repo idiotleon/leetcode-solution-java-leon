@@ -5,6 +5,6 @@ References:
 
 ### String
 ## Substring
-# Sliding Window
+# Rolling Hash
 
-2   1100    https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/
+4   1297    https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/

@@ -4,7 +4,7 @@
  * Time Complexity:     O(L)
  * Space Complexity:    O(4) / O(L) ~ O(1) / O(L)
  * 
- * `freq[]` keeps acount of the frequencies OUTSIDE the sliding window
+ * `FREQS[]` keeps accounts of the frequencies OUTSIDE the sliding window
  * 
  * References:
  *  https://leetcode.com/problems/replace-the-substring-for-balanced-string/discuss/408978/JavaC%2B%2BPython-Sliding-Window
@@ -19,27 +19,25 @@ public class SolutionApproach0SlidingWindow2 {
         if (s == null || s.isEmpty())
             return 0;
         final int L = s.length();
-        char[] chs = s.toCharArray();
+        final char[] CHS = s.toCharArray();
         final int K = L / 4;
 
-        int[] freq = new int[4];
-        for (char ch : chs)
-            ++freq[hash(ch)];
+        final int[] FREQS = new int[4];
+        for (final char CH : CHS)
+            ++FREQS[hash(CH)];
 
         int lo = 0, hi = 0;
         int shortest = L;
 
         while (hi < L) {
-            --freq[hash(chs[hi])];
+            --FREQS[hash(CHS[hi])];
 
-            while (isValid(freq, K)) {
+            while (lo < L && isValid(FREQS, K)) {
                 shortest = Math.min(shortest, hi - lo + 1);
-                ++freq[hash(chs[lo])];
+                ++FREQS[hash(CHS[lo])];
                 ++lo;
             }
 
-            if (lo == L)
-                break;
             ++hi;
         }
 

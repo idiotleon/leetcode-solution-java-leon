@@ -10,20 +10,25 @@
 package com.zea7ot.leetcode.lvl2.lc1513;
 
 public class SolutionApproach0Math {
+    private static final int MOD = (int) 1e9 + 7;
+
     public int numSub(String s) {
         // sanity check
-        if(s == null || s.isEmpty()) return 0;
-        
-        final int MOD = (int)(1e9 + 7);
-        int ans = 0, count = 0;
-        
-        final int L = s.length();
-        char[] chs = s.toCharArray();
-        for(int i = 0; i < L; i++){
-            count = chs[i] == '1' ? count + 1 : 0;
-            ans = (ans + count) % MOD;
+        if (s == null || s.isEmpty())
+            return 0;
+
+        int count = 0;
+        int len = 0;
+
+        for (final char CH : s.toCharArray()) {
+            if (CH == '1')
+                ++len;
+            else
+                len = 0;
+
+            count = (count + len) % MOD;
         }
-        
-        return ans;
+
+        return count;
     }
 }
