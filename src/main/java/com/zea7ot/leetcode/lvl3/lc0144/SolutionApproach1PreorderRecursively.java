@@ -8,22 +8,24 @@ import java.util.List;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproachPreorderRecursively {
+public class SolutionApproach1PreorderRecursively {
     public List<Integer> preorderTraversal(TreeNode root) {
-        List<Integer> ans = new ArrayList<Integer>();
+        List<Integer> ans = new ArrayList<>();
         // sanity check
-        if(root == null) return ans;
-        
+        if (root == null)
+            return ans;
+
         preorder(root, ans);
-        
+
         return ans;
     }
-    
-    private void preorder(TreeNode root, List<Integer> ans){
-        if(root == null) return;
-        
-        ans.add(root.val);
-        preorder(root.left, ans);
-        preorder(root.right, ans);
+
+    private void preorder(TreeNode root, List<Integer> res) {
+        if (root == null)
+            return;
+
+        res.add(root.val);
+        preorder(root.left, res);
+        preorder(root.right, res);
     }
 }
