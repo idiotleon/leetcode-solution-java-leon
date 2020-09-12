@@ -34,9 +34,10 @@ public class SolutionApproach0PrefixFreqs {
             int lo = query[0], hi = query[1];
             final int K = query[2];
 
-            for (int i = 0; i < 26; ++i)
+            for (int i = 0; i < 26; ++i) {
                 // modular for characters with even number of occurrences
                 sum += (PREFIX_FREQS[hi + 1][i] - PREFIX_FREQS[lo][i]) % 2;
+            }
 
             ans.add(sum / 2 <= K);
         }

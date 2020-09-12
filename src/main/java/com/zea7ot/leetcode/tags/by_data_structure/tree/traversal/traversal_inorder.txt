@@ -8,6 +8,7 @@ References:
 
 1   0872    https://leetcode.com/problems/leaf-similar-trees/
 
+2   0094    https://leetcode.com/problems/binary-tree-inorder-traversal/
 2   0501    https://leetcode.com/problems/find-mode-in-binary-search-tree/
 2   1305    https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
 

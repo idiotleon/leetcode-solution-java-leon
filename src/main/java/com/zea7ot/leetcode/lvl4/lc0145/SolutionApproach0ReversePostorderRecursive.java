@@ -17,17 +17,19 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0ReversePostorderRecursive {
     public List<Integer> postorderTraversal(TreeNode root) {
-        LinkedList<Integer> ans = new LinkedList<Integer>();
+        LinkedList<Integer> ans = new LinkedList<>();
         // sanity check
-        if(root == null) return ans;
-        
+        if (root == null)
+            return ans;
+
         reversePostorder(root, ans);
         return ans;
     }
-    
-    private void reversePostorder(TreeNode node, LinkedList<Integer> res){
-        if(node == null) return;
-        
+
+    private void reversePostorder(TreeNode node, LinkedList<Integer> res) {
+        if (node == null)
+            return;
+
         res.addFirst(node.val);
         reversePostorder(node.right, res);
         reversePostorder(node.left, res);

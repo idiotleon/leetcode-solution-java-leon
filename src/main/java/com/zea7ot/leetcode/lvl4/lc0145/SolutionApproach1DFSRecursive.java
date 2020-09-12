@@ -13,19 +13,21 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach1DFSRecursive {
     public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer> ans = new ArrayList<Integer>();
+        List<Integer> ans = new ArrayList<>();
         // sanity check
-        if(root == null) return ans;
-        
+        if (root == null)
+            return ans;
+
         postorder(root, ans);
         return ans;
     }
-    
-    private void postorder(TreeNode root, List<Integer> ans){
-        if(root == null) return;
-        
-        postorder(root.left, ans);
-        postorder(root.right, ans);
-        ans.add(root.val);
+
+    private void postorder(TreeNode node, List<Integer> ans) {
+        if (node == null)
+            return;
+
+        postorder(node.left, ans);
+        postorder(node.right, ans);
+        ans.add(node.val);
     }
 }
