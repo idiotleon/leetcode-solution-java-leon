@@ -21,19 +21,19 @@ public class SolutionApproach0SlidingWindow {
             return 0;
 
         final int L = s.length();
-        char[] chs = s.toCharArray();
+        final char[] CHS = s.toCharArray();
 
-        int[] freq = { 0, 0, 0 };
+        final int[] FREQS = { 0, 0, 0 };
 
         int lo = 0, hi = 0;
         int count = 0;
 
         while (hi < L) {
-            ++freq[chs[hi] - 'a'];
+            ++FREQS[CHS[hi] - 'a'];
 
-            while (isValid(freq)) {
-                --freq[chs[lo] - 'a'];
-                lo++;
+            while (isValid(FREQS)) {
+                --FREQS[CHS[lo] - 'a'];
+                ++lo;
             }
 
             count += lo;
@@ -43,7 +43,7 @@ public class SolutionApproach0SlidingWindow {
         return count;
     }
 
-    private boolean isValid(int[] freq) {
-        return freq[0] > 0 && freq[1] > 0 && freq[2] > 0;
+    private boolean isValid(final int[] FREQS) {
+        return FREQS[0] > 0 && FREQS[1] > 0 && FREQS[2] > 0;
     }
 }
