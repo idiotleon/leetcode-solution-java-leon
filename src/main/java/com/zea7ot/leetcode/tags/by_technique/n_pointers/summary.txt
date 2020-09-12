@@ -67,6 +67,7 @@ References:
 3   0986    https://leetcode.com/problems/interval-list-intersections/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1055    https://leetcode.com/problems/shortest-way-to-form-string/
+3   1208    https://leetcode.com/problems/get-equal-substrings-within-budget/
 3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/

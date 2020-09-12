@@ -12,5 +12,6 @@ References:
 
 3   0424    https://leetcode.com/problems/longest-repeating-character-replacement/
 3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/
+3   1208    https://leetcode.com/problems/get-equal-substrings-within-budget/
 
 4   1177    https://leetcode.com/problems/can-make-palindrome-from-substring/

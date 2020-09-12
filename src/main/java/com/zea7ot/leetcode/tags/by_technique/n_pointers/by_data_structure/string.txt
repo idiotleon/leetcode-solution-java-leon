@@ -28,6 +28,7 @@ References:
 3   0763    https://leetcode.com/problems/partition-labels/
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1055    https://leetcode.com/problems/shortest-way-to-form-string/
+3   1208    https://leetcode.com/problems/get-equal-substrings-within-budget/
 3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 
 4   0076    https://leetcode.com/problems/minimum-window-substring/

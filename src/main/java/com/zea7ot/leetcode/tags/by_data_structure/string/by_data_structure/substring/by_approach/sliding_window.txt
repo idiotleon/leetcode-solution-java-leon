@@ -8,3 +8,5 @@ References:
 # Sliding Window
 
 2   1100    https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/
+
+3   1208    https://leetcode.com/problems/get-equal-substrings-within-budget/
