@@ -6,6 +6,8 @@ References:
 ### Tree
 # N-Ary Tree
 
+2   0590    https://leetcode.com/problems/n-ary-tree-postorder-traversal/
+
 3   0582    https://leetcode.com/problems/kill-process/
 3   1522    https://leetcode.com/problems/diameter-of-n-ary-tree/
 

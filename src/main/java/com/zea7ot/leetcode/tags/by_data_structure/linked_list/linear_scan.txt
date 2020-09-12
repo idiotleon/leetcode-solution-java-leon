@@ -12,6 +12,7 @@ References:
 3   0061    https://leetcode.com/problems/rotate-list/
 3   0086    https://leetcode.com/problems/partition-list/
 3   0092    https://leetcode.com/problems/reverse-linked-list-ii/
+3   0141    https://leetcode.com/problems/linked-list-cycle/
 
 4   0138    https://leetcode.com/problems/copy-list-with-random-pointer/
 
