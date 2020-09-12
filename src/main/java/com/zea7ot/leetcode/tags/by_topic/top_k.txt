@@ -9,6 +9,9 @@ References:
 2   0692    https://leetcode.com/problems/top-k-frequent-words/
 2   0973    https://leetcode.com/problems/k-closest-points-to-origin/
 
+4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+
+
 
 Resource:
     https://leetcode.com/problems/top-k-frequent-words/discuss/431008/summary-of-all-the-methods-you-can-imagine-of-this-problem/691132

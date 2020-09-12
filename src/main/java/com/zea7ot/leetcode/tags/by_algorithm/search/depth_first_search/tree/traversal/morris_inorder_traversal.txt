@@ -14,5 +14,6 @@ References:
 3   0530    https://leetcode.com/problems/minimum-absolute-difference-in-bst/
 3   0783    https://leetcode.com/problems/minimum-distance-between-bst-nodes/
 
+4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 4   0535    https://leetcode.com/problems/convert-bst-to-greater-tree/
 4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
