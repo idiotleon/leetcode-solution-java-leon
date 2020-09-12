@@ -3,9 +3,7 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
-### String
-## Substring
-# Dynamic Programming
+### Map
+## Prefix Sums
 
-4   1062    https://leetcode.com/problems/longest-repeating-substring/
 4   1177    https://leetcode.com/problems/can-make-palindrome-from-substring/
