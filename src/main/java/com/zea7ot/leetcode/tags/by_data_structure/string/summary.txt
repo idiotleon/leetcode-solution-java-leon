@@ -69,6 +69,7 @@ References:
 3   0640    https://leetcode.com/problems/solve-the-equation/
 3   0647    https://leetcode.com/problems/palindromic-substrings/
 3   0763    https://leetcode.com/problems/partition-labels/description/
+3   0680    https://leetcode.com/problems/valid-palindrome-ii/
 3   0681    https://leetcode.com/problems/next-closest-time/
 3   0686    https://leetcode.com/problems/repeated-string-match/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/

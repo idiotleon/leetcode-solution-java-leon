@@ -19,8 +19,7 @@ import java.util.Map;
 
 public class SolutionApproach0PrefixSums {
     public int subarraySum(int[] nums, int k) {
-        int sum = 0, count = 0;
-        Map<Integer, Integer> prefixSums = new HashMap<Integer, Integer>();
+        final Map<Integer, Integer> PREFIX_SUMS = new HashMap<>();
         // this is for situtations where (sum - k) == 0,
         // which are valid calculations, and should be counted.
 
@@ -29,15 +28,16 @@ public class SolutionApproach0PrefixSums {
 
         // to handle the special case, where the subarray begins at index 0 with (sum ==
         // k)
-        prefixSums.put(0, 1);
+        PREFIX_SUMS.put(0, 1);
+
+        int sum = 0, count = 0;
 
         for (int num : nums) {
             sum += num;
-            if (prefixSums.containsKey(sum - k)) {
-                count += prefixSums.get(sum - k);
-            }
+            if (PREFIX_SUMS.containsKey(sum - k))
+                count += PREFIX_SUMS.get(sum - k);
 
-            prefixSums.put(sum, prefixSums.getOrDefault(sum, 0) + 1);
+            PREFIX_SUMS.put(sum, PREFIX_SUMS.getOrDefault(sum, 0) + 1);
         }
 
         return count;
