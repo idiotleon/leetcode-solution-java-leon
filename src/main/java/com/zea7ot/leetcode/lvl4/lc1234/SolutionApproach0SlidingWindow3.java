@@ -11,48 +11,61 @@
  */
 package com.zea7ot.leetcode.lvl4.lc1234;
 
-public class SolutionApproach0SlidingWindow {
+public class SolutionApproach0SlidingWindow3 {
+    private static final char[] LETTERS = new char[] { 'Q', 'W', 'E', 'R' };
+
     public int balancedString(String s) {
         // sanity check
         if (s == null || s.isEmpty())
             return 0;
-
         final int L = s.length();
         final char[] CHS = s.toCharArray();
-
-        final int[] FREQS = new int[26];
-        for (final char CH : CHS) {
-            ++FREQS[CH - 'A'];
-        }
-
         final int K = L / 4;
-        if (isValid(FREQS, K))
-            return 0;
+
+        final int[] FREQS = new int[4];
+        for (final char CH : CHS)
+            ++FREQS[hash(CH)];
 
         int lo = 0, hi = 0;
         int shortest = L;
 
         while (hi < L) {
-            --FREQS[CHS[hi] - 'A'];
+            --FREQS[hash(CHS[hi])];
 
             while (isValid(FREQS, K)) {
                 shortest = Math.min(shortest, hi - lo + 1);
-                ++FREQS[CHS[lo] - 'A'];
+                ++FREQS[hash(CHS[lo])];
                 ++lo;
             }
 
+            if (lo == L)
+                break;
             ++hi;
         }
 
         return shortest;
     }
 
-    private boolean isValid(final int[] FREQS, final int K) {
-        for (final int FREQ : FREQS) {
-            if (FREQ > K)
-                return false;
+    private boolean isValid(int[] freq, final int K) {
+        int max = 0;
+        for (char ch : LETTERS)
+            max = Math.max(max, freq[hash(ch)]);
+
+        return max <= K;
+    }
+
+    private int hash(char ch) {
+        switch (ch) {
+            case 'Q':
+                return 0;
+            case 'W':
+                return 1;
+            case 'E':
+                return 2;
+            case 'R':
+                return 3;
         }
 
-        return true;
+        return -1;
     }
 }

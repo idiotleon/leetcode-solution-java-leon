@@ -28,20 +28,5 @@ References:
 
 
 
-## Longest vs Shortest
-
-4   0340    https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
-4   0395    https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
-
-
-
-# Rolling Hash
-
-2   0567    https://leetcode.com/problems/permutation-in-string/
-
-4   1316    https://leetcode.com/problems/distinct-echo-substrings/
-
-
-
 Resources:
     https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/hua-dong-chuang-kou-ji-qiao-jin-jie

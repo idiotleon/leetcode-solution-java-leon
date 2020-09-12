@@ -4,7 +4,7 @@
  * Time Complexity:     O(L)
  * Space Complexity:    O(4) / O(L) ~ O(1) / O(L)
  * 
- * `freq[]` keeps acount of the frequencies OUTSIDE the sliding window
+ * `FREQS[]` keeps accounts of the frequencies OUTSIDE the sliding window
  * 
  * References:
  *  https://leetcode.com/problems/replace-the-substring-for-balanced-string/discuss/408978/JavaC%2B%2BPython-Sliding-Window
@@ -18,23 +18,28 @@ public class SolutionApproach0SlidingWindow1 {
         // sanity check
         if (s == null || s.isEmpty())
             return 0;
+
         final int L = s.length();
-        char[] chs = s.toCharArray();
+        final char[] CHS = s.toCharArray();
         final int K = L / 4;
 
-        int[] freq = new int[4];
-        for (char ch : chs)
-            ++freq[hash(ch)];
+        final int[] FREQS = new int[4];
+        for (final char CH : CHS) {
+            ++FREQS[hash(CH)];
+        }
+
+        if (isValid(FREQS, K))
+            return 0;
 
         int lo = 0, hi = 0;
         int shortest = L;
 
         while (hi < L) {
-            --freq[hash(chs[hi])];
+            --FREQS[hash(CHS[hi])];
 
-            while (lo < L && isValid(freq, K)) {
+            while (isValid(FREQS, K)) {
                 shortest = Math.min(shortest, hi - lo + 1);
-                ++freq[hash(chs[lo])];
+                ++FREQS[hash(CHS[lo])];
                 ++lo;
             }
 
@@ -44,16 +49,17 @@ public class SolutionApproach0SlidingWindow1 {
         return shortest;
     }
 
-    private boolean isValid(int[] freq, final int K) {
-        int max = 0;
-        for (char ch : LETTERS)
-            max = Math.max(max, freq[hash(ch)]);
+    private boolean isValid(final int[] FREQS, final int K) {
+        int maxOccur = 0;
+        for (char ch : LETTERS) {
+            maxOccur = Math.max(maxOccur, FREQS[hash(ch)]);
+        }
 
-        return max <= K;
+        return maxOccur <= K;
     }
 
-    private int hash(char ch) {
-        switch (ch) {
+    private int hash(final char CH) {
+        switch (CH) {
             case 'Q':
                 return 0;
             case 'W':
