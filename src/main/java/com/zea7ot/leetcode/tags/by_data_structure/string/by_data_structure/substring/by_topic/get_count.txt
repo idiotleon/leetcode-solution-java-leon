@@ -1,0 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### String
+## Substring
+# Get Count
+
+2   1180    https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/

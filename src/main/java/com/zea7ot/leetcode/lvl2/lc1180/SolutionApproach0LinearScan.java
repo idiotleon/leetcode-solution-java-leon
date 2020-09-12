@@ -3,6 +3,10 @@
  * 
  * Time Complexity:     O(L)
  * Space Complexity:    O(1)
+ * 
+ * References:
+ *  https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/discuss/376921/Java-Simple-O(n)-code-brief-explanation-and-analysis./484876
+ *  https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/discuss/376921/Java-Simple-O(n)-code-brief-explanation-and-analysis.
  */
 package com.zea7ot.leetcode.lvl2.lc1180;
 
