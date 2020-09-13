@@ -128,6 +128,7 @@ References:
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1111    https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/
 4   1152    https://leetcode.com/problems/analyze-user-website-visit-pattern/
+4   1163    https://leetcode.com/problems/last-substring-in-lexicographical-order/
 4   1177    https://leetcode.com/problems/can-make-palindrome-from-substring/
 4   1216    https://leetcode.com/problems/valid-palindrome-iii/
 4   1234    https://leetcode.com/problems/replace-the-substring-for-balanced-string/
