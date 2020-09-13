@@ -9,7 +9,7 @@ package com.zea7ot.leetcode.lvl4.lc0057;
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class SolutionApproach0Greedy {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         // sanity check
         if (intervals == null || intervals.length == 0)
