@@ -1,27 +1,34 @@
 /**
  * https://leetcode.com/problems/multiply-strings/
+ * 
+ * Time Complexity:     O(L1 + L2)
+ * Space Complexity:    O(L1 + L2)
  */
 package com.zea7ot.leetcode.lvl4.lc0043;
 
-public class Solution {
+public class SolutionApproach0ParsingString {
     public String multiply(String num1, String num2) {
-        int m = num1.length(), n = num2.length();
-        int[] pos = new int[m + n];
+        final int L1 = num1.length(), L2 = num2.length();
+        final char[] CHS1 = num1.toCharArray();
+        final char[] CHS2 = num2.toCharArray();
+        int[] pos = new int[L1 + L2];
 
-        for (int i = m - 1; i >= 0; i--)
-            for (int j = n - 1; j >= 0; j--) {
-                int mul = (num1.charAt(i) - '0') * (num2.charAt(j) - '0');
+        for (int i = L1 - 1; i >= 0; --i) {
+            for (int j = L2 - 1; j >= 0; --j) {
+                int mul = (CHS1[i] - '0') * (CHS2[j] - '0');
                 int p1 = i + j, p2 = i + j + 1;
                 int sum = mul + pos[p2];
 
                 pos[p1] += sum / 10;
                 pos[p2] = sum % 10;
             }
+        }
 
         StringBuilder builder = new StringBuilder();
         for (int p : pos)
             if (!(builder.length() == 0 && p == 0))
                 builder.append(p);
+
         return builder.length() == 0 ? "0" : builder.toString();
     }
 }

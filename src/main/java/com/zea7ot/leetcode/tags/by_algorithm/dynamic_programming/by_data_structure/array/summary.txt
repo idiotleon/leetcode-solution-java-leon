@@ -12,6 +12,7 @@ References:
 
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 
+4   0084    https://leetcode.com/problems/largest-rectangle-in-histogram/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/

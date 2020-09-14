@@ -24,7 +24,7 @@ public class SolutionApproach0MonoQueue {
         int[] ans = new int[N - k + 1];
         int idx = 0;
 
-        Deque<Integer> deque = new ArrayDeque<Integer>();
+        Deque<Integer> deque = new ArrayDeque<>();
 
         for (int i = 0; i < N; ++i) {
             while (!deque.isEmpty() && deque.peekFirst() < i - k + 1)
