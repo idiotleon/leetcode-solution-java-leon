@@ -12,31 +12,31 @@ package com.zea7ot.leetcode.lvl4.lc0616;
 public class SolutionApproach0MarkPositions2 {
     private static final String TAG_START = "<b>";
     private static final String TAG_END = "</b>";
-    
+
     public String addBoldTag(String s, String[] dict) {
         final int L = s.length();
         StringBuilder builder = new StringBuilder();
         int idxLast = 0, idxStart = 0, idxEnd = -1;
-        
-        while(idxStart < L){
-            for(String word : dict)
-                if(s.startsWith(word, idxStart))
+
+        while (idxStart < L) {
+            for (String word : dict)
+                if (s.startsWith(word, idxStart))
                     idxEnd = Math.max(idxEnd, idxStart + word.length());
-            
-            if(idxStart == idxEnd)
+
+            if (idxStart == idxEnd)
                 builder.append(TAG_START).append(s.substring(idxLast, idxStart)).append(TAG_END);
-            
-            if(idxStart >= idxEnd){
+
+            if (idxStart >= idxEnd) {
                 builder.append(s.charAt(idxStart));
                 idxLast = idxStart + 1;
             }
-            
+
             ++idxStart;
         }
-        
-        if(idxEnd >= L)
+
+        if (idxEnd >= L)
             builder.append(TAG_START).append(s.substring(idxLast)).append(TAG_END);
-        
+
         return builder.toString();
     }
 }

@@ -4,6 +4,9 @@
  * Time Complexity:     O(N)
  * Space Complexity:    O(N)
  * 
+ * `loweFromLeft[i]`, the first index/coordinate oft he bar to the left with a height of `heights[l] < heights[i]`
+ * `loweFromRight[i]`, the first index/coordinate oft he bar to the right with a height of `heights[r] < heights[i]`
+ * 
  * References:
  *  https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28902/5ms-O(n)-Java-solution-explained-(beats-96)
  */
@@ -17,34 +20,34 @@ public class SolutionApproach0DP1Dimen {
 
         final int N = heights.length;
 
-        int[] lessFromLeft = new int[N];
-        lessFromLeft[0] = -1;
-        int[] lessFromRight = new int[N];
-        lessFromRight[N - 1] = N;
+        int[] lowerFromLeft = new int[N];
+        lowerFromLeft[0] = -1;
+        int[] lowerFromRight = new int[N];
+        lowerFromRight[N - 1] = N;
 
         for (int i = 1; i < N; ++i) {
-            int p = i - 1;
+            int prev = i - 1;
 
-            while (p >= 0 && heights[p] >= heights[i]) {
-                p = lessFromLeft[p];
+            while (prev >= 0 && heights[prev] >= heights[i]) {
+                prev = lowerFromLeft[prev];
             }
 
-            lessFromLeft[i] = p;
+            lowerFromLeft[i] = prev;
         }
 
         for (int i = N - 2; i >= 0; --i) {
-            int p = i + 1;
+            int prev = i + 1;
 
-            while (p < N && heights[p] >= heights[i]) {
-                p = lessFromRight[p];
+            while (prev < N && heights[prev] >= heights[i]) {
+                prev = lowerFromRight[prev];
             }
 
-            lessFromRight[i] = p;
+            lowerFromRight[i] = prev;
         }
 
         int maxArea = 0;
         for (int i = 0; i < N; ++i) {
-            maxArea = Math.max(maxArea, heights[i] * (lessFromRight[i] - lessFromLeft[i] - 1));
+            maxArea = Math.max(maxArea, heights[i] * (lowerFromRight[i] - lowerFromLeft[i] - 1));
         }
 
         return maxArea;

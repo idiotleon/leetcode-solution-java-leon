@@ -18,9 +18,11 @@ public class SolutionApproach0Greedy {
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
         for (int[] interval : intervals) {
-            if (!minHeap.isEmpty() && interval[0] >= minHeap.peek())
+            int start = interval[0], end = interval[1];
+            if (!minHeap.isEmpty() && start >= minHeap.peek())
                 minHeap.poll();
-            minHeap.add(interval[1]);
+
+            minHeap.add(end);
         }
 
         return minHeap.size();

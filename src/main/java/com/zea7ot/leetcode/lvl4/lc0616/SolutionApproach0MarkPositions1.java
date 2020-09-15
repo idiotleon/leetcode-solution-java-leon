@@ -17,28 +17,29 @@ public class SolutionApproach0MarkPositions1 {
     public String addBoldTag(String s, String[] dict) {
         final int L = s.length();
         boolean[] isBold = new boolean[L];
-        for(int i = 0, end = 0; i < L; ++i){
-            for(String word : dict){
-                if(s.startsWith(word, i)){
+        for (int i = 0, end = 0; i < L; ++i) {
+            for (String word : dict) {
+                if (s.startsWith(word, i)) {
                     end = Math.max(end, i + word.length());
                 }
             }
-            
+
             isBold[i] = end > i;
         }
-        
+
         StringBuilder builder = new StringBuilder();
-        for(int i = 0; i < L; ++i){
-            if(!isBold[i]){
+        for (int i = 0; i < L; ++i) {
+            if (!isBold[i]) {
                 builder.append(s.charAt(i));
-            }else{
+            } else {
                 int j = i;
-                while(j < L && isBold[j]) ++j;
+                while (j < L && isBold[j])
+                    ++j;
                 builder.append(TAG_OPEN).append(s.substring(i, j)).append(TAG_CLOSED);
                 i = j - 1;
             }
         }
-        
+
         return builder.toString();
     }
 }
