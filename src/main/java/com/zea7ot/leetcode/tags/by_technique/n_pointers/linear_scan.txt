@@ -6,6 +6,7 @@ References:
 ### N Pointers
 # Linear Scan / 1 Pointer
 
+1   0058    https://leetcode.com/problems/length-of-last-word/
 1   0088    https://leetcode.com/problems/merge-sorted-array/
 1   0346    https://leetcode.com/problems/moving-average-from-data-stream/
 

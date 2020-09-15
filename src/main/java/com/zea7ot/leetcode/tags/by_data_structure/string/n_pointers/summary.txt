@@ -7,6 +7,7 @@ References:
 ## N Pointers
 # Summary
 
+1   0058    https://leetcode.com/problems/length-of-last-word/
 1   0067    https://leetcode.com/problems/add-binary/
 1   0125    https://leetcode.com/problems/valid-palindrome/
 1   0345    https://leetcode.com/problems/reverse-vowels-of-a-string/
