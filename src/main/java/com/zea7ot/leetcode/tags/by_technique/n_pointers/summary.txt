@@ -103,6 +103,8 @@ References:
 4   1316    https://leetcode.com/problems/distinct-echo-substrings/
 4   1537    https://leetcode.com/problems/get-the-maximum-score/
 
+5   0224    https://leetcode.com/problems/basic-calculator/
+
 
 
 Resources:
