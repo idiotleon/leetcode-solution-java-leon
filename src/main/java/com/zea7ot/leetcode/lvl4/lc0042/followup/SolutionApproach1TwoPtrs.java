@@ -10,39 +10,42 @@
 package com.zea7ot.leetcode.lvl4.lc0042.followup;
 
 public class SolutionApproach1TwoPtrs {
-    public int trap(int[] height){
+    public int trap(int[] heights) {
         // sanity check
-        if(height == null || height.length == 0) return 0;
+        if (heights == null || heights.length == 0)
+            return 0;
 
-        final int N = height.length;
+        final int N = heights.length;
         int water = 0;
         int left = 0, right = 0;
 
-        while(right < N){
-            while(right < N && height[right] == 0) right++;
+        while (right < N) {
+            while (right < N && heights[right] == 0)
+                right++;
             left = right - 1;
-            while(right < N && height[right] != 0) right++;
-            water += trap(height, left, right);
+            while (right < N && heights[right] != 0)
+                right++;
+            water += trap(heights, left, right);
         }
 
         return water;
     }
 
-    private int trap(int[] height, int lo, int hi){
+    private int trap(int[] heights, int lo, int hi) {
         int left = lo, right = hi - 1;
-        int leftMax = height[left], rightMax = height[right];
+        int leftMax = heights[left], rightMax = heights[right];
         int water = 0;
 
-        while(left < right){
-            if(leftMax < rightMax){
-                water += leftMax - height[left];
-                leftMax = Math.max(leftMax, height[++left]);
-            }else{
-                water += rightMax - height[right];
-                rightMax = Math.max(rightMax, height[--right]);
+        while (left < right) {
+            if (leftMax < rightMax) {
+                water += leftMax - heights[left];
+                leftMax = Math.max(leftMax, heights[++left]);
+            } else {
+                water += rightMax - heights[right];
+                rightMax = Math.max(rightMax, heights[--right]);
             }
         }
-        
+
         return water;
     }
 }
