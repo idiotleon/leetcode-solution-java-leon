@@ -21,21 +21,21 @@ public class SolutionApproach0SweepLine {
         if (intervals == null || intervals.length == 0)
             return 0;
 
-        Map<Integer, Integer> timeline = new TreeMap<>();
+        final Map<Integer, Integer> TIMELINE = new TreeMap<>();
         for (int[] interval : intervals) {
             final int START = interval[0];
             final int END = interval[1];
 
-            timeline.put(START, timeline.getOrDefault(START, 0) + 1);
-            timeline.put(END, timeline.getOrDefault(END, 0) - 1);
+            TIMELINE.put(START, TIMELINE.getOrDefault(START, 0) + 1);
+            TIMELINE.put(END, TIMELINE.getOrDefault(END, 0) - 1);
         }
 
-        int count = 0, ans = 0;
-        for (Map.Entry<Integer, Integer> entry : timeline.entrySet()) {
-            count += entry.getValue();
-            ans = Math.max(ans, count);
+        int freq = 0, required = 0;
+        for (Map.Entry<Integer, Integer> entry : TIMELINE.entrySet()) {
+            freq += entry.getValue();
+            required = Math.max(required, freq);
         }
 
-        return ans;
+        return required;
     }
 }

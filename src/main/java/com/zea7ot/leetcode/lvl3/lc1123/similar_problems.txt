@@ -13,9 +13,9 @@ References:
 
 ### Ancestor
 
-2   0235    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 
+3   0235    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 3   0236    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 

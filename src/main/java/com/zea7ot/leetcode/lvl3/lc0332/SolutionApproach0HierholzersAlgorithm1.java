@@ -37,11 +37,12 @@ public class SolutionApproach0HierholzersAlgorithm1 {
     public List<String> findItinerary(List<List<String>> tickets) {
         LinkedList<String> ans = new LinkedList<String>();
         // sanity check
-        if(tickets == null || tickets.isEmpty()) return ans;
-        
+        if (tickets == null || tickets.isEmpty())
+            return ans;
+
         // a tree-like graph, with children sorted lexicographically and greedily
         Map<String, PriorityQueue<String>> graph = new HashMap<String, PriorityQueue<String>>();
-        for(List<String> ticket : tickets){
+        for (List<String> ticket : tickets) {
             // this PriorityQueue is a minHeap
             graph.putIfAbsent(ticket.get(0), new PriorityQueue<String>((a, b) -> a.compareTo(b)));
             graph.get(ticket.get(0)).add(ticket.get(1));
@@ -50,12 +51,10 @@ public class SolutionApproach0HierholzersAlgorithm1 {
         postorder("JFK", graph, ans);
         return ans;
     }
-    
-    private void postorder(String source, 
-                           Map<String, PriorityQueue<String>> graph, 
-                           LinkedList<String> routes){
+
+    private void postorder(String source, Map<String, PriorityQueue<String>> graph, LinkedList<String> routes) {
         PriorityQueue<String> destinations = graph.get(source);
-        while(destinations != null && !destinations.isEmpty()){
+        while (destinations != null && !destinations.isEmpty()) {
             postorder(destinations.poll(), graph, routes);
         }
 

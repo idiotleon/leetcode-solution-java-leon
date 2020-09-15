@@ -1,8 +1,12 @@
 /**
  * https://leetcode.com/problems/largest-rectangle-in-histogram/
  * 
- * Time complexity:     O(N)
- * Space complexity:    O(N)
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
+ * 
+ * References:
+ *  https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28900/Short-and-Clean-O(n)-stack-based-JAVA-solution
+ *  https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28900/Short-and-Clean-O(n)-stack-based-JAVA-solution/27725
  */
 package com.zea7ot.leetcode.lvl4.lc0084;
 
@@ -16,21 +20,20 @@ public class SolutionApproach0MonoStack1 {
             return 0;
 
         final int N = heights.length;
+
         int maxArea = 0;
 
-        Deque<Integer> stack = new ArrayDeque<Integer>();
-        stack.push(-1);
+        Deque<Integer> stack = new ArrayDeque<>();
+        int idx = 0;
 
-        for (int i = 0; i < N; ++i) {
-            while (stack.peek() != -1 && heights[stack.peek()] >= heights[i]) {
-                maxArea = Math.max(maxArea, heights[stack.pop()] * (i - stack.peek() - 1));
+        while (idx <= N) {
+            int height = (idx == N) ? 0 : heights[idx];
+            if (stack.isEmpty() || height >= heights[stack.peek()]) {
+                stack.push(idx++);
+            } else {
+                int top = stack.pop(); // concave/lowest
+                maxArea = Math.max(maxArea, heights[top] * (stack.isEmpty() ? idx : idx - 1 - stack.peek()));
             }
-
-            stack.push(i);
-        }
-
-        while (stack.peek() != -1) {
-            maxArea = Math.max(maxArea, heights[stack.pop()] * (N - stack.peek() - 1));
         }
 
         return maxArea;

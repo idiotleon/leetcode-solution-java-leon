@@ -24,8 +24,8 @@ public class SolutionApproach0DFSRecursive1 {
         if (root == p || root == q)
             return root;
 
-        TreeNode left = lowestCommonAncestor(root.left, p, q);
-        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        TreeNode left = postorder(root.left, p, q);
+        TreeNode right = postorder(root.right, p, q);
 
         if (left != null && right != null)
             return root;

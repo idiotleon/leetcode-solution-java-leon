@@ -17,26 +17,33 @@ public class SolutionApproach0SweepLine {
         final int L = s.length();
 
         int[] marks = new int[L + 1];
-        for(String word : dict){
+        for (String word : dict) {
             int idx = -1;
-            while((idx = s.indexOf(word, idx + 1)) >= 0){
+            while ((idx = s.indexOf(word, idx + 1)) >= 0) {
                 ++marks[idx];
                 --marks[idx + word.length()];
             }
         }
-        
+
         StringBuilder builder = new StringBuilder();
-        int sum = 0, idx = 0;
-        while(idx <= L){
-            int cur = sum + marks[idx];
-            if(cur > 0 && sum == 0) builder.append(TAG_OPEN);
-            if(cur == 0 && sum > 0) builder.append(TAG_CLOSED);
-            if(idx == L) break;
+        int prev = 0, idx = 0;
+        while (idx <= L) {
+            int cur = prev + marks[idx];
+
+            if (cur > 0 && prev == 0)
+                builder.append(TAG_OPEN);
+
+            if (cur == 0 && prev > 0)
+                builder.append(TAG_CLOSED);
+
+            if (idx == L)
+                break;
+
             builder.append(s.charAt(idx));
-            sum = cur;
+            prev = cur;
             ++idx;
         }
-        
+
         return builder.toString();
     }
 }

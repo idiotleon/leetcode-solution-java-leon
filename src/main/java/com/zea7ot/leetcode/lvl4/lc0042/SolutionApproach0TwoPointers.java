@@ -7,23 +7,23 @@
 package com.zea7ot.leetcode.lvl4.lc0042;
 
 public class SolutionApproach0TwoPointers {
-    public int trap(int[] height) { // [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
+    public int trap(int[] heights) { // [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
         // sanity check
-        if (height == null || height.length < 2)
+        if (heights == null || heights.length < 2)
             return 0;
 
-        final int N = height.length; // 12
-        int left = 0, right = N - 1; // left: 0, right: 11
+        final int N = heights.length; // 12
+        int lo = 0, hi = N - 1; // left: 0, right: 11
         int water = 0;
-        int leftMax = height[left], rightMax = height[right]; // leftMax: 0, rightMax: 1
+        int loMax = heights[lo], hiMax = heights[hi]; // leftMax: 0, rightMax: 1
 
-        while (left < right) {
-            if (leftMax < rightMax) {
-                water += leftMax - height[left];
-                leftMax = Math.max(leftMax, height[++left]);
+        while (lo < hi) {
+            if (loMax < hiMax) {
+                water += loMax - heights[lo];
+                loMax = Math.max(loMax, heights[++lo]);
             } else {
-                water += rightMax - height[right];
-                rightMax = Math.max(rightMax, height[--right]);
+                water += hiMax - heights[hi];
+                hiMax = Math.max(hiMax, heights[--hiMax]);
             }
         }
 

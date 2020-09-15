@@ -1,0 +1,13 @@
+@author: Leon
+References:
+    https://leetcode.com/problems/largest-rectangle-in-histogram/
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Problem Description
+
+to get the largest rectangle, with one cerntain column included
+
+e.g.:
+    to get the largest rectangle, with x = 3 (heights[3]) included
+

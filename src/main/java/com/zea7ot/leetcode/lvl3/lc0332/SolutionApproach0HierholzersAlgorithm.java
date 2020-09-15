@@ -28,34 +28,33 @@ public class SolutionApproach0HierholzersAlgorithm {
     public List<String> findItinerary(List<List<String>> tickets) {
         List<String> ans = new ArrayList<String>();
         // sanity check
-        if(tickets == null || tickets.isEmpty()) return ans;
-        
+        if (tickets == null || tickets.isEmpty())
+            return ans;
+
         // a tree-like graph, with children sorted lexicographically and greedily
         Map<String, PriorityQueue<String>> graph = new HashMap<String, PriorityQueue<String>>();
-        for(List<String> ticket : tickets){
+        for (List<String> ticket : tickets) {
             // this PriorityQueue is a minHeap
             graph.putIfAbsent(ticket.get(0), new PriorityQueue<String>((a, b) -> a.compareTo(b)));
             graph.get(ticket.get(0)).add(ticket.get(1));
         }
-        
+
         final String START = "JFK";
         postorder(START, graph, ans);
         Collections.reverse(ans);
         return ans;
     }
-    
-    private void postorder(String source, 
-                           Map<String, PriorityQueue<String>> graph, 
-                           List<String> routes){
-        
+
+    private void postorder(String source, Map<String, PriorityQueue<String>> graph, List<String> routes) {
+
         PriorityQueue<String> destinations = graph.get(source);
-        if(destinations != null){
-            while(!destinations.isEmpty()){
+        if (destinations != null) {
+            while (!destinations.isEmpty()) {
                 String destination = destinations.poll();
                 postorder(destination, graph, routes);
             }
         }
-        
+
         routes.add(source);
     }
 }

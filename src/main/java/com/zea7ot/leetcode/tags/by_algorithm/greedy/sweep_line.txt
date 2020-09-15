@@ -3,7 +3,8 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
-### Sweep Line
+### Greedy
+## Sweep Line
 
 2   1094    https://leetcode.com/problems/car-pooling/
 

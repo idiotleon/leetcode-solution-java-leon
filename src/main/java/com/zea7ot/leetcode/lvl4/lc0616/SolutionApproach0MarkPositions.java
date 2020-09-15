@@ -12,31 +12,32 @@ package com.zea7ot.leetcode.lvl4.lc0616;
 public class SolutionApproach0MarkPositions {
     private static final String TAG_OPEN = "<b>";
     private static final String TAG_CLOSED = "</b>";
-    
+
     public String addBoldTag(String s, String[] dict) {
         final int L = s.length();
         boolean[] isBold = new boolean[L];
-        for(String word : dict){
+        for (String word : dict) {
             int idxStart = 0;
-            while(idxStart >= 0){
+            while (idxStart >= 0) {
                 idxStart = s.indexOf(word, idxStart);
-                if(idxStart < 0) break;
+                if (idxStart < 0)
+                    break;
                 int idxEnd = idxStart + word.length();
-                for(int i = idxStart; i < idxEnd; ++i)
+                for (int i = idxStart; i < idxEnd; ++i)
                     isBold[i] = true;
-                
+
                 ++idxStart;
             }
         }
-        
+
         StringBuilder builder = new StringBuilder();
-        for(int i = 0; i < L; ++i){
-            if(isBold[i] && (i - 1 < 0 || !isBold[i - 1]))
+        for (int i = 0; i < L; ++i) {
+            if (isBold[i] && (i - 1 < 0 || !isBold[i - 1]))
                 builder.append(TAG_OPEN);
-                
+
             builder.append(s.charAt(i));
-            
-            if(isBold[i] && (i + 1 == L || !isBold[i + 1]))
+
+            if (isBold[i] && (i + 1 == L || !isBold[i + 1]))
                 builder.append(TAG_CLOSED);
         }
         return builder.toString();

@@ -2,7 +2,10 @@
  * https://leetcode.com/problems/product-of-array-except-self/
  * 
  * Time Complexity:     O(2 * N) ~ O(N)
- * Space Complexity:    O(N)
+ * Space Complexity:    O(N) / O(1)
+ * 
+ * References:
+ *  https://leetcode.com/problems/product-of-array-except-self/discuss/65622/Simple-Java-solution-in-O(n)-without-extra-space
  */
 package com.zea7ot.leetcode.lvl3.lc0238;
 
@@ -16,8 +19,9 @@ public class SolutionApproach0LinearScan {
         int[] ans = new int[N];
         ans[0] = 1;
         // from the left to the right
-        for (int i = 1; i < N; ++i)
+        for (int i = 1; i < N; ++i) {
             ans[i] = nums[i - 1] * ans[i - 1];
+        }
 
         // from the right to the left
         int res = 1;
