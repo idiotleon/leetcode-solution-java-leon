@@ -25,9 +25,10 @@ public class SolutionApproach0ParsingString {
         }
 
         StringBuilder builder = new StringBuilder();
-        for (int p : pos)
+        for (int p : pos) {
             if (!(builder.length() == 0 && p == 0))
                 builder.append(p);
+        }
 
         return builder.length() == 0 ? "0" : builder.toString();
     }

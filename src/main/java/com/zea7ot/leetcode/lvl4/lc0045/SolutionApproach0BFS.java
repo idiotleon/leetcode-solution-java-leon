@@ -3,7 +3,7 @@
  */
 package com.zea7ot.leetcode.lvl4.lc0045;
 
-public class SolutionApproachBFS {
+public class SolutionApproach0BFS {
     public int jump(int[] nums) {
         int jump = 0, curEnd = 0, curFurthest = 0;
 
