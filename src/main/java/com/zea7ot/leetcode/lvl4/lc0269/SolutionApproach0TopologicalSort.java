@@ -27,17 +27,19 @@ public class SolutionApproach0TopologicalSort {
 
         // to prepare for the topological sort
         List<Set<Integer>> graph = new ArrayList<>(TOTAL_ALPHABETS);
-        for (int i = 0; i < TOTAL_ALPHABETS; ++i)
-            graph.add(new HashSet<Integer>());
+        for (int i = 0; i < TOTAL_ALPHABETS; ++i) {
+            graph.add(new HashSet<>());
+        }
 
         // indegrees/outdegrees
-        int[] counts = new int[TOTAL_ALPHABETS];
+        final int[] FREQS = new int[TOTAL_ALPHABETS];
         // for alphabetic letters that have not shown up at all
-        Arrays.fill(counts, -1);
+        Arrays.fill(FREQS, -1);
         // for alphabetic letters that have shown up
-        for (String word : words)
+        for (String word : words) {
             for (char ch : word.toCharArray())
-                counts[ch - 'a'] = 0;
+                FREQS[ch - 'a'] = 0;
+        }
 
         // to build up the graph
         for (int i = 1; i < N; ++i) {
@@ -59,9 +61,9 @@ public class SolutionApproach0TopologicalSort {
                         continue;
                     final int IDX_PREV = CH_PREV - 'a';
                     final int IDX_CUR = CH_CUR - 'a';
-                    if (!graph.get(IDX_PREV).contains(IDX_CUR)) {
-                        graph.get(IDX_PREV).add(IDX_CUR);
-                        ++counts[IDX_CUR];
+
+                    if (graph.get(IDX_PREV).add(IDX_CUR)) {
+                        ++FREQS[IDX_CUR];
                     }
 
                     // there is no need to check the following characters,
@@ -72,25 +74,32 @@ public class SolutionApproach0TopologicalSort {
         }
 
         // to topological sort
-        Deque<Integer> queue = new ArrayDeque<Integer>();
-        for (int i = 0; i < TOTAL_ALPHABETS; ++i)
-            if (counts[i] == 0)
-                queue.add(i);
+        Deque<Integer> queue = new ArrayDeque<>();
+        for (int i = 0; i < TOTAL_ALPHABETS; ++i) {
+            if (FREQS[i] == 0)
+                queue.offer(i);
+        }
 
         StringBuilder builder = new StringBuilder();
         while (!queue.isEmpty()) {
-            int cur = queue.poll();
-            char ch = (char) (cur + 'a');
-            builder.append(ch);
-            for (int next : graph.get(cur))
-                if (--counts[next] == 0)
-                    queue.offer(next);
+            final int SIZE = queue.size();
+
+            for (int i = 0; i < SIZE; ++i) {
+                int cur = queue.poll();
+                final char CH = (char) (cur + 'a');
+                builder.append(CH);
+                for (int next : graph.get(cur)) {
+                    if (--FREQS[next] == 0)
+                        queue.offer(next);
+                }
+            }
         }
 
         // there is any cycle
-        for (int num : counts)
-            if (num > 0)
+        for (int freq : FREQS) {
+            if (freq > 0)
                 return "";
+        }
 
         return builder.toString();
     }

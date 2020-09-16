@@ -51,8 +51,9 @@ public class SolutionApproach0Iteration {
     }
 
     private TreeNode findMin(TreeNode node) {
-        while (node.left != null)
+        while (node.left != null) {
             node = node.left;
+        }
 
         return node;
     }
