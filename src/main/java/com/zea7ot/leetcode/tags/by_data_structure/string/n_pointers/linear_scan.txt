@@ -6,6 +6,7 @@ References:
 ### String
 # Linear Scan / 1 Pointer
 
+1   0058    https://leetcode.com/problems/length-of-last-word/
 1   0067    https://leetcode.com/problems/add-binary/
 
 2   0157    https://leetcode.com/problems/read-n-characters-given-read4/
@@ -23,7 +24,11 @@ References:
 
 4   0158    https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/
 4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
+4   0227    https://leetcode.com/problems/basic-calculator-ii/
 4   0249    https://leetcode.com/problems/group-shifted-strings/
+
+5   0224    https://leetcode.com/problems/basic-calculator/
+5   0772    https://leetcode.com/problems/basic-calculator-iii/
 
 
 

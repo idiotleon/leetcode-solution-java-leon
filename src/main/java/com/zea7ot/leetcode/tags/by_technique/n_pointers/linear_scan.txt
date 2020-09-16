@@ -6,6 +6,7 @@ References:
 ### N Pointers
 # Linear Scan / 1 Pointer
 
+1   0058    https://leetcode.com/problems/length-of-last-word/
 1   0088    https://leetcode.com/problems/merge-sorted-array/
 1   0346    https://leetcode.com/problems/moving-average-from-data-stream/
 
@@ -48,6 +49,8 @@ References:
 4   0158    https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/
 4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
 4   0311    https://leetcode.com/problems/sparse-matrix-multiplication/
+
+5   0224    https://leetcode.com/problems/basic-calculator/
 
 
 
