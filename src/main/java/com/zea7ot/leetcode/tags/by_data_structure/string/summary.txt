@@ -46,6 +46,7 @@ References:
 
 3   0005    https://leetcode.com/problems/longest-palindromic-substring/
 3   0029    https://leetcode.com/problems/divide-two-integers/
+2   0038    https://leetcode.com/problems/count-and-say/
 3   0049    https://leetcode.com/problems/group-anagrams/
 3   0060    https://leetcode.com/problems/permutation-sequence/
 3   0071    https://leetcode.com/problems/simplify-path/
