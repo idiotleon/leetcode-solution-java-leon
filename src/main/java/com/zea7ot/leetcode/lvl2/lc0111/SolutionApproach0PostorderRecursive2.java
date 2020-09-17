@@ -1,6 +1,9 @@
 /**
  * https://leetcode.com/problems/minimum-depth-of-binary-tree/discuss/36188/Very-easy-with-recursion-1ms-Java-solution/34395
  * 
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(H)
+ * 
  * If a node has both left and right child, 
  * it means that the node has both left child tree and right child tree, 
  * so we just recursively find the min height of subtree. 
@@ -14,14 +17,19 @@ package com.zea7ot.leetcode.lvl2.lc0111;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproachDFSBottomUp2 {
+public class SolutionApproach0PostorderRecursive2 {
     public int minDepth(TreeNode root) {
-        if(root == null) return 0;
-        
-        if(root.left != null && root.right != null){
-            return Math.min(minDepth(root.left), minDepth(root.right)) + 1;
-        }else{
-            return Math.max(minDepth(root.left), minDepth(root.right)) + 1;
+        return postorder(root);
+    }
+
+    private int postorder(TreeNode node) {
+        if (node == null)
+            return 0;
+
+        if (node.left != null && node.right != null) {
+            return Math.min(postorder(node.left), postorder(node.right)) + 1;
+        } else {
+            return Math.max(postorder(node.left), postorder(node.right)) + 1;
         }
     }
 }
