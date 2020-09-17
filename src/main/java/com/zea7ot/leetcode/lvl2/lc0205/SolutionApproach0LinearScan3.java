@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class Solution2 {
+public class SolutionApproach0LinearScan3 {
     public boolean isIsomorphic(String s, String t) {
         if (s == null && t == null)
             return true;
