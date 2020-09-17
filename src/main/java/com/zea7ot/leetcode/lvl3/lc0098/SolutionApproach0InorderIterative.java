@@ -1,43 +1,42 @@
 /**
+ * https://leetcode.com/problems/validate-binary-search-tree/
+ * 
  * Time Complexity:     O(N)
  * Space Complexity:    O(H)
+ * 
+ * References:
+ *  https://leetcode.com/problems/validate-binary-search-tree/discuss/32112/Learn-one-iterative-inorder-traversal-apply-it-to-multiple-tree-questions-(Java-Solution)
  */
-package com.zea7ot.summaries.tree.traversal.inorder;
+package com.zea7ot.leetcode.lvl3.lc0098;
 
 import java.util.ArrayDeque;
-import java.util.ArrayList;
 import java.util.Deque;
-import java.util.List;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class InorderTraversalterative {
-    public List<Integer> inorderTraverse(TreeNode root) {
-        List<Integer> ans = new ArrayList<Integer>();
+public class SolutionApproach0InorderIterative {
+    public boolean isValidBST(TreeNode root) {
         // sanity check
         if (root == null)
-            return ans;
+            return true;
 
+        Integer prev = null;
         Deque<TreeNode> stack = new ArrayDeque<>();
         pushLeft(root, stack);
         while (!stack.isEmpty()) {
             TreeNode top = stack.pop();
-            ans.add(top.val);
+            if (prev != null && prev >= top.val)
+                return false;
+            prev = top.val;
 
             if (top.right != null) {
                 pushLeft(top.right, stack);
             }
         }
 
-        return ans;
+        return true;
     }
 
-    /**
-     * to push all the left nodes into the stack
-     * 
-     * @param stack
-     * @param node
-     */
     private void pushLeft(TreeNode node, Deque<TreeNode> stack) {
         while (node != null) {
             stack.push(node);
