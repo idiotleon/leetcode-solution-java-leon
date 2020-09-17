@@ -7,6 +7,8 @@ References:
 # Linear Scan
 
 2   0002    https://leetcode.com/problems/add-two-numbers/
+2   0203    https://leetcode.com/problems/remove-linked-list-elements/
+2   0328    https://leetcode.com/problems/odd-even-linked-list/
 
 3   0056    https://leetcode.com/problems/merge-intervals/
 3   0061    https://leetcode.com/problems/rotate-list/

@@ -1,0 +1,9 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Array
+## Shuffle an Array
+
+2   0384    https://leetcode.com/problems/shuffle-an-array/

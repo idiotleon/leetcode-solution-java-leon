@@ -15,65 +15,66 @@ public class SolutionApproach0Scan {
     private static final char EMPTY = '0';
 
     private int NR, NC;
-    
+
     private int max, count;
-        
+
     public int maxKilledEnemies(char[][] grid) {
         // sanity check
-        if(grid == null || grid.length == 0) return 0;
-        
+        if (grid == null || grid.length == 0)
+            return 0;
+
         // dimensions of the grid
         NR = grid.length;
         NC = grid[0].length;
-        
+
         this.max = 0;
         this.count = 0;
         int[][] dp = new int[NR][NC];
-        
+
         // to scan from top to down
-        for(int row = 0; row < NR; row++){
+        for (int row = 0; row < NR; row++) {
             // to reset the counter
             count = 0;
             // to scan from left to right, from top to down
-            for(int col = 0; col < NC; col++){
+            for (int col = 0; col < NC; col++) {
                 calculate(grid, dp, row, col);
             }
-            
+
             // to reset the counter
             count = 0;
             // to scan from right to right, from top to down
-            for(int col = NC - 1; col >= 0; col--){
+            for (int col = NC - 1; col >= 0; col--) {
                 calculate(grid, dp, row, col);
             }
         }
-        
+
         // to scan from down to top
-        for(int col = 0; col < NC; col++){
+        for (int col = 0; col < NC; col++) {
             // to reset the counter
             count = 0;
             // to scan from top to down, from left to right
-            for(int row = 0; row < NR; row++){
+            for (int row = 0; row < NR; row++) {
                 calculate(grid, dp, row, col);
             }
-            
+
             // to reset the counter
             count = 0;
             // to scan from down to top, from left to right
-            for(int row = NR - 1; row >= 0; row--){
+            for (int row = NR - 1; row >= 0; row--) {
                 calculate(grid, dp, row, col);
             }
         }
-        
+
         return max;
     }
-    
-    private void calculate(char[][] grid, int[][] dp, int row, int col){
-        if(grid[row][col] == EMPTY){
+
+    private void calculate(char[][] grid, int[][] dp, int row, int col) {
+        if (grid[row][col] == EMPTY) {
             dp[row][col] += count;
             max = Math.max(max, dp[row][col]);
-        }else if(grid[row][col] == ENEMY){
+        } else if (grid[row][col] == ENEMY) {
             count++;
-        }else{
+        } else {
             count = 0;
         }
     }

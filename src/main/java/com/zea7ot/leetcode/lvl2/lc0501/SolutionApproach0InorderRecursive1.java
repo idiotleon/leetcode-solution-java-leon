@@ -9,5 +9,5 @@
 package com.zea7ot.leetcode.lvl2.lc0501;
 
 public class SolutionApproach0InorderRecursive1 {
-    
+
 }
