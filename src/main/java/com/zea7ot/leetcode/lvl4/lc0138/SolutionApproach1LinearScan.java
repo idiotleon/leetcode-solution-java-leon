@@ -15,7 +15,7 @@ public class SolutionApproach1LinearScan {
         if (head == null)
             return null;
 
-        Map<ListNode, ListNode> map = new HashMap<ListNode, ListNode>();
+        Map<ListNode, ListNode> map = new HashMap<>();
 
         // 1st pass: to copy all the nodes
         ListNode node = head;

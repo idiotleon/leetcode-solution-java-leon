@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/clone-graph/
  * 
- * Time Complexity:     O(V + E) + O(N) ~ O(N + (N - 1)) ~ O(N)
- * Space Complexity:    O(V + E) + O(N) ~ O(N + (N - 1)) ~ O(N)
+ * Time Complexity:     O(V + E) + O(N) ~ O(N + (N - 1)) + O(N) ~ O(N)
+ * Space Complexity:    O(V + E) + O(N) ~ O(N + (N - 1)) + O(N) ~ O(N)
  */
 package com.zea7ot.leetcode.lvl3.lc0133;
 
