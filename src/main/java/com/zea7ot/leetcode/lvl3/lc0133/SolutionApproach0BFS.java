@@ -7,38 +7,40 @@
 package com.zea7ot.leetcode.lvl3.lc0133;
 
 import java.util.ArrayDeque;
-import java.util.ArrayList;
 import java.util.Deque;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.zea7ot.utils.data_structure.graph.Vertex;
-
 public class SolutionApproach0BFS {
-    public Vertex cloneGraph(Vertex vertex) {
+    public Node cloneGraph(Node Node) {
         // sanity check
-        if (vertex == null)
-            return vertex;
+        if (Node == null)
+            return Node;
 
-        Deque<Vertex> queue = new ArrayDeque<Vertex>();
-        queue.add(vertex);
+        Deque<Node> queue = new ArrayDeque<>();
+        queue.add(Node);
 
-        Map<Vertex, Vertex> map = new HashMap<Vertex, Vertex>();
-        map.put(vertex, new Vertex(vertex.val, new ArrayList<Vertex>()));
+        Map<Node, Node> map = new HashMap<>();
+        map.put(Node, new Node(Node.val));
 
         while (!queue.isEmpty()) {
-            Vertex cur = queue.poll();
+            final int SIZE = queue.size();
 
-            for (Vertex neighbor : cur.neighbors) {
-                if (!map.containsKey(neighbor)) {
-                    map.put(neighbor, new Vertex(neighbor.val, new ArrayList<Vertex>()));
-                    queue.add(neighbor);
+            for (int i = 0; i < SIZE; ++i) {
+                Node cur = queue.poll();
+
+                for (Node neighbor : cur.neighbors) {
+                    if (!map.containsKey(neighbor)) {
+                        Node clonedNeighbor = new Node(neighbor.val);
+                        map.put(neighbor, clonedNeighbor);
+                        queue.add(neighbor);
+                    }
+
+                    map.get(cur).neighbors.add(map.get(neighbor));
                 }
-
-                map.get(cur).neighbors.add(map.get(neighbor));
             }
         }
 
-        return map.get(vertex);
+        return map.get(Node);
     }
 }
