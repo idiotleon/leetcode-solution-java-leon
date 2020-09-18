@@ -11,19 +11,19 @@ package com.zea7ot.leetcode.lvl3.lc0129;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0DFSBottomUp {
+public class SolutionApproach0DFSRecursive {
     public int sumNumbers(TreeNode root) {
         return dfs(root, 0);
     }
-    
-    private int dfs(TreeNode node, int sum){
-        if(node == null) return 0;
-        
-        if(node.left == null && node.right == null){
+
+    private int dfs(TreeNode node, int sum) {
+        if (node == null)
+            return 0;
+
+        if (node.left == null && node.right == null) {
             return sum * 10 + node.val;
         }
-        
-        return dfs(node.left, sum * 10 + node.val) 
-            + dfs(node.right, sum * 10 + node.val);
+
+        return dfs(node.left, sum * 10 + node.val) + dfs(node.right, sum * 10 + node.val);
     }
 }

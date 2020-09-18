@@ -11,19 +11,20 @@ package com.zea7ot.leetcode.lvl3.lc0116;
 public class SolutionApproach0Preorder1 {
     public Node connect(Node root) {
         // sanity check
-        if(root == null) return root;
-            
-        if(root.left != null){
+        if (root == null)
+            return root;
+
+        if (root.left != null) {
             root.left.next = root.right;
-            
-            if(root.next != null){
+
+            if (root.next != null) {
                 root.right.next = root.next.left;
             }
         }
-                
+
         connect(root.left);
         connect(root.right);
-            
+
         return root;
     }
 }

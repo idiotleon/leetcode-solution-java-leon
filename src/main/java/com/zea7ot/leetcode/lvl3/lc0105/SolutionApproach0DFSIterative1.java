@@ -22,7 +22,7 @@ public class SolutionApproach0DFSIterative1 {
             return null;
 
         final int L = preorder.length;
-        Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
         TreeNode root = new TreeNode(preorder[0]);
         stack.push(root);
 

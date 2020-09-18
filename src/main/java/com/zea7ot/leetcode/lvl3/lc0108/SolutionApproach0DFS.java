@@ -15,10 +15,11 @@ public class SolutionApproach0DFS {
         final int N = nums.length;
         return dfs(0, N - 1, nums);
     }
-    
-    private TreeNode dfs(int lo, int hi, int[] nums){
-        if(lo > hi) return null;
-        
+
+    private TreeNode dfs(int lo, int hi, int[] nums) {
+        if (lo > hi)
+            return null;
+
         int mid = lo + (hi - lo) / 2;
         TreeNode root = new TreeNode(nums[mid]);
         root.left = dfs(lo, mid - 1, nums);

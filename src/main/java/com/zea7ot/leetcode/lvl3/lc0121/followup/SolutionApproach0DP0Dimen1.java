@@ -8,17 +8,14 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0121.followup;
 
-public class SolutionApproach0DP {
+public class SolutionApproach0DP0Dimen1 {
     public int maxProfit(int[] prices) {
-        int maxPrice = Integer.MAX_VALUE, maxProfit = 0;
+        int maxPrice = Integer.MAX_VALUE;
+        int maxProfit = 0;
 
         for (int price : prices) {
-            if (price > maxPrice)
-                maxPrice = price;
-
-            int profit = maxPrice - price;
-            if (profit > maxProfit)
-                maxProfit = profit;
+            maxPrice = Math.max(maxPrice, price);
+            maxProfit = Math.max(maxProfit, maxPrice - price);
         }
 
         return maxProfit;

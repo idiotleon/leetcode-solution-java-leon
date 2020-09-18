@@ -22,60 +22,73 @@
  * References:
  *  https://www.geeksforgeeks.org/trie-insert-and-search/
  */
-package com.zea7ot.leetcode.lvl3.lc0208;
+package com.zea7ot.leetcode.ood.lvl3.lc0208;
 
 public class SolutionApproach0Trie {
     private TrieNode root;
 
     /** Initialize your data structure here. */
     public SolutionApproach0Trie() {
-        root = new TrieNode();
+        this.root = new TrieNode();
     }
-    
+
     /** Inserts a word into the trie. */
     public void insert(String word) {
+        final int L = word.length();
         TrieNode node = root;
-        for(int i = 0; i < word.length(); i++){
-            char c = word.charAt(i);
-            if(node.children[c - 'a'] == null){
-                node.children[c - 'a'] = new TrieNode();
+        for (int i = 0; i < L; ++i) {
+            final char CH = word.charAt(i);
+            if (node.CHILDREN[CH - 'a'] == null) {
+                node.CHILDREN[CH - 'a'] = new TrieNode();
             }
-            node = node.children[c - 'a'];
+
+            node = node.CHILDREN[CH - 'a'];
         }
-        
+
         node.isEndOfWord = true;
     }
-    
+
     /** Returns if the word is in the trie. */
     public boolean search(String word) {
+        final int L = word.length();
         TrieNode node = root;
-        for(int i = 0; i < word.length(); i++){
-            char c = word.charAt(i);
-            if(node.children[c - 'a'] == null) return false;
-            node = node.children[c - 'a'];
+        for (int i = 0; i < L; ++i) {
+            final char CH = word.charAt(i);
+            if (node.CHILDREN[CH - 'a'] == null) {
+                return false;
+            }
+
+            node = node.CHILDREN[CH - 'a'];
         }
-        
+
         return node.isEndOfWord;
     }
-    
-    /** Returns if there is any word in the trie that starts with the given prefix. */
+
+    /**
+     * Returns if there is any word in the trie that starts with the given prefix.
+     */
     public boolean startsWith(String prefix) {
+        final int L = prefix.length();
         TrieNode node = root;
-        for(int i = 0; i < prefix.length(); i++){
-            char c = prefix.charAt(i);
-            if(node.children[c - 'a'] == null) return false;
-            node = node.children[c - 'a'];
+        for (int i = 0; i < L; ++i) {
+            final char CH = prefix.charAt(i);
+            if (node.CHILDREN[CH - 'a'] == null) {
+                return false;
+            }
+
+            node = node.CHILDREN[CH - 'a'];
         }
-        
+
         return true;
     }
-}
 
-class TrieNode{
-    public boolean isEndOfWord;
-    public final TrieNode[] children;
-    public TrieNode(){
-        this.isEndOfWord = false;
-        this.children = new TrieNode[26];
+    private class TrieNode {
+        private boolean isEndOfWord;
+        private final TrieNode[] CHILDREN;
+
+        private TrieNode() {
+            this.isEndOfWord = false;
+            this.CHILDREN = new TrieNode[26];
+        }
     }
 }

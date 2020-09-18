@@ -16,7 +16,7 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0BFS {
     public boolean isSymmetric(TreeNode root) {
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         queue.add(root);
 

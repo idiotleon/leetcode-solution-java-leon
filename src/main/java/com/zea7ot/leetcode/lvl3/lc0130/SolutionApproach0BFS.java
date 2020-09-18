@@ -22,7 +22,7 @@ public class SolutionApproach0BFS {
             return;
 
         final int NR = board.length, NC = board[0].length;
-        Deque<int[]> queue = new ArrayDeque<int[]>();
+        Deque<int[]> queue = new ArrayDeque<>();
 
         // to get all 'O's on the border firstly
         for (int row = 0; row < NR; ++row) {
