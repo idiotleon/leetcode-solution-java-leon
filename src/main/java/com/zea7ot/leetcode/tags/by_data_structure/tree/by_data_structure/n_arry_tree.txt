@@ -9,6 +9,7 @@ References:
 2   0590    https://leetcode.com/problems/n-ary-tree-postorder-traversal/
 
 3   0582    https://leetcode.com/problems/kill-process/
+3   1490    https://leetcode.com/problems/clone-n-ary-tree/
 3   1522    https://leetcode.com/problems/diameter-of-n-ary-tree/
 
 4   0428    https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/

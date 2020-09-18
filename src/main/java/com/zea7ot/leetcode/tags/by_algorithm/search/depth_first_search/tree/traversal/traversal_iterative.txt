@@ -25,6 +25,7 @@ References:
 3   0536    https://leetcode.com/problems/construct-binary-tree-from-string/
 3   0572    https://leetcode.com/problems/subtree-of-another-tree/
 3   0776    https://leetcode.com/problems/split-bst/
+3   1490    https://leetcode.com/problems/clone-n-ary-tree/
 
 4   0124    https://leetcode.com/problems/binary-tree-maximum-path-sum/
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/

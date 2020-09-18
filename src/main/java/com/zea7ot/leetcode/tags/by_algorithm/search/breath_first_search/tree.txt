@@ -39,6 +39,7 @@ References:
 3   1245    https://leetcode.com/problems/tree-diameter/
 3   1448    https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
+3   1490    https://leetcode.com/problems/clone-n-ary-tree/
 3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
 
 4   0297    https://leetcode.com/problems/serialize-and-deserialize-binary-tree/

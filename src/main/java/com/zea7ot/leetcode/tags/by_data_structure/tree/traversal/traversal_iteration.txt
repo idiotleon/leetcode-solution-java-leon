@@ -28,6 +28,7 @@ References:
 3   0572    https://leetcode.com/problems/subtree-of-another-tree/
 3   0776    https://leetcode.com/problems/split-bst/
 3   0938    https://leetcode.com/problems/range-sum-of-bst/
+3   1490    https://leetcode.com/problems/clone-n-ary-tree/
 
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/

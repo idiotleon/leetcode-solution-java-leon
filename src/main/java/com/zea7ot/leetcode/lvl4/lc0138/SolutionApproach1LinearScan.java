@@ -10,17 +10,17 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SolutionApproach1LinearScan {
-    public ListNode copyRandomList(ListNode head) {
+    public Node copyRandomList(Node head) {
         // sanity check
         if (head == null)
             return null;
 
-        Map<ListNode, ListNode> map = new HashMap<>();
+        Map<Node, Node> map = new HashMap<>();
 
         // 1st pass: to copy all the nodes
-        ListNode node = head;
+        Node node = head;
         while (node != null) {
-            map.put(node, new ListNode(node.val));
+            map.put(node, new Node(node.val));
             node = node.next;
         }
 
