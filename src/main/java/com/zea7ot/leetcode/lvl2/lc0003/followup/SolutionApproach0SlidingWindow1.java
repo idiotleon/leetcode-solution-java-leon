@@ -19,21 +19,22 @@ public class SolutionApproach0SlidingWindow1 {
             return longest;
 
         final int L = s.length();
-        Map<Character, Integer> freq = new HashMap<Character, Integer>();
-        int lo = 0, hi = 0, threshold = 0;
+        final char[] CHS = s.toCharArray();
+        final Map<Character, Integer> FREQS = new HashMap<>();
+        int lo = 0, hi = 0;
+        int threshold = 0;
 
         while (hi < L) {
-            char ch = s.charAt(hi);
-            freq.put(ch, freq.getOrDefault(ch, 0) + 1);
-            if (freq.get(ch) > 1)
+            FREQS.put(CHS[hi], FREQS.getOrDefault(CHS[hi], 0) + 1);
+            if (FREQS.get(CHS[hi]) > 1) {
                 ++threshold;
+            }
 
             while (threshold > 0) {
-                char temp = s.charAt(lo);
-                if (freq.get(temp) > k)
-                    threshold--;
+                if (FREQS.get(CHS[lo]) > k)
+                    --threshold;
 
-                freq.put(temp, freq.get(temp) - 1);
+                FREQS.put(CHS[lo], FREQS.get(CHS[lo]) - 1);
                 ++lo;
             }
 

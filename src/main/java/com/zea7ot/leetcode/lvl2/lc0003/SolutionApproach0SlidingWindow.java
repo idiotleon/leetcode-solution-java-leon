@@ -14,17 +14,21 @@ public class SolutionApproach0SlidingWindow {
             return longest;
 
         final int L = s.length();
-        char[] chs = s.toCharArray();
-        int[] freq = new int[128];
+        final char[] CHS = s.toCharArray();
+        final int[] FREQS = new int[128];
 
         int lo = 0, hi = 0;
         while (hi < L) {
-            ++freq[chs[hi]];
-            while (freq[chs[hi]] > 1)
-                --freq[chs[lo++]];
+            ++FREQS[CHS[hi]];
+            while (FREQS[CHS[hi]] > 1) {
+                --FREQS[CHS[lo]];
+                ++lo;
+            }
 
             // please pay attention to the relative position of the two lines right below
-            longest = Math.max(longest, hi - lo + 1);
+            final int LEN = hi - lo + 1;
+            longest = Math.max(longest, LEN);
+
             ++hi;
         }
 

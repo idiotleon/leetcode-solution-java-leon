@@ -5,7 +5,7 @@
  * Time Complexity:     O(L)
  * Space Complexity:    O(1)
  * 
- * please be cautious that the `s` contains not just lower case letters
+ * please be cautious that the `s` not just contains lower case letters
  */
 package com.zea7ot.leetcode.lvl2.lc0003;
 
@@ -17,14 +17,14 @@ public class SolutionApproach0SlidingWindow1 {
             return longest;
 
         final int L = s.length();
-        char[] chs = s.toCharArray();
-        int[] freq = new int[128];
+        final char[] CHS = s.toCharArray();
+        final int[] LAST_INDEXES = new int[128];
 
         int lo = 0, hi = 0;
         while (hi < L) {
-            lo = Math.max(lo, freq[chs[hi]]);
+            lo = Math.max(lo, LAST_INDEXES[CHS[hi]]);
             longest = Math.max(longest, hi - lo + 1);
-            freq[chs[hi]] = hi + 1;
+            LAST_INDEXES[CHS[hi]] = hi + 1;
 
             ++hi;
         }

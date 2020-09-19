@@ -19,7 +19,7 @@ public class SolutionApproach0DP2Dimen {
             return s;
 
         final int L = s.length();
-        char[] chs = s.toCharArray();
+        final char[] CHS = s.toCharArray();
 
         int start = 0, end = 0;
 
@@ -27,7 +27,7 @@ public class SolutionApproach0DP2Dimen {
 
         for (int i = L - 1; i >= 0; --i) {
             for (int j = i; j < L; ++j) {
-                dp[i][j] = chs[i] == chs[j] && (j - i < 2 || dp[i + 1][j - 1]);
+                dp[i][j] = CHS[i] == CHS[j] && (j - i < 2 || dp[i + 1][j - 1]);
 
                 if (dp[i][j] && j - i > end - start) {
                     start = i;
