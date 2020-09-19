@@ -16,25 +16,28 @@ public class SolutionApproach0SlidingWindow {
             return longest;
 
         final int L = s.length();
-        int[] freq = new int[256];
-        int lo = 0, hi = 0, threshold = 0;
+        final char[] CHS = s.toCharArray();
+        final int[] FREQS = new int[256];
+
+        int lo = 0, hi = 0;
+        int threshold = 0;
+
         while (hi < L) {
-            char ch = s.charAt(hi);
-            ++freq[ch];
-            if (freq[ch] > 1)
+            ++FREQS[CHS[hi]];
+            if (FREQS[CHS[hi]] > 1) {
                 ++threshold;
+            }
 
             while (threshold > 0) {
-                char temp = s.charAt(lo);
-                if (freq[temp] > k) {
+                if (FREQS[CHS[lo]] > k) {
                     --threshold;
                 }
-                --freq[temp];
-                lo++;
+                --FREQS[CHS[lo]];
+                ++lo;
             }
 
             longest = Math.max(longest, hi - lo + 1);
-            hi++;
+            ++hi;
         }
 
         return longest;
