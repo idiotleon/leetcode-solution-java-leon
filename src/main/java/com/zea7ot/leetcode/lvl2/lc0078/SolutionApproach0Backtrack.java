@@ -17,25 +17,27 @@ import java.util.List;
 
 public class SolutionApproach0Backtrack {
     public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        final List<List<Integer>> PATHS = new ArrayList<>();
         // sanity check
         if (nums == null || nums.length == 0)
-            return ans;
+            return PATHS;
 
         // not necessary
         // Arrays.sort(nums);
 
-        backtrack(0, new ArrayList<Integer>(), nums, ans);
-        return ans;
+        final List<Integer> PATH = new ArrayList<>();
+        backtrack(0, PATH, nums, PATHS);
+        return PATHS;
     }
 
-    private void backtrack(int startIdx, List<Integer> path, int[] nums, List<List<Integer>> paths) {
-        paths.add(new ArrayList<Integer>(path));
+    private void backtrack(int startIdx, final List<Integer> PATH, int[] nums, final List<List<Integer>> PATHS) {
+        final int N = nums.length;
+        PATHS.add(new ArrayList<>(PATH));
 
-        for (int i = startIdx; i < nums.length; i++) {
-            path.add(nums[i]);
-            backtrack(i + 1, path, nums, paths);
-            path.remove(path.size() - 1);
+        for (int i = startIdx; i < N; ++i) {
+            PATH.add(nums[i]);
+            backtrack(i + 1, PATH, nums, PATHS);
+            PATH.remove(PATH.size() - 1);
         }
     }
 }

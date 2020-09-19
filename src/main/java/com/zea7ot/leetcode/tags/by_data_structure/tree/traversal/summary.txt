@@ -12,7 +12,13 @@ References:
 1   0872    https://leetcode.com/problems/leaf-similar-trees/
 
 2   0094    https://leetcode.com/problems/binary-tree-inorder-traversal/
+2   0100    https://leetcode.com/problems/same-tree/
+2   0104    https://leetcode.com/problems/maximum-depth-of-binary-tree/
+2   0110    https://leetcode.com/problems/balanced-binary-tree/
+2   0111    https://leetcode.com/problems/minimum-depth-of-binary-tree/
 2   0199    https://leetcode.com/problems/binary-tree-right-side-view/
+2   0257    https://leetcode.com/problems/binary-tree-paths/
+2   0366    https://leetcode.com/problems/find-leaves-of-binary-tree/
 2   0404    https://leetcode.com/problems/sum-of-left-leaves/
 2   0501    https://leetcode.com/problems/find-mode-in-binary-search-tree/
 2   0563    https://leetcode.com/problems/binary-tree-tilt/
@@ -40,7 +46,6 @@ References:
 3   0173    https://leetcode.com/problems/binary-search-tree-iterator/
 3   0285    https://leetcode.com/problems/inorder-successor-in-bst/3   0437    https://leetcode.com/problems/path-sum-iii/
 3   0333    https://leetcode.com/problems/largest-bst-subtree/
-2   0366    https://leetcode.com/problems/find-leaves-of-binary-tree/
 3   0437    https://leetcode.com/problems/path-sum-iii/
 3   0450    https://leetcode.com/problems/delete-node-in-a-bst/
 3   0508    https://leetcode.com/problems/most-frequent-subtree-sum/
@@ -65,6 +70,7 @@ References:
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 3   1245    https://leetcode.com/problems/tree-diameter/
 3   1382    https://leetcode.com/problems/balance-a-binary-search-tree/
+3   1490    https://leetcode.com/problems/clone-n-ary-tree/
 3   1519    https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/
 3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
 

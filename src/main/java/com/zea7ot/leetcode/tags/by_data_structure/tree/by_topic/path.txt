@@ -3,7 +3,9 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
     
 
-### Path
+### Tree
+## By Topic
+# Path
 
 2   0112    https://leetcode.com/problems/path-sum/
 2   0988    https://leetcode.com/problems/smallest-string-starting-from-leaf/

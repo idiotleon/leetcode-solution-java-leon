@@ -13,28 +13,30 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0DFSConstructingString {
     public int sumNumbers(TreeNode root) {
-        if(root == null) return 0;
-        List<Integer> nums = new ArrayList<Integer>();
+        if (root == null)
+            return 0;
+        List<Integer> nums = new ArrayList<>();
         dfs(root, "", nums);
-        
+
         int sum = 0;
-        for(int num : nums){
+        for (int num : nums) {
             sum += num;
         }
-        
+
         return sum;
     }
-    
-    private void dfs(TreeNode node, String intermediate, List<Integer> nums){
-        if(node == null) return;
-        
+
+    private void dfs(TreeNode node, String intermediate, List<Integer> nums) {
+        if (node == null)
+            return;
+
         intermediate += Integer.toString(node.val);
-        
-        if(node.left == null && node.right == null){
+
+        if (node.left == null && node.right == null) {
             nums.add(Integer.parseInt(intermediate));
             return;
         }
-        
+
         dfs(node.left, intermediate, nums);
         dfs(node.right, intermediate, nums);
     }

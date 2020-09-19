@@ -18,26 +18,29 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0InorderRecursive {
     private int max;
-    
+
     public int[] findMode(TreeNode root) {
         // sanity check
-        if(root == null) return new int[0];
-        
+        if (root == null)
+            return new int[0];
+
         this.max = Integer.MIN_VALUE;
-        
+
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         inorder(root, map);
-        
+
         List<Integer> ans = new ArrayList<Integer>();
-        for(Map.Entry<Integer, Integer> entry : map.entrySet()){
-            if(entry.getValue() == max) ans.add(entry.getKey());
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            if (entry.getValue() == max)
+                ans.add(entry.getKey());
         }
-        
+
         return ans.stream().mapToInt(i -> i).toArray();
     }
-    
-    private void inorder(TreeNode node, Map<Integer, Integer> map){
-        if(node == null) return;
+
+    private void inorder(TreeNode node, Map<Integer, Integer> map) {
+        if (node == null)
+            return;
         inorder(node.left, map);
         map.put(node.val, map.getOrDefault(node.val, 0) + 1);
         this.max = Math.max(max, map.get(node.val));

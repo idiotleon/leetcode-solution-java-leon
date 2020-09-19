@@ -21,14 +21,14 @@ public class SolutionApproach0Backtrack {
         if (s == null || s.isEmpty())
             return ans;
 
-        backtrack(0, new ArrayList<String>(), s, ans);
+        backtrack(0, new ArrayList<>(), s, ans);
         return ans;
     }
 
     private void backtrack(int startIdx, List<String> intermediate, String str, List<List<String>> res) {
         final int L = str.length();
         if (startIdx == L) {
-            res.add(new ArrayList<String>(intermediate));
+            res.add(new ArrayList<>(intermediate));
             return;
         }
 
@@ -42,9 +42,9 @@ public class SolutionApproach0Backtrack {
     }
 
     private boolean isPalindrome(int lo, int hi, String str) {
-        char[] chs = str.toCharArray();
+        final char[] CHS = str.toCharArray();
         while (lo < hi) {
-            if (chs[lo++] != chs[hi--]) {
+            if (CHS[lo++] != CHS[hi--]) {
                 return false;
             }
         }

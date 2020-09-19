@@ -9,11 +9,11 @@ package com.zea7ot.leetcode.lvl2.lc1287;
 public class SolutionApproach1SlidingWindow {
     public int findSpecialInteger(int[] arr) {
         final int N = arr.length, T = N / 4;
-        for(int i = 0; i < N - T; ++i){
-            if(arr[i] == arr[i + T])
+        for (int i = 0; i < N - T; ++i) {
+            if (arr[i] == arr[i + T])
                 return arr[i];
         }
-        
+
         return -1;
     }
 }

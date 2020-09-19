@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/clone-graph/
  * 
- * Time Complexity:     O(V + E) ~ O(N + (N - 1)) ~ O(N)
- * Space Complexity:    O(V + E) ~ O(N + (N - 1)) ~ O(N)
+ * Time Complexity:     O(V + E) + O(N) ~ O(N + (N - 1)) + O(N) ~ O(N)
+ * Space Complexity:    O(V + E) + O(N) ~ O(N + (N - 1)) + O(N) ~ O(N)
  */
 package com.zea7ot.leetcode.lvl3.lc0133;
 
@@ -10,12 +10,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.zea7ot.utils.data_structure.graph.Vertex;
-
 public class SolutionApproach0DFSRecursive1 {
-    private Map<Vertex, Vertex> map = new HashMap<Vertex, Vertex>();
+    private Map<Node, Node> map = new HashMap<Node, Node>();
 
-    public Vertex cloneGraph(Vertex node) {
+    public Node cloneGraph(Node node) {
         // sanity check
         if (node == null)
             return node;
@@ -23,10 +21,10 @@ public class SolutionApproach0DFSRecursive1 {
         if (map.containsKey(node))
             return map.get(node);
 
-        Vertex clone = new Vertex(node.val, new ArrayList<Vertex>());
+        Node clone = new Node(node.val, new ArrayList<>());
         map.put(node, clone);
 
-        for (Vertex neighbor : node.neighbors) {
+        for (Node neighbor : node.neighbors) {
             clone.neighbors.add(cloneGraph(neighbor));
         }
 

@@ -24,12 +24,12 @@ public class SolutionApproach0DFSIterative2 {
             return null;
 
         final int L = preorder.length;
-        Map<Integer, Integer> idxMap = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> idxMap = new HashMap<>();
         for (int i = 0; i < L; i++) {
             idxMap.put(inorder[i], i);
         }
 
-        Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
         int rootValue = preorder[0];
         TreeNode root = new TreeNode(rootValue);
         stack.push(root);

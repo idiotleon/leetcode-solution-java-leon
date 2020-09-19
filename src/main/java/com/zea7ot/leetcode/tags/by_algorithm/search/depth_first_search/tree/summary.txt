@@ -15,8 +15,13 @@ References:
 1   1161    https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
 
 2   0094    https://leetcode.com/problems/binary-tree-inorder-traversal/
+2   0100    https://leetcode.com/problems/same-tree/
+2   0104    https://leetcode.com/problems/maximum-depth-of-binary-tree/
+2   0110    https://leetcode.com/problems/balanced-binary-tree/
+2   0111    https://leetcode.com/problems/minimum-depth-of-binary-tree/
 2   0199    https://leetcode.com/problems/binary-tree-right-side-view/
 2   0226    https://leetcode.com/problems/invert-binary-tree/
+2   0257    https://leetcode.com/problems/binary-tree-paths/
 2   0366    https://leetcode.com/problems/find-leaves-of-binary-tree/
 2   0404    https://leetcode.com/problems/sum-of-left-leaves/
 2   0501    https://leetcode.com/problems/find-mode-in-binary-search-tree/
@@ -97,6 +102,7 @@ References:
 3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
 3   1485    https://leetcode.com/problems/clone-binary-tree-with-random-pointer/
+3   1490    https://leetcode.com/problems/clone-n-ary-tree/
 3   1522    https://leetcode.com/problems/diameter-of-n-ary-tree/
 3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
 

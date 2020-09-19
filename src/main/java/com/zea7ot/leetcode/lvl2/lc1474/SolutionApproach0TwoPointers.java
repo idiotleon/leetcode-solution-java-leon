@@ -14,21 +14,21 @@ import com.zea7ot.utils.data_structure.linkedlist.ListNode;
 public class SolutionApproach0TwoPointers {
     public ListNode deleteNodes(ListNode head, int m, int n) {
         ListNode cur = head, prev = null;
-        while(cur != null){
+        while (cur != null) {
             int i = m, j = n;
-            
-            while(cur != null && i-- > 0){
+
+            while (cur != null && i-- > 0) {
                 prev = cur;
                 cur = cur.next;
             }
-            
-            while(cur != null && j-- > 0){
+
+            while (cur != null && j-- > 0) {
                 cur = cur.next;
             }
-            
+
             prev.next = cur;
         }
-        
+
         return head;
     }
 }

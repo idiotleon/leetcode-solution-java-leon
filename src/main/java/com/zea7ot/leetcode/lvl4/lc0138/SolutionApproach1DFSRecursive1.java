@@ -9,16 +9,16 @@ package com.zea7ot.leetcode.lvl4.lc0138;
 import java.util.HashMap;
 
 public class SolutionApproach1DFSRecursive1 {
-    private HashMap<ListNode, ListNode> visited = new HashMap<ListNode, ListNode>();
+    private HashMap<Node, Node> visited = new HashMap<Node, Node>();
 
-    public ListNode copyRandomList(ListNode head) {
+    public Node copyRandomList(Node head) {
         if (head == null)
             return null;
 
         if (visited.containsKey(head))
             return this.visited.get(head);
 
-        ListNode node = new ListNode(head.val);
+        Node node = new Node(head.val);
         visited.put(head, node);
 
         node.next = copyRandomList(head.next);

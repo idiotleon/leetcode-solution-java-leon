@@ -18,23 +18,25 @@ public class SolutionApproach0Backtrack1 {
             return ans;
 
         final int N = nums.length;
-        for (int size = 0; size <= N; ++size)
+        for (int size = 0; size <= N; ++size) {
             backtrack(0, new ArrayList<>(), nums, size, ans);
+        }
 
         return ans;
     }
 
-    private void backtrack(int startIdx, List<Integer> path, int[] nums, final int SIZE, List<List<Integer>> paths) {
+    private void backtrack(int startIdx, final List<Integer> PATH, int[] nums, final int SIZE,
+            final List<List<Integer>> PATHS) {
         final int N = nums.length;
-        if (path.size() == SIZE) {
-            paths.add(new ArrayList<Integer>(path));
+        if (PATH.size() == SIZE) {
+            PATHS.add(new ArrayList<>(PATH));
             return;
         }
 
         for (int i = startIdx; i < N; ++i) {
-            path.add(nums[i]);
-            backtrack(i + 1, path, nums, SIZE, paths);
-            path.remove(path.size() - 1);
+            PATH.add(nums[i]);
+            backtrack(i + 1, PATH, nums, SIZE, PATHS);
+            PATH.remove(PATH.size() - 1);
         }
     }
 }

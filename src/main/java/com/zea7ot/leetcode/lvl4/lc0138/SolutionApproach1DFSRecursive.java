@@ -10,28 +10,28 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SolutionApproach1DFSRecursive {
-    public ListNode copyRandomList(ListNode head) {
+    public Node copyRandomList(Node head) {
         // sanity check
         if (head == null)
             return null;
 
-        Map<ListNode, ListNode> visited = new HashMap<ListNode, ListNode>();
-        dfs(head, visited);
-        return visited.get(head);
+        Map<Node, Node> map = new HashMap<>();
+        dfs(head, map);
+        return map.get(head);
     }
 
-    private ListNode dfs(ListNode node, Map<ListNode, ListNode> visited) {
+    private Node dfs(Node node, Map<Node, Node> map) {
         if (node == null)
             return null;
 
-        if (visited.containsKey(node))
-            return visited.get(node);
+        if (map.containsKey(node))
+            return map.get(node);
 
-        ListNode clone = new ListNode(node.val);
-        visited.put(node, clone);
+        Node clone = new Node(node.val);
+        map.put(node, clone);
 
-        clone.next = dfs(node.next, visited);
-        clone.random = dfs(node.random, visited);
+        clone.next = dfs(node.next, map);
+        clone.random = dfs(node.random, map);
 
         return clone;
     }

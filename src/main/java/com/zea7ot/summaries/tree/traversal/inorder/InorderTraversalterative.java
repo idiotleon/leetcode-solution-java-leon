@@ -18,14 +18,15 @@ public class InorderTraversalterative {
         if (root == null)
             return ans;
 
-        Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
-        pushLeft(stack, root);
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        pushLeft(root, stack);
         while (!stack.isEmpty()) {
             TreeNode top = stack.pop();
             ans.add(top.val);
 
-            if (top.right != null)
-                pushLeft(stack, top.right);
+            if (top.right != null) {
+                pushLeft(top.right, stack);
+            }
         }
 
         return ans;
@@ -37,7 +38,7 @@ public class InorderTraversalterative {
      * @param stack
      * @param node
      */
-    private void pushLeft(Deque<TreeNode> stack, TreeNode node) {
+    private void pushLeft(TreeNode node, Deque<TreeNode> stack) {
         while (node != null) {
             stack.push(node);
             node = node.left;

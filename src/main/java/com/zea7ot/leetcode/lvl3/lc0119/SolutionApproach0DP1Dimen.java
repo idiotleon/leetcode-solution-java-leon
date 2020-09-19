@@ -11,7 +11,7 @@ import java.util.List;
 
 public class SolutionApproach0DP1Dimen {
     public List<Integer> getRow(int rowIndex) {
-        List<Integer> ans = new ArrayList<Integer>();
+        List<Integer> ans = new ArrayList<>();
         // sanity check
         if (rowIndex < 0)
             return ans;

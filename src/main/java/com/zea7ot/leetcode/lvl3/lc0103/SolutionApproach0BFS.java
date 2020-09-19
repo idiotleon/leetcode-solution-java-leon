@@ -16,18 +16,18 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0BFS {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        List<List<Integer>> ans = new ArrayList<>();
         // sanity check
         if (root == null)
             return ans;
 
-        Deque<TreeNode> queue = new ArrayDeque<TreeNode>();
+        Deque<TreeNode> queue = new ArrayDeque<>();
         queue.add(root);
         int level = 0;
 
         while (!queue.isEmpty()) {
             final int SIZE = queue.size();
-            LinkedList<Integer> intermediate = new LinkedList<Integer>();
+            LinkedList<Integer> intermediate = new LinkedList<>();
 
             for (int i = 0; i < SIZE; ++i) {
                 TreeNode cur = queue.poll();

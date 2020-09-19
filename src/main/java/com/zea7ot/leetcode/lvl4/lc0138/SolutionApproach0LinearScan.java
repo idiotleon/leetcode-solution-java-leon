@@ -7,15 +7,16 @@
 package com.zea7ot.leetcode.lvl4.lc0138;
 
 public class SolutionApproach0LinearScan {
-    public ListNode copyRandomList(ListNode head) {
+    public Node copyRandomList(Node head) {
+        // sanity check
         if (head == null)
             return null;
 
         // the first pass
-        ListNode cur = head;
+        Node cur = head;
         while (cur != null) {
-            ListNode next = cur.next;
-            cur.next = new ListNode(cur.val);
+            Node next = cur.next;
+            cur.next = new Node(cur.val);
             cur.next.next = next;
             cur = next;
         }
@@ -31,13 +32,14 @@ public class SolutionApproach0LinearScan {
 
         // the third pass
         cur = head;
-        ListNode copyHead = head.next;
+        Node copyHead = head.next;
         while (cur != null) {
-            ListNode next = cur.next.next;
-            ListNode copy = cur.next;
+            Node next = cur.next.next;
+            Node copy = cur.next;
             cur.next = next;
-            if (next != null)
+            if (next != null) {
                 copy.next = next.next;
+            }
             cur = next;
         }
 
