@@ -6,10 +6,11 @@
  * 
  * References:
  *  https://www.youtube.com/watch?v=jNy8yM0NBdw
+ *  https://youtu.be/FLbqgyJ-70I?t=1117
  */
 package com.zea7ot.leetcode.lvl4.lc0309;
 
-public class SolutionApproach0DP {
+public class SolutionApproach0DP0Dimen {
     public int maxProfit(int[] prices) {
         // sanity check
         if (prices == null || prices.length == 0)
@@ -23,7 +24,7 @@ public class SolutionApproach0DP {
 
             sold = PREV_HELD + price;
             held = Math.max(PREV_HELD, PREV_COOLED_DOWN - price);
-            cooledDown = Math.max(PREV_SOLD + price, PREV_COOLED_DOWN);
+            cooledDown = Math.max(PREV_SOLD, PREV_COOLED_DOWN);
         }
 
         return Math.max(sold, cooledDown);

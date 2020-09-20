@@ -2,16 +2,21 @@
 References:
     https://www.youtube.com/watch?v=FLbqgyJ-70I
     https://docs.google.com/presentation/d/1OeA0rsnOrklarLM5G2tHHJ6EE37HpRqD7KedzOqkihk/edit?usp=sharing
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 ### Dynamic Programming
 ## Templates
-# 1. Basic Type i
+# 1. Basic Type i - in terms of time
+    https://youtu.be/FLbqgyJ-70I?t=508
+
 2   0198    https://leetcode.com/problems/house-robber/
 
 3   0213    https://leetcode.com/problems/house-robber-ii/
 3   0276    https://leetcode.com/problems/paint-fence/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
+3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
 
 4   0265    https://leetcode.com/problems/paint-house-ii/
 4   0309    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
