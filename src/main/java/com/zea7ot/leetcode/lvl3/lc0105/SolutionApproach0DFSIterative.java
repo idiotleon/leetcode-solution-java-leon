@@ -24,8 +24,10 @@ public class SolutionApproach0DFSIterative {
 
         final int N = preorder.length;
         Deque<TreeNode> stack = new ArrayDeque<>();
-        TreeNode root = new TreeNode(preorder[0]), cur = root;
-        for (int i = 1, j = 0; i < N; i++) {
+        TreeNode root = new TreeNode(preorder[0]);
+        TreeNode cur = root;
+
+        for (int i = 1, j = 0; i < N; ++i) {
             if (cur.val != inorder[j]) {
                 cur.left = new TreeNode(preorder[i]);
                 stack.push(cur);
@@ -36,6 +38,7 @@ public class SolutionApproach0DFSIterative {
                     cur = stack.pop();
                     ++j;
                 }
+
                 cur = cur.right = new TreeNode(preorder[i]);
             }
         }

@@ -20,28 +20,28 @@ public class SolutionApproach0DFSRecursive {
                 || inorder.length != preorder.length)
             return null;
 
-        final int L = preorder.length;
+        final int N = preorder.length;
         Map<Integer, Integer> idxMap = new HashMap<>();
-        for (int i = 0; i < L; i++) {
+        for (int i = 0; i < N; ++i) {
             idxMap.put(inorder[i], i);
         }
-        int[] preIdx = new int[] { 0 };
+        int[] idxPreorder = { 0 };
 
-        return dfs(idxMap, preorder, preIdx, 0, L);
+        return dfs(idxPreorder, preorder, 0, N, idxMap);
     }
 
-    private TreeNode dfs(Map<Integer, Integer> idxMap, int[] preorder, int[] preIdx, int inorderStart,
-            int inorderRight) {
-        if (inorderStart == inorderRight)
+    private TreeNode dfs(int[] idxPreorder, int[] preorder, int inorderStart, int inorderEnd,
+            Map<Integer, Integer> idxMap) {
+        if (inorderStart == inorderEnd)
             return null;
 
-        int rootVal = preorder[preIdx[0]];
+        int rootVal = preorder[idxPreorder[0]];
         TreeNode root = new TreeNode(rootVal);
         int index = idxMap.get(rootVal);
 
-        ++preIdx[0];
-        root.left = dfs(idxMap, preorder, preIdx, inorderStart, index);
-        root.right = dfs(idxMap, preorder, preIdx, index + 1, inorderRight);
+        ++idxPreorder[0];
+        root.left = dfs(idxPreorder, preorder, inorderStart, index, idxMap);
+        root.right = dfs(idxPreorder, preorder, index + 1, inorderEnd, idxMap);
 
         return root;
     }
