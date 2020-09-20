@@ -12,3 +12,12 @@ References:
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 
 4   0120    https://leetcode.com/problems/triangle/
+
+
+
+### Falling (Path Sum)
+
+2   0118    https://leetcode.com/problems/pascals-triangle/
+
+3   0119    https://leetcode.com/problems/pascals-triangle-ii/
+3   0931    https://leetcode.com/problems/minimum-falling-path-sum/

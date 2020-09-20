@@ -7,7 +7,7 @@ References:
 
 ### Dynamic Programming
 ## Templates
-# 1. Basic Type i - in terms of time
+# 1. Basic Type i - in the sequence/order of time
     https://youtu.be/FLbqgyJ-70I?t=508
 
 2   0198    https://leetcode.com/problems/house-robber/
