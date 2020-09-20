@@ -46,7 +46,7 @@ public class SolutionApproach0BinarySearch {
         TreeNode midNode = root.left;
         int curHeight = 1;
         while (curHeight < height) {
-            curHeight++;
+            ++curHeight;
             midNode = midNode.right;
         }
 
