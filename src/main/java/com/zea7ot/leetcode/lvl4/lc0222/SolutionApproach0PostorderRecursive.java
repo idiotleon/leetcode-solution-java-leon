@@ -13,15 +13,20 @@ package com.zea7ot.leetcode.lvl4.lc0222;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0Recursion {
+public class SolutionApproach0PostorderRecursive {
     public int countNodes(TreeNode root) {
+        return postorder(root);
+    }
+
+    private int postorder(TreeNode node) {
         // sanity check
-        if (root == null)
+        if (node == null)
             return 0;
 
         int leftHeight = 0, rightHeight = 0;
 
-        TreeNode left = root, right = root;
+        TreeNode left = node, right = node;
+
         while (left != null) {
             ++leftHeight;
             left = left.left;
@@ -32,9 +37,10 @@ public class SolutionApproach0Recursion {
             right = right.right;
         }
 
-        if (leftHeight == rightHeight)
+        if (leftHeight == rightHeight) {
             return (int) Math.pow(2, leftHeight) - 1;
+        }
 
-        return 1 + countNodes(root.left) + countNodes(root.right);
+        return 1 + postorder(node.left) + postorder(node.right);
     }
 }

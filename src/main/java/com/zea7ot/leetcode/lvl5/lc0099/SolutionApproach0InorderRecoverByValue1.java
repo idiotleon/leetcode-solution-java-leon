@@ -5,7 +5,7 @@ package com.zea7ot.leetcode.lvl5.lc0099;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproachInorderRecoverByValue1 {
+public class SolutionApproach0InorderRecoverByValue1 {
     private TreeNode firstElement, secondElement, prevElement;
     
     public void recoverTree(TreeNode root) {

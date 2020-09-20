@@ -41,9 +41,8 @@ public class SolutionApproach0MorrisInorderTraversal {
         TreeNode cur = root;
         while (cur != null) {
             /**
-             * this step mainly serves: 
-             *  if the left subtree has been totally traversed, 
-             *  to go "back" to the `predecessor`.
+             * this step mainly serves: if the left subtree has been totally traversed, to
+             * go "back" to the `predecessor`.
              */
             if (cur.left == null) {
                 ans.add(cur.val);
