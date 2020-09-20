@@ -26,8 +26,18 @@ References:
 5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 
 
+# to do or not to do
+    https://youtu.be/FLbqgyJ-70I?t=1944
+
+3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
+
+4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
+
+
 
 # 2. Basic Type ii
+
+
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/

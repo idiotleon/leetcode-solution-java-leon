@@ -17,23 +17,28 @@ import java.util.Deque;
 public class SolutionApproach0SlidingWindow {
     public int findMaxConsecutiveOnes(int[] nums) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
-        
+        if (nums == null || nums.length == 0)
+            return 0;
+
         final int N = nums.length;
         int longest = 0;
         // to flip at most k times
         int k = 1;
-        Deque<Integer> idxZeros = new ArrayDeque<Integer>();
+        Deque<Integer> idxZeros = new ArrayDeque<>();
         int lo = 0, hi = 0;
-        while(hi < N){
-            if(nums[hi] == 0) idxZeros.offer(hi);
-            if(idxZeros.size() > k)
+        while (hi < N) {
+            if (nums[hi] == 0)
+                idxZeros.offer(hi);
+            if (idxZeros.size() > k) {
                 lo = idxZeros.poll() + 1;
-            longest = Math.max(longest, hi - lo + 1);
-            
+            }
+
+            final int LEN = hi - lo + 1;
+            longest = Math.max(longest, LEN);
+
             ++hi;
         }
-        
+
         return longest;
     }
 }

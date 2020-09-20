@@ -8,24 +8,25 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0487;
 
-public class SolutionApproach0TwoPointers1 {
+public class SolutionApproach0TwoPointers {
     public int findMaxConsecutiveOnes(int[] nums) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
-        
+        if (nums == null || nums.length == 0)
+            return 0;
+
         final int N = nums.length;
         int longest = 0;
         int zeroLeft = 0, zeroRight = 0;
-        for(int i = 0; i < N; i++){
+        for (int i = 0; i < N; i++) {
             zeroRight++;
-            if(nums[i] == 0){
+            if (nums[i] == 0) {
                 zeroLeft = zeroRight;
                 zeroRight = 0;
             }
-            
+
             longest = Math.max(longest, zeroLeft + zeroRight);
         }
-        
+
         return longest;
     }
 }

@@ -15,23 +15,24 @@ package com.zea7ot.leetcode.lvl3.lc0487;
 public class SolutionApproach0SlidingWindow1 {
     public int findMaxConsecutiveOnes(int[] nums) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
-        
+        if (nums == null || nums.length == 0)
+            return 0;
+
         final int N = nums.length;
         int longest = 0;
         int idxZero = -1;
         int lo = 0, hi = 0;
-        while(hi < N){
-            if(nums[hi] == 0){
+        while (hi < N) {
+            if (nums[hi] == 0) {
                 lo = idxZero + 1;
                 idxZero = hi;
             }
-            
+
             longest = Math.max(longest, hi - lo + 1);
-            
+
             ++hi;
         }
-        
+
         return longest;
     }
 }
