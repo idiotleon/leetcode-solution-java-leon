@@ -35,12 +35,13 @@ References:
 
 
 
-# 2. Basic Type ii
-
+# 2. Basic Type ii - in the sequence/order of time - complicated
+    https://youtu.be/FLbqgyJ-70I?t=2607
 
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
+4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
@@ -48,6 +49,8 @@ References:
 
 
 # 3. 双序列型
+    https://youtu.be/FLbqgyJ-70I?t=3771
+
 4   0097    https://leetcode.com/problems/interleaving-string/
 4   0727    https://leetcode.com/problems/minimum-window-subsequence/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
@@ -104,7 +107,7 @@ References:
 
 
 
-# 状态压缩
+# 7. 状态压缩
     https://youtu.be/FLbqgyJ-70I?t=11205
 
 4   1125

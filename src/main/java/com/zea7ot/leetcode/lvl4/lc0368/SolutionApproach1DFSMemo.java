@@ -19,29 +19,31 @@ import java.util.Map;
 public class SolutionApproach1DFSMemo {
     public List<Integer> largestDivisibleSubset(int[] nums) {
         // sanity check
-        if(nums == null || nums.length == 0) return new ArrayList<Integer>();
-        
-        Map<Integer, List<Integer>> memo = new HashMap<Integer, List<Integer>>();
+        if (nums == null || nums.length == 0)
+            return new ArrayList<Integer>();
+
+        Map<Integer, List<Integer>> memo = new HashMap<>();
         Arrays.sort(nums);
         return dfs(nums, 0, memo);
     }
-    
-    private List<Integer> dfs(int[] nums, int i, Map<Integer, List<Integer>> memo){
-        if(memo.containsKey(i)) return memo.get(i);
-        
-        List<Integer> maxLens = new ArrayList<Integer>();
+
+    private List<Integer> dfs(int[] nums, int i, Map<Integer, List<Integer>> memo) {
+        if (memo.containsKey(i))
+            return memo.get(i);
+
+        List<Integer> maxLens = new ArrayList<>();
         int div = i == 0 ? 1 : nums[i - 1];
-        for(int k = i; k < nums.length; k++){
-            if(nums[k] % div == 0){
+        for (int k = i; k < nums.length; k++) {
+            if (nums[k] % div == 0) {
                 // to make a copy here, instead of direct surgery
-                List<Integer> list = new ArrayList<Integer>(dfs(nums, k + 1, memo));
+                List<Integer> list = new ArrayList<>(dfs(nums, k + 1, memo));
                 list.add(nums[k]);
-                if(list.size() > maxLens.size()){
+                if (list.size() > maxLens.size()) {
                     maxLens = list;
                 }
             }
         }
-        
+
         memo.put(i, maxLens);
         return maxLens;
     }

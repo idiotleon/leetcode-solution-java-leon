@@ -9,5 +9,5 @@
 package com.zea7ot.leetcode.lvl4.lc0673;
 
 public class SolutionApproach0DPWithBinarySearch {
-    
+
 }
