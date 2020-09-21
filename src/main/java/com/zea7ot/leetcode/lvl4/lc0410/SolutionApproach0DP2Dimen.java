@@ -5,6 +5,9 @@
  * Space Complexity:    O(N * m)
  * 
  * this approach applies to situations where there is any negative number
+ * 
+ * References:
+ *  https://youtu.be/FLbqgyJ-70I?t=6300
  */
 package com.zea7ot.leetcode.lvl4.lc0410;
 
@@ -18,13 +21,15 @@ public class SolutionApproach0DP2Dimen {
 
         final int N = nums.length;
         int[][] dp = new int[N + 1][m + 1];
-        for (int[] row : dp)
+        for (int[] row : dp) {
             Arrays.fill(row, Integer.MAX_VALUE);
+        }
         dp[0][0] = 0;
 
         int[] prefixSums = new int[N + 1];
-        for (int i = 0; i < N; ++i)
+        for (int i = 0; i < N; ++i) {
             prefixSums[i + 1] = prefixSums[i] + nums[i];
+        }
 
         for (int i = 1; i <= N; ++i) {
             for (int j = 1; j <= m; ++j) {

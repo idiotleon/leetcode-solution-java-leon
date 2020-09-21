@@ -21,8 +21,9 @@ public class SolutionApproach0DP2Dimen {
 
         final int N = nums.length;
         int[] padded = new int[N + 2];
-        for (int i = 0; i < N; ++i)
+        for (int i = 0; i < N; ++i) {
             padded[i + 1] = nums[i];
+        }
         padded[0] = padded[N + 1] = 1;
 
         int[][] dp = new int[N + 2][N + 2];

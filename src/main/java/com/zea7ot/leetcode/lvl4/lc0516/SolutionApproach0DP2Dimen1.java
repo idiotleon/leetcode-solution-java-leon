@@ -33,24 +33,25 @@ package com.zea7ot.leetcode.lvl4.lc0516;
 public class SolutionApproach0DP2Dimen1 {
     public int longestPalindromeSubseq(String s) {
         // sanity check
-        if(s == null || s.isEmpty()) return 0;
-        
+        if (s == null || s.isEmpty())
+            return 0;
+
         final int L = s.length();
         char[] chs = s.toCharArray();
 
         int[][] dp = new int[L][L];
 
-        for(int i = L - 1; i >= 0; --i){
-            dp[i][i] = 1;   // base case
-            for(int j = i + 1; j < L; ++j){
-                if(chs[i] == chs[j]){
+        for (int i = L - 1; i >= 0; --i) {
+            dp[i][i] = 1; // base case
+            for (int j = i + 1; j < L; ++j) {
+                if (chs[i] == chs[j]) {
                     dp[i][j] = dp[i + 1][j - 1] + 2;
-                }else{
+                } else {
                     dp[i][j] = Math.max(dp[i + 1][j], dp[i][j - 1]);
                 }
             }
         }
-        
+
         return dp[0][L - 1];
     }
 }

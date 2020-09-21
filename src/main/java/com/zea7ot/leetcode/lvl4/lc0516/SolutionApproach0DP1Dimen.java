@@ -14,25 +14,26 @@ package com.zea7ot.leetcode.lvl4.lc0516;
 public class SolutionApproach0DP1Dimen {
     public int longestPalindromeSubseq(String s) {
         // sanity check
-        if(s == null || s.isEmpty()) return 0;
+        if (s == null || s.isEmpty())
+            return 0;
         final int L = s.length();
-        
+
         char[] chs = s.toCharArray();
         int[] dp = new int[L];
-        for(int i = L - 1; i >= 0; i--){
+        for (int i = L - 1; i >= 0; i--) {
             dp[i] = 1;
             int prev = 0;
-            for(int j = i + 1; j < L; j++){
+            for (int j = i + 1; j < L; j++) {
                 int temp = dp[j];
-                if(chs[i] == chs[j]){
+                if (chs[i] == chs[j]) {
                     dp[j] = prev + 2;
-                }else{
+                } else {
                     dp[j] = Math.max(dp[j], dp[j - 1]);
                 }
                 prev = temp;
             }
         }
-        
+
         return dp[L - 1];
     }
 }

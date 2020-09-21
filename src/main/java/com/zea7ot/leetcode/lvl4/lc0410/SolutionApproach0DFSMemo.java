@@ -35,8 +35,9 @@ public class SolutionApproach0DFSMemo {
 
         int[] prefixSums = new int[N];
         prefixSums[0] = nums[0];
-        for (int i = 1; i < N; ++i)
+        for (int i = 1; i < N; ++i) {
             prefixSums[i] = prefixSums[i - 1] + nums[i];
+        }
 
         return splitArray(N - 1, m, prefixSums, nums, memo);
     }

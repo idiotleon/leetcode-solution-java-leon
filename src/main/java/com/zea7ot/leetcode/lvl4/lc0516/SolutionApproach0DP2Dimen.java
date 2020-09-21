@@ -22,23 +22,26 @@ package com.zea7ot.leetcode.lvl4.lc0516;
 
 public class SolutionApproach0DP2Dimen {
     public int longestPalindromeSubseq(String str) {
-        if(str == null || str.isEmpty()) return 0;
-        
-        char[] chs = str.toCharArray();
+        // sanity check
+        if (str == null || str.isEmpty())
+            return 0;
+
         final int L = str.length();
+        final char[] CHS = str.toCharArray();
         int[][] dp = new int[L + 1][L + 1];
-        
-        for(int len = 1; len <= L; ++len){
-            for(int i = 1; i + len - 1 <= L; ++i){
+
+        for (int len = 1; len <= L; ++len) {
+            for (int i = 1; i + len - 1 <= L; ++i) {
                 int j = i + len - 1;
-                if(len == 1) dp[i][j] = 1;
-                else if(chs[i - 1] == chs[j - 1]) // to turn it into 0-indexed coordinate
+                if (len == 1)
+                    dp[i][j] = 1;
+                else if (CHS[i - 1] == CHS[j - 1]) // to turn it into 0-indexed coordinate
                     dp[i][j] = dp[i + 1][j - 1] + 2;
                 else
                     dp[i][j] = Math.max(dp[i][j - 1], dp[i + 1][j]);
             }
         }
-        
+
         return dp[1][L];
     }
 }
