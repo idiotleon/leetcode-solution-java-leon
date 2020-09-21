@@ -35,6 +35,7 @@ References:
 
 
 
+
 # 2. Basic Type ii - in the sequence/order of time - complicated
     https://youtu.be/FLbqgyJ-70I?t=2607
 
@@ -48,12 +49,22 @@ References:
 
 
 
+
 # 3. 双序列型
     https://youtu.be/FLbqgyJ-70I?t=3771
 
+3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
+3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
+3   1143    https://leetcode.com/problems/longest-common-subsequence/
+
+4   0072    https://leetcode.com/problems/edit-distance/
 4   0097    https://leetcode.com/problems/interleaving-string/
+4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0727    https://leetcode.com/problems/minimum-window-subsequence/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
+4   1092    https://leetcode.com/problems/shortest-common-supersequence/
+4   1216    https://leetcode.com/problems/valid-palindrome-iii/
+4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 
 
 
