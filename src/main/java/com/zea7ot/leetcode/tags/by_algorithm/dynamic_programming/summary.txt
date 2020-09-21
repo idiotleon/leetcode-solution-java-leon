@@ -15,6 +15,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 2   0063    https://leetcode.com/problems/unique-paths-ii/
 2   0064    https://leetcode.com/problems/minimum-path-sum/
 2   0122    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+2   0198    https://leetcode.com/problems/house-robber/
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 2   0413    https://leetcode.com/problems/arithmetic-slices/

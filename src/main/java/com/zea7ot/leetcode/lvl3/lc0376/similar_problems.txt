@@ -1,4 +1,9 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Wiggle
 
 2   0280    https://leetcode.com/problems/wiggle-sort/
 

@@ -1,6 +1,10 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 # Longest Increasing Subsequence
+
 2   0674    https://leetcode.com/problems/longest-continuous-increasing-subsequence/
 
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
@@ -18,6 +22,7 @@
 
 
 # Longest Common Subsequence
+
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
@@ -30,7 +35,8 @@
 
 
 
-# Longest Consecutive sequence
+# Longest Consecutive Sequence
+
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   0549    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/
@@ -38,6 +44,7 @@
 
 
 # Palindrome
+
 3   0647    https://leetcode.com/problems/palindromic-substrings/
 
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/

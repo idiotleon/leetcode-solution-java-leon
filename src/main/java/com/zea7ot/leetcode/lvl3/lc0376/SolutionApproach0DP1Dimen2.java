@@ -11,7 +11,7 @@ package com.zea7ot.leetcode.lvl3.lc0376;
 
 import java.util.Arrays;
 
-public class SolutionApproach1DP1Dimen2 {
+public class SolutionApproach0DP1Dimen2 {
     public int wiggleMaxLength(int[] nums) {
         // sanity check
         if (nums == null || nums.length == 0)

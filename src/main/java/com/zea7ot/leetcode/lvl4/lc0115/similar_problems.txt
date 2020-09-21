@@ -1,4 +1,7 @@
 @author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 # Longest Common Subsequence
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/

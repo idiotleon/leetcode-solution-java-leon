@@ -2,16 +2,21 @@
 References:
     https://www.youtube.com/watch?v=FLbqgyJ-70I
     https://docs.google.com/presentation/d/1OeA0rsnOrklarLM5G2tHHJ6EE37HpRqD7KedzOqkihk/edit?usp=sharing
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
 
 ### Dynamic Programming
 ## Templates
-# 1. Basic Type i
+# 1. Basic Type i - in the sequence/order of time
+    https://youtu.be/FLbqgyJ-70I?t=508
+
 2   0198    https://leetcode.com/problems/house-robber/
 
 3   0213    https://leetcode.com/problems/house-robber-ii/
 3   0276    https://leetcode.com/problems/paint-fence/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
+3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
 
 4   0265    https://leetcode.com/problems/paint-house-ii/
 4   0309    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
@@ -21,21 +26,45 @@ References:
 5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 
 
+# to do or not to do
+    https://youtu.be/FLbqgyJ-70I?t=1944
 
-# 2. Basic Type ii
+3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
+
+4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
+
+
+
+
+# 2. Basic Type ii - in the sequence/order of time - complicated
+    https://youtu.be/FLbqgyJ-70I?t=2607
+
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
+4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 
 
 
+
 # 3. 双序列型
+    https://youtu.be/FLbqgyJ-70I?t=3771
+
+3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
+3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
+3   1143    https://leetcode.com/problems/longest-common-subsequence/
+
+4   0072    https://leetcode.com/problems/edit-distance/
 4   0097    https://leetcode.com/problems/interleaving-string/
+4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0727    https://leetcode.com/problems/minimum-window-subsequence/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
+4   1092    https://leetcode.com/problems/shortest-common-supersequence/
+4   1216    https://leetcode.com/problems/valid-palindrome-iii/
+4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 
 
 
@@ -89,7 +118,7 @@ References:
 
 
 
-# 状态压缩
+# 7. 状态压缩
     https://youtu.be/FLbqgyJ-70I?t=11205
 
 4   1125

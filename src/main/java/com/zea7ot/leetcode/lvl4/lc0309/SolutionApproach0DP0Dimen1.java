@@ -6,10 +6,11 @@
  * 
  * References:
  *  https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/75928/Share-my-DP-solution-(By-State-Machine-Thinking)
+ *  https://youtu.be/FLbqgyJ-70I?t=1117
  */
 package com.zea7ot.leetcode.lvl4.lc0309;
 
-public class SolutionApproach0DP1 {
+public class SolutionApproach0DP0Dimen1 {
     public int maxProfit(int[] prices) {
         // sanity check
         if (prices == null || prices.length == 0)

@@ -7,14 +7,20 @@ References:
 ## Array
 # Summary
 
+2   0198    https://leetcode.com/problems/house-robber/
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
+3   0376    https://leetcode.com/problems/wiggle-subsequence/
 
 4   0084    https://leetcode.com/problems/largest-rectangle-in-histogram/
+4   0309    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
+4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
 
 5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/

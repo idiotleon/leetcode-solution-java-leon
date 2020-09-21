@@ -9,7 +9,7 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0376;
 
-public class SolutionApproach1DP1Dimen {
+public class SolutionApproach0DP1Dimen {
     public int wiggleMaxLength(int[] nums) {
         // sanity check
         if (nums == null || nums.length == 0)

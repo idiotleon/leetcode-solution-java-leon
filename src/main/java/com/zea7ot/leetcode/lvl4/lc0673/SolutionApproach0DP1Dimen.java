@@ -11,24 +11,25 @@ package com.zea7ot.leetcode.lvl4.lc0673;
 
 import java.util.Arrays;
 
-public class SolutionApproach0DP {
+public class SolutionApproach0DP1Dimen {
     public int findNumberOfLIS(int[] nums) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
-        
+        if (nums == null || nums.length == 0)
+            return 0;
+
         final int N = nums.length;
         int[] lens = new int[N];
         Arrays.fill(lens, 1);
         int[] counts = new int[N];
         Arrays.fill(counts, 1);
-        
+
         int maxLen = 0, ans = 0;
-        for(int i = 0; i < N; i++){
-            for(int j = 0; j < i; j++){
-                if(nums[i] > nums[j]){
-                    if(lens[i] == lens[j] + 1) {
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < i; j++) {
+                if (nums[i] > nums[j]) {
+                    if (lens[i] == lens[j] + 1) {
                         counts[i] += counts[j];
-                    }else if(lens[i] < lens[j] + 1){
+                    } else if (lens[i] < lens[j] + 1) {
                         lens[i] = lens[j] + 1;
                         counts[i] = counts[j];
                     }
@@ -37,13 +38,13 @@ public class SolutionApproach0DP {
 
             maxLen = Math.max(maxLen, lens[i]);
         }
-        
-        for(int i = 0; i < N; i++){
-            if(lens[i] == maxLen){
+
+        for (int i = 0; i < N; i++) {
+            if (lens[i] == maxLen) {
                 ans += counts[i];
             }
         }
-        
+
         return ans;
     }
 }
