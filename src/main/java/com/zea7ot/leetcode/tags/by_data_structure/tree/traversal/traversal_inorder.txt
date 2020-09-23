@@ -7,6 +7,7 @@ References:
 # Traversal - Inorder
 
 1   0872    https://leetcode.com/problems/leaf-similar-trees/
+1   0965    https://leetcode.com/problems/univalued-binary-tree/
 
 2   0094    https://leetcode.com/problems/binary-tree-inorder-traversal/
 2   0501    https://leetcode.com/problems/find-mode-in-binary-search-tree/

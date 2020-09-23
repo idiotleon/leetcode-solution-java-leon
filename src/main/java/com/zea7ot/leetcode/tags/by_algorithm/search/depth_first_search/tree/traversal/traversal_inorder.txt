@@ -6,6 +6,8 @@ References:
 ### Depth First Search
 # Inorder Traversal
 
+1   0965    https://leetcode.com/problems/univalued-binary-tree/
+
 2   0094    https://leetcode.com/problems/binary-tree-inorder-traversal/
 2   0501    https://leetcode.com/problems/find-mode-in-binary-search-tree/
 2   0897    https://leetcode.com/problems/increasing-order-search-tree/

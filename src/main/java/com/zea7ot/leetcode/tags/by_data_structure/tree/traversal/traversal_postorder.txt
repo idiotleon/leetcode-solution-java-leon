@@ -7,6 +7,7 @@ References:
 # Postorder Traversal
 
 1   0872    https://leetcode.com/problems/leaf-similar-trees/
+1   0965    https://leetcode.com/problems/univalued-binary-tree/
 
 2   0100    https://leetcode.com/problems/same-tree/
 2   0104    https://leetcode.com/problems/maximum-depth-of-binary-tree/
