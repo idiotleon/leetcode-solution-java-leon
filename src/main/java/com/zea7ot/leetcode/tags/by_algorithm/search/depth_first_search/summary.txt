@@ -143,6 +143,7 @@ References:
 3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 3   1339    https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/
+3   1372    https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 3   1382    https://leetcode.com/problems/balance-a-binary-search-tree/
 3   1391    https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/

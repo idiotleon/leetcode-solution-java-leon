@@ -73,6 +73,7 @@ References:
 3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 3   1245    https://leetcode.com/problems/tree-diameter/
+3   1372    https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/
 3   1382    https://leetcode.com/problems/balance-a-binary-search-tree/
 3   1490    https://leetcode.com/problems/clone-n-ary-tree/
 3   1519    https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/
