@@ -15,4 +15,5 @@ References:
 
 3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
 
+4   0431    https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/
 4   1373    https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/

@@ -13,6 +13,12 @@ References:
 3   1522    https://leetcode.com/problems/diameter-of-n-ary-tree/
 
 4   0428    https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/
+4   0431    https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/
 
 
 -1  1516    https://leetcode.com/problems/move-sub-tree-of-n-ary-tree/
+
+
+
+Resources:
+    https://leetcode.com/articles/introduction-to-n-ary-trees/
