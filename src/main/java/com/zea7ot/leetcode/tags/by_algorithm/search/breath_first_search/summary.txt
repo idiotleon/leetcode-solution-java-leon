@@ -29,6 +29,7 @@ References:
 2   0655    https://leetcode.com/problems/print-binary-tree/
 2   0695    https://leetcode.com/problems/max-area-of-island/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
+2   0919    https://leetcode.com/problems/complete-binary-tree-inserter/
 2   0993    https://leetcode.com/problems/cousins-in-binary-tree/
 2   0951    https://leetcode.com/problems/flip-equivalent-binary-trees/
 2   0958    https://leetcode.com/problems/check-completeness-of-a-binary-tree/

@@ -6,4 +6,6 @@ References:
 ### Breadth First Search
 # BFS over DFS
 
+2   0919    https://leetcode.com/problems/complete-binary-tree-inserter/
+
 4   0317    https://leetcode.com/problems/shortest-distance-from-all-buildings/

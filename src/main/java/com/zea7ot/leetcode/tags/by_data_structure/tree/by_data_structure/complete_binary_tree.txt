@@ -1,12 +1,9 @@
 @author: Leon
 References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+    
 
-
-### Depth First Search
-## Tree
-# BFS over DFS
+### Tree
+# Complete Binary Tree
 
 2   0919    https://leetcode.com/problems/complete-binary-tree-inserter/
-
-4   0317    https://leetcode.com/problems/shortest-distance-from-all-buildings/
