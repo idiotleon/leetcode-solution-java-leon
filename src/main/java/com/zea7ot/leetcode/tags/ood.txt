@@ -24,6 +24,7 @@ References:
 3   0398    https://leetcode.com/problems/random-pick-index/
 3   0528    https://leetcode.com/problems/random-pick-with-weight/
 3   0705    https://leetcode.com/problems/design-hashset/
+3   1261    https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/s
 3   1357    https://leetcode.com/problems/apply-discount-every-n-orders/
 3   1472    https://leetcode.com/problems/design-browser-history/
 

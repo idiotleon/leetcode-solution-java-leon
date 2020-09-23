@@ -90,6 +90,7 @@ References:
 3   1104    https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 3   1245    https://leetcode.com/problems/tree-diameter/
+3   1261    https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/
 3   1273    https://leetcode.com/problems/delete-tree-nodes/
 3   1339    https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 3   1353    https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/
