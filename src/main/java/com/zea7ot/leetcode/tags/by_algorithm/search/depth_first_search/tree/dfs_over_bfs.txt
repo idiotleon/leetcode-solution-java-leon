@@ -14,3 +14,5 @@ References:
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 
 3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
+
+4   1373    https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/

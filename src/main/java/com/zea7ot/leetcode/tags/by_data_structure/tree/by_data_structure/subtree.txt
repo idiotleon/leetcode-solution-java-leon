@@ -19,6 +19,8 @@ References:
 3   0652    https://leetcode.com/problems/find-duplicate-subtrees/
 3   0865    https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 
+4   1373    https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/
+
 
 -1  1516    https://leetcode.com/problems/move-sub-tree-of-n-ary-tree/
 
