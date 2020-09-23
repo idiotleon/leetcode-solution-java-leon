@@ -133,6 +133,7 @@ References:
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
 3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
+3   1104    https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/

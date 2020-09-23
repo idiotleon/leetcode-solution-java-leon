@@ -86,6 +86,7 @@ References:
 3   0938    https://leetcode.com/problems/range-sum-of-bst/
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
+3   1104    https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 3   1245    https://leetcode.com/problems/tree-diameter/
 3   1273    https://leetcode.com/problems/delete-tree-nodes/
