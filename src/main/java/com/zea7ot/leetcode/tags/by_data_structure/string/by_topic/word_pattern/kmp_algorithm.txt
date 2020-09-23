@@ -17,3 +17,8 @@ References:
 4   1316    https://leetcode.com/problems/distinct-echo-substrings/
 
 5   0214    https://leetcode.com/problems/shortest-palindrome/
+
+
+
+Resources:
+    https://blog.csdn.net/v_JULY_v/article/details/7041827
