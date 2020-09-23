@@ -30,8 +30,9 @@ public class SolutionApproach0DFSMemo {
         final int N = nums.length;
 
         int[][] memo = new int[N][m + 1];
-        for (int[] row : memo)
+        for (int[] row : memo) {
             Arrays.fill(row, Integer.MAX_VALUE);
+        }
 
         int[] prefixSums = new int[N];
         prefixSums[0] = nums[0];

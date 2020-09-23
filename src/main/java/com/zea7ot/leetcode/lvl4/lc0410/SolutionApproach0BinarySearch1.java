@@ -27,6 +27,8 @@
  *  hi = C
  * 
  * References: 
+ *  https://leetcode.com/problems/split-array-largest-sum/discuss/89817/Clear-Explanation:-8ms-Binary-Search-Java/94310
+ *  https://leetcode.com/problems/split-array-largest-sum/discuss/89817/Clear-Explanation%3A-8ms-Binary-Search-Java
  *  https://youtu.be/_k-Jb4b7b_0
  *  http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-410-split-array-largest-sum/
  *  https://leetcode.com/problems/divide-chocolate/discuss/408503/JavaC++Python-Binary-Search/494896
@@ -35,7 +37,7 @@
  */
 package com.zea7ot.leetcode.lvl4.lc0410;
 
-public class SolutionApproach0TrialAndError {
+public class SolutionApproach0BinarySearch1 {
     public int splitArray(int[] nums, int m) {
         // sanity check
         if (nums == null || nums.length == 0)
@@ -43,36 +45,41 @@ public class SolutionApproach0TrialAndError {
 
         long lo = 0, hi = 0;
         for (int num : nums) {
+            // the max value
             lo = Math.max(lo, num);
+            // the sum
             hi += num;
         }
 
-        while (lo < hi) {
+        if (m == 1)
+            return (int) hi;
+
+        while (lo <= hi) {
             long mid = lo + (hi - lo) / 2;
-            // if there are too many groups with such a limit
-            if (minGroups(mid, nums) > m) {
-                // to increase the limit
-                lo = mid + 1;
+            if (isValidSplit(mid, nums, m)) {
+                hi = mid - 1;
             } else {
-                // otherwise to decrease the limit
-                hi = mid;
+                lo = mid + 1;
             }
         }
 
         return (int) lo;
     }
 
-    private int minGroups(long limit, int[] nums) {
+    private boolean isValidSplit(final long LIMIT, int[] nums, int m) {
         long sum = 0;
         int groups = 1;
         for (int num : nums) {
-            if (sum + num > limit) {
+            if (sum + num > LIMIT) {
+                // to reset the counter
                 sum = num;
-                ++groups;
-            } else
+                if (++groups > m)
+                    return false;
+            } else {
                 sum += num;
+            }
         }
 
-        return groups;
+        return true;
     }
 }
