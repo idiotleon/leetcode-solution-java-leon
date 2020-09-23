@@ -7,6 +7,7 @@ References:
 # Postorder Traversal
 
 1   0872    https://leetcode.com/problems/leaf-similar-trees/
+1   0965    https://leetcode.com/problems/univalued-binary-tree/
 
 2   0104    https://leetcode.com/problems/maximum-depth-of-binary-tree/
 2   0110    https://leetcode.com/problems/balanced-binary-tree/
@@ -18,7 +19,9 @@ References:
 2   0814    https://leetcode.com/problems/binary-tree-pruning/
 2   0988    https://leetcode.com/problems/smallest-string-starting-from-leaf/
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
+2   1120    https://leetcode.com/problems/maximum-average-subtree/
 2   1302    https://leetcode.com/problems/deepest-leaves-sum/
+2   1469    https://leetcode.com/problems/find-all-the-lonely-nodes/
 
 3   0106    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 3   0114    https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
@@ -46,3 +49,4 @@ References:
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   0968    https://leetcode.com/problems/binary-tree-cameras/
 4   0979    https://leetcode.com/problems/distribute-coins-in-binary-tree/
+4   1373    https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/

@@ -30,13 +30,15 @@ public class SolutionApproach0DFSMemo {
         final int N = nums.length;
 
         int[][] memo = new int[N][m + 1];
-        for (int[] row : memo)
+        for (int[] row : memo) {
             Arrays.fill(row, Integer.MAX_VALUE);
+        }
 
         int[] prefixSums = new int[N];
         prefixSums[0] = nums[0];
-        for (int i = 1; i < N; ++i)
+        for (int i = 1; i < N; ++i) {
             prefixSums[i] = prefixSums[i - 1] + nums[i];
+        }
 
         return splitArray(N - 1, m, prefixSums, nums, memo);
     }

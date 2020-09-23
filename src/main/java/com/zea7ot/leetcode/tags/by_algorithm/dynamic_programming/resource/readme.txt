@@ -26,7 +26,7 @@ References:
 5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 
 
-# to do or not to do
+# to do or not to do (行权或者不行权)
     https://youtu.be/FLbqgyJ-70I?t=1944
 
 3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
@@ -46,7 +46,6 @@ References:
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
-
 
 
 
@@ -110,18 +109,22 @@ References:
 
 # 6. 背包入门
 
-0494
-1094
-0956
-0474
-0879
+2   1094    https://leetcode.com/problems/car-pooling/
+
+3   0494    https://leetcode.com/problems/target-sum/
+
+4   0474    https://leetcode.com/problems/ones-and-zeroes/
+4   0879    https://leetcode.com/problems/profitable-schemes
+4   0956    https://leetcode.com/problems/tallest-billboard/
+
+
 
 
 
 # 7. 状态压缩
     https://youtu.be/FLbqgyJ-70I?t=11205
 
-4   1125
+4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 
 5   0691    https://leetcode.com/problems/stickers-to-spell-word/
-5   1349
+5   1349    https://leetcode.com/problems/maximum-students-taking-exam/

@@ -7,6 +7,7 @@ References:
 # Preorder Traversal
 
 1   0872    https://leetcode.com/problems/leaf-similar-trees/
+1   0965    https://leetcode.com/problems/univalued-binary-tree/
 
 2   0100    https://leetcode.com/problems/same-tree/
 2   0104    https://leetcode.com/problems/maximum-depth-of-binary-tree/
@@ -18,6 +19,7 @@ References:
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 2   1325    https://leetcode.com/problems/delete-leaves-with-a-given-value/
 2   1430    https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/
+2   1469    https://leetcode.com/problems/find-all-the-lonely-nodes/
 
 3   0105    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 3   0144    https://leetcode.com/problems/binary-tree-preorder-traversal/s
@@ -29,6 +31,7 @@ References:
 3   0666    https://leetcode.com/problems/path-sum-iv/
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
+3   1372    https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/
 
 4   0298    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 4   0545    https://leetcode.com/problems/boundary-of-binary-tree/

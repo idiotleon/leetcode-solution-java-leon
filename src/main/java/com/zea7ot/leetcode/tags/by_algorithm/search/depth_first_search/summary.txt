@@ -11,6 +11,7 @@ References:
 1   0671    https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/
 1   0700    https://leetcode.com/problems/search-in-a-binary-search-tree/
 1   0872    https://leetcode.com/problems/leaf-similar-trees/
+1   0965    https://leetcode.com/problems/univalued-binary-tree/
 1   1161    https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
 
 2   0017    https://leetcode.com/problems/letter-combinations-of-a-phone-number/
@@ -35,18 +36,21 @@ References:
 2   0720    https://leetcode.com/problems/longest-word-in-dictionary/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 2   0814    https://leetcode.com/problems/binary-tree-pruning/
+2   0897    https://leetcode.com/problems/increasing-order-search-tree/
 2   0958    https://leetcode.com/problems/check-completeness-of-a-binary-tree/
 2   0971    https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/
 2   0988    https://leetcode.com/problems/smallest-string-starting-from-leaf/
 2   0998    https://leetcode.com/problems/maximum-binary-tree-ii/
 2   1022    https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
+2   1120    https://leetcode.com/problems/maximum-average-subtree/
 2   1214    https://leetcode.com/problems/two-sum-bsts/
 2   1302    https://leetcode.com/problems/deepest-leaves-sum/
 2   1315    https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/
 2   1325    https://leetcode.com/problems/delete-leaves-with-a-given-value/
 2   1379    https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/
 2   1430    https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/
+2   1469    https://leetcode.com/problems/find-all-the-lonely-nodes/
 
 3   0039    https://leetcode.com/problems/combination-sum/
 3   0040    https://leetcode.com/problems/combination-sum-ii/ 
@@ -130,16 +134,19 @@ References:
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
 3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
+3   1104    https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/
 3   1236    https://leetcode.com/problems/web-crawler/
 3   1245    https://leetcode.com/problems/tree-diameter/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
+3   1261    https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/
 3   1273    https://leetcode.com/problems/delete-tree-nodes/
 3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 3   1339    https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/
+3   1372    https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 3   1382    https://leetcode.com/problems/balance-a-binary-search-tree/
 3   1391    https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/
@@ -171,6 +178,7 @@ References:
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0375    https://leetcode.com/problems/guess-number-higher-or-lower-ii/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0431    https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/
 4   0474    https://leetcode.com/problems/ones-and-zeroes/
 4   0489    https://leetcode.com/problems/robot-room-cleaner/
 4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
@@ -202,6 +210,7 @@ References:
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 4   1361    https://leetcode.com/problems/validate-binary-tree-nodes/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
+4   1373    https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/
 4   1537    https://leetcode.com/problems/get-the-maximum-score/
 4   1553    https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
 

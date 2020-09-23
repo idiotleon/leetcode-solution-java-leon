@@ -12,6 +12,8 @@ References:
 
 4   0297    https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 4   0428    https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/
+4   0431    https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/
+
 
 
 # Resources

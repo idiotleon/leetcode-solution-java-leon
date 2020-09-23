@@ -8,6 +8,7 @@ References:
 1   0559    https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
 1   0700    https://leetcode.com/problems/search-in-a-binary-search-tree/
 1   0872    https://leetcode.com/problems/leaf-similar-trees/
+1   0965    https://leetcode.com/problems/univalued-binary-tree/
 1   1161    https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
 
 2   0094    https://leetcode.com/problems/binary-tree-inorder-traversal/
@@ -30,6 +31,8 @@ References:
 2   0669    https://leetcode.com/problems/trim-a-binary-search-tree/
 2   0701    https://leetcode.com/problems/insert-into-a-binary-search-tree/
 2   0814    https://leetcode.com/problems/binary-tree-pruning/
+2   0897    https://leetcode.com/problems/increasing-order-search-tree/
+2   0919    https://leetcode.com/problems/complete-binary-tree-inserter/
 2   0951    https://leetcode.com/problems/flip-equivalent-binary-trees/
 2   0958    https://leetcode.com/problems/check-completeness-of-a-binary-tree/
 2   0971    https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/
@@ -38,11 +41,13 @@ References:
 2   1022    https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
 2   1026    https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 2   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
+2   1120    https://leetcode.com/problems/maximum-average-subtree/
 2   1302    https://leetcode.com/problems/deepest-leaves-sum/
 2   1305    https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
 2   1325    https://leetcode.com/problems/delete-leaves-with-a-given-value/
 2   1379    https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/
 2   1430    https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/
+2   1469    https://leetcode.com/problems/find-all-the-lonely-nodes/
 
 3   0096    https://leetcode.com/problems/unique-binary-search-trees/
 3   0098    https://leetcode.com/problems/validate-binary-search-tree/
@@ -82,12 +87,15 @@ References:
 3   0938    https://leetcode.com/problems/range-sum-of-bst/
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
+3   1104    https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 3   1245    https://leetcode.com/problems/tree-diameter/
+3   1261    https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/
 3   1273    https://leetcode.com/problems/delete-tree-nodes/
 3   1339    https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 3   1353    https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/
+3   1372    https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 3   1382    https://leetcode.com/problems/balance-a-binary-search-tree/
 3   1448    https://leetcode.com/problems/count-good-nodes-in-binary-tree/
@@ -109,6 +117,7 @@ References:
 4   0307    https://leetcode.com/problems/range-sum-query-mutable/
 4   0337    https://leetcode.com/problems/house-robber-iii/
 4   0428    https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/
+4   0431    https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/
 4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
 4   0545    https://leetcode.com/problems/boundary-of-binary-tree/
 4   0549    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/
@@ -122,6 +131,7 @@ References:
 4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
 4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
 4   1361    https://leetcode.com/problems/validate-binary-tree-nodes/
+4   1373    https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/
 
 5   0099    https://leetcode.com/problems/recover-binary-search-tree/
 5   0715    https://leetcode.com/problems/range-module/
