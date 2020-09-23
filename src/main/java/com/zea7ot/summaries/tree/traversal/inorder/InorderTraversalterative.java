@@ -20,6 +20,7 @@ public class InorderTraversalterative {
 
         Deque<TreeNode> stack = new ArrayDeque<>();
         pushLeft(root, stack);
+        
         while (!stack.isEmpty()) {
             TreeNode top = stack.pop();
             ans.add(top.val);
