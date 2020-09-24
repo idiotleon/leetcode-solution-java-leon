@@ -7,6 +7,7 @@ References:
 ### Bit Manipulation
 
 1   0067    https://leetcode.com/problems/add-binary/
+1   0389    https://leetcode.com/problems/find-the-difference/
 1   1290    https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
 
 2   0078    https://leetcode.com/problems/subsets/

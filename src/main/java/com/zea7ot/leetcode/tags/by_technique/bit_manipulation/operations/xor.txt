@@ -1,0 +1,11 @@
+@author: Leon
+References:
+    https://leetcode.com/tag/bit-manipulation/
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+    
+
+### Bit Manipulation
+## Operations
+# XOR
+
+1   0389    https://leetcode.com/problems/find-the-difference/
