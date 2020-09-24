@@ -17,6 +17,7 @@ References:
 2   1022    https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
 
 3   0029    https://leetcode.com/problems/divide-two-integers/
+3   0050    https://leetcode.com/problems/powx-n/
 3   0137    https://leetcode.com/problems/single-number-ii/
 3   0169    https://leetcode.com/problems/majority-element/
 3   0260    https://leetcode.com/problems/single-number-iii/
