@@ -3,8 +3,12 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
-### Integer
-# Bit Manipulation
+### Modular Arithmetic
+
+2   1022    https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
+
+
+
+### Power Arithmetic
 
 3   0050    https://leetcode.com/problems/powx-n/
-3   0477    https://leetcode.com/problems/total-hamming-distance/

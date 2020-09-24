@@ -1,0 +1,12 @@
+@author: Leon
+References:
+    https://leetcode.com/tag/stack/
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Stack
+# Integers as Stacks
+
+3   1541    https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/
+
+4   0301    https://leetcode.com/problems/remove-invalid-parentheses/
