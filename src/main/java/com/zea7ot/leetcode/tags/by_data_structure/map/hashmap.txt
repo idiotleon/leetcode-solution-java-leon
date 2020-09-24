@@ -48,3 +48,5 @@ References:
 
 5   0381    https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/
 5   0588    https://leetcode.com/problems/design-in-memory-file-system/
+
+6   0460    https://leetcode.com/problems/lfu-cache/
