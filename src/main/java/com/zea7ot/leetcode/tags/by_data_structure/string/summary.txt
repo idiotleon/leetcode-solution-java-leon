@@ -97,6 +97,7 @@ References:
 3   1360    https://leetcode.com/problems/number-of-days-between-two-dates/
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/
 3   1405    https://leetcode.com/problems/longest-happy-string/
+3   1541    https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/
 
 4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0065    https://leetcode.com/problems/valid-number/

@@ -37,6 +37,7 @@ References:
 3   0681    https://leetcode.com/problems/next-closest-time/
 3   0949    https://leetcode.com/problems/largest-time-for-given-digits/
 3   1360    https://leetcode.com/problems/number-of-days-between-two-dates/
+3   1541    https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/
 
 4   0043    https://leetcode.com/problems/multiply-strings/
 4   0065    https://leetcode.com/problems/valid-number/
