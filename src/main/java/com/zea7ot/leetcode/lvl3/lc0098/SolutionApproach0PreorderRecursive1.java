@@ -8,7 +8,7 @@ package com.zea7ot.leetcode.lvl3.lc0098;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0DFSRecursive {
+public class SolutionApproach0PreorderRecursive1 {
     public boolean isValidBST(TreeNode root) {
         return isValidBST(root, null, null);
     }
@@ -23,6 +23,11 @@ public class SolutionApproach0DFSRecursive {
         if (upper != null && upper <= val)
             return false;
 
-        return isValidBST(node.left, lower, val) && isValidBST(node.right, val, upper);
+        if (!isValidBST(node.left, lower, val))
+            return false;
+        if (!isValidBST(node.right, val, upper))
+            return false;
+
+        return true;
     }
 }
