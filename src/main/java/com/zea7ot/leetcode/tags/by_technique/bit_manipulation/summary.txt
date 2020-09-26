@@ -7,6 +7,7 @@ References:
 ### Bit Manipulation
 
 1   0067    https://leetcode.com/problems/add-binary/
+1   0389    https://leetcode.com/problems/find-the-difference/
 1   1290    https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
 
 2   0078    https://leetcode.com/problems/subsets/
@@ -35,6 +36,7 @@ References:
 4   0421    https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
+4   1066    https://leetcode.com/problems/campus-bikes-ii/
 4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 4   1177    https://leetcode.com/problems/can-make-palindrome-from-substring/
 4   1297    https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/
@@ -52,3 +54,5 @@ Resources:
     http://graphics.stanford.edu/~seander/bithacks.html
     https://leetcode.com/problems/sum-of-two-integers/discuss/132479/Simple-explanation-on-how-to-arrive-at-the-solution
     https://leetcode.com/problems/total-hamming-distance/discuss/96243/Share-my-O(n)-C++-bitwise-solution-with-thinking-process-and-explanation
+    https://leetcode.com/problems/maximum-students-taking-exam/discuss/503686/A-simple-tutorial-on-this-bitmasking-problem
+    

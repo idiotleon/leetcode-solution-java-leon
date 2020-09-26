@@ -10,6 +10,7 @@ References:
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
+2   1570    https://leetcode.com/problems/dot-product-of-two-sparse-vectors/
 
 3   0011    https://leetcode.com/problems/container-with-most-water/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/

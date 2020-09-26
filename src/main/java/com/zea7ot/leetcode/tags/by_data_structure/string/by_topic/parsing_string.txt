@@ -35,6 +35,7 @@ References:
 3   0609    https://leetcode.com/problems/find-duplicate-file-in-system/
 3   0640    https://leetcode.com/problems/solve-the-equation/
 3   0681    https://leetcode.com/problems/next-closest-time/
+3   0842    https://leetcode.com/problems/split-array-into-fibonacci-sequence/
 3   0949    https://leetcode.com/problems/largest-time-for-given-digits/
 3   1360    https://leetcode.com/problems/number-of-days-between-two-dates/
 3   1541    https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/

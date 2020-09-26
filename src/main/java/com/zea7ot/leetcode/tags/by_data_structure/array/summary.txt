@@ -53,6 +53,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   1464    https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
 2   1465    https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
+2   1570    https://leetcode.com/problems/dot-product-of-two-sparse-vectors/
 
 3   0039    https://leetcode.com/problems/combination-sum/
 3   0040    https://leetcode.com/problems/combination-sum-ii/ 
@@ -172,6 +173,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0135    https://leetcode.com/problems/candy/
 4   0174    https://leetcode.com/problems/dungeon-game/
+4   0179    https://leetcode.com/problems/largest-number/
 4   0218    https://leetcode.com/problems/the-skyline-problem/
 4   0220    https://leetcode.com/problems/contains-duplicate-iii/
 4   0221    https://leetcode.com/problems/maximal-square/
@@ -233,6 +235,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1040    https://leetcode.com/problems/moving-stones-until-consecutive-ii/
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
+4   1066    https://leetcode.com/problems/campus-bikes-ii/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/

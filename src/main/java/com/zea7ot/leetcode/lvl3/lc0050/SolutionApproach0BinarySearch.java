@@ -12,7 +12,7 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0050;
 
-public class SolutionApproach0IterationWithBitManipulation {
+public class SolutionApproach0BinarySearch {
     public double myPow(double x, int n) {
         double ans = 1;
         long absN = Math.abs((long) n);

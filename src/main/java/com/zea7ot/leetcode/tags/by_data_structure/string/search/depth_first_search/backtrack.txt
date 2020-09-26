@@ -4,11 +4,15 @@ References:
 
 
 ### String
+## Search
+# Depth First Search
 # Backtrack
 
 3   0320    https://leetcode.com/problems/generalized-abbreviation/
 3   0753    https://leetcode.com/problems/cracking-the-safe/
 3   0756    https://leetcode.com/problems/pyramid-transition-matrix/
+3   0842    https://leetcode.com/problems/split-array-into-fibonacci-sequence/
+
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
 
 4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
