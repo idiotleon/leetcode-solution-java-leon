@@ -12,6 +12,8 @@ References:
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
 4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
 
+5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
+
 
 
 ### DFS with memo over Dynamic Programming

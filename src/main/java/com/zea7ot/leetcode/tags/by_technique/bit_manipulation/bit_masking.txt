@@ -34,7 +34,7 @@ Resources:
     https://www.hackerearth.com/practice/algorithms/dynamic-programming/bit-masking/tutorial/
     http://codeforces.com/blog/entry/337
     https://www.geeksforgeeks.org/partition-set-k-subsets-equal-sum/
-
+    https://leetcode.com/problems/maximum-students-taking-exam/discuss/503686/A-simple-tutorial-on-this-bitmasking-problem
 
 
 
