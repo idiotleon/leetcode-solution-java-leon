@@ -235,6 +235,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1040    https://leetcode.com/problems/moving-stones-until-consecutive-ii/
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
+4   1066    https://leetcode.com/problems/campus-bikes-ii/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/

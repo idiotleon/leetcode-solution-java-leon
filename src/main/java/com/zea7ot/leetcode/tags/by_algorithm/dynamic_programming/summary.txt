@@ -102,6 +102,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 4   1062    https://leetcode.com/problems/longest-repeating-substring/
+4   1066    https://leetcode.com/problems/campus-bikes-ii/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
@@ -147,8 +148,8 @@ Resources:
     https://zxi.mytechroad.com/blog/leetcode-problem-categories/
     https://www.youtube.com/playlist?list=PLLuMmzMTgVK7vEbeHBDD42pqqG36jhuOr
     https://www.youtube.com/watch?v=kufFb-sReiA
-
-
+    https://zhuanlan.zhihu.com/p/126546914
+    https://zhuanlan.zhihu.com/p/131585177
 
 # Prefix Sums:
     about why `count += prefixSums.get(sum - k)`
