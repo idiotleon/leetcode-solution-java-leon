@@ -24,5 +24,6 @@ References:
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   0916    https://leetcode.com/problems/word-subsets/
 4   1125    https://leetcode.com/problems/smallest-sufficient-team/
+4   1258    https://leetcode.com/problems/synonymous-sentences/
 
 5   0140    https://leetcode.com/problems/word-break-ii/

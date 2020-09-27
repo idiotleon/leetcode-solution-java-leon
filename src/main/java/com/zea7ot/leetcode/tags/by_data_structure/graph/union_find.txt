@@ -13,5 +13,6 @@ References:
 
 4   0305    https://leetcode.com/problems/number-of-islands-ii/
 4   0721    https://leetcode.com/problems/accounts-merge/
+4   1258    https://leetcode.com/problems/synonymous-sentences/
 4   1361    https://leetcode.com/problems/validate-binary-tree-nodes/
 4   1579    https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/

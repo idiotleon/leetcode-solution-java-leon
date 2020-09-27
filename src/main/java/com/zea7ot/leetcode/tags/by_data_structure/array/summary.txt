@@ -244,6 +244,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1231    https://leetcode.com/problems/divide-chocolate/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 4   1246    https://leetcode.com/problems/palindrome-removal/
+4   1258    https://leetcode.com/problems/synonymous-sentences/
 4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
