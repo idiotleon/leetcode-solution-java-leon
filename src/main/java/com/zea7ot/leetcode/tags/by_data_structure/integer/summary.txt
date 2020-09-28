@@ -25,6 +25,7 @@ References:
 3   0967    https://leetcode.com/problems/numbers-with-same-consecutive-differences/
 3   1201    https://leetcode.com/problems/ugly-number-iii/
 3   1291    https://leetcode.com/problems/sequential-digits/
+3   1415    https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/
 
 4   0375    https://leetcode.com/problems/guess-number-higher-or-lower-ii/
 4   0556    https://leetcode.com/problems/next-greater-element-iii/
