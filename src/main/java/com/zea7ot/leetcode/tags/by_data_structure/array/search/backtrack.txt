@@ -16,6 +16,7 @@ References:
 3   0047    https://leetcode.com/problems/permutations-ii/
 3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0491    https://leetcode.com/problems/increasing-subsequences/
+3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 
 4   0351    https://leetcode.com/problems/android-unlock-patterns/
 4   0489    https://leetcode.com/problems/robot-room-cleaner/

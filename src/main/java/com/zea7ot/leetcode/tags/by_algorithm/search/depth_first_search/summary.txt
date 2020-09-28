@@ -143,6 +143,7 @@ References:
 3   1215    https://leetcode.com/problems/stepping-numbers/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/
 3   1236    https://leetcode.com/problems/web-crawler/
+3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 3   1245    https://leetcode.com/problems/tree-diameter/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1261    https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/

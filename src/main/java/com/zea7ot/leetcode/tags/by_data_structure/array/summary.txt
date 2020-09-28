@@ -157,6 +157,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
+3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1272    https://leetcode.com/problems/remove-interval/

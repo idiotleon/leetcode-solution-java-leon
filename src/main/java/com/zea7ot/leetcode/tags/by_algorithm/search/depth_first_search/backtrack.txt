@@ -35,6 +35,7 @@ References:
 3   1087    https://leetcode.com/problems/brace-expansion/
 3   1215    https://leetcode.com/problems/stepping-numbers/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/
+3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 
 4   0248    https://leetcode.com/problems/strobogrammatic-number-iii/
 4   0267    https://leetcode.com/problems/palindrome-permutation-ii/
