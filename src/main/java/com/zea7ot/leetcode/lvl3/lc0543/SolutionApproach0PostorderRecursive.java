@@ -12,19 +12,19 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0PostorderRecursive {
     public int diameterOfBinaryTree(TreeNode root) {
-        int[] max = { 0 };
-        postorder(root, max);
-        return max[0];
+        int[] longest = { 0 };
+        postorder(root, longest);
+        return longest[0];
     }
 
-    private int postorder(TreeNode node, int[] max) {
+    private int postorder(TreeNode node, int[] longest) {
         if (node == null)
             return 0;
 
-        int left = postorder(node.left, max);
-        int right = postorder(node.right, max);
+        int left = postorder(node.left, longest);
+        int right = postorder(node.right, longest);
 
-        max[0] = Math.max(max[0], left + right);
+        longest[0] = Math.max(longest[0], left + right);
 
         return Math.max(left, right) + 1;
     }
