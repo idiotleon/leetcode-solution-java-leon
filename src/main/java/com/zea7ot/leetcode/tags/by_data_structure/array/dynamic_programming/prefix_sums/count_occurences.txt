@@ -1,0 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Array
+## Prefix Sums
+# Count Occurences
+
+3   0560    https://leetcode.com/problems/subarray-sum-equals-k/description/

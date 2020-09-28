@@ -32,6 +32,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   0276    https://leetcode.com/problems/paint-fence/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0304    https://leetcode.com/problems/range-sum-query-2d-immutable/
+3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 3   0338    https://leetcode.com/problems/counting-bits/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/

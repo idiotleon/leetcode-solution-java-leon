@@ -9,23 +9,27 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0419;
 
-public class SolutionApproach0OnePass {
+public class SolutionApproach0LinearScan {
     public int countBattleships(char[][] board) {
         // sanity check
-        if(board == null || board.length == 0 || board[0].length == 0) return 0;
-        
+        if (board == null || board.length == 0 || board[0].length == 0)
+            return 0;
+
         final int NR = board.length, NC = board[0].length;
-        
+
         int count = 0;
-        for(int row = 0; row < NR; row++){
-            for(int col = 0; col < NC; col++){
-                if(board[row][col] == '.') continue;
-                if(row > 0 && board[row - 1][col] == 'X') continue;
-                if(col > 0 && board[row][col - 1] == 'X') continue;
+        for (int row = 0; row < NR; row++) {
+            for (int col = 0; col < NC; col++) {
+                if (board[row][col] == '.')
+                    continue;
+                if (row > 0 && board[row - 1][col] == 'X')
+                    continue;
+                if (col > 0 && board[row][col - 1] == 'X')
+                    continue;
                 count++;
             }
         }
-        
+
         return count;
     }
 }
