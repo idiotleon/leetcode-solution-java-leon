@@ -30,6 +30,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0310    https://leetcode.com/problems/minimum-height-trees/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
 2   0463    https://leetcode.com/problems/island-perimeter/
+2   0495    https://leetcode.com/problems/teemo-attacking/
 2   0605    https://leetcode.com/problems/can-place-flowers/
 2   0622    https://leetcode.com/problems/design-circular-queue/
 2   0690    https://leetcode.com/problems/employee-importance/
@@ -112,6 +113,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0638    https://leetcode.com/problems/shopping-offers/
 3   0659    https://leetcode.com/problems/split-array-into-consecutive-subsequences/
+3   0713    https://leetcode.com/problems/subarray-product-less-than-k/
 3   0714    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 3   0723    https://leetcode.com/problems/candy-crush/
@@ -155,6 +157,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
+3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1272    https://leetcode.com/problems/remove-interval/
@@ -243,6 +246,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1231    https://leetcode.com/problems/divide-chocolate/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 4   1246    https://leetcode.com/problems/palindrome-removal/
+4   1258    https://leetcode.com/problems/synonymous-sentences/
 4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/

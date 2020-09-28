@@ -10,3 +10,4 @@ References:
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 
 4   0839    https://leetcode.com/problems/similar-string-groups/
+4   1258    https://leetcode.com/problems/synonymous-sentences/

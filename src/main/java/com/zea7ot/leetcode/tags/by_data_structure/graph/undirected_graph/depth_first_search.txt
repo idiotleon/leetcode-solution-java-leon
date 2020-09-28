@@ -21,6 +21,7 @@ References:
 
 4   0721    https://leetcode.com/problems/accounts-merge/
 4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
+4   1258    https://leetcode.com/problems/synonymous-sentences/
 
 5   0834    https://leetcode.com/problems/sum-of-distances-in-tree/
 

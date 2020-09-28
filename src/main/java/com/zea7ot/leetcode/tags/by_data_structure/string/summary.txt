@@ -89,6 +89,7 @@ References:
 3   1055    https://leetcode.com/problems/shortest-way-to-form-string/
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
+3   1087    https://leetcode.com/problems/brace-expansion/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 3   1156    https://leetcode.com/problems/swap-for-longest-repeated-character-substring/
 3   1208    https://leetcode.com/problems/get-equal-substrings-within-budget/

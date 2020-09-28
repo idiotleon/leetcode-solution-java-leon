@@ -11,12 +11,12 @@ package com.zea7ot.leetcode.lvl3.lc0543;
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0PostorderRecursive1 {
-    private int max;
+    private int longest;
 
     public int diameterOfBinaryTree(TreeNode root) {
-        this.max = 0;
+        this.longest = 0;
         postorder(root);
-        return max;
+        return longest;
     }
 
     private int postorder(TreeNode node) {
@@ -26,7 +26,7 @@ public class SolutionApproach0PostorderRecursive1 {
         int left = postorder(node.left);
         int right = postorder(node.right);
 
-        max = Math.max(max, left + right);
+        longest = Math.max(longest, left + right);
 
         return Math.max(left, right) + 1;
     }

@@ -16,6 +16,7 @@ References:
 3   0966    https://leetcode.com/problems/vowel-spellchecker/
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1048    https://leetcode.com/problems/longest-string-chain/
+3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 
 4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0249    https://leetcode.com/problems/group-shifted-strings/
@@ -24,5 +25,6 @@ References:
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   0916    https://leetcode.com/problems/word-subsets/
 4   1125    https://leetcode.com/problems/smallest-sufficient-team/
+4   1258    https://leetcode.com/problems/synonymous-sentences/
 
 5   0140    https://leetcode.com/problems/word-break-ii/

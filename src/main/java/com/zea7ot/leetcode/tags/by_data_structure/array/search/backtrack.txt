@@ -16,11 +16,13 @@ References:
 3   0047    https://leetcode.com/problems/permutations-ii/
 3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0491    https://leetcode.com/problems/increasing-subsequences/
+3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 
 4   0351    https://leetcode.com/problems/android-unlock-patterns/
 4   0489    https://leetcode.com/problems/robot-room-cleaner/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0980    https://leetcode.com/problems/unique-paths-iii/
+4   1258    https://leetcode.com/problems/synonymous-sentences/
 4   1439    https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/
 
 5   0037    https://leetcode.com/problems/sudoku-solver/

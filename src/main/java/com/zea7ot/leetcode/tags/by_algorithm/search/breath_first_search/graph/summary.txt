@@ -30,5 +30,6 @@ References:
 4   0815    https://leetcode.com/problems/bus-routes/
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   0399    https://leetcode.com/problems/evaluate-division/
+4   1258    https://leetcode.com/problems/synonymous-sentences/
 
 5   1203    https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/

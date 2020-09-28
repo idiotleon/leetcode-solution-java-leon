@@ -136,11 +136,14 @@ References:
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
 3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
+3   1087    https://leetcode.com/problems/brace-expansion/
 3   1104    https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
+3   1215    https://leetcode.com/problems/stepping-numbers/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/
 3   1236    https://leetcode.com/problems/web-crawler/
+3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 3   1245    https://leetcode.com/problems/tree-diameter/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1261    https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/
@@ -207,6 +210,7 @@ References:
 4   1216    https://leetcode.com/problems/valid-palindrome-iii/
 4   1125    https://leetcode.com/problems/smallest-sufficient-team/
 4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
+4   1258    https://leetcode.com/problems/synonymous-sentences/
 4   1269    https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
 4   1312    https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/

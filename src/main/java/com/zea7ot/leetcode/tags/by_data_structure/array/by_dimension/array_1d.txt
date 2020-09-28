@@ -114,6 +114,7 @@ References:
 3   1054    https://leetcode.com/problems/distant-barcodes/
 3   1109    https://leetcode.com/problems/corporate-flight-bookings/
 3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
+3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/

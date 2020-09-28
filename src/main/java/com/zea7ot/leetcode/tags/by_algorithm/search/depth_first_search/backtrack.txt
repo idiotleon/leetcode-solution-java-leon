@@ -32,7 +32,10 @@ References:
 3   0842    https://leetcode.com/problems/split-array-into-fibonacci-sequence/
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
+3   1087    https://leetcode.com/problems/brace-expansion/
+3   1215    https://leetcode.com/problems/stepping-numbers/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/
+3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 
 4   0248    https://leetcode.com/problems/strobogrammatic-number-iii/
 4   0267    https://leetcode.com/problems/palindrome-permutation-ii/
@@ -43,6 +46,7 @@ References:
 4   0489    https://leetcode.com/problems/robot-room-cleaner/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0980    https://leetcode.com/problems/unique-paths-iii/
+4   1258    https://leetcode.com/problems/synonymous-sentences/
 
 5   0037    https://leetcode.com/problems/sudoku-solver/
 5   0212    https://leetcode.com/problems/word-search-ii/
