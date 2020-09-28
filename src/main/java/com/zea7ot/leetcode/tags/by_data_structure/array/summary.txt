@@ -107,6 +107,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
 3   0523    https://leetcode.com/problems/continuous-subarray-sum/
+3   0542    https://leetcode.com/problems/01-matrix/d
 3   0547    https://leetcode.com/problems/friend-circles/
 3   0548    https://leetcode.com/problems/split-array-with-equal-sum/
 3   0582    https://leetcode.com/problems/kill-process/

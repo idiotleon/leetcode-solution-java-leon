@@ -8,4 +8,6 @@ References:
 
 2   0919    https://leetcode.com/problems/complete-binary-tree-inserter/
 
+3   0542    https://leetcode.com/problems/01-matrix/
+
 4   0317    https://leetcode.com/problems/shortest-distance-from-all-buildings/
