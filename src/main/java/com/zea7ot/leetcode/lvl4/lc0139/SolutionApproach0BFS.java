@@ -19,24 +19,30 @@ public class SolutionApproach0BFS {
             return false;
 
         final Set<String> WORD_SET = new HashSet<>(wordDict);
-        Set<String> visited = new HashSet<>();
 
         Deque<String> queue = new ArrayDeque<>();
         queue.offer(str);
+        final Set<String> SEEN = new HashSet<>();
 
         while (!queue.isEmpty()) {
-            String cur = queue.poll();
-            final int LEN = cur.length();
-            for (int i = 1; i <= LEN; ++i) {
-                if (!WORD_SET.contains(cur.substring(0, i)))
-                    continue;
-                if (i == LEN)
-                    return true;
+            final int SIZE = queue.size();
 
-                String sub = cur.substring(i);
-                if (!visited.add(sub))
-                    continue;
-                queue.offer(sub);
+            for (int i = 0; i < SIZE; ++i) {
+                String cur = queue.poll();
+                final int LEN = cur.length();
+
+                for (int j = 1; j <= LEN; ++j) {
+                    if (!WORD_SET.contains(cur.substring(0, j)))
+                        continue;
+
+                    if (j == LEN)
+                        return true;
+
+                    String sub = cur.substring(j);
+                    if (!SEEN.add(sub))
+                        continue;
+                    queue.offer(sub);
+                }
             }
         }
 

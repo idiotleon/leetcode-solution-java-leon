@@ -9,3 +9,5 @@ References:
 2   0433    https://leetcode.com/problems/minimum-genetic-mutation/
 
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
+
+4   0139    https://leetcode.com/problems/word-break/
