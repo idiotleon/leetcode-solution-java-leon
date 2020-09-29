@@ -91,6 +91,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
 3   0304    https://leetcode.com/problems/range-sum-query-2d-immutable/
+3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 3   0338    https://leetcode.com/problems/counting-bits/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
 3   0373    https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
@@ -107,6 +108,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/
 3   0523    https://leetcode.com/problems/continuous-subarray-sum/
+3   0542    https://leetcode.com/problems/01-matrix/d
 3   0547    https://leetcode.com/problems/friend-circles/
 3   0548    https://leetcode.com/problems/split-array-with-equal-sum/
 3   0582    https://leetcode.com/problems/kill-process/

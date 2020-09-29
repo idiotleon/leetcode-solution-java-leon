@@ -11,6 +11,7 @@ References:
 3   0060    https://leetcode.com/problems/permutation-sequence/
 3   0670    https://leetcode.com/problems/maximum-swap/
 3   1053    https://leetcode.com/problems/previous-permutation-with-one-swap/
+3   1415    https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
 4   0031    https://leetcode.com/problems/next-permutation/

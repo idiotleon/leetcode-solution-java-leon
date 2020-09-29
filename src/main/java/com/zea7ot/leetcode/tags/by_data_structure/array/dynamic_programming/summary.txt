@@ -18,6 +18,7 @@ References:
 3   0213    https://leetcode.com/problems/house-robber-ii/
 3   0256    https://leetcode.com/problems/paint-house/
 3   0304    https://leetcode.com/problems/range-sum-query-2d-immutable/
+3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
