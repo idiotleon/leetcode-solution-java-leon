@@ -23,7 +23,7 @@ public class SolutionApproach0Stack implements Iterator<Integer> {
     private Deque<NestedInteger> stack;
 
     public SolutionApproach0Stack(List<NestedInteger> nestedList) {
-        this.stack = new ArrayDeque<NestedInteger>();
+        this.stack = new ArrayDeque<>();
         flattenNestedList(nestedList);
     }
 
