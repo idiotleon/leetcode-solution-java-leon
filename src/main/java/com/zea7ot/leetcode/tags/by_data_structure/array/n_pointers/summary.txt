@@ -35,6 +35,7 @@ References:
 3   0238    https://leetcode.com/problems/product-of-array-except-self/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
 3   0444    https://leetcode.com/problems/sequence-reconstruction/
+3   0523    https://leetcode.com/problems/continuous-subarray-sum/
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0624    https://leetcode.com/problems/maximum-distance-in-arrays/
 3   0713    https://leetcode.com/problems/subarray-product-less-than-k/
