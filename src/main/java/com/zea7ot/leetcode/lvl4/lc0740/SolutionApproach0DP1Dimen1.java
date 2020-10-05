@@ -15,26 +15,35 @@
  */
 package com.zea7ot.leetcode.lvl4.lc0740;
 
-public class SolutionApproach0DP {
-    public int deleteAndEarn(int[] nums) {        
+public class SolutionApproach0DP1Dimen1 {
+    public int deleteAndEarn(int[] nums) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
+        if (nums == null || nums.length == 0)
+            return 0;
 
-        final int RANGE = 10001;
-        int[] sums = new int[RANGE];
-        
-        for(int num : nums){
+        final int N = 10001;
+        int[] sums = new int[N];
+
+        for (int num : nums) {
             sums[num] += num;
         }
-        
-        int take = 0, skip = 0;
-        for(int i = 0; i < RANGE; ++i){
-            int takei = skip + sums[i];
-            int skipi = Math.max(skip, take);
-            take = takei;
-            skip = skipi;
+
+        return rob(sums);
+    }
+
+    /**
+     * the same method for 198. House Robber
+     * 
+     * @param sums
+     * @return
+     */
+    private int rob(final int[] sums) {
+        int dp1 = 0, dp2 = 0;
+        for (int i = 0; i < sums.length; i++) {
+            int dp = Math.max(dp2 + sums[i], dp1);
+            dp2 = dp1;
+            dp1 = dp;
         }
-        
-        return Math.max(take, skip);
+        return dp1;
     }
 }

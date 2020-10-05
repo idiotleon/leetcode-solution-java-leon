@@ -8,3 +8,9 @@ References:
 # Sorting
 
 3   1498   https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
+
+
+
+# Bucket Sort
+
+4   0740    https://leetcode.com/problems/delete-and-earn/

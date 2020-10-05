@@ -70,11 +70,5 @@ References:
 
 
 
-### High-Low Pointers
-
-3   0167    https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/s
-
-
-
 ### Interval
 ## Sweep Line
