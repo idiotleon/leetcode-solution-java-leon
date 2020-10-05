@@ -19,18 +19,18 @@ public class SolutionApproach0DFS {
         if (s == null || s.isEmpty())
             return false;
 
-        Set<Integer> visited = new HashSet<>();
+        final Set<Integer> SEEN = new HashSet<>();
         final Set<String> WORD_SET = new HashSet<>(wordDict);
-        return dfs(0, s, visited, WORD_SET);
+        return dfs(0, s, SEEN, WORD_SET);
     }
 
-    private boolean dfs(int idx, String str, Set<Integer> visited, final Set<String> WORD_SET) {
+    private boolean dfs(int idx, String str, Set<Integer> SEEN, final Set<String> WORD_SET) {
         final int LEN = str.length();
 
         if (idx == LEN)
             return true;
 
-        if (visited.contains(idx))
+        if (SEEN.contains(idx))
             return false;
 
         for (int i = idx + 1; i <= LEN; ++i) {
@@ -38,11 +38,11 @@ public class SolutionApproach0DFS {
 
             if (!WORD_SET.contains(sub))
                 continue;
-            if (dfs(i, str, visited, WORD_SET))
+            if (dfs(i, str, SEEN, WORD_SET))
                 return true;
         }
 
-        visited.add(idx);
+        SEEN.add(idx);
         return false;
     }
 }

@@ -21,6 +21,7 @@ References:
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 2   0361    https://leetcode.com/problems/bomb-enemy/
 2   0413    https://leetcode.com/problems/arithmetic-slices/
+2   0674    https://leetcode.com/problems/longest-continuous-increasing-subsequence/
 
 3   0091    https://leetcode.com/problems/decode-ways/
 3   0096    https://leetcode.com/problems/unique-binary-search-trees/

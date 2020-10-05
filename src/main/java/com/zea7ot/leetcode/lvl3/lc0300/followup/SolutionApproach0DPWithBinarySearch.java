@@ -19,36 +19,39 @@ package com.zea7ot.leetcode.lvl3.lc0300.followup;
 public class SolutionApproach0DPWithBinarySearch {
     public int lengthOfLIS(int[] nums) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
-        
+        if (nums == null || nums.length == 0)
+            return 0;
+
         final int N = nums.length;
         int len = 0;
         // Tails are the last actual element/digit/number of LIS of length "len".
         // As "len" increases, tails are monotonically increasing.
         int[] tails = new int[N];
         tails[0] = nums[0];
-        
-        for(int i = 1; i < N; i++){
-            if(nums[i] < tails[0]){
+
+        for (int i = 1; i < N; i++) {
+            if (nums[i] < tails[0]) {
                 tails[0] = nums[i];
-            }else if(nums[i] > tails[len]){
+            } else if (nums[i] > tails[len]) {
                 tails[++len] = nums[i];
-            }else{
-                tails[lowerBound(tails, 0, len, nums[i])] = nums[i];
+            } else {
+                tails[lowerBound(0, len, tails, nums[i])] = nums[i];
             }
         }
-        
+
         return len + 1;
     }
-    
-    private int lowerBound(int[] tails, int lo, int hi, int target){
-        while(lo < hi){
+
+    private int lowerBound(int lo, int hi, int[] tails, int target) {
+        while (lo < hi) {
             int mid = lo + (hi - lo) / 2;
-            
-            if(target > tails[mid]) lo = mid + 1;
-            else hi = mid;
+
+            if (target > tails[mid])
+                lo = mid + 1;
+            else
+                hi = mid;
         }
-        
+
         return lo;
     }
 }
