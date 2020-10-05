@@ -17,19 +17,19 @@ public class SolutionApproach0DP0Dimen {
         if (nums == null || nums.length == 0)
             return 0;
 
-        int ans = Integer.MIN_VALUE;
-        int minProduct = 1, maxProduct = 1;
+        int maxProduct = Integer.MIN_VALUE;
+        int prevMin = 1, prevMax = 1;
 
         for (int num : nums) {
-            int curMin = Math.min(num, Math.min(num * minProduct, num * maxProduct));
-            int curMax = Math.max(num, Math.max(num * minProduct, num * maxProduct));
+            int curMin = Math.min(num, Math.min(num * prevMin, num * prevMax));
+            int curMax = Math.max(num, Math.max(num * prevMin, num * prevMax));
 
-            minProduct = curMin;
-            maxProduct = curMax;
+            maxProduct = Math.max(maxProduct, curMax);
 
-            ans = Math.max(ans, maxProduct);
+            prevMin = curMin;
+            prevMax = curMax;
         }
 
-        return ans;
+        return maxProduct;
     }
 }

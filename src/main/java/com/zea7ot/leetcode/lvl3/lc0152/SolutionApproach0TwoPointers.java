@@ -16,15 +16,16 @@ public class SolutionApproach0TwoPointers {
             return 0;
 
         final int N = nums.length;
-        int ans = nums[0];
+        int maxProduct = nums[0];
         int lo = 0, hi = 0;
 
         for (int i = 0; i < N; ++i) {
             lo = (lo == 0 ? 1 : lo) * nums[i];
             hi = (hi == 0 ? 1 : hi) * nums[N - 1 - i];
-            ans = Math.max(ans, Math.max(lo, hi));
+            
+            maxProduct = Math.max(maxProduct, Math.max(lo, hi));
         }
 
-        return ans;
+        return maxProduct;
     }
 }

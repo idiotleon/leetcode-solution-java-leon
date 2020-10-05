@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/paint-fence/
  * 
- * Time Complexity:     O(n)
+ * Time Complexity:     O(`n`)
  * Space Complexity:    O(1)
  * 
  * References:
