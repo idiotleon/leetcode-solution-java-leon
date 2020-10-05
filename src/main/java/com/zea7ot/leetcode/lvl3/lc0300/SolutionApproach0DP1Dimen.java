@@ -27,16 +27,16 @@ public class SolutionApproach0DP1Dimen {
         Arrays.fill(dp, 1);
         int longest = 1;
 
-        for (int i = 1; i < N; ++i) {
+        for (int hi = 1; hi < N; ++hi) {
             // either line27 or line31 works
             // dp[i] = 1
-            for (int j = 0; j < i; ++j) {
-                if (nums[i] > nums[j]) {
-                    dp[i] = Math.max(dp[i], dp[j] + 1);
+            for (int lo = 0; lo < hi; ++lo) {
+                if (nums[hi] > nums[lo]) {
+                    dp[hi] = Math.max(dp[hi], dp[lo] + 1);
                 }
             }
 
-            longest = Math.max(longest, dp[i]);
+            longest = Math.max(longest, dp[hi]);
         }
 
         return longest;
