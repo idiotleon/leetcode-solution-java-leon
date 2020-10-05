@@ -20,25 +20,28 @@ public class SolutionApproach0DP2Dimen1 {
         final int N = nums.length;
         int[][] dp = new int[N][N];
         Map<Integer, Integer> idxMap = new HashMap<Integer, Integer>();
-        for(int i = 0; i < N; i++){
+        for (int i = 0; i < N; i++) {
             idxMap.put(nums[i], i);
-            for(int j = i; j < N; j++) dp[i][j] = 2;
+            for (int j = i; j < N; j++)
+                dp[i][j] = 2;
         }
-        
-        for(int hi = 2; hi < N; hi++){
-            for(int lo = hi - 1; lo > 0; lo--){
+
+        for (int hi = 2; hi < N; hi++) {
+            for (int lo = hi - 1; lo > 0; lo--) {
                 int prev = nums[hi] - nums[lo];
                 // pruning here
-                if(prev >= nums[lo]) break;
-                if(!idxMap.containsKey(prev)) continue;
+                if (prev >= nums[lo])
+                    break;
+                if (!idxMap.containsKey(prev))
+                    continue;
                 dp[lo][hi] = dp[idxMap.get(prev)][lo] + 1;
             }
         }
-        
+
         int max = 0;
-        for(int hi = 2; hi < N; hi++){
-            for(int lo = 1; lo < N - 1; lo++){
-                if(dp[lo][hi] > 2){
+        for (int hi = 2; hi < N; hi++) {
+            for (int lo = 1; lo < N - 1; lo++) {
+                if (dp[lo][hi] > 2) {
                     max = Math.max(max, dp[lo][hi]);
                 }
             }

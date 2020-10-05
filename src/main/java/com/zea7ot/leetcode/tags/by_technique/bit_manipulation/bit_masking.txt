@@ -6,6 +6,8 @@ References:
 ### Bit Manipulation
 # Bit Masking
 
+1   1009    https://leetcode.com/problems/complement-of-base-10-integer/
+
 2   0078    https://leetcode.com/problems/subsets/
 
 3   0289    https://leetcode.com/problems/game-of-life/

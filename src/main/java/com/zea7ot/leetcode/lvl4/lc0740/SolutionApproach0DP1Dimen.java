@@ -1,12 +1,12 @@
 /**
  * https://leetcode.com/problems/delete-and-earn/
  * 
- * Time Complexity:     O(N + R) + O(R) ~ O(N + R)
+ * Time Complexity:     O(N + `RANGE`) + O(`RANGE`) ~ O(N + `RANGE`)
  *  N, the Number of elements in the input array
  *  R, the Range of the value of each integer element, which, in this case, is 10001,
  *      and can be optimized to the max value in the array, at an extra cost of O(N)
  * 
- * Space Complexity:    O(N + R)
+ * Space Complexity:    O(N + `RANGE`)
  * 
  * References:
  *  https://leetcode.com/problems/delete-and-earn/discuss/109889/Java-Easy-DP-Solution/111623
@@ -15,23 +15,25 @@
  */
 package com.zea7ot.leetcode.lvl4.lc0740;
 
-public class SolutionApproach0DP1 {
+public class SolutionApproach0DP1Dimen {
     public int deleteAndEarn(int[] nums) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
+        if (nums == null || nums.length == 0)
+            return 0;
 
-        final int N = 10001;
-        int[] sum = new int[N];
-        for(int num : nums){
-            sum[num] += num;
+        final int RANGE = (int) 1e4 + 1;
+        int[] sums = new int[RANGE];
+
+        for (int num : nums) {
+            sums[num] += num;
         }
-        
-        int[] dp = new int[N];
-        dp[1] = sum[1];
-        for(int i = 2; i < N; ++i){
-            dp[i] = Math.max(dp[i - 1], dp[i - 2] + sum[i]);
+
+        int[] dp = new int[RANGE];
+        dp[1] = sums[1];
+        for (int i = 2; i < RANGE; ++i) {
+            dp[i] = Math.max(dp[i - 1], dp[i - 2] + sums[i]);
         }
-        
-        return dp[N - 1];
+
+        return dp[RANGE - 1];
     }
 }

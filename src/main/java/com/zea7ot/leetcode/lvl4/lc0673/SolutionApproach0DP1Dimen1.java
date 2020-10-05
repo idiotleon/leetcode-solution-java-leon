@@ -24,27 +24,30 @@ public class SolutionApproach0DP1Dimen1 {
         int[] counts = new int[N];
         Arrays.fill(counts, 1);
 
-        int maxLen = 0, ans = 0;
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < i; j++) {
-                if (nums[i] > nums[j]) {
-                    if (lens[i] == lens[j] + 1)
-                        counts[i] += counts[j];
-                    if (lens[i] < lens[j] + 1) {
-                        lens[i] = lens[j] + 1;
-                        counts[i] = counts[j];
+        int longest = 0;
+        int count = 0;
+
+        for (int hi = 0; hi < N; ++hi) {
+            for (int lo = 0; lo < hi; ++lo) {
+                if (nums[hi] > nums[lo]) {
+                    if (lens[hi] == lens[lo] + 1)
+                        counts[hi] += counts[lo];
+                    if (lens[hi] < lens[lo] + 1) {
+                        lens[hi] = lens[lo] + 1;
+                        counts[hi] = counts[lo];
                     }
                 }
             }
 
-            if (maxLen == lens[i])
-                ans += counts[i];
-            if (maxLen < lens[i]) {
-                maxLen = lens[i];
-                ans = counts[i];
+            if (longest == lens[hi]) {
+                count += counts[hi];
+            }
+            if (longest < lens[hi]) {
+                longest = lens[hi];
+                count = counts[hi];
             }
         }
 
-        return ans;
+        return count;
     }
 }

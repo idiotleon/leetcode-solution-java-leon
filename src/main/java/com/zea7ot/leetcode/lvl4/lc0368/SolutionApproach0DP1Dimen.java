@@ -4,7 +4,7 @@
  * Time Complexity:     O(N ^ 2) + O(N * lg(N)) ~ O(N ^ 2)
  * Space Complexity:    O(N)
  * 
- * `dp[i]`, the length(s)of the longest divisible subset ending with nums[i]
+ * `dp[i]`, the length of the longest divisible subset ending with nums[i]
  * 
  * References:
  *  https://leetcode.com/problems/largest-divisible-subset/discuss/83999/Easy-understood-Java-DP-solution-in-28ms-with-O(n2)-time
@@ -18,7 +18,7 @@ import java.util.List;
 
 public class SolutionApproach0DP1Dimen { // [2,3,4,9,8]
     public List<Integer> largestDivisibleSubset(int[] nums) {
-        List<Integer> ans = new ArrayList<Integer>();
+        List<Integer> ans = new ArrayList<>();
         // sanity check
         if (nums == null || nums.length == 0)
             return ans;
