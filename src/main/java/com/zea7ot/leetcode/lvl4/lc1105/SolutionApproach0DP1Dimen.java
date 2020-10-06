@@ -9,7 +9,7 @@
  * `dp[i]`, minimum height to place `books[0]` ~ `books[i]`
  * dp[j] = min{dp[i - 1] + H}, 0 < i < j
  *  H = max(height[i ~ j]), given that sum(width[i ~ j]) <= maxWidth
- * ans: dp[N - 1]
+ * ans: dp[N]
  * 
  * References:
  *  https://leetcode.com/problems/filling-bookcase-shelves/discuss/323315/Java-DP-solution
@@ -23,7 +23,7 @@ public class SolutionApproach0DP1Dimen {
         final int N = books.length;
 
         int[] dp = new int[N + 1];
-        dp[0] = 0;
+        // dp[0] = 0;
 
         for (int i = 1; i <= N; ++i) {
             int width = books[i - 1][0];
