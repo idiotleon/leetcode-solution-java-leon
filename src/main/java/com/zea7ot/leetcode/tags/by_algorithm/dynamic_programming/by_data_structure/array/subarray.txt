@@ -15,6 +15,7 @@ References:
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
+4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
 
 5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/

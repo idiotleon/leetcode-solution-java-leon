@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SolutionApproach0DP1 {
+public class SolutionApproach1DP1 {
     public int longestArithSeqLength(int[] nums) {
         final int N = nums.length;
         int longest = 2;
