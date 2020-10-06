@@ -23,6 +23,7 @@ References:
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
+3   0962    https://leetcode.com/problems/maximum-width-ramp/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1498   https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/

@@ -1,4 +1,4 @@
-package com.zea7ot.leetcode.lvl3.lc0901;
+package com.zea7ot.leetcode.ood.lvl3.lc0901;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -14,7 +14,7 @@ public class TestSolutionApproach0MonoStack1 {
      */
     @Test
     @Disabled
-    void test(){
+    void test() {
         assertEquals(1, solution.next(100));
         assertEquals(1, solution.next(80));
         assertEquals(1, solution.next(60));
