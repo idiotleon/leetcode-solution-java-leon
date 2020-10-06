@@ -20,17 +20,19 @@ public class SolutionApproach1DPWithBinarySearch {
         final int L = envelopes.length;
         int[] dp = new int[L];
         int len = 0;
-        
-        for(int[] envelope : envelopes){
+
+        for (int[] envelope : envelopes) {
             int index = Arrays.binarySearch(dp, 0, len, envelope[1]);
-            
-            if(index < 0) index = -(index + 1);
-            
+
+            if (index < 0)
+                index = -(index + 1);
+
             dp[index] = envelope[1];
-            
-            if(index == len) len++;
+
+            if (index == len)
+                len++;
         }
-        
+
         return len;
     }
 }

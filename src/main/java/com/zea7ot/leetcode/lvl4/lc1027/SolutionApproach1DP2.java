@@ -13,7 +13,7 @@ package com.zea7ot.leetcode.lvl4.lc1027;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SolutionApproach0DP2 {
+public class SolutionApproach1DP2 {
     @SuppressWarnings("unchecked")
     public int longestArithSeqLength(int[] nums) {
         final int N = nums.length;

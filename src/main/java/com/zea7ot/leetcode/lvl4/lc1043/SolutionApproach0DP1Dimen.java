@@ -12,25 +12,29 @@
  * Answer: dp[N]
  * 
  * References:
+ *  https://www.youtube.com/watch?v=3M8q-wB2tmw
  *  https://leetcode.com/problems/partition-array-for-maximum-sum/discuss/290863/JavaC%2B%2BPython-DP
  */
 package com.zea7ot.leetcode.lvl4.lc1043;
 
-public class SolutionApproach0DP1 {
+public class SolutionApproach0DP1Dimen {
     public int maxSumAfterPartitioning(int[] nums, int K) {
         // sanity check
-        if(nums == null || nums.length < K) return 0;
+        if (nums == null || nums.length < K)
+            return 0;
 
         final int N = nums.length;
-        int[] dp = new int[N];
-        for(int i = 0; i < N; ++i){
-            int curMax = 0;
-            for(int k = 1; k <= K && i - (k - 1) >= 0; ++k){
-                curMax = Math.max(curMax, nums[i - (k - 1)]);
-                dp[i] = Math.max(dp[i], (i >= k ? dp[i - k] : 0) + curMax * k);
+        int[] dp = new int[N + 1];
+        for (int i = 1; i <= N; ++i) {
+            // the max partition
+            int curMax = Integer.MIN_VALUE;
+            for (int k = 1; k <= Math.min(i, K); ++k) {
+                // to try the previous/last, to `nums[i]`, `k` position(s)
+                curMax = Math.max(curMax, nums[i - k]);
+                dp[i] = Math.max(dp[i], dp[i - k] + curMax * k);
             }
         }
-        
-        return dp[N - 1];
+
+        return dp[N];
     }
 }

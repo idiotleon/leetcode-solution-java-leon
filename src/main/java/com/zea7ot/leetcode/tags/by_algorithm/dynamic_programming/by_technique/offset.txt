@@ -1,0 +1,6 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+4   0871    https://leetcode.com/problems/longest-arithmetic-subsequence/
