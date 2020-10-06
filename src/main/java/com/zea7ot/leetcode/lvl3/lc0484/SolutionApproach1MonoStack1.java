@@ -13,23 +13,25 @@ public class SolutionApproach1MonoStack1 {
 
         final int L = s.length();
         int[] ans = new int[L + 1];
-        char[] chs = s.toCharArray();
+        final char[] CHS = s.toCharArray();
 
-        Deque<Integer> stack = new ArrayDeque<Integer>();
+        Deque<Integer> stack = new ArrayDeque<>();
         int idx = 0;
         for (int i = 1; i <= L; ++i) {
-            if (chs[i - 1] == DECREASING)
+            if (CHS[i - 1] == DECREASING)
                 stack.push(i);
             else {
                 stack.push(i);
-                while (!stack.isEmpty())
+                while (!stack.isEmpty()) {
                     ans[idx++] = stack.pop();
+                }
             }
         }
 
         stack.push(L + 1);
-        while (!stack.isEmpty())
+        while (!stack.isEmpty()) {
             ans[idx++] = stack.pop();
+        }
 
         return ans;
     }

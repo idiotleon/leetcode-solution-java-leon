@@ -10,8 +10,8 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0739;
 
+import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.LinkedList;
 
 public class SolutionApproach0MonoStack {
     public int[] dailyTemperatures(int[] T) {
@@ -20,7 +20,7 @@ public class SolutionApproach0MonoStack {
         final int N = T.length;
         
         int[] ans = new int[N]; 
-        Deque<Integer> idxStack = new LinkedList<Integer>();
+        Deque<Integer> idxStack = new ArrayDeque<>();
         
         int idx = 0;
         while(idx < N){
@@ -29,7 +29,8 @@ public class SolutionApproach0MonoStack {
                 ans[prevIdx] = idx - prevIdx;
             }
             
-            idxStack.push(idx++);
+            idxStack.push(idx);
+            ++idx;
         }
         
         return ans;
