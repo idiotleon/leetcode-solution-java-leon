@@ -9,7 +9,7 @@
  */
 package com.zea7ot.leetcode.lvl4.lc0042.followup;
 
-public class SolutionApproach1TwoPtrs {
+public class SolutionApproach1TwoPointers {
     public int trap(int[] heights) {
         // sanity check
         if (heights == null || heights.length == 0)

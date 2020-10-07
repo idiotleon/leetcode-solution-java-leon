@@ -9,7 +9,7 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0484;
 
-public class SolutionApproach0ThreePointers1 {
+public class SolutionApproach0TwoPointers2 {
     private static final char DECREASING = 'D';
 
     public int[] findPermutation(String s) {
@@ -18,23 +18,26 @@ public class SolutionApproach0ThreePointers1 {
             return new int[0];
 
         final int L = s.length();
-        char[] chs = s.toCharArray();
+        final char[] CHS = s.toCharArray();
 
         int[] ans = new int[L + 1];
         ans[0] = 1;
         int i = 1;
+
         while (i <= L) {
             ans[i] = i + 1;
             int j = i;
-            if (chs[i - 1] == DECREASING) {
-                while (i <= L && chs[i - 1] == DECREASING)
+            if (CHS[i - 1] == DECREASING) {
+                while (i <= L && CHS[i - 1] == DECREASING) {
                     ++i;
+                }
 
-                for (int k = j - 1, val = i; k <= i - 1; ++k, --val)
+                for (int k = j - 1, val = i; k <= i - 1; ++k, --val) {
                     ans[k] = val;
-
-            } else
+                }
+            } else {
                 ++i;
+            }
         }
 
         return ans;

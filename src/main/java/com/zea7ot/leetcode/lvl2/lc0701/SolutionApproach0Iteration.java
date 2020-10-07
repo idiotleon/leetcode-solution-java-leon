@@ -14,20 +14,25 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 public class SolutionApproach0Iteration {
     public TreeNode insertIntoBST(TreeNode root, int val) {
         // sanity check
-        if(root == null) return new TreeNode(val);
-        
+        if (root == null)
+            return new TreeNode(val);
+
         TreeNode cur = root;
-        TreeNode parent = null;
-        
-        while(cur != null){
-            parent = cur;
-            if(cur.val < val) cur = cur.right;
-            else cur = cur.left;
+        TreeNode prev = null;
+
+        while (cur != null) {
+            prev = cur;
+            if (cur.val < val)
+                cur = cur.right;
+            else
+                cur = cur.left;
         }
-        
-        if(parent.val < val) parent.right = new TreeNode(val);
-        else parent.left = new TreeNode(val);
-        
+
+        if (prev.val < val)
+            prev.right = new TreeNode(val);
+        else
+            prev.left = new TreeNode(val);
+
         return root;
     }
 }

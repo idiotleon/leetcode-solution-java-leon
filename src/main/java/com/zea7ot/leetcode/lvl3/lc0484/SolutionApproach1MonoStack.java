@@ -24,19 +24,20 @@ public class SolutionApproach1MonoStack {
 
         s += 'I';
         final int L = s.length();
-        char[] chs = s.toCharArray();
+        final char[] CHS = s.toCharArray();
         int[] ans = new int[L];
         int idx = 0;
 
-        Deque<Integer> stack = new ArrayDeque<Integer>();
+        Deque<Integer> stack = new ArrayDeque<>();
 
         for (int i = 1; i <= L; ++i) {
-            if (chs[i - 1] == DECREASING)
+            if (CHS[i - 1] == DECREASING)
                 stack.push(i);
             else {
                 ans[idx++] = i;
-                while (!stack.isEmpty())
+                while (!stack.isEmpty()) {
                     ans[idx++] = stack.pop();
+                }
             }
         }
 

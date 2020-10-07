@@ -19,12 +19,13 @@ public class SolutionApproach0MonoStack {
             return 0;
 
         final int N = nums.length;
-        Deque<Integer> stack = new ArrayDeque<Integer>();
+        Deque<Integer> stack = new ArrayDeque<>();
         int widest = 0;
 
         for (int i = 0; i < N; ++i) {
-            if (stack.isEmpty() || nums[stack.peek()] > nums[i])
+            if (stack.isEmpty() || nums[stack.peek()] > nums[i]) {
                 stack.push(i);
+            }
         }
 
         for (int i = N - 1; i > widest; --i) {

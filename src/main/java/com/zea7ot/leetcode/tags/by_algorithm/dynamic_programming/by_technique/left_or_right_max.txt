@@ -1,0 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Dynamic Programming
+## By Technique
+# Left or Right Maximum Values
+
+4   0042    https://leetcode.com/problems/trapping-rain-water/

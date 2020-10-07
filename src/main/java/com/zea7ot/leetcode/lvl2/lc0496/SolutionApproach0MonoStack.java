@@ -5,8 +5,8 @@
  * Space Complexity:    O(N)
  * 
  * to maintain a strictly descreasing stack
- * 1. the contents of the stack are actual values/elements
- * 2. the elements are strickly descreasing
+ *  1. the contents of the stack are actual values/elements
+ *  2. the elements are strickly descreasing
  */
 package com.zea7ot.leetcode.lvl2.lc0496;
 

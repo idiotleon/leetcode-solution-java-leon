@@ -3,6 +3,9 @@
  * 
  * Time Complexity:     O(N)
  * Space Complexity:    O(N)
+ * 
+ * References:
+ *  https://leetcode.com/problems/trapping-rain-water/discuss/17395/A-different-O(n)-approach-easy-to-understand-and-simple-code
  */
 package com.zea7ot.leetcode.lvl4.lc0042;
 

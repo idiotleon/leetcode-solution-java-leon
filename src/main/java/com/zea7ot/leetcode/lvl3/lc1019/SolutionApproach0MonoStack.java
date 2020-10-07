@@ -1,8 +1,10 @@
 /**
  * https://leetcode.com/problems/next-greater-node-in-linked-list/
  * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(N)
+ * Time Complexity:     O(L)
+ *  L, length of the linked list
+ * Space Complexity:    O(L)
+ *  L, length of the linked list
  * 
  * References:
  *  https://leetcode.com/problems/next-greater-node-in-linked-list/discuss/265508/JavaC++Python-Next-Greater-Element/256331
@@ -10,36 +12,39 @@
  */
 package com.zea7ot.leetcode.lvl3.lc1019;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
-import java.util.LinkedList;
 import java.util.List;
 
 import com.zea7ot.utils.data_structure.linkedlist.ListNode;
 
 public class SolutionApproach0MonoStack {
     public int[] nextLargerNodes(ListNode head) {
-        Integer[] nums = toArray(head);
-        final int N = nums.length;
-        Deque<Integer> stack = new LinkedList<Integer>();
-        int[] ans = new int[N];
-        for(int i = 0; i < N; i++){
-            while(!stack.isEmpty() && nums[i] > nums[stack.peek()]){
-                ans[stack.pop()] = nums[i];
-            }
-            stack.push(i);
-        }
-        
-        return ans;
-    }
-    
-    private Integer[] toArray(ListNode head){
-        List<Integer> list = new ArrayList<Integer>();
+        List<Integer> ans = new ArrayList<>();
         ListNode cur = head;
-        while(cur != null){
-            list.add(cur.val);
+        int idx = 0;
+
+        Deque<Integer> stack = new ArrayDeque<>();
+
+        while (cur != null) {
+            int value = cur.val;
+
+            while (!stack.isEmpty() && ans.get(stack.peek()) < value) {
+                ans.set(stack.pop(), value);
+            }
+
+            stack.push(idx);
+            ans.add(value);
+
             cur = cur.next;
+            ++idx;
         }
-        return list.toArray(new Integer[0]);
+
+        while (!stack.isEmpty()) {
+            ans.set(stack.pop(), 0);
+        }
+
+        return ans.stream().mapToInt(i -> i).toArray();
     }
 }

@@ -24,11 +24,13 @@ References:
 3   0186    https://leetcode.com/problems/reverse-words-in-a-string-ii/
 3   0220    https://leetcode.com/problems/contains-duplicate-iii/
 3   0424    https://leetcode.com/problems/longest-repeating-character-replacement/
+3   0484    https://leetcode.com/problems/find-permutation/
 3   0680    https://leetcode.com/problems/valid-palindrome-ii/
 3   0696    https://leetcode.com/problems/count-binary-substrings/
 3   0763    https://leetcode.com/problems/partition-labels/description/
 3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
+3   0962    https://leetcode.com/problems/maximum-width-ramp/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1208    https://leetcode.com/problems/get-equal-substrings-within-budget/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
@@ -36,6 +38,7 @@ References:
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 3   1577    https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/
 
+4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
 4   0395    https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/

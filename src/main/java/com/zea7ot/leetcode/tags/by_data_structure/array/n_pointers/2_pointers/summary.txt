@@ -20,11 +20,13 @@ References:
 3   0713    https://leetcode.com/problems/subarray-product-less-than-k/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0922    https://leetcode.com/problems/sort-array-by-parity-ii/
+3   0962    https://leetcode.com/problems/maximum-width-ramp/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1498   https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
+4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0220    https://leetcode.com/problems/contains-duplicate-iii/
 4   0992    https://leetcode.com/problems/subarrays-with-k-different-integers/
 

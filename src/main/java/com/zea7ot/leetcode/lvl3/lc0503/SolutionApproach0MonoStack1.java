@@ -12,31 +12,32 @@ import java.util.LinkedList;
 public class SolutionApproach0MonoStack1 {
     public int[] nextGreaterElements(int[] nums) {
         // sanity check
-        if(nums == null || nums.length == 0) return new int[0];
-        
+        if (nums == null || nums.length == 0)
+            return new int[0];
+
         final int L = nums.length;
         int[] ans = new int[L];
-        
+
         Deque<Integer> idxStack = new LinkedList<Integer>();
         int idx = 0;
-        
-        while(idx < 2 * L){
-            while(!idxStack.isEmpty() && nums[idxStack.peek()] < nums[idx % L]){
+
+        while (idx < 2 * L) {
+            while (!idxStack.isEmpty() && nums[idxStack.peek()] < nums[idx % L]) {
                 ans[idxStack.pop()] = nums[idx % L];
             }
-            
-            if(idx < L){
+
+            if (idx < L) {
                 idxStack.add(idx);
                 ans[idx] = nums[idx];
             }
-            
+
             idx++;
         }
-        
-        while(!idxStack.isEmpty()){
+
+        while (!idxStack.isEmpty()) {
             ans[idxStack.pop()] = -1;
         }
-        
+
         return ans;
     }
 }

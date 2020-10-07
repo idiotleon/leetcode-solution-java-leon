@@ -20,14 +20,15 @@ public class SolutionApproach0LinearScan {
 
         final int L = s.length();
         int[] ans = new int[L + 1];
-        for (int i = 0; i <= L; ++i)
+        for (int i = 0; i <= L; ++i) {
             ans[i] = i + 1;
+        }
 
-        char[] chs = s.toCharArray();
+        final char[] CHS = s.toCharArray();
         for (int hi = 0; hi < L; ++hi) {
-            if (chs[hi] == DECREASING) {
+            if (CHS[hi] == DECREASING) {
                 int lo = hi;
-                while (hi < L && chs[hi] == DECREASING)
+                while (hi < L && CHS[hi] == DECREASING)
                     ++hi;
                 reverse(lo, hi, ans);
             }

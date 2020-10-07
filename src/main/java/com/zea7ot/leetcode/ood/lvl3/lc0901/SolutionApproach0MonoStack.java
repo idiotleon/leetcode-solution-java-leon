@@ -8,26 +8,26 @@
  *  1. the contents are an 2-element array of price and count
  *  2. the prices are strictly decreasing
  */
-package com.zea7ot.leetcode.lvl3.lc0901;
+package com.zea7ot.leetcode.ood.lvl3.lc0901;
 
+import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.LinkedList;
 
 public class SolutionApproach0MonoStack {
     private Deque<int[]> stack;
 
     public SolutionApproach0MonoStack() {
-        this.stack = new LinkedList<int[]>();
+        this.stack = new ArrayDeque<>();
     }
-    
+
     public int next(int price) {
         int span = 1;
-        while(!stack.isEmpty() && stack.peekLast()[0] <= price){
-            span += stack.removeLast()[1];
+        while (!stack.isEmpty() && stack.peek()[0] <= price) {
+            span += stack.pop()[1];
         }
-        
-        stack.add(new int[]{price, span});
-        
+
+        stack.push(new int[] { price, span });
+
         return span;
     }
 }
