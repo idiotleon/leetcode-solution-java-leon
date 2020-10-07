@@ -46,6 +46,7 @@ References:
 3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
 3   1498   https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
+4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0084    https://leetcode.com/problems/largest-rectangle-in-histogram/
 4   0120    https://leetcode.com/problems/triangle/
 4   0139    https://leetcode.com/problems/word-break/

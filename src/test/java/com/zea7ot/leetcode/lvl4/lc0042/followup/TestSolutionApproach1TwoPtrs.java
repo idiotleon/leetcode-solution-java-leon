@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class TestSolutionApproach1TwoPtrs {
-    private SolutionApproach1TwoPtrs solution = new SolutionApproach1TwoPtrs();
+    private SolutionApproach1TwoPointers solution = new SolutionApproach1TwoPointers();
 
     @Test
     void test1(){

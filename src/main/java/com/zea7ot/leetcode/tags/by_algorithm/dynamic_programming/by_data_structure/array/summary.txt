@@ -15,6 +15,7 @@ References:
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 
+4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0084    https://leetcode.com/problems/largest-rectangle-in-histogram/
 4   0309    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/

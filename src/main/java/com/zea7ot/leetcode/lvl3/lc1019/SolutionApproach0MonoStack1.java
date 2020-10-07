@@ -19,32 +19,30 @@ import java.util.List;
 
 import com.zea7ot.utils.data_structure.linkedlist.ListNode;
 
-public class SolutionApproach0MonoStack {
+public class SolutionApproach0MonoStack1 {
     public int[] nextLargerNodes(ListNode head) {
-        List<Integer> ans = new ArrayList<>();
-        ListNode cur = head;
-        int idx = 0;
-
+        Integer[] nums = toArray(head);
+        final int N = nums.length;
         Deque<Integer> stack = new ArrayDeque<>();
+        int[] ans = new int[N];
 
-        while (cur != null) {
-            int value = cur.val;
-
-            while (!stack.isEmpty() && ans.get(stack.peek()) < value) {
-                ans.set(stack.pop(), value);
+        for (int i = 0; i < N; ++i) {
+            while (!stack.isEmpty() && nums[i] > nums[stack.peek()]) {
+                ans[stack.pop()] = nums[i];
             }
+            stack.push(i);
+        }
 
-            stack.push(idx);
-            ans.add(value);
+        return ans;
+    }
 
+    private Integer[] toArray(ListNode head) {
+        List<Integer> list = new ArrayList<>();
+        ListNode cur = head;
+        while (cur != null) {
+            list.add(cur.val);
             cur = cur.next;
-            ++idx;
         }
-
-        while (!stack.isEmpty()) {
-            ans.set(stack.pop(), 0);
-        }
-
-        return ans.stream().mapToInt(i -> i).toArray();
+        return list.toArray(new Integer[0]);
     }
 }

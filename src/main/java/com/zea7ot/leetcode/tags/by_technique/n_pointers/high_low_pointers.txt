@@ -38,6 +38,7 @@ References:
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 3   1577    https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/
 
+4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0076    https://leetcode.com/problems/minimum-window-substring/
 4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
 4   0395    https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/

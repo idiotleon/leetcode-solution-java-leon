@@ -5,6 +5,6 @@ References:
 
 ### Dynamic Programming
 ## By Technique
-# Offset
+# Left or Right Maximum Values
 
-4   0871    https://leetcode.com/problems/longest-arithmetic-subsequence/
+4   0042    https://leetcode.com/problems/trapping-rain-water/

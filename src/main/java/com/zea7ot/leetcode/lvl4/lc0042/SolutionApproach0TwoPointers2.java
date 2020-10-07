@@ -10,31 +10,33 @@
  */
 package com.zea7ot.leetcode.lvl4.lc0042;
 
-public class SolutionApproach0TwoPointers {
+public class SolutionApproach0TwoPointers2 {
     public int trap(int[] heights) {
         // sanity check
-        if (heights == null || heights.length == 0)
+        if (heights == null || heights.length < 2)
             return 0;
 
         final int N = heights.length;
 
         int lo = 0, hi = N - 1;
-        int loMax = Integer.MIN_VALUE, hiMax = Integer.MIN_VALUE;
-        int water = 0;
+        int ans = 0;
+        int loMax = 0, hiMax = 0;
 
-        while (lo <= hi) {
-            loMax = Math.max(loMax, heights[lo]);
-            hiMax = Math.max(hiMax, heights[hi]);
-
-            if (loMax < hiMax) {
-                water += loMax - heights[lo];
+        while (lo < hi)
+            if (heights[lo] < heights[hi]) {
+                if (heights[lo] >= loMax)
+                    loMax = heights[lo];
+                else
+                    ans += (loMax - heights[lo]);
                 ++lo;
             } else {
-                water += hiMax - heights[hi];
+                if (heights[hi] >= hiMax)
+                    hiMax = heights[hi];
+                else
+                    ans += (hiMax - heights[hi]);
                 --hi;
             }
-        }
 
-        return water;
+        return ans;
     }
 }
