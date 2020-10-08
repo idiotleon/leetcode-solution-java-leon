@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/remove-duplicate-letters/
  * 
- * Time Complexity: O(N)
- * Space Complexity: O(N)
+ * Time Complexity:     O(L)
+ * Space Complexity:    O(L)
  * 
  * to main a "strickly increasing" stack
  *  1. the contents are actual characters
@@ -12,34 +12,38 @@
  */
 package com.zea7ot.leetcode.lvl4.lc0316;
 
-public class SolutionApproachStack {
+public class SolutionApproach0MonoStack {
     public String removeDuplicateLetters(String s) {
-        // to count remaining character
+        // to count the remaining alphabet letters
         int[] remaining = new int[26];
-        // to count characters used in the string
+        // to count the alphabet letters used in the string
         int[] used = new int[26];
-        
+
+        final char[] CHS = s.toCharArray();
+
         final int L = s.length();
-        for(int i = 0; i < L; i++){
-            ++remaining[s.charAt(i) - 'a'];
+        for (int i = 0; i < L; ++i) {
+            ++remaining[CHS[i] - 'a'];
         }
-        
+
         StringBuilder builder = new StringBuilder();
-        for(int i = 0; i < L; i++){
-            if(used[s.charAt(i) - 'a'] == 0){
+        for (int i = 0; i < L; ++i) {
+            if (used[CHS[i] - 'a'] == 0) {
                 // to pop out duplicates and bigger characters existing in the builder
-                while(builder.length() > 0
-                      && builder.charAt(builder.length() - 1) >= s.charAt(i) 
-                      && remaining[builder.charAt(builder.length() - 1) - 'a'] > 0){
+                while (builder.length() > 0 && builder.charAt(builder.length() - 1) >= CHS[i]
+                        && remaining[builder.charAt(builder.length() - 1) - 'a'] > 0) {
+
                     --used[builder.charAt(builder.length() - 1) - 'a'];
                     builder.deleteCharAt(builder.length() - 1);
                 }
-                builder.append(s.charAt(i));
-                ++used[s.charAt(i) - 'a'];
+
+                builder.append(CHS[i]);
+                ++used[CHS[i] - 'a'];
             }
-            --remaining[s.charAt(i) - 'a'];
+
+            --remaining[CHS[i] - 'a'];
         }
-        
+
         return builder.toString();
     }
 }

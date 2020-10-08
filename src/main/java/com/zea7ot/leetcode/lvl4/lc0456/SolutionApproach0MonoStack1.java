@@ -8,22 +8,23 @@
  */
 package com.zea7ot.leetcode.lvl4.lc0456;
 
-public class SolutionApproachStack1 {
+public class SolutionApproach0MonoStack1 {
     public boolean find132pattern(int[] nums) {
         final int L = nums.length;
-        
+
         int j = L, kVal = Integer.MIN_VALUE;
-        
-        for(int i = L - 1; i >= 0; i--){
-            if(nums[i] < kVal) return true;
-            
-            while(j < L && nums[i] > nums[j]){
+
+        for (int i = L - 1; i >= 0; i--) {
+            if (nums[i] < kVal)
+                return true;
+
+            while (j < L && nums[i] > nums[j]) {
                 kVal = nums[j++];
             }
-            
+
             nums[--j] = nums[i];
         }
-        
+
         return false;
     }
 }

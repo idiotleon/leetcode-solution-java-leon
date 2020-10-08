@@ -4,6 +4,7 @@ References:
 
 
 ### Array
+## By Technique
 # Monotonic Queue
 
 4   0239    https://leetcode.com/problems/sliding-window-maximum/
