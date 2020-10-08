@@ -5,6 +5,9 @@
  * Space Complexity:    O(1)
  * 
  * to link the tail of the list with the head, making it a circle
+ * 
+ * References:
+ *  https://leetcode.com/problems/rotate-list/discuss/22751/Clean-Java-Solution-with-Brief-Explanation
  */
 package com.zea7ot.leetcode.lvl3.lc0061;
 
@@ -19,17 +22,20 @@ public class SolutionApproach0LinearScan {
         ListNode copyHead = head;
 
         int len = 1;
-        while (copyHead.next != null) {
+        while (copyHead.next != null) { // to stop right at the tail
             copyHead = copyHead.next;
             ++len;
         }
 
+        // to make the linked list circular
         copyHead.next = head;
 
-        for (int i = len - k % len; i > 1; --i)
+        for (int i = len - k % len; i > 1; --i) {
             head = head.next;
+        }
 
         copyHead = head.next;
+        // to break the circular linked list
         head.next = null;
 
         return copyHead;

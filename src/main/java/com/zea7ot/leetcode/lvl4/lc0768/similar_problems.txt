@@ -5,6 +5,23 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
+### Partition
+
+2   1375    https://leetcode.com/problems/bulb-switcher-iii/
+
+3   0763    https://leetcode.com/problems/partition-labels/description/
+
+4   0768    https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
+4   0769    https://leetcode.com/problems/max-chunks-to-make-sorted/
+
+
+
+### Greedy
+
+3   0055    https://leetcode.com/problems/jump-game/
+
+
+
 ### Stack:
 # Monotonic Stack:
 

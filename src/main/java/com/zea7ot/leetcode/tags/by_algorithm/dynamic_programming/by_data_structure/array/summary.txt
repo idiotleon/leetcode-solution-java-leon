@@ -23,6 +23,7 @@ References:
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
+4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1066    https://leetcode.com/problems/campus-bikes-ii/

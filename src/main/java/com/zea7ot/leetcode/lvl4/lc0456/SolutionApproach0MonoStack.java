@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/132-pattern/
  * 
- * Time Complexity: O(N), one pass
- * Space Complexity: O(N)
+ * Time Complexity:     O(N), one pass
+ * Space Complexity:    O(N)
  * 
  * to maintain a strickly decreasing stack:
  *  1. the elements are values, instead of indexes
@@ -20,26 +20,28 @@
  */
 package com.zea7ot.leetcode.lvl4.lc0456;
 
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
-public class SolutionApproachStack {
+public class SolutionApproach0MonoStack {
     public boolean find132pattern(int[] nums) {
+        final int N = nums.length;
         int s3 = Integer.MIN_VALUE;
-        Stack<Integer> stack = new Stack<Integer>();
-        for(int i = nums.length - 1; i >= 0; i--){
+        Deque<Integer> stack = new ArrayDeque<>();
+        for (int i = N - 1; i >= 0; --i) {
             // key step 2
-            if(nums[i] < s3) return true;
-            else{
-                while(!stack.isEmpty() && nums[i] > stack.peek()){
+            if (nums[i] < s3)
+                return true;
+            else {
+                while (!stack.isEmpty() && nums[i] > stack.peek()) {
                     // key step 1
                     s3 = stack.pop();
                 }
             }
 
-
             stack.push(nums[i]);
         }
-        
+
         return false;
     }
 }
