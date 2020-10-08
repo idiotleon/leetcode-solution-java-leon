@@ -1,0 +1,8 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Special String
+
+3   1405    https://leetcode.com/problems/longest-happy-string/

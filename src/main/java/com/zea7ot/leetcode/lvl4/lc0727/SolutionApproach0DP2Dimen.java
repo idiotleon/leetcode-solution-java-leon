@@ -13,8 +13,9 @@ public class SolutionApproach0DP2Dimen {
     public String minWindow(String S, String T) {
         final int LEN_T = T.length(), LEN_S = S.length();
         int[][] dp = new int[LEN_T + 1][LEN_S + 1];
-        for (int j = 0; j <= LEN_S; ++j)
+        for (int j = 0; j <= LEN_S; ++j) {
             dp[0][j] = j + 1;
+        }
 
         for (int i = 1; i <= LEN_T; ++i) {
             for (int j = 1; j <= LEN_S; ++j) {

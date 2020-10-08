@@ -1,22 +1,23 @@
 /**
  * https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
  * 
- * Time Complexity: O(N * lg(sum))
- * Space Complexity: O(1)
+ * Time Complexity:     O(N * lg(sum))
+ * Space Complexity:    O(1)
  * 
  * References:
- *  https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/discuss/463222/Java-Binary-search-O(nlogk)-k-is-the-max-value-in-arr
+ *  https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/discuss/463222/Java-Binary-search-O(nlogk)-k-is-the-max-value-in-nums
  */
 package com.zea7ot.leetcode.lvl4.lc1300;
 
 public class SolutionApproach0BinarySearch {
-    public int findBestValue(int[] arr, int target) {
+    public int findBestValue(int[] nums, int target) {
         // sanity check
-        if (arr == null || arr.length == 0)
+        if (nums == null || nums.length == 0)
             return 0;
 
-        int max = Integer.MIN_VALUE, sum = 0;
-        for (int num : arr) {
+        int max = Integer.MIN_VALUE;
+        int sum = 0;
+        for (int num : nums) {
             max = Math.max(max, num);
             sum += num;
         }
@@ -26,11 +27,11 @@ public class SolutionApproach0BinarySearch {
 
         int diff = target, prevValue = max;
 
-        int left = 0, right = max;
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
+        int lo = 0, hi = max;
+        while (lo < hi) {
+            int mid = lo + (hi - lo) / 2;
 
-            sum = getSum(arr, mid);
+            sum = getSum(nums, mid);
             int curDiff = Math.abs(target - sum);
             if (curDiff < diff) {
                 diff = curDiff;
@@ -39,10 +40,10 @@ public class SolutionApproach0BinarySearch {
                 prevValue = Math.min(prevValue, mid);
             }
 
-            if (target < sum) {
-                right = mid - 1;
+            if (sum < target) {
+                lo = mid + 1;
             } else {
-                left = mid + 1;
+                hi = mid;
             }
         }
 
