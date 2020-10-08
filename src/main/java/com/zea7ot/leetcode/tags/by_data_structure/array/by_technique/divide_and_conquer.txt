@@ -3,8 +3,7 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
-### Kadane's Algorithm
+### Array
+## By Technique
 
 2   0053    https://leetcode.com/problems/maximum-subarray/
-
-4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/

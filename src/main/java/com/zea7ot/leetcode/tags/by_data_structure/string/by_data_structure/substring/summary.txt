@@ -9,6 +9,7 @@ References:
 
 1   0058    https://leetcode.com/problems/length-of-last-word/
 
+2   0003    https://leetcode.com/problems/longest-substring-without-repeating-characters/
 2   0028    https://leetcode.com/problems/implement-strstr/
 2   0567    https://leetcode.com/problems/permutation-in-string/
 2   1071    https://leetcode.com/problems/greatest-common-divisor-of-strings/

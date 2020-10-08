@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/minimum-window-substring/
  * 
  * Time Complexity:     O(max(`LEN_S`, `LEN_T`) ~ O(`LEN_S`)
- * Space Complexity:    O(1)
+ * Space Complexity:    O(128) ~ O(1)
  */
 package com.zea7ot.leetcode.lvl4.lc0076;
 

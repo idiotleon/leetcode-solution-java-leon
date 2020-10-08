@@ -17,18 +17,18 @@ public class SolutionApproach0DP0Dimen {
             return 0;
 
         final int N = nums.length;
-        int maxNoDeletion = nums[0];
-        int maxWithDeletion = nums[0];
-        int max = nums[0];
+        int maxSumNoDeletion = nums[0];
+        int maxSumOneDeletion = 0;
+        int maxSum = nums[0];
 
         for (int i = 1; i < N; ++i) {
-            maxWithDeletion = Math.max(maxNoDeletion, maxWithDeletion + nums[i]);
-            maxNoDeletion = Math.max(maxNoDeletion + nums[i], nums[i]);
+            maxSumOneDeletion = Math.max(maxSumNoDeletion, maxSumOneDeletion + nums[i]);
+            maxSumNoDeletion = Math.max(maxSumNoDeletion + nums[i], nums[i]);
 
-            max = Math.max(max, maxNoDeletion);
-            max = Math.max(max, maxWithDeletion);
+            maxSum = Math.max(maxSum, maxSumNoDeletion);
+            maxSum = Math.max(maxSum, maxSumOneDeletion);
         }
 
-        return max;
+        return maxSum;
     }
 }

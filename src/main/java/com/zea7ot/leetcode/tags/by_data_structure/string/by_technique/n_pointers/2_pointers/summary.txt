@@ -12,7 +12,6 @@ References:
 1   0345    https://leetcode.com/problems/reverse-vowels-of-a-string/
 
 2   0003    https://leetcode.com/problems/longest-substring-without-repeating-characters/
-2   0003    https://leetcode.com/problems/longest-substring-without-repeating-characters/
 2   0408    https://leetcode.com/problems/valid-word-abbreviation/
 2   0409    https://leetcode.com/problems/longest-palindrome/
 2   0443    https://leetcode.com/problems/string-compression/
