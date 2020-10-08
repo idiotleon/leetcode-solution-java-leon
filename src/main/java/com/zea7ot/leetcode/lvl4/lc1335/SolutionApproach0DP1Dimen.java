@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
  * 
- * Time Complexity:     O((N ^ 2) * D)
+ * Time Complexity:     O((N ^ 2) * `D`)
  * Space Complexity:    O(N)
  * 
  * References:

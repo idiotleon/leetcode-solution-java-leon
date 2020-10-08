@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
  * 
- * Time Complexity:     O((N ^ 2) * D)
- * Space Complexity:    O(N * D)
+ * Time Complexity:     O((N ^ 2) * `D`)
+ * Space Complexity:    O(N * `D`)
  * 
  * References:
  *  https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/discuss/490278/Java-Recursion-and-Memoization
