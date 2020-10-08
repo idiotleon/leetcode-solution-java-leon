@@ -16,7 +16,7 @@ public class SolutionApproach0MonoStack {
     public int mctFromLeafValues(int[] nums) {
         int minCost = 0;
 
-        Deque<Integer> stack = new ArrayDeque<Integer>();
+        Deque<Integer> stack = new ArrayDeque<>();
         stack.push(Integer.MAX_VALUE);
 
         for (int num : nums) {
