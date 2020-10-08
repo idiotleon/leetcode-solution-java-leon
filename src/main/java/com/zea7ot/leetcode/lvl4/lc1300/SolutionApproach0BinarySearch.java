@@ -12,51 +12,53 @@ package com.zea7ot.leetcode.lvl4.lc1300;
 public class SolutionApproach0BinarySearch {
     public int findBestValue(int[] arr, int target) {
         // sanity check
-        if(arr == null || arr.length == 0) return 0;
+        if (arr == null || arr.length == 0)
+            return 0;
 
         int max = Integer.MIN_VALUE, sum = 0;
-        for(int num : arr){
+        for (int num : arr) {
             max = Math.max(max, num);
             sum += num;
         }
-        
-        if(target >= sum) return max;
-        
+
+        if (target >= sum)
+            return max;
+
         int diff = target, prevValue = max;
-        
+
         int left = 0, right = max;
-        while(left <= right){
+        while (left <= right) {
             int mid = left + (right - left) / 2;
-            
+
             sum = getSum(arr, mid);
             int curDiff = Math.abs(target - sum);
-            if(curDiff < diff){
+            if (curDiff < diff) {
                 diff = curDiff;
                 prevValue = mid;
-            }else if(curDiff == diff){
+            } else if (curDiff == diff) {
                 prevValue = Math.min(prevValue, mid);
             }
-            
-            if(target < sum){
-                right = mid - 1; 
-            }else{
+
+            if (target < sum) {
+                right = mid - 1;
+            } else {
                 left = mid + 1;
             }
         }
-        
+
         return prevValue;
     }
-    
-    private int getSum(int[] nums, int limit){
+
+    private int getSum(int[] nums, int limit) {
         int sum = 0;
-        for(int num : nums){
-            if(num > limit){
+        for (int num : nums) {
+            if (num > limit) {
                 sum += limit;
-            }else{
+            } else {
                 sum += num;
             }
         }
-        
+
         return sum;
     }
 }

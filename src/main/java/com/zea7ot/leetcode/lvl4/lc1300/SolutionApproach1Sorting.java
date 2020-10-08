@@ -14,22 +14,23 @@ import java.util.Arrays;
 public class SolutionApproach1Sorting {
     public int findBestValue(int[] arr, int target) {
         Arrays.sort(arr);
-        
+
         final int L = arr.length;
         int i = 0;
-        
-        while(i < L && target > arr[i] * (L - 1)){
+
+        while (i < L && target > arr[i] * (L - 1)) {
             target -= arr[i++];
         }
-        
-        if(i == L) return arr[L - 1];
-        
+
+        if (i == L)
+            return arr[L - 1];
+
         int ans = target / (L - i);
-        
-        if(target - ans * (L - i) > (ans + 1) * (L - i) - target){
+
+        if (target - ans * (L - i) > (ans + 1) * (L - i) - target) {
             ans++;
         }
-        
+
         return ans;
     }
 }
