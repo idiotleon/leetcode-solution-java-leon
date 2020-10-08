@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
  * 
- * Time Complexity: O(N * lg(N))
- * Space Complexity: O(1)
+ * Time Complexity:     O(N * lg(N))
+ * Space Complexity:    O(1)
  * 
  * References:
  *  https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/discuss/463306/JavaC%2B%2BPython-Just-Sort-O(nlogn)

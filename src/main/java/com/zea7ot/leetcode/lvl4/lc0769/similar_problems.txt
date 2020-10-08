@@ -44,7 +44,6 @@ References:
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   1081    https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/
 4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
-4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 
 5   0085    https://leetcode.com/problems/maximal-rectangle/

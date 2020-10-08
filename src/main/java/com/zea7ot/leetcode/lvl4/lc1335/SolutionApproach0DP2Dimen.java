@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
  * 
- * Time Complexity:     O((N ^ 2) * D)
- * Space Complexity:    O(N * D)
+ * Time Complexity:     O((N ^ 2) * `D`)
+ * Space Complexity:    O(N * `D`)
  * 
  * References:
  *  https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/discuss/490297/Java-Bottom-Up-DP
@@ -11,7 +11,7 @@
 package com.zea7ot.leetcode.lvl4.lc1335;
 
 public class SolutionApproach0DP2Dimen {
-    public int minDifficulty(int[] jobDifficulty, int D) {
+    public int minDifficulty(int[] jobDifficulty, final int D) {
         final int N = jobDifficulty.length;
         if (N < D)
             return -1;

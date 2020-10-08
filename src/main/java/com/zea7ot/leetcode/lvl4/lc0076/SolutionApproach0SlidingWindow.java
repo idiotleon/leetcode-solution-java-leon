@@ -17,26 +17,31 @@ public class SolutionApproach0SlidingWindow {
         final char[] CHS_S = s.toCharArray(), CHS_T = t.toCharArray();
 
         int[] freq = new int[128];
-        for (char ch : CHS_T)
+        for (char ch : CHS_T) {
             ++freq[ch];
+        }
 
         int lo = 0, hi = 0;
         int count = LEN_T;
 
         while (hi < LEN_S) {
-            if (freq[CHS_S[hi]]-- > 0)
+            if (freq[CHS_S[hi]]-- > 0) {
                 --count;
+            }
             // not logically necessary.
             // better readability if added.
             // if added, please take care of `++hi`.
             // if(count > 0) continue;
 
             while (count == 0) {
-                if (shortest.isEmpty() || (hi - lo + 1) < shortest.length())
+                if (shortest.isEmpty() || (hi - lo + 1) < shortest.length()) {
                     shortest = s.substring(lo, hi + 1);
+                }
 
-                if (++freq[CHS_S[lo]] > 0)
+                if (++freq[CHS_S[lo]] > 0) {
                     ++count;
+                }
+
                 ++lo;
             }
 

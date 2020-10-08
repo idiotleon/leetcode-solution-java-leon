@@ -16,39 +16,44 @@ public class SolutionApproach0Greedy1 {
     public String longestDiverseString(int a, int b, int c) {
         StringBuilder builder = new StringBuilder();
         Queue<Letter> maxHeap = new PriorityQueue<Letter>((x, y) -> Integer.compare(y.freq, x.freq));
-        if(a > 0) maxHeap.add(new Letter('a', a));
-        if(b > 0) maxHeap.add(new Letter('b', b));
-        if(c > 0) maxHeap.add(new Letter('c', c));
-        
-        while(!maxHeap.isEmpty()){
+        if (a > 0)
+            maxHeap.add(new Letter('a', a));
+        if (b > 0)
+            maxHeap.add(new Letter('b', b));
+        if (c > 0)
+            maxHeap.add(new Letter('c', c));
+
+        while (!maxHeap.isEmpty()) {
             final int L = builder.length();
             Letter most = maxHeap.poll();
             char ch = most.letter;
-            
-            if(L < 2 || (builder.charAt(L - 2) != ch || builder.charAt(L - 1) != ch)){
+
+            if (L < 2 || (builder.charAt(L - 2) != ch || builder.charAt(L - 1) != ch)) {
                 builder.append(ch);
                 --most.freq;
-            }else{
+            } else {
                 Letter secondMost = maxHeap.poll();
-                if(secondMost == null) continue;
+                if (secondMost == null)
+                    continue;
                 builder.append(secondMost.letter);
                 --secondMost.freq;
-                
-                if(secondMost.freq > 0) 
+
+                if (secondMost.freq > 0)
                     maxHeap.add(secondMost);
             }
-            
-            if(most.freq > 0) maxHeap.add(most);
+
+            if (most.freq > 0)
+                maxHeap.add(most);
         }
-        
+
         return builder.toString();
     }
-    
-    private class Letter{
+
+    private class Letter {
         protected char letter;
         protected int freq;
-        
-        protected Letter(char letter, int freq){
+
+        protected Letter(char letter, int freq) {
             this.letter = letter;
             this.freq = freq;
         }
