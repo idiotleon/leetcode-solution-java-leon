@@ -7,6 +7,7 @@ References:
 ### Binary Search
 # Trial and Error / Guess the Number
 
+3   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 3   0287    https://leetcode.com/problems/find-the-duplicate-number/
 3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 3   1201    https://leetcode.com/problems/ugly-number-iii/
