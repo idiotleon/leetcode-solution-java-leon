@@ -57,8 +57,8 @@ References:
 4   1062    https://leetcode.com/problems/longest-repeating-substring/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
-4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
 4   1177    https://leetcode.com/problems/can-make-palindrome-from-substring/
+4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 4   1246    https://leetcode.com/problems/palindrome-removal/
 4   1269    https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/

@@ -11,21 +11,28 @@
  */
 package com.zea7ot.leetcode.lvl2.lc0053;
 
-public class SolutionApproach0KadanesAlgorithm{
-    public int maxSubArray(int[] nums) {                       // [-2,1,-3,4,-1,2,1,-5,4]
+public class SolutionApproach0KadanesAlgorithm {
+    public int maxSubArray(int[] nums) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
+        if (nums == null || nums.length == 0)
+            return 0;
 
-        final int N = nums.length;
         int localMax = 0, globalMax = Integer.MIN_VALUE;
-        
-        for(int i = 0; i < N; i++){
-            localMax = Math.max(nums[i], localMax + nums[i]);   // localMax:    -2, -1, -3, 4, 3, 5, 6, 1, 5
-            if(localMax > globalMax){                           // true, true, false, true, false, true, true, false, false
-                globalMax = localMax;                           // globalMax:   -2, -1, -1, 4, 4, 5, 6, 6, 6
+
+        // not used
+        // final int N = nums.length;
+        for (int num : nums) {
+            localMax += num;
+
+            if (globalMax < localMax) {
+                globalMax = localMax;
+            }
+
+            if (localMax < 0) {
+                localMax = 0;
             }
         }
-        
+
         return globalMax;
     }
 }

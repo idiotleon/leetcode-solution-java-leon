@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/campus-bikes-ii/
  * 
- * Time Complexity:     O()
- * Space Complexity:    O()
+ * Time Complexity:     O(`1 << N_B` * `N_B`)
+ * Space Complexity:    O(`1 << N_B`)
  * 
  * References:
  *  https://leetcode.com/problems/campus-bikes-ii/discuss/311331/Java-DFS-with-memorization!Very-666

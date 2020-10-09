@@ -27,15 +27,15 @@ public class SolutionApproach0DP2Dimen {
         // deleted
         dp[0][1] = 0;
 
-        int max = nums[0];
+        int maxSum = nums[0];
         for (int i = 1; i < N; ++i) {
             dp[i][0] = Math.max(nums[i], dp[i - 1][0] + nums[i]);
             dp[i][1] = Math.max(nums[i], Math.max(dp[i - 1][1] + nums[i], dp[i - 1][0]));
 
-            max = Math.max(max, dp[i][0]);
-            max = Math.max(max, dp[i][1]);
+            maxSum = Math.max(maxSum, dp[i][0]);
+            maxSum = Math.max(maxSum, dp[i][1]);
         }
 
-        return max;
+        return maxSum;
     }
 }
