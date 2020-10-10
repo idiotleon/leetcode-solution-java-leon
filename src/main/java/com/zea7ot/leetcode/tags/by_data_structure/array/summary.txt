@@ -12,6 +12,7 @@ This file serves as the total list of problems related to Array, regardless of a
 1   0346    https://leetcode.com/problems/moving-average-from-data-stream/
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   0766    https://leetcode.com/problems/toeplitz-matrix/
+1   0830    https://leetcode.com/problems/positions-of-large-groups/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   1046    https://leetcode.com/problems/last-stone-weight/
 1   1470    https://leetcode.com/problems/shuffle-the-array/

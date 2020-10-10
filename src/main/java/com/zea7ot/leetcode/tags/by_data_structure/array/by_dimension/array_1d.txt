@@ -9,6 +9,7 @@ References:
 1   0088    https://leetcode.com/problems/merge-sorted-array/
 1   0346    https://leetcode.com/problems/moving-average-from-data-stream/
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
+1   0830    https://leetcode.com/problems/positions-of-large-groups/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   0997    https://leetcode.com/problems/find-the-town-judge/
 1   1046    https://leetcode.com/problems/last-stone-weight/
