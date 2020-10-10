@@ -6,6 +6,7 @@ References:
 ### Array
 # Greedy
 
+2   0485    https://leetcode.com/problems/max-consecutive-ones/
 2   0495    https://leetcode.com/problems/teemo-attacking/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   0896    https://leetcode.com/problems/monotonic-array/
