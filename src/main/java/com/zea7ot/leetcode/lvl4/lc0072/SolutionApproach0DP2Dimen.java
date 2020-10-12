@@ -17,12 +17,12 @@ public class SolutionApproach0DP2Dimen {
         final char[] CHS1 = word1.toCharArray(), CHS2 = word2.toCharArray();
 
         int[][] costs = new int[L1 + 1][L2 + 1];
-        for (int row = 0; row <= L1; ++row) {
-            costs[row][0] = row;
+        for (int idx1 = 0; idx1 <= L1; ++idx1) {
+            costs[idx1][0] = idx1;
         }
 
-        for (int col = 0; col <= L2; ++col) {
-            costs[0][col] = col;
+        for (int idx2 = 0; idx2 <= L2; ++idx2) {
+            costs[0][idx2] = idx2;
         }
 
         for (int idx1 = 0; idx1 < L1; ++idx1) {
