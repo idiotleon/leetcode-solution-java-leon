@@ -37,6 +37,8 @@ References:
 3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
 3   0494    https://leetcode.com/problems/target-sum/
 3   0562    https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/
+3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
+3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 3   0714    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
 3   0935    https://leetcode.com/problems/knight-dialer/

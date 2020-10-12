@@ -18,18 +18,19 @@ import java.util.Arrays;
 public class SolutionApproach0Greedy {
     public int findMinArrowShots(int[][] points) {
         // sanity check
-        if(points == null || points.length == 0) return 0;
-        
+        if (points == null || points.length == 0)
+            return 0;
+
         Arrays.sort(points, (a, b) -> Integer.compare(a[1], b[1]));
         int prevEnd = points[0][1];
         int ans = 1;
-        for(int[] point : points){
-            if(point[0] > prevEnd){
+        for (int[] point : points) {
+            if (point[0] > prevEnd) {
                 prevEnd = point[1];
                 ++ans;
             }
         }
-        
+
         return ans;
     }
 }

@@ -16,12 +16,12 @@ public class SolutionApproach0DP2Dimen {
         final char[] CHS2 = text2.toCharArray();
         int[][] dp = new int[L1 + 1][L2 + 1];
 
-        for (int i = 1; i <= L1; ++i) {
-            for (int j = 1; j <= L2; ++j) {
-                if (CHS1[j - 1] == CHS2[j - 1]) {
-                    dp[i][j] = dp[i - 1][j - 1] + 1;
+        for (int idx1 = 1; idx1 <= L1; ++idx1) {
+            for (int idx2 = 1; idx2 <= L2; ++idx2) {
+                if (CHS1[idx1 - 1] == CHS2[idx2 - 1]) {
+                    dp[idx1][idx2] = dp[idx1 - 1][idx2 - 1] + 1;
                 } else {
-                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+                    dp[idx1][idx2] = Math.max(dp[idx1 - 1][idx2], dp[idx1][idx2 - 1]);
                 }
             }
         }

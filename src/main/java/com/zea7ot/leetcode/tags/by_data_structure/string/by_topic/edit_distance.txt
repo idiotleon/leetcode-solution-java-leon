@@ -7,4 +7,6 @@ References:
 ## By Topic
 # Edit Distance
 
+3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
+
 4   0072    https://leetcode.com/problems/edit-distance/

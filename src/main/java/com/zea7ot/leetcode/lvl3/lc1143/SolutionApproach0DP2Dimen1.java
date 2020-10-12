@@ -1,11 +1,10 @@
 /**
  * https://leetcode.com/problems/longest-common-subsequence/
  * 
- * Time Complexity:     O(M * N)S
- * Space Complexity:    O(min(M, N))
+ * Time Complexity:     O(L1 * L2)
+ * Space Complexity:    O(min(L1, L2))
  * 
- * 
- * Tne may notice that we are only looking one row up in the solution above. 
+ * One may notice that we are only looking one row up in the solution above. 
  * So, we just need to store two rows.
  * 
  * References:

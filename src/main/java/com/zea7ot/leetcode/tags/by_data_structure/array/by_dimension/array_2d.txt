@@ -46,6 +46,7 @@ References:
 3   0764    https://leetcode.com/problems/largest-plus-sign/
 3   0802    https://leetcode.com/problems/find-eventual-safe-states/
 3   0835    https://leetcode.com/problems/image-overlap/
+3   0840    https://leetcode.com/problems/magic-squares-in-grid/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
 3   0935    https://leetcode.com/problems/knight-dialer/
@@ -55,6 +56,7 @@ References:
 3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
 3   1057    https://leetcode.com/problems/campus-bikes/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
+3   1138    https://leetcode.com/problems/alphabet-board-path/
 3   1139    https://leetcode.com/problems/largest-1-bordered-square/
 3   1198    https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/
