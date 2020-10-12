@@ -16,16 +16,16 @@ public class SolutionApproach0DP2Dimen {
         final char[] CHS_S = s.toCharArray();
         final char[] CHS_T = t.toCharArray();
         int[][] dp = new int[LEN_S + 1][LEN_T + 1];
-        for (int i = 0; i < LEN_S; ++i) {
-            dp[i][0] = 1;
+        for (int idxS = 0; idxS < LEN_S; ++idxS) {
+            dp[idxS][0] = 1;
         }
 
-        for (int i = 1; i <= LEN_S; ++i) {
-            for (int j = 1; j <= LEN_T; ++j) {
-                if (CHS_S[i - 1] == CHS_T[j - 1]) {
-                    dp[i][j] = dp[i - 1][j] + dp[i - 1][j - 1];
+        for (int idxS = 1; idxS <= LEN_S; ++idxS) {
+            for (int idxT = 1; idxT <= LEN_T; ++idxT) {
+                if (CHS_S[idxS - 1] == CHS_T[idxT - 1]) {
+                    dp[idxS][idxT] = dp[idxS - 1][idxT] + dp[idxS - 1][idxT - 1];
                 } else {
-                    dp[i][j] = dp[i - 1][j];
+                    dp[idxS][idxT] = dp[idxS - 1][idxT];
                 }
             }
         }

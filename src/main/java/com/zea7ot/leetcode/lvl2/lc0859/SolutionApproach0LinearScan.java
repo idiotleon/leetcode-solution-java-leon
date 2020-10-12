@@ -16,6 +16,7 @@ import java.util.Set;
 
 public class SolutionApproach0LinearScan {
     public boolean buddyStrings(String A, String B) {
+        // sanity check
         if (A == null || B == null || A.length() != B.length())
             return false;
 
