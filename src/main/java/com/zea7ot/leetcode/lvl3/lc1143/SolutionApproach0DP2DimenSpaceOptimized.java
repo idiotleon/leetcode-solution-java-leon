@@ -12,7 +12,7 @@
  */
 package com.zea7ot.leetcode.lvl3.lc1143;
 
-public class SolutionApproach0DP2Dimen1 {
+public class SolutionApproach0DP2DimenSpaceOptimized {
     public int longestCommonSubsequence(String text1, String text2) {
         final int L1 = text1.length(), L2 = text2.length();
         if (L1 < L2)

@@ -31,5 +31,6 @@ References:
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
 4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
+4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 
 5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
