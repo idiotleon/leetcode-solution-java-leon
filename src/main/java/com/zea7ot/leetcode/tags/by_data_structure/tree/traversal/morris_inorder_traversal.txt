@@ -24,3 +24,9 @@ References:
 4   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
 
 5   0099    https://leetcode.com/problems/recover-binary-search-tree/
+
+
+
+## Morris Preorder Traversal
+
+2   1602    https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/
