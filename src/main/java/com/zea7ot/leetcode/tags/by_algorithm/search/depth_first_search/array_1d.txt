@@ -23,6 +23,7 @@ References:
 3   0494    https://leetcode.com/problems/target-sum/
 3   0582    https://leetcode.com/problems/kill-process/
 3   1048    https://leetcode.com/problems/longest-string-chain/
+3   1129    https://leetcode.com/problems/shortest-path-with-alternating-colors/
 3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 3   1273    https://leetcode.com/problems/delete-tree-nodes/
 3   1306    https://leetcode.com/problems/jump-game-iii/

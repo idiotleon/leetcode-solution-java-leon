@@ -141,6 +141,7 @@ References:
 3   1087    https://leetcode.com/problems/brace-expansion/
 3   1104    https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/
 3   1123    https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
+3   1129    https://leetcode.com/problems/shortest-path-with-alternating-colors/
 3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
 3   1215    https://leetcode.com/problems/stepping-numbers/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/
