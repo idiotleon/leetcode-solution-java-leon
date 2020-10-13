@@ -11,48 +11,54 @@ package com.zea7ot.leetcode.lvl4.lc1092;
 
 public class SolutionApproach1DFSMemo {
     public String shortestCommonSupersequence(String str1, String str2) {
-        final int M = str1.length(), N = str2.length();
-        String[][] memo = new String[M][N];
-        char[] chs1 = str1.toCharArray(), chs2 = str2.toCharArray();
+        final int L1 = str1.length(), L2 = str2.length();
+        String[][] memo = new String[L1][L2];
+        final char[] CHS1 = str1.toCharArray(), CHS2 = str2.toCharArray();
 
-        char[] chs = dfs(chs1, 0, chs2, 0, memo).toCharArray();
-        if (chs.length == 0)
+        final char[] CHS = dfs(0, CHS1, 0, CHS2, memo).toCharArray();
+        final int L = CHS.length;
+        if (L == 0)
             return str1 + str2;
 
         StringBuilder builder = new StringBuilder();
-        int i = 0, j = 0;
-        for (char ch : chs) {
-            while (chs1[i] != ch)
-                builder.append(chs1[i++]);
-            while (chs2[j] != ch)
-                builder.append(chs2[j++]);
-            builder.append(ch);
-            i++;
-            j++;
+        int idx1 = 0, idx2 = 0;
+        for (final char CH : CHS) {
+            while (idx1 < L1 && CHS1[idx1] != CH) {
+                builder.append(CHS1[idx1++]);
+            }
+
+            while (idx2 < L2 && CHS2[idx2] != CH) {
+                builder.append(CHS2[idx2++]);
+            }
+
+            builder.append(CH);
+            ++idx1;
+            ++idx2;
         }
 
-        builder.append(str1.substring(i));
-        builder.append(str2.substring(j));
+        builder.append(str1.substring(idx1));
+        builder.append(str2.substring(idx2));
 
         return builder.toString();
     }
 
-    private String dfs(char[] chs1, int i, char[] chs2, int j, String[][] memo) {
-        if (i >= chs1.length || j >= chs2.length)
+    private String dfs(int idx1, final char[] CHS1, int idx2, final char[] CHS2, String[][] memo) {
+        final int L1 = CHS1.length, L2 = CHS2.length;
+        if (idx1 >= L1 || idx2 >= L2)
             return "";
 
-        if (memo[i][j] != null)
-            return memo[i][j];
+        if (memo[idx1][idx2] != null)
+            return memo[idx1][idx2];
 
-        if (chs1[i] == chs2[j]) {
-            memo[i][j] = chs1[i] + dfs(chs1, i + 1, chs2, j + 1, memo);
+        if (CHS1[idx1] == CHS2[idx2]) {
+            memo[idx1][idx2] = CHS1[idx1] + dfs(idx1 + 1, CHS1, idx2 + 1, CHS2, memo);
         } else {
-            String left = dfs(chs1, i + 1, chs2, j, memo);
-            String right = dfs(chs1, i, chs2, j + 1, memo);
+            String left = dfs(idx1 + 1, CHS1, idx2, CHS2, memo);
+            String right = dfs(idx1, CHS1, idx2 + 1, CHS2, memo);
 
-            memo[i][j] = (left.length() > right.length()) ? left : right;
+            memo[idx1][idx2] = (left.length() > right.length()) ? left : right;
         }
 
-        return memo[i][j];
+        return memo[idx1][idx2];
     }
 }

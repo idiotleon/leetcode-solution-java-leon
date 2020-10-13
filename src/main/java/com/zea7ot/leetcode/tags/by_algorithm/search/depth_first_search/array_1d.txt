@@ -25,6 +25,7 @@ References:
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 3   1273    https://leetcode.com/problems/delete-tree-nodes/
+3   1306    https://leetcode.com/problems/jump-game-iii/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 
 4   0312    https://leetcode.com/problems/burst-balloons/

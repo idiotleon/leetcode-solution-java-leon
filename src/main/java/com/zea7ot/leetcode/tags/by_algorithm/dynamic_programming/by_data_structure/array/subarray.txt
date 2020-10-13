@@ -4,6 +4,7 @@ References:
     
 
 ### Dynamic Programming
+## Array
 # Subarray
 
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
