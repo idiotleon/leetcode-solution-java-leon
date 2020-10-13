@@ -18,15 +18,15 @@ public class SolutionApproach0DP2Dimen {
             return 0;
 
         final int L = S.length();
-        char[] chs = S.toCharArray();
+        final char[] CHS = S.toCharArray();
         int[][] dp = new int[L + 1][L + 1];
 
         int longest = 0;
-        for (int i = 1; i <= L; ++i) {
-            for (int j = i + 1; j <= L; ++j) {
-                if (chs[i - 1] == chs[j - 1]) {
-                    dp[i][j] = dp[i - 1][j - 1] + 1;
-                    longest = Math.max(longest, dp[i][j]);
+        for (int lo = 1; lo <= L; ++lo) {
+            for (int hi = lo + 1; hi <= L; ++hi) {
+                if (CHS[lo - 1] == CHS[hi - 1]) {
+                    dp[lo][hi] = dp[lo - 1][hi - 1] + 1;
+                    longest = Math.max(longest, dp[lo][hi]);
                 }
             }
         }
