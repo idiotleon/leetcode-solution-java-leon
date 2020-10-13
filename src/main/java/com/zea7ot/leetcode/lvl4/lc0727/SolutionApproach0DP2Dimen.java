@@ -13,27 +13,28 @@ public class SolutionApproach0DP2Dimen {
     public String minWindow(String S, String T) {
         final int LEN_T = T.length(), LEN_S = S.length();
         int[][] dp = new int[LEN_T + 1][LEN_S + 1];
-        for (int j = 0; j <= LEN_S; ++j) {
-            dp[0][j] = j + 1;
+        for (int idxS = 0; idxS <= LEN_S; ++idxS) {
+            dp[0][idxS] = idxS + 1;
         }
 
-        for (int i = 1; i <= LEN_T; ++i) {
-            for (int j = 1; j <= LEN_S; ++j) {
-                if (T.charAt(i - 1) == S.charAt(j - 1)) {
-                    dp[i][j] = dp[i - 1][j - 1];
+        for (int idxT = 1; idxT <= LEN_T; ++idxT) {
+            for (int idxS = 1; idxS <= LEN_S; ++idxS) {
+                if (T.charAt(idxT - 1) == S.charAt(idxS - 1)) {
+                    dp[idxT][idxS] = dp[idxT - 1][idxS - 1];
                 } else {
-                    dp[i][j] = dp[i][j - 1];
+                    dp[idxT][idxS] = dp[idxT][idxS - 1];
                 }
             }
         }
 
         int start = 0, len = LEN_S + 1;
-        for (int j = 1; j <= LEN_S; ++j) {
-            if (dp[LEN_T][j] == 0)
+        for (int idxS = 1; idxS <= LEN_S; ++idxS) {
+            if (dp[LEN_T][idxS] == 0)
                 continue;
-            if (j - dp[LEN_T][j] + 1 < len) {
-                start = dp[LEN_T][j] - 1;
-                len = j - dp[LEN_T][j] + 1;
+
+            if (idxS - dp[LEN_T][idxS] + 1 < len) {
+                start = dp[LEN_T][idxS] - 1;
+                len = idxS - dp[LEN_T][idxS] + 1;
             }
         }
 

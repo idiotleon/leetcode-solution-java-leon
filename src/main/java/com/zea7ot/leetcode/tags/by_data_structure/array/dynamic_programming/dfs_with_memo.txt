@@ -1,0 +1,9 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Dynamic Programming
+## Depth First Search with Memoization
+
+4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/

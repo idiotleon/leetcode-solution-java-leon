@@ -17,42 +17,45 @@ import java.util.Arrays;
 
 public class SolutionApproach0DP2Dimen {
     public String shortestCommonSupersequence(String str1, String str2) {
-        char[] chs1 = str1.toCharArray(), chs2 = str2.toCharArray();
-        char[] chs = longestCommonSubsequence(chs1, chs2).toCharArray();
+        final int L1 = str1.length(), L2 = str2.length();
+        final char[] CHS1 = str1.toCharArray(), CHS2 = str2.toCharArray();
+        final char[] CHS = longestCommonSubsequence(CHS1, CHS2).toCharArray();
 
-        int i = 0, j = 0;
+        int idx1 = 0, idx2 = 0;
         StringBuilder builder = new StringBuilder();
 
-        for (char ch : chs) {
-            while (chs1[i] != ch) {
-                builder.append(chs1[i++]);
+        for (final char CH : CHS) {
+            while (idx1 < L1 && CHS1[idx1] != CH) {
+                builder.append(CHS1[idx1++]);
             }
 
-            while (chs2[j] != ch) {
-                builder.append(chs2[j++]);
+            while (idx2 < L2 && CHS2[idx2] != CH) {
+                builder.append(CHS2[idx2++]);
             }
 
-            builder.append(ch);
-            ++i;
-            ++j;
+            builder.append(CH);
+            ++idx1;
+            ++idx2;
         }
 
-        builder.append(str1.substring(i)).append(str2.substring(j));
+        builder.append(str1.substring(idx1)).append(str2.substring(idx2));
         return builder.toString();
     }
 
-    private String longestCommonSubsequence(char[] chs1, char[] chs2) {
-        final int L1 = chs1.length, L2 = chs2.length;
+    private String longestCommonSubsequence(final char[] CHS1, final char[] CHS2) {
+        final int L1 = CHS1.length, L2 = CHS2.length;
         String[][] dp = new String[L1 + 1][L2 + 1];
-        for (String[] row : dp)
+        for (String[] row : dp) {
             Arrays.fill(row, "");
+        }
 
-        for (int i = 1; i <= L1; i++) {
-            for (int j = 1; j <= L2; j++) {
-                if (chs1[i - 1] == chs2[j - 1]) {
-                    dp[i][j] = dp[i - 1][j - 1] + chs1[i - 1];
+        for (int idx1 = 1; idx1 <= L1; ++idx1) {
+            for (int idx2 = 1; idx2 <= L2; ++idx2) {
+                if (CHS1[idx1 - 1] == CHS2[idx2 - 1]) {
+                    dp[idx1][idx2] = dp[idx1 - 1][idx2 - 1] + CHS1[idx1 - 1];
                 } else {
-                    dp[i][j] = dp[i - 1][j].length() > dp[i][j - 1].length() ? dp[i - 1][j] : dp[i][j - 1];
+                    dp[idx1][idx2] = dp[idx1 - 1][idx2].length() > dp[idx1][idx2 - 1].length() ? dp[idx1 - 1][idx2]
+                            : dp[idx1][idx2 - 1];
                 }
             }
         }
