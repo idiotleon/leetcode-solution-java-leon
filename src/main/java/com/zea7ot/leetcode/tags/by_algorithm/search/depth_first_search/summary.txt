@@ -150,6 +150,7 @@ References:
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1261    https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/
 3   1273    https://leetcode.com/problems/delete-tree-nodes/
+3   1306    https://leetcode.com/problems/jump-game-iii/
 3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 3   1339    https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/

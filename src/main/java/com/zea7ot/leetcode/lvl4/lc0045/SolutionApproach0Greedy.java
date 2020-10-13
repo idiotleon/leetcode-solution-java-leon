@@ -24,7 +24,7 @@ public class SolutionApproach0Greedy {
             maxRange[i] = i + nums[i];
         }
 
-        int steps = 0;
+        int jumps = 0;
         // the previous max jump
         int left = 0;
         // the max it can jump
@@ -34,13 +34,13 @@ public class SolutionApproach0Greedy {
             if (i > end)
                 return -1;
             if (i > left) { // this means, a jump is required
-                ++steps;
+                ++jumps;
                 left = end;
             }
 
             end = Math.max(end, maxRange[i]);
         }
 
-        return steps;
+        return jumps;
     }
 }

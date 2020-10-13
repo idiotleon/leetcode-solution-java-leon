@@ -8,9 +8,9 @@ package com.zea7ot.leetcode.lvl3.lc0055;
 
 public class SolutionApproach0Greedy {
     public boolean canJump(int[] nums) {
-        // sanity check
-        if (nums == null || nums.length == 0)
-            return false;
+        // sanity check, not necessary
+        // if (nums == null || nums.length == 0)
+        // return false;
 
         final int N = nums.length;
         int furthest = 0;

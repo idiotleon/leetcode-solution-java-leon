@@ -119,6 +119,7 @@ References:
 3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
+3   1306    https://leetcode.com/problems/jump-game-iii/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 3   1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/
 3   1577    https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/
