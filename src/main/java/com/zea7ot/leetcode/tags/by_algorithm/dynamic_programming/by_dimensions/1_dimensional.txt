@@ -60,6 +60,7 @@ References:
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   0918    https://leetcode.com/problems/maximum-sum-circular-subarray/
@@ -67,6 +68,7 @@ References:
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
+4   1062    https://leetcode.com/problems/longest-repeating-substring/
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1125    https://leetcode.com/problems/smallest-sufficient-team/
