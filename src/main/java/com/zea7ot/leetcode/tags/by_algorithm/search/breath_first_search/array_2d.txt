@@ -26,6 +26,7 @@ References:
 4   0505    https://leetcode.com/problems/the-maze-ii/
 4   0815    https://leetcode.com/problems/bus-routes/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
+4   1293    https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
