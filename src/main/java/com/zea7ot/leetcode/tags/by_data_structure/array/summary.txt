@@ -257,6 +257,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1258    https://leetcode.com/problems/synonymous-sentences/
 4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
+4   1293    https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/

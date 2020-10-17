@@ -74,6 +74,7 @@ References:
 4   1246    https://leetcode.com/problems/palindrome-removal/
 4   1258    https://leetcode.com/problems/synonymous-sentences/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
+4   1293    https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 4   1439    https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/
@@ -88,6 +89,7 @@ References:
 5   0691    https://leetcode.com/problems/stickers-to-spell-word/
 5   0774    https://leetcode.com/problems/minimize-max-distance-to-gas-station/
 5   0786    https://leetcode.com/problems/k-th-smallest-prime-fraction/
+5   0847    https://leetcode.com/problems/shortest-path-visiting-all-nodes/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
 
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/

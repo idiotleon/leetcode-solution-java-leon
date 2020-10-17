@@ -20,6 +20,7 @@ References:
 3   0841    https://leetcode.com/problems/keys-and-rooms/
 3   0886    https://leetcode.com/problems/possible-bipartition/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
+3   1129    https://leetcode.com/problems/shortest-path-with-alternating-colors/
 3   1245    https://leetcode.com/problems/tree-diameter/
 3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 3   1391    https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/
@@ -32,5 +33,6 @@ References:
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   0399    https://leetcode.com/problems/evaluate-division/
 4   1258    https://leetcode.com/problems/synonymous-sentences/
+4   1298    https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/
 
 5   1203    https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
