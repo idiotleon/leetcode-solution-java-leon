@@ -8,3 +8,5 @@ References:
 # State Reducing
 
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
+
+5   0847    https://leetcode.com/problems/shortest-path-visiting-all-nodes/

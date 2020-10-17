@@ -73,6 +73,7 @@ References:
 5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
+5   0847    https://leetcode.com/problems/shortest-path-visiting-all-nodes/
 5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
 
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
