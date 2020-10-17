@@ -27,6 +27,7 @@ References:
 3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
+4   0187    https://leetcode.com/problems/repeated-dna-sequences/
 4   0220    https://leetcode.com/problems/contains-duplicate-iii/
 4   0264    https://leetcode.com/problems/ugly-number-ii/
 4   0305    https://leetcode.com/problems/number-of-islands-ii/

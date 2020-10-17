@@ -35,6 +35,7 @@ References:
 
 4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
+4   0187    https://leetcode.com/problems/repeated-dna-sequences/
 4   0249    https://leetcode.com/problems/group-shifted-strings/
 4   0399    https://leetcode.com/problems/evaluate-division/
 4   0442    https://leetcode.com/problems/find-all-duplicates-in-an-array/
