@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/integer-to-english-words/
  * 
- * Time Complexity:     O(L)
+ * Time Complexity:     O()
  * Space Complexity:    O()
  * 
  * References:
@@ -9,29 +9,29 @@
  */
 package com.zea7ot.leetcode.lvl5.lc0273;
 
-public class SolutionApproach0ParsingString {
+public class SolutionApproach0ParsingString1 {
     private final String[] LESS_THAN_20 = { "", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine",
             "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen",
             "Nineteen" };
     private final String[] TENS = { "", "Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty",
             "Ninety" };
-    private final String[] THOUSANDS = { "Billion", "Million", "Thousand", "" };
-    private final int[] RADIX = { (int) 1e9, (int) 1e6, (int) 1e3, 1 };
+    private final String[] THOUSANDS = { "", "Thousand", "Million", "Billion" };
 
     public String numberToWords(int num) {
         if (num == 0)
             return "Zero";
 
-        StringBuilder builder = new StringBuilder();
+        int i = 0;
+        String words = "";
 
-        for (int i = 0; i < RADIX.length; ++i) {
-            if (num / RADIX[i] == 0)
-                continue;
-            builder.append(helper(num / RADIX[i])).append(THOUSANDS[i]).append(" ");
-            num %= RADIX[i];
+        while (num > 0) {
+            if (num % 1000 != 0)
+                words = helper(num % 1000) + THOUSANDS[i] + " " + words;
+            num /= 1000;
+            i++;
         }
 
-        return builder.toString().trim();
+        return words.trim();
     }
 
     private String helper(int num) {

@@ -4,7 +4,7 @@
  * Time Complexity:     ?O(N * N * N)
  * Space Complexity:    O(N * N)
  * 
- * `dp[i][k]`, the maximum score with s[i : j] balloons bursted
+ * `dp[i][k]`, the maximum score with s[i : j] balloons burst
  * 
  * References:
  *  http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-312-burst-balloons/
