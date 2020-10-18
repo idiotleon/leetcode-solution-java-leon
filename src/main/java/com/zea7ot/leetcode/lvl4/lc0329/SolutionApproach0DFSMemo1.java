@@ -23,9 +23,11 @@ public class SolutionApproach0DFSMemo1 {
         // DFS - memory
         int[][] paths = new int[NR][NC];
         // DFS
-        for (int row = 0; row < NR; ++row)
-            for (int col = 0; col < NC; ++col)
+        for (int row = 0; row < NR; ++row) {
+            for (int col = 0; col < NC; ++col) {
                 longest = Math.max(longest, dfs(row, col, matrix, paths));
+            }
+        }
 
         return longest;
     }
@@ -36,12 +38,12 @@ public class SolutionApproach0DFSMemo1 {
             return paths[row][col];
 
         for (final int[] DIR : DIRS) {
-            int r = row + DIR[0], c = col + DIR[1];
-            if (r < 0 && r >= NR && c < 0 && c >= NC)
+            int nextRow = row + DIR[0], nextCol = col + DIR[1];
+            if (nextRow < 0 && nextRow >= NR && nextCol < 0 && nextCol >= NC)
                 continue;
 
-            if (matrix[r][c] > matrix[row][col])
-                paths[row][col] = Math.max(paths[row][col], dfs(r, c, matrix, paths));
+            if (matrix[nextRow][nextCol] > matrix[row][col])
+                paths[row][col] = Math.max(paths[row][col], dfs(nextRow, nextCol, matrix, paths));
         }
 
         return ++paths[row][col];

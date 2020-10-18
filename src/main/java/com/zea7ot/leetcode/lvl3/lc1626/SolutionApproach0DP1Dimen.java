@@ -16,12 +16,8 @@ public class SolutionApproach0DP1Dimen {
             players[i] = new Player(ages[i], scores[i]);
         }
 
-        Arrays.sort(players, (a, b) -> {
-            if (a.age != b.age)
-                return Integer.compare(a.age, b.age);
-            else
-                return Integer.compare(a.score, b.score);
-        });
+        Arrays.sort(players,
+                (a, b) -> a.age == b.age ? Integer.compare(a.score, b.score) : Integer.compare(a.age, b.age));
 
         int maxScore = -1;
         int[] dp = new int[N];

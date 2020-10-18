@@ -15,5 +15,6 @@ References:
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 
 4   0839    https://leetcode.com/problems/similar-string-groups/
+4   1345    https://leetcode.com/problems/jump-game-iv/
 
 5   0691    https://leetcode.com/problems/stickers-to-spell-word/

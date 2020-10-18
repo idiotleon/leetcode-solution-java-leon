@@ -3,11 +3,11 @@
  * https://leetcode.com/problems/jump-game-iii/
  * 
  * Time Complexity:     O(N)
- * Space Complexity:    O(H)
+ * Space Complexity:    O(N)
  */
 package com.zea7ot.leetcode.lvl3.lc1306;
 
-public class SolutionApproach0DFSRecursive {
+public class SolutionApproach0DFS {
     public boolean canReach(int[] nums, int start) {
         final int N = nums.length;
         boolean[] visited = new boolean[N];

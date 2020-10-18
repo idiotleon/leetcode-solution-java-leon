@@ -7,5 +7,5 @@ References:
 ## Depth First Search with Memoization
 
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
+4   1340    https://leetcode.com/problems/jump-game-v/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
-s

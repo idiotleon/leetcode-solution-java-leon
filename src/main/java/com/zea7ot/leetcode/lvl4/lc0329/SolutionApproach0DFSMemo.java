@@ -1,5 +1,5 @@
 /**
- * https://leetcode.com/problems/longest-increasing-paths-in-a-matrix/
+ * https://leetcode.com/problems/longest-increasing-memo-in-a-matrix/
  * 
  * a top-down approach
  * 
@@ -22,31 +22,35 @@ public class SolutionApproach0DFSMemo {
         final int NR = matrix.length, NC = matrix[0].length;
 
         int longest = 0;
-        int[][] paths = new int[NR][NC];
-        for (int[] path : paths)
-            Arrays.fill(path, -1);
+        int[][] memo = new int[NR][NC];
+        for (int[] row : memo) {
+            Arrays.fill(row, -1);
+        }
 
-        for (int row = 0; row < NR; ++row)
-            for (int col = 0; col < NC; ++col)
-                longest = Math.max(longest, dfs(row, col, matrix, paths));
+        for (int row = 0; row < NR; ++row) {
+            for (int col = 0; col < NC; ++col) {
+                longest = Math.max(longest, dfs(row, col, matrix, memo));
+            }
+        }
 
         return longest;
     }
 
-    private int dfs(int row, int col, int[][] matrix, int[][] paths) {
+    private int dfs(int row, int col, int[][] matrix, int[][] memo) {
         final int NR = matrix.length, NC = matrix[0].length;
 
-        if (paths[row][col] != -1)
-            return paths[row][col];
+        if (memo[row][col] != -1)
+            return memo[row][col];
 
-        paths[row][col] = 1;
+        memo[row][col] = 1;
         for (int d = 0; d < 4; ++d) {
-            int r = row + DIRS[d], c = col + DIRS[d + 1];
-            if (r < 0 || r >= NR || c < 0 || c >= NC || matrix[r][c] <= matrix[row][col])
+            int nextRow = row + DIRS[d], nextCol = col + DIRS[d + 1];
+            if (nextRow < 0 || nextRow >= NR || nextCol < 0 || nextCol >= NC
+                    || matrix[nextRow][nextCol] <= matrix[row][col])
                 continue;
-            paths[row][col] = Math.max(paths[row][col], 1 + dfs(r, c, matrix, paths));
+            memo[row][col] = Math.max(memo[row][col], 1 + dfs(nextRow, nextCol, matrix, memo));
         }
 
-        return paths[row][col];
+        return memo[row][col];
     }
 }

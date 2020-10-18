@@ -12,7 +12,7 @@ import java.util.Deque;
 import java.util.HashSet;
 import java.util.Set;
 
-public class SolutionApproach0BFS {
+public class SolutionApproach0BFS1 {
     public boolean canReach(int[] nums, int start) {
         final int N = nums.length;
 
@@ -20,25 +20,21 @@ public class SolutionApproach0BFS {
         queue.add(start);
 
         final Set<Integer> SEEN = new HashSet<>();
-        SEEN.add(start);
 
         while (!queue.isEmpty()) {
             final int SIZE = queue.size();
 
             for (int sz = 0; sz < SIZE; ++sz) {
-                int curIdx = queue.poll();
-                if (nums[curIdx] == 0)
+                int idx = queue.poll();
+                if (idx < 0 || idx >= N)
+                    continue;
+                if (!SEEN.add(idx))
+                    continue;
+                if (nums[idx] == 0)
                     return true;
 
-                int loNextIdx = curIdx - nums[curIdx];
-                if (loNextIdx >= 0 && loNextIdx < N && SEEN.add(loNextIdx)) {
-                    queue.offer(loNextIdx);
-                }
-
-                int hiNextIdx = curIdx + nums[curIdx];
-                if (hiNextIdx >= 0 && hiNextIdx < N && SEEN.add(hiNextIdx)) {
-                    queue.offer(hiNextIdx);
-                }
+                queue.add(idx + nums[idx]);
+                queue.add(idx - nums[idx]);
             }
         }
 

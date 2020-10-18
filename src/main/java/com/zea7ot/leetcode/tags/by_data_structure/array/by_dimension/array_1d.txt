@@ -179,6 +179,8 @@ References:
 4   1246    https://leetcode.com/problems/palindrome-removal/
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
+4   1340    https://leetcode.com/problems/jump-game-v/
+4   1345    https://leetcode.com/problems/jump-game-iv/
 4   1425    https://leetcode.com/problems/constrained-subsequence-sum/
 4   1438    https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
 4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/

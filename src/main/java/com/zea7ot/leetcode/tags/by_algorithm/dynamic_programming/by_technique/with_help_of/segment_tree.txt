@@ -5,8 +5,6 @@ References:
 
 ### Dynamic Programming
 ## with help of 
-# Monotonic Stacks
+# Segment Tree
 
-4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
-4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 4   1340    https://leetcode.com/problems/jump-game-v/
