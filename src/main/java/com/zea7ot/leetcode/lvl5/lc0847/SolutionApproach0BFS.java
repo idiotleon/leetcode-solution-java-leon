@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/shortest-path-visiting-all-nodes/
  * 
  * Time Complexity:     O(N * (2 ^ N))
- * Space Complexity:    O()
+ * Space Complexity:    O(N * (2 ^ N))
  * 
  * References:
  *  https://leetcode.com/problems/shortest-path-visiting-all-nodes/discuss/135809/Fast-BFS-Solution-(46ms)-Clear-Detailed-Explanation-Included/237938

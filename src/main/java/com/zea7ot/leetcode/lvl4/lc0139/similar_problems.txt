@@ -25,6 +25,7 @@ References:
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
 3   1048    https://leetcode.com/problems/longest-string-chain/
+3   1626    https://leetcode.com/problems/best-team-with-no-conflicts/
 
 4   0139    https://leetcode.com/problems/word-break/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/

@@ -11,3 +11,4 @@ References:
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 
 4   0139    https://leetcode.com/problems/word-break/
+4   0854    https://leetcode.com/problems/k-similar-strings/

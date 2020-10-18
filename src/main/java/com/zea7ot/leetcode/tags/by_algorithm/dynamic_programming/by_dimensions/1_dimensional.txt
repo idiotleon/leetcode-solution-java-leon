@@ -47,6 +47,7 @@ References:
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
 3   1498   https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
+3   1626    https://leetcode.com/problems/best-team-with-no-conflicts/
 
 4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0084    https://leetcode.com/problems/largest-rectangle-in-histogram/

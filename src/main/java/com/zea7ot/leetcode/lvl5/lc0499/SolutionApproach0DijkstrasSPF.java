@@ -26,7 +26,7 @@ public class SolutionApproach0DijkstrasSPF {
         final int NR = maze.length, NC = maze[0].length;
         boolean[][] visited = new boolean[NR][NC];
 
-        PriorityQueue<Position> minHeap = new PriorityQueue<Position>((a,
+        PriorityQueue<Position> minHeap = new PriorityQueue<>((a,
                 b) -> a.distance == b.distance ? a.moves.compareTo(b.moves) : Integer.compare(a.distance, b.distance));
         minHeap.offer(new Position(ball[0], ball[1], 0, ""));
 
