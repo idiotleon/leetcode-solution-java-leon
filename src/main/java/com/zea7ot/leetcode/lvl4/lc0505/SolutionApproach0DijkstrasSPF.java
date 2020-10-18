@@ -43,19 +43,19 @@ public class SolutionApproach0DijkstrasSPF {
 
             int distance = distances[cur.row][cur.col];
             for (int d = 0; d < 4; ++d) {
-                int r = cur.row, c = cur.col;
+                int nextRow = cur.row, nextCol = cur.col;
                 int steps = 0;
 
-                while (isValid(r + DIRS[d], c + DIRS[d + 1], maze)) {
-                    r += DIRS[d];
-                    c += DIRS[d + 1];
+                while (isValid(nextRow + DIRS[d], nextCol + DIRS[d + 1], maze)) {
+                    nextRow += DIRS[d];
+                    nextCol += DIRS[d + 1];
                     ++steps;
                 }
 
                 // to update with the shortest distance
-                if (distances[r][c] > distance + steps) {
-                    distances[r][c] = distance + steps;
-                    minHeap.add(new Position(r, c, distances[r][c]));
+                if (distances[nextRow][nextCol] > distance + steps) {
+                    distances[nextRow][nextCol] = distance + steps;
+                    minHeap.add(new Position(nextRow, nextCol, distances[nextRow][nextCol]));
                 }
             }
         }

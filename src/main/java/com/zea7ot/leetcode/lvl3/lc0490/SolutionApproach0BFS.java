@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/the-maze/
  * 
  * Time Complexity:     O(NR * NC)
- * Space Complexity:    ?O(NR * NC)
+ * Space Complexity:    O(NR * NC)
  */
 package com.zea7ot.leetcode.lvl3.lc0490;
 
@@ -22,29 +22,37 @@ public class SolutionApproach0BFS {
         final int NR = maze.length, NC = maze[0].length;
 
         // BFS
-        Deque<int[]> queue = new ArrayDeque<int[]>();
+        Deque<int[]> queue = new ArrayDeque<>();
         queue.add(start);
 
         boolean[][] visited = new boolean[NR][NC];
         visited[start[0]][start[1]] = true;
 
         while (!queue.isEmpty()) {
-            int[] cur = queue.poll();
-            if (Arrays.equals(cur, destination))
-                return true;
+            final int SIZE = queue.size();
 
-            for (int d = 0; d < 4; ++d) {
-                int r = cur[0], c = cur[1];
+            for (int sz = 0; sz < SIZE; ++sz) {
+                int[] cur = queue.poll();
+                if (Arrays.equals(cur, destination))
+                    return true;
 
-                while (isValid(r + DIRS[d], c + DIRS[d + 1], maze)) {
-                    r += DIRS[d];
-                    c += DIRS[d + 1];
+                int curRow = cur[0];
+                int curCol = cur[1];
+
+                for (int d = 0; d < 4; ++d) {
+                    int nextRow = curRow, nextCol = curCol;
+
+                    while (isValid(nextRow + DIRS[d], nextCol + DIRS[d + 1], maze)) {
+                        nextRow += DIRS[d];
+                        nextCol += DIRS[d + 1];
+                    }
+
+                    if (visited[nextRow][nextCol])
+                        continue;
+
+                    queue.add(new int[] { nextRow, nextCol });
+                    visited[nextRow][nextCol] = true;
                 }
-
-                if (visited[r][c])
-                    continue;
-                visited[r][c] = true;
-                queue.add(new int[] { r, c });
             }
         }
 

@@ -33,6 +33,7 @@ References:
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1139    https://leetcode.com/problems/largest-1-bordered-square/
 3   1498   https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
+3   1626    https://leetcode.com/problems/best-team-with-no-conflicts/
 
 4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0120    https://leetcode.com/problems/triangle/
