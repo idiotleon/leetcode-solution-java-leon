@@ -10,30 +10,31 @@
 package com.zea7ot.leetcode.lvl4.lc0188;
 
 public class SolutionApproach0DP2Dimen {
-    public int maxProfit(int k, int[] prices) {
+    public int maxProfit(final int K, int[] prices) {
         final int N = prices.length;
-        if (N <= 1)
-            return 0;
+        // covered below
+        // if(N <= 1) return 0;
 
-        if (k >= N / 2) {
+        if (K >= N / 2) {
             int maxProfit = 0;
-            for (int i = 1; i < N; i++) {
-                if (prices[i - 1] < prices[i]) {
-                    maxProfit += prices[i] - prices[i - 1];
+            for (int day = 1; day < N; ++day) {
+                if (prices[day - 1] < prices[day]) {
+                    maxProfit += prices[day] - prices[day - 1];
                 }
             }
             return maxProfit;
         }
 
-        int[][] dp = new int[k + 1][N];
-        for (int i = 1; i <= k; ++i) {
-            int localMax = dp[i - 1][0] - prices[0];
-            for (int j = 1; j < N; ++j) {
-                dp[i][j] = Math.max(dp[i][j - 1], prices[j] + localMax);
-                localMax = Math.max(localMax, dp[i - 1][j] - prices[j]);
+        int[][] dp = new int[K + 1][N];
+        for (int k = 1; k <= K; ++k) {
+            int localMax = dp[k - 1][0] - prices[0];
+
+            for (int day = 1; day < N; ++day) {
+                dp[k][day] = Math.max(dp[k][day - 1], localMax + prices[day]);
+                localMax = Math.max(localMax, dp[k - 1][day] - prices[day]);
             }
         }
 
-        return dp[k][N - 1];
+        return dp[K][N - 1];
     }
 }
