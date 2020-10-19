@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/largest-sum-of-averages/
  * 
- * Time Complexity:     O()
+ * Time Complexity:     O(`K` * (`N` ^ 2))
  * Space Complexity:    O()
  * 
  * References:
@@ -12,7 +12,8 @@ package com.zea7ot.leetcode.lvl4.lc0813;
 public class SolutionApproach0DFSMemo {
     public double largestSumOfAverages(int[] nums, int K) {
         final int N = nums.length;
-        double[][] memo = new double[N + 1][N + 1];
+
+        double[][] memo = new double[N + 1][K + 1];
         double sum = 0;
         for (int i = 0; i < N; ++i) {
             sum += nums[i];
@@ -22,16 +23,19 @@ public class SolutionApproach0DFSMemo {
         return dfs(N, K, nums, memo);
     }
 
-    private double dfs(int len, int k, int[] nums, double[][] memo) {
-        if (memo[len][k] > 0)
-            return memo[len][k];
-        if (len < k)
+    private double dfs(final int N, final int K, int[] nums, double[][] memo) {
+        if (memo[N][K] > 0)
+            return memo[N][K];
+
+        if (N < K)
             return 0;
+
         double sum = 0;
-        for (int i = len - 1; i > 0; --i) {
+        for (int i = N - 1; i > 0; --i) {
             sum += nums[i];
-            memo[len][k] = Math.max(memo[len][k], dfs(i, k - 1, nums, memo) + sum / (len - i));
+            memo[N][K] = Math.max(memo[N][K], dfs(i, K - 1, nums, memo) + sum / (N - i));
         }
-        return memo[len][k];
+
+        return memo[N][K];
     }
 }

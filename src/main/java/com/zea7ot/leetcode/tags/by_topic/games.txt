@@ -16,4 +16,12 @@ References:
 
 ## Stone Game
 
+
+
 ## Zuma Game
+
+
+
+## Snake Game
+
+4   1210    https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/
