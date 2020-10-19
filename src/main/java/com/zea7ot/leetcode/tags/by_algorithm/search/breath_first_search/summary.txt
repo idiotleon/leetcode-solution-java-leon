@@ -77,6 +77,7 @@ References:
 3   1261    https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/
 3   1291    https://leetcode.com/problems/sequential-digits/
 3   1306    https://leetcode.com/problems/jump-game-iii/
+3   1311    https://leetcode.com/problems/get-watched-videos-by-your-friends/
 3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 3   1391    https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/
@@ -99,6 +100,8 @@ References:
 4   0854    https://leetcode.com/problems/k-similar-strings/
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
+4   1210    https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/
+4   1248    https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/
 4   1258    https://leetcode.com/problems/synonymous-sentences/
 4   1293    https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
 4   1298    https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/

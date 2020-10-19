@@ -1,0 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+### Greedy
+## Minimum Spanning Tree
+# Kruskal's Algorithm
+
+4   1135    https://leetcode.com/problems/connecting-cities-with-minimum-cost/
+

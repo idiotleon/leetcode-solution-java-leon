@@ -25,6 +25,7 @@ References:
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
 3   1129    https://leetcode.com/problems/shortest-path-with-alternating-colors/
 3   1245    https://leetcode.com/problems/tree-diameter/
+3   1311    https://leetcode.com/problems/get-watched-videos-by-your-friends/
 3   1319    https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 3   1391    https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/
@@ -37,6 +38,7 @@ References:
 4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
 4   0815    https://leetcode.com/problems/bus-routes/
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+4   1135    https://leetcode.com/problems/connecting-cities-with-minimum-cost/
 4   1258    https://leetcode.com/problems/synonymous-sentences/
 4   1298    https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/
 4   1361    https://leetcode.com/problems/validate-binary-tree-nodes/

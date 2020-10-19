@@ -92,6 +92,8 @@ References:
 4   0980    https://leetcode.com/problems/unique-paths-iii/
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
+4   1210    https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/
+4   1248    https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/
 4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
 4   1293    https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/

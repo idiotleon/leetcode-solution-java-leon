@@ -15,9 +15,9 @@ import java.util.Arrays;
 
 public class SolutionApproach0DP2Dimen {
     public int splitArray(int[] nums, int m) {
-        // sanity check
-        if (nums == null || nums.length == 0)
-            return 0;
+        // sanity check, not required
+        // if (nums == null || nums.length == 0)
+        // return 0;
 
         final int N = nums.length;
         int[][] dp = new int[N + 1][m + 1];
@@ -32,14 +32,13 @@ public class SolutionApproach0DP2Dimen {
             PREFIX_SUMS[i + 1] = PREFIX_SUMS[i] + nums[i];
         }
 
-        // 1-indexed, instead of 0-indexed
-        for (int i = 1; i <= N; ++i) {
+        for (int hi = 1; hi <= N; ++hi) {
             // the actual split(s), starting with 1
-            for (int j = 1; j <= m; ++j) {
-                // [0, k], [k, i]: where to split the array
-                for (int k = 0; k < i; ++k) {
-                    int subarraySum = PREFIX_SUMS[i] - PREFIX_SUMS[k];
-                    dp[i][j] = Math.min(dp[i][j], Math.max(dp[k][j - 1], subarraySum));
+            for (int partition = 1; partition <= m; ++partition) {
+                // [0, lo], [lo, lo]: where to split the array
+                for (int lo = 0; lo < hi; ++lo) {
+                    int subarraySum = PREFIX_SUMS[hi] - PREFIX_SUMS[lo];
+                    dp[hi][partition] = Math.min(dp[hi][partition], Math.max(dp[lo][partition - 1], subarraySum));
                 }
             }
         }
