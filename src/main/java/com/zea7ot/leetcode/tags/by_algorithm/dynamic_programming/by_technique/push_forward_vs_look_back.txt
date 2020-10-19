@@ -1,0 +1,18 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Dynamic Programming
+## By Technique
+# Push Forward or Look Back
+
+
+
+# Push Forward
+
+
+
+# Look Back
+
+4   0410    https://leetcode.com/problems/split-array-largest-sum/
