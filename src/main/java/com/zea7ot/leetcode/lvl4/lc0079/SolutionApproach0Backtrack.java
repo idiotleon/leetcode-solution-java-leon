@@ -37,6 +37,7 @@ public class SolutionApproach0Backtrack {
         final int L = word.length();
         if (idx == L)
             return true;
+
         final int NR = board.length, NC = board[0].length;
         if (row < 0 || col < 0 || row >= NR || col >= NC || board[row][col] != word.charAt(idx))
             return false;
@@ -46,8 +47,8 @@ public class SolutionApproach0Backtrack {
         boolean exists = false;
 
         for (int d = 0; d < 4; ++d) {
-            int r = row + DIRS[d], c = col + DIRS[d + 1];
-            exists = exists || backtrack(r, c, idx + 1, word, board);
+            int nextRow = row + DIRS[d], nextCol = col + DIRS[d + 1];
+            exists = exists || backtrack(nextRow, nextCol, idx + 1, word, board);
         }
 
         board[row][col] ^= MOD;

@@ -12,18 +12,18 @@ package com.zea7ot.leetcode.lvl3.lc0277;
 public class SolutionApproach0DFS {
     public int findCelebrity(int n) {
         int candidate = 0;
-        for(int i = 0; i < n; i++) 
-            if(FakeAPI.knows(candidate, i)) 
+        for (int i = 0; i < n; ++i)
+            if (FakeAPI.knows(candidate, i))
                 candidate = i;
-        
-        for(int i = 0; i < candidate; i++) 
-            if(FakeAPI.knows(candidate, i)) 
+
+        for (int i = 0; i < candidate; ++i)
+            if (FakeAPI.knows(candidate, i))
                 return -1;
-        
-        for(int i = 0; i < n; ++i)
-            if(!FakeAPI.knows(i, candidate))
+
+        for (int i = 0; i < n; ++i)
+            if (!FakeAPI.knows(i, candidate))
                 return -1;
-        
+
         return candidate;
     }
 }

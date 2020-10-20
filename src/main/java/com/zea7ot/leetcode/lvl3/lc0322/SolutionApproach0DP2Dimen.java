@@ -11,5 +11,5 @@
 package com.zea7ot.leetcode.lvl3.lc0322;
 
 public class SolutionApproach0DP2Dimen {
-    
+
 }

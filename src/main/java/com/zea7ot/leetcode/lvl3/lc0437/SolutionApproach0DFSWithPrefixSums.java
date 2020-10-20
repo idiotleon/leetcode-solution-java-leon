@@ -14,13 +14,13 @@ import java.util.Map;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0PrefixSum {
+public class SolutionApproach0DFSWithPrefixSums {
     public int pathSum(TreeNode root, int sum) {
         // sanity check
         if (root == null)
             return 0;
 
-        Map<Integer, Integer> prefixSums = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> prefixSums = new HashMap<>();
         prefixSums.put(0, 1);
         return dfs(0, sum, root, prefixSums);
     }

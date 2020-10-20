@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/minimum-size-subarray-sum/
  * 
- * Time Complexity:     O(N)
+ * Time Complexity:     O(`N`)
  * Space Complexity:    O(1)
  * 
  * References:

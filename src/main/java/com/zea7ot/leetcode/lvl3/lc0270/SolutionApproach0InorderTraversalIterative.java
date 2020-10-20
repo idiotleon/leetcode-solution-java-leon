@@ -21,7 +21,7 @@ public class SolutionApproach0InorderTraversalIterative {
         double prevVariance = Double.MAX_VALUE;
         int ans = root.val;
 
-        Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
         pushLeft(stack, root);
 
         while (!stack.isEmpty()) {

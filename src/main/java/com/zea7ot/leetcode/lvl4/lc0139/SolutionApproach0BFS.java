@@ -22,23 +22,25 @@ public class SolutionApproach0BFS {
 
         Deque<String> queue = new ArrayDeque<>();
         queue.offer(str);
+
         final Set<String> SEEN = new HashSet<>();
+        SEEN.add(str);
 
         while (!queue.isEmpty()) {
             final int SIZE = queue.size();
 
-            for (int i = 0; i < SIZE; ++i) {
+            for (int sz = 0; sz < SIZE; ++sz) {
                 String cur = queue.poll();
                 final int LEN = cur.length();
 
-                for (int j = 1; j <= LEN; ++j) {
-                    if (!WORD_SET.contains(cur.substring(0, j)))
+                for (int idx = 1; idx <= LEN; ++idx) {
+                    if (!WORD_SET.contains(cur.substring(0, idx)))
                         continue;
 
-                    if (j == LEN)
+                    if (idx == LEN)
                         return true;
 
-                    String sub = cur.substring(j);
+                    String sub = cur.substring(idx);
                     if (!SEEN.add(sub))
                         continue;
                     queue.offer(sub);

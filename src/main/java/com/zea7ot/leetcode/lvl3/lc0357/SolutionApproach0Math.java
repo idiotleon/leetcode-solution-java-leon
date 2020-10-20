@@ -12,15 +12,16 @@ package com.zea7ot.leetcode.lvl3.lc0357;
 
 public class SolutionApproach0Math {
     public int countNumbersWithUniqueDigits(int n) {
-        if(n == 0) return 1;
-        
+        if (n == 0)
+            return 1;
+
         int ans = 10, uniqueDigits = 9, availableNumber = 9;
-        while(n-- > 1 && availableNumber > 0){
+        while (n-- > 1 && availableNumber > 0) {
             uniqueDigits = uniqueDigits * availableNumber;
             ans += uniqueDigits;
-            availableNumber--;
+            --availableNumber;
         }
-        
+
         return ans;
     }
 }

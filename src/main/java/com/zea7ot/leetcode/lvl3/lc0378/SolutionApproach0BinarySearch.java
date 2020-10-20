@@ -12,30 +12,34 @@ package com.zea7ot.leetcode.lvl3.lc0378;
 public class SolutionApproach0BinarySearch {
     public int kthSmallest(int[][] matrix, int k) {
         // sanity check
-        if(matrix == null || matrix.length == 0 || matrix[0].length == 0 || k <= 0) return -1;
-        
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0 || k <= 0)
+            return -1;
+
         final int NR = matrix.length, NC = matrix[0].length;
-        
+
         int left = matrix[0][0], right = matrix[NR - 1][NC - 1];
-        while(left <= right){
+        while (left <= right) {
             int mid = left + (right - left) / 2;
             int count = getCount(matrix, mid);
-            if(k > count) left = mid + 1;
-            else right = mid - 1;
+            if (k > count)
+                left = mid + 1;
+            else
+                right = mid - 1;
         }
-        
+
         return left;
     }
-    
-    private int getCount(int[][] matrix, int target){
+
+    private int getCount(int[][] matrix, int target) {
         final int NR = matrix.length, NC = matrix[0].length;
-        
+
         int count = 0;
-        for(int row = 0, col = NC - 1; row < NR; row++){
-            while(col >= 0 && matrix[row][col] > target) col--;
+        for (int row = 0, col = NC - 1; row < NR; row++) {
+            while (col >= 0 && matrix[row][col] > target)
+                col--;
             count += (col + 1);
         }
-        
+
         return count;
     }
 }

@@ -11,27 +11,33 @@ package com.zea7ot.leetcode.lvl4.lc0081;
 public class SolutionApproach0BinarySearch1 {
     public boolean search(int[] nums, int target) {
         // sanity check
-        if(nums == null || nums.length == 0) return false;
-        
-        int left = 0, right = nums.length - 1;
-        
-        while(left <= right){
-            int mid = left + (right - left) / 2;
-            
-            if(nums[mid] == target) return true;
-            
-            if(nums[mid] == nums[left]) left++;
-            else if(nums[mid] > nums[left]){
-                if(nums[mid] > target && nums[left] <= target){
-                    right = mid;
-                }else left = mid + 1;
-            }else{
-                if(nums[mid] < target && nums[right] >= target){
-                    left = mid + 1;
-                }else right = mid;
+        if (nums == null || nums.length == 0)
+            return false;
+
+        final int N = nums.length;
+        int lo = 0, hi = N - 1;
+
+        while (lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
+
+            if (nums[mid] == target)
+                return true;
+
+            if (nums[mid] == nums[lo])
+                lo++;
+            else if (nums[mid] > nums[lo]) {
+                if (nums[mid] > target && nums[lo] <= target) {
+                    hi = mid;
+                } else
+                    lo = mid + 1;
+            } else {
+                if (nums[mid] < target && nums[hi] >= target) {
+                    lo = mid + 1;
+                } else
+                    hi = mid;
             }
         }
-        
+
         return false;
     }
 }

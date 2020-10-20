@@ -7,11 +7,9 @@
  * double-end BFS
  * 
  * References:
- *  https://leetcode.com/problems/word-ladder/discuss/40711/Two-end-BFS-in-Java-31ms./119588
- *  https://leetcode.com/problems/word-ladder/discuss/40711/Two-end-BFS-in-Java-31ms.
  *  https://www.youtube.com/watch?v=vWPCm69MSfs
  *  http://zxi.mytechroad.com/blog/searching/127-word-ladder/
- *  http://theoryofprogramming.com/2018/01/21/bidirectional-search/
+ *  https://leetcode.com/problems/word-ladder/discuss/40711/Two-end-BFS-in-Java-31ms.
  */
 package com.zea7ot.leetcode.lvl4.lc0127;
 
@@ -21,19 +19,22 @@ import java.util.Set;
 
 public class SolutionApproach0BFS {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        final Set<String> WORD_SET = new HashSet<String>(wordList);
-        // sanity check
+        final Set<String> WORD_SET = new HashSet<>(wordList);
         if (!WORD_SET.contains(endWord))
             return 0;
 
-        Set<String> beginSet = new HashSet<String>();
+        Set<String> beginSet = new HashSet<>();
         beginSet.add(beginWord);
-        Set<String> endSet = new HashSet<String>();
+        Set<String> endSet = new HashSet<>();
         endSet.add(endWord);
 
         int steps = 1;
         while (!beginSet.isEmpty() && !endSet.isEmpty()) {
-            Set<String> nextSet = new HashSet<String>();
+            if (beginSet.size() > endSet.size()) {
+                swap(beginSet, endSet);
+            }
+
+            Set<String> nextSet = new HashSet<>();
             for (String word : beginSet) {
                 final int LEN = word.length();
                 final char[] CHS = word.toCharArray();
@@ -41,10 +42,8 @@ public class SolutionApproach0BFS {
                 for (int i = 0; i < LEN; ++i) {
                     final char HOLD = CHS[i];
                     for (char ch = 'a'; ch <= 'z'; ++ch) {
-
                         CHS[i] = ch;
-                        String newWord = String.valueOf(CHS);
-
+                        String newWord = new String(CHS);
                         if (endSet.contains(newWord))
                             return steps + 1;
 
@@ -53,15 +52,21 @@ public class SolutionApproach0BFS {
                         nextSet.add(newWord);
                         WORD_SET.remove(newWord);
                     }
+
                     CHS[i] = HOLD;
                 }
             }
 
-            beginSet = nextSet.size() < endSet.size() ? nextSet : endSet;
-            endSet = beginSet == nextSet ? endSet : nextSet;
+            beginSet = nextSet;
             ++steps;
         }
 
         return 0;
+    }
+
+    private void swap(Set<String> set1, Set<String> set2) {
+        Set<String> temp = set1;
+        set1 = set2;
+        set2 = temp;
     }
 }

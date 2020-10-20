@@ -9,7 +9,7 @@ package com.zea7ot.leetcode.lvl3.lc0253;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
-public class SolutionApproach0Greedy {
+public class SolutionApproach0GreedyMinPQ {
     public int minMeetingRooms(int[][] intervals) {
         // sanity check
         if (intervals == null || intervals.length == 0)

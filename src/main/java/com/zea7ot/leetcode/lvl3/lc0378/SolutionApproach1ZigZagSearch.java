@@ -10,27 +10,33 @@
 package com.zea7ot.leetcode.lvl3.lc0378;
 
 public class SolutionApproach1ZigZagSearch {
-    public int kthSmallest(int[][] matrix, int k){        
+    public int kthSmallest(int[][] matrix, int k) {
         // sanity check
-        if(matrix == null || matrix.length == 0 || matrix[0].length == 0 || k <= 0) return -1;
-        
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0 || k <= 0)
+            return -1;
+
         final int NR = matrix.length, NC = matrix[0].length;
 
         // to start from the upper-right corner
         int row = 0, col = NC - 1;
-        while(true){
+        while (true) {
             int countLessAndEqual = 0, countLessThan = 0;
-            for(int i = 0, j = NC - 1, p = NC - 1; i < NR; i++){
-                while(j >= 0 && matrix[i][j] > matrix[row][col]) j--;   // pointer j to count "countLessAndEqual"
+            for (int i = 0, j = NC - 1, p = NC - 1; i < NR; i++) {
+                while (j >= 0 && matrix[i][j] > matrix[row][col])
+                    j--; // pointer j to count "countLessAndEqual"
                 countLessAndEqual += (j + 1);
 
-                while(p >= 0 && matrix[i][p] >= matrix[row][col]) p--;  // pointer p to count "countLessThan"
+                while (p >= 0 && matrix[i][p] >= matrix[row][col])
+                    p--; // pointer p to count "countLessThan"
                 countLessThan += (p + 1);
             }
 
-            if(countLessAndEqual < k) row++;    // candidate is too small, so should increase it
-            else if(countLessThan >= k) col--;  // candidate is too large, so should decrease it
-            else return matrix[row][col];       // candidate is equal to the kth smallest element
+            if (countLessAndEqual < k)
+                row++; // candidate is too small, so should increase it
+            else if (countLessThan >= k)
+                col--; // candidate is too large, so should decrease it
+            else
+                return matrix[row][col]; // candidate is equal to the kth smallest element
         }
     }
 }

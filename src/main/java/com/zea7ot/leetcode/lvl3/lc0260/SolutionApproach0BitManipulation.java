@@ -13,19 +13,21 @@ public class SolutionApproach0BitManipulation {
     public int[] singleNumber(int[] nums) {
         // 1st pass
         int diff = 0;
-        for(int num : nums) diff ^= num;
-        
+        for (int num : nums)
+            diff ^= num;
+
         // to get its last set bit
         diff &= -diff;
-        
+
         // 2nd pass
-        int[] ans = {0, 0};
-        for(int num : nums){
-            if((num & diff) == 0){
+        int[] ans = { 0, 0 };
+        for (int num : nums) {
+            if ((num & diff) == 0) {
                 ans[0] ^= num;
-            }else ans[1] ^= num;
+            } else
+                ans[1] ^= num;
         }
-        
+
         return ans;
     }
 }

@@ -9,44 +9,46 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0207;
 
-import java.util.LinkedList;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class SolutionApproach0TopologicalSortBFS1 {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int[][] matrix = new int[numCourses][numCourses];
         int[] indegree = new int[numCourses];
-        
-        for(int[] prerequisite : prerequisites){
+
+        for (int[] prerequisite : prerequisites) {
             int ready = prerequisite[0];
             int pre = prerequisite[1];
-            
-            if(matrix[pre][ready] == 0){
+
+            if (matrix[pre][ready] == 0) {
                 ++indegree[ready];
             }
-            
+
             matrix[pre][ready] = 1;
         }
-        
-        LinkedList<Integer> queue = new LinkedList<Integer>();
-        for(int i = 0; i < numCourses; i++){
-            if(indegree[i] == 0){
+
+        Deque<Integer> queue = new ArrayDeque<>();
+        for (int i = 0; i < numCourses; ++i) {
+            if (indegree[i] == 0) {
                 queue.add(i);
             }
         }
-        
+
         int count = 0;
-        while(!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             int course = queue.removeFirst();
-            count++;
-            for(int i = 0; i < numCourses; i++){
-                if(matrix[course][i] == 1){
-                    if(--indegree[i] == 0){
+            ++count;
+
+            for (int i = 0; i < numCourses; ++i) {
+                if (matrix[course][i] == 1) {
+                    if (--indegree[i] == 0) {
                         queue.add(i);
                     }
                 }
             }
         }
-        
+
         return numCourses == count;
     }
 }

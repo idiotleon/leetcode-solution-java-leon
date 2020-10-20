@@ -24,7 +24,7 @@ public class SolutionApproach0DFS {
         return dfs(0, s, SEEN, WORD_SET);
     }
 
-    private boolean dfs(int idx, String str, Set<Integer> SEEN, final Set<String> WORD_SET) {
+    private boolean dfs(int idx, String str, final Set<Integer> SEEN, final Set<String> WORD_SET) {
         final int LEN = str.length();
 
         if (idx == LEN)
@@ -38,6 +38,7 @@ public class SolutionApproach0DFS {
 
             if (!WORD_SET.contains(sub))
                 continue;
+                
             if (dfs(i, str, SEEN, WORD_SET))
                 return true;
         }

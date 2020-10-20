@@ -9,6 +9,7 @@ This file serves as the total list of problems related to Array, regardless of a
 # Summary
 
 1   0088    https://leetcode.com/problems/merge-sorted-array/
+1   0189    https://leetcode.com/problems/rotate-array/
 1   0346    https://leetcode.com/problems/moving-average-from-data-stream/
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   0766    https://leetcode.com/problems/toeplitz-matrix/
@@ -95,6 +96,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0304    https://leetcode.com/problems/range-sum-query-2d-immutable/
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 3   0338    https://leetcode.com/problems/counting-bits/
+3   0348    https://leetcode.com/problems/design-tic-tac-toe/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
 3   0373    https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
@@ -183,6 +185,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0120    https://leetcode.com/problems/triangle/
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0135    https://leetcode.com/problems/candy/
+4   0154    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0179    https://leetcode.com/problems/largest-number/
 4   0218    https://leetcode.com/problems/the-skyline-problem/

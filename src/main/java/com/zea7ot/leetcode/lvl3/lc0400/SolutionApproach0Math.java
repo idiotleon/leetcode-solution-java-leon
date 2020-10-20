@@ -14,14 +14,14 @@ public class SolutionApproach0Math {
         int len = 1;
         long count = 9;
         int start = 1;
-        
-        while(n > len * count){
+
+        while (n > len * count) {
             n -= len * count;
             len += 1;
             count *= 10;
             start *= 10;
         }
-        
+
         start += (n - 1) / len;
         String str = Integer.toString(start);
         return Character.getNumericValue(str.charAt((n - 1) % len));

@@ -14,38 +14,38 @@ package com.zea7ot.leetcode.lvl3.lc0323;
 public class SolutionApproach0UnionFindOptimal {
     public int countComponents(int n, int[][] edges) {
         int[] nums = new int[n];
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             nums[i] = i;
         }
         // union by size(rank)
         int[] size = new int[n];
-        
+
         int count = n;
-        for(int[] edge : edges){
+        for (int[] edge : edges) {
             int rootx = find(nums, edge[0]);
             int rooty = find(nums, edge[1]);
-            
-            if(rootx != rooty){
-                if(size[rootx] < size[rooty]){
+
+            if (rootx != rooty) {
+                if (size[rootx] < size[rooty]) {
                     nums[rootx] = rooty;
                     size[rooty] += size[rootx];
-                }else{
+                } else {
                     nums[rooty] = rootx;
                     size[rootx] += size[rooty];
                 }
                 count--;
             }
         }
-        
+
         return count;
     }
-    
-    private int find(int[] nums, int i){
+
+    private int find(int[] nums, int i) {
         // path compression
-        if(nums[i] != i){
+        if (nums[i] != i) {
             nums[i] = find(nums, nums[i]);
         }
-        
+
         return nums[i];
     }
 }

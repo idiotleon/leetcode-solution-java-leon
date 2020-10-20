@@ -1,88 +1,95 @@
 /**
+ * @author: Leon
  * https://leetcode.com/problems/number-of-islands/
  * 
- * Time Complexity:     O(NR * NC)
- * Space Complexity:    O(NR * NC)
+ * Time Complexity:     O(`NR` * `NC`)
+ * Space Complexity:    O(`NR` * `NC`)
  */
 package com.zea7ot.leetcode.lvl3.lc0200;
 
 public class SolutionApproach0UnionFind {
-    private final int[][] DIRS = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
+    private final int[] DIRS = { 0, -1, 0, 1, 0 };
+
+    private static final char WATER = '0';
+    private static final char LAND = '1';
 
     public int numIslands(char[][] grid) {
-        // sanity check
-        if (grid == null || grid.length == 0)
-            return 0;
+        // sanity check, not required
+        // if (grid == null || grid.length == 0)
+        // return 0;
 
-        int NR = grid.length, NC = grid[0].length;
+        final int NR = grid.length, NC = grid[0].length;
+
         UnionFind uf = new UnionFind(grid);
-        for (int row = 0; row < NR; row++) {
-            for (int col = 0; col < NC; col++) {
-                if (grid[row][col] == '1') {
-                    grid[row][col] = '0';
+        for (int row = 0; row < NR; ++row) {
+            for (int col = 0; col < NC; ++col) {
+                if (grid[row][col] == LAND) {
+                    grid[row][col] = WATER;
 
-                    for (int[] dir : DIRS) {
-                        int r = row + dir[0], c = col + dir[1];
-                        if (r >= 0 && c >= 0 && r < NR && c < NC && grid[r][c] == '1') {
-                            uf.union(row * NC + col, r * NC + c);
-                        }
+                    for (int d = 0; d < 4; ++d) {
+                        int nextRow = row + DIRS[d], nextCol = col + DIRS[d + 1];
+                        if (nextRow < 0 || nextCol < 0 || nextRow >= NR || nextCol >= NC
+                                || grid[nextRow][nextCol] == WATER)
+                            continue;
+
+                        uf.union(row * NC + col, nextRow * NC + nextCol);
                     }
                 }
             }
         }
 
-        return uf.getCount();
+        return uf.getIslandsCount();
     }
 
     private class UnionFind {
-        private int count;
-        private int[] parent, rank;
+        private int isolated;
+        private final int[] ROOTS, RANKS;
 
         protected UnionFind(char[][] grid) {
             final int NR = grid.length, NC = grid[0].length;
-            parent = new int[NR * NC];
-            rank = new int[NR * NC];
+            this.ROOTS = new int[NR * NC];
+            this.RANKS = new int[NR * NC];
 
             for (int row = 0; row < NR; row++) {
                 for (int col = 0; col < NC; col++) {
-                    if (grid[row][col] == '1') {
-                        parent[row * NC + col] = row * NC + col;
-                        ++count;
+                    if (grid[row][col] == LAND) {
+                        ROOTS[row * NC + col] = row * NC + col;
+                        ++isolated;
                     }
 
-                    rank[row * NC + col] = 0;
+                    RANKS[row * NC + col] = 1;
                 }
             }
         }
 
-        // union by rank
+        // union by ranks
         protected void union(int x, int y) {
             int rootx = find(x), rooty = find(y);
             if (rootx != rooty) {
-                if (rank[rootx] > rank[rooty]) {
-                    parent[rooty] = rootx;
-                } else if (rank[rootx] < rank[rooty]) {
-                    parent[rootx] = rooty;
+                if (RANKS[rootx] > RANKS[rooty]) {
+                    ROOTS[rooty] = rootx;
+                } else if (RANKS[rootx] < RANKS[rooty]) {
+                    ROOTS[rootx] = rooty;
                 } else {
-                    parent[rooty] = rootx;
-                    rank[rootx] += 1;
+                    ROOTS[rooty] = rootx;
+                    RANKS[rootx] += 1;
                 }
 
-                --count;
+                --isolated;
             }
         }
 
         protected int find(int i) {
             // path compression
-            if (parent[i] != i) {
-                parent[i] = find(parent[i]);
+            if (ROOTS[i] != i) {
+                ROOTS[i] = find(ROOTS[i]);
             }
 
-            return parent[i];
+            return ROOTS[i];
         }
 
-        protected int getCount() {
-            return count;
+        protected int getIslandsCount() {
+            return isolated;
         }
     }
 }

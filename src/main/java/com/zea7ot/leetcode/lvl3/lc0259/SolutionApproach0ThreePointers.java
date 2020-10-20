@@ -26,8 +26,9 @@ public class SolutionApproach0ThreePointers {
                 if (sum < target) {
                     ans += hi - lo;
                     ++lo;
-                } else
+                } else {
                     --hi;
+                }
             }
         }
 
