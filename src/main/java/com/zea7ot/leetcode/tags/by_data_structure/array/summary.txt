@@ -42,6 +42,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0724    https://leetcode.com/problems/find-pivot-index/
 2   0744    https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
+2   0821    https://leetcode.com/problems/shortest-distance-to-a-character/
 2   0832    https://leetcode.com/problems/flipping-an-image/
 2   0852    https://leetcode.com/problems/peak-index-in-a-mountain-array/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
@@ -125,6 +126,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0729    https://leetcode.com/problems/my-calendar-i/
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/3   0775    https://leetcode.com/problems/global-and-local-inversions/
+3   0739    https://leetcode.com/problems/daily-temperatures/
 3   0750    https://leetcode.com/problems/number-of-corner-rectangles/
 3   0758    https://leetcode.com/problems/bold-words-in-string/
 3   0775    https://leetcode.com/problems/global-and-local-inversions/
@@ -132,6 +134,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0802    https://leetcode.com/problems/find-eventual-safe-states/
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   0835    https://leetcode.com/problems/image-overlap/
+3   0845    https://leetcode.com/problems/longest-mountain-in-array/
 3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/

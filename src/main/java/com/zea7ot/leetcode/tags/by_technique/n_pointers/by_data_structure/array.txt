@@ -44,6 +44,7 @@ References:
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   0835    https://leetcode.com/problems/image-overlap/
+3   0845    https://leetcode.com/problems/longest-mountain-in-array/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0922    https://leetcode.com/problems/sort-array-by-parity-ii/
 3   0962    https://leetcode.com/problems/maximum-width-ramp/
@@ -62,5 +63,6 @@ References:
 4   0311    https://leetcode.com/problems/sparse-matrix-multiplication/
 4   0632    https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
+4   0769     https://leetcode.com/problems/max-chunks-to-make-sorted/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   1537    https://leetcode.com/problems/get-the-maximum-score/

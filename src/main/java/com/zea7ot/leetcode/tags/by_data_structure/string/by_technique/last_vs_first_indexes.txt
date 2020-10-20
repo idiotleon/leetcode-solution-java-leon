@@ -9,3 +9,9 @@ References:
 
 2   0003    https://leetcode.com/problems/longest-substring-without-repeating-characters/
 2   0205    https://leetcode.com/problems/isomorphic-strings/
+
+
+
+# the keep track of the first index(es) of
+
+?   1624    https://leetcode.com/problems/largest-substring-between-two-equal-characters/

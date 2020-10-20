@@ -33,6 +33,7 @@ References:
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 3   1080    https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/
 3   1372    https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/
+3   1612    https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/
 
 4   0298    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 4   0545    https://leetcode.com/problems/boundary-of-binary-tree/

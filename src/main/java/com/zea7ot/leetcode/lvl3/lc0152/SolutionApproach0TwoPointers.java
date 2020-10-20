@@ -22,7 +22,7 @@ public class SolutionApproach0TwoPointers {
         for (int i = 0; i < N; ++i) {
             lo = (lo == 0 ? 1 : lo) * nums[i];
             hi = (hi == 0 ? 1 : hi) * nums[N - 1 - i];
-            
+
             maxProduct = Math.max(maxProduct, Math.max(lo, hi));
         }
 

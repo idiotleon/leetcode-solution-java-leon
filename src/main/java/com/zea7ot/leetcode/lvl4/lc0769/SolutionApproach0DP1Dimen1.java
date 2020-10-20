@@ -10,11 +10,6 @@
  * 
  * References:
  *  https://leetcode.com/problems/max-chunks-to-make-sorted-ii/discuss/113462/Java-solution-left-max-and-right-min.
- * 
- * Similar Questions:
- *  https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
- *  https://leetcode.com/problems/jump-game/
- *  https://leetcode.com/problems/product-of-array-except-self/
  */
 package com.zea7ot.leetcode.lvl4.lc0769;
 
@@ -25,25 +20,26 @@ public class SolutionApproach0DP1Dimen1 {
             return 0;
 
         final int N = nums.length;
-        int[] maxOfLeft = new int[N];
-        int[] minOfRight = new int[N];
+        int[] maxFromLo = new int[N];
+        int[] minFromHi = new int[N];
 
-        maxOfLeft[0] = nums[0];
+        maxFromLo[0] = nums[0];
         for (int i = 1; i < N; i++) {
-            maxOfLeft[i] = Math.max(maxOfLeft[i - 1], nums[i]);
+            maxFromLo[i] = Math.max(maxFromLo[i - 1], nums[i]);
         }
 
-        minOfRight[N - 1] = nums[N - 1];
+        minFromHi[N - 1] = nums[N - 1];
         for (int i = N - 2; i >= 0; i--) {
-            minOfRight[i] = Math.min(minOfRight[i + 1], nums[i]);
+            minFromHi[i] = Math.min(minFromHi[i + 1], nums[i]);
         }
 
-        int ans = 0;
+        int chunks = 0;
         for (int i = 0; i < N - 1; i++) {
-            if (maxOfLeft[i] <= minOfRight[i + 1])
-                ans++;
+            if (maxFromLo[i] <= minFromHi[i + 1]){
+                ++chunks;
+            }
         }
 
-        return ans + 1;
+        return  1 + chunks;
     }
 }
