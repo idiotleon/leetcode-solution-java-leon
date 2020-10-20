@@ -42,6 +42,7 @@ References:
 3   1448    https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 3   1490    https://leetcode.com/problems/clone-n-ary-tree/
 3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
+3   1612    https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/
 
 4   0297    https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 4   0428    https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/

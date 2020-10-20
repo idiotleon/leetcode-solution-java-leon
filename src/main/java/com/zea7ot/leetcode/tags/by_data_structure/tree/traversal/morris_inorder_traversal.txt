@@ -18,6 +18,7 @@ References:
 3   0114    https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 3   0530    https://leetcode.com/problems/minimum-absolute-difference-in-bst/
 3   0783    https://leetcode.com/problems/minimum-distance-between-bst-nodes/
+3   1612    https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/
 
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 4   0538    https://leetcode.com/problems/convert-bst-to-greater-tree/
