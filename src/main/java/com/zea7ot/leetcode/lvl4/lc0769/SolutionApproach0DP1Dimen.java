@@ -11,11 +11,6 @@
  * References:
  *  https://leetcode.com/problems/max-chunks-to-make-sorted-ii/discuss/113462/Java-solution-left-max-and-right-min./182522
  *  https://leetcode.com/problems/max-chunks-to-make-sorted/discuss/113520/Java-solution-left-max-and-right-min.
- * 
- * Similar Questions:
- *  https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
- *  https://leetcode.com/problems/jump-game/
- *  https://leetcode.com/problems/product-of-array-except-self/
  */
 package com.zea7ot.leetcode.lvl4.lc0769;
 
@@ -26,20 +21,23 @@ public class SolutionApproach0DP1Dimen {
             return 0;
 
         final int N = nums.length;
-        int[] minOfRight = new int[N];
-        minOfRight[N - 1] = nums[N - 1];
+        int[] minsFromHi = new int[N];
+        int hiMin = Integer.MAX_VALUE;
 
-        for (int i = N - 2; i >= 0; i--) {
-            minOfRight[i] = Math.min(minOfRight[i + 1], nums[i]);
+        for (int i = N - 1; i >= 0; --i) {
+            hiMin = Math.min(hiMin, nums[i]);
+            minsFromHi[i] = hiMin;
         }
 
-        int ans = 0, maxToLeft = Integer.MIN_VALUE;
-        for (int i = 0; i < N - 1; i++) {
-            maxToLeft = Math.max(maxToLeft, nums[i]);
-            if (maxToLeft <= minOfRight[i + 1])
-                ans++;
+        int chunks = 0;
+        int loMax = Integer.MIN_VALUE;
+        for (int i = 0; i < N - 1; ++i) {
+            loMax = Math.max(loMax, nums[i]);
+            if (loMax <= minsFromHi[i + 1]) {
+                ++chunks;
+            }
         }
 
-        return ans + 1;
+        return 1 + chunks;
     }
 }
