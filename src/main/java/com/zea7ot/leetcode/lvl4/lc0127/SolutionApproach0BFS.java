@@ -4,7 +4,7 @@
  * Time Complexity:     O(N) + O(N * (26 ^ (L / 2))) ~ O(N * (26 ^ (L / 2)))
  * Space Complexity:    O(N * L) / O(N)
  * 
- * double-end BFS
+ * Bidirectional BFS
  * 
  * References:
  *  https://www.youtube.com/watch?v=vWPCm69MSfs

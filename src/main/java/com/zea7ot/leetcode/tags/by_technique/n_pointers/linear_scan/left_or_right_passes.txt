@@ -1,0 +1,9 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### N Pointers
+# Linear Scan / 1 Pointer
+
+3   0845    https://leetcode.com/problems/longest-mountain-in-array/
