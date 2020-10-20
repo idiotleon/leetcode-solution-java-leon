@@ -12,6 +12,7 @@ References:
 3   0450    https://leetcode.com/problems/delete-node-in-a-bst/
 3   0510    https://leetcode.com/problems/inorder-successor-in-bst-ii/
 3   0938    https://leetcode.com/problems/range-sum-of-bst/
+3   1586    https://leetcode.com/problems/binary-search-tree-iterator-ii/
 
 4   0230    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 4   0239    https://leetcode.com/problems/sliding-window-maximum/
