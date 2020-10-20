@@ -6,5 +6,7 @@ References:
 ### N Pointers
 # Linear Scan / 1 Pointer
 
+2   0821    https://leetcode.com/problems/shortest-distance-to-a-character/
+
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0845    https://leetcode.com/problems/longest-mountain-in-array/
