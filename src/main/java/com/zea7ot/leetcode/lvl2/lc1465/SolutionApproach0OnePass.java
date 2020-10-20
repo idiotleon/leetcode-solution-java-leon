@@ -7,7 +7,7 @@
  * References:
  *  https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/discuss/661673/JavaPython-3-Find-the-max-width-and-height.
  */
-package com.zea7ot.leetcode.lvl2.lv1465;
+package com.zea7ot.leetcode.lvl2.lc1465;
 
 import java.util.Arrays;
 
