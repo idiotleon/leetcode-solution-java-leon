@@ -18,10 +18,11 @@ public class SolutionApproach0Recursion {
         start.next = head;
         return isPalindrome(start, head);
     }
-    
-    private boolean isPalindrome(ListNode start, ListNode end){
-        if(end == null) return true;
-        
+
+    private boolean isPalindrome(ListNode start, ListNode end) {
+        if (end == null)
+            return true;
+
         boolean res = isPalindrome(start, end.next);
         boolean isEqual = start.next.val == end.val;
         start.next = start.next.next;

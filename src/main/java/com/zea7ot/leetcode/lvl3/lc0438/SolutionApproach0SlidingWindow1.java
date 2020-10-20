@@ -18,22 +18,22 @@ public class SolutionApproach0SlidingWindow1 {
 
         final int LEN_S = s.length(), LEN_P = p.length();
 
-        int[] freqs = new int[26];
+        final int[] FREQS = new int[26];
         for (final char CH : p.toCharArray())
-            ++freqs[CH - 'a'];
+            ++FREQS[CH - 'a'];
 
         int count = 0;
         for (int i = 0; i < LEN_S; ++i) {
             if (i >= LEN_P) {
-                ++freqs[s.charAt(i - LEN_P) - 'a'];
-                if (freqs[s.charAt(i - LEN_P) - 'a'] > 0) {
+                ++FREQS[s.charAt(i - LEN_P) - 'a'];
+                if (FREQS[s.charAt(i - LEN_P) - 'a'] > 0) {
                     --count;
                 }
             }
 
-            --freqs[s.charAt(i) - 'a'];
+            --FREQS[s.charAt(i) - 'a'];
 
-            if (freqs[s.charAt(i) - 'a'] >= 0)
+            if (FREQS[s.charAt(i) - 'a'] >= 0)
                 ++count;
             if (count == LEN_P) {
                 ans.add(i - count + 1);

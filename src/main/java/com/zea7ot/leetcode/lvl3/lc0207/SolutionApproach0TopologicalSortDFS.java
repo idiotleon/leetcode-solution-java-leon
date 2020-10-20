@@ -17,44 +17,45 @@ import java.util.List;
 public class SolutionApproach0TopologicalSortDFS {
     private static final int VISITING = 1;
     private static final int VISITED = 2;
-    
+
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         // sanity check
-        if(numCourses <= 0) return false;
+        if (numCourses <= 0)
+            return false;
 
         List<List<Integer>> graph = new ArrayList<List<Integer>>();
-        for(int i = 0; i < numCourses; i++){
+        for (int i = 0; i < numCourses; i++) {
             graph.add(new ArrayList<Integer>());
         }
-        
-        for(int[] prerequisite : prerequisites){
+
+        for (int[] prerequisite : prerequisites) {
             graph.get(prerequisite[0]).add(prerequisite[1]);
         }
-        
+
         int[] visit = new int[numCourses];
-        for(int i = 0; i < numCourses; i++){
-            if(hasCycle(i, visit, graph)) {
+        for (int i = 0; i < numCourses; i++) {
+            if (hasCycle(i, visit, graph)) {
                 return false;
             }
         }
-        
+
         return true;
     }
-    
-    private boolean hasCycle(int vertex,
-                             int[] visit, 
-                             List<List<Integer>> graph){ 
-        if(visit[vertex] == VISITING) return true;
-        if(visit[vertex] == VISITED) return false;
-        
+
+    private boolean hasCycle(int vertex, int[] visit, List<List<Integer>> graph) {
+        if (visit[vertex] == VISITING)
+            return true;
+        if (visit[vertex] == VISITED)
+            return false;
+
         visit[vertex] = VISITING;
-        
-        for(int next : graph.get(vertex)){
-            if(hasCycle(next, visit, graph)){
+
+        for (int next : graph.get(vertex)) {
+            if (hasCycle(next, visit, graph)) {
                 return true;
             }
         }
-        
+
         visit[vertex] = VISITED;
         return false;
     }

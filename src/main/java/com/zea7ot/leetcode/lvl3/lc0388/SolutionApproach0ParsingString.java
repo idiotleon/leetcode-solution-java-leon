@@ -14,17 +14,18 @@ public class SolutionApproach0ParsingString {
         String[] strs = input.split("\n");
         final int N = strs.length;
         int[] stack = new int[N + 1];
-        
+
         int maxLen = 0;
-        for(String str : strs){
+        for (String str : strs) {
             final int L = str.length();
             int idx = str.lastIndexOf("\t") + 1;
             int curLen = stack[idx + 1] = stack[idx] + L - idx + 1;
-            
-            if(str.contains("."))
+
+            if (str.contains(".")) {
                 maxLen = Math.max(maxLen, curLen - 1);
+            }
         }
-        
+
         return maxLen;
     }
 }

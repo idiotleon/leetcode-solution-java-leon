@@ -12,6 +12,6 @@ package com.zea7ot.leetcode.lvl3.lc0319;
 
 public class SolutionAppraoch0Math {
     public int bulbSwitch(int n) {
-        return (int)Math.sqrt(n);
+        return (int) Math.sqrt(n);
     }
 }

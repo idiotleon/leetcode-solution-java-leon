@@ -11,10 +11,10 @@ import java.util.List;
 
 public class SolutionApproach0DFS {
     public int countComponents(int n, int[][] edges) {
-        List<List<Integer>> graph = new ArrayList<List<Integer>>();
+        List<List<Integer>> graph = new ArrayList<>();
         // to initialize the graph
         for(int i = 0; i < n; i++){
-            graph.add(new ArrayList<Integer>());
+            graph.add(new ArrayList<>());
         }
         
         // to build up the graph

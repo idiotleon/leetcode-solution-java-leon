@@ -34,8 +34,9 @@ public class SolutionApproach0PrefixSums {
             }
 
             // to only keep the 1st/ealiest index
-            if (!PREFIX_SUMS.containsKey(sum))
+            if (!PREFIX_SUMS.containsKey(sum)) {
                 PREFIX_SUMS.put(sum, i);
+            }
         }
 
         return longest;

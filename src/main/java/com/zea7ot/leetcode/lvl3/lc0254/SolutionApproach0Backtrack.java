@@ -24,22 +24,22 @@ public class SolutionApproach0Backtrack {
         return ans;
     }
 
-    private void backtrack(int target, int start, List<Integer> path, List<List<Integer>> paths) {
-        if (target == 1 && path.size() > 1) {
-            paths.add(new ArrayList<>(path));
+    private void backtrack(int target, int start, final List<Integer> PATH, final List<List<Integer>> PATHS) {
+        if (target == 1 && PATH.size() > 1) {
+            PATHS.add(new ArrayList<>(PATH));
             return;
         }
 
         for (int i = start; i * i <= target; i++) {
             if (target % i != 0)
                 continue;
-            path.add(i);
+            PATH.add(i);
             // to collect results during the recursion
-            path.add(target / i);
-            paths.add(new ArrayList<>(path));
-            path.remove(path.size() - 1);
-            backtrack(target / i, i, path, paths);
-            path.remove(path.size() - 1);
+            PATH.add(target / i);
+            PATHS.add(new ArrayList<>(PATH));
+            PATH.remove(PATH.size() - 1);
+            backtrack(target / i, i, PATH, PATHS);
+            PATH.remove(PATH.size() - 1);
         }
     }
 }

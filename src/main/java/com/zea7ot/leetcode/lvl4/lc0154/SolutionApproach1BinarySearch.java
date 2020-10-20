@@ -12,17 +12,20 @@ package com.zea7ot.leetcode.lvl4.lc0154;
 public class SolutionApproach1BinarySearch {
     public int findMin(int[] nums) {
         final int N = nums.length;
-        
+
         int lo = 0, hi = N - 1;
-        while(lo < hi){
+        while (lo < hi) {
             int mid = lo + (hi - lo) / 2;
-            if(nums[mid] > nums[hi]) lo = mid + 1;
-            else if(nums[mid] < nums[lo]){
+            if (nums[mid] > nums[hi])
+                lo = mid + 1;
+            else if (nums[mid] < nums[lo]) {
                 hi = mid;
                 ++lo;
-            }else --hi;
+            } else {
+                --hi;
+            }
         }
-        
+
         return nums[lo];
     }
 }

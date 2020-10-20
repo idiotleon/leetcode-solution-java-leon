@@ -18,6 +18,7 @@ References:
 3   0542    https://leetcode.com/problems/01-matrix/
 3   0582    https://leetcode.com/problems/kill-process/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
+3   0934    https://leetcode.com/problems/shortest-bridge/
 3   1020    https://leetcode.com/problems/number-of-enclaves/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1306    https://leetcode.com/problems/jump-game-iii/

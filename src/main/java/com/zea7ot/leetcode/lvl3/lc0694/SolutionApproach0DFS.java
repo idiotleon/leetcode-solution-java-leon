@@ -10,46 +10,48 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class SolutionApproach0DFS {
-    private final int[][] DIRS = new int[][]{{0, 1}, {-1, 0},{0, -1},{1, 0}};
-    private final char[] MOVES = new char[]{'u', 'l', 'd', 'r'};
-    private final char START = 'a';
-    private final char END = 'z';
-    
+    private static final int[] DIRS = new int[] { 0, -1, 0, 1, 0 };
+    private static final char[] MOVES = new char[] { 'd', 'l', 'u', 'r' };
+
+    private static final int ISLAND = 1;
+    private static final int WATER = 0;
+
+    private static final char START = '&';
+    private static final char SPLITTER = '#';
+
     public int numDistinctIslands(int[][] grid) {
         // sanity check
-        if(grid == null || grid.length == 0) return 0;
+        if (grid == null || grid.length == 0)
+            return 0;
 
         final int NR = grid.length, NC = grid[0].length;
-        Set<String> set = new HashSet<>();
-        
-        for(int row = 0; row < NR; row++){
-            for(int col = 0; col < NC; col++){
-                if(grid[row][col] == 1){
+        final Set<String> SEEN = new HashSet<>();
+
+        for (int row = 0; row < NR; ++row) {
+            for (int col = 0; col < NC; ++col) {
+                if (grid[row][col] == ISLAND) {
                     StringBuilder builder = new StringBuilder();
-                    dfs(grid, row, col, builder, START);
+                    dfs(row, col, builder, START, grid);
                     String signature = builder.toString();
-                    set.add(signature);
+                    SEEN.add(signature);
                 }
             }
         }
-        
-        return set.size();
+
+        return SEEN.size();
     }
-    
-    private void dfs(int[][] grid, 
-                     int row, 
-                     int col, 
-                     StringBuilder builder, 
-                     char move){
+
+    private void dfs(int row, int col, StringBuilder builder, final char MOVE, int[][] grid) {
         final int NR = grid.length, NC = grid[0].length;
-        
+
         grid[row][col] = 0;
-        builder.append(move);
-        for(int d = 0; d < 4; d++){
-            int r = row + DIRS[d][0], c = col + DIRS[d][1];
-            if(r < 0 || c < 0 || r >= NR || c >= NC || grid[r][c] == 0) continue;
-            dfs(grid, r, c, builder, MOVES[d]);
+        builder.append(MOVE);
+        for (int d = 0; d < 4; ++d) {
+            int nextRow = row + DIRS[d], nextCol = col + DIRS[d + 1];
+            if (nextRow < 0 || nextCol < 0 || nextRow >= NR || nextCol >= NC || grid[nextRow][nextCol] == WATER)
+                continue;
+            dfs(nextRow, nextCol, builder, MOVES[d], grid);
         }
-        builder.append(END);
+        builder.append(SPLITTER);
     }
 }

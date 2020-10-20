@@ -8,6 +8,7 @@ References:
 # Array
 
 1   0088    https://leetcode.com/problems/merge-sorted-array/
+1   0189    https://leetcode.com/problems/rotate-array/
 1   0643    https://leetcode.com/problems/maximum-average-subarray-i/
 1   0830    https://leetcode.com/problems/positions-of-large-groups/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/

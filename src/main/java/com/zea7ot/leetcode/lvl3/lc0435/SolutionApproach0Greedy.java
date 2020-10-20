@@ -14,21 +14,22 @@ import java.util.Arrays;
 public class SolutionApproach0Greedy {
     public int eraseOverlapIntervals(int[][] intervals) {
         // sanity check
-        if(intervals == null || intervals.length == 0) return 0;
+        if (intervals == null || intervals.length == 0)
+            return 0;
 
         final int N = intervals.length;
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[1], b[1]));
-        
+
         int count = 0;
         int end = Integer.MIN_VALUE;
-        
-        for(int[] interval : intervals){
-            if(interval[0] >= end){
+
+        for (int[] interval : intervals) {
+            if (interval[0] >= end) {
                 end = interval[1];
                 ++count;
             }
         }
-        
+
         return N - count;
     }
 }

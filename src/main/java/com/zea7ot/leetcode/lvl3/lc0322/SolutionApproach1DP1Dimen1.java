@@ -17,16 +17,16 @@ public class SolutionApproach1DP1Dimen1 {
         int[] dp = new int[amount + 1];
         Arrays.fill(dp, Integer.MAX_VALUE);
         dp[0] = 0;
-        for(int coin : coins){
-            for(int i = amount - coin; i >= 0; --i){
-                if(dp[i] != Integer.MAX_VALUE){
-                    for(int k = 1; k * coin + i <= amount; ++k){
+        for (int coin : coins) {
+            for (int i = amount - coin; i >= 0; --i) {
+                if (dp[i] != Integer.MAX_VALUE) {
+                    for (int k = 1; k * coin + i <= amount; ++k) {
                         dp[i + k * coin] = Math.min(dp[i + k * coin], dp[i] + k);
                     }
                 }
             }
         }
-     
+
         return dp[amount] == Integer.MAX_VALUE ? -1 : dp[amount];
     }
 }

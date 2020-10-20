@@ -24,8 +24,9 @@ public class SolutionApproach0BinarySearch {
         int[] ans = new int[N];
 
         Map<Integer, Integer> idxMap = new HashMap<>();
-        for (int i = 0; i < N; ++i)
+        for (int i = 0; i < N; ++i){
             idxMap.put(intervals[i][0], i);
+        }
 
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
 

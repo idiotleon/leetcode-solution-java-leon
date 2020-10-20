@@ -21,31 +21,32 @@ import java.util.Arrays;
 
 public class SolutionApproach0DFSGreedyPruning {
     private int ans;
-    
+
     public int coinChange(int[] coins, int amount) {
         Arrays.sort(coins);
-        
+
         final int N = coins.length;
-        
+
         this.ans = Integer.MAX_VALUE;
         dfs(coins, N - 1, amount, 0);
-        
+
         return ans == Integer.MAX_VALUE ? -1 : ans;
     }
-    
-    private void dfs(final int[] coins, int idx, int amount, int count){
-        if(amount == 0){
+
+    private void dfs(final int[] coins, int idx, int amount, int count) {
+        if (amount == 0) {
             ans = Math.min(ans, count);
             return;
         }
-        
+
         // (idx == 0) is a valid index
-        if(idx < 0) return;
-        
+        if (idx < 0)
+            return;
+
         // greedy: to take coins of the largest nominal value if possible
         final int coin = coins[idx];
         // pruning: count + k < ans
-        for(int k = amount / coin; k >= 0 && count + k < ans; k--){
+        for (int k = amount / coin; k >= 0 && count + k < ans; k--) {
             dfs(coins, idx - 1, amount - k * coin, count + k);
         }
     }
