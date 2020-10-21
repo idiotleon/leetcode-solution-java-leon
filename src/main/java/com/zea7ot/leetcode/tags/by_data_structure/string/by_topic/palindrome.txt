@@ -12,6 +12,7 @@ References:
 3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0647    https://leetcode.com/problems/palindromic-substrings/
 3   0680    https://leetcode.com/problems/valid-palindrome-ii/
+3   1616    https://leetcode.com/problems/split-two-strings-to-make-palindrome/
 
 4   0132    https://leetcode.com/problems/132-pattern/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/

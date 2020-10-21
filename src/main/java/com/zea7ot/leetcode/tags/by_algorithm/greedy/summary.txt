@@ -40,6 +40,7 @@ References:
 3   1405    https://leetcode.com/problems/longest-happy-string/
 3   1514    https://leetcode.com/problems/path-with-maximum-probability/
 3   1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/
+3   1616    https://leetcode.com/problems/split-two-strings-to-make-palindrome/
 
 4   0057    https://leetcode.com/problems/insert-interval/
 4   0218    https://leetcode.com/problems/the-skyline-problem/

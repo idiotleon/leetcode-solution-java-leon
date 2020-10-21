@@ -99,6 +99,7 @@ References:
 3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 3   1577    https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/
+3   1616    https://leetcode.com/problems/split-two-strings-to-make-palindrome/
 
 4   0018    https://leetcode.com/problems/4sum/
 4   0041    https://leetcode.com/problems/first-missing-positive/
