@@ -1,0 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Array
+## By Topic
+# Count Occurences
+
+3   0923    https://leetcode.com/problems/3sum-with-multiplicity/
