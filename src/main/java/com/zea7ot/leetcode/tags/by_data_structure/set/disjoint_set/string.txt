@@ -1,11 +1,11 @@
 @author: Leon
 References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+    https://leetcode.com/tag/union-find/
 
 
-### String
-# Union Find
 
-3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
+### Union Find
+# String
 
 4   1202    https://leetcode.com/problems/smallest-string-with-swaps/
