@@ -6,10 +6,11 @@
  * 
  * References:
  *  https://leetcode.com/problems/game-of-life/discuss/73223/Easiest-JAVA-solution-with-explanation/193726
+ *  https://leetcode.com/problems/game-of-life/discuss/73223/Easiest-JAVA-solution-with-explanation/193726
  */
 package com.zea7ot.leetcode.lvl3.lc0289;
 
-public class SolutionApproach0 {
+public class SolutionApproach0LinearScan {
     private static final int[][] DIRS = { { -1, 0 }, { -1, -1 }, { 0, -1 }, { 1, -1 }, { 1, 0 }, { 1, 1 }, { 0, 1 },
             { -1, 1 } };
     private static final int STATE_DEAD = 2;
@@ -18,8 +19,8 @@ public class SolutionApproach0 {
     public void gameOfLife(int[][] board) {
         final int NR = board.length, NC = board[0].length;
 
-        for (int row = 0; row < NR; row++) {
-            for (int col = 0; col < NC; col++) {
+        for (int row = 0; row < NR; ++row) {
+            for (int col = 0; col < NC; ++col) {
                 int liveNeighbors = liveNeighbors(row, col, board);
                 if (board[row][col] == 0 && liveNeighbors == 3)
                     board[row][col] = STATE_LIVE;
@@ -32,8 +33,8 @@ public class SolutionApproach0 {
             }
         }
 
-        for (int row = 0; row < NR; row++) {
-            for (int col = 0; col < NC; col++) {
+        for (int row = 0; row < NR; ++row) {
+            for (int col = 0; col < NC; ++col) {
                 if (board[row][col] == STATE_DEAD)
                     board[row][col] = 0;
                 if (board[row][col] == STATE_LIVE)
@@ -48,11 +49,11 @@ public class SolutionApproach0 {
         int lives = 0;
 
         for (final int[] DIR : DIRS) {
-            int r = row + DIR[0], c = col + DIR[1];
-            if (r < 0 || r >= NR || c < 0 || c >= NC)
+            int nextRow = row + DIR[0], nextCol = col + DIR[1];
+            if (nextRow < 0 || nextRow >= NR || nextCol < 0 || nextCol >= NC)
                 continue;
-            if (board[r][c] == 1 || board[r][c] == STATE_DEAD)
-                lives++;
+            if (board[nextRow][nextCol] == 1 || board[nextRow][nextCol] == STATE_DEAD)
+                ++lives;
         }
         return lives;
     }

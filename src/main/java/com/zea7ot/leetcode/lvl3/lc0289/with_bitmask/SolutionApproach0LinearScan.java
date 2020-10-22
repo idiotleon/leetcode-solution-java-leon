@@ -12,7 +12,7 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0289.with_bitmask;
 
-public class SolutionApproach0BitMasking {
+public class SolutionApproach0LinearScan {
     private final static int STATE_DEAD = 2;
     private final static int STATE_LIVE = 3;
 
@@ -23,8 +23,8 @@ public class SolutionApproach0BitMasking {
 
         final int NR = board.length, NC = board[0].length;
 
-        for (int row = 0; row < NR; row++) {
-            for (int col = 0; col < NC; col++) {
+        for (int row = 0; row < NR; ++row) {
+            for (int col = 0; col < NC; ++col) {
                 int lives = liveNeighbors(row, col, board);
 
                 // in the beginning, since every 2nd bit is 0,
@@ -51,9 +51,9 @@ public class SolutionApproach0BitMasking {
 
         int lives = 0;
         // to check all surroundings
-        for (int r = Math.max(row - 1, 0); r <= Math.min(row + 1, NR - 1); r++) {
-            for (int c = Math.max(col - 1, 0); c <= Math.min(col + 1, NC - 1); c++) {
-                lives += board[r][c] & 1;
+        for (int nextRow = Math.max(row - 1, 0); nextRow <= Math.min(row + 1, NR - 1); ++nextRow) {
+            for (int nextCol = Math.max(col - 1, 0); nextCol <= Math.min(col + 1, NC - 1); ++nextCol) {
+                lives += board[nextRow][nextCol] & 1;
             }
         }
         lives -= board[row][col] & 1;
