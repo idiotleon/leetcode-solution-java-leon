@@ -68,4 +68,5 @@ References:
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0769     https://leetcode.com/problems/max-chunks-to-make-sorted/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
+4   0995    https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/
 4   1537    https://leetcode.com/problems/get-the-maximum-score/
