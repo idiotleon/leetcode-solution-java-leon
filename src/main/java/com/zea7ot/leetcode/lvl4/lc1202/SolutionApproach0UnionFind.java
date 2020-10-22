@@ -1,8 +1,12 @@
 /**
+ * @author: Leon
  * https://leetcode.com/problems/smallest-string-with-swaps/
  * 
- * Time Complexity:     O()
- * Space Complexity:    O()
+ * Time Complexity:     O(L) + O(N)
+ * Space Complexity:    O(L) + O(N)
+ * 
+ * References:
+ *  https://leetcode.com/problems/smallest-string-with-swaps/discuss/388055/Java-Union-find-%2B-PriorityQueue.-Easy-to-understand.
  */
 package com.zea7ot.leetcode.lvl4.lc1202;
 
@@ -58,6 +62,8 @@ public class SolutionApproach0UnionFind {
 
         private void union(int x, int y) {
             int rootX = find(x), rootY = find(y);
+            if (rootX == rootY)
+                return;
             if (ranks[rootX] > ranks[rootY]) {
                 roots[rootY] = rootX;
                 ++ranks[rootX];
