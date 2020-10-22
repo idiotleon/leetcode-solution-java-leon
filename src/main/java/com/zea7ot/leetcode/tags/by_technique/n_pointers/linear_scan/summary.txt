@@ -46,14 +46,17 @@ References:
 3   0444    https://leetcode.com/problems/sequence-reconstruction/
 3   0484    https://leetcode.com/problems/find-permutation/
 3   0523    https://leetcode.com/problems/continuous-subarray-sum/
+3   0524    https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
 3   0624    https://leetcode.com/problems/maximum-distance-in-arrays/
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0739    https://leetcode.com/problems/daily-temperatures/
 3   0835    https://leetcode.com/problems/image-overlap/
+3   0838    https://leetcode.com/problems/push-dominoes/
 3   0840    https://leetcode.com/problems/magic-squares-in-grid/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
+3   1616    https://leetcode.com/problems/split-two-strings-to-make-palindrome/
 
 4   0041    https://leetcode.com/problems/first-missing-positive/
 4   0057    https://leetcode.com/problems/insert-interval/

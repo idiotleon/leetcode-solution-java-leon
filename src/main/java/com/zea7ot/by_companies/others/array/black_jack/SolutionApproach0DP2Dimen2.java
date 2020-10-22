@@ -13,6 +13,7 @@ public class SolutionApproach0DP2Dimen2 {
     }
 
     public boolean canWin(FakeCardApi api) {
+        // NR == 3 + 1, NC == 21 + 1
         final int NR = dp.length, NC = dp[0].length;
 
         int[] cardsValues = api.getCardsValues();

@@ -21,7 +21,7 @@ public class SolutionApproach0TwoPointers {
                 ++idxN;
                 ++idxT;
             } else {
-                if (idxT == 0 || CHS_T[idxT - 1] != CHS_T[idxT]) {
+                if (idxT == 0 || CHS_T[idxT - 1] != CH_T) {
                     return false;
                 }
 

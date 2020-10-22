@@ -8,6 +8,7 @@ References:
 # 0/1
 
 3   0494    https://leetcode.com/problems/target-sum/
+3   0923    https://leetcode.com/problems/3sum-with-multiplicity/
 
 4   0312    https://leetcode.com/problems/burst-balloons/
 4   0474    https://leetcode.com/problems/ones-and-zeroes/

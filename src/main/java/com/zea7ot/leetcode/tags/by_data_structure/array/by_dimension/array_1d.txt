@@ -87,6 +87,7 @@ References:
 3   0494    https://leetcode.com/problems/target-sum/
 3   0523    https://leetcode.com/problems/continuous-subarray-sum/
 3   0525    https://leetcode.com/problems/contiguous-array/
+3   0524    https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
 3   0548    https://leetcode.com/problems/split-array-with-equal-sum/
 3   0560    https://leetcode.com/problems/subarray-sum-equals-k/
 3   0582    https://leetcode.com/problems/kill-process/
@@ -104,6 +105,7 @@ References:
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0911    https://leetcode.com/problems/online-election/
 3   0922    https://leetcode.com/problems/sort-array-by-parity-ii/
+3   0923    https://leetcode.com/problems/3sum-with-multiplicity/
 3   0949    https://leetcode.com/problems/largest-time-for-given-digits/
 3   0957    https://leetcode.com/problems/prison-cells-after-n-days/
 3   0962    https://leetcode.com/problems/maximum-width-ramp/
@@ -147,7 +149,7 @@ References:
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0442    https://leetcode.com/problems/find-all-duplicates-in-an-array/
 4   0446    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
-4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0457    https://leetcode.com/problems/circular-array-loop/
 4   0502    https://leetcode.com/problems/ipo/
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
 4   0616    https://leetcode.com/problems/add-bold-tag-in-string/

@@ -24,7 +24,10 @@ References:
 2   1578    https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/
 
 3   0150    https://leetcode.com/problems/evaluate-reverse-polish-notation/
+3   0524    https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
+3   0838    https://leetcode.com/problems/push-dominoes/
 3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
+3   1616    https://leetcode.com/problems/split-two-strings-to-make-palindrome/
 
 4   0158    https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/
 4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/

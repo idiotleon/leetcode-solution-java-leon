@@ -36,11 +36,13 @@ References:
 3   0424    https://leetcode.com/problems/longest-repeating-character-replacement/
 3   0438    https://leetcode.com/problems/find-all-anagrams-in-a-string/
 3   0484    https://leetcode.com/problems/find-permutation/
+3   0524    https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0680    https://leetcode.com/problems/valid-palindrome-ii/
 3   0696    https://leetcode.com/problems/count-binary-substrings/
 3   0763    https://leetcode.com/problems/partition-labels/description/
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
+3   0838    https://leetcode.com/problems/push-dominoes/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0922    https://leetcode.com/problems/sort-array-by-parity-ii/
 3   0962    https://leetcode.com/problems/maximum-width-ramp/
@@ -53,6 +55,7 @@ References:
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
+3   1616    https://leetcode.com/problems/split-two-strings-to-make-palindrome/
 
 4   0018    https://leetcode.com/problems/4sum/
 4   0042    https://leetcode.com/problems/trapping-rain-water/
