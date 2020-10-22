@@ -8,6 +8,7 @@ References:
 ## Sliding Window
 # Fix-sized Window
 
+2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/
 2   1456    https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
 
 4   0187    https://leetcode.com/problems/repeated-dna-sequences/

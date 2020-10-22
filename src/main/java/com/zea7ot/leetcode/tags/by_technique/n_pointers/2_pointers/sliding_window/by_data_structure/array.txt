@@ -11,6 +11,7 @@ References:
 1   0643    https://leetcode.com/problems/maximum-average-subarray-i/
 
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
+2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/
 
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
