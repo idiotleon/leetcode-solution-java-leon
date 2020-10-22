@@ -16,6 +16,7 @@ References:
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
 4   0765    https://leetcode.com/problems/couples-holding-hands/
 4   0839    https://leetcode.com/problems/similar-string-groups/
+4   0924    https://leetcode.com/problems/minimize-malware-spread/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 4   0952    https://leetcode.com/problems/largest-component-size-by-common-factor/
 4   1258    https://leetcode.com/problems/synonymous-sentences/
