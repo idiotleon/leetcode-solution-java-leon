@@ -8,7 +8,7 @@
  *  https://leetcode.com/problems/circular-array-loop/discuss/94148/Java-SlowFast-Pointer-Solution/98467
  *  https://leetcode.com/problems/circular-array-loop/discuss/94148/Java-SlowFast-Pointer-Solution
  */
-package com.zea7ot.leetcode.lvl3.lc0457;
+package com.zea7ot.leetcode.lvl4.lc0457;
 
 public class SolutionApproach1FloydCycle {
     public boolean circularArrayLoop(int[] nums) {
