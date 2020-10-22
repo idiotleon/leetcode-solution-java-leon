@@ -7,6 +7,7 @@ References:
 ## String
 # Summary
 
+3   0990    https://leetcode.com/problems/satisfiability-of-equality-equations/
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 
 4   0839    https://leetcode.com/problems/similar-string-groups/

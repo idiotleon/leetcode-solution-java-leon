@@ -4,9 +4,6 @@ References:
 
 
 ### String
-# Union Find
+# String Array
 
 3   0990    https://leetcode.com/problems/satisfiability-of-equality-equations/
-3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
-
-4   1202    https://leetcode.com/problems/smallest-string-with-swaps/

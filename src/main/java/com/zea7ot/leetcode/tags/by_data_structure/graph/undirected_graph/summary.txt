@@ -13,6 +13,7 @@ References:
 3   0785    https://leetcode.com/problems/is-graph-bipartite/
 3   0841    https://leetcode.com/problems/keys-and-rooms/
 3   0886    https://leetcode.com/problems/possible-bipartition/
+3   0990    https://leetcode.com/problems/satisfiability-of-equality-equations/
 3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
 3   1059    https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
 3   1245    https://leetcode.com/problems/tree-diameter/
