@@ -1,0 +1,9 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### String
+# String Array
+
+3   0990    https://leetcode.com/problems/satisfiability-of-equality-equations/

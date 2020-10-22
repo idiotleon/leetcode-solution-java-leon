@@ -1,0 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Array
+## Sliding Window
+# Fixed-Size Sliding Window
+
+2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/

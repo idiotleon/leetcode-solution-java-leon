@@ -10,6 +10,7 @@ References:
 2   0017    https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 
+3   0990    https://leetcode.com/problems/satisfiability-of-equality-equations/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1236    https://leetcode.com/problems/web-crawler/
 3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/

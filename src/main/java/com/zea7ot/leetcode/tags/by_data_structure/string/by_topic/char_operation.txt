@@ -10,6 +10,8 @@ References:
 
 3   1156    https://leetcode.com/problems/swap-for-longest-repeated-character-substring/
 
+4   1202    https://leetcode.com/problems/smallest-string-with-swaps/
+
 
 
 # Replace

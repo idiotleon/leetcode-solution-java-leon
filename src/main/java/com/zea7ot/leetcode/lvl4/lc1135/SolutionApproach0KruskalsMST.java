@@ -12,7 +12,7 @@ package com.zea7ot.leetcode.lvl4.lc1135;
 
 import java.util.PriorityQueue;
 
-public class SolutionApproach0PrimMST {
+public class SolutionApproach0KruskalsMST {
     public int minimumCost(int N, int[][] connections) {     
         // not used
         // final int N_CONN = connections.length;

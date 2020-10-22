@@ -4,6 +4,11 @@ References:
 
 
 ### Games
+
+3   0289    https://leetcode.com/problems/game-of-life/
+
+
+
 ## Jump Game
 
 3   0055    https://leetcode.com/problems/jump-game/
@@ -12,6 +17,7 @@ References:
 4   0045    https://leetcode.com/problems/jump-game-ii/
 4   1340    https://leetcode.com/problems/jump-game-v/
 4   1345    https://leetcode.com/problems/jump-game-iv/
+
 
 
 ## Stone Game

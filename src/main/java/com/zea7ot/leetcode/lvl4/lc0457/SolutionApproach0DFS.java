@@ -10,7 +10,7 @@
  * References:
  *  https://leetcode.com/problems/circular-array-loop/discuss/395670/JAVA-simple-DFS-O(n)-beat-100-time-and-space
  */
-package com.zea7ot.leetcode.lvl3.lc0457;
+package com.zea7ot.leetcode.lvl4.lc0457;
 
 public class SolutionApproach0DFS {
     private static final int NOT_YET_VISITED = 0;

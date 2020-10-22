@@ -28,6 +28,7 @@ References:
 4   0505    https://leetcode.com/problems/the-maze-ii/
 4   0815    https://leetcode.com/problems/bus-routes/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
+4   0924    https://leetcode.com/problems/minimize-malware-spread/
 4   1210    https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/
 4   1248    https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/
 4   1258    https://leetcode.com/problems/synonymous-sentences/

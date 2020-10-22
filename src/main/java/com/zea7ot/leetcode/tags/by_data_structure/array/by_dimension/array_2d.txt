@@ -90,6 +90,7 @@ References:
 4   0815    https://leetcode.com/problems/bus-routes/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
+4   0924    https://leetcode.com/problems/minimize-malware-spread/
 4   0980    https://leetcode.com/problems/unique-paths-iii/
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/

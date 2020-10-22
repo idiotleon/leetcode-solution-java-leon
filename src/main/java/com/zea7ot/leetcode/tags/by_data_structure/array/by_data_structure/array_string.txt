@@ -15,6 +15,7 @@ References:
 3   0524    https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/
 3   0966    https://leetcode.com/problems/vowel-spellchecker/
+3   0990    https://leetcode.com/problems/satisfiability-of-equality-equations/
 3   1023    https://leetcode.com/problems/camelcase-matching/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
