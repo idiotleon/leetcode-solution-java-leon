@@ -25,6 +25,7 @@ References:
 
 3   0150    https://leetcode.com/problems/evaluate-reverse-polish-notation/
 3   0524    https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
+3   0838    https://leetcode.com/problems/push-dominoes/
 3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 3   1616    https://leetcode.com/problems/split-two-strings-to-make-palindrome/
 
