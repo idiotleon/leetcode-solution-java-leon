@@ -2,8 +2,8 @@
 References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
-#### Graph
-### Undirected Graph
+#### Union Find
+### Graph
 ## Minimum Spanning Tree
 # Prim's Algorithm
 

@@ -7,4 +7,4 @@ References:
 # Kruskal's Algorithm
 
 4   1135    https://leetcode.com/problems/connecting-cities-with-minimum-cost/
-
+4   1584    https://leetcode.com/problems/min-cost-to-connect-all-points/

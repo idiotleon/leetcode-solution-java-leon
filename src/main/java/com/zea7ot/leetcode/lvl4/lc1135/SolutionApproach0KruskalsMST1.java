@@ -11,7 +11,7 @@ package com.zea7ot.leetcode.lvl4.lc1135;
 
 import java.util.Arrays;
 
-public class SolutionApproach0KruskalMST {
+public class SolutionApproach0KruskalsMST1 {
     public int minimumCost(int N, int[][] connections) {
 
         // not used
