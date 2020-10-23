@@ -52,6 +52,8 @@ This file serves as the total list of problems related to Array, regardless of a
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/
 2   1103    https://leetcode.com/problems/distribute-candies-to-people/
+2   1151    https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/
+2   1176    https://leetcode.com/problems/diet-plan-performance/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
 2   1287    https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
 2   1375    https://leetcode.com/problems/bulb-switcher-iii/
@@ -301,6 +303,7 @@ This file serves as the total list of problems related to Array, regardless of a
 5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
 5   1036    https://leetcode.com/problems/escape-a-large-maze/
+5   1074    https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/
 
 6   0391    https://leetcode.com/problems/perfect-rectangle/
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/

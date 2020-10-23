@@ -12,6 +12,9 @@ References:
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   0997    https://leetcode.com/problems/find-the-town-judge/
 
+2   1151    https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/
+2   1176    https://leetcode.com/problems/diet-plan-performance/
+
 3   0011    https://leetcode.com/problems/container-with-most-water/
 3   0015    https://leetcode.com/problems/3sum/
 3   0016    https://leetcode.com/problems/3sum-closest/
@@ -33,6 +36,8 @@ References:
 4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0220    https://leetcode.com/problems/contains-duplicate-iii/
 4   0992    https://leetcode.com/problems/subarrays-with-k-different-integers/
+4   0995    https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/
+4   1499    https://leetcode.com/problems/max-value-of-equation/
 
 
 

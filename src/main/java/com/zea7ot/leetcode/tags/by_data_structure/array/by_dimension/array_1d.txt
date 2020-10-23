@@ -39,6 +39,8 @@ References:
 2   0989    https://leetcode.com/problems/add-to-array-form-of-integer/
 2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/
 2   1103    https://leetcode.com/problems/distribute-candies-to-people/
+2   1151    https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/
+2   1176    https://leetcode.com/problems/diet-plan-performance/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
 2   1287    https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
 2   1375    https://leetcode.com/problems/bulb-switcher-iii/
@@ -174,6 +176,7 @@ References:
 4   0956    https://leetcode.com/problems/tallest-billboard/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   0992    https://leetcode.com/problems/subarrays-with-k-different-integers/
+4   0995    https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/
 4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
 4   1040    https://leetcode.com/problems/moving-stones-until-consecutive-ii/
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/

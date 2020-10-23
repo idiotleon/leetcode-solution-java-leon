@@ -60,8 +60,10 @@ References:
 4   0769    https://leetcode.com/problems/max-chunks-to-make-sorted/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   0936    https://leetcode.com/problems/stamping-the-sequence/
+4   0995    https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/
 4   1135    https://leetcode.com/problems/connecting-cities-with-minimum-cost/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
+4   1499    https://leetcode.com/problems/max-value-of-equation/
 4   1584    https://leetcode.com/problems/min-cost-to-connect-all-points/
 
 5   0499    https://leetcode.com/problems/the-maze-iii/
