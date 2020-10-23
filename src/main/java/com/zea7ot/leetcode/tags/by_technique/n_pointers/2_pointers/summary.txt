@@ -9,6 +9,7 @@ References:
 1   0067    https://leetcode.com/problems/add-binary/
 1   0125    https://leetcode.com/problems/valid-palindrome/
 1   0345    https://leetcode.com/problems/reverse-vowels-of-a-string/
+1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   0643    https://leetcode.com/problems/maximum-average-subarray-i/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   1470    https://leetcode.com/problems/shuffle-the-array/

@@ -10,6 +10,7 @@ References:
 1   0088    https://leetcode.com/problems/merge-sorted-array/
 1   0189    https://leetcode.com/problems/rotate-array/
 1   0346    https://leetcode.com/problems/moving-average-from-data-stream/
+1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 
 2   0251    https://leetcode.com/problems/flatten-2d-vector/
 2   0463    https://leetcode.com/problems/island-perimeter/

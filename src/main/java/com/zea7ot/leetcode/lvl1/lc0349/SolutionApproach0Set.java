@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/intersection-of-two-arrays/
  * 
- * Time Complexity: O(N)
- * Space Complexity: O(N)
+ * Time Complexity:     O(N1 + N2)
+ * Space Complexity:    O(N1 + N2)
  * 
  * References:
  *  https://leetcode.com/problems/intersection-of-two-arrays/discuss/81969/Three-Java-Solutions
@@ -14,24 +14,28 @@ import java.util.Set;
 
 public class SolutionApproach0Set {
     public int[] intersection(int[] nums1, int[] nums2) {
-        Set<Integer> set = new HashSet<Integer>();
-        Set<Integer> intersect = new HashSet<Integer>();
-        for(int i = 0; i < nums1.length; i++){
-            set.add(nums1[i]);
+        // not used
+        // final int N1 = nums1.length, N2 = nums2.length;
+
+        Set<Integer> seenOnce = new HashSet<>();
+        Set<Integer> seenTwice = new HashSet<>();
+
+        for (int num : nums1) {
+            seenOnce.add(num);
         }
-        
-        for(int i = 0; i < nums2.length; i++){
-            if(set.contains(nums2[i])){
-                intersect.add(nums2[i]);
+
+        for (int num : nums2) {
+            if (seenOnce.contains(num)) {
+                seenTwice.add(num);
             }
         }
-        
-        int[] ans = new int[intersect.size()];
+
+        int[] ans = new int[seenTwice.size()];
         int idx = 0;
-        for(Integer num : intersect){
+        for (int num : seenTwice) {
             ans[idx++] = num;
         }
-        
+
         return ans;
     }
 }
