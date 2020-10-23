@@ -11,6 +11,8 @@ References:
 
 4   1177    https://leetcode.com/problems/can-make-palindrome-from-substring/
 
+5   1074    https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/
+
 
 
 Resources:

@@ -3,12 +3,7 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
-### Games
-
-3   0289    https://leetcode.com/problems/game-of-life/
-
-
-
+### Game
 ## Jump Game
 
 3   0055    https://leetcode.com/problems/jump-game/
@@ -18,16 +13,3 @@ References:
 4   1340    https://leetcode.com/problems/jump-game-v/
 4   1345    https://leetcode.com/problems/jump-game-iv/
 
-
-
-## Stone Game
-
-
-
-## Zuma Game
-
-
-
-## Snake Game
-
-4   1210    https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/

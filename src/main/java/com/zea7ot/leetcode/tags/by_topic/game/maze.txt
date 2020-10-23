@@ -4,7 +4,8 @@ References:
 
 
 ### By Topic
-## Maze
+## Game
+# Maze
 
 3   0490    https://leetcode.com/problems/the-maze/
 

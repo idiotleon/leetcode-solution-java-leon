@@ -1,0 +1,11 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Games
+## Other
+
+3   0289    https://leetcode.com/problems/game-of-life/
+
+4   0174    https://leetcode.com/problems/dungeon-game/
