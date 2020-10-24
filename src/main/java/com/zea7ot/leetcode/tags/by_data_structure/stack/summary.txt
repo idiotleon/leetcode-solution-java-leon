@@ -5,10 +5,15 @@ References:
 
 
 ### Stack
+# Summary
+
+1   1598    https://leetcode.com/problems/crawler-log-folder/
+1   1614    https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
 
 2   0226    https://leetcode.com/problems/invert-binary-tree/
 2   0496    https://leetcode.com/problems/next-greater-element-i/
 2   0971    https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/
+2   1021    https://leetcode.com/problems/remove-outermost-parentheses/
 2   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
 2   1047    https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
 2   1196    https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/

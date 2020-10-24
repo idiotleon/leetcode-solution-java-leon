@@ -1,13 +1,12 @@
 /**
- * https://leetcode.com/problems/partition-equal-subset-volumn/
+ * https://leetcode.com/problems/partition-equal-subset-volume/
  * 
- * Time Complexity:     O(N * VOLUMN)
- * Space Complexity:    O(VOLUMN)
+ * Time Complexity:     O(`N` * `volume`)
+ * Space Complexity:    O(`volume`)
  * 
  * the characteristic of Knapsack problems is that
  * its time and space complexity is highly related 
- * to the range, in this case the "volumn", of the actual problem
- * 
+ * to the range, in this case the "volume", of the actual problem
  * 
  * References:
  *  https://leetcode.com/problems/partition-equal-subset-sum/discuss/90627/Java-Solution-similar-to-backpack-problem-Easy-to-understand/95101
@@ -22,24 +21,27 @@ public class SolutionApproach0Knapsack1 {
         if (nums == null || nums.length == 0)
             return true;
 
-        int volumn = 0;
-        for (int num : nums)
-            volumn += num;
+        // not used
+        // final int N = nums.length;
 
-        if (volumn % 2 != 0)
+        int volume = 0;
+        for (int num : nums)
+            volume += num;
+
+        if (volume % 2 != 0)
             return false;
 
-        volumn /= 2;
+        volume /= 2;
 
-        boolean[] dp = new boolean[volumn + 1];
+        boolean[] dp = new boolean[volume + 1];
         dp[0] = true;
 
         for (int i = 0; i < nums.length; i++) {
-            for (int j = volumn; j >= nums[i]; --j) {
+            for (int j = volume; j >= nums[i]; --j) {
                 dp[j] = dp[j] || dp[j - nums[i]];
             }
         }
 
-        return dp[volumn];
+        return dp[volume];
     }
 }

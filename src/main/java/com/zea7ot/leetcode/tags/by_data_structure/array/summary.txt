@@ -106,6 +106,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0406    https://leetcode.com/problems/queue-reconstruction-by-height/
+3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
 3   0419    https://leetcode.com/problems/battleships-in-a-board/
 3   0435    https://leetcode.com/problems/non-overlapping-intervals/
 3   0436    https://leetcode.com/problems/find-right-interval/
@@ -147,7 +148,8 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0922    https://leetcode.com/problems/sort-array-by-parity-ii/
 3   0923    https://leetcode.com/problems/3sum-with-multiplicity/
 3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
-3   0935    https://leetcode.com/problems/knight-dialer/
+3   0935    https://leetcode.com/problems/knight-dialer/3   0948    https://leetcode.com/problems/bag-of-tokens/
+3   0948    https://leetcode.com/problems/bag-of-tokens/
 3   0949    https://leetcode.com/problems/largest-time-for-given-digits/
 3   0962    https://leetcode.com/problems/maximum-width-ramp/
 3   0966    https://leetcode.com/problems/vowel-spellchecker/

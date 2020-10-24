@@ -6,7 +6,10 @@ References:
 ### String
 # Parentheses
 
+1   1614    https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
+
 2   0022    https://leetcode.com/problems/generate-parentheses/
+2   1021    https://leetcode.com/problems/remove-outermost-parentheses/
 
 3   1249    https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
 3   1541    https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/

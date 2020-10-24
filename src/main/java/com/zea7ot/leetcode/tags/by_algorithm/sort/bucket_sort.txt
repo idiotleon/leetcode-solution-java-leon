@@ -7,6 +7,7 @@ References:
 # Bucket Sort
 
 2   0791    https://leetcode.com/problems/custom-sort-string/
+2   1365    https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
 
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   1057    https://leetcode.com/problems/campus-bikes/

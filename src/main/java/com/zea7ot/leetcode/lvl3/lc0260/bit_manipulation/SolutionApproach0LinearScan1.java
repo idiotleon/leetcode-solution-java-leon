@@ -7,9 +7,9 @@
  * References:
  *  https://leetcode.com/problems/single-number-iii/discuss/68900/Accepted-C%2B%2BJava-O(n)-time-O(1)-space-Easy-Solution-with-Detail-Explanations
  */
-package com.zea7ot.leetcode.lvl3.lc0260;
+package com.zea7ot.leetcode.lvl3.lc0260.bit_manipulation;
 
-public class SolutionApproach0BitManipulation {
+public class SolutionApproach0LinearScan1 {
     public int[] singleNumber(int[] nums) {
         // 1st pass
         int diff = 0;

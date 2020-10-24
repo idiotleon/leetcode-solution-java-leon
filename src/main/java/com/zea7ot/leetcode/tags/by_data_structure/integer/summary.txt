@@ -8,7 +8,9 @@ References:
 
 1   0258    https://leetcode.com/problems/add-digits/
 1   0509    https://leetcode.com/problems/fibonacci-number/
+1   1281    https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
 
+2   0136    https://leetcode.com/problems/single-number/
 2   0171    https://leetcode.com/problems/excel-sheet-column-number/
 2   0202    https://leetcode.com/problems/happy-number/
 2   0263    https://leetcode.com/problems/ugly-number/
@@ -17,6 +19,7 @@ References:
 
 3   0050    https://leetcode.com/problems/powx-n/
 3   0069    https://leetcode.com/problems/sqrtx/
+3   0137    https://leetcode.com/problems/single-number-ii/
 3   0216    https://leetcode.com/problems/combination-sum-iii/
 3   0254    https://leetcode.com/problems/factor-combinations/
 3   0279    https://leetcode.com/problems/perfect-squares/

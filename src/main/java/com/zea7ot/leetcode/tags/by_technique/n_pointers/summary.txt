@@ -18,11 +18,15 @@ References:
 1   0830    https://leetcode.com/problems/positions-of-large-groups/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   0997    https://leetcode.com/problems/find-the-town-judge/
+1   1108    https://leetcode.com/problems/defanging-an-ip-address/
+1   1165    https://leetcode.com/problems/single-row-keyboard/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
+1   1598    https://leetcode.com/problems/crawler-log-folder/
 
 2   0002    https://leetcode.com/problems/add-two-numbers/
 2   0003    https://leetcode.com/problems/longest-substring-without-repeating-characters/
 2   0038    https://leetcode.com/problems/count-and-say/
+2   0136    https://leetcode.com/problems/single-number/
 2   0165    https://leetcode.com/problems/compare-version-numbers/
 2   0171    https://leetcode.com/problems/excel-sheet-column-number/
 2   0205    https://leetcode.com/problems/isomorphic-strings/
@@ -93,6 +97,7 @@ References:
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0922    https://leetcode.com/problems/sort-array-by-parity-ii/
 3   0923    https://leetcode.com/problems/3sum-with-multiplicity/
+3   0948    https://leetcode.com/problems/bag-of-tokens/
 3   0962    https://leetcode.com/problems/maximum-width-ramp/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/

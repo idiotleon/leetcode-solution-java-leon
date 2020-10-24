@@ -12,7 +12,7 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0300;
 
-public class SolutionApproach2DFS {
+public class SolutionApproach4DFSNaive {
     public int lengthOfLIS(int[] nums) {
         // santiy check
         if (nums == null || nums.length == 0)

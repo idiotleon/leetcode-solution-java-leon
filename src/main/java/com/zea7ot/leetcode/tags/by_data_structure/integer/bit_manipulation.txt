@@ -7,4 +7,5 @@ References:
 # Bit Manipulation
 
 3   0050    https://leetcode.com/problems/powx-n/
+2   0136    https://leetcode.com/problems/single-number/
 3   0477    https://leetcode.com/problems/total-hamming-distance/

@@ -16,6 +16,7 @@ References:
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0001    https://leetcode.com/problems/two-sum/
+2   0136    https://leetcode.com/problems/single-number/
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 2   0251    https://leetcode.com/problems/flatten-2d-vector/
 2   0287    https://leetcode.com/problems/find-the-duplicate-number/
@@ -52,6 +53,7 @@ References:
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0922    https://leetcode.com/problems/sort-array-by-parity-ii/
 3   0923    https://leetcode.com/problems/3sum-with-multiplicity/
+3   0948    https://leetcode.com/problems/bag-of-tokens/
 3   0962    https://leetcode.com/problems/maximum-width-ramp/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
