@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/partition-equal-subset-sum/
  * 
- * Time Complexity:     
- * Space Complexity:    
+ * Time Complexity:     O(`N` * `volume`)
+ * Space Complexity:    O(`volume`) 
  * 
  * Since the problem is a 0-1 backpack problem, 
  * we only have two choices which are take or not. 
@@ -23,25 +23,28 @@ public class SolutionApproach0Knapsack2 {
         if (nums == null || nums.length == 0)
             return true;
 
+        // not used
+        // final int N = nums.length;
+
         // to preprocess
-        int volumn = 0;
+        int volume = 0;
         for (int num : nums) {
-            volumn += num;
+            volume += num;
         }
-        if (volumn % 2 != 0)
+        if (volume % 2 != 0)
             return false;
 
-        volumn /= 2;
-        boolean[] dp = new boolean[volumn + 1];
+        volume /= 2;
+        boolean[] dp = new boolean[volume + 1];
         dp[0] = true;
         for (int i = 1; i <= nums.length; i++) {
-            for (int j = volumn; j >= nums[i - 1]; j--) {
-                if (dp[volumn])
+            for (int j = volume; j >= nums[i - 1]; j--) {
+                if (dp[volume])
                     return true;
                 dp[j] = dp[j] || dp[j - nums[i - 1]];
             }
         }
 
-        return dp[volumn];
+        return dp[volume];
     }
 }

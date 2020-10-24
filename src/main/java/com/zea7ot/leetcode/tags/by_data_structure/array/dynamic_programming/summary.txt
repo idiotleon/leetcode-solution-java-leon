@@ -21,6 +21,7 @@ References:
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
+3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
 3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
 3   0494    https://leetcode.com/problems/target-sum/
 3   0518    https://leetcode.com/problems/coin-change-2/

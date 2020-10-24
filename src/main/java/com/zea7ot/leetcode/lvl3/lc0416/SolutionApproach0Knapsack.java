@@ -1,12 +1,12 @@
 /**
- * https://leetcode.com/problems/partition-equal-subset-volumn/
+ * https://leetcode.com/problems/partition-equal-subset-volume/
  * 
- * Time Complexity:     O(N * VOLUMN)
- * Space Complexity:    O(VOLUMN)
+ * Time Complexity:     O(`N` * `volume`)
+ * Space Complexity:    O(`volume`)
  * 
  * the characteristic of Knapsack problems is that
  * its time and space complexity is highly related 
- * to the range, in this case the "volumn", of the actual problem
+ * to the range, in this case the "volume", of the actual problem
  * 
  * References:
  *  https://youtu.be/r6I-ikllNDM
@@ -20,23 +20,27 @@ public class SolutionApproach0Knapsack {
         if (nums == null || nums.length == 0)
             return false;
 
-        int volumn = 0;
+        // not used
+        // final int N = nums.length;
+
+        int volume = 0;
         for (int num : nums) {
-            volumn += num;
+            volume += num;
         }
-        if (volumn % 2 != 0)
+        if (volume % 2 != 0)
             return false;
 
-        int[] dp = new int[volumn + 1];
-        dp[0] = 1;
+        boolean[] dp = new boolean[volume + 1];
+        dp[0] = true;
 
         for (int num : nums) {
-            for (int i = volumn; i >= 0; --i) {
-                if (dp[i] > 0) {
-                    dp[i + num] = 1;
+            for (int sum = volume; sum >= 0; --sum) {
+                if (dp[sum]) {
+                    dp[sum + num] = true;
                 }
             }
-            if (dp[volumn / 2] > 0)
+
+            if (dp[volume / 2])
                 return true;
         }
 

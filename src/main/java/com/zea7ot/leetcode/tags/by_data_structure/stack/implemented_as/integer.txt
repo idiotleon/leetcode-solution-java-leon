@@ -7,6 +7,10 @@ References:
 ### Stack
 # Integers as Stacks
 
+1   1614    https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
+
+2   1021    https://leetcode.com/problems/remove-outermost-parentheses/
+
 3   1541    https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/
 
 4   0301    https://leetcode.com/problems/remove-invalid-parentheses/

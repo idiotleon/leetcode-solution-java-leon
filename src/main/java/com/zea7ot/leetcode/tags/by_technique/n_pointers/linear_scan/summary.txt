@@ -11,6 +11,8 @@ References:
 1   0189    https://leetcode.com/problems/rotate-array/
 1   0346    https://leetcode.com/problems/moving-average-from-data-stream/
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
+1   1108    https://leetcode.com/problems/defanging-an-ip-address/
+1   1598    https://leetcode.com/problems/crawler-log-folder/
 
 2   0002    https://leetcode.com/problems/add-two-numbers/
 2   0038    https://leetcode.com/problems/count-and-say/
