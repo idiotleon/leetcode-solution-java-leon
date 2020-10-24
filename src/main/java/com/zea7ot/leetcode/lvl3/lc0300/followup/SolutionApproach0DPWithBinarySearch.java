@@ -4,7 +4,6 @@
  * Time Complexity:     O(N * lg(N))
  * Space Complexity:    O(N)
  * 
- * 
  * key steps:
  *  1. if nums[i] is smaller than the smallest tail(tails[0]), to simply update tails[0] with nums[i];
  *  2. if nums[i] is larger than the largest tail(tails[len]), to simply append it to tails(tails[++len] = nums[i]);
@@ -33,13 +32,14 @@ public class SolutionApproach0DPWithBinarySearch {
             if (nums[i] < tails[0]) {
                 tails[0] = nums[i];
             } else if (nums[i] > tails[len]) {
-                tails[++len] = nums[i];
+                ++len;
+                tails[len] = nums[i];
             } else {
                 tails[lowerBound(0, len, tails, nums[i])] = nums[i];
             }
         }
 
-        return len + 1;
+        return 1 + len;
     }
 
     private int lowerBound(int lo, int hi, int[] tails, int target) {

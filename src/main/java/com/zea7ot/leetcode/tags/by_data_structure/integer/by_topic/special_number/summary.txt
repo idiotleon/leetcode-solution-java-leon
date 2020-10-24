@@ -4,14 +4,18 @@ References:
 
 
 ### Integer
-# Special Number
+## Special Number
+# Summary
 
 1   1056    https://leetcode.com/problems/confusing-number/
 
+2   0136    https://leetcode.com/problems/single-number/
 2   0246    https://leetcode.com/problems/strobogrammatic-number/
 2   0263    https://leetcode.com/problems/ugly-number/
 
+3   0137    https://leetcode.com/problems/single-number-ii/
 3   0247    https://leetcode.com/problems/strobogrammatic-number-ii/
+3   0260    https://leetcode.com/problems/single-number-iii/
 3   1215    https://leetcode.com/problems/stepping-numbers/
 3   1201    https://leetcode.com/problems/ugly-number-iii/
 

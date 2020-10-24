@@ -4,8 +4,9 @@ References:
 
 
 ### Integer
-# Bit Manipulation
+# Single Number
 
-3   0050    https://leetcode.com/problems/powx-n/
 2   0136    https://leetcode.com/problems/single-number/
-3   0477    https://leetcode.com/problems/total-hamming-distance/
+
+3   0137    https://leetcode.com/problems/single-number-ii/
+3   0260    https://leetcode.com/problems/single-number-iii/

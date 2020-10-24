@@ -12,10 +12,12 @@ References:
 1   0346    https://leetcode.com/problems/moving-average-from-data-stream/
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   1108    https://leetcode.com/problems/defanging-an-ip-address/
+1   1165    https://leetcode.com/problems/single-row-keyboard/
 1   1598    https://leetcode.com/problems/crawler-log-folder/
 
 2   0002    https://leetcode.com/problems/add-two-numbers/
 2   0038    https://leetcode.com/problems/count-and-say/
+2   0136    https://leetcode.com/problems/single-number/
 2   0157    https://leetcode.com/problems/read-n-characters-given-read4/
 2   0165    https://leetcode.com/problems/compare-version-numbers/
 2   0171    https://leetcode.com/problems/excel-sheet-column-number/

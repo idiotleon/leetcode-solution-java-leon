@@ -10,7 +10,7 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0300;
 
-public class SolutionApproach1DFSMemo {
+public class SolutionApproach0DFSMemo {
     public int lengthOfLIS(int[] nums) {
         // sanity check
         if (nums == null || nums.length == 0)
@@ -20,18 +20,18 @@ public class SolutionApproach1DFSMemo {
         int[] memo = new int[N];
         // this corresponds to line 46
         // Arrays.fill(memo, 1);
-        int ans = 0;
+        int longest = 0;
         for (int i = 0; i < N; ++i) {
-            ans = Math.max(ans, dfs(nums, i, memo));
+            longest = Math.max(longest, dfs(i, nums, memo));
         }
 
-        return ans;
+        return longest;
     }
 
     /**
      * to return the length of LIS ending with nums[idx]
      */
-    private int dfs(final int[] nums, int idx, final int[] memo) {
+    private int dfs(int idx, int[] nums, int[] memo) {
         if (idx == 0)
             return 1;
         // this corresponds to line 31
@@ -39,14 +39,14 @@ public class SolutionApproach1DFSMemo {
         if (memo[idx] > 0)
             return memo[idx];
 
-        int res = 1;
-        for (int i = 0; i < idx; i++) {
-            if (nums[idx] > nums[i]) {
-                res = Math.max(res, dfs(nums, i, memo) + 1);
+        int longest = 1;
+        int hi = idx;
+        for (int lo = 0; lo < hi; ++lo) {
+            if (nums[idx] > nums[lo]) {
+                longest = Math.max(longest, 1 + dfs(lo, nums, memo));
             }
         }
 
-        memo[idx] = res;
-        return res;
+        return memo[idx] = longest;
     }
 }

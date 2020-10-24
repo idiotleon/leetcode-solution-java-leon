@@ -11,5 +11,10 @@ References:
 1   0389    https://leetcode.com/problems/find-the-difference/
 1   1009    https://leetcode.com/problems/complement-of-base-10-integer/
 
+2   0136    https://leetcode.com/problems/single-number/
+
+3   0137    https://leetcode.com/problems/single-number-ii/
+3   0260    https://leetcode.com/problems/single-number-iii/
+
 4   0995    https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/
 4   1248    https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/

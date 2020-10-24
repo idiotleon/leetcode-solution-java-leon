@@ -14,6 +14,7 @@ References:
 1   0389    https://leetcode.com/problems/find-the-difference/
 1   0520    https://leetcode.com/problems/detect-capital/
 1   0557    https://leetcode.com/problems/reverse-words-in-a-string-iii/
+1   1165    https://leetcode.com/problems/single-row-keyboard/
 1   1614    https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
 
 2   0003    https://leetcode.com/problems/longest-substring-without-repeating-characters/
