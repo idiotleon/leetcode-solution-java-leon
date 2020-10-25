@@ -34,8 +34,8 @@ public class SolutionApproach0SweepLine {
         Arrays.sort(points);
         TreeMap<Integer, Integer> skyline = new TreeMap<Integer, Integer>();
         skyline.put(0, 1);
-        int prevMaxHeight = 0;
 
+        int prevMaxHeight = 0;
         for (BuildingPoint point : points) {
             if (point.isStart) {
                 // to put the key/height into the map, if it does not exist,
@@ -45,8 +45,9 @@ public class SolutionApproach0SweepLine {
                 // to decrease the value of key/point by 1,
                 // to completely remove the entry, if its value is 0.
                 skyline.put(point.height, skyline.getOrDefault(point.height, 1) - 1);
-                if (skyline.get(point.height) == 0)
+                if (skyline.get(point.height) == 0) {
                     skyline.remove(point.height);
+                }
             }
 
             int curMaxHeight = skyline.lastKey();

@@ -66,6 +66,7 @@ This serves the list of all the LC problems related to Binary Search, regardless
 4   0719    https://leetcode.com/problems/find-k-th-smallest-pair-distance/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+4   1102    https://leetcode.com/problems/path-with-maximum-minimum-value/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/

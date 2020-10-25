@@ -8,3 +8,5 @@ References:
 # Greedy
 
 3   1042    https://leetcode.com/problems/flower-planting-with-no-adjacent/
+
+4   1102    https://leetcode.com/problems/path-with-maximum-minimum-value/
