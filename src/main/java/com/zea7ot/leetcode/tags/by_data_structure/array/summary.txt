@@ -53,6 +53,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/
 2   1103    https://leetcode.com/problems/distribute-candies-to-people/
 2   1151    https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/
+2   1167    https://leetcode.com/problems/minimum-cost-to-connect-sticks/
 2   1176    https://leetcode.com/problems/diet-plan-performance/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
 2   1287    https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/

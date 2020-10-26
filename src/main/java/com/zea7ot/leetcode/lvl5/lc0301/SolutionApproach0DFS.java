@@ -8,7 +8,7 @@
  *  https://leetcode.com/problems/remove-invalid-parentheses/discuss/75027/Easy-Short-Concise-and-Fast-Java-DFS-3-ms-solution/156556
  *  https://zxi.mytechroad.com/blog/searching/leetcode-301-remove-invalid-parentheses/
  */
-package com.zea7ot.leetcode.lvl4.lc0301;
+package com.zea7ot.leetcode.lvl5.lc0301;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,24 +29,28 @@ public class SolutionApproach0DFS {
         return ans;
     }
 
-    private void dfs(int iStart, int jStart, String str, final char OPEN_PAREN, final char CLOSED_PAREN,
+    private void dfs(int loStart, int hiStart, String str, final char OPEN_PAREN, final char CLOSED_PAREN,
             List<String> res) {
 
         final int L = str.length();
         final char[] CHS = str.toCharArray();
 
         int stack = 0;
-        for (int i = iStart; i < L; ++i) {
-            if (CHS[i] == OPEN_PAREN)
+        for (int hi = hiStart; hi < L; ++hi) {
+            if (CHS[hi] == OPEN_PAREN)
                 ++stack;
-            if (CHS[i] == CLOSED_PAREN)
+            if (CHS[hi] == CLOSED_PAREN)
                 --stack;
             if (stack >= 0)
                 continue;
 
-            for (int j = jStart; j <= i; ++j) {
-                if (CHS[j] == CLOSED_PAREN && (j == jStart || CHS[j - 1] != CLOSED_PAREN))
-                    dfs(i, j, str.substring(0, j) + str.substring(j + 1), OPEN_PAREN, CLOSED_PAREN, res);
+            for (int lo = loStart; lo <= hi; ++lo) {
+                if (CHS[lo] == CLOSED_PAREN && (lo == loStart || CHS[lo - 1] != CLOSED_PAREN)) {
+                    String deleted = new StringBuilder(str).deleteCharAt(lo).toString();
+                    // or equivalently
+                    // String deleted = str.substring(0, lo) + str.substring(lo + 1);
+                    dfs(lo, hi, deleted, OPEN_PAREN, CLOSED_PAREN, res);
+                }
             }
 
             return;

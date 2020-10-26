@@ -9,7 +9,7 @@
  * References:
  *  https://leetcode.com/problems/remove-invalid-parentheses/discuss/75032/Share-my-Java-BFS-solution
  */
-package com.zea7ot.leetcode.lvl4.lc0301;
+package com.zea7ot.leetcode.lvl5.lc0301;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
