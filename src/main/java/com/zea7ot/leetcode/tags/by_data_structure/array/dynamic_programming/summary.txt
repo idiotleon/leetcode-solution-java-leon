@@ -53,6 +53,7 @@ References:
 4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0799    https://leetcode.com/problems/champagne-tower/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   0879    https://leetcode.com/problems/profitable-schemes/
