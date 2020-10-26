@@ -87,6 +87,7 @@ References:
 3   0320    https://leetcode.com/problems/generalized-abbreviation/
 3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 3   0331    https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/
+3   0332    https://leetcode.com/problems/reconstruct-itinerary/
 3   0333    https://leetcode.com/problems/largest-bst-subtree/
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/
 3   0357    https://leetcode.com/problems/count-numbers-with-unique-digits/

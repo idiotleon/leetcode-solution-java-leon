@@ -92,6 +92,7 @@ References:
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   0835    https://leetcode.com/problems/image-overlap/
 3   0840    https://leetcode.com/problems/magic-squares-in-grid/
+2   0844    https://leetcode.com/problems/backspace-string-compare/
 3   0845    https://leetcode.com/problems/longest-mountain-in-array/
 3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/

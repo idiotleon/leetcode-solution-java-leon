@@ -20,6 +20,7 @@ References:
 2   0408    https://leetcode.com/problems/valid-word-abbreviation/
 2   0443    https://leetcode.com/problems/string-compression/
 2   0567    https://leetcode.com/problems/permutation-in-string/
+2   0844    https://leetcode.com/problems/backspace-string-compare/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   0925    https://leetcode.com/problems/long-pressed-name/
 2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/
