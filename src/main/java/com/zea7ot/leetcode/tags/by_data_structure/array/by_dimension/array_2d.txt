@@ -79,6 +79,7 @@ References:
 4   0317    https://leetcode.com/problems/shortest-distance-from-all-buildings/
 4   0329    https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
 4   0351    https://leetcode.com/problems/android-unlock-patterns/
+4   0354    https://leetcode.com/problems/russian-doll-envelopes/
 4   0407    https://leetcode.com/problems/trapping-rain-water-ii/
 4   0489    https://leetcode.com/problems/robot-room-cleaner/
 4   0505    https://leetcode.com/problems/the-maze-ii/
@@ -93,6 +94,7 @@ References:
 4   0924    https://leetcode.com/problems/minimize-malware-spread/
 4   0980    https://leetcode.com/problems/unique-paths-iii/
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
+4   1102    https://leetcode.com/problems/path-with-maximum-minimum-value/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1210    https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/
 4   1248    https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/

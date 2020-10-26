@@ -28,3 +28,5 @@ References:
 ### Uncertain by now
 
 3   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
+
+4   1102    https://leetcode.com/problems/path-with-maximum-minimum-value/

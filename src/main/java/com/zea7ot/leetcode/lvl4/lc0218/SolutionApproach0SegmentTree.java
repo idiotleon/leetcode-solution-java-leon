@@ -6,8 +6,8 @@
  * 
  * References:
  *  https://leetcode.com/problems/the-skyline-problem/discuss/61313/A-segment-tree-solution/185639
- *  https://www.youtube.com/watch?v=ZBHKZF5w4YU&list=PLXjkndB54dnJ9Ml7J7M85TB_pyvcVVuGi&index=2
- *  https://www.youtube.com/watch?v=xuoQdt5pHj0&list=PLXjkndB54dnJ9Ml7J7M85TB_pyvcVVuGi&index=3
+ *  https://youtu.be/ZBHKZF5w4YU
+ *  https://youtu.be/xuoQdt5pHj0
  */
 package com.zea7ot.leetcode.lvl4.lc0218;
 
@@ -39,8 +39,9 @@ public class SolutionApproach0SegmentTree {
 
         // to turn `k` into 0-indexed
         --k;
-        for (int[] building : buildings)
+        for (int[] building : buildings) {
             segTree.update(1, map.get(building[0]), map.get(building[1]) - 1, building[2], 0, k);
+        }
 
         int prevHeight = 0, curHeight = 0;
         List<List<Integer>> ans = new ArrayList<>();

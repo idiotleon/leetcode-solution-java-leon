@@ -13,6 +13,7 @@ References:
 
 4   0407    https://leetcode.com/problems/trapping-rain-water-ii/
 4   0505    https://leetcode.com/problems/the-maze-ii/
+4   1102    https://leetcode.com/problems/path-with-maximum-minimum-value/
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 

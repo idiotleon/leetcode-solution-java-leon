@@ -42,6 +42,7 @@ References:
 4   0768    https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
 4   0769    https://leetcode.com/problems/max-chunks-to-make-sorted/
 4   0995    https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/
+4   1102    https://leetcode.com/problems/path-with-maximum-minimum-value/
 
 5   0850    https://leetcode.com/problems/rectangle-area-ii/
 
