@@ -14,32 +14,37 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class SolutionApproach0Stack {
+    private static final char OPEN_SQUARE_BRACKET = '[';
+    private static final char CLOSED_SQUARE_BRACKED = ']';
+
     public String decodeString(String s) {
         // sanity check
         if (s == null || s.isEmpty())
             return "";
 
-        Deque<Integer> times = new ArrayDeque<>();
+        Deque<Integer> repetitiveTimes = new ArrayDeque<>();
         Deque<StringBuilder> stack = new ArrayDeque<>();
         StringBuilder builder = new StringBuilder();
 
-        int k = 0;
+        int repNum = 0;
         for (char ch : s.toCharArray()) {
             if (Character.isDigit(ch)) {
-                k = k * 10 + ch - '0';
-            } else if (ch == '[') {
-                times.push(k);
+                repNum = repNum * 10 + ch - '0';
+            } else if (ch == OPEN_SQUARE_BRACKET) {
+                repetitiveTimes.push(repNum);
                 stack.push(builder);
                 builder = new StringBuilder();
-                k = 0;
-            } else if (ch == ']') {
-                StringBuilder temp = builder;
+                repNum = 0;
+            } else if (ch == CLOSED_SQUARE_BRACKED) {
+                StringBuilder subBuilder = builder;
                 builder = stack.pop();
-                int repeated = times.pop();
-                while (repeated-- > 0)
-                    builder.append(temp);
-            } else
+                int repeated = repetitiveTimes.pop();
+                while (repeated-- > 0) {
+                    builder.append(subBuilder);
+                }
+            } else {
                 builder.append(ch);
+            }
         }
 
         return builder.toString();
