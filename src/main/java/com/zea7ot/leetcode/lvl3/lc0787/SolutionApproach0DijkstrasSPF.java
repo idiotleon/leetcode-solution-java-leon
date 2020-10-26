@@ -28,9 +28,10 @@ public class SolutionApproach0DijkstrasSPF {
             Flight cur = minHeap.poll();
             int city = cur.city;
             int price = cur.price;
-            int stops = cur.stops;
             if (city == dst)
                 return price;
+
+            int stops = cur.stops;
             if (stops > 0) {
                 for (Flight next : graph.get(city)) {
                     minHeap.add(new Flight(next.city, price + next.price, stops - 1));

@@ -58,6 +58,7 @@ This serves the list of all the LC problems related to Binary Search, regardless
 4   0240    https://leetcode.com/problems/search-a-2d-matrix-ii/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
+4   0354    https://leetcode.com/problems/russian-doll-envelopes/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0540    https://leetcode.com/problems/single-element-in-a-sorted-array/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/

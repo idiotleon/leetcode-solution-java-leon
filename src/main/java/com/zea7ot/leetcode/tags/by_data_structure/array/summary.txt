@@ -215,6 +215,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0329    https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
 4   0375    https://leetcode.com/problems/guess-number-higher-or-lower-ii/
 4   0351    https://leetcode.com/problems/android-unlock-patterns/
+4   0354    https://leetcode.com/problems/russian-doll-envelopes/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0407    https://leetcode.com/problems/trapping-rain-water-ii/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
@@ -296,7 +297,6 @@ This file serves as the total list of problems related to Array, regardless of a
 5   0212    https://leetcode.com/problems/word-search-ii/
 5   0324    https://leetcode.com/problems/wiggle-sort-ii/
 5   0327    https://leetcode.com/problems/count-of-range-sum/
-5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0493    https://leetcode.com/problems/reverse-pairs/
 5   0644    https://leetcode.com/problems/maximum-average-subarray-ii/
 5   0774    https://leetcode.com/problems/minimize-max-distance-to-gas-station/
