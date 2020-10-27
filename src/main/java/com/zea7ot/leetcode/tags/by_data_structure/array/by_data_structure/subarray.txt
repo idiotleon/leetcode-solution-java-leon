@@ -35,6 +35,7 @@ References:
 4   0220    https://leetcode.com/problems/contains-duplicate-iii/
 4   0321    https://leetcode.com/problems/create-maximum-number/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0486    https://leetcode.com/problems/predict-the-winner/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/

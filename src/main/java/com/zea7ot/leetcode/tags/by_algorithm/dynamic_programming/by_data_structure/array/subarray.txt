@@ -15,6 +15,7 @@ References:
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
+4   0486    https://leetcode.com/problems/predict-the-winner/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/

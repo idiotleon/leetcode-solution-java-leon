@@ -1,12 +1,9 @@
 @author: Leon
 References:
-    https://leetcode.com/tag/dynamic-programming/
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
-  
-### Dynamic Programming
-# minimax
 
-4   0294    https://leetcode.com/problems/flip-game-ii/
-4   0464    https://leetcode.com/problems/can-i-win/
+### Dynamic Programming
+## Minimax
+
 4   0486    https://leetcode.com/problems/predict-the-winner/

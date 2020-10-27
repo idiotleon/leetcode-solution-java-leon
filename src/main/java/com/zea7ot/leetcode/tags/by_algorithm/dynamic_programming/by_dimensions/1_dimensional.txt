@@ -58,6 +58,7 @@ References:
 4   0313    https://leetcode.com/problems/super-ugly-number/
 4   0354    https://leetcode.com/problems/russian-doll-envelopes/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
+4   0486    https://leetcode.com/problems/predict-the-winner/
 4   0639    https://leetcode.com/problems/decode-ways-ii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/

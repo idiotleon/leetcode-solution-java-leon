@@ -11,6 +11,7 @@ References:
 
 4   0337    https://leetcode.com/problems/house-robber-iii/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
+4   0486    https://leetcode.com/problems/predict-the-winner/
 4   0799    https://leetcode.com/problems/champagne-tower/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
