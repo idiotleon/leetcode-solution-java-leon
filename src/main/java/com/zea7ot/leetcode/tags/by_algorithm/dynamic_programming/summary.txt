@@ -20,6 +20,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 2   0413    https://leetcode.com/problems/arithmetic-slices/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
+2   1167    https://leetcode.com/problems/minimum-cost-to-connect-sticks/
 
 3   0005    https://leetcode.com/problems/longest-palindromic-substring/
 3   0091    https://leetcode.com/problems/decode-ways/
@@ -90,6 +91,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0727    https://leetcode.com/problems/minimum-window-subsequence/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0799    https://leetcode.com/problems/champagne-tower/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/

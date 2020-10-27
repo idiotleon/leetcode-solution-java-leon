@@ -13,14 +13,18 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class SolutionApproach0DFSRecursive {
+    private static final char OPEN_SQUARE_BRACKET = '[';
+    private static final char CLOSED_SQUARE_BRACKED = ']';
+
     public String decodeString(String s) {
         // sanity check
         if (s == null || s.isEmpty())
             return "";
 
         Deque<Character> queue = new ArrayDeque<>();
-        for (char ch : s.toCharArray())
+        for (char ch : s.toCharArray()) {
             queue.offer(ch);
+        }
 
         return dfs(queue);
     }
@@ -32,16 +36,18 @@ public class SolutionApproach0DFSRecursive {
             final char CH = queue.poll();
             if (Character.isDigit(CH)) {
                 num = num * 10 + CH - '0';
-            } else if (CH == '[') {
+            } else if (CH == OPEN_SQUARE_BRACKET) {
                 String sub = dfs(queue);
-                for (int i = 0; i < num; ++i)
+                for (int i = 0; i < num; ++i) {
                     builder.append(sub);
+                }
 
                 num = 0;
-            } else if (CH == ']')
+            } else if (CH == CLOSED_SQUARE_BRACKED)
                 break;
-            else
+            else {
                 builder.append(CH);
+            }
         }
 
         return builder.toString();

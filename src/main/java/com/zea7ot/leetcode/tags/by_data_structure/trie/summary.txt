@@ -29,6 +29,7 @@ References:
 5   0527    https://leetcode.com/problems/word-abbreviation/
 5   0588    https://leetcode.com/problems/design-in-memory-file-system/
 5   0642    https://leetcode.com/problems/design-search-autocomplete-system/
+5   1178    https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/
 
 
 Resource:

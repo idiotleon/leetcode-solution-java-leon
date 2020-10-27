@@ -22,6 +22,7 @@ References:
 2   0361    https://leetcode.com/problems/bomb-enemy/
 2   0413    https://leetcode.com/problems/arithmetic-slices/
 2   0674    https://leetcode.com/problems/longest-continuous-increasing-subsequence/
+2   1167    https://leetcode.com/problems/minimum-cost-to-connect-sticks/
 
 3   0091    https://leetcode.com/problems/decode-ways/
 3   0096    https://leetcode.com/problems/unique-binary-search-trees/
@@ -62,6 +63,7 @@ References:
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0740    https://leetcode.com/problems/delete-and-earn/
+4   0799    https://leetcode.com/problems/champagne-tower/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/

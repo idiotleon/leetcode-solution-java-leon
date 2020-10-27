@@ -87,6 +87,7 @@ References:
 3   0320    https://leetcode.com/problems/generalized-abbreviation/
 3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 3   0331    https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/
+3   0332    https://leetcode.com/problems/reconstruct-itinerary/
 3   0333    https://leetcode.com/problems/largest-bst-subtree/
 3   0339    https://leetcode.com/problems/nested-list-weight-sum/
 3   0357    https://leetcode.com/problems/count-numbers-with-unique-digits/
@@ -204,6 +205,7 @@ References:
 4   0726    https://leetcode.com/problems/number-of-atoms/
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
+4   0799    https://leetcode.com/problems/champagne-tower/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0839    https://leetcode.com/problems/similar-string-groups/
 4   0854    https://leetcode.com/problems/k-similar-strings/
@@ -211,6 +213,7 @@ References:
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
 4   0894    https://leetcode.com/problems/all-possible-full-binary-trees/
 4   0924    https://leetcode.com/problems/minimize-malware-spread/
+4   0928    https://leetcode.com/problems/minimize-malware-spread-ii/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 4   0968    https://leetcode.com/problems/binary-tree-cameras/
 4   0979    https://leetcode.com/problems/distribute-coins-in-binary-tree/
@@ -253,6 +256,7 @@ References:
 5   0834    https://leetcode.com/problems/sum-of-distances-in-tree/
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
 5   1036    https://leetcode.com/problems/escape-a-large-maze/
+5   1178    https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/
 5   1203    https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
 5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
 5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/

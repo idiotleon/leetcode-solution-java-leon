@@ -58,6 +58,7 @@ References:
 4   0963    https://leetcode.com/problems/minimum-area-rectangle-ii/
 4   1040    https://leetcode.com/problems/moving-stones-until-consecutive-ii/
 4   1093    https://leetcode.com/problems/statistics-from-a-large-sample/
+4   1250    https://leetcode.com/problems/check-if-it-is-a-good-array/
 4   1411    https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/
 4   1610    https://leetcode.com/problems/maximum-number-of-visible-points/
 

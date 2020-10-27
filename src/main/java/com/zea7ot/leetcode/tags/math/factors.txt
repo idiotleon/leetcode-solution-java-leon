@@ -7,11 +7,15 @@ References:
 
 3   1201    https://leetcode.com/problems/ugly-number-iii/
 
+4   1250    https://leetcode.com/problems/check-if-it-is-a-good-array/
+
 
 
 ## Greatest Common Divisor
 
 2   1071    https://leetcode.com/problems/greatest-common-divisor-of-strings/
+
+4   1250    https://leetcode.com/problems/check-if-it-is-a-good-array/
 
 
 

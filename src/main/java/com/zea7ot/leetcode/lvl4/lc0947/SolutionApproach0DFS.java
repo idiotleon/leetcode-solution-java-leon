@@ -17,32 +17,34 @@ import java.util.Set;
 public class SolutionApproach0DFS {
     public int removeStones(int[][] stones) {
         // sanity check
-        if(stones == null || stones.length == 0) return 0;
-        
+        if (stones == null || stones.length == 0)
+            return 0;
+
         final int N = stones.length;
-        
+
         int count = 0;
-        Set<Integer> visited = new HashSet<Integer>();
-        for(int i = 0; i < N; i++){
-            if(visited.contains(i)) continue;
-            count++;
-            dfs(stones, visited, i);
+        Set<Integer> visited = new HashSet<>();
+        for (int i = 0; i < N; i++) {
+            if (visited.contains(i))
+                continue;
+
+            ++count;
+            dfs(i, visited, stones);
         }
-        
+
         return N - count;
     }
-    
-    private void dfs(int[][] stones, 
-                     Set<Integer> visited, 
-                     int index){
+
+    private void dfs(int index, Set<Integer> visited, int[][] stones) {
+        final int N = stones.length;
         visited.add(index);
-        
-        for(int i = 0; i < stones.length; i++){
-            if(visited.contains(i)) continue;
-            
-            if(stones[i][0] == stones[index][0] 
-               || stones[i][1] == stones[index][1]){
-                dfs(stones, visited, i);
+
+        for (int i = 0; i < N; ++i) {
+            if (visited.contains(i))
+                continue;
+
+            if (stones[i][0] == stones[index][0] || stones[i][1] == stones[index][1]) {
+                dfs(i, visited, stones);
             }
         }
     }

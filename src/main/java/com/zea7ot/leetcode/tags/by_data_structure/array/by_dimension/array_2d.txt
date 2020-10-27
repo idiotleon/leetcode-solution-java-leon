@@ -33,6 +33,7 @@ References:
 3   0289    https://leetcode.com/problems/game-of-life/
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
 3   0304    https://leetcode.com/problems/range-sum-query-2d-immutable/
+3   0332    https://leetcode.com/problems/reconstruct-itinerary/
 3   0348    https://leetcode.com/problems/design-tic-tac-toe/
 3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 3   0419    https://leetcode.com/problems/battleships-in-a-board/
@@ -92,7 +93,10 @@ References:
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   0924    https://leetcode.com/problems/minimize-malware-spread/
+4   0928    https://leetcode.com/problems/minimize-malware-spread-ii/
+4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 4   0980    https://leetcode.com/problems/unique-paths-iii/
+4   1001    https://leetcode.com/problems/grid-illumination/
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
 4   1102    https://leetcode.com/problems/path-with-maximum-minimum-value/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
@@ -104,7 +108,7 @@ References:
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 4   1439    https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/
 4   1499    https://leetcode.com/problems/max-value-of-equation/
-s
+
 5   0037    https://leetcode.com/problems/sudoku-solver/
 5   0212    https://leetcode.com/problems/word-search-ii/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/

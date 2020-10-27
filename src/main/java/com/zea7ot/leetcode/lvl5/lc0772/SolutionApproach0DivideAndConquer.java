@@ -13,7 +13,9 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class SolutionApproach0DivideAndConquer {
-    private final char SPACE = ' ';
+    private static final char SPACE = ' ';
+    private static final char OPEN_PAREN = '(';
+    private static final char CLOSED_PAREN = ')';
 
     public int calculate(String s) {
         // santiy check
@@ -39,7 +41,7 @@ public class SolutionApproach0DivideAndConquer {
 
             if ('0' <= CH && CH <= '9') {
                 num = num * 10 + CH - '0';
-            } else if (CH == '(') {
+            } else if (CH == OPEN_PAREN) {
                 num = calculate(tokensQ);
             } else {
                 switch (op) {
@@ -59,7 +61,7 @@ public class SolutionApproach0DivideAndConquer {
                         break;
                 }
 
-                if (CH == ')')
+                if (CH == CLOSED_PAREN)
                     break;
                 op = CH;
                 num = 0;

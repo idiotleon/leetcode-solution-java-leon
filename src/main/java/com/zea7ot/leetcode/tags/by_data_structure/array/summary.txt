@@ -53,6 +53,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/
 2   1103    https://leetcode.com/problems/distribute-candies-to-people/
 2   1151    https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/
+2   1167    https://leetcode.com/problems/minimum-cost-to-connect-sticks/
 2   1176    https://leetcode.com/problems/diet-plan-performance/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
 2   1287    https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
@@ -99,6 +100,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
 3   0304    https://leetcode.com/problems/range-sum-query-2d-immutable/
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
+3   0332    https://leetcode.com/problems/reconstruct-itinerary/
 3   0338    https://leetcode.com/problems/counting-bits/
 3   0348    https://leetcode.com/problems/design-tic-tac-toe/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
@@ -252,6 +254,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0916    https://leetcode.com/problems/word-subsets/
 4   0918    https://leetcode.com/problems/maximum-sum-circular-subarray/
 4   0924    https://leetcode.com/problems/minimize-malware-spread/
+4   0928    https://leetcode.com/problems/minimize-malware-spread-ii/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 4   0956    https://leetcode.com/problems/tallest-billboard/
@@ -265,6 +268,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
+4   1001    https://leetcode.com/problems/grid-illumination/
 4   1102    https://leetcode.com/problems/path-with-maximum-minimum-value/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1125    https://leetcode.com/problems/smallest-sufficient-team/
@@ -307,6 +311,7 @@ This file serves as the total list of problems related to Array, regardless of a
 5   0959    https://leetcode.com/problems/regions-cut-by-slashes/
 5   1036    https://leetcode.com/problems/escape-a-large-maze/
 5   1074    https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/
+5   1178    https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/
 
 6   0391    https://leetcode.com/problems/perfect-rectangle/
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
