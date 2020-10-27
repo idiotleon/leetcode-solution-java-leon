@@ -33,6 +33,8 @@ References:
 4   0815    https://leetcode.com/problems/bus-routes/
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   0399    https://leetcode.com/problems/evaluate-division/
+4   0924    https://leetcode.com/problems/minimize-malware-spread/
+4   0928    https://leetcode.com/problems/minimize-malware-spread-ii/
 4   1258    https://leetcode.com/problems/synonymous-sentences/
 4   1298    https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/
 
