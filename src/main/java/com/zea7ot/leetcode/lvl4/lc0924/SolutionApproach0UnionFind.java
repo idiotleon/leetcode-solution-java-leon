@@ -70,7 +70,7 @@ public class SolutionApproach0UnionFind {
                 ++malwareCnts[find(init)];
             }
 
-            int maxSize = 0, malwareMaxSize = initials[0];
+            int maxSize = 0, nodeMostContagious = initials[0];
 
             for (int init : initials) {
                 int root = find(init);
@@ -79,12 +79,12 @@ public class SolutionApproach0UnionFind {
                     int size = sizes[root];
                     if (size > maxSize) {
                         maxSize = size;
-                        malwareMaxSize = init;
+                        nodeMostContagious = init;
                     }
                 }
             }
 
-            return malwareMaxSize;
+            return nodeMostContagious;
         }
     }
 }

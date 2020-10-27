@@ -10,10 +10,11 @@
 package com.zea7ot.leetcode.lvl3.lc0731;
 
 public class SolutionApproach0SegmentedTree {
+    private static final int RANGE = (int)1e9;
+
     private SegmentTreeNode root;
 
     public SolutionApproach0SegmentedTree() {
-        final int RANGE = (int) 1e9;
         this.root = new SegmentTreeNode(0, RANGE, 0);
     }
 
