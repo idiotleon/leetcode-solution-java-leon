@@ -11,9 +11,14 @@
  * References:
  *  https://leetcode.com/problems/find-duplicate-file-in-system/discuss/104123/C%2B%2B-clean-solution-answers-to-follow-up
  *  https://leetcode.com/problems/find-duplicate-file-in-system/discuss/104120/Follow-up-questions-discussion
+ *  https://leetcode.com/problems/find-duplicate-file-in-system/discuss/104120/Follow-up-questions-discussion/170646
+ *  https://leetcode.com/problems/find-duplicate-file-in-system/discuss/104120/Follow-up-questions-discussion/106985
+ *  https://leetcode.com/problems/find-duplicate-file-in-system/discuss/184116/Discussion-on-follow-up-questions(network-and-concurrency)
+ * 
+ *  https://www.dropbox.com/developers/reference/content-hash
  */
 package com.zea7ot.leetcode.lvl3.lc0609.followups;
 
 public class Questions {
-    
+
 }

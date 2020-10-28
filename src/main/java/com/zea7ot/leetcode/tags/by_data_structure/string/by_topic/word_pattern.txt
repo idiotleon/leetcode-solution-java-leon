@@ -6,6 +6,6 @@ References:
     
 ### String
 ## By Topic
-# Special String
+# Word Pattern
 
-3   1405    https://leetcode.com/problems/longest-happy-string/
+2   0290    https://leetcode.com/problems/word-pattern/
