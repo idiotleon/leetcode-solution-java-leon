@@ -15,61 +15,32 @@ public class SolutionApproach0UnionFind1 {
             return 0;
 
         final int N = matrix.length;
+        int[] roots = new int[N];
+        Arrays.fill(roots, -1);
 
-        UnionFind uf = new UnionFind(matrix);
-        for (int row = 0; row < N; ++row) {
-            for (int col = 0; col < N; ++col) {
+        for (int row = 0; row < N; ++row)
+            for (int col = 0; col < N; ++col)
                 if (matrix[row][col] == 1 && row != col)
-                    uf.union(row, col);
-            }
-        }
+                    union(row, col, roots);
 
-        return uf.getCount();
+        int count = 0;
+        for (int i = 0; i < N; ++i)
+            if (roots[i] == -1)
+                ++count;
+
+        return count;
     }
 
-    private class UnionFind {
-        private int[] roots;
-        private int[] ranks;
-        private int count;
+    private void union(int x, int y, int[] roots) {
+        int rootX = find(roots, x);
+        int rootY = find(roots, y);
+        if (rootX != rootY)
+            roots[rootY] = rootX;
+    }
 
-        protected UnionFind(int[][] matrix) {
-            final int N = matrix.length;
-
-            this.roots = new int[N];
-            for (int i = 0; i < N; ++i)
-                roots[i] = i;
-
-            this.ranks = new int[N];
-            Arrays.fill(ranks, 1);
-
-            this.count = N;
-        }
-
-        protected void union(int x, int y) {
-            int rootX = find(x), rootY = find(y);
-
-            if (rootX == rootY)
-                return;
-            if (ranks[rootX] > ranks[rootY]) {
-                roots[rootY] = rootX;
-                ++ranks[rootX];
-            } else {
-                roots[rootX] = rootY;
-                ++ranks[rootY];
-            }
-
-            --count;
-        }
-
-        protected int find(int x) {
-            if (x != roots[x])
-                return roots[x] = find(roots[x]);
-
-            return roots[x];
-        }
-
-        protected int getCount() {
-            return count;
-        }
+    private int find(int[] roots, int i) {
+        if (roots[i] == -1)
+            return i;
+        return find(roots, roots[i]);
     }
 }
