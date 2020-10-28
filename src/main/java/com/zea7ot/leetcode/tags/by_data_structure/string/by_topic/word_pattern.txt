@@ -9,3 +9,5 @@ References:
 # Word Pattern
 
 2   0290    https://leetcode.com/problems/word-pattern/
+
+5   0291    https://leetcode.com/problems/word-pattern-ii/

@@ -10,6 +10,7 @@ References:
 
 3   0235    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 3   0304    https://leetcode.com/problems/range-sum-query-2d-immutable/
+3   0379    https://leetcode.com/problems/design-phone-directory/
 3   0729    https://leetcode.com/problems/my-calendar-i/
 3   0731    https://leetcode.com/problems/my-calendar-ii/
 
