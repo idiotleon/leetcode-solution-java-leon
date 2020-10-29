@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/implement-strstr/
  * 
- * Time Complexity:     O(max(LEN_NEEDLE, LEN_HAYSTACK))
- * Space Complexity:    O(max(LEN_NEEDLE, LEN_HAYSTACK))
+ * Time Complexity:     O(LEN_NEEDLE * LEN_HAYSTACK)
+ * Space Complexity:    O(max(LEN_NEEDLE, LEN_HAYSTACK)) / O(1)
  */
 package com.zea7ot.leetcode.lvl2.lc0028;
 

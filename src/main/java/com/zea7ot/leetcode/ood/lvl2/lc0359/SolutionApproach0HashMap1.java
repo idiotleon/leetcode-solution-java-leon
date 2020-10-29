@@ -5,7 +5,7 @@
  * Space Complexity:    O(N)
  *  N, total messages sent
  */
-package com.zea7ot.leetcode.lvl2.lc0359;
+package com.zea7ot.leetcode.ood.lvl2.lc0359;
 
 import java.util.HashMap;
 import java.util.Map;
