@@ -5,6 +5,7 @@ References:
 
 
 ### Dynamic Programming
+## By Topic
 # Coin Change
 
 3   0279    https://leetcode.com/problems/perfect-squares/

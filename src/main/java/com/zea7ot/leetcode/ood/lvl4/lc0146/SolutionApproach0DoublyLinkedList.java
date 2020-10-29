@@ -3,13 +3,13 @@
  * https://leetcode.com/problems/lru-cache/
  * 
  * Time Complexities:  
- *  contrustring:   O(1) 
- *  `get()`:        O(1)
- *  `put()`:        O(1)
+ *  initialization:     O(1) 
+ *  `get()`:            O(1)
+ *  `put()`:            O(1)
  * 
  * Space Complexity:    O(`capacity`)
  */
-package com.zea7ot.leetcode.lvl4.lc0146;
+package com.zea7ot.leetcode.ood.lvl4.lc0146;
 
 import java.util.HashMap;
 import java.util.Map;

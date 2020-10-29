@@ -8,7 +8,7 @@
  * 
  * Space Complexity:    O(`capacity`)
  */
-package com.zea7ot.leetcode.lvl4.lc0146;
+package com.zea7ot.leetcode.ood.lvl4.lc0146;
 
 import java.util.HashMap;
 import java.util.Map;
