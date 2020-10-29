@@ -25,6 +25,7 @@ References:
 2   0475    https://leetcode.com/problems/heaters/
 2   0485    https://leetcode.com/problems/max-consecutive-ones/
 2   0605    https://leetcode.com/problems/can-place-flowers/
+2   0849    https://leetcode.com/problems/maximize-distance-to-closest-person/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   0989    https://leetcode.com/problems/add-to-array-form-of-integer/
 2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/
