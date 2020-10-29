@@ -23,7 +23,7 @@ public class SolutionApproach0BitSet {
      */
     public SolutionApproach0BitSet(int maxNumbers) {
         this.N = maxNumbers;
-        this.bitSet = new BitSet(N);
+        this.bitSet = new BitSet(maxNumbers);
     }
 
     /**

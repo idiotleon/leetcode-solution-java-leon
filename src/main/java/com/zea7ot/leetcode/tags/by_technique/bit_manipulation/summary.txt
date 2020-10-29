@@ -26,6 +26,7 @@ References:
 3   0169    https://leetcode.com/problems/majority-element/
 3   0260    https://leetcode.com/problems/single-number-iii/
 3   0289    https://leetcode.com/problems/game-of-life/
+3   0379    https://leetcode.com/problems/design-phone-directory/
 3   0393    https://leetcode.com/problems/utf-8-validation/
 3   0477    https://leetcode.com/problems/total-hamming-distance/
 3   0750    https://leetcode.com/problems/number-of-corner-rectangles/
@@ -38,6 +39,7 @@ References:
 4   0187    https://leetcode.com/problems/repeated-dna-sequences/
 4   0307    https://leetcode.com/problems/range-sum-query-mutable/
 4   0421    https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
+4   0464    https://leetcode.com/problems/can-i-win/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0864    https://leetcode.com/problems/shortest-path-to-get-all-keys/
 4   0995    https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/

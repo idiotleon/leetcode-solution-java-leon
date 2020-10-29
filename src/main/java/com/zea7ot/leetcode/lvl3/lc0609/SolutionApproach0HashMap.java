@@ -18,28 +18,31 @@ import java.util.Set;
 
 public class SolutionApproach0HashMap {
     public List<List<String>> findDuplicate(String[] paths) {
-        List<List<String>> ans = new ArrayList<List<String>>();
+        List<List<String>> ans = new ArrayList<>();
         // sanity check
-        if(paths == null || paths.length == 0) return ans;
-        
+        if (paths == null || paths.length == 0)
+            return ans;
+
         Map<String, Set<String>> map = new HashMap<>();
-        for(String path : paths){
+        for (String path : paths) {
             String[] strs = path.split("\\s+");
-            for(int i = 1; i < strs.length; ++i){
+            final int N_S = strs.length;
+            for (int i = 1; i < N_S; ++i) {
                 int idx = strs[i].indexOf("(");
                 String content = strs[i].substring(idx);
                 String filename = strs[0] + "/" + strs[i].substring(0, idx);
-                Set<String> filenames = map.getOrDefault(content, new HashSet<String>());
+                Set<String> filenames = map.getOrDefault(content, new HashSet<>());
                 filenames.add(filename);
                 map.put(content, filenames);
             }
         }
-        
-        for(Map.Entry<String, Set<String>> entry : map.entrySet()){
-            if(entry.getValue().size() > 1)
-                ans.add(new ArrayList<String>(entry.getValue()));
+
+        for (Map.Entry<String, Set<String>> entry : map.entrySet()) {
+            if (entry.getValue().size() > 1) {
+                ans.add(new ArrayList<>(entry.getValue()));
+            }
         }
-        
+
         return ans;
     }
 }

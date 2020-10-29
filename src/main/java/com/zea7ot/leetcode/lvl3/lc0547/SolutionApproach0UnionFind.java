@@ -1,12 +1,14 @@
 /**
  * https://leetcode.com/problems/friend-circles/
  * 
- * Time Complexity:     O()
- * Space Complexity:    O()
+ * Time Complexity:     O(`NR` * `NC`)
+ * Space Complexity:    O(`NR` * `NC`)
+ * 
+ * References:
+ *  https://leetcode.com/problems/friend-circles/discuss/101431/Stupid-question:-How-is-this-question-different-from-Number-of-Islands/332347
+ *  https://leetcode.com/problems/friend-circles/discuss/101336/Java-solution-Union-Find
  */
 package com.zea7ot.leetcode.lvl3.lc0547;
-
-import java.util.Arrays;
 
 public class SolutionApproach0UnionFind {
     public int findCircleNum(int[][] matrix) {
@@ -15,32 +17,59 @@ public class SolutionApproach0UnionFind {
             return 0;
 
         final int N = matrix.length;
-        int[] roots = new int[N];
-        Arrays.fill(roots, -1);
 
-        for (int row = 0; row < N; ++row)
-            for (int col = 0; col < N; ++col)
-                if (matrix[row][col] == 1 && row != col)
-                    union(row, col, roots);
+        UnionFind uf = new UnionFind(N);
+        for (int lo = 0; lo < N; ++lo) {
+            for (int hi = lo + 1; hi < N; ++hi) {
+                if (matrix[lo][hi] == 1)
+                    uf.union(lo, hi);
+            }
+        }
 
-        int count = 0;
-        for (int i = 0; i < N; ++i)
-            if (roots[i] == -1)
-                ++count;
-
-        return count;
+        return uf.getCount();
     }
 
-    private void union(int x, int y, int[] roots) {
-        int rootX = find(roots, x);
-        int rootY = find(roots, y);
-        if (rootX != rootY)
-            roots[rootY] = rootX;
-    }
+    private class UnionFind {
+        private int[] roots;
+        private int[] ranks;
+        private int count;
 
-    private int find(int[] roots, int i) {
-        if (roots[i] == -1)
-            return i;
-        return find(roots, roots[i]);
+        protected UnionFind(final int N) {
+            this.roots = new int[N];
+            this.ranks = new int[N];
+            for (int i = 0; i < N; ++i) {
+                roots[i] = i;
+                ranks[i] = 1;
+            }
+
+            this.count = N;
+        }
+
+        protected void union(int x, int y) {
+            int rootX = find(x), rootY = find(y);
+
+            if (rootX == rootY)
+                return;
+            if (ranks[rootX] > ranks[rootY]) {
+                roots[rootY] = rootX;
+                ++ranks[rootX];
+            } else {
+                roots[rootX] = rootY;
+                ++ranks[rootY];
+            }
+
+            --count;
+        }
+
+        protected int find(int x) {
+            if (x != roots[x])
+                return roots[x] = find(roots[x]);
+
+            return roots[x];
+        }
+
+        protected int getCount() {
+            return count;
+        }
     }
 }

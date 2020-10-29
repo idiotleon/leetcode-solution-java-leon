@@ -1,0 +1,24 @@
+https://ywng.gitbooks.io/algorithms-and-programming/content/interviews-posts/dropbox.html
+
+phone number + dictionary：
+1. leetcode 上的电话本问题的扩展。区别在于多了一个 dictionary，提供了一个函数 isWord（String word）返回 word 是否在 dictionary 中， 要求是只返回在 dictionary 中的 word。问了复杂度，问了优化方式，需要用 trie，对这个数据结构也不是很熟悉，简单说了一下怎么用，面试官也没细问
+
+初始是7位号码，输出所有可能的单词，用dfs。
+
+然后给一个api判断一个词是否在字典里，只输出在词典里的词，加一句代码，在结果里判断一下。
+
+然后说结果可以是几个小词拼接起来的，小词最短长度是3，dfs函数中加一个变量表示当前词开始的下标。
+
+然后说如果我能访问词典里所有词，能再怎么做？hashmap，key是长度为3或4或7的所有number String，value是这个number string对应的所有单词。
+
+然后说这样还不行，让我另想一个数据结构，主动给hint说，我要判断一个词在不在词典里必须长度足够才行。就是用trie了，不用实现trie，给我两个方法，containpre和
+
+containstr，用dfs再做一下。
+
+然后剩几分钟了，他说可以了，我主动说还能再改进，这样的计算还有冗余的地方，假设前面的两个字符我已经判断出了在前缀树里了，下一层递归我还要在判断一次这两个字
+
+符。改进的方法就是，不用trie的方法，而是直接拿trienode作为传参
+
+
+
+2. 问到的follow-up是如何match到长度为3、4、7的单词

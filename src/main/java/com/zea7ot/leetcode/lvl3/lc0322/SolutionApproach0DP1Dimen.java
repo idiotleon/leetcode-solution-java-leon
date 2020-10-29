@@ -17,7 +17,7 @@ public class SolutionApproach0DP1Dimen {
         int[] dp = new int[amount + 1];
         Arrays.fill(dp, amount + 1);
         dp[0] = 0;
-        
+
         for (int coin : coins) {
             for (int i = coin; i <= amount; ++i) {
                 dp[i] = Math.min(dp[i], dp[i - coin] + 1);

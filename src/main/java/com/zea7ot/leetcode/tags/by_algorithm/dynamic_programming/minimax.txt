@@ -9,3 +9,4 @@ References:
 
 4   0294    https://leetcode.com/problems/flip-game-ii/
 4   0464    https://leetcode.com/problems/can-i-win/
+4   0486    https://leetcode.com/problems/predict-the-winner/

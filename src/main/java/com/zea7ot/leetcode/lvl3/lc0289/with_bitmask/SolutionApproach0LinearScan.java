@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/game-of-life/
  * 
- * Time Complexity:     O(NR * NC)
+ * Time Complexity:     O(`NR` * `NC`)
  * Space Complexity:    O(1)
  * 
  * to acquire the current state:    board[row][col] & 1
@@ -13,8 +13,10 @@
 package com.zea7ot.leetcode.lvl3.lc0289.with_bitmask;
 
 public class SolutionApproach0LinearScan {
-    private final static int STATE_DEAD = 2;
-    private final static int STATE_LIVE = 3;
+    private static final int INITIAL_DEAD = 0;
+    private static final int INITIAL_LIVE = 1;
+    private final static int GOING_TO_DIE = 2;
+    private final static int GOING_TO_LIVE = 3;
 
     public void gameOfLife(int[][] board) {
         // sanity check
@@ -29,12 +31,12 @@ public class SolutionApproach0LinearScan {
 
                 // in the beginning, since every 2nd bit is 0,
                 // only the time when the 2nd bit is turned into 1 is of interests.
-                if (board[row][col] == 1 && lives >= 2 && lives <= 3) {
-                    board[row][col] = STATE_LIVE; // to make the 2nd bit 1: 01 -> 11
+                if (board[row][col] == INITIAL_LIVE && lives >= 2 && lives <= 3) {
+                    board[row][col] = GOING_TO_LIVE; // to make the 2nd bit 1: 01 -> 11
                 }
 
-                if (board[row][col] == 0 && lives == 3) {
-                    board[row][col] = STATE_DEAD; // to make the 2nd bit 1: 00 -> 10
+                if (board[row][col] == INITIAL_DEAD && lives == 3) {
+                    board[row][col] = GOING_TO_DIE; // to make the 2nd bit 1: 00 -> 10
                 }
             }
         }

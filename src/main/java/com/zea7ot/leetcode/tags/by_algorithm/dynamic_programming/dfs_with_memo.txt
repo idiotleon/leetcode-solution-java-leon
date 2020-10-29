@@ -9,8 +9,12 @@ References:
 
 2   1167    https://leetcode.com/problems/minimum-cost-to-connect-sticks/
 
+4   0294    https://leetcode.com/problems/flip-game-ii/
 4   0337    https://leetcode.com/problems/house-robber-iii/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
+4   0375    https://leetcode.com/problems/guess-number-higher-or-lower-ii/
+4   0464    https://leetcode.com/problems/can-i-win/
+4   0486    https://leetcode.com/problems/predict-the-winner/
 4   0799    https://leetcode.com/problems/champagne-tower/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
 4   1066    https://leetcode.com/problems/campus-bikes-ii/

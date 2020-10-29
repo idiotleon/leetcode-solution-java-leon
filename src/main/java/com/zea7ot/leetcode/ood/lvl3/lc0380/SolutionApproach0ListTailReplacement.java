@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/insert-delete-getrandom-o1/
  * 
- * Time Complexity: 
+ * Time Complexities: 
  *  insert: O(1)
  *  remove: O(1)
  *  random: O(1)
@@ -24,8 +24,8 @@ public class SolutionApproach0ListTailReplacement {
 
     /** Initialize your data structure here. */
     public SolutionApproach0ListTailReplacement() {
-        this.list = new ArrayList<Integer>();
-        this.idxMap = new HashMap<Integer, Integer>();
+        this.list = new ArrayList<>();
+        this.idxMap = new HashMap<>();
         this.rand = new Random();
     }
 

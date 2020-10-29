@@ -9,6 +9,7 @@ References:
 
 1   0067    https://leetcode.com/problems/add-binary/
 1   0125    https://leetcode.com/problems/valid-palindrome/
+1   0293    https://leetcode.com/problems/flip-game/
 1   0344    https://leetcode.com/problems/reverse-string/
 1   0345    https://leetcode.com/problems/reverse-vowels-of-a-string/
 1   0389    https://leetcode.com/problems/find-the-difference/
@@ -119,9 +120,9 @@ References:
 4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0139    https://leetcode.com/problems/word-break/
 4   0158    https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/
-4   0227    https://leetcode.com/problems/basic-calculator-ii/
 4   0159    https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
 4   0187    https://leetcode.com/problems/repeated-dna-sequences/
+4   0227    https://leetcode.com/problems/basic-calculator-ii/
 4   0248    https://leetcode.com/problems/strobogrammatic-number-iii/
 4   0249    https://leetcode.com/problems/group-shifted-strings/
 4   0267    https://leetcode.com/problems/palindrome-permutation-ii/

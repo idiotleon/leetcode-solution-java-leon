@@ -7,6 +7,7 @@ References:
 ## Lower Bound vs Upper Bound
 
 2   0035    https://leetcode.com/problems/search-insert-position/
+2   0374    https://leetcode.com/problems/guess-number-higher-or-lower/
 
 
 
@@ -14,6 +15,7 @@ References:
 ### Binary Search
 ## Lower Bound
 
+2   0374    https://leetcode.com/problems/guess-number-higher-or-lower/
 
 
 
