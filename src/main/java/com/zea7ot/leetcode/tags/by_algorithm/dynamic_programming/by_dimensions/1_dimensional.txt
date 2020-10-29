@@ -30,6 +30,7 @@ References:
 3   0264    https://leetcode.com/problems/ugly-number-ii/
 3   0276    https://leetcode.com/problems/paint-fence/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
+3   0322    https://leetcode.com/problems/coin-change/
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 3   0338    https://leetcode.com/problems/counting-bits/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/

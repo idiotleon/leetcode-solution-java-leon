@@ -17,4 +17,3 @@ References:
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
-
