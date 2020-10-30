@@ -60,6 +60,7 @@ References:
 3   0835    https://leetcode.com/problems/image-overlap/
 3   0838    https://leetcode.com/problems/push-dominoes/
 3   0840    https://leetcode.com/problems/magic-squares-in-grid/
+3   0900    https://leetcode.com/problems/rle-iterator/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/

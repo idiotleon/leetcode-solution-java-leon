@@ -10,5 +10,7 @@ References:
 
 3   1262    https://leetcode.com/problems/greatest-sum-divisible-by-three/
 
+4   1233    https://leetcode.com/problems/dice-roll-simulation/
+
 
 # DFS with memo over DP
