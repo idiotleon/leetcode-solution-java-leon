@@ -7,6 +7,8 @@ References:
 ## Array
 # Summary
 
+1   1137    https://leetcode.com/problems/n-th-tribonacci-number/
+
 2   0064    https://leetcode.com/problems/minimum-path-sum/
 2   0198    https://leetcode.com/problems/house-robber/
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
