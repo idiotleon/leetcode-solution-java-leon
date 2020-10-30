@@ -4,4 +4,6 @@ References:
 
 
 ### By Topic
-## Range Sum
+## Path Sum
+
+2   0064    https://leetcode.com/problems/minimum-path-sum/

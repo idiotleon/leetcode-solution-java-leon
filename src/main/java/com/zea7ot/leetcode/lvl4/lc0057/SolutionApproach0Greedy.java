@@ -3,6 +3,9 @@
  * 
  * Time Complexity:     O(N)
  * Space Complexity:    O(N)
+ * 
+ * References:
+ *  https://leetcode.com/problems/insert-interval/discuss/21600/Short-java-code
  */
 package com.zea7ot.leetcode.lvl4.lc0057;
 
@@ -29,9 +32,10 @@ class SolutionApproach0Greedy {
             }
         }
 
-        if (newInterval != null)
+        if (newInterval != null) {
             ans.add(newInterval);
+        }
 
-        return ans.toArray(new int[ans.size()][]);
+        return ans.toArray(new int[ans.size()][2]);
     }
 }

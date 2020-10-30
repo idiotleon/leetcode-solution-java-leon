@@ -31,6 +31,7 @@ References:
 3   0444    https://leetcode.com/problems/sequence-reconstruction/
 3   0523    https://leetcode.com/problems/continuous-subarray-sum/
 3   0624    https://leetcode.com/problems/maximum-distance-in-arrays/
+3   0665    https://leetcode.com/problems/non-decreasing-array/
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0739    https://leetcode.com/problems/daily-temperatures/
 3   0835    https://leetcode.com/problems/image-overlap/

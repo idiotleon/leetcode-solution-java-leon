@@ -7,6 +7,7 @@ References:
 
 1   0509    https://leetcode.com/problems/fibonacci-number/
 
+2   0064    https://leetcode.com/problems/minimum-path-sum/
 2   1167    https://leetcode.com/problems/minimum-cost-to-connect-sticks/
 
 4   0294    https://leetcode.com/problems/flip-game-ii/

@@ -8,6 +8,8 @@ References:
 ## By Dimensions
 # Constant Space
 
+1   1137    https://leetcode.com/problems/n-th-tribonacci-number/
+
 2   0122    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 2   0198    https://leetcode.com/problems/house-robber/
 2   0674    https://leetcode.com/problems/longest-continuous-increasing-subsequence/
@@ -20,6 +22,7 @@ References:
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
 3   0714    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+3   1262    https://leetcode.com/problems/greatest-sum-divisible-by-three/
 
 4   0309    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 4   0639    https://leetcode.com/problems/decode-ways-ii/

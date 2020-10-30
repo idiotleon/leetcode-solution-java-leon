@@ -23,6 +23,7 @@ References:
 2   0605    https://leetcode.com/problems/can-place-flowers/
 2   0724    https://leetcode.com/problems/find-pivot-index/
 2   0821    https://leetcode.com/problems/shortest-distance-to-a-character/
+2   0849    https://leetcode.com/problems/maximize-distance-to-closest-person/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   0989    https://leetcode.com/problems/add-to-array-form-of-integer/
 2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/
@@ -48,6 +49,7 @@ References:
 3   0523    https://leetcode.com/problems/continuous-subarray-sum/
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0624    https://leetcode.com/problems/maximum-distance-in-arrays/
+3   0665    https://leetcode.com/problems/non-decreasing-array/
 3   0713    https://leetcode.com/problems/subarray-product-less-than-k/
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0739    https://leetcode.com/problems/daily-temperatures/

@@ -7,6 +7,8 @@ References:
 ## Dynamic Programming
 # Summary
 
+1   1137    https://leetcode.com/problems/n-th-tribonacci-number/
+
 2   0064    https://leetcode.com/problems/minimum-path-sum/
 2   0118    https://leetcode.com/problems/pascals-triangle/
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
@@ -35,6 +37,7 @@ References:
 3   0935    https://leetcode.com/problems/knight-dialer/
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1139    https://leetcode.com/problems/largest-1-bordered-square/
+3   1262    https://leetcode.com/problems/greatest-sum-divisible-by-three/
 3   1498   https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 3   1626    https://leetcode.com/problems/best-team-with-no-conflicts/
 

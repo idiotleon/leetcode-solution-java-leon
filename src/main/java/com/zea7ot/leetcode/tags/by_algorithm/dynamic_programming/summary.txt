@@ -11,6 +11,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 1   0070    https://leetcode.com/problems/climbing-stairs/
 1   0204    https://leetcode.com/problems/count-primes/
 1   0509    https://leetcode.com/problems/fibonacci-number/
+1   1137    https://leetcode.com/problems/n-th-tribonacci-number/
 
 2   0063    https://leetcode.com/problems/unique-paths-ii/
 2   0064    https://leetcode.com/problems/minimum-path-sum/
@@ -58,6 +59,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   1139    https://leetcode.com/problems/largest-1-bordered-square/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
+3   1262    https://leetcode.com/problems/greatest-sum-divisible-by-three/
 3   1498   https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 3   1626    https://leetcode.com/problems/best-team-with-no-conflicts/
 
