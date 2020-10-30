@@ -22,6 +22,7 @@ References:
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
 3   0714    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+3   1262    https://leetcode.com/problems/greatest-sum-divisible-by-three/
 
 4   0309    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 4   0639    https://leetcode.com/problems/decode-ways-ii/

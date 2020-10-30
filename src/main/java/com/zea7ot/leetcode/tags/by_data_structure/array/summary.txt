@@ -185,6 +185,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
+3   1262    https://leetcode.com/problems/greatest-sum-divisible-by-three/
 3   1272    https://leetcode.com/problems/remove-interval/
 3   1275    https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/
 3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/

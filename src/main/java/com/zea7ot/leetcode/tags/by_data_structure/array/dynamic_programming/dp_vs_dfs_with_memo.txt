@@ -1,0 +1,14 @@
+@author: Leon
+References:
+    https://leetcode.com/tag/array/
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Array
+## DP vs DFS with memo
+# DP over DFS with memo
+
+3   1262    https://leetcode.com/problems/greatest-sum-divisible-by-three/
+
+
+# DFS with memo over DP
