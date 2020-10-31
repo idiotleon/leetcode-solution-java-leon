@@ -1,11 +1,10 @@
 @author: Leon
 References:
+    https://leetcode.com/tag/binary-search/
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
-### API Given
+### Binary Search
+# Given API
 
-2   0278    https://leetcode.com/problems/first-bad-version/
 2   1237    https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/
-
-3   1236    https://leetcode.com/problems/web-crawler/
