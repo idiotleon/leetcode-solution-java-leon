@@ -43,10 +43,12 @@ References:
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 3   0714    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+3   0877    https://leetcode.com/problems/stone-game/s
 3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
 3   0935    https://leetcode.com/problems/knight-dialer/
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1048    https://leetcode.com/problems/longest-string-chain/
+3   1140    https://leetcode.com/problems/stone-game-ii/
 3   1143    https://leetcode.com/problems/longest-common-subsequence/
 3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
 3   1262    https://leetcode.com/problems/greatest-sum-divisible-by-three/

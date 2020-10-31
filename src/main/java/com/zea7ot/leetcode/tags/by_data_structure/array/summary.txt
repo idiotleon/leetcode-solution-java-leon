@@ -13,6 +13,7 @@ This file serves as the total list of problems related to Array, regardless of a
 1   0346    https://leetcode.com/problems/moving-average-from-data-stream/
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   0766    https://leetcode.com/problems/toeplitz-matrix/
+1   0682    https://leetcode.com/problems/baseball-game/
 1   0830    https://leetcode.com/problems/positions-of-large-groups/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   1046    https://leetcode.com/problems/last-stone-weight/
@@ -27,6 +28,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0118    https://leetcode.com/problems/pascals-triangle/
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
+2   0243    https://leetcode.com/problems/shortest-word-distance/
 2   0251    https://leetcode.com/problems/flatten-2d-vector/
 2   0278    https://leetcode.com/problems/first-bad-version/
 2   0280    https://leetcode.com/problems/wiggle-sort/
@@ -149,6 +151,8 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0845    https://leetcode.com/problems/longest-mountain-in-array/
 3   0846    https://leetcode.com/problems/hand-of-straights/
 3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
+3   0877    https://leetcode.com/problems/stone-game/
+3   0900    https://leetcode.com/problems/rle-iterator/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
 3   0911    https://leetcode.com/problems/online-election/
@@ -179,6 +183,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1109    https://leetcode.com/problems/corporate-flight-bookings/
 3   1138    https://leetcode.com/problems/alphabet-board-path/
 3   1139    https://leetcode.com/problems/largest-1-bordered-square/
+3   1140    https://leetcode.com/problems/stone-game-ii/
 3   1198    https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
 3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1219    https://leetcode.com/problems/path-with-maximum-gold/
