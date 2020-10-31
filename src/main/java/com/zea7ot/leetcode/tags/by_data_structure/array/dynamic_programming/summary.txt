@@ -32,11 +32,13 @@ References:
 3   0714    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 3   0764    https://leetcode.com/problems/largest-plus-sign/
 3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
+3   0877    https://leetcode.com/problems/stone-game/
 3   0923    https://leetcode.com/problems/3sum-with-multiplicity/
 3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
 3   0935    https://leetcode.com/problems/knight-dialer/
 3   0978    https://leetcode.com/problems/longest-turbulent-subarray/
 3   1139    https://leetcode.com/problems/largest-1-bordered-square/
+3   1140    https://leetcode.com/problems/stone-game-ii/
 3   1262    https://leetcode.com/problems/greatest-sum-divisible-by-three/
 3   1498   https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 3   1626    https://leetcode.com/problems/best-team-with-no-conflicts/

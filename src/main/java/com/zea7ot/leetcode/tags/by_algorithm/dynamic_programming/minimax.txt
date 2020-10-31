@@ -5,7 +5,10 @@ References:
 
   
 ### Dynamic Programming
-# minimax
+# Minimax
+
+3   0877    https://leetcode.com/problems/stone-game/s
+3   1140    https://leetcode.com/problems/stone-game-ii/
 
 4   0294    https://leetcode.com/problems/flip-game-ii/
 4   0464    https://leetcode.com/problems/can-i-win/

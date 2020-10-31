@@ -6,4 +6,7 @@ References:
 ### Dynamic Programming
 ## Minimax
 
+3   0877    https://leetcode.com/problems/stone-game/
+3   1140    https://leetcode.com/problems/stone-game-ii/
+
 4   0486    https://leetcode.com/problems/predict-the-winner/
