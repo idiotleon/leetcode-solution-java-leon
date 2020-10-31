@@ -136,6 +136,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 4   1340    https://leetcode.com/problems/jump-game-v/
 4   1371    https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
+4   1406    https://leetcode.com/problems/stone-game-iii/
 4   1411    https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 4   1510    https://leetcode.com/problems/stone-game-iv/
