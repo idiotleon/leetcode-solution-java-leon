@@ -82,6 +82,7 @@ References:
 5   1074    https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/
 5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
 
+6   0471    https://leetcode.com/problems/encode-string-with-shortest-length/
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
 
 

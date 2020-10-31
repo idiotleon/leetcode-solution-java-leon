@@ -19,6 +19,8 @@ References:
 
 5   0214    https://leetcode.com/problems/shortest-palindrome/
 
+6   0471    https://leetcode.com/problems/encode-string-with-shortest-length/
+
 
 
 Resources:
