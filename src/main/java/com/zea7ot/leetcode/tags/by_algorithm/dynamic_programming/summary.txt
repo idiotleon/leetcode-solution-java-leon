@@ -27,6 +27,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   0091    https://leetcode.com/problems/decode-ways/
 3   0096    https://leetcode.com/problems/unique-binary-search-trees/
 3   0119    https://leetcode.com/problems/pascals-triangle-ii/
+3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0213    https://leetcode.com/problems/house-robber-ii/
 3   0256    https://leetcode.com/problems/paint-house/
