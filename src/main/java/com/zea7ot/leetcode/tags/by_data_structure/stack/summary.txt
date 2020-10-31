@@ -7,6 +7,7 @@ References:
 ### Stack
 # Summary
 
+1   0682    https://leetcode.com/problems/baseball-game/
 1   1598    https://leetcode.com/problems/crawler-log-folder/
 1   1614    https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
 
