@@ -18,15 +18,19 @@ References:
 3   0560    https://leetcode.com/problems/subarray-sum-equals-k/
 3   0974    https://leetcode.com/problems/subarray-sums-divisible-by-k/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
+3   1314    https://leetcode.com/problems/matrix-block-sum/
 
+4   0307    https://leetcode.com/problems/range-sum-query-mutable/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   1124    https://leetcode.com/problems/longest-well-performing-interval/
+4   1292    https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
 4   1371    https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
 4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 
 5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
 
+6   0308    https://leetcode.com/problems/range-sum-query-2d-mutable/
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
 
 

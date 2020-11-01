@@ -67,6 +67,7 @@ References:
 3   1272    https://leetcode.com/problems/remove-interval/
 3   1275    https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
+3   1314    https://leetcode.com/problems/matrix-block-sum/
 3   1424    https://leetcode.com/problems/diagonal-traverse-ii/
 
 4   0120    https://leetcode.com/problems/triangle/
@@ -76,6 +77,7 @@ References:
 4   0218    https://leetcode.com/problems/the-skyline-problem/
 4   0265    https://leetcode.com/problems/paint-house-ii/
 4   0296    https://leetcode.com/problems/best-meeting-point/
+4   0307    https://leetcode.com/problems/range-sum-query-mutable/
 4   0311    https://leetcode.com/problems/sparse-matrix-multiplication/
 4   0317    https://leetcode.com/problems/shortest-distance-from-all-buildings/
 4   0329    https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
@@ -120,6 +122,7 @@ References:
 5   1036    https://leetcode.com/problems/escape-a-large-maze/
 5   1074    https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/
 
+6   0308    https://leetcode.com/problems/range-sum-query-2d-mutable/
 6   0391    https://leetcode.com/problems/perfect-rectangle/
 
 
