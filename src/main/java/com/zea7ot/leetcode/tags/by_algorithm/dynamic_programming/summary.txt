@@ -38,6 +38,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   0322    https://leetcode.com/problems/coin-change/
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 3   0338    https://leetcode.com/problems/counting-bits/
+3   0343    https://leetcode.com/problems/integer-break/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
