@@ -68,6 +68,7 @@ References:
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
+3   1506    https://leetcode.com/problems/find-root-of-n-ary-tree/
 3   1616    https://leetcode.com/problems/split-two-strings-to-make-palindrome/
 
 4   0041    https://leetcode.com/problems/first-missing-positive/
