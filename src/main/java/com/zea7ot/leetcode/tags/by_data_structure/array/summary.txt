@@ -154,6 +154,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0846    https://leetcode.com/problems/hand-of-straights/
 3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
 3   0877    https://leetcode.com/problems/stone-game/
+3   0890    https://leetcode.com/problems/find-and-replace-pattern/
 3   0900    https://leetcode.com/problems/rle-iterator/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/

@@ -30,6 +30,7 @@ References:
 3   0729    https://leetcode.com/problems/my-calendar-i/
 2   0791    https://leetcode.com/problems/custom-sort-string/
 3   0846    https://leetcode.com/problems/hand-of-straights/
+3   0890    https://leetcode.com/problems/find-and-replace-pattern/
 3   0923    https://leetcode.com/problems/3sum-with-multiplicity/
 3   0939    https://leetcode.com/problems/minimum-area-rectangle/
 3   0966    https://leetcode.com/problems/vowel-spellchecker/

@@ -41,6 +41,7 @@ References:
 3   0835    https://leetcode.com/problems/image-overlap/
 3   0840    https://leetcode.com/problems/magic-squares-in-grid/
 3   0845    https://leetcode.com/problems/longest-mountain-in-array/
+3   0890    https://leetcode.com/problems/find-and-replace-pattern/
 3   0900    https://leetcode.com/problems/rle-iterator/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
