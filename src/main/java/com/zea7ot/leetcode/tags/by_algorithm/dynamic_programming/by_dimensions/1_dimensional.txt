@@ -34,6 +34,7 @@ References:
 3   0322    https://leetcode.com/problems/coin-change/
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 3   0338    https://leetcode.com/problems/counting-bits/
+3   0343    https://leetcode.com/problems/integer-break/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
@@ -58,6 +59,7 @@ References:
 4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0084    https://leetcode.com/problems/largest-rectangle-in-histogram/
 4   0120    https://leetcode.com/problems/triangle/
+4   0132    https://leetcode.com/problems/palindrome-partitioning-ii/
 4   0139    https://leetcode.com/problems/word-break/
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0313    https://leetcode.com/problems/super-ugly-number/

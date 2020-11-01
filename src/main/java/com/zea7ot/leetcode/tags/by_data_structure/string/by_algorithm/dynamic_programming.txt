@@ -8,6 +8,7 @@ References:
 
 3   0005    https://leetcode.com/problems/longest-palindromic-substring/
 3   0091    https://leetcode.com/problems/decode-ways/
+3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0583    https://leetcode.com/problems/delete-operation-for-two-strings/
 3   0647    https://leetcode.com/problems/palindromic-substrings/
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
@@ -16,6 +17,7 @@ References:
 4   0072    https://leetcode.com/problems/edit-distance/
 4   0097    https://leetcode.com/problems/interleaving-string/
 4   0115    https://leetcode.com/problems/distinct-subsequences/
+4   0132    https://leetcode.com/problems/palindrome-partitioning-ii/
 4   0139    https://leetcode.com/problems/word-break/
 4   0294    https://leetcode.com/problems/flip-game-ii/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
@@ -32,6 +34,8 @@ References:
 
 5   0010    https://leetcode.com/problems/regular-expression-matching/
 5   0828    https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/
+
+6   0471    https://leetcode.com/problems/encode-string-with-shortest-length/
 
 
 

@@ -11,6 +11,7 @@ References:
 2   0988    https://leetcode.com/problems/smallest-string-starting-from-leaf/
 2   1047    https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
 
+3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0247    https://leetcode.com/problems/strobogrammatic-number-ii/
 3   0269    https://leetcode.com/problems/alien-dictionary/
 3   0394    https://leetcode.com/problems/decode-string/
@@ -42,3 +43,4 @@ References:
 5   0472    https://leetcode.com/problems/concatenated-words/
 
 6   0488    https://leetcode.com/problems/zuma-game/
+6   0679    https://leetcode.com/problems/24-game/

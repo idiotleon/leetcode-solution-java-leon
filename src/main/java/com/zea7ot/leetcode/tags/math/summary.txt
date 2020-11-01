@@ -31,6 +31,7 @@ References:
 3   0223    https://leetcode.com/problems/rectangle-area/
 3   0279    https://leetcode.com/problems/perfect-squares/
 3   0319    https://leetcode.com/problems/bulb-switcher/
+3   0343    https://leetcode.com/problems/integer-break/
 3   0357    https://leetcode.com/problems/count-numbers-with-unique-digits/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
 3   0400    https://leetcode.com/problems/nth-digit/
@@ -65,6 +66,7 @@ References:
 4   1411    https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/
 4   1610    https://leetcode.com/problems/maximum-number-of-visible-points/
 
+5   0149    https://leetcode.com/problems/max-points-on-a-line/
 5   0335    https://leetcode.com/problems/self-crossing/
 5   0850    https://leetcode.com/problems/rectangle-area-ii/
 

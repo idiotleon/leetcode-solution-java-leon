@@ -8,6 +8,7 @@ References:
 # Depth First Search
 # Backtrack
 
+3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0320    https://leetcode.com/problems/generalized-abbreviation/
 3   0753    https://leetcode.com/problems/cracking-the-safe/
 3   0756    https://leetcode.com/problems/pyramid-transition-matrix/
@@ -28,3 +29,4 @@ References:
 5   0291    https://leetcode.com/problems/word-pattern-ii/
 
 6   0488    https://leetcode.com/problems/zuma-game/
+6   0679    https://leetcode.com/problems/24-game/

@@ -27,6 +27,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   0091    https://leetcode.com/problems/decode-ways/
 3   0096    https://leetcode.com/problems/unique-binary-search-trees/
 3   0119    https://leetcode.com/problems/pascals-triangle-ii/
+3   0131    https://leetcode.com/problems/palindrome-partitioning/
 3   0152    https://leetcode.com/problems/maximum-product-subarray/
 3   0213    https://leetcode.com/problems/house-robber-ii/
 3   0256    https://leetcode.com/problems/paint-house/
@@ -37,6 +38,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   0322    https://leetcode.com/problems/coin-change/
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 3   0338    https://leetcode.com/problems/counting-bits/
+3   0343    https://leetcode.com/problems/integer-break/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
@@ -71,6 +73,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0097    https://leetcode.com/problems/interleaving-string/
 4   0115    https://leetcode.com/problems/distinct-subsequences/
 4   0120    https://leetcode.com/problems/triangle/
+4   0132    https://leetcode.com/problems/palindrome-partitioning-ii/
 4   0139    https://leetcode.com/problems/word-break/
 4   0174    https://leetcode.com/problems/dungeon-game/
 4   0188    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
@@ -155,6 +158,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
 5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
 
+6   0471    https://leetcode.com/problems/encode-string-with-shortest-length/
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
 
 
