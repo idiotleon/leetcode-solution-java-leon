@@ -9,6 +9,7 @@ References:
 2   0206    https://leetcode.com/problems/reverse-linked-list/
 
 3   0092    https://leetcode.com/problems/reverse-linked-list-ii/
+3   1265    https://leetcode.com/problems/print-immutable-linked-list-in-reverse/
 
 4   0025    https://leetcode.com/problems/reverse-nodes-in-k-group/
 

@@ -56,6 +56,7 @@ References:
 3   0713    https://leetcode.com/problems/subarray-product-less-than-k/
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0739    https://leetcode.com/problems/daily-temperatures/
+3   0807    https://leetcode.com/problems/max-increase-to-keep-city-skyline/
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   0835    https://leetcode.com/problems/image-overlap/
 3   0840    https://leetcode.com/problems/magic-squares-in-grid/
