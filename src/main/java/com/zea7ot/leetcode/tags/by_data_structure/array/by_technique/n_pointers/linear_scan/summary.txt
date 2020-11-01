@@ -21,6 +21,7 @@ References:
 2   0605    https://leetcode.com/problems/can-place-flowers/
 2   0724    https://leetcode.com/problems/find-pivot-index/
 2   0821    https://leetcode.com/problems/shortest-distance-to-a-character/
+2   0941    https://leetcode.com/problems/valid-mountain-array/
 2   0989    https://leetcode.com/problems/add-to-array-form-of-integer/
 2   1103    https://leetcode.com/problems/distribute-candies-to-people/
 2   1460    https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/
@@ -36,9 +37,11 @@ References:
 3   0665    https://leetcode.com/problems/non-decreasing-array/
 3   0723    https://leetcode.com/problems/candy-crush/
 3   0739    https://leetcode.com/problems/daily-temperatures/
+3   0807    https://leetcode.com/problems/max-increase-to-keep-city-skyline/
 3   0835    https://leetcode.com/problems/image-overlap/
 3   0840    https://leetcode.com/problems/magic-squares-in-grid/
 3   0845    https://leetcode.com/problems/longest-mountain-in-array/
+3   0890    https://leetcode.com/problems/find-and-replace-pattern/
 3   0900    https://leetcode.com/problems/rle-iterator/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0986    https://leetcode.com/problems/interval-list-intersections/

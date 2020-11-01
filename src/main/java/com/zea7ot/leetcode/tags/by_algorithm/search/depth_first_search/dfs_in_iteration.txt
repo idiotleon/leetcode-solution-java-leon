@@ -6,6 +6,7 @@ References:
 ### Depth First Search
 # DFS in Iteration
 
+3   1265    https://leetcode.com/problems/print-immutable-linked-list-in-reverse/
 3   1586    https://leetcode.com/problems/binary-search-tree-iterator-ii/
 
 4   1248    https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/

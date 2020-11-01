@@ -25,6 +25,7 @@ References:
 3   0659    https://leetcode.com/problems/split-array-into-consecutive-subsequences/
 3   0787    https://leetcode.com/problems/cheapest-flights-within-k-stops/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
+3   0950    https://leetcode.com/problems/reveal-cards-in-increasing-order/
 3   1054    https://leetcode.com/problems/distant-barcodes/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1405    https://leetcode.com/problems/longest-happy-string/
@@ -51,6 +52,7 @@ References:
 4   1425    https://leetcode.com/problems/constrained-subsequence-sum/
 4   1499    https://leetcode.com/problems/max-value-of-equation/
 4   1553    https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
+4   1605    https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/
 
 5   0480    https://leetcode.com/problems/sliding-window-median/
 5   0499    https://leetcode.com/problems/the-maze-iii/

@@ -7,6 +7,7 @@ References:
 # Depth First Search
 
 1   0509    https://leetcode.com/problems/fibonacci-number/
+1   1342    https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
 
 3   0050    https://leetcode.com/problems/powx-n/
 3   0279    https://leetcode.com/problems/perfect-squares/

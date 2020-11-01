@@ -30,6 +30,7 @@ References:
 3   0729    https://leetcode.com/problems/my-calendar-i/
 2   0791    https://leetcode.com/problems/custom-sort-string/
 3   0846    https://leetcode.com/problems/hand-of-straights/
+3   0890    https://leetcode.com/problems/find-and-replace-pattern/
 3   0923    https://leetcode.com/problems/3sum-with-multiplicity/
 3   0939    https://leetcode.com/problems/minimum-area-rectangle/
 3   0966    https://leetcode.com/problems/vowel-spellchecker/
@@ -38,6 +39,7 @@ References:
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1010    https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/
 3   1146    https://leetcode.com/problems/snapshot-array/
+2   1218    https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/
 3   1257    https://leetcode.com/problems/smallest-common-region/
 3   1311    https://leetcode.com/problems/get-watched-videos-by-your-friends/
 3   1357    https://leetcode.com/problems/apply-discount-every-n-orders/

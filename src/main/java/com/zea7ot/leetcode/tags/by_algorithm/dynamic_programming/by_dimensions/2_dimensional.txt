@@ -34,6 +34,7 @@ References:
 3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
 3   1139    https://leetcode.com/problems/largest-1-bordered-square/
 3   1277    https://leetcode.com/problems/count-square-submatrices-with-all-ones/
+3   1314    https://leetcode.com/problems/matrix-block-sum/
 
 4   0072    https://leetcode.com/problems/edit-distance/
 4   0097    https://leetcode.com/problems/interleaving-string/

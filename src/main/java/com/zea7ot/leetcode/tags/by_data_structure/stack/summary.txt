@@ -8,6 +8,7 @@ References:
 # Summary
 
 1   0682    https://leetcode.com/problems/baseball-game/
+1   1290    https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
 1   1598    https://leetcode.com/problems/crawler-log-folder/
 1   1614    https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
 

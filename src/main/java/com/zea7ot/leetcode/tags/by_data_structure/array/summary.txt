@@ -54,6 +54,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   0885    https://leetcode.com/problems/spiral-matrix-iii/
 2   0896    https://leetcode.com/problems/monotonic-array/
+2   0941    https://leetcode.com/problems/valid-mountain-array/
 2   0989    https://leetcode.com/problems/add-to-array-form-of-integer/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/
@@ -146,12 +147,14 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0775    https://leetcode.com/problems/global-and-local-inversions/
 3   0764    https://leetcode.com/problems/largest-plus-sign/
 3   0802    https://leetcode.com/problems/find-eventual-safe-states/
+3   0807    https://leetcode.com/problems/max-increase-to-keep-city-skyline/
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   0835    https://leetcode.com/problems/image-overlap/
 3   0845    https://leetcode.com/problems/longest-mountain-in-array/
 3   0846    https://leetcode.com/problems/hand-of-straights/
 3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
 3   0877    https://leetcode.com/problems/stone-game/
+3   0890    https://leetcode.com/problems/find-and-replace-pattern/
 3   0900    https://leetcode.com/problems/rle-iterator/
 3   0904    https://leetcode.com/problems/fruit-into-baskets/
 3   0909    https://leetcode.com/problems/snakes-and-ladders/
@@ -163,6 +166,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0935    https://leetcode.com/problems/knight-dialer/3   0948    https://leetcode.com/problems/bag-of-tokens/
 3   0948    https://leetcode.com/problems/bag-of-tokens/
 3   0949    https://leetcode.com/problems/largest-time-for-given-digits/
+3   0950    https://leetcode.com/problems/reveal-cards-in-increasing-order/
 3   0962    https://leetcode.com/problems/maximum-width-ramp/
 3   0966    https://leetcode.com/problems/vowel-spellchecker/
 3   0969    https://leetcode.com/problems/pancake-sorting/
@@ -198,6 +202,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
 3   1296    https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/
 3   1306    https://leetcode.com/problems/jump-game-iii/
+3   1314    https://leetcode.com/problems/matrix-block-sum/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 3   1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/
@@ -222,6 +227,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0265    https://leetcode.com/problems/paint-house-ii/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
 4   0296    https://leetcode.com/problems/best-meeting-point/
+4   0307    https://leetcode.com/problems/range-sum-query-mutable/
 4   0309    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 4   0311    https://leetcode.com/problems/sparse-matrix-multiplication/
 4   0312    https://leetcode.com/problems/burst-balloons/
@@ -328,6 +334,7 @@ This file serves as the total list of problems related to Array, regardless of a
 5   1074    https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/
 5   1178    https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/
 
+6   0308    https://leetcode.com/problems/range-sum-query-2d-mutable/
 6   0391    https://leetcode.com/problems/perfect-rectangle/
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
 
