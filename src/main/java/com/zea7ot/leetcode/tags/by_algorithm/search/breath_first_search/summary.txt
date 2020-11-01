@@ -51,6 +51,7 @@ References:
 3   0279    https://leetcode.com/problems/perfect-squares/
 3   0286    https://leetcode.com/problems/walls-and-gates/
 3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+3   0397    https://leetcode.com/problems/integer-replacement/
 3   0444    https://leetcode.com/problems/sequence-reconstruction/
 3   0542    https://leetcode.com/problems/01-matrix/
 3   0572    https://leetcode.com/problems/subtree-of-another-tree/
