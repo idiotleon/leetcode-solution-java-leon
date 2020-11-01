@@ -264,6 +264,7 @@ References:
 5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
 
 6   0488    https://leetcode.com/problems/zuma-game/
+6   0679    https://leetcode.com/problems/24-game/
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
 
 

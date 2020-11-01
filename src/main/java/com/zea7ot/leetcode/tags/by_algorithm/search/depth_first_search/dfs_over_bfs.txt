@@ -27,3 +27,5 @@ References:
 
 5   0834    https://leetcode.com/problems/sum-of-distances-in-tree/
 5   1178    https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/
+
+6   0679    https://leetcode.com/problems/24-game/

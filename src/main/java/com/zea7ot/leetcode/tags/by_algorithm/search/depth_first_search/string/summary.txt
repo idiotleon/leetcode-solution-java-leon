@@ -51,3 +51,5 @@ References:
 5   1178    https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/
 
 6   0488    https://leetcode.com/problems/zuma-game/
+6   0679    https://leetcode.com/problems/24-game/
+
