@@ -7,6 +7,8 @@ References:
 ### Stack
 # Recursion Simulation
 
+1   1290    https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0971    https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/
 2   1038    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/

@@ -13,6 +13,7 @@ References:
 1   0872    https://leetcode.com/problems/leaf-similar-trees/
 1   0965    https://leetcode.com/problems/univalued-binary-tree/
 1   1161    https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
+1   1290    https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
 1   1342    https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
 
 2   0017    https://leetcode.com/problems/letter-combinations-of-a-phone-number/
