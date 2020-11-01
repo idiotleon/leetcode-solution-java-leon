@@ -11,6 +11,7 @@ References:
 
 3   0542    https://leetcode.com/problems/01-matrix/
 3   1311    https://leetcode.com/problems/get-watched-videos-by-your-friends/
+3   1557    https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/
 
 4   0317    https://leetcode.com/problems/shortest-distance-from-all-buildings/
 4   1210    https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/

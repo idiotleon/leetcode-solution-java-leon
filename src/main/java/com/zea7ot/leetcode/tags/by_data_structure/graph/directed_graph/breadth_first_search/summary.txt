@@ -4,8 +4,9 @@ References:
 
 
 ### Graph
-# Directed Graph
+## Directed Graph
 # Breadth First Search
+# Summary
 
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0310    https://leetcode.com/problems/minimum-height-trees/
@@ -18,6 +19,7 @@ References:
 3   0802    https://leetcode.com/problems/find-eventual-safe-states/
 3   1129    https://leetcode.com/problems/shortest-path-with-alternating-colors/
 3   1466    https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
+3   1557    https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/
 
 4   1298    https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/
 
