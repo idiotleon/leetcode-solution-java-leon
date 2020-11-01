@@ -54,6 +54,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   0885    https://leetcode.com/problems/spiral-matrix-iii/
 2   0896    https://leetcode.com/problems/monotonic-array/
+2   0941    https://leetcode.com/problems/valid-mountain-array/
 2   0989    https://leetcode.com/problems/add-to-array-form-of-integer/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/
