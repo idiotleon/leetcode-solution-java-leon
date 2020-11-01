@@ -9,6 +9,8 @@ References:
 1   0509    https://leetcode.com/problems/fibonacci-number/
 1   1342    https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
 
+2   1387    https://leetcode.com/problems/sort-integers-by-the-power-value/
+
 3   0050    https://leetcode.com/problems/powx-n/
 3   0279    https://leetcode.com/problems/perfect-squares/
 3   0967    https://leetcode.com/problems/numbers-with-same-consecutive-differences/
