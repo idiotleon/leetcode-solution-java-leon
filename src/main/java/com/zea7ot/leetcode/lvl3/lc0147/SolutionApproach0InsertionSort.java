@@ -21,12 +21,14 @@ public class SolutionApproach0InsertionSort {
             ListNode next = head.next;
 
             // to reset `prev`
-            if (prev.val >= head.val)
+            if (prev.val >= head.val) {
                 prev = dummy;
+            }
 
             // to find the right place to insert
-            while (prev.next != null && prev.next.val < head.val)
+            while (prev.next != null && prev.next.val < head.val) {
                 prev = prev.next;
+            }
 
             // to insert the new node, between `prev` and `prev.next`
             head.next = prev.next;
