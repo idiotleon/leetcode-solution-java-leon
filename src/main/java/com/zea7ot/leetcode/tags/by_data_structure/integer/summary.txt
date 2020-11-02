@@ -18,6 +18,7 @@ References:
 2   0374    https://leetcode.com/problems/guess-number-higher-or-lower/
 2   0989    https://leetcode.com/problems/add-to-array-form-of-integer/
 2   1022    https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
+2   1387    https://leetcode.com/problems/sort-integers-by-the-power-value/
 
 3   0050    https://leetcode.com/problems/powx-n/
 3   0069    https://leetcode.com/problems/sqrtx/
@@ -31,6 +32,7 @@ References:
 3   0967    https://leetcode.com/problems/numbers-with-same-consecutive-differences/
 3   1201    https://leetcode.com/problems/ugly-number-iii/
 3   1291    https://leetcode.com/problems/sequential-digits/
+3   1414    https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/
 3   1415    https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/
 
 4   0375    https://leetcode.com/problems/guess-number-higher-or-lower-ii/

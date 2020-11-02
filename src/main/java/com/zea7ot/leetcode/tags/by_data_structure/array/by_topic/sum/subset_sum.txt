@@ -4,7 +4,6 @@ References:
 
 
 ### Array
-## By Topic
-# Sum
+# Subset Sum
 
-3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
+4   0473    https://leetcode.com/problems/matchsticks-to-square/

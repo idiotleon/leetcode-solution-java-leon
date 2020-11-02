@@ -16,6 +16,7 @@ References:
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
 4   0312    https://leetcode.com/problems/burst-balloons/
+4   0473    https://leetcode.com/problems/matchsticks-to-square/
 4   0474    https://leetcode.com/problems/ones-and-zeroes/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0879    https://leetcode.com/problems/profitable-schemes/

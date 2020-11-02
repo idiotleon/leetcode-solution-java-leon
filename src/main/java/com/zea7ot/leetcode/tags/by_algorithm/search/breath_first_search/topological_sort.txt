@@ -12,6 +12,7 @@ References:
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0444    https://leetcode.com/problems/sequence-reconstruction/
 3   0743    https://leetcode.com/problems/network-delay-time/
+3   1557    https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/
 
 5   1203    https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
 

@@ -4,10 +4,11 @@ References:
 
 
 ### Array
-# Subset
+## By Topic
+# Sum
 
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
+3   1314    https://leetcode.com/problems/matrix-block-sum/
 
-4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0473    https://leetcode.com/problems/matchsticks-to-square/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/

@@ -9,9 +9,12 @@ References:
 1   0509    https://leetcode.com/problems/fibonacci-number/
 1   1342    https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
 
+2   1387    https://leetcode.com/problems/sort-integers-by-the-power-value/
+
 3   0050    https://leetcode.com/problems/powx-n/
 3   0279    https://leetcode.com/problems/perfect-squares/
 3   0967    https://leetcode.com/problems/numbers-with-same-consecutive-differences/
+3   1414    https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/
 3   1415    https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/
 
 4   0375    https://leetcode.com/problems/guess-number-higher-or-lower-ii/

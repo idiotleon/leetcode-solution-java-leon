@@ -50,6 +50,7 @@ References:
 3   1254    https://leetcode.com/problems/number-of-closed-islands/
 3   1306    https://leetcode.com/problems/jump-game-iii/
 3   1376    https://leetcode.com/problems/time-needed-to-inform-all-employees/
+3   1482    https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 
 4   0154    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
 4   0287    https://leetcode.com/problems/find-the-duplicate-number/
@@ -61,6 +62,7 @@ References:
 4   0407    https://leetcode.com/problems/trapping-rain-water-ii/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0457    https://leetcode.com/problems/circular-array-loop/
+4   0473    https://leetcode.com/problems/matchsticks-to-square/
 4   0474    https://leetcode.com/problems/ones-and-zeroes/
 4   0486    https://leetcode.com/problems/predict-the-winner/
 4   0489    https://leetcode.com/problems/robot-room-cleaner/

@@ -44,6 +44,7 @@ References:
 4   0306    https://leetcode.com/problems/additive-number/
 4   0351    https://leetcode.com/problems/android-unlock-patterns/
 4   0464    https://leetcode.com/problems/can-i-win/
+4   0473    https://leetcode.com/problems/matchsticks-to-square/
 4   0489    https://leetcode.com/problems/robot-room-cleaner/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0980    https://leetcode.com/problems/unique-paths-iii/

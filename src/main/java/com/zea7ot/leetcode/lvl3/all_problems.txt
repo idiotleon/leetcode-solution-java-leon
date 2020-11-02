@@ -55,3 +55,5 @@ References:
 1358    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 1522    https://leetcode.com/problems/diameter-of-n-ary-tree/
 1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/
+
+1552    https://leetcode.com/problems/magnetic-force-between-two-balls/
