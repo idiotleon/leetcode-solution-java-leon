@@ -22,6 +22,7 @@ References:
 1   0997    https://leetcode.com/problems/find-the-town-judge/
 1   1108    https://leetcode.com/problems/defanging-an-ip-address/
 1   1165    https://leetcode.com/problems/single-row-keyboard/
+1   1417    https://leetcode.com/problems/reformat-the-string/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 1   1598    https://leetcode.com/problems/crawler-log-folder/
 
