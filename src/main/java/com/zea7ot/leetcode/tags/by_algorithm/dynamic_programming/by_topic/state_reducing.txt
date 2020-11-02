@@ -7,6 +7,7 @@ References:
 ### Dynamic Programming
 # State Reducing
 
+4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
 
 5   0847    https://leetcode.com/problems/shortest-path-visiting-all-nodes/

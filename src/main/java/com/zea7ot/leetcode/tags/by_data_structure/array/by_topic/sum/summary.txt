@@ -8,3 +8,6 @@ References:
 # Sum
 
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
+3   1314    https://leetcode.com/problems/matrix-block-sum/
+
+4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/

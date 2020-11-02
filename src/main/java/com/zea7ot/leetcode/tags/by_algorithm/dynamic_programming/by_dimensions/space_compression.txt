@@ -41,6 +41,7 @@ References:
 4   0639    https://leetcode.com/problems/decode-ways-ii/
 4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
+4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0740    https://leetcode.com/problems/delete-and-earn/
 4   0799    https://leetcode.com/problems/champagne-tower/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/

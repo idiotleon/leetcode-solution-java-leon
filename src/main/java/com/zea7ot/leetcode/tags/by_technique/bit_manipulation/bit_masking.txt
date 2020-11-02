@@ -48,3 +48,11 @@ Resources:
 ## State Reducing
 
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
+
+
+
+
+# Resources
+    http://codeforces.com/blog/entry/337
+    https://www.hackerearth.com/practice/algorithms/dynamic-programming/bit-masking/tutorial/
+    https://www.geeksforgeeks.org/partition-set-k-subsets-equal-sum/
