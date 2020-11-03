@@ -23,6 +23,7 @@ References:
 3   1140    https://leetcode.com/problems/stone-game-ii/
 
 4   1406    https://leetcode.com/problems/stone-game-iii/
+4   1444    https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/
 
 
 

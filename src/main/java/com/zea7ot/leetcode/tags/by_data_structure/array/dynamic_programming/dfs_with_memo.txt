@@ -18,4 +18,5 @@ References:
 4   1039    https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
 4   1340    https://leetcode.com/problems/jump-game-v/
 4   1406    https://leetcode.com/problems/stone-game-iii/
+4   1444    https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
