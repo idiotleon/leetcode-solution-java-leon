@@ -17,3 +17,5 @@ References:
 4   0358    https://leetcode.com/problems/rearrange-string-k-distance-apart/
 4   0616    https://leetcode.com/problems/add-bold-tag-in-string/
 4   0936    https://leetcode.com/problems/stamping-the-sequence/
+
+5   1520    https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/

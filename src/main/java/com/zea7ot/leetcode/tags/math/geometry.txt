@@ -19,6 +19,7 @@ References:
 
 4   0478    https://leetcode.com/problems/generate-random-point-in-a-circle/
 4   0963    https://leetcode.com/problems/minimum-area-rectangle-ii/
+4   1039    https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
 4   1610    https://leetcode.com/problems/maximum-number-of-visible-points/
 
 5   0149    https://leetcode.com/problems/max-points-on-a-line/
