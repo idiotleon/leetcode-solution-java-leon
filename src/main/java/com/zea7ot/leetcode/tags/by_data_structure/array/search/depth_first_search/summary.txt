@@ -4,7 +4,8 @@ References:
 
 
 ### Array
-# Depth First Search
+## Depth First Search
+# Summary
 
 2   0017    https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 2   0078    https://leetcode.com/problems/subsets/
@@ -52,12 +53,14 @@ References:
 4   1039    https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
 4   1102    https://leetcode.com/problems/path-with-maximum-minimum-value/
 4   1125    https://leetcode.com/problems/smallest-sufficient-team/
+4   1225    https://leetcode.com/problems/maximum-score-words-formed-by-letters/
 4   1246    https://leetcode.com/problems/palindrome-removal/
 4   1248    https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/
 4   1258    https://leetcode.com/problems/synonymous-sentences/
 4   1335    https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 4   1340    https://leetcode.com/problems/jump-game-v/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
+4   1444    https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/
 4   1537    https://leetcode.com/problems/get-the-maximum-score/
 
 5   0140    https://leetcode.com/problems/word-break-ii/

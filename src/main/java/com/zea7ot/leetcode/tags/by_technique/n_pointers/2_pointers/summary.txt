@@ -12,6 +12,7 @@ References:
 1   0349    https://leetcode.com/problems/intersection-of-two-arrays/
 1   0643    https://leetcode.com/problems/maximum-average-subarray-i/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
+1   1056    https://leetcode.com/problems/confusing-number/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0002    https://leetcode.com/problems/add-two-numbers/

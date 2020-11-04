@@ -20,6 +20,7 @@ References:
 1   0830    https://leetcode.com/problems/positions-of-large-groups/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   0997    https://leetcode.com/problems/find-the-town-judge/
+1   1056    https://leetcode.com/problems/confusing-number/
 1   1108    https://leetcode.com/problems/defanging-an-ip-address/
 1   1165    https://leetcode.com/problems/single-row-keyboard/
 1   1417    https://leetcode.com/problems/reformat-the-string/

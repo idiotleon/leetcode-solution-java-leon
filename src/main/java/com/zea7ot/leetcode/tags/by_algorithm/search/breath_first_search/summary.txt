@@ -50,6 +50,7 @@ References:
 3   0210    https://leetcode.com/problems/course-schedule-ii/
 3   0279    https://leetcode.com/problems/perfect-squares/
 3   0286    https://leetcode.com/problems/walls-and-gates/
+3   0310    https://leetcode.com/problems/minimum-height-trees/
 3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 3   0397    https://leetcode.com/problems/integer-replacement/
 3   0444    https://leetcode.com/problems/sequence-reconstruction/
