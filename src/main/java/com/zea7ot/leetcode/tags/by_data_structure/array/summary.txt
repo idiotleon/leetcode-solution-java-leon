@@ -299,6 +299,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
 4   1187    https://leetcode.com/problems/make-array-strictly-increasing/
 4   1210    https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/
+4   1225    https://leetcode.com/problems/maximum-score-words-formed-by-letters/
 4   1231    https://leetcode.com/problems/divide-chocolate/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 4   1246    https://leetcode.com/problems/palindrome-removal/

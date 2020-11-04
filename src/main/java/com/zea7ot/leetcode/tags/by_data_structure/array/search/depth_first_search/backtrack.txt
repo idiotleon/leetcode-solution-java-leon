@@ -23,6 +23,7 @@ References:
 4   0489    https://leetcode.com/problems/robot-room-cleaner/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0980    https://leetcode.com/problems/unique-paths-iii/
+4   1225    https://leetcode.com/problems/maximum-score-words-formed-by-letters/
 4   1258    https://leetcode.com/problems/synonymous-sentences/
 4   1439    https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/
 
