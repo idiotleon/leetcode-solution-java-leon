@@ -209,6 +209,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/
 3   1552    https://leetcode.com/problems/magnetic-force-between-two-balls/
 3   1577    https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/
+3   1594    https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/
 3   1626    https://leetcode.com/problems/best-team-with-no-conflicts/
 
 4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/

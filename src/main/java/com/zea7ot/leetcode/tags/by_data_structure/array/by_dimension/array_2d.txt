@@ -70,6 +70,7 @@ References:
 3   1288    https://leetcode.com/problems/remove-covered-intervals/
 3   1314    https://leetcode.com/problems/matrix-block-sum/
 3   1424    https://leetcode.com/problems/diagonal-traverse-ii/
+3   1594    https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/
 
 4   0120    https://leetcode.com/problems/triangle/
 4   0218    https://leetcode.com/problems/the-skyline-problem/
