@@ -10,4 +10,6 @@ References:
 2   0919    https://leetcode.com/problems/complete-binary-tree-inserter/
 2   1609    https://leetcode.com/problems/even-odd-tree/
 
+3   0310    https://leetcode.com/problems/minimum-height-trees/
+
 4   0317    https://leetcode.com/problems/shortest-distance-from-all-buildings/
