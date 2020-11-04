@@ -34,6 +34,7 @@ References:
 3   0343    https://leetcode.com/problems/integer-break/
 3   0357    https://leetcode.com/problems/count-numbers-with-unique-digits/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
+3   0365    https://leetcode.com/problems/water-and-jug-problem/
 3   0400    https://leetcode.com/problems/nth-digit/
 3   0470    https://leetcode.com/problems/implement-rand10-using-rand7/
 3   0497    https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/
