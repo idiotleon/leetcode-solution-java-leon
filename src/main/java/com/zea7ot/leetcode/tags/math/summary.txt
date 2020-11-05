@@ -46,6 +46,7 @@ References:
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0670    https://leetcode.com/problems/maximum-swap/
 3   0750    https://leetcode.com/problems/number-of-corner-rectangles/
+3   0812    https://leetcode.com/problems/largest-triangle-area/
 3   0914    https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/
 3   0939    https://leetcode.com/problems/minimum-area-rectangle/3   
 3   0949    https://leetcode.com/problems/largest-time-for-given-digits/

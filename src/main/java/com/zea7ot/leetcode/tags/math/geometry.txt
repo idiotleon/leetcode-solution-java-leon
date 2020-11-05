@@ -15,6 +15,7 @@ References:
 3   0593    https://leetcode.com/problems/valid-square/
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0750    https://leetcode.com/problems/number-of-corner-rectangles/
+3   0812    https://leetcode.com/problems/largest-triangle-area/
 3   0939    https://leetcode.com/problems/minimum-area-rectangle/
 
 4   0478    https://leetcode.com/problems/generate-random-point-in-a-circle/
@@ -23,3 +24,7 @@ References:
 4   1610    https://leetcode.com/problems/maximum-number-of-visible-points/
 
 5   0149    https://leetcode.com/problems/max-points-on-a-line/
+
+
+Resouces:
+    https://www.mathopenref.com/coordtrianglearea.html
