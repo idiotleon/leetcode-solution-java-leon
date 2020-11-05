@@ -20,6 +20,7 @@ References:
 3   0981    https://leetcode.com/problems/time-based-key-value-store/
 3   0987    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 3   1146    https://leetcode.com/problems/snapshot-array/
+3   1244    https://leetcode.com/problems/design-a-leaderboard/
 
 4   0057    https://leetcode.com/problems/insert-interval/description/
 4   0218    https://leetcode.com/problems/the-skyline-problem/
