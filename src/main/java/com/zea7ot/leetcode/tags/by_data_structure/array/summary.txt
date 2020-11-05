@@ -126,6 +126,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0435    https://leetcode.com/problems/non-overlapping-intervals/
 3   0436    https://leetcode.com/problems/find-right-interval/
 3   0444    https://leetcode.com/problems/sequence-reconstruction/
+3   0448    https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 3   0452    https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
 3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
 3   0491    https://leetcode.com/problems/increasing-subsequences/
