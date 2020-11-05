@@ -7,6 +7,8 @@ References:
 ## By Topic
 # Sum
 
+2   1619    https://leetcode.com/problems/mean-of-array-after-removing-some-elements/
+
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
 3   1314    https://leetcode.com/problems/matrix-block-sum/
 
