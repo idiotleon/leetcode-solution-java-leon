@@ -6,6 +6,9 @@ References:
 ### Game
 # Summary
 
+2   0292    https://leetcode.com/problems/nim-game/
+2   1025    https://leetcode.com/problems/divisor-game/
+
 3   0055    https://leetcode.com/problems/jump-game/
 3   0289    https://leetcode.com/problems/game-of-life/
 2   0374    https://leetcode.com/problems/guess-number-higher-or-lower/

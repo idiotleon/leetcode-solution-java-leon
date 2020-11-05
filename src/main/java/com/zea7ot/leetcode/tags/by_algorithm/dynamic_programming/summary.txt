@@ -21,6 +21,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 2   0292    https://leetcode.com/problems/nim-game/
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 2   0413    https://leetcode.com/problems/arithmetic-slices/
+2   1025    https://leetcode.com/problems/divisor-game/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1167    https://leetcode.com/problems/minimum-cost-to-connect-sticks/
 

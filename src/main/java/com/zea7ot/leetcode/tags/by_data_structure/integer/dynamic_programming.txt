@@ -9,6 +9,7 @@ References:
 1   0509    https://leetcode.com/problems/fibonacci-number/
 
 2   0292    https://leetcode.com/problems/nim-game/
+2   1025    https://leetcode.com/problems/divisor-game/
 
 3   0279    https://leetcode.com/problems/perfect-squares/
 3   0343    https://leetcode.com/problems/integer-break/

@@ -10,6 +10,7 @@ References:
 1   1342    https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
 
 2   0292    https://leetcode.com/problems/nim-game/
+2   1025    https://leetcode.com/problems/divisor-game/
 2   1387    https://leetcode.com/problems/sort-integers-by-the-power-value/
 
 3   0050    https://leetcode.com/problems/powx-n/
