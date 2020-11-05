@@ -18,6 +18,7 @@ This file serves as the total list of problems related to Array, regardless of a
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   1046    https://leetcode.com/problems/last-stone-weight/
 1   1137    https://leetcode.com/problems/n-th-tribonacci-number/
+1   1207    https://leetcode.com/problems/unique-number-of-occurrences/
 1   1313    https://leetcode.com/problems/decompress-run-length-encoded-list/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 

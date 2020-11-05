@@ -23,6 +23,7 @@ References:
 1   1056    https://leetcode.com/problems/confusing-number/
 1   1108    https://leetcode.com/problems/defanging-an-ip-address/
 1   1165    https://leetcode.com/problems/single-row-keyboard/
+1   1207    https://leetcode.com/problems/unique-number-of-occurrences/
 1   1313    https://leetcode.com/problems/decompress-run-length-encoded-list/
 1   1417    https://leetcode.com/problems/reformat-the-string/
 1   1446    https://leetcode.com/problems/consecutive-characters/
