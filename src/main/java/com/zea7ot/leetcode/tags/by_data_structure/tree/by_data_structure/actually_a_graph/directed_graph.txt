@@ -7,4 +7,3 @@ References:
 ## Actually a Graph
 # Directed Graph
 
-3   0310    https://leetcode.com/problems/minimum-height-trees/
