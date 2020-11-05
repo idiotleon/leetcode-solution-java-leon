@@ -30,3 +30,5 @@ References:
 4   1088    https://leetcode.com/problems/confusing-number-ii/
 4   1510    https://leetcode.com/problems/stone-game-iv/
 4   1553    https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
+
+5   0932    https://leetcode.com/problems/beautiful-array/

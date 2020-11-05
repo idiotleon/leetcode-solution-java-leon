@@ -22,3 +22,5 @@ References:
 4   1088    https://leetcode.com/problems/confusing-number-ii/
 4   1269    https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
 4   1510    https://leetcode.com/problems/stone-game-iv/
+
+5   0932    https://leetcode.com/problems/beautiful-array/
