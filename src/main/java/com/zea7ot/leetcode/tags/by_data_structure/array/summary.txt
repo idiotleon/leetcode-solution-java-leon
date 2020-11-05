@@ -39,6 +39,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0463    https://leetcode.com/problems/island-perimeter/
 2   0485    https://leetcode.com/problems/max-consecutive-ones/
 2   0495    https://leetcode.com/problems/teemo-attacking/
+2   0581    https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
 2   0605    https://leetcode.com/problems/can-place-flowers/
 2   0622    https://leetcode.com/problems/design-circular-queue/
 2   0690    https://leetcode.com/problems/employee-importance/
@@ -152,6 +153,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0835    https://leetcode.com/problems/image-overlap/
 3   0845    https://leetcode.com/problems/longest-mountain-in-array/
 3   0846    https://leetcode.com/problems/hand-of-straights/
+3   0853    https://leetcode.com/problems/car-fleet/
 3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
 3   0877    https://leetcode.com/problems/stone-game/
 3   0890    https://leetcode.com/problems/find-and-replace-pattern/
@@ -209,6 +211,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/
 3   1552    https://leetcode.com/problems/magnetic-force-between-two-balls/
 3   1577    https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/
+3   1594    https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/
 3   1626    https://leetcode.com/problems/best-team-with-no-conflicts/
 
 4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/

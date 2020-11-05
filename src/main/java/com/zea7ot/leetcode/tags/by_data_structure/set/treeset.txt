@@ -11,6 +11,7 @@ References:
 
 3   0220    https://leetcode.com/problems/contains-duplicate-iii/
 3   0729    https://leetcode.com/problems/my-calendar-i/
+3   1244    https://leetcode.com/problems/design-a-leaderboard/
 3   1488    https://leetcode.com/problems/avoid-flood-in-the-city/
 
 4   0220    https://leetcode.com/problems/contains-duplicate-iii/

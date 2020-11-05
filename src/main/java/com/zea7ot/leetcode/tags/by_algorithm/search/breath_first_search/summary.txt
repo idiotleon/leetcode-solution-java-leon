@@ -52,6 +52,7 @@ References:
 3   0286    https://leetcode.com/problems/walls-and-gates/
 3   0310    https://leetcode.com/problems/minimum-height-trees/
 3   0323    https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+3   0365    https://leetcode.com/problems/water-and-jug-problem/
 3   0397    https://leetcode.com/problems/integer-replacement/
 3   0444    https://leetcode.com/problems/sequence-reconstruction/
 3   0542    https://leetcode.com/problems/01-matrix/
@@ -113,6 +114,7 @@ References:
 4   1293    https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
 4   1298    https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/
 4   1345    https://leetcode.com/problems/jump-game-iv/
+4   1377    https://leetcode.com/problems/frog-position-after-t-seconds/
 4   1553    https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
 
 5   0691    https://leetcode.com/problems/stickers-to-spell-word/

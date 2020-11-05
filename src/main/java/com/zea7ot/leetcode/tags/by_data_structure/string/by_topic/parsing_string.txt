@@ -22,6 +22,7 @@ References:
 2   0824    https://leetcode.com/problems/goat-latin/
 2   0953    https://leetcode.com/problems/verifying-an-alien-dictionary/
 2   1410    https://leetcode.com/problems/html-entity-parser/
+2   1592    https://leetcode.com/problems/rearrange-spaces-between-words/
 
 3   0029    https://leetcode.com/problems/divide-two-integers/
 3   0071    https://leetcode.com/problems/simplify-path/
@@ -38,6 +39,7 @@ References:
 3   0609    https://leetcode.com/problems/find-duplicate-file-in-system/
 3   0640    https://leetcode.com/problems/solve-the-equation/
 3   0681    https://leetcode.com/problems/next-closest-time/
+3   0722    https://leetcode.com/problems/remove-comments/
 3   0842    https://leetcode.com/problems/split-array-into-fibonacci-sequence/
 3   0949    https://leetcode.com/problems/largest-time-for-given-digits/
 3   1360    https://leetcode.com/problems/number-of-days-between-two-dates/

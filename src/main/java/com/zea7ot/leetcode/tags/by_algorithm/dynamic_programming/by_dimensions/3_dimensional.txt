@@ -9,6 +9,7 @@ References:
 # 3 Dimensional
 
 3   1139    https://leetcode.com/problems/largest-1-bordered-square/
+3   1594    https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/
 
 4   0312    https://leetcode.com/problems/burst-balloons/
 4   0474    https://leetcode.com/problems/ones-and-zeroes/
