@@ -7,3 +7,6 @@ References:
 # Summary
 
 1   1051    https://leetcode.com/problems/height-checker/
+
+2   0791    https://leetcode.com/problems/custom-sort-string/
+2   1122    https://leetcode.com/problems/relative-sort-array/

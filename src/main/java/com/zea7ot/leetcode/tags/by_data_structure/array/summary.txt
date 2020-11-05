@@ -51,6 +51,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0724    https://leetcode.com/problems/find-pivot-index/
 2   0744    https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
+2   0791    https://leetcode.com/problems/custom-sort-string/
 2   0821    https://leetcode.com/problems/shortest-distance-to-a-character/
 2   0832    https://leetcode.com/problems/flipping-an-image/
 2   0849    https://leetcode.com/problems/maximize-distance-to-closest-person/
@@ -63,6 +64,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/
 2   1103    https://leetcode.com/problems/distribute-candies-to-people/
+2   1122    https://leetcode.com/problems/relative-sort-array/
 2   1151    https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/
 2   1167    https://leetcode.com/problems/minimum-cost-to-connect-sticks/
 2   1176    https://leetcode.com/problems/diet-plan-performance/
