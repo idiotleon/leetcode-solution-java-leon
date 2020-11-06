@@ -39,6 +39,7 @@ References:
 2   1184    https://leetcode.com/problems/distance-between-bus-stops/
 2   1217    https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/
 2   1331    https://leetcode.com/problems/rank-transform-of-an-array/
+2   1346    https://leetcode.com/problems/check-if-n-and-its-double-exist/
 2   1460    https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 2   1570    https://leetcode.com/problems/dot-product-of-two-sparse-vectors/

@@ -53,6 +53,7 @@ References:
 2   0605    https://leetcode.com/problems/can-place-flowers/
 2   0724    https://leetcode.com/problems/find-pivot-index/
 2   0821    https://leetcode.com/problems/shortest-distance-to-a-character/
+2   0844    https://leetcode.com/problems/backspace-string-compare/
 2   0849    https://leetcode.com/problems/maximize-distance-to-closest-person/
 2   0859    https://leetcode.com/problems/buddy-strings/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
@@ -71,6 +72,7 @@ References:
 2   1184    https://leetcode.com/problems/distance-between-bus-stops/
 2   1217    https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/
 2   1331    https://leetcode.com/problems/rank-transform-of-an-array/
+2   1346    https://leetcode.com/problems/check-if-n-and-its-double-exist/
 2   1456    https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
 2   1460    https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
@@ -115,7 +117,6 @@ References:
 3   0825    https://leetcode.com/problems/friends-of-appropriate-ages/
 3   0835    https://leetcode.com/problems/image-overlap/
 3   0840    https://leetcode.com/problems/magic-squares-in-grid/
-2   0844    https://leetcode.com/problems/backspace-string-compare/
 3   0845    https://leetcode.com/problems/longest-mountain-in-array/
 3   0873    https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/
 3   0890    https://leetcode.com/problems/find-and-replace-pattern/
