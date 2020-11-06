@@ -17,7 +17,10 @@ This file serves as the total list of problems related to Array, regardless of a
 1   0830    https://leetcode.com/problems/positions-of-large-groups/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   1046    https://leetcode.com/problems/last-stone-weight/
+1   1051    https://leetcode.com/problems/height-checker/
 1   1137    https://leetcode.com/problems/n-th-tribonacci-number/
+1   1207    https://leetcode.com/problems/unique-number-of-occurrences/
+1   1313    https://leetcode.com/problems/decompress-run-length-encoded-list/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0001    https://leetcode.com/problems/two-sum/
@@ -48,6 +51,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0724    https://leetcode.com/problems/find-pivot-index/
 2   0744    https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 2   0784    https://leetcode.com/problems/letter-case-permutation/
+2   0791    https://leetcode.com/problems/custom-sort-string/
 2   0821    https://leetcode.com/problems/shortest-distance-to-a-character/
 2   0832    https://leetcode.com/problems/flipping-an-image/
 2   0849    https://leetcode.com/problems/maximize-distance-to-closest-person/
@@ -60,10 +64,12 @@ This file serves as the total list of problems related to Array, regardless of a
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/
 2   1103    https://leetcode.com/problems/distribute-candies-to-people/
+2   1122    https://leetcode.com/problems/relative-sort-array/
 2   1151    https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/
 2   1167    https://leetcode.com/problems/minimum-cost-to-connect-sticks/
 2   1176    https://leetcode.com/problems/diet-plan-performance/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
+2   1217    https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/
 2   1287    https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
 2   1375    https://leetcode.com/problems/bulb-switcher-iii/
 2   1460    https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/
@@ -71,6 +77,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   1465    https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 2   1570    https://leetcode.com/problems/dot-product-of-two-sparse-vectors/
+2   1619    https://leetcode.com/problems/mean-of-array-after-removing-some-elements/
 
 3   0039    https://leetcode.com/problems/combination-sum/
 3   0040    https://leetcode.com/problems/combination-sum-ii/ 
@@ -121,6 +128,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0435    https://leetcode.com/problems/non-overlapping-intervals/
 3   0436    https://leetcode.com/problems/find-right-interval/
 3   0444    https://leetcode.com/problems/sequence-reconstruction/
+3   0448    https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 3   0452    https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
 3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
 3   0491    https://leetcode.com/problems/increasing-subsequences/
@@ -288,6 +296,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   0992    https://leetcode.com/problems/subarrays-with-k-different-integers/
 4   1011    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+4   1024    https://leetcode.com/problems/video-stitching/
 4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
 4   1040    https://leetcode.com/problems/moving-stones-until-consecutive-ii/
@@ -324,6 +333,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 4   1537    https://leetcode.com/problems/get-the-maximum-score/
+4   1547    https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
 
 5   0037    https://leetcode.com/problems/sudoku-solver/
 5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/

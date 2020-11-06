@@ -10,3 +10,5 @@ References:
 3   1586    https://leetcode.com/problems/binary-search-tree-iterator-ii/
 
 4   1248    https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/
+
+5   0932    https://leetcode.com/problems/beautiful-array/

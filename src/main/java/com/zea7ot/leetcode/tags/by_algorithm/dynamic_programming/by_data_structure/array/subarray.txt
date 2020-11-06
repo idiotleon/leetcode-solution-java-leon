@@ -14,6 +14,7 @@ References:
 3   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 
+4   0312    https://leetcode.com/problems/burst-balloons/
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0486    https://leetcode.com/problems/predict-the-winner/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
@@ -22,5 +23,6 @@ References:
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
+4   1547    https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
 
 5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/

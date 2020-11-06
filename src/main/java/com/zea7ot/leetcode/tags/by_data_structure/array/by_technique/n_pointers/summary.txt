@@ -15,6 +15,8 @@ References:
 1   0830    https://leetcode.com/problems/positions-of-large-groups/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   0997    https://leetcode.com/problems/find-the-town-judge/
+1   1207    https://leetcode.com/problems/unique-number-of-occurrences/
+1   1313    https://leetcode.com/problems/decompress-run-length-encoded-list/
 1   1470    https://leetcode.com/problems/shuffle-the-array/
 
 2   0136    https://leetcode.com/problems/single-number/
@@ -28,14 +30,17 @@ References:
 2   0849    https://leetcode.com/problems/maximize-distance-to-closest-person/
 2   0881    https://leetcode.com/problems/boats-to-save-people/
 2   0941    https://leetcode.com/problems/valid-mountain-array/
+2   0942    https://leetcode.com/problems/di-string-match/
 2   0989    https://leetcode.com/problems/add-to-array-form-of-integer/
 2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/
 2   1103    https://leetcode.com/problems/distribute-candies-to-people/
 2   1151    https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/
 2   1176    https://leetcode.com/problems/diet-plan-performance/
+2   1217    https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/
 2   1460    https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 2   1570    https://leetcode.com/problems/dot-product-of-two-sparse-vectors/
+2   1619    https://leetcode.com/problems/mean-of-array-after-removing-some-elements/
 
 3   0011    https://leetcode.com/problems/container-with-most-water/
 3   0075    https://leetcode.com/problems/sort-colors/
@@ -49,6 +54,7 @@ References:
 3   0348    https://leetcode.com/problems/design-tic-tac-toe/
 3   0360    https://leetcode.com/problems/sort-transformed-array/
 3   0444    https://leetcode.com/problems/sequence-reconstruction/
+3   0448    https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 3   0523    https://leetcode.com/problems/continuous-subarray-sum/
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0624    https://leetcode.com/problems/maximum-distance-in-arrays/

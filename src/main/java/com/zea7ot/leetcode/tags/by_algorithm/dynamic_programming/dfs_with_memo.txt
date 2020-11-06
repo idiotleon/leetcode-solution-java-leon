@@ -8,6 +8,8 @@ References:
 1   0509    https://leetcode.com/problems/fibonacci-number/
 
 2   0064    https://leetcode.com/problems/minimum-path-sum/
+2   0292    https://leetcode.com/problems/nim-game/
+2   1025    https://leetcode.com/problems/divisor-game/
 2   1167    https://leetcode.com/problems/minimum-cost-to-connect-sticks/
 
 3   0131    https://leetcode.com/problems/palindrome-partitioning/
@@ -16,6 +18,7 @@ References:
 3   1414    https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/
 
 4   0294    https://leetcode.com/problems/flip-game-ii/
+4   0312    https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
 4   0337    https://leetcode.com/problems/house-robber-iii/
 4   0368    https://leetcode.com/problems/largest-divisible-subset/
 4   0375    https://leetcode.com/problems/guess-number-higher-or-lower-ii/
@@ -32,6 +35,8 @@ References:
 4   1444    https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 4   1510    https://leetcode.com/problems/stone-game-iv/
+4   1547    https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
+4   1548    https://leetcode.com/problems/the-most-similar-path-in-a-graph/
 
 5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
 

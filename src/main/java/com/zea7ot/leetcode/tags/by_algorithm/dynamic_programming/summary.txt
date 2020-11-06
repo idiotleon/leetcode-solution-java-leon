@@ -18,8 +18,10 @@ This serves the total list of problems related to Dynamic Programming, regardles
 2   0122    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 2   0198    https://leetcode.com/problems/house-robber/
 2   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
+2   0292    https://leetcode.com/problems/nim-game/
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 2   0413    https://leetcode.com/problems/arithmetic-slices/
+2   1025    https://leetcode.com/problems/divisor-game/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1167    https://leetcode.com/problems/minimum-cost-to-connect-sticks/
 
@@ -118,6 +120,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   0956    https://leetcode.com/problems/tallest-billboard/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
+4   1024    https://leetcode.com/problems/video-stitching/
 4   1027    https://leetcode.com/problems/longest-arithmetic-sequence/
 4   1035    https://leetcode.com/problems/uncrossed-lines/4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1039    https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
@@ -150,6 +153,8 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   1444    https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 4   1510    https://leetcode.com/problems/stone-game-iv/
+4   1547    https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
+4   1548    https://leetcode.com/problems/the-most-similar-path-in-a-graph/
 4   1553    https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
 
 5   0010    https://leetcode.com/problems/regular-expression-matching/

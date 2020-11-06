@@ -9,6 +9,8 @@ References:
 1   0509    https://leetcode.com/problems/fibonacci-number/
 1   1342    https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
 
+2   0292    https://leetcode.com/problems/nim-game/
+2   1025    https://leetcode.com/problems/divisor-game/
 2   1387    https://leetcode.com/problems/sort-integers-by-the-power-value/
 
 3   0050    https://leetcode.com/problems/powx-n/
@@ -22,3 +24,5 @@ References:
 4   1088    https://leetcode.com/problems/confusing-number-ii/
 4   1269    https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
 4   1510    https://leetcode.com/problems/stone-game-iv/
+
+5   0932    https://leetcode.com/problems/beautiful-array/
