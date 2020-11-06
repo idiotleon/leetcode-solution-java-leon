@@ -77,6 +77,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   1465    https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/
 2   1471    https://leetcode.com/problems/the-k-strongest-values-in-an-array/
 2   1570    https://leetcode.com/problems/dot-product-of-two-sparse-vectors/
+2   1608    https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/
 2   1619    https://leetcode.com/problems/mean-of-array-after-removing-some-elements/
 
 3   0039    https://leetcode.com/problems/combination-sum/
