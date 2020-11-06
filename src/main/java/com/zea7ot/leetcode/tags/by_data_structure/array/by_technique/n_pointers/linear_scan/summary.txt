@@ -43,6 +43,7 @@ References:
 3   0444    https://leetcode.com/problems/sequence-reconstruction/
 3   0448    https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 3   0523    https://leetcode.com/problems/continuous-subarray-sum/
+3   0604    https://leetcode.com/problems/design-compressed-string-iterator/
 3   0624    https://leetcode.com/problems/maximum-distance-in-arrays/
 3   0665    https://leetcode.com/problems/non-decreasing-array/
 3   0723    https://leetcode.com/problems/candy-crush/

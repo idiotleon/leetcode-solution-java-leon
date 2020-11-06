@@ -26,6 +26,7 @@ References:
 3   0380    https://leetcode.com/problems/insert-delete-getrandom-o1/
 3   0398    https://leetcode.com/problems/random-pick-index/
 3   0528    https://leetcode.com/problems/random-pick-with-weight/
+3   0604    https://leetcode.com/problems/design-compressed-string-iterator/
 3   0705    https://leetcode.com/problems/design-hashset/
 3   0900    https://leetcode.com/problems/rle-iterator/
 3   1261    https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/s
