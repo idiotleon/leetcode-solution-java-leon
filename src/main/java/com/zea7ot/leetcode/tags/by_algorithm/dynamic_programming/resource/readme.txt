@@ -102,6 +102,7 @@ References:
 4   0375    https://leetcode.com/problems/guess-number-higher-or-lower-ii/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
 4   1246    https://leetcode.com/problems/palindrome-removal/
+4   1547    https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
 
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
 

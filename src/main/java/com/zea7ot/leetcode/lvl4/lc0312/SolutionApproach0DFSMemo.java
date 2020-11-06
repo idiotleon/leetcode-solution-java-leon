@@ -36,11 +36,11 @@ public class SolutionApproach0DFSMemo {
         if (memo[lo][hi] > 0)
             return memo[lo][hi];
 
-        int res = 0;
+        int maxCoins = 0;
         for (int k = lo; k <= hi; ++k) {
-            res = Math.max(res, maxCoins(lo, k - 1, padded, memo) + padded[lo - 1] * padded[k] * padded[hi + 1]
-                    + maxCoins(k + 1, hi, padded, memo));
+            maxCoins = Math.max(maxCoins, maxCoins(lo, k - 1, padded, memo)
+                    + padded[lo - 1] * padded[k] * padded[hi + 1] + maxCoins(k + 1, hi, padded, memo));
         }
-        return memo[lo][hi] = res;
+        return memo[lo][hi] = maxCoins;
     }
 }

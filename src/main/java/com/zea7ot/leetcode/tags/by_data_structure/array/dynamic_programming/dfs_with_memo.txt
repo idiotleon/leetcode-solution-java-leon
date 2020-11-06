@@ -12,6 +12,7 @@ References:
 3   0877    https://leetcode.com/problems/stone-game/
 3   1140    https://leetcode.com/problems/stone-game-ii/
 
+4   0312    https://leetcode.com/problems/burst-balloons/
 4   0486    https://leetcode.com/problems/predict-the-winner/
 4   0799    https://leetcode.com/problems/champagne-tower/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
@@ -21,3 +22,4 @@ References:
 4   1406    https://leetcode.com/problems/stone-game-iii/
 4   1444    https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
+4   1547    https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
