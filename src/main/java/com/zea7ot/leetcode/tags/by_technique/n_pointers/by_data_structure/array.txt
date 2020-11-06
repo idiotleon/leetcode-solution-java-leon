@@ -65,6 +65,7 @@ References:
 3   0962    https://leetcode.com/problems/maximum-width-ramp/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
+3   1089    https://leetcode.com/problems/duplicate-zeros/
 3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/

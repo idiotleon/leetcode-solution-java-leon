@@ -196,6 +196,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1057    https://leetcode.com/problems/campus-bikes/
 3   1054    https://leetcode.com/problems/distant-barcodes/
 3   1060    https://leetcode.com/problems/missing-element-in-sorted-array/
+3   1089    https://leetcode.com/problems/duplicate-zeros/
 3   1091    https://leetcode.com/problems/shortest-path-in-binary-matrix/
 3   1109    https://leetcode.com/problems/corporate-flight-bookings/
 3   1138    https://leetcode.com/problems/alphabet-board-path/
