@@ -30,6 +30,7 @@ References:
 2   0408    https://leetcode.com/problems/valid-word-abbreviation/
 2   0409    https://leetcode.com/problems/longest-palindrome/
 2   0443    https://leetcode.com/problems/string-compression/
+2   0551    https://leetcode.com/problems/student-attendance-record-i/
 2   0567    https://leetcode.com/problems/permutation-in-string/
 2   0844    https://leetcode.com/problems/backspace-string-compare/
 2   0859    https://leetcode.com/problems/buddy-strings/
