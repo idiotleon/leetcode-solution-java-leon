@@ -9,9 +9,9 @@ References:
 2   0035    https://leetcode.com/problems/search-insert-position/
 2   0374    https://leetcode.com/problems/guess-number-higher-or-lower/
 
+3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 3   1482    https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 3   1552    https://leetcode.com/problems/magnetic-force-between-two-balls/
-`
 
 
 
@@ -20,6 +20,7 @@ References:
 
 2   0374    https://leetcode.com/problems/guess-number-higher-or-lower/
 
+3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 3   1482    https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 
 
