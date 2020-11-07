@@ -85,6 +85,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   1608    https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/
 2   1619    https://leetcode.com/problems/mean-of-array-after-removing-some-elements/
 
+3   0033    https://leetcode.com/problems/search-in-rotated-sorted-array/
 3   0039    https://leetcode.com/problems/combination-sum/
 3   0040    https://leetcode.com/problems/combination-sum-ii/ 
 3   0046    https://leetcode.com/problems/permutations/
