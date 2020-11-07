@@ -1,0 +1,10 @@
+@author: Leon
+References:
+    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
+
+
+### Map
+## HashMap
+# Implemented as an Array
+
+4   0954    https://leetcode.com/problems/array-of-doubled-pairs/

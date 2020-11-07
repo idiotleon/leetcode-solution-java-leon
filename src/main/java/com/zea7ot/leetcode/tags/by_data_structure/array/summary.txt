@@ -301,6 +301,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0928    https://leetcode.com/problems/minimize-malware-spread-ii/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+4   0954    https://leetcode.com/problems/array-of-doubled-pairs/
 4   0956    https://leetcode.com/problems/tallest-billboard/
 4   0980    https://leetcode.com/problems/unique-paths-iii/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
