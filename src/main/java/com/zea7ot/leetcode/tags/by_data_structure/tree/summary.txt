@@ -100,6 +100,7 @@ References:
 3   1261    https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/
 3   1273    https://leetcode.com/problems/delete-tree-nodes/
 3   1339    https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
+3   1352    https://leetcode.com/problems/product-of-the-last-k-numbers/
 3   1353    https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/
 3   1367    https://leetcode.com/problems/linked-list-in-binary-tree/
 3   1372    https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/

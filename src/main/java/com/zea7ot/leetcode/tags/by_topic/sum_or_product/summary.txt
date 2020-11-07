@@ -18,6 +18,7 @@ References:
 3   0923    https://leetcode.com/problems/3sum-with-multiplicity/
 3   1010    https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/
 3   1314    https://leetcode.com/problems/matrix-block-sum/
+3   1352    https://leetcode.com/problems/product-of-the-last-k-numbers/
 
 4   0018    https://leetcode.com/problems/4sum/
 4   0307    https://leetcode.com/problems/range-sum-query-mutable/
