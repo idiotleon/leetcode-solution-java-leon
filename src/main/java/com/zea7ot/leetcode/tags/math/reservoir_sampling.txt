@@ -8,3 +8,5 @@ Referencens:
 # Reservoir Sampling
 
 2   0398    https://leetcode.com/problems/random-pick-index/
+
+3   0519    https://leetcode.com/problems/random-flip-matrix/
