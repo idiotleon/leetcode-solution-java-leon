@@ -140,6 +140,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0487    https://leetcode.com/problems/max-consecutive-ones-ii/
 3   0491    https://leetcode.com/problems/increasing-subsequences/
 3   0494    https://leetcode.com/problems/target-sum/
+3   0519    https://leetcode.com/problems/random-flip-matrix/
 3   0518    https://leetcode.com/problems/coin-change-2/
 3   0523    https://leetcode.com/problems/continuous-subarray-sum/
 3   0524    https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
@@ -285,6 +286,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0759    https://leetcode.com/problems/employee-free-time/
 4   0768    https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
 4   0769    https://leetcode.com/problems/max-chunks-to-make-sorted/
+4   0790    https://leetcode.com/problems/domino-and-tromino-tiling/
 4   0792    https://leetcode.com/problems/number-of-matching-subsequences/
 4   0794    https://leetcode.com/problems/valid-tic-tac-toe-state/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
@@ -301,6 +303,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0928    https://leetcode.com/problems/minimize-malware-spread-ii/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
 4   0947    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+4   0954    https://leetcode.com/problems/array-of-doubled-pairs/
 4   0956    https://leetcode.com/problems/tallest-billboard/
 4   0980    https://leetcode.com/problems/unique-paths-iii/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
