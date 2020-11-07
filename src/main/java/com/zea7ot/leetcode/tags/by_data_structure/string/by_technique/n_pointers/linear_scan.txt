@@ -23,6 +23,7 @@ References:
 2   0290    https://leetcode.com/problems/word-pattern/
 2   0299    https://leetcode.com/problems/bulls-and-cows/
 2   0409    https://leetcode.com/problems/longest-palindrome/
+2   0551    https://leetcode.com/problems/student-attendance-record-i/
 2   0859    https://leetcode.com/problems/buddy-strings/
 2   0929    https://leetcode.com/problems/unique-email-addresses/
 2   0942    https://leetcode.com/problems/di-string-match/
@@ -36,6 +37,7 @@ References:
 
 3   0150    https://leetcode.com/problems/evaluate-reverse-polish-notation/
 3   0524    https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
+3   0541    https://leetcode.com/problems/reverse-string-ii/
 3   0722    https://leetcode.com/problems/remove-comments/
 3   0777    https://leetcode.com/problems/swap-adjacent-in-lr-string/
 3   0838    https://leetcode.com/problems/push-dominoes/

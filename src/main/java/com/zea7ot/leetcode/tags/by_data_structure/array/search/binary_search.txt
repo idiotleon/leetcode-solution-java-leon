@@ -14,12 +14,14 @@ References:
 2   0933    https://leetcode.com/problems/number-of-recent-calls/
 2   1287    https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
 
+3   0033    https://leetcode.com/problems/search-in-rotated-sorted-array/
 3   0153    https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3   0167    https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0436    https://leetcode.com/problems/find-right-interval/
 3   0911    https://leetcode.com/problems/online-election/
 3   0962    https://leetcode.com/problems/maximum-width-ramp/
+3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 3   1482    https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 3   1552    https://leetcode.com/problems/magnetic-force-between-two-balls/
 

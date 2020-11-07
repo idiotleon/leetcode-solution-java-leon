@@ -31,6 +31,7 @@ References:
 3   0962    https://leetcode.com/problems/maximum-width-ramp/
 3   0986    https://leetcode.com/problems/interval-list-intersections/
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
+3   1089    https://leetcode.com/problems/duplicate-zeros/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1498   https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 
