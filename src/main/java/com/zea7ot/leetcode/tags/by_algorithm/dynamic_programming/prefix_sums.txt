@@ -22,6 +22,7 @@ References:
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 3   1171    https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/
 3   1314    https://leetcode.com/problems/matrix-block-sum/
+3   1546    https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/
 
 4   0410    https://leetcode.com/problems/split-array-largest-sum/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/

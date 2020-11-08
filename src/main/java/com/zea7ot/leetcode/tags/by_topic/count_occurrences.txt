@@ -7,5 +7,6 @@ References:
 # Count Occurrences
 
 3   0923    https://leetcode.com/problems/3sum-with-multiplicity/
+3   1546    https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/
 
 5   1074    https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/
