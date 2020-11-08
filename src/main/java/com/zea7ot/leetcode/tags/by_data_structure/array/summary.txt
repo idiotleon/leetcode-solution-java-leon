@@ -65,6 +65,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0989    https://leetcode.com/problems/add-to-array-form-of-integer/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1052    https://leetcode.com/problems/grumpy-bookstore-owner/
+2   1099    https://leetcode.com/problems/two-sum-less-than-k/
 2   1103    https://leetcode.com/problems/distribute-candies-to-people/
 2   1122    https://leetcode.com/problems/relative-sort-array/
 2   1151    https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/
