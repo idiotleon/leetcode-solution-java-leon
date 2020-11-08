@@ -11,3 +11,4 @@ References:
 3   1236    https://leetcode.com/problems/web-crawler/
 
 5   1095    https://leetcode.com/problems/find-in-mountain-array/
+5   1622    https://leetcode.com/problems/fancy-sequence/

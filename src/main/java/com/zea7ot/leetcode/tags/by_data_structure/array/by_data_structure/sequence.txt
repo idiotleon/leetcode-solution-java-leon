@@ -10,3 +10,5 @@ References:
 3   1138    https://leetcode.com/problems/alphabet-board-path/
 
 4   0128    https://leetcode.com/problems/longest-consecutive-sequence/
+
+5   1622    https://leetcode.com/problems/fancy-sequence/
