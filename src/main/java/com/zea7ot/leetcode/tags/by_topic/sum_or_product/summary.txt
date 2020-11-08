@@ -28,3 +28,4 @@ References:
 4   1444    https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/
 
 6   0308    https://leetcode.com/problems/range-sum-query-2d-mutable/
+6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/

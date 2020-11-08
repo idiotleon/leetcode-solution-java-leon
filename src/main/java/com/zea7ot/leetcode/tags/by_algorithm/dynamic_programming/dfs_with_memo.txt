@@ -41,6 +41,7 @@ References:
 
 5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
 
+6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
 
 
 ### DFS with memo over Dynamic Programming
