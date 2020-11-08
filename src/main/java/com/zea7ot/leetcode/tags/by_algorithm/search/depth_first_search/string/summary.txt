@@ -25,6 +25,7 @@ References:
 3   1087    https://leetcode.com/problems/brace-expansion/
 3   1236    https://leetcode.com/problems/web-crawler/
 3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
+3   1593    https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/
 
 4   0097    https://leetcode.com/problems/interleaving-string/
 4   0115    https://leetcode.com/problems/distinct-subsequences/

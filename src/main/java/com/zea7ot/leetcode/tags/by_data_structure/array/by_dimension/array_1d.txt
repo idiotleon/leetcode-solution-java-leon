@@ -160,6 +160,7 @@ References:
 3   1089    https://leetcode.com/problems/duplicate-zeros/
 3   1109    https://leetcode.com/problems/corporate-flight-bookings/
 3   1140    https://leetcode.com/problems/stone-game-ii/
+3   1144    https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/
 3   1213    https://leetcode.com/problems/intersection-of-three-sorted-arrays/
 3   1239    https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
