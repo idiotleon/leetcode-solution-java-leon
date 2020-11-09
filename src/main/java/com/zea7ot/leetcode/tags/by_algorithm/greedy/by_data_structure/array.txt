@@ -12,6 +12,7 @@ References:
 2   0495    https://leetcode.com/problems/teemo-attacking/
 2   0581    https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
 2   1167    https://leetcode.com/problems/minimum-cost-to-connect-sticks/
+2   1564    https://leetcode.com/problems/put-boxes-into-the-warehouse-i/
 
 3   0055    https://leetcode.com/problems/jump-game/
 3   0134    https://leetcode.com/problems/gas-station/
@@ -39,6 +40,7 @@ References:
 3   1296    https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/
 3   1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/
 3   1546    https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/
+3   1580    https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/
 3   1616    https://leetcode.com/problems/split-two-strings-to-make-palindrome/
 
 4   0057    https://leetcode.com/problems/insert-interval/
