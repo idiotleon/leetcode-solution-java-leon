@@ -16,6 +16,8 @@ References:
 
 5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
 
+6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
+
 
 
 # Suffix Sums

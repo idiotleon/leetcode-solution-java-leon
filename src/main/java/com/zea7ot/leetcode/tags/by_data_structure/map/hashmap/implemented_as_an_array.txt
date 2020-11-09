@@ -8,3 +8,4 @@ References:
 # Implemented as an Array
 
 4   0954    https://leetcode.com/problems/array-of-doubled-pairs/
+4   1562    https://leetcode.com/problems/find-latest-group-of-size-m/

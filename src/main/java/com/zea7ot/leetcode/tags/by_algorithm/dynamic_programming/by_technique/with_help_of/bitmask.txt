@@ -8,6 +8,7 @@ References:
 # Bit Mask
 
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+4   0805    https://leetcode.com/problems/split-array-with-same-average/
 
 
 # Resources

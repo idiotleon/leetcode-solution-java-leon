@@ -15,6 +15,7 @@ References:
 3   0842    https://leetcode.com/problems/split-array-into-fibonacci-sequence/
 3   1079    https://leetcode.com/problems/letter-tile-possibilities/
 3   1087    https://leetcode.com/problems/brace-expansion/
+3   1593    https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/
 
 4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0248    https://leetcode.com/problems/strobogrammatic-number-iii/

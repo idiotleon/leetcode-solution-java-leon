@@ -3,8 +3,9 @@ References:
     https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
 
 
-### By Topic
-## N Sum
+### Array
+## By Topic
+# N Sum
 
 2   0001    https://leetcode.com/problems/two-sum/
 2   1099    https://leetcode.com/problems/two-sum-less-than-k/

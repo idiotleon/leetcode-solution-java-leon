@@ -7,3 +7,4 @@ References:
 # Subset Sum
 
 4   0473    https://leetcode.com/problems/matchsticks-to-square/
+4   0805    https://leetcode.com/problems/split-array-with-same-average/

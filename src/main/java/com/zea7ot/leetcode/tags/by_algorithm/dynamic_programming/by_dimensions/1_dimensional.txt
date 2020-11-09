@@ -57,6 +57,7 @@ References:
 3   1262    https://leetcode.com/problems/greatest-sum-divisible-by-three/
 3   1352    https://leetcode.com/problems/product-of-the-last-k-numbers/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
+3   1546    https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/
 3   1594    https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/
 3   1626    https://leetcode.com/problems/best-team-with-no-conflicts/
 
@@ -81,6 +82,7 @@ References:
 4   0790    https://leetcode.com/problems/domino-and-tromino-tiling/
 4   0799    https://leetcode.com/problems/champagne-tower/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
+4   0805    https://leetcode.com/problems/split-array-with-same-average/
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   0918    https://leetcode.com/problems/maximum-sum-circular-subarray/
@@ -108,3 +110,4 @@ References:
 5   0828    https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/
 5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
 5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
+5   1622    https://leetcode.com/problems/fancy-sequence/

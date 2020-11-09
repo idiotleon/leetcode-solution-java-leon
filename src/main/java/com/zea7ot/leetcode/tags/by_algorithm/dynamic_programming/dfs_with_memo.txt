@@ -26,10 +26,13 @@ References:
 4   0486    https://leetcode.com/problems/predict-the-winner/
 4   0799    https://leetcode.com/problems/champagne-tower/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
+4   0805    https://leetcode.com/problems/split-array-with-same-average/
+4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1039    https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
 4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
 4   1143    https://leetcode.com/problems/longest-common-subsequence/
+4   1246    https://leetcode.com/problems/palindrome-removal/
 4   1340    https://leetcode.com/problems/jump-game-v/
 4   1406    https://leetcode.com/problems/stone-game-iii/
 4   1444    https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/
@@ -40,6 +43,7 @@ References:
 
 5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
 
+6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
 
 
 ### DFS with memo over Dynamic Programming

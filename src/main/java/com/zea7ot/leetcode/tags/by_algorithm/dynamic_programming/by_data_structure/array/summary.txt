@@ -22,6 +22,7 @@ References:
 3   0877    https://leetcode.com/problems/stone-game/s
 3   1140    https://leetcode.com/problems/stone-game-ii/
 3   1262    https://leetcode.com/problems/greatest-sum-divisible-by-three/
+3   1546    https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/
 3   1594    https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/
 
 4   0042    https://leetcode.com/problems/trapping-rain-water/
@@ -37,9 +38,11 @@ References:
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 4   0790    https://leetcode.com/problems/domino-and-tromino-tiling/
 4   0801    https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
+4   0805    https://leetcode.com/problems/split-array-with-same-average/
 4   0871    https://leetcode.com/problems/minimum-number-of-refueling-stops/
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
+4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1039    https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
 4   1043    https://leetcode.com/problems/partition-array-for-maximum-sum/
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
@@ -56,3 +59,5 @@ References:
 5   0847    https://leetcode.com/problems/shortest-path-visiting-all-nodes/
 5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
 5   1074    https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/
+
+6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/

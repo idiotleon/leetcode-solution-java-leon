@@ -23,9 +23,9 @@ public class SolutionApproach1DP2Dimen {
                 for (int k = i; k < j; k++) {
                     if (dp[i][j] != 0) {
                         dp[i][j] = Math.min(dp[i][j],
-                                dp[i][k] + dp[k + 1][j] + (getMax(nums, i, k) * getMax(nums, k + 1, j)));
+                                dp[i][k] + dp[k + 1][j] + (getMax(i, k, nums) * getMax(k + 1, j, nums)));
                     } else {
-                        dp[i][j] = dp[i][k] + dp[k + 1][j] + (getMax(nums, i, k) * getMax(nums, k + 1, j));
+                        dp[i][j] = dp[i][k] + dp[k + 1][j] + (getMax(i, k, nums) * getMax(k + 1, j, nums));
                     }
                 }
             }
@@ -34,9 +34,9 @@ public class SolutionApproach1DP2Dimen {
         return dp[0][N - 1];
     }
 
-    private int getMax(int[] nums, int i, int j) {
+    private int getMax(int lo, int hi, int[] nums) {
         int max = Integer.MIN_VALUE;
-        for (int k = i; k <= j; ++k) {
+        for (int k = lo; k <= hi; ++k) {
             max = Math.max(max, nums[k]);
         }
 
