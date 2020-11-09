@@ -44,6 +44,7 @@ References:
 4   0895    https://leetcode.com/problems/maximum-frequency-stack/
 4   0954    https://leetcode.com/problems/array-of-doubled-pairs/
 4   1300    https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
+4   1562    https://leetcode.com/problems/find-latest-group-of-size-m/
 
 5   0273    https://leetcode.com/problems/integer-to-english-words/
 5   0324    https://leetcode.com/problems/wiggle-sort-ii/

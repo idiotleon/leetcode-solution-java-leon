@@ -351,6 +351,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 4   1537    https://leetcode.com/problems/get-the-maximum-score/
 4   1547    https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
+4   1562    https://leetcode.com/problems/find-latest-group-of-size-m/
 
 5   0037    https://leetcode.com/problems/sudoku-solver/
 5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
