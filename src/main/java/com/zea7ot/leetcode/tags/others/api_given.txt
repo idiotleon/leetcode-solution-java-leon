@@ -9,6 +9,7 @@ References:
 2   1237    https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/
 
 3   1236    https://leetcode.com/problems/web-crawler/
+3   1538    https://leetcode.com/problems/guess-the-majority-in-a-hidden-array/
 
 5   1095    https://leetcode.com/problems/find-in-mountain-array/
 5   1622    https://leetcode.com/problems/fancy-sequence/
