@@ -5,6 +5,8 @@ References:
 
 ### Factors
 
+2   1447    https://leetcode.com/problems/simplified-fractions/
+
 3   0343    https://leetcode.com/problems/integer-break/
 3   0365    https://leetcode.com/problems/water-and-jug-problem/
 3   1201    https://leetcode.com/problems/ugly-number-iii/
@@ -16,6 +18,7 @@ References:
 ## Greatest Common Divisor
 
 2   1071    https://leetcode.com/problems/greatest-common-divisor-of-strings/
+2   1447    https://leetcode.com/problems/simplified-fractions/
 
 3   0365    https://leetcode.com/problems/water-and-jug-problem/
 3   0914    https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/
