@@ -291,6 +291,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+4   0683    https://leetcode.com/problems/k-empty-slots/
 4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
