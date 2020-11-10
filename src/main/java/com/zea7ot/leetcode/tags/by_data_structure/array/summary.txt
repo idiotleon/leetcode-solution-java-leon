@@ -164,6 +164,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0729    https://leetcode.com/problems/my-calendar-i/
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/3   0775    https://leetcode.com/problems/global-and-local-inversions/
 3   0739    https://leetcode.com/problems/daily-temperatures/
+3   0748    https://leetcode.com/problems/shortest-completing-word/
 3   0750    https://leetcode.com/problems/number-of-corner-rectangles/
 3   0758    https://leetcode.com/problems/bold-words-in-string/
 3   0775    https://leetcode.com/problems/global-and-local-inversions/

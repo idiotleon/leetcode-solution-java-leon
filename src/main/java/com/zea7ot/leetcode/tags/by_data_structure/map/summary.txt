@@ -34,6 +34,7 @@ References:
 3   0560    https://leetcode.com/problems/subarray-sum-equals-k/
 3   0609    https://leetcode.com/problems/find-duplicate-file-in-system/
 3   0729    https://leetcode.com/problems/my-calendar-i/
+3   0748    https://leetcode.com/problems/shortest-completing-word/
 3   0846    https://leetcode.com/problems/hand-of-straights/
 3   0890    https://leetcode.com/problems/find-and-replace-pattern/
 3   0923    https://leetcode.com/problems/3sum-with-multiplicity/

@@ -18,6 +18,7 @@ References:
 3   0524    https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
 3   0604    https://leetcode.com/problems/design-compressed-string-iterator/
 3   0737    https://leetcode.com/problems/sentence-similarity-ii/
+3   0748    https://leetcode.com/problems/shortest-completing-word/
 3   0890    https://leetcode.com/problems/find-and-replace-pattern/
 3   0955    https://leetcode.com/problems/delete-columns-to-make-sorted-ii/
 3   0966    https://leetcode.com/problems/vowel-spellchecker/
