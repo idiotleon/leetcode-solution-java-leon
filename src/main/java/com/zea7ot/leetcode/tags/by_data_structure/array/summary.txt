@@ -15,6 +15,7 @@ This file serves as the total list of problems related to Array, regardless of a
 1   0506    https://leetcode.com/problems/relative-ranks/
 1   0766    https://leetcode.com/problems/toeplitz-matrix/
 1   0682    https://leetcode.com/problems/baseball-game/
+1   0747    https://leetcode.com/problems/largest-number-at-least-twice-of-others/
 1   0830    https://leetcode.com/problems/positions-of-large-groups/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   1046    https://leetcode.com/problems/last-stone-weight/

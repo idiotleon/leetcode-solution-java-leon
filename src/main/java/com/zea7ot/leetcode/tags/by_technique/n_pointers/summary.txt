@@ -18,6 +18,7 @@ References:
 1   0643    https://leetcode.com/problems/maximum-average-subarray-i/
 1   0682    https://leetcode.com/problems/baseball-game/
 1   0709    https://leetcode.com/problems/to-lower-case/
+1   0747    https://leetcode.com/problems/largest-number-at-least-twice-of-others/
 1   0830    https://leetcode.com/problems/positions-of-large-groups/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   0917    https://leetcode.com/problems/reverse-only-letters/

@@ -14,6 +14,7 @@ References:
 1   0506    https://leetcode.com/problems/relative-ranks/
 1   0682    https://leetcode.com/problems/baseball-game/
 1   0709    https://leetcode.com/problems/to-lower-case/
+1   0747    https://leetcode.com/problems/largest-number-at-least-twice-of-others/
 1   1108    https://leetcode.com/problems/defanging-an-ip-address/
 1   1165    https://leetcode.com/problems/single-row-keyboard/
 1   1207    https://leetcode.com/problems/unique-number-of-occurrences/
