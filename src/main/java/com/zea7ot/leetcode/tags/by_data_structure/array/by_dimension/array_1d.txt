@@ -56,6 +56,7 @@ References:
 2   1122    https://leetcode.com/problems/relative-sort-array/
 2   1151    https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/
 2   1167    https://leetcode.com/problems/minimum-cost-to-connect-sticks/
+2   1170    https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/
 2   1176    https://leetcode.com/problems/diet-plan-performance/
 2   1182    https://leetcode.com/problems/shortest-distance-to-target-color/
 2   1184    https://leetcode.com/problems/distance-between-bus-stops/
