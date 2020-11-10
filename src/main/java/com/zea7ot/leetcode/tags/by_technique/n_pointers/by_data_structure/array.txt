@@ -55,6 +55,7 @@ References:
 3   0360    https://leetcode.com/problems/sort-transformed-array/
 3   0444    https://leetcode.com/problems/sequence-reconstruction/
 3   0448    https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+3   0522    https://leetcode.com/problems/longest-uncommon-subsequence-ii/
 3   0604    https://leetcode.com/problems/design-compressed-string-iterator/
 3   0611    https://leetcode.com/problems/valid-triangle-number/
 3   0723    https://leetcode.com/problems/candy-crush/
@@ -75,6 +76,7 @@ References:
 3   1229    https://leetcode.com/problems/meeting-scheduler/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
+3   1508    https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/
 3   1577    https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/
 
 4   0018    https://leetcode.com/problems/4sum/

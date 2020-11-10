@@ -9,7 +9,9 @@ References:
 2   1305    https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
 
 3   0071    https://leetcode.com/problems/simplify-path/
+
 4   0239    https://leetcode.com/problems/sliding-window-maximum/
+4   0481    https://leetcode.com/problems/magical-string/
 4   1028    https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
 4   1368    https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/
 4   1425    https://leetcode.com/problems/constrained-subsequence-sum/

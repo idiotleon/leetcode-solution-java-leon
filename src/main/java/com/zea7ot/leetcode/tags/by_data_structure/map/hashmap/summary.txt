@@ -14,6 +14,7 @@ References:
 2   0170    https://leetcode.com/problems/two-sum-iii-data-structure-design/
 2   0290    https://leetcode.com/problems/word-pattern/
 2   0791    https://leetcode.com/problems/custom-sort-string/
+2   0811    https://leetcode.com/problems/subdomain-visit-count/
 2   0833    https://leetcode.com/problems/find-and-replace-in-string/
 2   0953    https://leetcode.com/problems/verifying-an-alien-dictionary/
 2   1218    https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/
@@ -31,6 +32,7 @@ References:
 3   0533    https://leetcode.com/problems/lonely-pixel-ii/
 3   0560    https://leetcode.com/problems/subarray-sum-equals-k/
 3   0609    https://leetcode.com/problems/find-duplicate-file-in-system/
+3   0748    https://leetcode.com/problems/shortest-completing-word/
 3   0890    https://leetcode.com/problems/find-and-replace-pattern/
 3   0923    https://leetcode.com/problems/3sum-with-multiplicity/s
 3   0939    https://leetcode.com/problems/minimum-area-rectangle/

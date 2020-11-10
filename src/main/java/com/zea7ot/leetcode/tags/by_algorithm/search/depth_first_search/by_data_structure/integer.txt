@@ -10,6 +10,7 @@ References:
 1   1342    https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
 
 2   0263    https://leetcode.com/problems/ugly-number/
+2   0385    https://leetcode.com/problems/mini-parser/
 
 3   0050    https://leetcode.com/problems/powx-n/
 3   0216    https://leetcode.com/problems/combination-sum-iii/
@@ -31,4 +32,5 @@ References:
 4   1510    https://leetcode.com/problems/stone-game-iv/
 4   1553    https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
 
+5   0808    https://leetcode.com/problems/soup-servings/
 5   0932    https://leetcode.com/problems/beautiful-array/

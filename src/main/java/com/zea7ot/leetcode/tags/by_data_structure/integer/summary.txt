@@ -17,6 +17,8 @@ References:
 2   0263    https://leetcode.com/problems/ugly-number/
 2   0292    https://leetcode.com/problems/nim-game/
 2   0374    https://leetcode.com/problems/guess-number-higher-or-lower/
+2   0385    https://leetcode.com/problems/mini-parser/
+2   0544    https://leetcode.com/problems/output-contest-matches/
 2   0989    https://leetcode.com/problems/add-to-array-form-of-integer/
 2   1022    https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
 2   1025    https://leetcode.com/problems/divisor-game/
@@ -49,5 +51,6 @@ References:
 4   1510    https://leetcode.com/problems/stone-game-iv/
 4   1627    https://leetcode.com/problems/graph-connectivity-with-threshold/
 
+5   0808    https://leetcode.com/problems/soup-servings/
 5   0818    https://leetcode.com/problems/race-car/
 5   0932    https://leetcode.com/problems/beautiful-array/
