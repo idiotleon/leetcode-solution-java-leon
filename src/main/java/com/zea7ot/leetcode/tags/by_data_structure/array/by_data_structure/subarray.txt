@@ -32,6 +32,7 @@ References:
 3   1004    https://leetcode.com/problems/max-consecutive-ones-iii/
 3   1031    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 3   1248    https://leetcode.com/problems/count-number-of-nice-subarrays/
+3   1508    https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/
 3   1546    https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/
 
 4   0220    https://leetcode.com/problems/contains-duplicate-iii/
