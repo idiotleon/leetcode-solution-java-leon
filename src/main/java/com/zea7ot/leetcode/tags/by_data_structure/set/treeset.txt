@@ -17,6 +17,7 @@ References:
 
 4   0220    https://leetcode.com/problems/contains-duplicate-iii/
 4   0264    https://leetcode.com/problems/ugly-number-ii/
+4   0683    https://leetcode.com/problems/k-empty-slots/
 4   1562    https://leetcode.com/problems/find-latest-group-of-size-m/
 
 5   0480    https://leetcode.com/problems/sliding-window-median/

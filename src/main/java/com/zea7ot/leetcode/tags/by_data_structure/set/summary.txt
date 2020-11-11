@@ -36,6 +36,7 @@ References:
 4   0264    https://leetcode.com/problems/ugly-number-ii/
 4   0305    https://leetcode.com/problems/number-of-islands-ii/
 4   0399    https://leetcode.com/problems/evaluate-division/
+4   0683    https://leetcode.com/problems/k-empty-slots/
 4   0684    https://leetcode.com/problems/redundant-connection/
 4   0765    https://leetcode.com/problems/couples-holding-hands/
 4   0839    https://leetcode.com/problems/similar-string-groups/

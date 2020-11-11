@@ -8,7 +8,7 @@
  *  https://leetcode.com/problems/find-duplicate-subtrees/discuss/106011/Java-Concise-Postorder-Traversal-Solution
  *  https://leetcode.com/problems/find-duplicate-subtrees/discuss/106016/O(n)-time-and-space-lots-of-analysis
  * 
- *  whey the inorder traversal doest not work?
+ *  why the inorder traversal doest not work?
  *  https://leetcode.com/problems/find-duplicate-subtrees/discuss/106011/Java-Concise-Postorder-Traversal-Solution/247483
  */
 package com.zea7ot.leetcode.lvl3.lc0652;

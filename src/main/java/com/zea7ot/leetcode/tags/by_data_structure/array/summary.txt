@@ -15,6 +15,7 @@ This file serves as the total list of problems related to Array, regardless of a
 1   0506    https://leetcode.com/problems/relative-ranks/
 1   0766    https://leetcode.com/problems/toeplitz-matrix/
 1   0682    https://leetcode.com/problems/baseball-game/
+1   0747    https://leetcode.com/problems/largest-number-at-least-twice-of-others/
 1   0830    https://leetcode.com/problems/positions-of-large-groups/
 1   0905    https://leetcode.com/problems/sort-array-by-parity/
 1   1046    https://leetcode.com/problems/last-stone-weight/
@@ -39,6 +40,7 @@ This file serves as the total list of problems related to Array, regardless of a
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 2   0310    https://leetcode.com/problems/minimum-height-trees/
 2   0362    https://leetcode.com/problems/design-hit-counter/
+2   0414    https://leetcode.com/problems/third-maximum-number/
 2   0451    https://leetcode.com/problems/sort-characters-by-frequency/
 2   0463    https://leetcode.com/problems/island-perimeter/
 2   0485    https://leetcode.com/problems/max-consecutive-ones/
@@ -121,6 +123,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0256    https://leetcode.com/problems/paint-house/
 3   0260    https://leetcode.com/problems/single-number-iii/
 3   0275    https://leetcode.com/problems/h-index-ii/
+3   0281    https://leetcode.com/problems/zigzag-iterator/
 3   0286    https://leetcode.com/problems/walls-and-gates/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
 3   0302    https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
@@ -236,6 +239,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 3   1508    https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/
 3   1535    https://leetcode.com/problems/find-the-winner-of-an-array-game/
+3   1538    https://leetcode.com/problems/guess-the-majority-in-a-hidden-array/
 3   1546    https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/
 3   1552    https://leetcode.com/problems/magnetic-force-between-two-balls/
 3   1577    https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/
@@ -288,6 +292,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0668    https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/
 4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+4   0683    https://leetcode.com/problems/k-empty-slots/
 4   0688    https://leetcode.com/problems/knight-probability-in-chessboard/
 4   0689    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 4   0698    https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
@@ -367,6 +372,7 @@ This file serves as the total list of problems related to Array, regardless of a
 5   0324    https://leetcode.com/problems/wiggle-sort-ii/
 5   0327    https://leetcode.com/problems/count-of-range-sum/
 5   0493    https://leetcode.com/problems/reverse-pairs/
+5   0568    https://leetcode.com/problems/maximum-vacation-days/
 5   0644    https://leetcode.com/problems/maximum-average-subarray-ii/
 5   0691    https://leetcode.com/problems/stickers-to-spell-word/
 5   0774    https://leetcode.com/problems/minimize-max-distance-to-gas-station/

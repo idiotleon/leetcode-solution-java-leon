@@ -28,10 +28,12 @@ References:
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 3   0436    https://leetcode.com/problems/find-right-interval/
 3   0437    https://leetcode.com/problems/path-sum-iii/
+3   0508    https://leetcode.com/problems/most-frequent-subtree-sum/
 3   0523    https://leetcode.com/problems/continuous-subarray-sum/
 3   0533    https://leetcode.com/problems/lonely-pixel-ii/
 3   0560    https://leetcode.com/problems/subarray-sum-equals-k/
 3   0609    https://leetcode.com/problems/find-duplicate-file-in-system/
+3   0652    https://leetcode.com/problems/find-duplicate-subtrees/
 3   0748    https://leetcode.com/problems/shortest-completing-word/
 3   0890    https://leetcode.com/problems/find-and-replace-pattern/
 3   0923    https://leetcode.com/problems/3sum-with-multiplicity/s
