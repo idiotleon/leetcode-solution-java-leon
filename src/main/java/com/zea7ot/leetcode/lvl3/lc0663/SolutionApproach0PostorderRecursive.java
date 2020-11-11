@@ -14,9 +14,9 @@ import java.util.Map;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0Postorder {
+public class SolutionApproach0PostorderRecursive {
     public boolean checkEqualTree(TreeNode root) {
-        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> map = new HashMap<>();
         int sum = getSum(root, map);
         if(sum == 0) return map.getOrDefault(sum, 0) > 1;
         return sum % 2 == 0 && map.containsKey(sum / 2);

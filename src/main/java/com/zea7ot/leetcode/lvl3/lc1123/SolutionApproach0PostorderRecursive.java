@@ -12,10 +12,9 @@ package com.zea7ot.leetcode.lvl3.lc1123;
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0PostorderRecursive {
-    private TreeNode lca;
+    private TreeNode lca = null;
 
     public TreeNode lcaDeepestLeaves(TreeNode root) {
-        this.lca = null;
         int[] deepest = { 0 };
         postorder(root, 0, deepest);
         return lca;
@@ -29,8 +28,9 @@ public class SolutionApproach0PostorderRecursive {
         int left = postorder(node.left, depth + 1, deepest);
         int right = postorder(node.right, depth + 1, deepest);
 
-        if (left == deepest[0] && right == deepest[0])
+        if (left == deepest[0] && right == deepest[0]) {
             lca = node;
+        }
 
         return Math.max(left, right);
     }

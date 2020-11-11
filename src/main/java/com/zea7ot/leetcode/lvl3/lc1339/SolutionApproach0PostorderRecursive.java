@@ -16,26 +16,29 @@ package com.zea7ot.leetcode.lvl3.lc1339;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0DFS {
-    private static final int MOD = (int)(1e9 + 7);
-    
+public class SolutionApproach0PostorderRecursive {
+    private static final int MOD = (int) (1e9 + 7);
+
     public int maxProduct(TreeNode root) {
         long sum = getSum(root);
-        long[] maxProd = {0L};
+        long[] maxProd = { 0L };
         checkMax(root, maxProd, sum);
-        return (int)((maxProd[0]) % MOD);
+        return (int) ((maxProd[0]) % MOD);
     }
-    
-    private long checkMax(TreeNode node, long[] maxProd, long sum){
-        if(node == null) return 0;
+
+    private long checkMax(TreeNode node, long[] maxProd, long sum) {
+        if (node == null)
+            return 0;
         long left = checkMax(node.left, maxProd, sum);
         long right = checkMax(node.right, maxProd, sum);
-        maxProd[0] = Math.max(maxProd[0], (left + right + node.val) * (sum - left - right - node.val));
-        return left + right + node.val;
+        long curSum = left + right + node.val;
+        maxProd[0] = Math.max(maxProd[0], curSum * (sum - curSum));
+        return curSum;
     }
-    
-    private long getSum(TreeNode node){
-        if(node == null) return 0L;
+
+    private long getSum(TreeNode node) {
+        if (node == null)
+            return 0L;
         long left = getSum(node.left);
         long right = getSum(node.right);
         return left + right + node.val;
