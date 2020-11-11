@@ -14,3 +14,8 @@ References:
 3   0845    https://leetcode.com/problems/longest-mountain-in-array/
 
 4   0769     https://leetcode.com/problems/max-chunks-to-make-sorted/
+
+
+
+### Yet to extract
+https://leetcode.com/problems/longest-mountain-in-array/discuss/135593/C++JavaPython-1-pass-and-O(1)-space/143182
