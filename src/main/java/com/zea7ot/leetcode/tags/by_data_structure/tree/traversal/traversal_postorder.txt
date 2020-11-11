@@ -44,7 +44,6 @@ References:
 4   0250    https://leetcode.com/problems/count-univalue-subtrees/
 4   0337    https://leetcode.com/problems/house-robber-iii/
 4   0545    https://leetcode.com/problems/boundary-of-binary-tree/
-4   0673    https://leetcode.com/problems/number-of-longest-increasing-subsequence/
 4   0742    https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
 4   0863    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 4   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/

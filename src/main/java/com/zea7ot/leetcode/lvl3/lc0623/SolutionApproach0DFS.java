@@ -13,22 +13,24 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 
 public class SolutionApproach0DFS {
     public TreeNode addOneRow(TreeNode root, int v, int d) {
-        if(d == 1){
+        if (d == 1) {
             TreeNode newRoot = new TreeNode(v);
             newRoot.left = root;
             return newRoot;
         }
-        
+
         dfs(root, 1, v, d);
         return root;
     }
-    
-    private void dfs(TreeNode node, int depth, int v, int d){
-        if(node == null) return;
-        if(depth < d - 1){
+
+    private void dfs(TreeNode node, int depth, int v, int d) {
+        if (node == null)
+            return;
+
+        if (depth < d - 1) {
             dfs(node.left, depth + 1, v, d);
             dfs(node.right, depth + 1, v, d);
-        }else{
+        } else {
             TreeNode temp = node.left;
             node.left = new TreeNode(v);
             node.left.left = temp;

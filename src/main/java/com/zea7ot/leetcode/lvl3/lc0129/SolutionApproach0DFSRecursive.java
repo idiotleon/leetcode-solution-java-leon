@@ -20,10 +20,14 @@ public class SolutionApproach0DFSRecursive {
         if (node == null)
             return 0;
 
+        int value = node.val;
         if (node.left == null && node.right == null) {
-            return sum * 10 + node.val;
+            return sum * 10 + value;
         }
 
-        return dfs(node.left, sum * 10 + node.val) + dfs(node.right, sum * 10 + node.val);
+        int left = dfs(node.left, sum * 10 + node.val);
+        int right = dfs(node.right, sum * 10 + node.val);
+
+        return left + right;
     }
 }
