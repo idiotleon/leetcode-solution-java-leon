@@ -45,16 +45,20 @@ public class SolutionApproach0DFS {
             return;
         }
 
-        if (isLeftBoundary)
+        if (isLeftBoundary) {
             res.add(node.val);
+        }
 
-        // dfs(node.left != null && isLeftBoundary, node.right == null && isRightBoundary, node.left, res);
+        // dfs(node.left != null && isLeftBoundary, node.right == null &&
+        // isRightBoundary, node.left, res);
         dfs(isLeftBoundary, node.right == null && isRightBoundary, node.left, res);
 
-        // dfs(node.left == null && isLeftBoundary, node.right != null && isRightBoundary, node.right, res);
+        // dfs(node.left == null && isLeftBoundary, node.right != null &&
+        // isRightBoundary, node.right, res);
         dfs(node.left == null && isLeftBoundary, isRightBoundary, node.right, res);
 
-        if (isRightBoundary)
+        if (isRightBoundary) {
             res.add(node.val);
+        }
     }
 }
