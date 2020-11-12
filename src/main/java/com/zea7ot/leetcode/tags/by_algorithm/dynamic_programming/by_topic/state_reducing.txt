@@ -13,3 +13,4 @@ References:
 
 5   0691    https://leetcode.com/problems/stickers-to-spell-word/
 5   0847    https://leetcode.com/problems/shortest-path-visiting-all-nodes/
+5   0943    https://leetcode.com/problems/find-the-shortest-superstring/
