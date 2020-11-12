@@ -13,36 +13,41 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SolutionApproach0DFS {
-    private enum State {PROCESSING, PROCESSED};
-    
+    private enum State {
+        PROCESSING, PROCESSED
+    };
+
     public boolean leadsToDestination(int n, int[][] edges, int source, int destination) {
         List<List<Integer>> graph = buildGraph(edges, n);
-        return dfs(graph, source, destination, new State[n]);
+        return dfs(source, destination, new State[n], graph);
     }
-    
-    private boolean dfs(List<List<Integer>> graph, int node, int destination, State[] states){
-        if(states[node] != null) return states[node] == State.PROCESSED;
-        if(graph.get(node).isEmpty()) return node == destination;
-        
+
+    private boolean dfs(int node, int destination, State[] states, List<List<Integer>> graph) {
+        if (states[node] != null)
+            return states[node] == State.PROCESSED;
+        if (graph.get(node).isEmpty())
+            return node == destination;
+
         states[node] = State.PROCESSING;
-        for(int next : graph.get(node)){
-            if(!dfs(graph, next, destination, states)) return false;
+        for (int next : graph.get(node)) {
+            if (!dfs(next, destination, states, graph))
+                return false;
         }
         states[node] = State.PROCESSED;
-        
+
         return true;
     }
-    
-    private List<List<Integer>> buildGraph(int[][] edges, int n){
+
+    private List<List<Integer>> buildGraph(int[][] edges, int n) {
         List<List<Integer>> graph = new ArrayList<List<Integer>>(n);
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             graph.add(new ArrayList<Integer>());
         }
-        
-        for(int[] edge : edges){
+
+        for (int[] edge : edges) {
             graph.get(edge[0]).add(edge[1]);
         }
-        
+
         return graph;
     }
 }
