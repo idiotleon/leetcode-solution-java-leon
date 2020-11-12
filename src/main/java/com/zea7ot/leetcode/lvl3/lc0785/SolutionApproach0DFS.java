@@ -1,4 +1,5 @@
 /**
+ * @author: Leon
  * https://leetcode.com/problems/is-graph-bipartite/
  * 
  * Time Complexity:     O(V + E) + O(N) ~ O(2 * N) + O(N) ~ O(N)
@@ -22,7 +23,7 @@ public class SolutionApproach0DFS {
             // to check each node that is not visited, this graph might be disconnected
             if (colors[i] != NOT_YET_COLORED)
                 continue;
-                
+
             if (!isValidColor(i, COLORED, colors, graph))
                 return false;
         }
