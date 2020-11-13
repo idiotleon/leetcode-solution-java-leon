@@ -4,6 +4,10 @@
  * 
  * Time Complexity:     O(N)
  * Space Complexity:    O(26) ~ O(1)
+ * 
+ * References:
+ *  https://leetcode.com/problems/satisfiability-of-equality-equations/discuss/234486/JavaC%2B%2BPython-Easy-Union-Find
+ *  https://leetcode.com/problems/satisfiability-of-equality-equations/discuss/271948/Java-Union-Find(100)-and-DFS(98)
  */
 package com.zea7ot.leetcode.lvl3.lc0990;
 

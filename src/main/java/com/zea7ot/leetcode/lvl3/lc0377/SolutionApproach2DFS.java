@@ -13,10 +13,11 @@ package com.zea7ot.leetcode.lvl3.lc0377;
 
 public class SolutionApproach2DFS {
     public int combinationSum4(int[] nums, int target) {
-        if(target == 0) return 1;
+        if (target == 0)
+            return 1;
         int ans = 0;
-        for(int i = 0; i < nums.length; i++){
-            if(target >= nums[i]){
+        for (int i = 0; i < nums.length; i++) {
+            if (target >= nums[i]) {
                 ans += combinationSum4(nums, target - nums[i]);
             }
         }

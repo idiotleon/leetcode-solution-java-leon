@@ -15,31 +15,39 @@ import java.util.List;
 public class SolutionApproach0DFS {
     public int makeConnected(int n, int[][] connections) {
         // sanity check
-        if(connections.length < n - 1) return -1;
-        
-        List<List<Integer>> graph = buildGraph(n, connections);       
+        if (connections.length < n - 1)
+            return -1;
+
+        List<List<Integer>> graph = buildGraph(n, connections);
         int components = 0;
         boolean[] visited = new boolean[n];
-        for(int i = 0; i < n; i++) components += dfs(i, graph, visited);
+        for (int i = 0; i < n; i++) {
+            components += dfs(i, visited, graph);
+        }
+
         return components - 1;
     }
-    
-    private int dfs(int start, List<List<Integer>> graph, boolean[] visited){
-        if(visited[start]) return 0;
+
+    private int dfs(int start, boolean[] visited, List<List<Integer>> graph) {
+        if (visited[start])
+            return 0;
         visited[start] = true;
-        for(int next : graph.get(start)) dfs(next, graph, visited);
+        for (int next : graph.get(start)) {
+            dfs(next, visited, graph);
+        }
         return 1;
     }
-    
-    private List<List<Integer>> buildGraph(int n, int[][] connections){
+
+    private List<List<Integer>> buildGraph(int n, int[][] connections) {
         List<List<Integer>> graph = new ArrayList<List<Integer>>(n);
-        for(int i = 0; i < n; i++) graph.add(new ArrayList<Integer>());
-        for(int[] connection : connections){
+        for (int i = 0; i < n; i++)
+            graph.add(new ArrayList<Integer>());
+        for (int[] connection : connections) {
             int u = connection[0], v = connection[1];
             graph.get(u).add(v);
             graph.get(v).add(u);
         }
-        
-        return graph;   
+
+        return graph;
     }
 }
