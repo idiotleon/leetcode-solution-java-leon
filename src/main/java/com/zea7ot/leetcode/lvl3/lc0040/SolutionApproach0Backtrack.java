@@ -35,7 +35,7 @@ public class SolutionApproach0Backtrack {
             return;
 
         if (target == 0) {
-            paths.add(new ArrayList<Integer>(path));
+            paths.add(new ArrayList<>(path));
             return;
         }
 

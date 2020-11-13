@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/permutations-ii/
  * 
- * Time Complexity:     O(N!)
- * Space Complexity:    O(N)
+ * Time Complexity:     O(N * N!)
+ * Space Complexity:    O(N * N!) / O(1) + O(N * lg(N)) + O(N)
  * 
  * References:
  *  https://medium.com/@vasanths294/permutation-combination-subset-time-complexity-eca924e00071
@@ -34,7 +34,7 @@ public class SolutionApproach0Backtrack {
     private void backtrack(List<Integer> path, boolean[] used, int[] nums, List<List<Integer>> paths) {
         final int N = nums.length;
         if (path.size() == N) {
-            paths.add(new ArrayList<Integer>(path));
+            paths.add(new ArrayList<>(path));
             return;
         }
 

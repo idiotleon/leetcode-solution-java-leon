@@ -9,32 +9,36 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0841;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 import java.util.Set;
 
 public class SolutionApproach0BFS {
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         // sanity check
-        if(rooms == null || rooms.isEmpty()) return true;
+        if (rooms == null || rooms.isEmpty())
+            return true;
 
-        Queue<Integer> queue = new LinkedList<Integer>();
+        Deque<Integer> queue = new ArrayDeque<>();
         queue.offer(0);
-        Set<Integer> seen = new HashSet<Integer>();
+        Set<Integer> seen = new HashSet<>();
         seen.add(0);
-        
-        while(!queue.isEmpty()){
-            int top = queue.poll();
-            for(int key : rooms.get(top)){
-                if(!seen.contains(key)){
-                    queue.offer(key);
-                    seen.add(key);
+
+        while (!queue.isEmpty()) {
+            final int SIZE = queue.size();
+
+            for (int sz = 0; sz < SIZE; ++sz) {
+                int cur = queue.poll();
+                for (int next : rooms.get(cur)) {
+                    if (seen.add(next)) {
+                        queue.offer(next);
+                    }
                 }
             }
         }
-        
+
         return seen.size() == rooms.size();
     }
 }

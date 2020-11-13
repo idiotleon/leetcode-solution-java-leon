@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/combination-sum-iv/
  * 
- * Time Complexity:
- * Space Complexity:
+ * Time Complexity:     O()
+ * Space Complexity:    O()
  * 
  * References:
  *  https://leetcode.com/problems/combination-sum-iv/discuss/85036/1ms-Java-DP-Solution-with-Detailed-Explanation
@@ -18,17 +18,24 @@ public class SolutionApproach1DFSMemo {
         memo[0] = 1;
         return dfs(nums, target, memo);
     }
-    
-    private int dfs(int[] nums, 
-                    int target, 
-                    int[] memo){
-        if(target < 0) return 0;
-        if(target == 0) return 1;
-        if(memo[target] != -1) return memo[target];
+
+    private int dfs(int[] nums, int target, int[] memo) {
+        final int N = nums.length;
+
+        if (target < 0)
+            return 0;
+
+        if (target == 0)
+            return 1;
+
+        if (memo[target] != -1)
+            return memo[target];
+
         int count = 0;
-        for(int i = 0; i < nums.length; i++){
+        for (int i = 0; i < N; ++i) {
             count += dfs(nums, target - nums[i], memo);
         }
+
         return memo[target] = count;
     }
 }

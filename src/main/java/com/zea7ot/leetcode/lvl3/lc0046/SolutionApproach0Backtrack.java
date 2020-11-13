@@ -1,8 +1,12 @@
 /**
+ * @author: Leon
  * https://leetcode.com/problems/permutations/
  * 
- * Time Complexity:     O(N!)
- * Space Complexity:    O(N)
+ * Time Complexity:     O((1 ~ N) * N!)
+ * Space Complexity:    O(N!)
+ * 
+ * References:
+ *  https://leetcode.com/problems/permutations/solution/
  */
 package com.zea7ot.leetcode.lvl3.lc0046;
 
@@ -18,7 +22,6 @@ public class SolutionApproach0Backtrack {
 
         final int N = nums.length;
         boolean[] used = new boolean[N];
-
         backtrack(new ArrayList<>(), nums, used, ans);
 
         return ans;

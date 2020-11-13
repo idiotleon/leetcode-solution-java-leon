@@ -9,31 +9,33 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0841;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.Stack;
 
 public class SolutionApproach0SimulateRecursion {
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         // sanity check
-        if(rooms == null || rooms.isEmpty()) return true;
+        if (rooms == null || rooms.isEmpty())
+            return true;
 
-        Stack<Integer> stack = new Stack<Integer>();
+        Deque<Integer> stack = new ArrayDeque<>();
         stack.add(0);
         Set<Integer> seen = new HashSet<Integer>();
         seen.add(0);
-        
-        while(!stack.isEmpty()){
+
+        while (!stack.isEmpty()) {
             int room = stack.pop();
-            for(int key : rooms.get(room)){
-                if(!seen.contains(key)){
+            for (int key : rooms.get(room)) {
+                if (!seen.contains(key)) {
                     seen.add(key);
                     stack.add(key);
                 }
             }
         }
-        
+
         return rooms.size() == seen.size();
     }
 }

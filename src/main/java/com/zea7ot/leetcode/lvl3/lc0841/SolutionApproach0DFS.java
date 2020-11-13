@@ -19,18 +19,21 @@ import java.util.Set;
 public class SolutionApproach0DFS {
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         // sanity check
-        if(rooms == null || rooms.isEmpty()) return true;
+        if (rooms == null || rooms.isEmpty())
+            return true;
 
-        Set<Integer> visited = new HashSet<Integer>();
-        dfs(0, rooms, visited);
-        return visited.size() == rooms.size();
+        Set<Integer> seen = new HashSet<>();
+        dfs(0, seen, rooms);
+        return seen.size() == rooms.size();
     }
-    
-    private void dfs(int room, List<List<Integer>> rooms, Set<Integer> visited){
-        if(visited.contains(room)) return;
-        visited.add(room);
-        for(int key : rooms.get(room)){
-            dfs(key, rooms, visited);
+
+    private void dfs(int room, Set<Integer> seen, List<List<Integer>> graph) {
+        if (seen.contains(room))
+            return;
+
+        seen.add(room);
+        for (int key : graph.get(room)) {
+            dfs(key, seen, graph);
         }
     }
 }
