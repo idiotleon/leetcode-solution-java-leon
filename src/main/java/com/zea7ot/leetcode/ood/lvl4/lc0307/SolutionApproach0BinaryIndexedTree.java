@@ -1,14 +1,16 @@
 /**
  * https://leetcode.com/problems/range-sum-query-mutable/
  * 
- * Time Complexities:   O()
- * Space Complexity:    O()
+ * Time Complexities:   O(N_CALLS * lg(`N`))
+ *  N_CALLS, number of calls
+ *
+ * Space Complexity:    O(`nNums`)
  * 
  * References:
  *  https://leetcode.com/problems/range-sum-query-mutable/discuss/75753/Java-using-Binary-Indexed-Tree-with-clear-explanation
  *  https://cs.stackexchange.com/questions/10538/bit-what-is-the-intuition-behind-a-binary-indexed-tree-and-how-was-it-thought-a
  */
-package com.zea7ot.leetcode.lvl4.lc0307;
+package com.zea7ot.leetcode.ood.lvl4.lc0307;
 
 public class SolutionApproach0BinaryIndexedTree {
     private int[] nums;
@@ -19,8 +21,9 @@ public class SolutionApproach0BinaryIndexedTree {
         this.nums = nums;
         this.N = nums.length;
         this.BIT = new int[N + 1];
-        for (int i = 0; i < N; i++)
+        for (int i = 0; i < N; ++i) {
             init(i, nums[i]);
+        }
     }
 
     public void update(int i, int val) {
