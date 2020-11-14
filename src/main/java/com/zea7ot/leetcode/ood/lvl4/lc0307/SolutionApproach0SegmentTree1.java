@@ -12,7 +12,7 @@
  *  https://leetcode.com/problems/range-sum-query-mutable/discuss/75724/17-ms-Java-solution-with-segment-tree
  *  https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
  */
-package com.zea7ot.leetcode.lvl4.lc0307;
+package com.zea7ot.leetcode.ood.lvl4.lc0307;
 
 public class SolutionApproach0SegmentTree1 {
     private SegmentedTreeNode root;
