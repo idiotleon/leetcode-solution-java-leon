@@ -15,7 +15,7 @@
 package com.zea7ot.leetcode.ood.lvl4.lc0307;
 
 public class SolutionApproach0SegmentTree1 {
-    private SegmentedTreeNode root;
+    private SegmentTreeNode root;
 
     public SolutionApproach0SegmentTree1(int[] nums) {
         final int N = nums.length;
@@ -30,7 +30,7 @@ public class SolutionApproach0SegmentTree1 {
         return rangeQuery(i, j, root);
     }
 
-    private int rangeQuery(int start, int end, SegmentedTreeNode node) {
+    private int rangeQuery(int start, int end, SegmentTreeNode node) {
         if (node.end == end && node.start == start)
             return node.sum;
 
@@ -43,7 +43,7 @@ public class SolutionApproach0SegmentTree1 {
             return rangeQuery(mid + 1, end, node.right) + rangeQuery(start, mid, node.left);
     }
 
-    private void update(int pos, int val, SegmentedTreeNode node) {
+    private void update(int pos, int val, SegmentTreeNode node) {
         if (node.start == node.end)
             node.sum = val;
         else {
@@ -57,11 +57,11 @@ public class SolutionApproach0SegmentTree1 {
         }
     }
 
-    private SegmentedTreeNode buildTree(int start, int end, int[] nums) {
+    private SegmentTreeNode buildTree(int start, int end, int[] nums) {
         if (start > end)
             return null;
 
-        SegmentedTreeNode node = new SegmentedTreeNode(start, end);
+        SegmentTreeNode node = new SegmentTreeNode(start, end);
         if (start == end)
             node.sum = nums[start];
         else {
@@ -74,12 +74,12 @@ public class SolutionApproach0SegmentTree1 {
         return node;
     }
 
-    private class SegmentedTreeNode {
+    private class SegmentTreeNode {
         protected int start, end;
-        protected SegmentedTreeNode left, right;
+        protected SegmentTreeNode left, right;
         protected int sum;
 
-        protected SegmentedTreeNode(int start, int end) {
+        protected SegmentTreeNode(int start, int end) {
             this.start = start;
             this.end = end;
             this.left = this.right = null;
