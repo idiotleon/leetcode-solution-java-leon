@@ -9,7 +9,7 @@
  * References:
  *  https://leetcode.com/problems/my-calendar-iii/discuss/109575/Java-O(n)-BST-Method
  */
-package com.zea7ot.leetcode.lvl4.lc0732;
+package com.zea7ot.leetcode.ood.lvl4.lc0732;
 
 public class SolutionApproach0BinarySearchTree {
     private BSTNode root;

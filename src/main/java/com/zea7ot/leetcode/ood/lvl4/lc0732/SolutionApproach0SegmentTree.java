@@ -1,49 +1,28 @@
 /**
- * https://leetcode.com/problems/my-calendar-ii/
+ * https://leetcode.com/problems/my-calendar-iii/
  * 
  * Time Complexity:     O(N * lg(`RANGE`))
  * Space Complexity:    O(N * lg(`RANGE`))
  * 
  * References:
- *  https://leetcode.com/problems/my-calendar-ii/discuss/109528/nlogd-Java-solution-using-segment-tree-with-lazy-propagation-(for-the-general-case-of-K-booking)
+ *  https://leetcode.com/problems/my-calendar-iii/discuss/288928/Lazy-Dynamic-Segment-Tree-A-general-template
  */
-package com.zea7ot.leetcode.lvl3.lc0731;
+package com.zea7ot.leetcode.ood.lvl4.lc0732;
 
-public class SolutionApproach0SegmentedTree {
-    private static final int RANGE = (int)1e9;
-
+public class SolutionApproach0SegmentTree {
     private SegmentTreeNode root;
 
-    public SolutionApproach0SegmentedTree() {
+    public SolutionApproach0SegmentTree() {
+        final int RANGE = (int) 1e9;
         this.root = new SegmentTreeNode(0, RANGE, 0);
     }
 
-    public boolean book(int start, int end) {
-        // sanity check
+    public int book(int start, int end) {
         if (start > end)
-            return false;
-
-        int k = query(root, start, end - 1);
-        // to generalize:
-        // to replace '2' with 'K - 1',
-        // 'K' is the actual allowed overlaps
-        if (k >= 2)
-            return false;
-
-        update(root, start, end - 1, 1);
-        return true;
-    }
-
-    private int query(SegmentTreeNode node, final int RANGE_LOW, final int RANGE_HIGH) {
-        if (RANGE_LOW > RANGE_HIGH || node == null || RANGE_LOW > node.HIGH || RANGE_HIGH < node.LOW)
             return 0;
 
-        if (RANGE_LOW <= node.LOW && node.HIGH <= RANGE_HIGH)
-            return node.k;
-
-        normalize(node);
-
-        return Math.max(query(node.left, RANGE_LOW, RANGE_HIGH), query(node.right, RANGE_LOW, RANGE_HIGH));
+        update(root, start, end - 1, 1);
+        return root.k;
     }
 
     private void update(SegmentTreeNode node, final int RANGE_LOW, final int RANGE_HIGH, int val) {

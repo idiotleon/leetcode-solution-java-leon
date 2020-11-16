@@ -13,3 +13,10 @@ References:
 4   0683    https://leetcode.com/problems/k-empty-slots/
 
 5   0315    https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+5   1649    https://leetcode.com/problems/create-sorted-array-through-instructions/
+
+
+
+### Resource
+    https://www.hackerearth.com/practice/notes/binary-indexed-tree-or-fenwick-tree/
+    

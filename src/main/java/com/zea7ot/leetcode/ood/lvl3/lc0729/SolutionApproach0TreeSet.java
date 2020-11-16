@@ -7,7 +7,7 @@
  * References:
  *  https://leetcode.com/problems/my-calendar-i/discuss/109475/JavaC%2B%2B-Clean-Code-with-Explanation
  */
-package com.zea7ot.leetcode.lvl3.lc0729;
+package com.zea7ot.leetcode.ood.lvl3.lc0729;
 
 import java.util.TreeSet;
 

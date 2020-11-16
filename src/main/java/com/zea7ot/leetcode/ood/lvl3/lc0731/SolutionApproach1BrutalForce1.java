@@ -7,7 +7,7 @@
  * Reference:
  *  https://leetcode.com/problems/my-calendar-ii/discuss/109519/JavaC++-Clean-Code-with-Explanation/111413
  */
-package com.zea7ot.leetcode.lvl3.lc0731;
+package com.zea7ot.leetcode.ood.lvl3.lc0731;
 
 import java.util.ArrayList;
 import java.util.List;

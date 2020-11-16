@@ -9,7 +9,7 @@
  *  https://leetcode.com/problems/my-calendar-iii/discuss/109556/JavaC%2B%2B-Clean-Code
  *  https://leetcode.com/problems/my-calendar-iii/discuss/442127/Simple-C%2B%2B-Linesweep-Solution-with-Explanation-or-Then-Explanation-of-Added-Optimization
  */
-package com.zea7ot.leetcode.lvl4.lc0732;
+package com.zea7ot.leetcode.ood.lvl4.lc0732;
 
 import java.util.Map;
 import java.util.TreeMap;

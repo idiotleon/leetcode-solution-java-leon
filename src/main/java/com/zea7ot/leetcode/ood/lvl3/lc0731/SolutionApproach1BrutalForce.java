@@ -8,7 +8,7 @@
  *  https://leetcode.com/problems/my-calendar-ii/discuss/109530/N2-Python-Short-and-Elegant/494341
  *  https://leetcode.com/problems/my-calendar-ii/discuss/109530/N2-Python-Short-and-Elegant
  */
-package com.zea7ot.leetcode.lvl3.lc0731;
+package com.zea7ot.leetcode.ood.lvl3.lc0731;
 
 import java.util.ArrayList;
 import java.util.List;

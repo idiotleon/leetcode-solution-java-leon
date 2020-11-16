@@ -7,7 +7,7 @@
  * References:
  *  https://leetcode.com/problems/my-calendar-ii/discuss/114882/Java-Binary-Search-Tree-method-clear-and-easy-to-undertand-beats-99
  */
-package com.zea7ot.leetcode.lvl3.lc0731;
+package com.zea7ot.leetcode.ood.lvl3.lc0731;
 
 public class SolutionApproach0BinarySearchTree {
     private BSTNode root;

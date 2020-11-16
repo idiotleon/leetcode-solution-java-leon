@@ -4,7 +4,7 @@
  * Time Complexity:     O(N ^ 2)
  * Space Complexity:    O(N)
  */
-package com.zea7ot.leetcode.lvl3.lc0729;
+package com.zea7ot.leetcode.ood.lvl3.lc0729;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -9,7 +9,7 @@
  *  https://leetcode.com/problems/my-calendar-ii/discuss/109522/Simplified-winner's-solution
  *  https://leetcode.com/problems/my-calendar-ii/discuss/109522/Simplified-winner's-solution/375247
  */
-package com.zea7ot.leetcode.lvl3.lc0731;
+package com.zea7ot.leetcode.ood.lvl3.lc0731;
 
 import java.util.Map;
 import java.util.TreeMap;
