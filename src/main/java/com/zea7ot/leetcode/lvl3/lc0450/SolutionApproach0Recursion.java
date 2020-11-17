@@ -17,19 +17,20 @@ public class SolutionApproach0Recursion {
         if (root == null)
             return null;
 
-        if (root.val > key)
+        if (root.val > key) {
             root.left = deleteNode(root.left, key);
-        else if (root.val < key)
+        } else if (root.val < key) {
             root.right = deleteNode(root.right, key);
-        else {
+        } else {
             if (root.left == null)
                 return root.right;
             if (root.right == null)
                 return root.left;
 
             TreeNode rightSmallest = root.right;
-            while (rightSmallest.left != null)
+            while (rightSmallest.left != null) {
                 rightSmallest = rightSmallest.left;
+            }
             rightSmallest.left = root.left;
             return root.right;
         }

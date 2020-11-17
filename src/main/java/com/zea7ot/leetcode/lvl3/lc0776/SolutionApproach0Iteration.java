@@ -17,26 +17,29 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 public class SolutionApproach0Iteration {
     public TreeNode[] splitBST(TreeNode root, int V) {
         TreeNode[] ans = new TreeNode[2];
-        if(root == null) return ans;
-        
+        if (root == null)
+            return ans;
+
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
-        while(root != null){
+        while (root != null) {
             stack.push(root);
-            if(root.val > V) root = root.left;
-            else root = root.right;
+            if (root.val > V)
+                root = root.left;
+            else
+                root = root.right;
         }
-        
-        while(!stack.isEmpty()){
+
+        while (!stack.isEmpty()) {
             TreeNode cur = stack.pop();
-            if(cur.val > V){
+            if (cur.val > V) {
                 cur.left = ans[1];
                 ans[1] = cur;
-            }else{
+            } else {
                 cur.right = ans[0];
                 ans[0] = cur;
             }
         }
-        
+
         return ans;
     }
 }

@@ -7,10 +7,10 @@ References:
 # N-Ary Tree
 
 2   0590    https://leetcode.com/problems/n-ary-tree-postorder-traversal/
+2   1490    https://leetcode.com/problems/clone-n-ary-tree/
 
 3   0582    https://leetcode.com/problems/kill-process/
 3   1257    https://leetcode.com/problems/smallest-common-region/
-3   1490    https://leetcode.com/problems/clone-n-ary-tree/
 3   1506    https://leetcode.com/problems/find-root-of-n-ary-tree/
 3   1522    https://leetcode.com/problems/diameter-of-n-ary-tree/
 

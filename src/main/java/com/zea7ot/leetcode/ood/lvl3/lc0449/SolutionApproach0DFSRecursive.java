@@ -1,5 +1,14 @@
 /**
  * https://leetcode.com/problems/serialize-and-deserialize-bst/
+ *
+ * Time Complexities:
+ *  `serialize()`:          O(nTreeNodes)
+ *  `deserialize()`:        O(nTreeNodes)
+ *
+ * Space Complexity:        O(nTreeNodes)
+ * 
+ * References:
+ *  https://leetcode.com/problems/serialize-and-deserialize-bst/discuss/177617/the-General-Solution-for-Serialize-and-Deserialize-BST-and-Serialize-and-Deserialize-BT
  */
 package com.zea7ot.leetcode.ood.lvl3.lc0449;
 
@@ -32,7 +41,7 @@ public class SolutionApproach0DFSRecursive {
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        Deque<String> queue = new ArrayDeque<>(Arrays.asList(data.split(",")));
+        Deque<String> queue = new ArrayDeque<>(Arrays.asList(data.split(SPLITTER)));
         return deserialize(queue);
     }
 

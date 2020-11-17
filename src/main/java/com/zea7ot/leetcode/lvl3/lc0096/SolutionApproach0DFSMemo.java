@@ -1,8 +1,8 @@
 /**
  * https://leetcode.com/problems/unique-binary-search-trees/
  * 
- * Time Complexity:     O()
- * Space Complexity:    O()
+ * Time Complexity:     O(`n` ^ 2)
+ * Space Complexity:    O(`n`)
  * 
  * References:
  *  https://leetcode.com/problems/unique-binary-search-trees/discuss/31696/Simple-Recursion-Java-Solution-with-Explanation/30507

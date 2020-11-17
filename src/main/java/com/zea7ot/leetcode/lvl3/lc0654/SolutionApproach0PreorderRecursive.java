@@ -26,8 +26,9 @@ public class SolutionApproach0PreorderRecursive {
 
         int idxMax = lo;
         for (int i = lo + 1; i <= hi; ++i) {
-            if (nums[i] > nums[idxMax])
+            if (nums[i] > nums[idxMax]) {
                 idxMax = i;
+            }
         }
 
         TreeNode root = new TreeNode(nums[idxMax]);

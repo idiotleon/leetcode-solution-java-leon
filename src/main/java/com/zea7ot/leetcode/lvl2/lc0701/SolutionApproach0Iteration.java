@@ -22,16 +22,18 @@ public class SolutionApproach0Iteration {
 
         while (cur != null) {
             prev = cur;
-            if (cur.val < val)
+            if (cur.val < val) {
                 cur = cur.right;
-            else
+            } else {
                 cur = cur.left;
+            }
         }
 
-        if (prev.val < val)
+        if (prev.val < val) {
             prev.right = new TreeNode(val);
-        else
+        } else {
             prev.left = new TreeNode(val);
+        }
 
         return root;
     }

@@ -19,8 +19,9 @@ public class SolutionApproach0MorrisInorderTraversal {
         while (cur != null) {
             if (cur.left != null) {
                 TreeNode predecessor = cur.left;
-                while (predecessor.right != null)
+                while (predecessor.right != null) {
                     predecessor = predecessor.right;
+                }
 
                 predecessor.right = cur.right;
                 cur.right = cur.left;
