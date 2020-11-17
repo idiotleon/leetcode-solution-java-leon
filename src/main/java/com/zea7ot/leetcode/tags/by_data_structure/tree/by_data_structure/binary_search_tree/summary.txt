@@ -11,7 +11,9 @@ References:
 2   0701    https://leetcode.com/problems/insert-into-a-binary-search-tree/
 2   1305    https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
 
+3   0098    https://leetcode.com/problems/validate-binary-search-tree/
 3   0173    https://leetcode.com/problems/binary-search-tree-iterator/
+3   0449    https://leetcode.com/problems/serialize-and-deserialize-bst/
 3   0450    https://leetcode.com/problems/delete-node-in-a-bst/
 3   0510    https://leetcode.com/problems/inorder-successor-in-bst-ii/
 3   0729    https://leetcode.com/problems/my-calendar-i/
