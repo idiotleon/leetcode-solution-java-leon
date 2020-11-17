@@ -22,18 +22,20 @@ public class SolutionApproach0Deque {
             return null;
         final int N = nums.length;
 
-        Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
+        Deque<TreeNode> deque = new ArrayDeque<TreeNode>();
         for (int i = 0; i < N; ++i) {
             TreeNode root = new TreeNode(nums[i]);
-            while (!stack.isEmpty() && stack.peek().val < nums[i])
-                root.left = stack.pop();
+            while (!deque.isEmpty() && deque.peek().val < nums[i]) {
+                root.left = deque.pop();
+            }
 
-            if (!stack.isEmpty())
-                stack.peek().right = root;
+            if (!deque.isEmpty()) {
+                deque.peek().right = root;
+            }
 
-            stack.push(root);
+            deque.push(root);
         }
 
-        return stack.isEmpty() ? null : stack.removeLast();
+        return deque.isEmpty() ? null : deque.removeLast();
     }
 }

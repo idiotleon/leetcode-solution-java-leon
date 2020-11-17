@@ -17,19 +17,21 @@ public class SolutionApproach0Iteration {
         TreeNode cur = root, prev = null;
         while (cur != null && cur.val != key) {
             prev = cur;
-            if (key < cur.val)
+            if (key < cur.val) {
                 cur = cur.left;
-            else if (key > cur.val)
+            } else if (key > cur.val) {
                 cur = cur.right;
+            }
         }
 
         if (prev == null)
             return deleteRootNode(cur);
 
-        if (prev.left == cur)
+        if (prev.left == cur) {
             prev.left = deleteRootNode(cur);
-        else
+        } else {
             prev.right = deleteRootNode(cur);
+        }
 
         return root;
     }

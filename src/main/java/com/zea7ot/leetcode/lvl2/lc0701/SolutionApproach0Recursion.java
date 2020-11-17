@@ -14,12 +14,15 @@ import com.zea7ot.utils.data_structure.tree.TreeNode;
 public class SolutionApproach0Recursion {
     public TreeNode insertIntoBST(TreeNode root, int val) {
         // sanity check
-        if(root == null) return new TreeNode(val);
-        
-        if(val > root.val) 
+        if (root == null)
+            return new TreeNode(val);
+
+        if (val > root.val) {
             root.right = insertIntoBST(root.right, val);
-        else root.left = insertIntoBST(root.left, val);
-        
+        } else {
+            root.left = insertIntoBST(root.left, val);
+        }
+
         return root;
     }
 }

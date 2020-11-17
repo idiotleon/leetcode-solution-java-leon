@@ -19,7 +19,7 @@ public class SolutionApproach0ControlledInorderTraversalIterative {
     private final Deque<TreeNode> stack;
 
     public SolutionApproach0ControlledInorderTraversalIterative(TreeNode root) {
-        this.stack = new ArrayDeque<TreeNode>();
+        this.stack = new ArrayDeque<>();
         pushLeft(root);
     }
 

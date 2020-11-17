@@ -11,7 +11,7 @@ package com.zea7ot.leetcode.lvl3.lc0114;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0Postorder {
+public class SolutionApproach0DFSRecursive {
     public void flatten(TreeNode root) {
         flatten(root, null);
     }

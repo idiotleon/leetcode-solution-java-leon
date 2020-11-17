@@ -1,4 +1,4 @@
-package com.zea7ot.leetcode.lvl3.lc1490;
+package com.zea7ot.leetcode.lvl2.lc1490;
 
 import java.util.ArrayList;
 import java.util.List;

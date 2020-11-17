@@ -27,10 +27,11 @@ public class SolutionApproach0DFSIterative {
         dummy.next = stack.peek();
         while (!stack.isEmpty()) {
             ListNode top = stack.pop();
-            if (stack.isEmpty())
+            if (stack.isEmpty()) {
                 top.next = null;
-            else
+            } else {
                 top.next = stack.peek();
+            }
         }
 
         return dummy.next;

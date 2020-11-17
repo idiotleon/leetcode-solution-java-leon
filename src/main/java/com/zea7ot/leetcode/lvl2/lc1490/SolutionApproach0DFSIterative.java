@@ -5,7 +5,7 @@
  * Time Complexity:     O(N)
  * Space Complexity:    O(H)
  */
-package com.zea7ot.leetcode.lvl3.lc1490;
+package com.zea7ot.leetcode.lvl2.lc1490;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

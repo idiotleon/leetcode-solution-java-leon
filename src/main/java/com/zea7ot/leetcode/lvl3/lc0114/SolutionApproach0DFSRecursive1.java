@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
  * 
  * Time Complexity:     O(N)
- * Space Compleixty:    O(H)
+ * Space Complexity:    O(H)
  * 
  * References:
  *  https://leetcode.com/problems/flatten-binary-tree-to-linked-list/discuss/36977/My-short-post-order-traversal-Java-solution-for-share
@@ -12,7 +12,7 @@ package com.zea7ot.leetcode.lvl3.lc0114;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0Postorder1 {
+public class SolutionApproach0DFSRecursive1 {
     private TreeNode prev = null;
 
     public void flatten(TreeNode root) {
