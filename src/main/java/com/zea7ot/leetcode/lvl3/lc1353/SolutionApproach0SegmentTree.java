@@ -41,11 +41,13 @@ public class SolutionApproach0SegmentTree {
         int mid = lo + (hi - lo) / 2;
         int res = Integer.MAX_VALUE;
 
-        if (mid >= RANGE_LOW && lo <= RANGE_HIGH)
+        if (mid >= RANGE_LOW && lo <= RANGE_HIGH) {
             res = Math.min(res, rangeQuery(2 * idx, lo, mid, RANGE_LOW, RANGE_HIGH));
+        }
 
-        if (mid + 1 <= RANGE_HIGH && hi >= RANGE_LOW)
+        if (mid + 1 <= RANGE_HIGH && hi >= RANGE_LOW) {
             res = Math.min(res, rangeQuery(2 * idx + 1, mid + 1, hi, RANGE_LOW, RANGE_HIGH));
+        }
 
         return res;
     }
@@ -56,20 +58,20 @@ public class SolutionApproach0SegmentTree {
         } else {
             int mid = lo + (hi - lo) / 2;
 
-            if (pos <= mid)
+            if (pos <= mid) {
                 ALL_DAYS[idx] = Math.min(ALL_DAYS[2 * idx + 1], update(2 * idx, pos, lo, mid));
-            else
+            } else {
                 ALL_DAYS[idx] = Math.min(ALL_DAYS[2 * idx], update(2 * idx + 1, pos, mid + 1, hi));
-
+            }
         }
 
         return ALL_DAYS[idx];
     }
 
     private int build(int idx, int lo, int hi) {
-        if (lo == hi)
+        if (lo == hi) {
             ALL_DAYS[idx] = lo;
-        else {
+        } else {
             int mid = lo + (hi - lo) / 2;
             ALL_DAYS[idx] = Math.min(build(2 * idx, lo, mid), build(2 * idx + 1, mid + 1, hi));
         }

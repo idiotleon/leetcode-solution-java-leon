@@ -1,9 +1,0 @@
-@author: Leon
-References:
-    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
-
-
-### By Topic
-## Palindrome
-
-4   1246    https://leetcode.com/problems/palindrome-removal/
