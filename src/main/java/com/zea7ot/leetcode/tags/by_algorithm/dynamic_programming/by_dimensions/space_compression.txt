@@ -25,6 +25,7 @@ References:
 3   0712    https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
 3   0714    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 3   0718    https://leetcode.com/problems/maximum-length-of-repeated-subarray/
+3   1035    https://leetcode.com/problems/uncrossed-lines/
 3   1048    https://leetcode.com/problems/longest-string-chain/
 3   1155    https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
 3   1139    https://leetcode.com/problems/largest-1-bordered-square/
@@ -49,6 +50,7 @@ References:
 4   0813    https://leetcode.com/problems/largest-sum-of-averages/
 4   0956    https://leetcode.com/problems/tallest-billboard/
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
+4   1062    https://leetcode.com/problems/longest-repeating-substring/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1186    https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/
 4   1177    https://leetcode.com/problems/can-make-palindrome-from-substring/

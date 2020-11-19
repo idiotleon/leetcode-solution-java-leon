@@ -333,6 +333,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
 4   1001    https://leetcode.com/problems/grid-illumination/
+4   1035    https://leetcode.com/problems/uncrossed-lines/
 4   1039    https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
 4   1102    https://leetcode.com/problems/path-with-maximum-minimum-value/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
