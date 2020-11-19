@@ -196,7 +196,8 @@ Resources:
     https://www.youtube.com/watch?v=kufFb-sReiA
     https://zhuanlan.zhihu.com/p/126546914
     https://zhuanlan.zhihu.com/p/131585177
-
+    https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAxODQxMDM0Mw==&action=getalbum&album_id=1318881141113536512&scene=173&from_msgid=2247484731&from_itemidx=1&count=3#wechat_redirect
+    
 # Prefix Sums:
     about why `count += prefixSums.get(sum - k)`
     https://leetcode.com/problems/subarray-sum-equals-k/discuss/535507/Explanation-to-why-map.get(sum-k)-is-done-than-count%2B%2B
