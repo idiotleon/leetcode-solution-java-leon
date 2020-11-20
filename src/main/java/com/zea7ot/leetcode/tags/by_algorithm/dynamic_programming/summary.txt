@@ -146,6 +146,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   1233    https://leetcode.com/problems/dice-roll-simulation/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 4   1246    https://leetcode.com/problems/palindrome-removal/
+4   1259    https://leetcode.com/problems/handshakes-that-dont-cross/
 4   1269    https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
 4   1278    https://leetcode.com/problems/palindrome-partitioning-iii/
 4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
