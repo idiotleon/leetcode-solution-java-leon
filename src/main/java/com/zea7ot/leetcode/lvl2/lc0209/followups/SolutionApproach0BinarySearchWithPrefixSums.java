@@ -10,7 +10,7 @@
  * prefix sums + binary search
  * 
  * References:
- *  
+ *  https://leetcode.com/problems/minimum-size-subarray-sum/discuss/59103/Two-AC-solutions-in-Java-with-time-complexity-of-N-and-NLogN-with-explanation
  */
 package com.zea7ot.leetcode.lvl2.lc0209.followups;
 

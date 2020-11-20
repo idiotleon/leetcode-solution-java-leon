@@ -69,6 +69,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   1262    https://leetcode.com/problems/greatest-sum-divisible-by-three/
 3   1314    https://leetcode.com/problems/matrix-block-sum/
 3   1414    https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/
+3   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 3   1498    https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 3   1546    https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/
 3   1594    https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/
@@ -145,6 +146,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   1233    https://leetcode.com/problems/dice-roll-simulation/
 4   1235    https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 4   1246    https://leetcode.com/problems/palindrome-removal/
+4   1259    https://leetcode.com/problems/handshakes-that-dont-cross/
 4   1269    https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
 4   1278    https://leetcode.com/problems/palindrome-partitioning-iii/
 4   1289    https://leetcode.com/problems/minimum-falling-path-sum-ii/
@@ -196,7 +198,8 @@ Resources:
     https://www.youtube.com/watch?v=kufFb-sReiA
     https://zhuanlan.zhihu.com/p/126546914
     https://zhuanlan.zhihu.com/p/131585177
-
+    https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAxODQxMDM0Mw==&action=getalbum&album_id=1318881141113536512&scene=173&from_msgid=2247484731&from_itemidx=1&count=3#wechat_redirect
+    
 # Prefix Sums:
     about why `count += prefixSums.get(sum - k)`
     https://leetcode.com/problems/subarray-sum-equals-k/discuss/535507/Explanation-to-why-map.get(sum-k)-is-done-than-count%2B%2B

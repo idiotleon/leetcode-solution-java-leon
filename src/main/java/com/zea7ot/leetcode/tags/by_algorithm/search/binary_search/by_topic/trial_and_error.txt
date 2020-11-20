@@ -10,6 +10,7 @@ References:
 3   0209    https://leetcode.com/problems/minimum-size-subarray-sum/
 3   0287    https://leetcode.com/problems/find-the-duplicate-number/
 3   0378    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+3   0875    https://leetcode.com/problems/koko-eating-bananas/
 3   1201    https://leetcode.com/problems/ugly-number-iii/
 3   1283    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 3   1482    https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/

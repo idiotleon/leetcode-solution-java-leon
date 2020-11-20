@@ -21,21 +21,21 @@ public class SolutionApproach0PrefixSums {
 
         final int N = nums.length;
         int sum = 0, longest = 0;
-        final Map<Integer, Integer> PREFIX_SUMS = new HashMap<>();
+        Map<Integer, Integer> firstIdxes = new HashMap<>();
         // to make sum from 0 to j consistent
-        PREFIX_SUMS.put(0, -1);
+        firstIdxes.put(0, -1);
 
         for (int i = 0; i < N; ++i) {
             sum += nums[i];
 
-            if (PREFIX_SUMS.containsKey(sum - k)) {
-                final int LEN = i - PREFIX_SUMS.get(sum - k);
+            if (firstIdxes.containsKey(sum - k)) {
+                final int LEN = i - firstIdxes.get(sum - k);
                 longest = Math.max(longest, LEN);
             }
 
             // to only keep the 1st/ealiest index
-            if (!PREFIX_SUMS.containsKey(sum)) {
-                PREFIX_SUMS.put(sum, i);
+            if (!firstIdxes.containsKey(sum)) {
+                firstIdxes.put(sum, i);
             }
         }
 

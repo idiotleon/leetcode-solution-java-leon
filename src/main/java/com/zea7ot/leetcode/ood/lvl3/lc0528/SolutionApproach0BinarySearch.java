@@ -7,7 +7,7 @@
  * References:
  *  https://leetcode.com/problems/random-pick-with-weight/discuss/671445/Question-explained
  */
-package com.zea7ot.leetcode.lvl3.lc0528;
+package com.zea7ot.leetcode.ood.lvl3.lc0528;
 
 public class SolutionApproach0BinarySearch {
     private double[] probabilities;

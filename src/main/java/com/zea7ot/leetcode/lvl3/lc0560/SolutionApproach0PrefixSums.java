@@ -8,7 +8,7 @@
  *  https://leetcode.com/problems/subarray-sum-equals-k/discuss/102106/Java-Solution-PreSum-%2B-HashMap
  *  https://leetcode.com/problems/subarray-sum-equals-k/discuss/301242/General-summary-of-what-kind-of-problem-can-cannot-solved-by-Two-Pointers
  * 
- *  about `preifxSums.put(0, 1)`;
+ *  about `prefixSums.put(0, 1)`;
  *  https://leetcode.com/problems/subarray-sum-equals-k/discuss/102106/Java-Solution-PreSum-+-HashMap/416171
  *  https://leetcode.com/problems/subarray-sum-equals-k/discuss/102106/Java-Solution-PreSum-+-HashMap/238328
  */
@@ -19,7 +19,7 @@ import java.util.Map;
 
 public class SolutionApproach0PrefixSums {
     public int subarraySum(int[] nums, int k) {
-        final Map<Integer, Integer> PREFIX_SUMS = new HashMap<>();
+        Map<Integer, Integer> prefixSums = new HashMap<>();
         // this is for situtations where (sum - k) == 0,
         // which are valid calculations, and should be counted.
 
@@ -28,16 +28,16 @@ public class SolutionApproach0PrefixSums {
 
         // to handle the special case, where the subarray begins at index 0 with (sum ==
         // k)
-        PREFIX_SUMS.put(0, 1);
+        prefixSums.put(0, 1);
 
         int sum = 0, count = 0;
 
         for (int num : nums) {
             sum += num;
-            if (PREFIX_SUMS.containsKey(sum - k))
-                count += PREFIX_SUMS.get(sum - k);
+            if (prefixSums.containsKey(sum - k))
+                count += prefixSums.get(sum - k);
 
-            PREFIX_SUMS.put(sum, PREFIX_SUMS.getOrDefault(sum, 0) + 1);
+            prefixSums.put(sum, prefixSums.getOrDefault(sum, 0) + 1);
         }
 
         return count;

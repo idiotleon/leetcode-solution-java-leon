@@ -64,3 +64,8 @@ References:
 5   1178    https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/
 
 6   0488    https://leetcode.com/problems/zuma-game/
+
+
+
+### Resources
+    https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzAxODQxMDM0Mw==&scene=1&album_id=1318883740306948097&count=3#wechat_redirect

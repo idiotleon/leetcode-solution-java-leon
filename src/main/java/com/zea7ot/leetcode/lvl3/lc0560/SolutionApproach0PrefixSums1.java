@@ -15,7 +15,7 @@ public class SolutionApproach0PrefixSums1 {
         if (nums == null || nums.length == 0)
             return 0;
 
-        final Map<Integer, Integer> PREFIX_SUMS = new HashMap<>();
+        Map<Integer, Integer> prefixSums = new HashMap<>();
 
         int count = 0;
         int sum = 0;
@@ -24,10 +24,10 @@ public class SolutionApproach0PrefixSums1 {
 
             if (sum == K)
                 ++count;
-            if (PREFIX_SUMS.containsKey(sum - K))
-                count += PREFIX_SUMS.get(sum - K);
+            if (prefixSums.containsKey(sum - K))
+                count += prefixSums.get(sum - K);
 
-            PREFIX_SUMS.put(sum, PREFIX_SUMS.getOrDefault(sum, 0) + 1);
+            prefixSums.put(sum, prefixSums.getOrDefault(sum, 0) + 1);
 
         }
 
