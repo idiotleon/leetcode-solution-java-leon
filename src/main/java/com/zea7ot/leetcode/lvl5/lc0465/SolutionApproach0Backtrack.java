@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SolutionApproach0DFS {
+public class SolutionApproach0Backtrack {
     public int minTransfers(int[][] transactions) {
         Map<Integer, Integer> personToDebt = new HashMap<>();
         for (int[] transaction : transactions) {
