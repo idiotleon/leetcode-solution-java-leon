@@ -13,6 +13,9 @@ References:
 3   0254    https://leetcode.com/problems/factor-combinations/
 3   1286    https://leetcode.com/problems/iterator-for-combination/
 
+4   1569    https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/
+
+
 
 Resources:
     https://www.geeksforgeeks.org/print-all-possible-combinations-of-r-elements-in-a-given-array-of-size-n/
