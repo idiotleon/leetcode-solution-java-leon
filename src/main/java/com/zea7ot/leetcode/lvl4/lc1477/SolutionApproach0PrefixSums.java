@@ -17,36 +17,39 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SolutionApproach0PreSum {
+public class SolutionApproach0PrefixSums {
     public int minSumOfLengths(int[] nums, int target) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
-        
-        Map<Integer, Integer> preSum = new HashMap<Integer, Integer>();
-        preSum.put(0, -1);
-        
+        if (nums == null || nums.length == 0)
+            return 0;
+
+        Map<Integer, Integer> prefixSums = new HashMap<>();
+        prefixSums.put(0, -1);
+
         final int N = nums.length;
         int[] minLens = new int[N];
         Arrays.fill(minLens, Integer.MAX_VALUE);
         int sum = 0;
         int ans = Integer.MAX_VALUE;
         int minLen = Integer.MAX_VALUE;
-        
-        for(int i = 0; i < N; i++){
+
+        for (int i = 0; i < N; i++) {
             sum += nums[i];
             int key = sum - target;
-            if(preSum.containsKey(key)){
-                int prevIdx = preSum.get(key);
-                if(prevIdx > -1 && minLens[prevIdx] != Integer.MAX_VALUE){
+
+            if (prefixSums.containsKey(key)) {
+                int prevIdx = prefixSums.get(key);
+                if (prevIdx > -1 && minLens[prevIdx] != Integer.MAX_VALUE) {
                     ans = Math.min(ans, i - prevIdx + minLens[prevIdx]);
                 }
+
                 minLen = Math.min(minLen, i - prevIdx);
             }
-            
+
             minLens[i] = minLen;
-            preSum.put(sum, i);
+            prefixSums.put(sum, i);
         }
-        
+
         return ans == Integer.MAX_VALUE ? -1 : ans;
     }
 }

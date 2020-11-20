@@ -15,35 +15,36 @@ package com.zea7ot.leetcode.lvl4.lc1477;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SolutionApproach0PreSum1 {
+public class SolutionApproach0PrefixSums1 {
     public int minSumOfLengths(int[] nums, int target) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
+        if (nums == null || nums.length == 0)
+            return 0;
 
         final int N = nums.length;
         int sum = 0;
         int minLen = Integer.MAX_VALUE;
         int ans = Integer.MAX_VALUE;
-        
-        Map<Integer, Integer> preSum = new HashMap<Integer, Integer>();
-        preSum.put(0, -1);
-        for(int i = 0; i < N; i++){
+
+        Map<Integer, Integer> prefixSums = new HashMap<Integer, Integer>();
+        prefixSums.put(0, -1);
+        for (int i = 0; i < N; i++) {
             sum += nums[i];
-            preSum.put(sum, i);
+            prefixSums.put(sum, i);
         }
-        
+
         sum = 0;
-        for(int i = 0; i < N; i++){
+        for (int i = 0; i < N; i++) {
             sum += nums[i];
-            if(preSum.containsKey(sum - target)){
-                minLen = Math.min(minLen,  i - preSum.get(sum - target));
+            if (prefixSums.containsKey(sum - target)) {
+                minLen = Math.min(minLen, i - prefixSums.get(sum - target));
             }
-            
-            if(preSum.containsKey(sum + target) && minLen != Integer.MAX_VALUE){
-                ans = Math.min(ans, preSum.get(sum + target) - i + minLen);
+
+            if (prefixSums.containsKey(sum + target) && minLen != Integer.MAX_VALUE) {
+                ans = Math.min(ans, prefixSums.get(sum + target) - i + minLen);
             }
         }
-        
+
         return ans == Integer.MAX_VALUE ? -1 : ans;
     }
 }
