@@ -76,6 +76,7 @@ References:
 4   1039    https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
 4   1040    https://leetcode.com/problems/moving-stones-until-consecutive-ii/
 4   1093    https://leetcode.com/problems/statistics-from-a-large-sample/
+4   1240    https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/
 4   1250    https://leetcode.com/problems/check-if-it-is-a-good-array/
 4   1259    https://leetcode.com/problems/handshakes-that-dont-cross/
 4   1377    https://leetcode.com/problems/frog-position-after-t-seconds/
