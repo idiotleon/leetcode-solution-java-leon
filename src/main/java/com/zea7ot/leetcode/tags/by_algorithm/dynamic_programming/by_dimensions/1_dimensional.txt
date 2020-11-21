@@ -88,6 +88,7 @@ References:
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   0918    https://leetcode.com/problems/maximum-sum-circular-subarray/
 4   0956    https://leetcode.com/problems/tallest-billboard/
+4   0975    https://leetcode.com/problems/odd-even-jump/
 4   0983    https://leetcode.com/problems/minimum-cost-for-tickets/
 4   1024    https://leetcode.com/problems/video-stitching/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
@@ -108,6 +109,7 @@ References:
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
+5   0552    https://leetcode.com/problems/student-attendance-record-ii/
 5   0568    https://leetcode.com/problems/maximum-vacation-days/
 5   0691    https://leetcode.com/problems/stickers-to-spell-word/
 5   0818    https://leetcode.com/problems/race-car/

@@ -20,9 +20,11 @@ References:
 3   0858    https://leetcode.com/problems/mirror-reflection/
 3   0939    https://leetcode.com/problems/minimum-area-rectangle/
 
+4   0296    https://leetcode.com/problems/best-meeting-point/
 4   0478    https://leetcode.com/problems/generate-random-point-in-a-circle/
 4   0963    https://leetcode.com/problems/minimum-area-rectangle-ii/
 4   1039    https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
+4   1240    https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/
 4   1610    https://leetcode.com/problems/maximum-number-of-visible-points/
 
 5   0149    https://leetcode.com/problems/max-points-on-a-line/

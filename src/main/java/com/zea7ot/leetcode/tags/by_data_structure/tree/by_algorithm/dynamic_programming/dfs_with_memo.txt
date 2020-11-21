@@ -10,3 +10,4 @@ References:
 
 4   0337    https://leetcode.com/problems/house-robber-iii/
 4   1130    https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
+4   1569    https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/

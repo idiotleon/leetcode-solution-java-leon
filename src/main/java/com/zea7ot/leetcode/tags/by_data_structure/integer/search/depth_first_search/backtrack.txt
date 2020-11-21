@@ -12,3 +12,4 @@ References:
 3   1415    https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/
 
 4   1088    https://leetcode.com/problems/confusing-number-ii/
+4   1240    https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/

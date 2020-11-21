@@ -20,6 +20,8 @@ References:
 5   0715    https://leetcode.com/problems/range-module/
 5   1649    https://leetcode.com/problems/create-sorted-array-through-instructions/
 
+6   0308    https://leetcode.com/problems/range-sum-query-2d-mutable/
+
 
 ### Resources
     https://youtu.be/e_bK-dgPvfM

@@ -48,11 +48,13 @@ References:
 4   0887    https://leetcode.com/problems/super-egg-drop/
 4   1088    https://leetcode.com/problems/confusing-number-ii/
 4   1233    https://leetcode.com/problems/dice-roll-simulation/
+4   1240    https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/
 4   1259    https://leetcode.com/problems/handshakes-that-dont-cross/
 4   1269    https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
 4   1510    https://leetcode.com/problems/stone-game-iv/
 4   1627    https://leetcode.com/problems/graph-connectivity-with-threshold/
 
+5   0552    https://leetcode.com/problems/student-attendance-record-ii/
 5   0808    https://leetcode.com/problems/soup-servings/
 5   0818    https://leetcode.com/problems/race-car/
 5   0932    https://leetcode.com/problems/beautiful-array/
