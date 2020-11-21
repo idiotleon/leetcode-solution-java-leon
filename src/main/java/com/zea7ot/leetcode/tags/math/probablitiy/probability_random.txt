@@ -12,6 +12,7 @@ References:
 3   0497    https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/
 3   0519    https://leetcode.com/problems/random-flip-matrix/
 
+4   0710    https://leetcode.com/problems/random-pick-with-blacklist/
 4   1377    https://leetcode.com/problems/frog-position-after-t-seconds/
 
 5   0808    https://leetcode.com/problems/soup-servings/
