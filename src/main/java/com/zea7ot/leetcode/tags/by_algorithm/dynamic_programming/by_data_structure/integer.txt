@@ -29,4 +29,5 @@ References:
 4   1411    https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/
 4   1510    https://leetcode.com/problems/stone-game-iv/
 
+5   0552    https://leetcode.com/problems/student-attendance-record-ii/
 5   0818    https://leetcode.com/problems/race-car/
