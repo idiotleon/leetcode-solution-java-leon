@@ -13,6 +13,7 @@ References:
 
 3   0394    https://leetcode.com/problems/decode-string/
 3   1249    https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+3   1087    https://leetcode.com/problems/brace-expansion/
 3   1541    https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/
 
 4   0301    https://leetcode.com/problems/remove-invalid-parentheses/
