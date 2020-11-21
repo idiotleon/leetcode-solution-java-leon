@@ -271,6 +271,7 @@ References:
 5   0472    https://leetcode.com/problems/concatenated-words/
 5   0691    https://leetcode.com/problems/stickers-to-spell-word/
 5   0772    https://leetcode.com/problems/basic-calculator-iii/
+5   0803    https://leetcode.com/problems/bricks-falling-when-hit/
 5   0808    https://leetcode.com/problems/soup-servings/
 5   0827    https://leetcode.com/problems/making-a-large-island/
 5   0834    https://leetcode.com/problems/sum-of-distances-in-tree/
