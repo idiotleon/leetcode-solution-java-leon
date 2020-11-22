@@ -12,6 +12,7 @@ References:
 2   0784    https://leetcode.com/problems/letter-case-permutation/
 
 3   1061    https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
+3   1087    https://leetcode.com/problems/brace-expansion/
 3   1236    https://leetcode.com/problems/web-crawler/
 3   1593    https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/
 

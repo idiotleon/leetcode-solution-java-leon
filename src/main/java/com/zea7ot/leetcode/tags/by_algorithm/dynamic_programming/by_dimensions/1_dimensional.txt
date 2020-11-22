@@ -61,6 +61,8 @@ References:
 3   1546    https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/
 3   1594    https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/
 3   1626    https://leetcode.com/problems/best-team-with-no-conflicts/
+3   1658    https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
+3   1664    https://leetcode.com/problems/ways-to-make-a-fair-array/
 
 4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0084    https://leetcode.com/problems/largest-rectangle-in-histogram/
@@ -107,6 +109,7 @@ References:
 4   1371    https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
 4   1406    https://leetcode.com/problems/stone-game-iii/
 4   1458    https://leetcode.com/problems/max-dot-product-of-two-subsequences/
+4   1574    https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/
 
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0552    https://leetcode.com/problems/student-attendance-record-ii/

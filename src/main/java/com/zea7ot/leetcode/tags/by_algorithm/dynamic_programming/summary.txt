@@ -21,6 +21,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 2   0292    https://leetcode.com/problems/nim-game/
 2   0303    https://leetcode.com/problems/range-sum-query-immutable/
 2   0413    https://leetcode.com/problems/arithmetic-slices/
+2   0762    https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/
 2   1025    https://leetcode.com/problems/divisor-game/
 2   1029    https://leetcode.com/problems/two-city-scheduling/
 2   1167    https://leetcode.com/problems/minimum-cost-to-connect-sticks/
@@ -41,6 +42,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 3   0338    https://leetcode.com/problems/counting-bits/
 3   0343    https://leetcode.com/problems/integer-break/
+3   0357    https://leetcode.com/problems/count-numbers-with-unique-digits/
 3   0376    https://leetcode.com/problems/wiggle-subsequence/
 3   0377    https://leetcode.com/problems/combination-sum-iv/
 3   0416    https://leetcode.com/problems/partition-equal-subset-sum/
@@ -74,6 +76,8 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   1546    https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/
 3   1594    https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/
 3   1626    https://leetcode.com/problems/best-team-with-no-conflicts/
+3   1658    https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
+3   1664    https://leetcode.com/problems/ways-to-make-a-fair-array/
 
 4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0072    https://leetcode.com/problems/edit-distance/
@@ -102,6 +106,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0474    https://leetcode.com/problems/ones-and-zeroes/
 4   0486    https://leetcode.com/problems/predict-the-winner/
 4   0516    https://leetcode.com/problems/longest-palindromic-subsequence/
+4   0600    https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/
 4   0639    https://leetcode.com/problems/decode-ways-ii/
 4   0646    https://leetcode.com/problems/maximum-length-of-pair-chain/
 4   0664    https://leetcode.com/problems/strange-printer/
@@ -121,6 +126,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   0879    https://leetcode.com/problems/profitable-schemes/
 4   0887    https://leetcode.com/problems/super-egg-drop/
 4   0894    https://leetcode.com/problems/all-possible-full-binary-trees/
+4   0902    https://leetcode.com/problems/numbers-at-most-n-given-digit-set/   
 4   0907    https://leetcode.com/problems/sum-of-subarray-minimums/
 4   0918    https://leetcode.com/problems/maximum-sum-circular-subarray/
 4   0930    https://leetcode.com/problems/binary-subarrays-with-sum/
@@ -136,6 +142,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   1049    https://leetcode.com/problems/last-stone-weight-ii/
 4   1062    https://leetcode.com/problems/longest-repeating-substring/
 4   1066    https://leetcode.com/problems/campus-bikes-ii/
+4   1067    https://leetcode.com/problems/digit-count-in-range/
 4   1092    https://leetcode.com/problems/shortest-common-supersequence/
 4   1105    https://leetcode.com/problems/filling-bookcase-shelves/
 4   1035    https://leetcode.com/problems/uncrossed-lines/
@@ -167,9 +174,11 @@ This serves the total list of problems related to Dynamic Programming, regardles
 4   1548    https://leetcode.com/problems/the-most-similar-path-in-a-graph/
 4   1553    https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/
 4   1569    https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/
+4   1574    https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/
 
 5   0010    https://leetcode.com/problems/regular-expression-matching/
 5   0123    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+5   0233    https://leetcode.com/problems/number-of-digit-one/
 5   0354    https://leetcode.com/problems/russian-doll-envelopes/
 5   0363    https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
 5   0552    https://leetcode.com/problems/student-attendance-record-ii/
@@ -181,6 +190,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 5   0847    https://leetcode.com/problems/shortest-path-visiting-all-nodes/
 5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
 5   0943    https://leetcode.com/problems/find-the-shortest-superstring/
+5   1012    https://leetcode.com/problems/numbers-with-repeated-digits/
 5   1074    https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/
 5   1349    https://leetcode.com/problems/maximum-students-taking-exam/
 5   1483    https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
@@ -188,7 +198,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 
 6   0471    https://leetcode.com/problems/encode-string-with-shortest-length/
 6   1000    https://leetcode.com/problems/minimum-cost-to-merge-stones/
-
+6   1397    https://leetcode.com/problems/find-all-good-strings/
 
 
 Resources:

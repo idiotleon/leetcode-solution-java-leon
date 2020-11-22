@@ -114,6 +114,8 @@ References:
 4   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 4   1499    https://leetcode.com/problems/max-value-of-equation/
 4   1537    https://leetcode.com/problems/get-the-maximum-score/
+4   1574    https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/
+
 
 
 

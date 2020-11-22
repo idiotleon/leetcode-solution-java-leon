@@ -247,6 +247,8 @@ This file serves as the total list of problems related to Array, regardless of a
 3   1580    https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/
 3   1594    https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/
 3   1626    https://leetcode.com/problems/best-team-with-no-conflicts/
+3   1642    https://leetcode.com/problems/furthest-building-you-can-reach/
+3   1658    https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
 
 4   0030    https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 4   0041    https://leetcode.com/problems/first-missing-positive/
@@ -367,6 +369,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1537    https://leetcode.com/problems/get-the-maximum-score/
 4   1547    https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
 4   1562    https://leetcode.com/problems/find-latest-group-of-size-m/
+4   1574    https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/
 4   1575    https://leetcode.com/problems/count-all-possible-routes/
 
 5   0037    https://leetcode.com/problems/sudoku-solver/
@@ -381,6 +384,7 @@ This file serves as the total list of problems related to Array, regardless of a
 5   0691    https://leetcode.com/problems/stickers-to-spell-word/
 5   0774    https://leetcode.com/problems/minimize-max-distance-to-gas-station/
 5   0786    https://leetcode.com/problems/k-th-smallest-prime-fraction/
+5   0803    https://leetcode.com/problems/bricks-falling-when-hit/
 5   0827    https://leetcode.com/problems/making-a-large-island/
 5   0850    https://leetcode.com/problems/rectangle-area-ii/
 5   0862    https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
