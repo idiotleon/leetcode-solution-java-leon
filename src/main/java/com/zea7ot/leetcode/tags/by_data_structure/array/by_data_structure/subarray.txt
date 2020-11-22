@@ -35,6 +35,7 @@ References:
 3   1477    https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 3   1508    https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/
 3   1546    https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/
+3   1658    https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
 
 4   0220    https://leetcode.com/problems/contains-duplicate-iii/
 4   0312    https://leetcode.com/problems/burst-balloons/

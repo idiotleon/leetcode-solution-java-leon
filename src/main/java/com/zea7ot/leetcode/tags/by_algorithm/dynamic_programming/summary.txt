@@ -76,6 +76,7 @@ This serves the total list of problems related to Dynamic Programming, regardles
 3   1546    https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/
 3   1594    https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/
 3   1626    https://leetcode.com/problems/best-team-with-no-conflicts/
+3   1658    https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
 
 4   0042    https://leetcode.com/problems/trapping-rain-water/
 4   0072    https://leetcode.com/problems/edit-distance/
