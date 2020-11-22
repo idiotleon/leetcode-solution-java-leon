@@ -367,6 +367,7 @@ This file serves as the total list of problems related to Array, regardless of a
 4   1537    https://leetcode.com/problems/get-the-maximum-score/
 4   1547    https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
 4   1562    https://leetcode.com/problems/find-latest-group-of-size-m/
+4   1574    https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/
 4   1575    https://leetcode.com/problems/count-all-possible-routes/
 
 5   0037    https://leetcode.com/problems/sudoku-solver/
