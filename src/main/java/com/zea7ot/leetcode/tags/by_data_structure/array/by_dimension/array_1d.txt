@@ -102,6 +102,7 @@ References:
 3   0275    https://leetcode.com/problems/h-index-ii/
 3   0281    https://leetcode.com/problems/zigzag-iterator/
 3   0300    https://leetcode.com/problems/longest-increasing-subsequence/
+3   0318    https://leetcode.com/problems/maximum-product-of-word-lengths/
 3   0325    https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 3   0332    https://leetcode.com/problems/reconstruct-itinerary/
 3   0338    https://leetcode.com/problems/counting-bits/
