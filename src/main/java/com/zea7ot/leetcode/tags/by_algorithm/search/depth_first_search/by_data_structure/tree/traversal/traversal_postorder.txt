@@ -12,6 +12,7 @@ References:
 2   0104    https://leetcode.com/problems/maximum-depth-of-binary-tree/
 2   0110    https://leetcode.com/problems/balanced-binary-tree/
 2   0111    https://leetcode.com/problems/minimum-depth-of-binary-tree/
+2   0226    https://leetcode.com/problems/invert-binary-tree/
 2   0366    https://leetcode.com/problems/find-leaves-of-binary-tree/
 2   0563    https://leetcode.com/problems/binary-tree-tilt/
 2   0590    https://leetcode.com/problems/n-ary-tree-postorder-traversal/
@@ -40,6 +41,7 @@ References:
 3   1339    https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 3   1457    https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 3   1612    https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent/
+3   1644    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/
 
 4   0124    https://leetcode.com/problems/binary-tree-maximum-path-sum/
 4   0145    https://leetcode.com/problems/binary-tree-postorder-traversal/
