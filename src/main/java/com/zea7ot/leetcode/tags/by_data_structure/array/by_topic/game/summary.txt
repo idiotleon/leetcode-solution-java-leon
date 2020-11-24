@@ -17,6 +17,8 @@ References:
 4   1233    https://leetcode.com/problems/dice-roll-simulation/
 4   1340    https://leetcode.com/problems/jump-game-v/
 4   1345    https://leetcode.com/problems/jump-game-iv/
+4   1406    https://leetcode.com/problems/stone-game-iii/
+4   1563    https://leetcode.com/problems/stone-game-v/
 
 5   1178    https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/
 
