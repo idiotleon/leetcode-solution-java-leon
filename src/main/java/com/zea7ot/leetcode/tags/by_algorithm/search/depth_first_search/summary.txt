@@ -179,6 +179,7 @@ References:
 3   1530    https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
 3   1586    https://leetcode.com/problems/binary-search-tree-iterator-ii/
 3   1593    https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/
+3   1600    https://leetcode.com/problems/throne-inheritance/
 3   1644    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/
 
 4   0097    https://leetcode.com/problems/interleaving-string/
