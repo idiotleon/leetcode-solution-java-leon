@@ -12,6 +12,7 @@ References:
 
 3   0086    https://leetcode.com/problems/partition-list/
 3   0092    https://leetcode.com/problems/reverse-linked-list-ii/
+3   1650    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/
 
 4   0142    https://leetcode.com/problems/linked-list-cycle-ii/
 4   0148    https://leetcode.com/problems/sort-list/
