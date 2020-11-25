@@ -14,3 +14,4 @@ References:
 4   0464    https://leetcode.com/problems/can-i-win/
 4   0486    https://leetcode.com/problems/predict-the-winner/
 4   1406    https://leetcode.com/problems/stone-game-iii/
+4   1563    https://leetcode.com/problems/stone-game-v/
