@@ -30,7 +30,7 @@ public class SolutionApproach0BFS {
             graph.get(parent).add(child);
         }
 
-        Deque<Integer> queue = new ArrayDeque<Integer>();
+        Deque<Integer> queue = new ArrayDeque<>();
         queue.add(kill);
 
         while (!queue.isEmpty()) {
