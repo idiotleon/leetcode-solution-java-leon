@@ -21,7 +21,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SolutionApproach0TopologicalSort {
+public class SolutionApproach0TopologicalSort1 {
     public boolean sequenceReconstruction(int[] org, List<List<Integer>> seqs) {
         // sanity check
         if (org == null || org.length == 0 || seqs.isEmpty())
@@ -35,9 +35,11 @@ public class SolutionApproach0TopologicalSort {
             return false;
 
         Deque<Integer> queue = new ArrayDeque<>();
-        for (Map.Entry<Integer, Integer> entry : counts.entrySet())
-            if (entry.getValue() == 0)
+        for (Map.Entry<Integer, Integer> entry : counts.entrySet()) {
+            if (entry.getValue() == 0) {
                 queue.offer(entry.getKey());
+            }
+        }
 
         int idx = 0;
         while (!queue.isEmpty()) {
@@ -67,7 +69,6 @@ public class SolutionApproach0TopologicalSort {
     }
 
     private Map<Integer, List<Integer>> buildGraph(Map<Integer, Integer> counts, List<List<Integer>> seqs) {
-
         Map<Integer, List<Integer>> graph = new HashMap<>();
 
         for (List<Integer> seq : seqs) {
@@ -76,7 +77,7 @@ public class SolutionApproach0TopologicalSort {
                 int vertex = seq.get(0);
                 graph.putIfAbsent(vertex, new ArrayList<>());
                 counts.putIfAbsent(vertex, 0);
-            } else
+            } else {
                 for (int i = 1; i < SIZE; ++i) {
                     int prev = seq.get(i - 1), cur = seq.get(i);
                     graph.putIfAbsent(prev, new ArrayList<>());
@@ -85,6 +86,7 @@ public class SolutionApproach0TopologicalSort {
                     counts.putIfAbsent(prev, 0);
                     counts.put(cur, counts.getOrDefault(cur, 0) + 1);
                 }
+            }
         }
 
         return graph;
