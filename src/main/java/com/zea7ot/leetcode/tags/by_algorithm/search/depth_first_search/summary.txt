@@ -135,6 +135,7 @@ References:
 3   0865    https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 3   0886    https://leetcode.com/problems/possible-bipartition/
 3   0889    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
+3   0934    https://leetcode.com/problems/shortest-bridge/
 3   0935    https://leetcode.com/problems/knight-dialer/
 3   0938    https://leetcode.com/problems/range-sum-of-bst/
 3   0967    https://leetcode.com/problems/numbers-with-same-consecutive-differences/

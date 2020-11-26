@@ -194,6 +194,7 @@ This file serves as the total list of problems related to Array, regardless of a
 3   0922    https://leetcode.com/problems/sort-array-by-parity-ii/
 3   0923    https://leetcode.com/problems/3sum-with-multiplicity/
 3   0931    https://leetcode.com/problems/minimum-falling-path-sum/
+3   0934    https://leetcode.com/problems/shortest-bridge/
 3   0935    https://leetcode.com/problems/knight-dialer/3   0948    https://leetcode.com/problems/bag-of-tokens/
 3   0948    https://leetcode.com/problems/bag-of-tokens/
 3   0949    https://leetcode.com/problems/largest-time-for-given-digits/
