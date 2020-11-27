@@ -5,6 +5,7 @@
  * Space Complexity:    O((OPEN_PAREN + CLOSED_PAREN) ^ 2) ~ O(L ^ 2)
  * 
  * References:
+ *  https://leetcode.com/problems/remove-invalid-parentheses/discuss/75027/Easy-Short-Concise-and-Fast-Java-DFS-3-ms-solution/113024
  *  https://leetcode.com/problems/remove-invalid-parentheses/discuss/75027/Easy-Short-Concise-and-Fast-Java-DFS-3-ms-solution/156556
  *  https://zxi.mytechroad.com/blog/searching/leetcode-301-remove-invalid-parentheses/
  */

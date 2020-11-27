@@ -4,7 +4,7 @@ References:
     
 
 ### Depth First Search
-# array - 2 dimensional:
+# Array - 2 Dimensional:
 
 2   0207    https://leetcode.com/problems/course-schedule/
 2   0463    https://leetcode.com/problems/island-perimeter/
