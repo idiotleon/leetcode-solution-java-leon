@@ -19,24 +19,27 @@ public class SolutionApproach0SlidingWindow {
 
         int lo = 0, hi = 0;
         int vowels = 0;
-        int longest = 0;
+        int most = 0;
 
         while (hi < L) {
-            if (isVowel(CHS[hi]))
+            if (isVowel(CHS[hi])) {
                 ++vowels;
+            }
 
             final int LEN = hi - lo + 1;
             if (LEN > k) {
-                if (isVowel(CHS[lo]))
+                if (isVowel(CHS[lo])) {
                     --vowels;
+                }
+
                 ++lo;
             }
 
-            longest = Math.max(longest, vowels);
+            most = Math.max(most, vowels);
             ++hi;
         }
 
-        return longest;
+        return most;
     }
 
     private boolean isVowel(final char CH) {

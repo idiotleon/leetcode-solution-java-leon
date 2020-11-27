@@ -12,9 +12,10 @@ package com.zea7ot.leetcode.lvl3.lc1208;
 
 public class SolutionApproach0SlidingWindow {
     public int equalSubstring(String s, String t, int maxCost) {
-        // sanity check
-        if (s == null || s.isEmpty() || t == null || t.isEmpty() || s.length() != t.length())
-            return 0;
+        // sanity check, not required
+        // if (s == null || s.isEmpty() || t == null || t.isEmpty() || s.length() !=
+        // t.length())
+        // return 0;
 
         final int L = s.length();
         final char[] CHS_S = s.toCharArray();

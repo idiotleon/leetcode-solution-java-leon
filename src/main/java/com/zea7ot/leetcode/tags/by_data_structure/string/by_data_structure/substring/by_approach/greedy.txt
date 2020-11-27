@@ -7,4 +7,6 @@ References:
 ## Substring
 # Greedy
 
+3   0696    https://leetcode.com/problems/count-binary-substrings/
+
 5   1520    https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/
