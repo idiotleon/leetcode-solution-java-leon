@@ -18,14 +18,15 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class SolutionApproach0BFS1 {
+public class SolutionApproach0BFS {
     public List<String> generateSentences(List<List<String>> synonyms, String text) {
         Map<String, List<String>> graph = buildGraph(synonyms);
 
-        final Set<String> SEEN = new TreeSet<>();
         Deque<String> queue = new ArrayDeque<>();
-        SEEN.add(text);
         queue.add(text);
+
+        final Set<String> SEEN = new TreeSet<>();
+        SEEN.add(text);
 
         while (!queue.isEmpty()) {
             final int SIZE = queue.size();
