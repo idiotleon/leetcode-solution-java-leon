@@ -44,10 +44,12 @@ public class SolutionApproach0KMPAlgorithm {
         final int N = pattern.length;
         final int[] KMP = new int[N];
         for (int i = 1, j = 0; i < N; i++) {
-            while (j > 0 && pattern[i] != pattern[j])
+            while (j > 0 && pattern[i] != pattern[j]) {
                 j = KMP[j - 1];
-            if (pattern[i] == pattern[j])
+            }
+            if (pattern[i] == pattern[j]) {
                 KMP[i] = ++j;
+            }
         }
 
         return KMP;

@@ -44,8 +44,9 @@ public class SolutionApproach0KMPAlgorithm {
 
     private String repeatNTimes(final String SEGMENT, final int N) {
         StringBuilder builder = new StringBuilder();
-        for (int i = 0; i < N; ++i)
+        for (int i = 0; i < N; ++i) {
             builder.append(SEGMENT);
+        }
 
         return builder.toString();
     }
