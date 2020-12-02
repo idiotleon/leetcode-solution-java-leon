@@ -3,6 +3,9 @@
  * 
  * Time Copmlexity:     O(lg(x))
  * Space Complexity:    O(1)
+ * 
+ * References:
+ *  https://leetcode.com/problems/sqrtx/discuss/25198/3-JAVA-solutions-with-explanation
  */
 package com.zea7ot.leetcode.lvl3.lc0069;
 

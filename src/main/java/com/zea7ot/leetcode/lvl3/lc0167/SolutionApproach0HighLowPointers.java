@@ -1,12 +1,12 @@
 /**
  * https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
  * 
- * Time Complexity:     O(lg(N))
+ * Time Complexity:     O(N)
  * Space Complexity:    O(N)
  */
 package com.zea7ot.leetcode.lvl3.lc0167;
 
-public class SolutionApproach0BinarySearch {
+public class SolutionApproach0HighLowPointers {
     public int[] twoSum(int[] nums, int target) {
         int[] ans = new int[2];
         // sanity check

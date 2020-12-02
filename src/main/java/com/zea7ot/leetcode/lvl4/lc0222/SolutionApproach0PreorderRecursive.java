@@ -13,12 +13,12 @@ package com.zea7ot.leetcode.lvl4.lc0222;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0PostorderRecursive {
+public class SolutionApproach0PreorderRecursive {
     public int countNodes(TreeNode root) {
-        return postorder(root);
+        return preorder(root);
     }
 
-    private int postorder(TreeNode node) {
+    private int preorder(TreeNode node) {
         // sanity check
         if (node == null)
             return 0;
@@ -41,6 +41,6 @@ public class SolutionApproach0PostorderRecursive {
             return (int) Math.pow(2, leftHeight) - 1;
         }
 
-        return 1 + postorder(node.left) + postorder(node.right);
+        return 1 + preorder(node.left) + preorder(node.right);
     }
 }

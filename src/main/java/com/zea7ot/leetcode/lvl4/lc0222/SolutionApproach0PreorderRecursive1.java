@@ -13,7 +13,7 @@ package com.zea7ot.leetcode.lvl4.lc0222;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0PostorderRecursive1 {
+public class SolutionApproach0PreorderRecursive1 {
     public int countNodes(TreeNode root) {
         // sanity check
         if (root == null)
