@@ -1,9 +1,0 @@
-@author: Leon
-References:
-    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
-    
-    
-### Other
-# Moore Voting Algorithm
-
-3   0169    https://leetcode.com/problems/majority-element/

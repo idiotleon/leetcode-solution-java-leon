@@ -1,9 +1,0 @@
-@author: Leon
-References:
-    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
-
-
-### Integer
-# Nested Integer
-
-2   0385    https://leetcode.com/problems/mini-parser/

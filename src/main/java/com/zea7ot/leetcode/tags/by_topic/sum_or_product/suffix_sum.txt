@@ -1,9 +1,0 @@
-@author: Leon
-References:
-    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
-
-
-### By Topic
-## Suffix Sum
-
-4   1444    https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/

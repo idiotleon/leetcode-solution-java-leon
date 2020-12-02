@@ -3,6 +3,12 @@
  * 
  * Time Complexity:     O(L ^ 2)
  * Space Complexity:    O(L)
+ * 
+ * References:
+ *  https://github.com/huanminwu/LeetCode/blob/master/LeetCode_String_III_KMP_RabinKarp.docx
+ * 
+ *  about why a local set
+ *  https://leetcode.com/problems/increasing-subsequences/discuss/97130/Java-20-lines-backtracking-solution-using-set-beats-100./101617 
  */
 package com.zea7ot.leetcode.lvl4.lc1316;
 
@@ -26,7 +32,7 @@ public class SolutionApproach1KMPAlgorithm {
                 if (CHS[s + i] == CHS[s + j]) {
                     KMP[i++] = ++j;
 
-                    // must be even length
+                    // must be of even length
                     if (i % 2 == 1)
                         continue;
                     // if duplicate as half,

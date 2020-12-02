@@ -1,9 +1,0 @@
-@author: Leon
-References:
-    https://github.com/huanminwu/LeetCode/blob/master/LeetCode.xlsx
-
-
-### Array
-# Binary Array
-
-4   1562    https://leetcode.com/problems/find-latest-group-of-size-m/
