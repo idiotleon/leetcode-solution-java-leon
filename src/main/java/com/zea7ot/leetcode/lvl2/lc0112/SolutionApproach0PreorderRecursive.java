@@ -8,12 +8,12 @@ package com.zea7ot.leetcode.lvl2.lc0112;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0DFSRecursive {
+public class SolutionApproach0PreorderRecursive {
     public boolean hasPathSum(TreeNode root, int sum) {
-        return dfs(root, sum);
+        return preorder(root, sum);
     }
 
-    private boolean dfs(TreeNode node, int target) {
+    private boolean preorder(TreeNode node, int target) {
         if (node == null)
             return false;
 
@@ -28,6 +28,6 @@ public class SolutionApproach0DFSRecursive {
                 return true;
         }
 
-        return dfs(node.left, target) || dfs(node.right, target);
+        return preorder(node.left, target) || preorder(node.right, target);
     }
 }
