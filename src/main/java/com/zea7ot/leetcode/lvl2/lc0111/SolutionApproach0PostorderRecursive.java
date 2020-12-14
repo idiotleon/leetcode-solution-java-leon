@@ -3,6 +3,9 @@
  * 
  * Time Complexity:     O(N)
  * Space Complexity:    O(H)
+ * 
+ * References:
+ *  https://leetcode.com/problems/minimum-depth-of-binary-tree/discuss/36045/My-4-Line-java-solution
  */
 package com.zea7ot.leetcode.lvl2.lc0111;
 

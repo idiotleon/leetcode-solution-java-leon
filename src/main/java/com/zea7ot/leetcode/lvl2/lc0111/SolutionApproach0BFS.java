@@ -3,6 +3,9 @@
  * 
  * Time Complexity:     O(N)
  * Space Complexity:    O(W)
+ * 
+ * References:
+ *  https://leetcode.com/problems/minimum-depth-of-binary-tree/discuss/36045/My-4-Line-java-solution/242269
  */
 package com.zea7ot.leetcode.lvl2.lc0111;
 
@@ -17,14 +20,14 @@ public class SolutionApproach0BFS {
         if (root == null)
             return 0;
 
-        Deque<TreeNode> queue = new ArrayDeque<TreeNode>();
+        Deque<TreeNode> queue = new ArrayDeque<>();
         queue.add(root);
         int height = 1;
 
         while (!queue.isEmpty()) {
             final int SIZE = queue.size();
 
-            for (int i = 0; i < SIZE; ++i) {
+            for (int sz = 0; sz < SIZE; ++sz) {
                 TreeNode cur = queue.poll();
                 if (cur.left == null && cur.right == null)
                     return height;
