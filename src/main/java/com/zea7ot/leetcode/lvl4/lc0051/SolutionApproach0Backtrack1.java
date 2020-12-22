@@ -14,6 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SolutionApproach0Backtrack1 {
+    private static final char QUEEN = 'Q';
+    private static final char EMPTY = '.';
+
     public List<List<String>> solveNQueens(int n) {
         List<List<String>> ans = new ArrayList<>();
         // sanity check
@@ -23,7 +26,7 @@ public class SolutionApproach0Backtrack1 {
         char[][] board = new char[n][n];
         for (int row = 0; row < n; ++row) {
             for (int col = 0; col < n; ++col) {
-                board[row][col] = '.';
+                board[row][col] = EMPTY;
             }
         }
 
@@ -39,9 +42,9 @@ public class SolutionApproach0Backtrack1 {
 
         for (int row = 0; row < N; ++row) {
             if (validate(row, col, board, N)) {
-                board[row][col] = 'Q';
+                board[row][col] = QUEEN;
                 backtrack(board, col + 1, N, res);
-                board[row][col] = '.';
+                board[row][col] = EMPTY;
             }
         }
     }
@@ -49,7 +52,7 @@ public class SolutionApproach0Backtrack1 {
     private boolean validate(final int ROW, final int COL, char[][] board, final int N) {
         for (int row = 0; row < N; ++row) {
             for (int col = 0; col < COL; ++col) {
-                if (board[row][col] == 'Q' && (ROW + col == COL + row || ROW + COL == row + col || ROW == row)) {
+                if (board[row][col] == QUEEN && (ROW + col == COL + row || ROW + COL == row + col || ROW == row)) {
                     return false;
                 }
             }

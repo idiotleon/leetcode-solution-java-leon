@@ -20,21 +20,22 @@ public class SolutionApproach0DFSWithPrefixSums {
         if (root == null)
             return 0;
 
-        Map<Integer, Integer> prefixSums = new HashMap<>();
-        prefixSums.put(0, 1);
-        return dfs(0, sum, root, prefixSums);
+        Map<Integer, Integer> prefixSumToFreq = new HashMap<>();
+        prefixSumToFreq.put(0, 1);
+        return backtrack(0, sum, root, prefixSumToFreq);
     }
 
-    private int dfs(int curSum, int target, TreeNode node, Map<Integer, Integer> prefixSums) {
+    private int backtrack(int curSum, int target, TreeNode node, Map<Integer, Integer> prefixSumToFreq) {
         if (node == null)
             return 0;
 
         curSum += node.val;
-        int res = prefixSums.getOrDefault(curSum - target, 0);
-        prefixSums.put(curSum, prefixSums.getOrDefault(curSum, 0) + 1);
+        int res = prefixSumToFreq.getOrDefault(curSum - target, 0);
 
-        res += dfs(curSum, target, node.left, prefixSums) + dfs(curSum, target, node.right, prefixSums);
-        prefixSums.put(curSum, prefixSums.get(curSum) - 1);
+        prefixSumToFreq.put(curSum, prefixSumToFreq.getOrDefault(curSum, 0) + 1);
+        res += backtrack(curSum, target, node.left, prefixSumToFreq) + backtrack(curSum, target, node.right, prefixSumToFreq);
+        prefixSumToFreq.put(curSum, prefixSumToFreq.get(curSum) - 1);
+
         return res;
     }
 }

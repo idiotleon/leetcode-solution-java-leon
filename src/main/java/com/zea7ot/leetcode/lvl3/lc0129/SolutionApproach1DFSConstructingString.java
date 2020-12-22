@@ -11,7 +11,7 @@ import java.util.List;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0DFSConstructingString {
+public class SolutionApproach1DFSConstructingString {
     public int sumNumbers(TreeNode root) {
         if (root == null)
             return 0;

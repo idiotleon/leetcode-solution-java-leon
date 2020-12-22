@@ -1,10 +1,9 @@
 /**
  * https://leetcode.com/problems/n-queens/
  * 
- * Time Complexity: O(N * N!)
+ * Time Complexity: O(`n` * `n`!)
  * 
  * References:
- *  
  *  https://mp.weixin.qq.com/s?__biz=MzAxODQxMDM0Mw==&mid=2247484709&idx=1&sn=1c24a5c41a5a255000532e83f38f2ce4&chksm=9bd7fb2daca0723be888b30345e2c5e64649fc31a00b05c27a0843f349e2dd9363338d0dac61&scene=178&cur_album_id=1318883740306948097#rd
  */
 package com.zea7ot.leetcode.lvl4.lc0051;
@@ -13,6 +12,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SolutionApproach0Backtrack {
+    private static final char EMPTY = '.';
+    private static final char QUEEN = 'Q';
+
     public List<List<String>> solveNQueens(int n) {
         List<List<String>> ans = new ArrayList<>();
         // sanity check
@@ -22,44 +24,44 @@ public class SolutionApproach0Backtrack {
         char[][] board = new char[n][n];
         for (int row = 0; row < n; ++row) {
             for (int col = 0; col < n; ++col) {
-                board[row][col] = '.';
+                board[row][col] = EMPTY;
             }
         }
 
-        boolean[] column = new boolean[n];
-        boolean[] diag1 = new boolean[2 * n - 1];
-        boolean[] diag2 = new boolean[2 * n - 1];
+        boolean[] isSameColumn = new boolean[n];
+        boolean[] isSameMainDiagonal = new boolean[2 * n - 1];
+        boolean[] isSameAntidiagonal = new boolean[2 * n - 1];
 
-        backtrack(board, 0, diag1, diag2, column, n, ans);
+        backtrack(0, isSameMainDiagonal, isSameAntidiagonal, isSameColumn, n, board, ans);
 
         return ans;
     }
 
-    private void backtrack(char[][] board, int idx, boolean[] diag1, boolean[] diag2, boolean[] column, final int N,
-            List<List<String>> res) {
-        if (idx == N) {
+    private void backtrack(int row, boolean[] isSameMainDiagonal, boolean[] isSameAntidiagonal, boolean[] isSameColumn,
+            final int N, char[][] board, List<List<String>> res) {
+        if (row == N) {
             res.add(construct(board, N));
             return;
         }
 
         for (int col = 0; col < N; ++col) {
-            if (column[col] || diag1[idx + N - col - 1] || diag2[idx + col])
+            if (isSameColumn[col] || isSameMainDiagonal[row + N - col - 1] || isSameAntidiagonal[row + col])
                 continue;
 
             // to prepare for backtrack
-            column[col] = true;
-            diag1[idx + N - col - 1] = true;
-            diag2[idx + col] = true;
-            board[idx][col] = 'Q';
+            isSameColumn[col] = true;
+            isSameMainDiagonal[row + N - col - 1] = true;
+            isSameAntidiagonal[row + col] = true;
+            board[row][col] = QUEEN;
 
-            // to start backtrack
-            backtrack(board, idx + 1, diag1, diag2, column, N, res);
+            // to backtrack to the next state
+            backtrack(row + 1, isSameMainDiagonal, isSameAntidiagonal, isSameColumn, N, board, res);
 
-            // to put the previous state back
-            board[idx][col] = '.';
-            column[col] = false;
-            diag1[idx + N - col - 1] = false;
-            diag2[idx + col] = false;
+            // to backtrack to the previous state
+            board[row][col] = EMPTY;
+            isSameColumn[col] = false;
+            isSameMainDiagonal[row + N - col - 1] = false;
+            isSameAntidiagonal[row + col] = false;
         }
     }
 

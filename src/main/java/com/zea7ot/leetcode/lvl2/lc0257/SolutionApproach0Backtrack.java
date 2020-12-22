@@ -11,7 +11,7 @@ import java.util.List;
 
 import com.zea7ot.utils.data_structure.tree.TreeNode;
 
-public class SolutionApproach0PreorderRecursive {
+public class SolutionApproach0Backtrack {
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> paths = new ArrayList<String>();
         StringBuilder builder = new StringBuilder();
