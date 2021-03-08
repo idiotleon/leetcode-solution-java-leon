@@ -8,7 +8,7 @@
  */
 package com.zea7ot.leetcode.lvl2.lc1026;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0PostorderRecusrive2 {
     public int maxAncestorDiff(TreeNode root) {

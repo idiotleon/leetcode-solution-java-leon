@@ -8,7 +8,7 @@ package com.zea7ot.leetcode.lvl3.lc0339;
 
 import java.util.List;
 
-import com.zea7ot.utils.NestedInteger;
+import com.zea7ot.util.NestedInteger;
 
 public class SolutionApproach0DFSRecursive {
     public int depthSum(List<NestedInteger> nestedList) {

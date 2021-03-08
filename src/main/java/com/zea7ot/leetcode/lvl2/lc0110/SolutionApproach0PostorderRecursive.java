@@ -9,7 +9,7 @@
  */
 package com.zea7ot.leetcode.lvl2.lc0110;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0PostorderRecursive {
     public boolean isBalanced(TreeNode root) {

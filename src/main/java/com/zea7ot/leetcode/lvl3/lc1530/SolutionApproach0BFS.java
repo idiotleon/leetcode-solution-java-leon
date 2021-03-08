@@ -15,7 +15,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0BFS {
     public int countPairs(TreeNode root, int distance) {

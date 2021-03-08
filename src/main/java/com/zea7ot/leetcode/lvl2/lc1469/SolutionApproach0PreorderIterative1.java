@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0PreorderIterative1 {
     public List<Integer> getLonelyNodes(TreeNode root) {

@@ -9,7 +9,7 @@ package com.zea7ot.leetcode.lvl2.lc0590;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.zea7ot.utils.data_structure.tree.NaryTreeNode;
+import com.zea7ot.util.data_structure.tree.NaryTreeNode;
 
 public class SolutionApproach0PostorderRecursive {
     public List<Integer> postorder(NaryTreeNode root) {

@@ -9,7 +9,7 @@ package com.zea7ot.leetcode.lvl4.lc0538;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApprocah0Stack {
     public TreeNode convertBST(TreeNode root) {

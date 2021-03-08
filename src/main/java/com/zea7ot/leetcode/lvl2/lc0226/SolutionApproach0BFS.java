@@ -13,7 +13,7 @@ package com.zea7ot.leetcode.lvl2.lc0226;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0BFS {
     public TreeNode invertTree(TreeNode root) {

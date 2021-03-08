@@ -14,7 +14,7 @@ package com.zea7ot.leetcode.lvl2.lc1315;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0BFS {
     public int sumEvenGrandparent(TreeNode root) {

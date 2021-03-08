@@ -3,7 +3,7 @@
  */
 package com.zea7ot.leetcode.lvl4.lc0142;
 
-import com.zea7ot.utils.data_structure.linkedlist.ListNode;
+import com.zea7ot.util.data_structure.linkedlist.ListNode;
 
 public class SolutionApproachSlowFastPointers {
     public ListNode detectCycle(ListNode head) {

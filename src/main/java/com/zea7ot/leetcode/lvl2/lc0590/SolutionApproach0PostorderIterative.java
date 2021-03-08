@@ -12,7 +12,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.zea7ot.utils.data_structure.tree.NaryTreeNode;
+import com.zea7ot.util.data_structure.tree.NaryTreeNode;
 
 public class SolutionApproach0PostorderIterative {
     public List<Integer> postorder(NaryTreeNode root) {

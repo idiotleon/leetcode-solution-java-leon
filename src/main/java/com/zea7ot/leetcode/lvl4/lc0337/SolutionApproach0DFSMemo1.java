@@ -12,7 +12,7 @@ package com.zea7ot.leetcode.lvl4.lc0337;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0DFSMemo1 {
     public int rob(TreeNode root) {

@@ -9,7 +9,7 @@
  */
 package com.zea7ot.leetcode.lvl3.lc1522;
 
-import com.zea7ot.utils.data_structure.tree.NaryTreeNode;
+import com.zea7ot.util.data_structure.tree.NaryTreeNode;
 
 public class SolutionApproach0DFSRecursive {
 

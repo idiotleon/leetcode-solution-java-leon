@@ -14,7 +14,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0SimulateDFS {
     public List<Integer> flipMatchVoyage(TreeNode root, int[] voyage) {

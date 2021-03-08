@@ -14,8 +14,8 @@
  */
 package com.zea7ot.leetcode.lvl3.lc1367;
 
-import com.zea7ot.utils.data_structure.linkedlist.ListNode;
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.linkedlist.ListNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach1DFSRecursive {
     public boolean isSubPath(ListNode head, TreeNode root) {

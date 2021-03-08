@@ -6,7 +6,7 @@ package com.zea7ot.leetcode.lvl4.lc0142;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.zea7ot.utils.data_structure.linkedlist.ListNode;
+import com.zea7ot.util.data_structure.linkedlist.ListNode;
 
 public class SolutionApproachHashMap {
     public ListNode detectCycle(ListNode head) {

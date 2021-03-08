@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
-import com.zea7ot.utils.data_structure.linkedlist.ListNode;
+import com.zea7ot.util.data_structure.linkedlist.ListNode;
 
 public class SolutionApproach0MonoStack {
     public int[] nextLargerNodes(ListNode head) {

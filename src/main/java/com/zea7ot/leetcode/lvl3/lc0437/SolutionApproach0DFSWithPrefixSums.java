@@ -12,7 +12,7 @@ package com.zea7ot.leetcode.lvl3.lc0437;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0DFSWithPrefixSums {
     public int pathSum(TreeNode root, int sum) {

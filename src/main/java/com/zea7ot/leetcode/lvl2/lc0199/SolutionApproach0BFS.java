@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0BFS {
     public List<Integer> rightSideView(TreeNode root) {

@@ -14,7 +14,7 @@ package com.zea7ot.leetcode.lvl3.lc1171;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.zea7ot.utils.data_structure.linkedlist.ListNode;
+import com.zea7ot.util.data_structure.linkedlist.ListNode;
 
 public class SolutionApproach0PrefixSums {
     public ListNode removeZeroSumSublists(ListNode head) {

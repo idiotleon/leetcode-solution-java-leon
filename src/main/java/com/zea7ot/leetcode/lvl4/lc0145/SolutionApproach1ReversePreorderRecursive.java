@@ -13,7 +13,7 @@ package com.zea7ot.leetcode.lvl4.lc0145;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach1ReversePreorderRecursive {
     public List<Integer> postorderTraversal(TreeNode root) {

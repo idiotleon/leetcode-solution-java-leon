@@ -6,7 +6,7 @@
  */
 package com.zea7ot.leetcode.lvl2.lc0112;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0PreorderRecursive1 {
     public boolean hasPathSumRecursion(TreeNode root, int sum) {

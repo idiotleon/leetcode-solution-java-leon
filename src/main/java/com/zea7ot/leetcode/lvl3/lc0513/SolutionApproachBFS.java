@@ -6,7 +6,7 @@ package com.zea7ot.leetcode.lvl3.lc0513;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproachBFS {
     public int findBottomLeftValue(TreeNode root) {

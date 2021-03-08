@@ -10,7 +10,7 @@
  */
 package com.zea7ot.leetcode.lvl3.lc0285;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0InorderRecursive {
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {

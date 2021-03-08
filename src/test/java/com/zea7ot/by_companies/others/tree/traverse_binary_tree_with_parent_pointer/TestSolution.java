@@ -1,11 +1,11 @@
 package com.zea7ot.by_companies.others.tree.traverse_binary_tree_with_parent_pointer;
 
-import com.zea7ot.utils.data_structure.tree.TreeNodeWithParentPointer;
+import com.zea7ot.util.data_structure.tree.TreeNodeWithParentPointer;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.zea7ot.utils.data_structure.tree.Constants;
-import com.zea7ot.utils.data_structure.tree.TreeUtils;
+import com.zea7ot.util.data_structure.tree.Constants;
+import com.zea7ot.util.data_structure.tree.TreeUtils;
 
 import org.junit.jupiter.api.Test;
 

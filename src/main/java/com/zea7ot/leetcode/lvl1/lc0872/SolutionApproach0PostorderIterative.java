@@ -12,7 +12,7 @@ package com.zea7ot.leetcode.lvl1.lc0872;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0PostorderIterative {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {

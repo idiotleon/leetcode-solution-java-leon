@@ -13,7 +13,7 @@ package com.zea7ot.leetcode.ood.lvl3.lc0173;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach1FlattenBST{
     private List<Integer> nodesSorted;

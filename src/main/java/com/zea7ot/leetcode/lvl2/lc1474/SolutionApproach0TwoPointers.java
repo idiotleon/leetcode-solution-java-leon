@@ -9,7 +9,7 @@
  */
 package com.zea7ot.leetcode.lvl2.lc1474;
 
-import com.zea7ot.utils.data_structure.linkedlist.ListNode;
+import com.zea7ot.util.data_structure.linkedlist.ListNode;
 
 public class SolutionApproach0TwoPointers {
     public ListNode deleteNodes(ListNode head, int m, int n) {

@@ -22,7 +22,7 @@
  */
 package com.zea7ot.leetcode.explore.challenge30days.valid_sequence_from_root_to_leaves;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproachDFS {
     public boolean isValidSequence(TreeNode root, int[] arr) {

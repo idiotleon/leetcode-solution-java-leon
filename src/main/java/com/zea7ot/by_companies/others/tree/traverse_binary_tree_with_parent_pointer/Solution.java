@@ -8,7 +8,7 @@ package com.zea7ot.by_companies.others.tree.traverse_binary_tree_with_parent_poi
 import java.util.ArrayList;
 import java.util.List;
 
-import com.zea7ot.utils.data_structure.tree.TreeNodeWithParentPointer;
+import com.zea7ot.util.data_structure.tree.TreeNodeWithParentPointer;
 
 public class Solution {
     public List<Integer> inorderTraverse(TreeNodeWithParentPointer root){

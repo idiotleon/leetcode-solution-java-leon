@@ -9,7 +9,7 @@
  */
 package com.zea7ot.leetcode.lvl4.lc0023;
 
-import com.zea7ot.utils.data_structure.linkedlist.ListNode;
+import com.zea7ot.util.data_structure.linkedlist.ListNode;
 
 public class SolutionApproach0DivideAndConquer {
     public ListNode mergeKLists(ListNode[] lists) {

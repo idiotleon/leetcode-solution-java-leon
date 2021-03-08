@@ -14,7 +14,7 @@ package com.zea7ot.leetcode.ood.lvl3.lc1586;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0StackWithDLL {
     private Deque<TreeNode> stack;

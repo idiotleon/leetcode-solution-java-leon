@@ -12,7 +12,7 @@ package com.zea7ot.leetcode.lvl2.lc1214;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach1Set {
     public boolean twoSumBSTs(TreeNode root1, TreeNode root2, int target) {

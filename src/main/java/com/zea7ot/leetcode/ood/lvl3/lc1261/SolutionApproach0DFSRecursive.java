@@ -12,7 +12,7 @@ package com.zea7ot.leetcode.ood.lvl3.lc1261;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0DFSRecursive {
     private final Set<Integer> SEEN;

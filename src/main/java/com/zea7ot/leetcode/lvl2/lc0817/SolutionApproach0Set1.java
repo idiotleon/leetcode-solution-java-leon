@@ -12,7 +12,7 @@ package com.zea7ot.leetcode.lvl2.lc0817;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.zea7ot.utils.data_structure.linkedlist.ListNode;
+import com.zea7ot.util.data_structure.linkedlist.ListNode;
 
 public class SolutionApproach0Set1 {
     public int numComponents(ListNode head, int[] G) {

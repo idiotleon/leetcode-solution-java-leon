@@ -10,7 +10,7 @@
  */
 package com.zea7ot.leetcode.lvl2.lc0669;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0Postorder {
     public TreeNode trimBST(TreeNode root, int L, int R) {

@@ -6,7 +6,7 @@
  */
 package com.zea7ot.leetcode.lvl2.lc0328;
 
-import com.zea7ot.utils.data_structure.linkedlist.ListNode;
+import com.zea7ot.util.data_structure.linkedlist.ListNode;
 
 public class SolutionApproach0LinearScan1 {
     public ListNode oddEvenList(ListNode head) {

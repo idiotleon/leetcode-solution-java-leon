@@ -17,7 +17,7 @@ import java.util.Deque;
 import java.util.Iterator;
 import java.util.List;
 
-import com.zea7ot.utils.NestedInteger;
+import com.zea7ot.util.NestedInteger;
 
 public class SolutionApproach0Stack implements Iterator<Integer> {
     private Deque<NestedInteger> stack;

@@ -12,7 +12,7 @@ package com.zea7ot.leetcode.lvl2.lc0655;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0DFS {
     public List<List<String>> printTree(TreeNode root) {

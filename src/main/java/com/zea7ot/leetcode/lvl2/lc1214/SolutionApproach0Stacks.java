@@ -11,7 +11,7 @@ package com.zea7ot.leetcode.lvl2.lc1214;
 
 import java.util.Stack;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0Stacks {
     public boolean twoSumBSTs(TreeNode root1, TreeNode root2, int target) {

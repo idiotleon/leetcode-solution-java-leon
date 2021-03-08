@@ -7,7 +7,7 @@
  */
 package com.zea7ot.leetcode.lvl3.lc1372;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0PreorderRecursive {
     public int longestZigZag(TreeNode root) {

@@ -14,7 +14,7 @@ package com.zea7ot.leetcode.lvl3.lc1457;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0DFS1 {
     public int pseudoPalindromicPaths (TreeNode root) {

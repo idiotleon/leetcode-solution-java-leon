@@ -12,7 +12,7 @@ package com.zea7ot.leetcode.lvl2.lc0366;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0PostorderRecursive {
     public List<List<Integer>> findLeaves(TreeNode root) {

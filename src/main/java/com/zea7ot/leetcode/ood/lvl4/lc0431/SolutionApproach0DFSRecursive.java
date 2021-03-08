@@ -17,7 +17,7 @@ package com.zea7ot.leetcode.ood.lvl4.lc0431;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0DFSRecursive {
     // Encodes an n-ary tree to a binary tree.

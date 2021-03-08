@@ -9,7 +9,7 @@ package com.zea7ot.leetcode.lvl2.lc0112;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach1BFS {
     public boolean hasPathSumIteration(TreeNode root, int sum) {

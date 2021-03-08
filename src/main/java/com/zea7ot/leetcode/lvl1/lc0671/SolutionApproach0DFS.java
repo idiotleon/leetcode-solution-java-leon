@@ -6,7 +6,7 @@
  */
 package com.zea7ot.leetcode.lvl1.lc0671;
 
-import com.zea7ot.utils.data_structure.tree.TreeNode;
+import com.zea7ot.util.data_structure.tree.TreeNode;
 
 public class SolutionApproach0DFS {
     public int findSecondMinimumValue(TreeNode root) {
