@@ -1,0 +1,32 @@
+/**
+ * https://leetcode.com/problems/k-closest-points-to-origin/
+ * 
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(K)
+ */
+package com.an7one.leetcode.lvl2.lc0973;
+
+import java.util.PriorityQueue;
+
+public class SolutionApproach0MaxHeap {
+    public int[][] kClosest(int[][] points, int K) {
+        // sanity check
+        if (points == null || points.length < K)
+            return points;
+
+        PriorityQueue<int[]> maxHeap = new PriorityQueue<int[]>(
+                (a, b) -> Long.compare((b[0] * b[0] + b[1] * b[1]), (a[0] * a[0] + a[1] * a[1])));
+
+        for (int[] point : points) {
+            maxHeap.offer(point);
+            if (maxHeap.size() > K)
+                maxHeap.poll();
+        }
+
+        int[][] ans = new int[K][2];
+        for (int i = K - 1; i >= 0; --i)
+            ans[i] = maxHeap.poll();
+
+        return ans;
+    }
+}
