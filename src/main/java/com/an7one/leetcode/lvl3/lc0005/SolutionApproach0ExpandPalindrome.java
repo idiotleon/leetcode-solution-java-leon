@@ -1,33 +1,36 @@
-/**
- * https://leetcode.com/problems/longest-palindromic-substring/
- * 
- * Time Complexity:     O()
- * Space Complexity:    O()
- * 
- * References:
- *  https://leetcode.com/problems/longest-palindromic-substring/discuss/2928/Very-simple-clean-java-solution/154421
- */
 package com.an7one.leetcode.lvl3.lc0005;
 
-public class SolutionApproach0ExpandPalindrome {
-    public String longestPalindrome(String s) {
-        // sanity check
-        if (s == null || s.length() < 2)
-            return s;
+import com.an7one.util.Constant;
 
-        final int L = s.length();
-        char[] chs = s.toCharArray();
-        int[] start = new int[1], end = new int[1];
+/**
+ * https://leetcode.com/problems/longest-palindromic-substring/
+ * <p>
+ * Time Complexity:     O(L ^ 2)
+ * Space Complexity:    O(1)
+ * <p>
+ * References:
+ * https://leetcode.com/problems/longest-palindromic-substring/discuss/2928/Very-simple-clean-java-solution/154421
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
+public class SolutionApproach0ExpandPalindrome {
+    public String longestPalindrome(String str) {
+        // sanity check
+        if (str == null || str.length() < 2)
+            return str;
+
+        final int L = str.length();
+        char[] chs = str.toCharArray();
+        int[] idxStart = new int[1], idxEnd = new int[1];
 
         for (int i = 0; i < L; ++i) {
-            expand(i, i, chs, start, end);
-            expand(i, i + 1, chs, start, end);
+            expand(i, i, chs, idxStart, idxEnd);
+            expand(i, i + 1, chs, idxStart, idxEnd);
         }
 
-        return s.substring(start[0], end[0] + 1);
+        return str.substring(idxStart[0], idxEnd[0] + 1);
     }
 
-    private void expand(int lo, int hi, char[] chs, int[] start, int[] end) {
+    private void expand(int lo, int hi, char[] chs, int[] idxStart, int[] idxEnd) {
         final int L = chs.length;
         while (lo >= 0 && hi < L && chs[lo] == chs[hi]) {
             --lo;
@@ -38,9 +41,9 @@ public class SolutionApproach0ExpandPalindrome {
         ++lo;
         --hi;
 
-        if (hi - lo + 1 > end[0] - start[0] + 1) {
-            start[0] = lo;
-            end[0] = hi;
+        if (hi - lo + 1 > idxEnd[0] - idxStart[0] + 1) {
+            idxStart[0] = lo;
+            idxEnd[0] = hi;
         }
     }
 }

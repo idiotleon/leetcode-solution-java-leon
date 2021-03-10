@@ -1,14 +1,17 @@
-/**
- * https://leetcode.com/problems/longest-palindromic-substring/
- * 
- * Time Complexity:     O()
- * Space Complexity:    O()
- * 
- * References:
- *  https://leetcode.com/problems/longest-palindromic-substring/discuss/2928/Very-simple-clean-java-solution/3700
- */
 package com.an7one.leetcode.lvl3.lc0005;
 
+import com.an7one.util.Constant;
+
+/**
+ * https://leetcode.com/problems/longest-palindromic-substring/
+ * <p>
+ * Time Complexity:     O(L ^ 2)
+ * Space Complexity:    O(1)
+ * <p>
+ * References:
+ * https://leetcode.com/problems/longest-palindromic-substring/discuss/2928/Very-simple-clean-java-solution/3700
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0ExpandPalindrome2 {
     public String longestPalindrome(String str) {
         // sanity check

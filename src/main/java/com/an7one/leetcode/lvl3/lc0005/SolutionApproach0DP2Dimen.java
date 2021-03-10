@@ -1,17 +1,20 @@
-/**
- * https://leetcode.com/problems/longest-palindromic-substring/
- * 
- * Time Complexity:     O(L ^ 2)
- * Space Complexity:    O(L ^ 2)
- * 
- * `dp[i][j]`, whether `str.substring(i, j)` is a palindrome
- * 
- * 
- * References:
- *  https://leetcode.com/problems/longest-palindromic-substring/discuss/2921/Share-my-Java-solution-using-dynamic-programming/223961
- */
 package com.an7one.leetcode.lvl3.lc0005;
 
+import com.an7one.util.Constant;
+
+/**
+ * https://leetcode.com/problems/longest-palindromic-substring/
+ * <p>
+ * Time Complexity:     O(L ^ 2)
+ * Space Complexity:    O(L ^ 2)
+ * <p>
+ * `dp[i][j]`, whether `str.substring(i, j)` is a palindrome
+ * <p>
+ * <p>
+ * References:
+ * https://leetcode.com/problems/longest-palindromic-substring/discuss/2921/Share-my-Java-solution-using-dynamic-programming/223961
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP2Dimen {
     public String longestPalindrome(String s) {
         // sanity check
