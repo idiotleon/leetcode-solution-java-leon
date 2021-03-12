@@ -12,7 +12,7 @@ package com.an7one.leetcode.lvl3.lc0322;
 
 import java.util.Arrays;
 
-public class SolutionApproach0DP1Dimen1 {
+public class SolutionApproach0KnapsackComplete1 {
     public int coinChange(int[] coins, int amount) {
         int[] dp = new int[amount + 1];
         Arrays.fill(dp, Integer.MAX_VALUE);

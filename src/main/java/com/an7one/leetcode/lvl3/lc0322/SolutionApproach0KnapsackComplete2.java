@@ -8,7 +8,7 @@ package com.an7one.leetcode.lvl3.lc0322;
 
 import java.util.Arrays;
 
-public class SolutionApproach0DP1Dimen2 {
+public class SolutionApproach0KnapsackComplete2 {
     public int coinChange(int[] coins, int amount) {
         // sanity check
         if (coins == null || coins.length == 0 || amount <= 0)
