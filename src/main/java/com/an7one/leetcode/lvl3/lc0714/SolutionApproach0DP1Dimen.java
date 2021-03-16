@@ -1,18 +1,21 @@
-/**
- * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(N)
- * 
- * to apply the transaction fee when one selling the stock
- * 
- * References:
- *  https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/discuss/108871/2-solutions-2-states-DP-solutions-clear-explanation!
- *  https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/discuss/108870/Most-consistent-ways-of-dealing-with-the-series-of-stock-problems
- */
 package com.an7one.leetcode.lvl3.lc0714;
 
-public class SolutionApproach0DP3 {
+import com.an7one.util.Constant;
+
+/**
+ * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
+ * <p>
+ * to apply the transaction fee when one selling the stock
+ * <p>
+ * References:
+ * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/discuss/108871/2-solutions-2-states-DP-solutions-clear-explanation!
+ * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/discuss/108870/Most-consistent-ways-of-dealing-with-the-series-of-stock-problems
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
+public class SolutionApproach0DP1Dimen {
     public int maxProfit(int[] prices, int fee) {
         // sanity check
         if (prices == null || prices.length == 0)
