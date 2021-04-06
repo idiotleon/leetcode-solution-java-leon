@@ -1,14 +1,14 @@
-/**
- * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(4 * N) ~ O(N)
- * 
- * References:
- *  https://youtu.be/FLbqgyJ-70I?t=920
- */
 package com.an7one.leetcode.lvl5.lc0123;
 
+/**
+ * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(4 * N) ~ O(N)
+ * <p>
+ * References:
+ * https://youtu.be/FLbqgyJ-70I?t=920
+ */
 public class SolutionApproach0DP2Dimen {
     public int maxProfit(int[] prices) {
         // sanity check
