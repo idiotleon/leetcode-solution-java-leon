@@ -1,15 +1,18 @@
-/**
- * https://leetcode.com/problems/candy-crush/
- * 
- * Time Complexity:     O(NR * NC * (NR * NC - 2)) ~ O((NR * NC) ^ 2)
- * Space Complexity:    O(1)
- * 
- * References:
- *  https://leetcode.com/problems/candy-crush/discuss/178366/Another-Java-Solution
- *  https://leetcode.com/problems/candy-crush/discuss/178366/Another-Java-Solution/412311
- */
 package com.an7one.leetcode.lvl3.lc0723;
 
+import com.an7one.util.Constant;
+
+/**
+ * https://leetcode.com/problems/candy-crush/
+ * <p>
+ * Time Complexity:     O(NR * NC * (NR * NC - 2)) ~ O((NR * NC) ^ 2)
+ * Space Complexity:    O(1)
+ * <p>
+ * References:
+ * https://leetcode.com/problems/candy-crush/discuss/178366/Another-Java-Solution
+ * https://leetcode.com/problems/candy-crush/discuss/178366/Another-Java-Solution/412311
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0LinearScan {
     public int[][] candyCrush(int[][] board) {
         final int NR = board.length, NC = board[0].length;
