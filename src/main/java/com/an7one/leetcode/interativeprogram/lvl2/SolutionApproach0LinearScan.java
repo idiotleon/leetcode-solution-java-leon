@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * https://leetcode.com/problems/leftmost-column-with-at-least-a-one/
  * <p>
- * Time Complexity:     O(NR + NC) ~ O(max(NR, NC))
+ * Time Complexity:     O(`NR` + `NC`) ~ O(max(`NR`, `NC`))
  * Space Complexity:    O(1)
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
