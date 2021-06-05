@@ -1,9 +1,3 @@
-/**
- * https://leetcode.com/problems/binary-tree-right-side-view/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(H)
- */
 package com.an7one.leetcode.lvl2.lc0199;
 
 import java.util.ArrayDeque;
@@ -11,8 +5,16 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
+import com.an7one.util.Constant;
 import com.an7one.util.data_structure.tree.TreeNode;
 
+/**
+ * https://leetcode.com/problems/binary-tree-right-side-view/
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(H)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
@@ -20,23 +22,23 @@ public class SolutionApproach0BFS {
         if (root == null)
             return ans;
 
-        Deque<TreeNode> queue = new ArrayDeque<TreeNode>();
+        Deque<TreeNode> queue = new ArrayDeque<>();
         queue.add(root);
 
         while (!queue.isEmpty()) {
             final int SIZE = queue.size();
 
             for (int i = 0; i < SIZE; ++i) {
-                TreeNode node = queue.poll();
+                TreeNode cur = queue.poll();
 
                 if (i == SIZE - 1)
-                    ans.add(node.val);
+                    ans.add(cur.val);
 
-                if (node.left != null)
-                    queue.add(node.left);
+                if (cur.left != null)
+                    queue.add(cur.left);
 
-                if (node.right != null)
-                    queue.add(node.right);
+                if (cur.right != null)
+                    queue.add(cur.right);
             }
         }
 

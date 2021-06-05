@@ -1,18 +1,20 @@
-/**
- * https://leetcode.com/problems/binary-tree-right-side-view/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(H)
- * 
- * this is not a preorder traversal
- */
 package com.an7one.leetcode.lvl2.lc0199;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.an7one.util.Constant;
 import com.an7one.util.data_structure.tree.TreeNode;
 
+/**
+ * https://leetcode.com/problems/binary-tree-right-side-view/
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(H)
+ * <p>
+ * this is not a preorder traversal
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DFSRecursive {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> ans = new ArrayList<>();

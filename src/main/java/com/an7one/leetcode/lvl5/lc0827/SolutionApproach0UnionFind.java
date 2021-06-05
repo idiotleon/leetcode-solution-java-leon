@@ -1,26 +1,29 @@
-/**
- * https://leetcode.com/problems/making-a-large-island/
- * 
- * Time Complexity:     O()
- * Space Complexity:    O()
- * 
- * References:
- *  https://leetcode.com/problems/making-a-large-island/discuss/127980/Java-Solution-using-Union-Find
- */
 package com.an7one.leetcode.lvl5.lc0827;
+
+import com.an7one.util.Constant;
 
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * https://leetcode.com/problems/making-a-large-island/
+ * <p>
+ * Time Complexity:     O()
+ * Space Complexity:    O()
+ * <p>
+ * References:
+ * https://leetcode.com/problems/making-a-large-island/discuss/127980/Java-Solution-using-Union-Find
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0UnionFind {
-    private static final int[] DIRS = { 0, -1, 0, 1, 0 };
+    private static final int[] DIRS = {0, -1, 0, 1, 0};
 
     public int largestIsland(int[][] grid) {
         // sanity check
         if (grid == null || grid.length == 0 || grid[0].length == 0)
             return 0;
-            
+
         final int NR = grid.length, NC = grid[0].length;
 
         int[] sizes = new int[NR * NC];

@@ -1,9 +1,3 @@
-/**
- * https://leetcode.com/problems/binary-tree-right-side-view/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(H)
- */
 package com.an7one.leetcode.lvl2.lc0199;
 
 import java.util.ArrayList;
@@ -13,15 +7,23 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 
+import com.an7one.util.Constant;
 import com.an7one.util.data_structure.tree.TreeNode;
 
+/**
+ * https://leetcode.com/problems/binary-tree-right-side-view/
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(H)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS1 {
     public List<Integer> rightSideView(TreeNode root) {
-        Map<Integer, Integer> rightmostValueAtDepth = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> rightmostValueAtDepth = new HashMap<>();
         int maxDepth = -1;
 
-        Queue<TreeNode> nodeQueue = new LinkedList<TreeNode>();
-        Queue<Integer> depthQueue = new LinkedList<Integer>();
+        Queue<TreeNode> nodeQueue = new LinkedList<>();
+        Queue<Integer> depthQueue = new LinkedList<>();
         nodeQueue.add(root);
         depthQueue.add(0);
 
@@ -41,7 +43,7 @@ public class SolutionApproach0BFS1 {
 
         }
 
-        List<Integer> rightView = new ArrayList<Integer>();
+        List<Integer> rightView = new ArrayList<>();
         for (int depth = 0; depth <= maxDepth; depth++) {
             rightView.add(rightmostValueAtDepth.get(depth));
         }

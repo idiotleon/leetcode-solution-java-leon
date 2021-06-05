@@ -1,28 +1,31 @@
-/**
- * https://leetcode.com/problems/exclusive-time-of-functions/
- * 
- * Time Complexity:     O(`n`)
- * Space Complexity:    O(`n`)
- * 
- * `stack` is used to save the IDs, which should be pused in if it is a start, of functions
- * 
- * References:
- *  https://leetcode.com/problems/exclusive-time-of-functions/discuss/105062/Java-Stack-Solution-O(n)-Time-O(n)-Space/107796
- *  https://leetcode.com/problems/exclusive-time-of-functions/discuss/105062/Java-Stack-Solution-O(n)-Time-O(n)-Space
- */
 package com.an7one.leetcode.lvl4.lc0636;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.List;
 
+/**
+ * https://leetcode.com/problems/exclusive-time-of-functions/
+ * <p>
+ * Time Complexity:     O(`n`)
+ * Space Complexity:    O(`n`)
+ * <p>
+ * `stack` is used to save the IDs, which should be pused in if it is a start, of functions
+ * <p>
+ * References:
+ * https://leetcode.com/problems/exclusive-time-of-functions/discuss/105062/Java-Stack-Solution-O(n)-Time-O(n)-Space/107796
+ * https://leetcode.com/problems/exclusive-time-of-functions/discuss/105062/Java-Stack-Solution-O(n)-Time-O(n)-Space
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Stack1 {
     public int[] exclusiveTime(int n, List<String> logs) {
         int[] ans = new int[n];
 
         final String START = "start";
 
-        Deque<Integer> stack = new ArrayDeque<Integer>();
+        Deque<Integer> stack = new ArrayDeque<>();
         int prevTimestamp = 0;
 
         for (String cur : logs) {

@@ -1,18 +1,21 @@
-/**
- * https://leetcode.com/problems/making-a-large-island/
- * 
- * Time Complexity:     O((NR * NC) ^ 2)
- * Space Complexity:    O(NR * NC)
- * 
- * a very straight forward / brutal force backtrack approach
- * 
- * References:
- *  https://leetcode.com/problems/making-a-large-island/discuss/127256/DFS-JAVA-AC-CONCISE-SOLUTION/153727
- */
 package com.an7one.leetcode.lvl5.lc0827;
 
+import com.an7one.util.Constant;
+
+/**
+ * https://leetcode.com/problems/making-a-large-island/
+ * <p>
+ * Time Complexity:     O((NR * NC) ^ 2)
+ * Space Complexity:    O(NR * NC)
+ * <p>
+ * a very straight forward / brutal force backtrack approach
+ * <p>
+ * References:
+ * https://leetcode.com/problems/making-a-large-island/discuss/127256/DFS-JAVA-AC-CONCISE-SOLUTION/153727
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DFS {
-    private static final int[] DIRS = { 0, -1, 0, 1, 0 };
+    private static final int[] DIRS = {0, -1, 0, 1, 0};
 
     public int largestIsland(int[][] grid) {
         // sanity check

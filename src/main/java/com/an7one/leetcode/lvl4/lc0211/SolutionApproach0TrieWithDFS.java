@@ -1,25 +1,35 @@
-/**
- * https://leetcode.com/problems/add-and-search-word-data-structure-design/
- * 
- * Time Compleixties:
- *  `addWord`:  O(N * L)
- *  `search`:   O(N * L)
- *      N, number of calls of each funtion
- *  
- * Space Complexity:    O(N * L)
- */
 package com.an7one.leetcode.lvl4.lc0211;
 
+import com.an7one.util.Constant;
+
+/**
+ * https://leetcode.com/problems/add-and-search-word-data-structure-design/
+ * <p>
+ * Time Complexities:
+ * `addWord`:  O(N * L)
+ * `search`:   O(N * L)
+ * N, number of calls of each function
+ * <p>
+ * Space Complexity:    O(N * L)
+ * <p>
+ * Reference:
+ * https://leetcode.com/problems/design-add-and-search-words-data-structure/discuss/59554/My-simple-and-clean-Java-code
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0TrieWithDFS {
     private static final char PLACE_HOLDER = '.';
     private final TrieNode ROOT;
 
-    /** Initialize your data structure here. */
+    /**
+     * Initialize your data structure here.
+     */
     public SolutionApproach0TrieWithDFS() {
         this.ROOT = new TrieNode();
     }
 
-    /** Adds a word into the data structure. */
+    /**
+     * Adds a word into the data structure.
+     */
     public void addWord(String word) {
         TrieNode node = ROOT;
         for (char ch : word.toCharArray()) {
@@ -38,8 +48,7 @@ public class SolutionApproach0TrieWithDFS {
      * character '.' to represent any one letter.
      */
     public boolean search(String word) {
-        TrieNode node = ROOT;
-        return dfs(word, 0, node);
+        return dfs(word, 0, this.ROOT);
     }
 
     private boolean dfs(String word, int idx, TrieNode node) {
@@ -66,9 +75,9 @@ public class SolutionApproach0TrieWithDFS {
         return false;
     }
 
-    private class TrieNode {
-        protected TrieNode[] children;
-        protected String word;
+    private static class TrieNode {
+        private final TrieNode[] children;
+        private String word;
 
         protected TrieNode() {
             this.children = new TrieNode[26];
