@@ -1,13 +1,16 @@
-/**
- * https://leetcode.com/problems/leftmost-column-with-at-least-a-one/
- * 
- * Time Copmlexity:     O(NR + NC) ~ O(max(NR, NC))
- * Space Complexity:    O(1)
- */
 package com.an7one.leetcode.interativeprogram.lvl2;
+
+import com.an7one.util.Constant;
 
 import java.util.List;
 
+/**
+ * https://leetcode.com/problems/leftmost-column-with-at-least-a-one/
+ * <p>
+ * Time Complexity:     O(NR + NC) ~ O(max(NR, NC))
+ * Space Complexity:    O(1)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0LinearScan {
     public int leftMostColumnWithOne(FakeBinaryMatrix binaryMatrix) {
         final List<Integer> DIMEN = binaryMatrix.dimensions();
