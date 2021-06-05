@@ -1,13 +1,17 @@
-/**
- * https://leetcode.com/problems/k-closest-points-to-origin/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(K)
- */
+
 package com.an7one.leetcode.lvl2.lc0973;
+
+import com.an7one.util.Constant;
 
 import java.util.PriorityQueue;
 
+/**
+ * https://leetcode.com/problems/k-closest-points-to-origin/
+ * <p>
+ * Time Complexity:     O(N * lg(`K`))
+ * Space Complexity:    O(`K`)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0MaxHeap {
     public int[][] kClosest(int[][] points, int K) {
         // sanity check

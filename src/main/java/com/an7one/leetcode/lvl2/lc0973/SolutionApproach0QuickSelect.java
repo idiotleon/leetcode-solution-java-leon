@@ -1,16 +1,19 @@
-/**
- * https://leetcode.com/problems/k-closest-points-to-origin/
- * 
- * Time Complexity:     O(N) averagely, O(N ^ 2) in the worst case
- * Space Complexity:    O(1)
- */
 package com.an7one.leetcode.lvl2.lc0973;
+
+import com.an7one.util.Constant;
 
 import java.util.Arrays;
 
+/**
+ * https://leetcode.com/problems/k-closest-points-to-origin/
+ * <p>
+ * Time Complexity:     O(N) averagely, O(N ^ 2) in the worst case
+ * Space Complexity:    O(1)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0QuickSelect {
     public int[][] kClosest(int[][] points, int K) {
-        // sanit check
+        // sanity check
         if (points == null || points.length == 0 || points[0].length == 0)
             return new int[0][0];
 
