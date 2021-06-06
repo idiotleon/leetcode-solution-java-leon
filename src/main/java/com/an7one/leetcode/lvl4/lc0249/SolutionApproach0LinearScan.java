@@ -1,31 +1,34 @@
-/**
- * https://leetcode.com/problems/group-shifted-strings/
- * 
- * Time Complexity:     O(N * L)
- * Space Complexity:    O(N * L)
- * 
- * References:
- *  https://leetcode.com/problems/group-shifted-strings/discuss/67442/My-Concise-JAVA-Solution/69322
- */
 package com.an7one.leetcode.lvl4.lc0249;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * https://leetcode.com/problems/group-shifted-strings/
+ * <p>
+ * Time Complexity:     O(N * L)
+ * Space Complexity:    O(N * L)
+ * <p>
+ * References:
+ * https://leetcode.com/problems/group-shifted-strings/discuss/67442/My-Concise-JAVA-Solution/69322
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0LinearScan {
     public List<List<String>> groupStrings(String[] strings) {
-        List<List<String>> ans = new ArrayList<List<String>>();
+        List<List<String>> ans = new ArrayList<>();
         // sanity check
         if (strings == null || strings.length == 0)
             return ans;
 
-        Map<String, List<String>> map = new HashMap<String, List<String>>();
+        Map<String, List<String>> map = new HashMap<>();
 
         for (String str : strings) {
             String key = hash(str);
-            map.putIfAbsent(key, new ArrayList<String>());
+            map.putIfAbsent(key, new ArrayList<>());
             map.get(key).add(str);
         }
 
@@ -41,7 +44,7 @@ public class SolutionApproach0LinearScan {
         StringBuilder builder = new StringBuilder();
         for (int i = 1; i < L; i++) {
             // to simulate shift
-            int diff = (int) (chs[i] - chs[0]);
+            int diff = chs[i] - chs[i - 1];
             // alphabet letters in a circle
             if (diff < 0)
                 diff += 26;
