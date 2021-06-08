@@ -1,19 +1,22 @@
-/**
- * https://leetcode.com/problems/max-area-of-island/
- * 
- * Time Complexity:     O(NR * NC)
- * Space Complexity:    O(NR * NC)
- * 
- * References:
- *  https://leetcode.com/problems/max-area-of-island/discuss/186891/Java.-BFSDFSUnion-Find.
- */
 package com.an7one.leetcode.lvl2.lc0695;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * https://leetcode.com/problems/max-area-of-island/
+ * <p>
+ * Time Complexity:     O(`NR` * `NC`)
+ * Time Complexity:     O(`NR` * `NC`)
+ * <p>
+ * References:
+ * https://leetcode.com/problems/max-area-of-island/discuss/186891/Java.-BFSDFSUnion-Find.
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS {
-    private static final int[] DIRS = { 0, -1, 0, 1, 0 };
+    private static final int[] DIRS = {0, -1, 0, 1, 0};
 
     // private static final int WATER = 0;
     private static final int ISLAND = 1;
@@ -42,7 +45,7 @@ public class SolutionApproach0BFS {
         final int NR = grid.length, NC = grid[0].length;
 
         Deque<int[]> queue = new ArrayDeque<int[]>();
-        queue.add(new int[] { row, col });
+        queue.add(new int[]{row, col});
         visited[row][col] = true;
 
         int res = 0;
@@ -52,7 +55,7 @@ public class SolutionApproach0BFS {
                 int r = cur[0] + DIRS[d], c = cur[1] + DIRS[d + 1];
                 if (r < 0 || r >= NR || c < 0 || c >= NC || visited[r][c] || grid[r][c] != ISLAND)
                     continue;
-                queue.add(new int[] { r, c });
+                queue.add(new int[]{r, c});
                 visited[r][c] = true;
             }
 
