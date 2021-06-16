@@ -1,11 +1,14 @@
-/**
- * https://leetcode.com/problems/maximum-subarray/
- * 
- * follow up: 
- *  to return the length of the maximum subarray
- */
 package com.an7one.leetcode.lvl2.lc0053.followups.followup1;
 
+import com.an7one.util.Constant;
+
+/**
+ * https://leetcode.com/problems/maximum-subarray/
+ * <p>
+ * follow up:
+ * to return the length of the maximum subarray
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0KadanesAlgorithm {
     // to return the length of the maximum subarray
     public int lengthOfMaxSubArray(int[] nums) {

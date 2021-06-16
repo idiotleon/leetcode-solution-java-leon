@@ -1,15 +1,18 @@
-/**
- * https://leetcode.com/problems/maximum-subarray/
- * 
- * Time Complexity:     O(N * lgN)
- * Space Complexity:    O(lgN)
- * 
- * If you have figured out the O(n) solution, 
- * try coding another solution using the divide and conquer approach, 
- * which is more subtle.
- */
 package com.an7one.leetcode.lvl2.lc0053.followups.followup2;
 
+import com.an7one.util.Constant;
+
+/**
+ * https://leetcode.com/problems/maximum-subarray/
+ * <p>
+ * Time Complexity:     O(N * lgN)
+ * Space Complexity:    O(lgN)
+ * <p>
+ * If you have figured out the O(n) solution,
+ * try coding another solution using the divide and conquer approach,
+ * which is more subtle.
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DivideAndConquer {
     public int maxSubArray(int[] nums) {
         return maxSubArray(nums, 0, nums.length - 1);
