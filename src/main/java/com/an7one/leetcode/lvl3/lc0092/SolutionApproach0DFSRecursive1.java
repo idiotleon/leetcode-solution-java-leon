@@ -1,16 +1,18 @@
+package com.an7one.leetcode.lvl3.lc0092;
+
+import com.an7one.util.Constant;
+import com.an7one.util.data_structure.linkedlist.ListNode;
+
 /**
  * https://leetcode.com/problems/reverse-linked-list-ii/
- * 
+ *
  * Time Complexity:     O(L)
  * Space Complexity;    O(L)
- * 
+ *
  * References:
  *  https://leetcode.com/problems/reverse-linked-list-ii/discuss/30673/Why-nobody-does-it-with-recursion-shouldn't-the-code-be-simpler
  */
-package com.an7one.leetcode.lvl3.lc0092;
-
-import com.an7one.util.data_structure.linkedlist.ListNode;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DFSRecursive1 {
     public ListNode reverseBetween(ListNode head, int m, int n) {
         if (m == n)
