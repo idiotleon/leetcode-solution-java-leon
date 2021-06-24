@@ -1,13 +1,6 @@
-/**
- * https://leetcode.com/problems/task-scheduler/
- * 
- * Time Complexity:     O(N * lg(N))
- * Space Complexity:    O(N)
- * 
- * References:
- *  https://leetcode.com/problems/task-scheduler/discuss/104501/Java-PriorityQueue-solution-Similar-problem-Rearrange-string-K-distance-apart
- */
 package com.an7one.leetcode.lvl4.lc0621;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -16,18 +9,28 @@ import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
+/**
+ * https://leetcode.com/problems/task-scheduler/
+ * <p>
+ * Time Complexity:     O(N * lg(N))
+ * Space Complexity:    O(N)
+ * <p>
+ * References:
+ * https://leetcode.com/problems/task-scheduler/discuss/104501/Java-PriorityQueue-solution-Similar-problem-Rearrange-string-K-distance-apart
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach1MaxHeap {
     public int leastInterval(char[] tasks, int n) {
         // sanity check
         if (tasks == null || tasks.length == 0)
             return 0;
 
-        Map<Character, Integer> freq = new HashMap<Character, Integer>();
+        Map<Character, Integer> freq = new HashMap<>();
         for (char task : tasks) {
             freq.put(task, freq.getOrDefault(task, 0) + 1);
         }
 
-        Queue<Task> maxHeap = new PriorityQueue<Task>((a, b) -> Integer.compare(b.count, a.count));
+        Queue<Task> maxHeap = new PriorityQueue<>((a, b) -> Integer.compare(b.count, a.count));
         for (Map.Entry<Character, Integer> entry : freq.entrySet()) {
             Task task = new Task(entry.getKey(), entry.getValue());
             maxHeap.offer(task);
@@ -37,7 +40,7 @@ public class SolutionApproach1MaxHeap {
         // to literally simulate the CPU cycles running tasks
         while (!maxHeap.isEmpty()) {
             int k = n + 1;
-            List<Task> list = new ArrayList<Task>();
+            List<Task> list = new ArrayList<>();
             while (k > 0 && !maxHeap.isEmpty()) {
                 Task top = maxHeap.poll();
                 top.count--;
@@ -60,13 +63,13 @@ public class SolutionApproach1MaxHeap {
         return ans;
     }
 
-    private class Task {
+    private static class Task {
         @SuppressWarnings("unused")
-        protected char val;
-        protected int count;
+        private final char ch;
+        private int count;
 
-        protected Task(char val, int count) {
-            this.val = val;
+        protected Task(char ch, int count) {
+            this.ch = ch;
             this.count = count;
         }
     }

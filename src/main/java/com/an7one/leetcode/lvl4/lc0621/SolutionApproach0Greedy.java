@@ -1,14 +1,17 @@
-/**
- * https://leetcode.com/problems/task-scheduler/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(1)
- * 
- * References:
- *  http://zxi.mytechroad.com/blog/greedy/leetcode-621-task-scheduler/
- */
 package com.an7one.leetcode.lvl4.lc0621;
 
+import com.an7one.util.Constant;
+
+/**
+ * https://leetcode.com/problems/task-scheduler/
+ * <p>
+ * Time Complexity:     O(`N`)
+ * Space Complexity:    O(1)
+ * <p>
+ * References:
+ * http://zxi.mytechroad.com/blog/greedy/leetcode-621-task-scheduler/
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Greedy {
     public int leastInterval(char[] tasks, int n) {
         final int N = tasks.length;
