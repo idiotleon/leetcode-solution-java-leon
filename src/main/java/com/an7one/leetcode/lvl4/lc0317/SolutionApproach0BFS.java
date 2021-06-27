@@ -1,21 +1,24 @@
-/**
- * https://leetcode.com/problems/shortest-distance-from-all-buildings/
- * 
- * Time Complexity:     O(SIZE(buildings) * NR * NC) ~ O((NR * NC) ^ 2)
- * Space Complexity:    O(NR * NC) + O(SIZE(buildings)) ~ O(NR * NC)
- * 
- * References:
- *  https://leetcode.com/problems/shortest-distance-from-all-buildings/discuss/76886/Share-a-Java-implement
- */
 package com.an7one.leetcode.lvl4.lc0317;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
+/**
+ * https://leetcode.com/problems/shortest-distance-from-all-buildings/
+ * <p>
+ * Time Complexity:     O(SIZE(buildings) * NR * NC) ~ O((NR * NC) ^ 2)
+ * Space Complexity:    O(NR * NC) + O(SIZE(buildings)) ~ O(NR * NC)
+ * <p>
+ * References:
+ * https://leetcode.com/problems/shortest-distance-from-all-buildings/discuss/76886/Share-a-Java-implement
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS {
-    private static final int[] DIRS = { 0, -1, 0, 1, 0 };
+    private static final int[] DIRS = {0, -1, 0, 1, 0};
 
     private static final int BUILDING = 1;
 
@@ -26,7 +29,7 @@ public class SolutionApproach0BFS {
 
         final int NR = grid.length, NC = grid[0].length;
 
-        List<Building> buildings = new ArrayList<Building>();
+        List<Building> buildings = new ArrayList<>();
         for (int row = 0; row < NR; ++row) {
             for (int col = 0; col < NC; ++col) {
                 if (grid[row][col] == BUILDING)
@@ -56,7 +59,7 @@ public class SolutionApproach0BFS {
     private void bfs(Building building, int reaches, int[][] distances, int[][] grid) {
         final int NR = grid.length, NC = grid[0].length;
 
-        Deque<Building> queue = new ArrayDeque<Building>();
+        Deque<Building> queue = new ArrayDeque<>();
         queue.add(building);
 
         while (!queue.isEmpty()) {
@@ -74,12 +77,12 @@ public class SolutionApproach0BFS {
         }
     }
 
-    private class Building {
-        protected int row;
-        protected int col;
-        protected int distance;
+    private static class Building {
+        private final int row;
+        private final int col;
+        private final int distance;
 
-        protected Building(int row, int col, int distance) {
+        private Building(int row, int col, int distance) {
             this.row = row;
             this.col = col;
             this.distance = distance;
