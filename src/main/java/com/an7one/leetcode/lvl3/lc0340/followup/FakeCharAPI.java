@@ -1,4 +1,4 @@
-package com.an7one.leetcode.lvl5.lc0340.followup;
+package com.an7one.leetcode.lvl3.lc0340.followup;
 
 class FakeCharAPI {
     public char generateAChar(){

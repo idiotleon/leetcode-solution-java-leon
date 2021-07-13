@@ -1,16 +1,18 @@
-/**
- * https://leetcode.com/problems/check-completeness-of-a-binary-tree/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(H)
- * 
- * References:
- *  https://leetcode.com/problems/check-completeness-of-a-binary-tree/discuss/205682/JavaC++Python-BFS-Level-Order-Traversal/209403
- */
 package com.an7one.leetcode.lvl2.lc0958;
 
+import com.an7one.util.Constant;
 import com.an7one.util.data_structure.tree.TreeNode;
 
+/**
+ * https://leetcode.com/problems/check-completeness-of-a-binary-tree/
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(H)
+ * <p>
+ * References:
+ * https://leetcode.com/problems/check-completeness-of-a-binary-tree/discuss/205682/JavaC++Python-BFS-Level-Order-Traversal/209403
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DFS {
     public boolean isCompleteTree(TreeNode root) {
         int total = countNodes(root);

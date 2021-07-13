@@ -1,27 +1,33 @@
+package com.an7one.leetcode.lvl3.lc0340;
+
+import com.an7one.util.Constant;
+
 /**
  * https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
- * 
+ * <p>
  * Time Complexity:     O(N)
  * Space Complexity:    O(N)
+ * <p>
+ * Reference:
+ * https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/discuss/80047/15-lines-java-solution-using-slide-window
  */
-package com.an7one.leetcode.lvl5.lc0340;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0SlidingWindow {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
         final int L = s.length();
         char[] chs = s.toCharArray();
-        int[] freq = new int[256];
+        int[] freqs = new int[256];
 
         int distinct = 0;
         int longest = 0;
 
         int lo = 0, hi = 0;
         while (hi < L) {
-            if (freq[chs[hi]]++ == 0)
+            if (freqs[chs[hi]]++ == 0)
                 ++distinct;
 
             while (distinct > k) {
-                if (--freq[chs[lo]] == 0)
+                if (--freqs[chs[lo]] == 0)
                     --distinct;
                 ++lo;
             }
