@@ -1,11 +1,14 @@
+package com.an7one.leetcode.lvl2.lc0205;
+
+import com.an7one.util.Constant;
+
 /**
  * https://leetcode.com/problems/isomorphic-strings/
- * 
+ * <p>
  * Time Complexity:     O(L)
  * Space Complexity:    O(256 * 2) ~ O(1)
  */
-package com.an7one.leetcode.lvl2.lc0205;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0LinearScan2 {
     public boolean isIsomorphic(String s, String t) {
         // sanity check

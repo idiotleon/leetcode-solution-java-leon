@@ -1,16 +1,19 @@
+
+package com.an7one.leetcode.lvl4.lc0639;
+import com.an7one.util.Constant;
+
 /**
  * https://leetcode.com/problems/decode-ways-ii/
- * 
+ *
  * Time Complexity:     O(L)
  * Space Complexity:    O(1)
- * 
+ *
  * 15 is the number of combinations when both characters are '*'
- * 
+ *
  * References:
  *  https://leetcode.com/problems/decode-ways-ii/discuss/105275/Java-DP-O(n)-time-and-O(1)-space
  */
-package com.an7one.leetcode.lvl4.lc0639;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP0Dimen {
     private static final int MOD = (int) 1e9 + 7;
     private static final char PLACE_HOLDER = '*';

@@ -1,13 +1,19 @@
-/**
- * https://leetcode.com/problems/isomorphic-strings/
- */
 package com.an7one.leetcode.lvl2.lc0205;
+
+import com.an7one.util.Constant;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * https://leetcode.com/problems/isomorphic-strings/
+ * <p>
+ * Time Complexity:     O()
+ * Space Complexity:    O()
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0LinearScan3 {
     public boolean isIsomorphic(String s, String t) {
         if (s == null && t == null)

@@ -1,18 +1,21 @@
-/**
- * https://leetcode.com/problems/isomorphic-strings/
- * 
- * Time Complexity:     O(L)
- * Space Complexity:    O(256 * 2) ~ O(1)
- * 
- * References:
- *  https://leetcode.com/problems/isomorphic-strings/discuss/57796/My-6-lines-solution/59438
- *  https://leetcode.com/problems/isomorphic-strings/discuss/57796/My-6-lines-solution
- *  https://leetcode.com/problems/isomorphic-strings/discuss/57810/Short-Java-solution-without-maps
- */
 package com.an7one.leetcode.lvl2.lc0205;
+
+import com.an7one.util.Constant;
 
 import java.util.Arrays;
 
+/**
+ * https://leetcode.com/problems/isomorphic-strings/
+ * <p>
+ * Time Complexity:     O(L)
+ * Space Complexity:    O(256 * 2) ~ O(1)
+ * <p>
+ * References:
+ * https://leetcode.com/problems/isomorphic-strings/discuss/57796/My-6-lines-solution/59438
+ * https://leetcode.com/problems/isomorphic-strings/discuss/57796/My-6-lines-solution
+ * https://leetcode.com/problems/isomorphic-strings/discuss/57810/Short-Java-solution-without-maps
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0LinearScan1 {
     public boolean isIsomorphic(String s, String t) {
         // sanity check
