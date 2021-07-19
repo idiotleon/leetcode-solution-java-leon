@@ -1,10 +1,6 @@
-/**
- * https://leetcode.com/problems/4sum/
- * 
- * Time Complexity:     O(N * lg(N)) + O(N ^ 3) ~ O(N ^ 3)
- * Space Complexity:    O(1)
- */
 package com.an7one.leetcode.lvl4.lc0018;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,6 +8,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * https://leetcode.com/problems/4sum/
+ * <p>
+ * Time Complexity:     O(N * lg(N)) + O(N ^ 3) ~ O(N ^ 3)
+ * Space Complexity:    O(1)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0FourPointers1 {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         // sanity check
@@ -39,6 +42,6 @@ public class SolutionApproach0FourPointers1 {
             }
         }
 
-        return new ArrayList<List<Integer>>(ans);
+        return new ArrayList<>(ans);
     }
 }

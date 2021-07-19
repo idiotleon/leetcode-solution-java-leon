@@ -1,18 +1,20 @@
+package com.an7one.leetcode.lvl4.lc0025;
+
+import com.an7one.util.Constant;
+import com.an7one.util.data_structure.linkedlist.ListNode;
+
 /**
  * https://leetcode.com/problems/reverse-nodes-in-k-group/
- * 
+ *
  * Time Complexity:     O(L)
  *  L, length of the linked list
- * 
+ *
  * Space Complexity:    O(L / `k`) ~ O(L)
- * 
+ *
  * References:
  *  https://leetcode.com/problems/reverse-nodes-in-k-group/discuss/11423/Short-but-recursive-Java-code-with-comments
  */
-package com.an7one.leetcode.lvl4.lc0025;
-
-import com.an7one.util.data_structure.linkedlist.ListNode;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DFSRecursive {
     public ListNode reverseKGroup(ListNode head, int k) {
         return dfs(head, k);

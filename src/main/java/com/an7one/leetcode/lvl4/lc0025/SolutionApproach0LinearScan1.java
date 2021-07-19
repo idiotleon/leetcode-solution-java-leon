@@ -1,19 +1,21 @@
-/**
- * https://leetcode.com/problems/reverse-nodes-in-k-group/
- * 
- * Time Complexity:     O(L)
- *  L, length of the linked list
- * 
- * Space Complexity:    O(1)
- * 
- * References:
- *  https://leetcode.com/problems/reverse-nodes-in-k-group/discuss/11638/Java-O(n)-elegant-code-solution
- *  https://leetcode.com/problems/reverse-nodes-in-k-group/discuss/11423/Short-but-recursive-Java-code-with-comments/225224
- */
 package com.an7one.leetcode.lvl4.lc0025;
 
+import com.an7one.util.Constant;
 import com.an7one.util.data_structure.linkedlist.ListNode;
 
+/**
+ * https://leetcode.com/problems/reverse-nodes-in-k-group/
+ * <p>
+ * Time Complexity:     O(L)
+ * L, length of the linked list
+ * <p>
+ * Space Complexity:    O(1)
+ * <p>
+ * References:
+ * https://leetcode.com/problems/reverse-nodes-in-k-group/discuss/11638/Java-O(n)-elegant-code-solution
+ * https://leetcode.com/problems/reverse-nodes-in-k-group/discuss/11423/Short-but-recursive-Java-code-with-comments/225224
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0LinearScan1 {
     public ListNode reverseKGroup(ListNode head, int k) {
         // sanity check

@@ -1,18 +1,21 @@
-/**
- * https://leetcode.com/problems/valid-triangle-number/
- * 
- * Time Complexity:     O(N * lg(N)) + O(N ^ 2) ~ O(N ^ 2)
- * Space Complexity:    O(1)
- * 
- * References:  
- *  https://leetcode.com/problems/valid-triangle-number/discuss/104174/Java-O(n2)-Time-O(1)-Space
- *  https://leetcode.com/problems/valid-triangle-number/discuss/128135/A-similar-O(n2)-solution-to-3-Sum
- *  https://leetcode.com/problems/valid-triangle-number/discuss/321367/java-binary-search(log(n)-*-n2
- */
 package com.an7one.leetcode.lvl3.lc0611;
+
+import com.an7one.util.Constant;
 
 import java.util.Arrays;
 
+/**
+ * https://leetcode.com/problems/valid-triangle-number/
+ * <p>
+ * Time Complexity:     O(N * lg(N)) + O(N ^ 2) ~ O(N ^ 2)
+ * Space Complexity:    O(1)
+ * <p>
+ * References:
+ * https://leetcode.com/problems/valid-triangle-number/discuss/104174/Java-O(n2)-Time-O(1)-Space
+ * https://leetcode.com/problems/valid-triangle-number/discuss/128135/A-similar-O(n2)-solution-to-3-Sum
+ * https://leetcode.com/problems/valid-triangle-number/discuss/321367/java-binary-search(log(n)-*-n2
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0ThreePointers {
     public int triangleNumber(int[] nums) {
         // sanity check

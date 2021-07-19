@@ -1,20 +1,23 @@
-/**
- * https://leetcode.com/problems/4sum/
- * 
- * how about k sum?
- * 
- * Time Complexity:     O()
- * Space Complexity:    O()
- * 
- * References:
- *  https://leetcode.com/problems/4sum/discuss/8609/My-solution-generalized-for-kSums-in-JAVA
- */
 package com.an7one.leetcode.lvl4.lc0018.followup;
+
+import com.an7one.util.Constant;
 
 import java.util.List;
 import java.util.Arrays;
 import java.util.ArrayList;
 
+/**
+ * https://leetcode.com/problems/4sum/
+ * <p>
+ * how about k sum?
+ * <p>
+ * Time Complexity:     O()
+ * Space Complexity:    O()
+ * <p>
+ * References:
+ * https://leetcode.com/problems/4sum/discuss/8609/My-solution-generalized-for-kSums-in-JAVA
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         Arrays.sort(nums);
@@ -23,13 +26,13 @@ public class Solution {
 
     private List<List<Integer>> kSum(int[] nums, int start, int k, int target) {
         int len = nums.length;
-        List<List<Integer>> res = new ArrayList<List<Integer>>();
+        List<List<Integer>> res = new ArrayList<>();
         if (k == 2) { // two pointers from left and right
             int left = start, right = len - 1;
             while (left < right) {
                 int sum = nums[left] + nums[right];
                 if (sum == target) {
-                    List<Integer> path = new ArrayList<Integer>();
+                    List<Integer> path = new ArrayList<>();
                     path.add(nums[left]);
                     path.add(nums[right]);
                     res.add(path);
