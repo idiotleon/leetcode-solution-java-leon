@@ -1,14 +1,6 @@
-/**
- * https://leetcode.com/problems/word-ladder-ii/
- * 
- * Time Complexity:     O()
- * Space Complexity:    O()
- * 
- * References:
- *  https://leetcode.com/problems/word-ladder-ii/discuss/40475/My-concise-JAVA-solution-based-on-BFS-and-DFS/177427
- *  https://leetcode.com/problems/word-ladder-ii/discuss/40475/My-concise-JAVA-solution-based-on-BFS-and-DFS
- */
 package com.an7one.leetcode.lvl4.lc0126;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,6 +9,17 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * https://leetcode.com/problems/word-ladder-ii/
+ * <p>
+ * Time Complexity:     O()
+ * Space Complexity:    O()
+ * <p>
+ * References:
+ * https://leetcode.com/problems/word-ladder-ii/discuss/40475/My-concise-JAVA-solution-based-on-BFS-and-DFS/177427
+ * https://leetcode.com/problems/word-ladder-ii/discuss/40475/My-concise-JAVA-solution-based-on-BFS-and-DFS
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS {
     public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
         List<List<String>> paths = new ArrayList<>();
@@ -73,7 +76,7 @@ public class SolutionApproach0BFS {
     }
 
     private void backtrack(String start, String end, Map<String, List<String>> graph, List<String> path,
-            List<List<String>> paths) {
+                           List<List<String>> paths) {
         if (end.equals(start)) {
             paths.add(new ArrayList<>(path));
             return;

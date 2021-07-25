@@ -1,18 +1,6 @@
-/**
- * https://leetcode.com/problems/word-ladder-ii/
- * 
- * Time Complexity:     O(N * (26 ^ (L / 2)))
- * Space Complexity:    O(N + k * LEN(path))
- *  k, number of paths
- *  LEN(path), length of the path
- * 
- * a double-ended BFS approach
- * 
- * References:
- *  http://zxi.mytechroad.com/blog/searching/leetcode-126-word-ladder-ii/
- *  https://www.youtube.com/watch?v=PblfQrdWXQ4
- */
 package com.an7one.leetcode.lvl4.lc0126;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -21,6 +9,21 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * https://leetcode.com/problems/word-ladder-ii/
+ * <p>
+ * Time Complexity:     O(N * (26 ^ (L / 2)))
+ * Space Complexity:    O(N + k * LEN(path))
+ * k, number of paths
+ * LEN(path), length of the path
+ * <p>
+ * a double-ended BFS approach
+ * <p>
+ * References:
+ * http://zxi.mytechroad.com/blog/searching/leetcode-126-word-ladder-ii/
+ * https://www.youtube.com/watch?v=PblfQrdWXQ4
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS1 {
     public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
         List<List<String>> paths = new ArrayList<>();
@@ -51,7 +54,7 @@ public class SolutionApproach0BFS1 {
     }
 
     private boolean canBeBuilt(Set<String> beginSet, Set<String> endSet, Set<String> dict,
-            Map<String, List<String>> map, boolean flip) {
+                               Map<String, List<String>> map, boolean flip) {
         if (beginSet.isEmpty())
             return false;
 
@@ -109,7 +112,7 @@ public class SolutionApproach0BFS1 {
     }
 
     private void backtrack(String start, String end, Map<String, List<String>> map, List<String> path,
-            List<List<String>> paths) {
+                           List<List<String>> paths) {
         if (start.equals(end)) {
             paths.add(new ArrayList<>(path));
             return;
