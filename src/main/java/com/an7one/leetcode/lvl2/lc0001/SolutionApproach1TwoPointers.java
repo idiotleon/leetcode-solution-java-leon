@@ -1,14 +1,20 @@
-/**
- * @author Leon
- * https://leetcode.com/problems/two-sum/
- * 
- * Time Complexity:     O(N * lg(N))
- * Space Complexity:    O(N)
- */
 package com.an7one.leetcode.lvl2.lc0001;
+
+import com.an7one.util.Constant;
 
 import java.util.Arrays;
 
+/**
+ * @author Leon
+ * https://leetcode.com/problems/two-sum/
+ * <p>
+ * Time Complexity:     O(N * lg(N))
+ * Space Complexity:    O(N)
+ * <p>
+ * Reference:
+ * https://leetcode.com/problems/two-sum/discuss/715951/Rust%3A-HashMap-solutio
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach1TwoPointers {
     public int[] twoSum(int[] nums, int target) {
         // sanity check
@@ -21,7 +27,7 @@ public class SolutionApproach1TwoPointers {
         for (int i = 0; i < N; ++i)
             nodes[i] = new Node(nums[i], i);
 
-        Arrays.sort(nodes, (a, b) -> Integer.compare(a.value, b.value));
+        Arrays.sort(nodes);
 
         int lo = 0, hi = N - 1;
         while (lo < hi) {
@@ -32,13 +38,13 @@ public class SolutionApproach1TwoPointers {
             else if (sum < target)
                 ++lo;
             else
-                return new int[] { nodes[lo].index, nodes[hi].index };
+                return new int[]{nodes[lo].index, nodes[hi].index};
         }
 
-        return new int[] { -1, -1 };
+        return new int[]{-1, -1};
     }
 
-    private class Node {
+    private static class Node {
         protected int value;
         protected int index;
 

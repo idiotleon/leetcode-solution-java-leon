@@ -1,16 +1,19 @@
-/**
- * https://leetcode.com/problems/3sum-closest/
- * 
- * Time Complexity:     O(N ^ 2) + O(N * lg(N)) ~ O(N ^ 2)
- * Space Complexity:    O(1)
- */
 package com.an7one.leetcode.lvl3.lc0016;
+
+import com.an7one.util.Constant;
 
 import java.util.Arrays;
 
+/**
+ * https://leetcode.com/problems/3sum-closest/
+ * <p>
+ * Time Complexity:     O(N ^ 2) + O(N * lg(N)) ~ O(N ^ 2)
+ * Space Complexity:    O(1)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0ThreePointers {
     public int threeSumClosest(int[] nums, int target) {
-        // sanity checkhree
+        // sanity check
         if (nums == null || nums.length < 3)
             return 0;
 

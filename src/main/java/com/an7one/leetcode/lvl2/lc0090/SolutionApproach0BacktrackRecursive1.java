@@ -1,20 +1,23 @@
-/**
- * @author: Leon
- * https://leetcode.com/problems/subsets-ii/
- * 
- * Time Complexity:     O(N * (2 ^ N))
- * Space Complexity:    O(N * (2 ^ N))
- * 
- * References:
- *  https://leetcode.com/problems/subsets/solution/
- */
 package com.an7one.leetcode.lvl2.lc0090;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SolutionApproach0Backtrack1 {
+/**
+ * @author: Leon
+ * https://leetcode.com/problems/subsets-ii/
+ * <p>
+ * Time Complexity:     O(N * (2 ^ N))
+ * Space Complexity:    O(N * (2 ^ N))
+ * <p>
+ * References:
+ * https://leetcode.com/problems/subsets/solution/
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
+public class SolutionApproach0BacktrackRecursive1 {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
         // sanity check
@@ -26,13 +29,13 @@ public class SolutionApproach0Backtrack1 {
         boolean[] used = new boolean[N];
 
         for (int size = 0; size <= N; ++size)
-            backtrack(0, new ArrayList<Integer>(), used, nums, size, ans);
+            backtrack(0, new ArrayList<>(), used, nums, size, ans);
 
         return ans;
     }
 
     private void backtrack(int startIdx, List<Integer> path, boolean[] used, int[] nums, final int SIZE,
-            List<List<Integer>> paths) {
+                           List<List<Integer>> paths) {
         final int N = nums.length;
         if (path.size() == SIZE) {
             paths.add(new ArrayList<Integer>(path));

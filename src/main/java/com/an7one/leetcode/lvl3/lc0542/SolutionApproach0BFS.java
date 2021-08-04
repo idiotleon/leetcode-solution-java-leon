@@ -1,16 +1,19 @@
-/**
- * https://leetcode.com/problems/01-matrix/
- * 
- * Time Complexity:     O(NR * NC)
- * Space Complexity:    O(NR * NC)
- */
 package com.an7one.leetcode.lvl3.lc0542;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * https://leetcode.com/problems/01-matrix/
+ * <p>
+ * Time Complexity:     O(NR * NC)
+ * Space Complexity:    O(NR * NC)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS {
-    private static final int[] DIRS = { 0, -1, 0, 1, 0 };
+    private static final int[] DIRS = {0, -1, 0, 1, 0};
 
     public int[][] updateMatrix(int[][] matrix) {
         // sanity check
@@ -22,7 +25,7 @@ public class SolutionApproach0BFS {
         for (int row = 0; row < NR; ++row) {
             for (int col = 0; col < NC; ++col) {
                 if (matrix[row][col] == 0) {
-                    queue.offer(new int[] { row, col });
+                    queue.offer(new int[]{row, col});
                 } else {
                     matrix[row][col] = Integer.MAX_VALUE;
                 }
@@ -43,7 +46,7 @@ public class SolutionApproach0BFS {
                     if (r < 0 || r >= NR || c < 0 || c >= NC || matrix[r][c] != Integer.MAX_VALUE)
                         continue;
 
-                    queue.offer(new int[] { r, c });
+                    queue.offer(new int[]{r, c});
                     matrix[r][c] = matrix[row][col] + 1;
                 }
             }

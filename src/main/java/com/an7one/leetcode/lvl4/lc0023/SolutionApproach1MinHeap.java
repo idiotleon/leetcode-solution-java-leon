@@ -1,26 +1,28 @@
-/**
- * https://leetcode.com/problems/merge-k-sorted-lists/
- * 
- * Time Complexity:     O(K * L * lg(K))
- *  K, number of lists to be merged
- *  L, the average length of lists
- * 
- * Space Complexity:    O(K)
- *  K, number of lists to be merged
- */
 package com.an7one.leetcode.lvl4.lc0023;
 
 import java.util.PriorityQueue;
 
+import com.an7one.util.Constant;
 import com.an7one.util.data_structure.linkedlist.ListNode;
 
+/**
+ * https://leetcode.com/problems/merge-k-sorted-lists/
+ * <p>
+ * Time Complexity:     O(K * L * lg(K))
+ * K, number of lists to be merged
+ * L, the average length of lists
+ * <p>
+ * Space Complexity:    O(K)
+ * K, number of lists to be merged
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach1MinHeap {
     public ListNode mergeKLists(ListNode[] lists) {
         // sanity check
         if (lists == null || lists.length == 0)
             return null;
 
-        PriorityQueue<ListNode> minHeap = new PriorityQueue<ListNode>((a, b) -> Integer.compare(a.val, b.val));
+        PriorityQueue<ListNode> minHeap = new PriorityQueue<>();
 
         for (ListNode head : lists) {
             if (head != null)
