@@ -1,16 +1,18 @@
-/**
- * https://leetcode.com/problems/merge-k-sorted-lists/
- * 
- * Time Complexity:     O(K * L * lg(K))
- *  K, the number of lists to be merged
- *  L, the average length of lists
- * 
- * Space Complexity:    O(1)
- */
 package com.an7one.leetcode.lvl4.lc0023;
 
+import com.an7one.util.Constant;
 import com.an7one.util.data_structure.linkedlist.ListNode;
 
+/**
+ * https://leetcode.com/problems/merge-k-sorted-lists/
+ * <p>
+ * Time Complexity:     O(K * L * lg(K))
+ * K, the number of lists to be merged
+ * L, the average length of lists
+ * <p>
+ * Space Complexity:    O(1)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DivideAndConquer {
     public ListNode mergeKLists(ListNode[] lists) {
         // sanity check
