@@ -1,11 +1,14 @@
+package com.an7one.leetcode.lvl4.lc0076;
+
+import com.an7one.util.Constant;
+
 /**
  * https://leetcode.com/problems/minimum-window-substring/
- * 
+ * <p>
  * Time Complexity:     O(max(`LEN_S`, `LEN_T`) ~ O(`LEN_S`)
  * Space Complexity:    O(128) ~ O(1)
  */
-package com.an7one.leetcode.lvl4.lc0076;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0SlidingWindow {
     public String minWindow(String s, String t) {
         String shortest = "";
@@ -13,19 +16,19 @@ public class SolutionApproach0SlidingWindow {
         if (s == null || s.isEmpty() || t == null || t.isEmpty())
             return shortest;
 
-        final int LEN_S = s.length(), LEN_T = t.length();
-        final char[] CHS_S = s.toCharArray(), CHS_T = t.toCharArray();
+        final int lenS = s.length(), lenT = t.length();
+        final char[] chsS = s.toCharArray(), chsT = t.toCharArray();
 
-        int[] freq = new int[128];
-        for (char ch : CHS_T) {
-            ++freq[ch];
+        final int[] freqs = new int[128];
+        for (char ch : chsT) {
+            ++freqs[ch];
         }
 
         int lo = 0, hi = 0;
-        int count = LEN_T;
+        int count = lenT;
 
-        while (hi < LEN_S) {
-            if (freq[CHS_S[hi]]-- > 0) {
+        while (hi < lenS) {
+            if (freqs[chsS[hi]]-- > 0) {
                 --count;
             }
             // not logically necessary.
@@ -34,13 +37,11 @@ public class SolutionApproach0SlidingWindow {
             // if(count > 0) continue;
 
             while (count == 0) {
-                if (shortest.isEmpty() || (hi - lo + 1) < shortest.length()) {
+                if (shortest.isEmpty() || (hi - lo + 1) < shortest.length())
                     shortest = s.substring(lo, hi + 1);
-                }
 
-                if (++freq[CHS_S[lo]] > 0) {
+                if (++freqs[chsS[lo]] > 0)
                     ++count;
-                }
 
                 ++lo;
             }
