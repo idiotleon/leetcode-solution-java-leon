@@ -1,11 +1,14 @@
+package com.an7one.leetcode.lvl3.lc0033;
+
+import com.an7one.util.Constant;
+
 /**
  * https://leetcode.com/problems/search-in-rotated-sorted-array/
- * 
+ * <p>
  * Time Complexity:     O(lg(N))
  * Space Complexity:    O(1)
  */
-package com.an7one.leetcode.lvl3.lc0033;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BinarySearch {
     public int search(int[] nums, int target) {
         // sanity check
