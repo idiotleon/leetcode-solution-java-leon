@@ -1,8 +1,11 @@
+package com.an7one.leetcode.lvl1.lc0027;
+
+import com.an7one.util.Constant;
+
 /**
  * https://leetcode.com/problems/remove-element/
  */
-package com.an7one.leetcode.lvl1.lc0027;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class Solution{
     public int removeElement(int[] nums, int val) {
         if(nums == null || nums.length == 0) return 0;
