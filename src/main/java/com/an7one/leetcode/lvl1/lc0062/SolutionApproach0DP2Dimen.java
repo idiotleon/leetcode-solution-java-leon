@@ -1,11 +1,14 @@
+package com.an7one.leetcode.lvl1.lc0062;
+
+import com.an7one.util.Constant;
+
 /**
  * https://leetcode.com/problems/unique-paths/
- * 
+ *
  * Time Complexity:     O(m * n)
  * Space Complexity:    O(m * n)
  */
-package com.an7one.leetcode.lvl1.lc0062;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP2Dimen {
     public int uniquePaths(int m, int n) {
         // sanity check
