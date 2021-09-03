@@ -1,23 +1,26 @@
-/**
- * https://leetcode.com/problems/unique-binary-search-trees-ii/
- * 
- * Time Complexity:     O()
- * Space Complexity:    O()
- * 
- * https://leetcode.com/problems/unique-binary-search-trees-ii/discuss/31493/Java-Solution-with-DP
- */
 package com.an7one.leetcode.lvl3.lc0095;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.an7one.util.Constant;
 import com.an7one.util.data_structure.tree.TreeNode;
 
-public class SolutionApproach0DP {
+/**
+ * https://leetcode.com/problems/unique-binary-search-trees-ii/
+ * <p>
+ * Time Complexity:     O()
+ * Space Complexity:    O()
+ * <p>
+ * https://leetcode.com/problems/unique-binary-search-trees-ii/discuss/31493/Java-Solution-with-DP
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
+public class SolutionApproach0DP2Dimen {
     public List<TreeNode> generateTrees(int n) {
-        List<List<TreeNode>> ans = new ArrayList<List<TreeNode>>(n + 1);
-        for (int i = 0; i < n + 1; i++)
-            ans.add(new ArrayList<TreeNode>());
+        List<List<TreeNode>> ans = new ArrayList<>(n + 1);
+        for (int i = 0; i < n + 1; i++) {
+            ans.add(new ArrayList<>());
+        }
         // sanity check
         if (n == 0)
             return ans.get(0);
