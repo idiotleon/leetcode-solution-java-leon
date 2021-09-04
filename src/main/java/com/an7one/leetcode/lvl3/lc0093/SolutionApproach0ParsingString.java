@@ -1,17 +1,20 @@
-/**
- * https://leetcode.com/problems/restore-ip-addresses/
- * 
- * Time Complexity:     O(L ^ 4)
- * Space Complexity:    O(L)
- */
 package com.an7one.leetcode.lvl3.lc0093;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * https://leetcode.com/problems/restore-ip-addresses/
+ * <p>
+ * Time Complexity:     O(L ^ 4)
+ * Space Complexity:    O(L)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0ParsingString {
     public List<String> restoreIpAddresses(String str) {
-        List<String> ans = new ArrayList<String>();
+        List<String> ans = new ArrayList<>();
         // sanity check
         if (str == null || str.isEmpty())
             return ans;
@@ -37,9 +40,6 @@ public class SolutionApproach0ParsingString {
 
     private boolean isValid(String str) {
         final int L = str.length();
-        if (L > 3 || L == 0 || (str.charAt(0) == '0' && L > 1) || Integer.parseInt(str) > 255)
-            return false;
-
-        return true;
+        return L <= 3 && L != 0 && (str.charAt(0) != '0' || L <= 1) && Integer.parseInt(str) <= 255;
     }
 }
