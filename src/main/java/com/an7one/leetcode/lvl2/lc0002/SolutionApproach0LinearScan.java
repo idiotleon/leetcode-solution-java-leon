@@ -1,13 +1,15 @@
+package com.an7one.leetcode.lvl2.lc0002;
+
+import com.an7one.util.Constant;
+import com.an7one.util.data_structure.linkedlist.ListNode;
+
 /**
  * https://leetcode.com/problems/add-two-numbers/
- * 
+ * <p>
  * Time Complexity:     O(max(LEN(`l1`), LEN(`l2`)))
  * Space Complexity:    O(1) / O(max(LEN(`l1`), LEN(`l2`)))
  */
-package com.an7one.leetcode.lvl2.lc0002;
-
-import com.an7one.util.data_structure.linkedlist.ListNode;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0LinearScan {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         // sanity check
