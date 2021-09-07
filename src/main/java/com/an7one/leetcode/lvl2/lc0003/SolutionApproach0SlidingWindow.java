@@ -1,11 +1,14 @@
+package com.an7one.leetcode.lvl2.lc0003;
+
+import com.an7one.util.Constant;
+
 /**
  * https://leetcode.com/problems/longest-substring-without-repeating-characters/
- * 
+ * <p>
  * Time Complexity:     O(L)
  * Space Complexity:    O(1)
  */
-package com.an7one.leetcode.lvl2.lc0003;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0SlidingWindow {
     public int lengthOfLongestSubstring(String s) {
         int longest = 0;
@@ -14,20 +17,20 @@ public class SolutionApproach0SlidingWindow {
             return longest;
 
         final int L = s.length();
-        final char[] CHS = s.toCharArray();
-        final int[] FREQS = new int[128];
+        final char[] chs = s.toCharArray();
+        final int[] freqs = new int[128];
 
         int lo = 0, hi = 0;
         while (hi < L) {
-            ++FREQS[CHS[hi]];
-            while (FREQS[CHS[hi]] > 1) {
-                --FREQS[CHS[lo]];
+            ++freqs[chs[hi]];
+            while (freqs[chs[hi]] > 1) {
+                --freqs[chs[lo]];
                 ++lo;
             }
 
             // please pay attention to the relative position of the two lines right below
-            final int LEN = hi - lo + 1;
-            longest = Math.max(longest, LEN);
+            final int len = hi - lo + 1;
+            longest = Math.max(longest, len);
 
             ++hi;
         }

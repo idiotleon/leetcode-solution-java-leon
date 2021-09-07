@@ -1,16 +1,19 @@
-/**
- * https://leetcode.com/problems/longest-substring-without-repeating-characters/
- * 
- * how about `k` repeated characters being allowed?
- * 
- * Time Complexity:     O(L)
- * Space Complexity:    O(1)
- */
 package com.an7one.leetcode.lvl2.lc0003.followup;
+
+import com.an7one.util.Constant;
 
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * https://leetcode.com/problems/longest-substring-without-repeating-characters/
+ * <p>
+ * how about `k` repeated characters being allowed?
+ * <p>
+ * Time Complexity:     O(L)
+ * Space Complexity:    O(1)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0SlidingWindow1 {
     public int lengthOfLongestSubstring(String s, int k) {
         int longest = 0;
@@ -19,22 +22,21 @@ public class SolutionApproach0SlidingWindow1 {
             return longest;
 
         final int L = s.length();
-        final char[] CHS = s.toCharArray();
-        final Map<Character, Integer> FREQS = new HashMap<>();
+        final char[] chs = s.toCharArray();
+        final Map<Character, Integer> freqs = new HashMap<>();
         int lo = 0, hi = 0;
         int threshold = 0;
 
         while (hi < L) {
-            FREQS.put(CHS[hi], FREQS.getOrDefault(CHS[hi], 0) + 1);
-            if (FREQS.get(CHS[hi]) > 1) {
+            freqs.put(chs[hi], freqs.getOrDefault(chs[hi], 0) + 1);
+            if (freqs.get(chs[hi]) > 1)
                 ++threshold;
-            }
 
             while (threshold > 0) {
-                if (FREQS.get(CHS[lo]) > k)
+                if (freqs.get(chs[lo]) > k)
                     --threshold;
 
-                FREQS.put(CHS[lo], FREQS.get(CHS[lo]) - 1);
+                freqs.put(chs[lo], freqs.get(chs[lo]) - 1);
                 ++lo;
             }
 
