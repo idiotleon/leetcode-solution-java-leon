@@ -1,14 +1,17 @@
-/**
- * https://leetcode.com/problems/divide-two-integers/
- * 
- * Time Complexity:     O(32) ~ O(1)
- * Space Complexity:    O(1)
- * 
- * Refereces:
- *  https://leetcode.com/problems/divide-two-integers/discuss/142849/C%2B%2BJavaPython-Should-Not-Use-%22long%22-Int
- */
 package com.an7one.leetcode.lvl3.lc0029;
 
+import com.an7one.util.Constant;
+
+/**
+ * https://leetcode.com/problems/divide-two-integers/
+ * <p>
+ * Time Complexity:     O(32) ~ O(1)
+ * Space Complexity:    O(1)
+ * <p>
+ * Refereces:
+ * https://leetcode.com/problems/divide-two-integers/discuss/142849/C%2B%2BJavaPython-Should-Not-Use-%22long%22-Int
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach1BitManipulation {
     public int divide(int dividend, int divisor) {
         if (dividend == 1 << 31 && divisor == -1)

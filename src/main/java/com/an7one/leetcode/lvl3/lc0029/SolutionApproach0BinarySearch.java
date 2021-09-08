@@ -1,15 +1,18 @@
-/**
- * https://leetcode.com/problems/divide-two-integers/
- * 
- * Time Complexity:     O((lg(dividend)) ^ 2)
- * Space Complexity:    O(1)
- * 
- * References:
- *  https://leetcode.com/problems/divide-two-integers/discuss/142849/C%2B%2BJavaPython-Should-Not-Use-%22long%22-Int
- *  https://www.youtube.com/watch?v=htX69j1jf5U
- */
 package com.an7one.leetcode.lvl3.lc0029;
 
+import com.an7one.util.Constant;
+
+/**
+ * https://leetcode.com/problems/divide-two-integers/
+ * <p>
+ * Time Complexity:     O((lg(dividend)) ^ 2)
+ * Space Complexity:    O(1)
+ * <p>
+ * References:
+ * https://leetcode.com/problems/divide-two-integers/discuss/142849/C%2B%2BJavaPython-Should-Not-Use-%22long%22-Int
+ * https://www.youtube.com/watch?v=htX69j1jf5U
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BinarySearch {
     public int divide(int dividend, int divisor) {
         // to prevent stack overflow

@@ -1,11 +1,14 @@
+package com.an7one.leetcode.lvl3.lc0029;
+
+import com.an7one.util.Constant;
+
 /**
  * https://leetcode.com/problems/divide-two-integers/
- * 
+ * <p>
  * Time Complexity:     O()
  * Space Complexity:    O()
  */
-package com.an7one.leetcode.lvl3.lc0029;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach1DFS {
     public int divide(int dividend, int divisor) {
         long result = divideLong(dividend, divisor);
@@ -35,7 +38,7 @@ public class SolutionApproach1DFS {
             divide += divide;
         }
 
-        // to make a recursive call for (devided - sum) and add it to the result
+        // to make a recursive call for (devidend - sum) and add it to the result
         return negative ? -(divide + divideLong((dividend - sum), divisor))
                 : (divide + divideLong((dividend - sum), divisor));
     }
