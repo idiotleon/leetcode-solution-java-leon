@@ -1,23 +1,26 @@
-/**
- * https://leetcode.com/problems/combination-sum/
- * 
- * Time Complexity:     O(2 ^ target)
- *  O(2 ^ N), in the worst case
- * 
- * Space Complexity:    O(target)
- *  
- * 
- * References:
- *  https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)/323613
- *  https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)
- *  https://medium.com/@vasanths294/permutation-combination-subset-time-complexity-eca924e00071
- */
 package com.an7one.leetcode.lvl3.lc0039;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * https://leetcode.com/problems/combination-sum/
+ *
+ * Time Complexity:     O(2 ^ target)
+ *  O(2 ^ N), in the worst case
+ *
+ * Space Complexity:    O(target)
+ *
+ *
+ * References:
+ *  https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)/323613
+ *  https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)
+ *  https://medium.com/@vasanths294/permutation-combination-subset-time-complexity-eca924e00071
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Backtrack {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> ans = new ArrayList<>();
