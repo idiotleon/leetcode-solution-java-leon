@@ -1,20 +1,22 @@
+package com.an7one.leetcode.lvl4.lc0222;
+
+import com.an7one.util.Constant;
+import com.an7one.util.data_structure.tree.TreeNode;
+
 /**
  * https://leetcode.com/problems/count-complete-tree-nodes/
- * 
+ * <p>
  * Time Complexity:     O(lg(N) ^ 2)
  * Space Complexity:    O(lg(N))
- * 
+ * <p>
  * to define the "midNode" of the last level as a node following the path "root->left->right->right->...->last level".
  * If midNode is null, then it means we should count the nodes on the last level in the left subtree.
  * If midNode is not null, then we add half of the last level nodes to our result and then count the nodes on the last level in the right subtree.
- * 
+ * <p>
  * References:
- *  https://leetcode.com/problems/count-complete-tree-nodes/discuss/61950/My-JAVA-solution-with-explanation-which-beats-99
+ * https://leetcode.com/problems/count-complete-tree-nodes/discuss/61950/My-JAVA-solution-with-explanation-which-beats-99
  */
-package com.an7one.leetcode.lvl4.lc0222;
-
-import com.an7one.util.data_structure.tree.TreeNode;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BinarySearch {
     public int countNodes(TreeNode root) {
         // sanity check

@@ -1,18 +1,20 @@
-/**
- * https://leetcode.com/problems/count-complete-tree-nodes/
- * 
- * Time Complexity:     O(lg(N) ^ 2)
- * Space Complexity:    O(lg(N))
- * 
- * the subtree of a complete binary tree also is a complete binary tree
- * 
- * References:
- *  https://leetcode.com/problems/count-complete-tree-nodes/discuss/61953/Easy-short-c%2B%2B-recursive-solution
- */
 package com.an7one.leetcode.lvl4.lc0222;
 
+import com.an7one.util.Constant;
 import com.an7one.util.data_structure.tree.TreeNode;
 
+/**
+ * https://leetcode.com/problems/count-complete-tree-nodes/
+ * <p>
+ * Time Complexity:     O(lg(N) ^ 2)
+ * Space Complexity:    O(lg(N))
+ * <p>
+ * the subtree of a complete binary tree also is a complete binary tree
+ * <p>
+ * References:
+ * https://leetcode.com/problems/count-complete-tree-nodes/discuss/61953/Easy-short-c%2B%2B-recursive-solution
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0PreorderRecursive1 {
     public int countNodes(TreeNode root) {
         // sanity check
