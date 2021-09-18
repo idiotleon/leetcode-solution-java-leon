@@ -1,18 +1,21 @@
-/**
- * https://leetcode.com/problems/largest-rectangle-in-histogram/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(N)
- * 
- * References:
- *  https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28900/Short-and-Clean-O(n)-stack-based-JAVA-solution
- *  https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28900/Short-and-Clean-O(n)-stack-based-JAVA-solution/27725
- */
 package com.an7one.leetcode.lvl4.lc0084;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * https://leetcode.com/problems/largest-rectangle-in-histogram/
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
+ * <p>
+ * References:
+ * https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28900/Short-and-Clean-O(n)-stack-based-JAVA-solution
+ * https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28900/Short-and-Clean-O(n)-stack-based-JAVA-solution/27725
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0MonoStack1 {
     public int largestRectangleArea(int[] heights) {
         // sanity check

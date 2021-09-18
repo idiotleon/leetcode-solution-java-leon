@@ -1,14 +1,17 @@
-/**
- * https://leetcode.com/problems/largest-rectangle-in-histogram/
- * 
- * Time complexity:     O(N)
- * Space complexity:    O(N)
- */
 package com.an7one.leetcode.lvl4.lc0084;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * https://leetcode.com/problems/largest-rectangle-in-histogram/
+ * <p>
+ * Time complexity:     O(N)
+ * Space complexity:    O(N)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0MonoStack2 {
     public int largestRectangleArea(int[] heights) {
         // sanity check

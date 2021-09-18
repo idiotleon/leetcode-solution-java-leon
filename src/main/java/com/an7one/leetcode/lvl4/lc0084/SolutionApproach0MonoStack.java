@@ -1,24 +1,27 @@
-/**
- * https://leetcode.com/problems/largest-rectangle-in-histogram/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(N)
- * 
- * to maintain a "non-decreasing" stack
- *  1. the content(s) of the `stack` is(are) index(es)
- *  2. the elements/heights, accessed by indexes, are non-decreasing
- * 
- * please pay attention to `stack.pop()`, especially operations on the `stack` after that: the oder matters
- * 
- * References:
- *  https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/29018/AC-clean-Java-solution-using-stack
- *  https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28900/Short-and-Clean-O(n)-stack-based-JAVA-solution/27725
- */
 package com.an7one.leetcode.lvl4.lc0084;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * https://leetcode.com/problems/largest-rectangle-in-histogram/
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
+ * <p>
+ * to maintain a "non-decreasing" stack
+ * 1. the content(s) of the `stack` is(are) index(es)
+ * 2. the elements/heights, accessed by indexes, are non-decreasing
+ * <p>
+ * please pay attention to `stack.pop()`, especially operations on the `stack` after that: the oder matters
+ * <p>
+ * References:
+ * https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/29018/AC-clean-Java-solution-using-stack
+ * https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28900/Short-and-Clean-O(n)-stack-based-JAVA-solution/27725
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0MonoStack {
     public int largestRectangleArea(int[] heights) {
         // sanity check
