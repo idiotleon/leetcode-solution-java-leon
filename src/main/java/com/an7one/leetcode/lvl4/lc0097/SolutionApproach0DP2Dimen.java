@@ -1,14 +1,17 @@
+package com.an7one.leetcode.lvl4.lc0097;
+
+import com.an7one.util.Constant;
+
 /**
  * https://leetcode.com/problems/interleaving-string/
- * 
+ *
  * Time Complexity:     O(L1 * L2)
  * Space Complexity:    O(L1 * L2)
- * 
+ *
  * References:
  *  https://leetcode.com/problems/interleaving-string/discuss/31879/My-DP-solution-in-C++/30687
  */
-package com.an7one.leetcode.lvl4.lc0097;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP2Dimen {
     public boolean isInterleave(String s1, String s2, String s3) {
         final int L1 = s1.length(), L2 = s2.length(), L3 = s3.length();

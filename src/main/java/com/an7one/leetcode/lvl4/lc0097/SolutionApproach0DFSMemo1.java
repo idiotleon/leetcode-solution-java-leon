@@ -1,14 +1,17 @@
+package com.an7one.leetcode.lvl4.lc0097;
+
+import com.an7one.util.Constant;
+
 /**
  * https://leetcode.com/problems/interleaving-string/
- * 
+ *
  * Time Complexity:     O()
  * Space Complexity:    O()
- * 
+ *
  * References:
  *  https://leetcode.com/problems/interleaving-string/discuss/31888/1ms-tiny-DFS-beats-94.57
  */
-package com.an7one.leetcode.lvl4.lc0097;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DFSMemo1 {
     public boolean isInterleave(String s1, String s2, String s3) {
         char[] chs1 = s1.toCharArray(), chs2 = s2.toCharArray(), chs3 = s3.toCharArray();
