@@ -1,17 +1,20 @@
-/**
- * https://leetcode.com/problems/distinct-subsequences/
- * 
- * Time Complexity:     O(LEN_S * LEN_T)
- * Space Complexity:    O(LEN_S * LEN_T)
- * 
- * References:
- *  https://leetcode.com/problems/distinct-subsequences/discuss/37413/Concise-JAVA-solution-based-on-DP
- *  https://leetcode.wang/leetcode-115-Distinct-Subsequences.html
- */
 package com.an7one.leetcode.lvl4.lc0115;
+
+import com.an7one.util.Constant;
 
 import java.util.Arrays;
 
+/**
+ * https://leetcode.com/problems/distinct-subsequences/
+ * <p>
+ * Time Complexity:     O(LEN_S * LEN_T)
+ * Space Complexity:    O(LEN_S * LEN_T)
+ * <p>
+ * References:
+ * https://leetcode.com/problems/distinct-subsequences/discuss/37413/Concise-JAVA-solution-based-on-DP
+ * https://leetcode.wang/leetcode-115-Distinct-Subsequences.html
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach1DFSMemo {
     public int numDistinct(String s, String t) {
         final int LEN_S = s.length(), LEN_T = t.length();
@@ -33,9 +36,8 @@ public class SolutionApproach1DFSMemo {
             return memo[idxS][idxT];
 
         int count = 0;
-        if (chsS[idxS] == chsT[idxT]) {
+        if (chsS[idxS] == chsT[idxT])
             count += dfs(chsS, idxS + 1, chsT, idxT + 1, memo);
-        }
 
         // without taking idxS-th char
         count += dfs(chsS, idxS + 1, chsT, idxT, memo);
