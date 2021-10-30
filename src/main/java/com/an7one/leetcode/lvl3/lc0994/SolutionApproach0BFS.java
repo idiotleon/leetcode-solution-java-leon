@@ -1,14 +1,17 @@
-/**
- * https://leetcode.com/problems/rotting-oranges/
- * 
- * Time Complexity:     O(NR * NC)
- * Space Complexity:    O(max(NR, NC))
- */
 package com.an7one.leetcode.lvl3.lc0994;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * https://leetcode.com/problems/rotting-oranges/
+ *
+ * Time Complexity:     O(NR * NC)
+ * Space Complexity:    O(max(NR, NC))
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS {
     private static final int[] DIRS = { 0, -1, 0, 1, 0 };
 
@@ -25,7 +28,7 @@ public class SolutionApproach0BFS {
         final int NR = grid.length, NC = grid[0].length;
         int freshCount = 0;
 
-        Deque<int[]> queue = new ArrayDeque<int[]>();
+        Deque<int[]> queue = new ArrayDeque<>();
         for (int row = 0; row < NR; ++row) {
             for (int col = 0; col < NC; ++col) {
                 if (grid[row][col] == ROTTEN) {
