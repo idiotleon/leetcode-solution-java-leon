@@ -1,11 +1,14 @@
+package com.an7one.leetcode.lvl4.lc0043;
+
+import com.an7one.util.Constant;
+
 /**
  * https://leetcode.com/problems/multiply-strings/
- * 
+ * <p>
  * Time Complexity:     O(L1 + L2)
  * Space Complexity:    O(L1 + L2)
  */
-package com.an7one.leetcode.lvl4.lc0043;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0ParsingString {
     public String multiply(String num1, String num2) {
         final int L1 = num1.length(), L2 = num2.length();
