@@ -1,18 +1,19 @@
 /**
  * https://leetcode.com/problems/reorder-list/
- * 
+ * <p>
  * Time Complexity:     O(L)
- * Space Compleixty:    O(L / 2) ~ O(L)
+ * Space Complexity:    O(L / 2) ~ O(L)
  */
 package com.an7one.leetcode.lvl4.lc0143;
 
+import com.an7one.util.Constant;
 import com.an7one.util.data_structure.linkedlist.ListNode;
 
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0TwoPointers {
     public void reorderList(ListNode head) {
         // sanity check
-        if (head == null || head.next == null)
-            return;
+        if (head == null || head.next == null) return;
 
         // step 1: to cut the list into two halves
         ListNode mid = getMidAndBreak(head);
