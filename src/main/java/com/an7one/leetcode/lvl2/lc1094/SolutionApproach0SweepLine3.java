@@ -9,9 +9,12 @@
  */
 package com.an7one.leetcode.lvl2.lc1094;
 
+import com.an7one.util.Constant;
+
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0SweepLine3 {
     public boolean carPooling(int[][] trips, int capacity) {
         Arrays.sort(trips, (a, b) -> Integer.compare(a[1], b[1]));

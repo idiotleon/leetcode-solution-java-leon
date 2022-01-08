@@ -9,9 +9,12 @@
  */
 package com.an7one.leetcode.lvl2.lc1094;
 
+import com.an7one.util.Constant;
+
 import java.util.Map;
 import java.util.TreeMap;
 
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0SweepLine1 {
     public boolean carPooling(int[][] trips, int capacity) {
         Map<Integer, Integer> map = new TreeMap<Integer, Integer>();

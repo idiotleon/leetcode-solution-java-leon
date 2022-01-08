@@ -9,8 +9,11 @@
  */
 package com.an7one.leetcode.lvl2.lc1094;
 
+import com.an7one.util.Constant;
+
 import java.util.PriorityQueue;
 
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0SweepLine2 {
     public boolean carPooling(int[][] trips, int capacity) {
         PriorityQueue<int[]> minHeap = new PriorityQueue<int[]>(

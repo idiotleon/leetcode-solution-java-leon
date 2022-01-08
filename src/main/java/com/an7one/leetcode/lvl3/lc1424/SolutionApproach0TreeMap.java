@@ -1,15 +1,18 @@
 /**
  * https://leetcode.com/problems/diagonal-traverse-ii/
- * 
+ * <p>
  * Time Complexity:     O()
  * Space Complexity;    O()
  */
 package com.an7one.leetcode.lvl3.lc1424;
 
+import com.an7one.util.Constant;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.TreeMap;
 
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0TreeMap {
     public int[] findDiagonalOrder(List<List<Integer>> nums) {
         TreeMap<Integer, Integer> idxMap = new TreeMap<Integer, Integer>();
@@ -29,8 +32,7 @@ public class SolutionApproach0TreeMap {
 
                 idxMap.put(key, col + 1);
 
-                if (col == nums.get(row).size())
-                    idxMap.remove(key);
+                if (col == nums.get(row).size()) idxMap.remove(key);
             }
 
             index--;

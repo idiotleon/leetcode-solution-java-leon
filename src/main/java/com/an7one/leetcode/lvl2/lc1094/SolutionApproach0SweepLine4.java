@@ -1,14 +1,17 @@
 /**
  * https://leetcode.com/problems/car-pooling/
- * 
+ * <p>
  * Time Complexity:     O(N * lg(N))
  * Space Complexity:    O(N)
  */
 package com.an7one.leetcode.lvl2.lc1094;
 
+import com.an7one.util.Constant;
+
 import java.util.Map;
 import java.util.TreeMap;
 
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0SweepLine4 {
     public boolean carPooling(int[][] trips, int capacity) {
         Map<Integer, Integer> timeline = new TreeMap<Integer, Integer>();

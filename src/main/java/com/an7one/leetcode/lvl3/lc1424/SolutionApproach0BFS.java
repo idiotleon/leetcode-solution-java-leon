@@ -1,10 +1,12 @@
 /**
  * https://leetcode.com/problems/diagonal-traverse-ii/
- * 
+ * <p>
  * Time Complexity:     O(N)
  * Space Complexity:    O(N)
  */
 package com.an7one.leetcode.lvl3.lc1424;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -12,18 +14,18 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS {
     public int[] findDiagonalOrder(List<List<Integer>> nums) {
         // sanity check
-        if (nums == null || nums.isEmpty())
-            return new int[0];
+        if (nums == null || nums.isEmpty()) return new int[0];
 
-        // bondaries
+        // boundaries
         final int NR = nums.size();
         int max = 0, count = 0;
-        for (int i = 0; i < NR; i++) {
-            count += nums.get(i).size();
-            max = Math.max(max, nums.get(i).size());
+        for (List<Integer> num : nums) {
+            count += num.size();
+            max = Math.max(max, num.size());
         }
         // for MOD/key-hashing purpose
         final int NC = max;
@@ -67,8 +69,7 @@ public class SolutionApproach0BFS {
     }
 
     private boolean isValid(int row, int col, List<List<Integer>> nums) {
-        if (row < 0 || row >= nums.size() || col < 0 || col >= nums.get(row).size())
-            return false;
+        if (row < 0 || row >= nums.size() || col < 0 || col >= nums.get(row).size()) return false;
 
         return true;
     }

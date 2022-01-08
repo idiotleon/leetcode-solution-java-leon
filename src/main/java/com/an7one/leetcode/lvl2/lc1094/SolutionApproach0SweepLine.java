@@ -1,14 +1,17 @@
 /**
  * https://leetcode.com/problems/car-pooling/
- * 
+ * <p>
  * Time Complexity:     O(RANGE) ~ O(1001)
  * Space Complexity:    O(1001) ~ O(1)
- * 
+ * <p>
  * References:
- *  https://leetcode.com/problems/car-pooling/discuss/317611/C%2B%2BJava-O(n)-Thousand-and-One-Stops
+ * https://leetcode.com/problems/car-pooling/discuss/317611/C%2B%2BJava-O(n)-Thousand-and-One-Stops
  */
 package com.an7one.leetcode.lvl2.lc1094;
 
+import com.an7one.util.Constant;
+
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0SweepLine {
     public boolean carPooling(int[][] trips, int capacity) {
         final int RANGE = 1001;
@@ -23,8 +26,7 @@ public class SolutionApproach0SweepLine {
 
         for (int stop : stops) {
             capacity -= stop;
-            if (capacity < 0)
-                return false;
+            if (capacity < 0) return false;
         }
 
         return true;

@@ -1,20 +1,22 @@
 /**
  * https://leetcode.com/problems/diagonal-traverse/
- * 
+ * <p>
  * Time Complexity:     O(NR * NC)
  * Space Complexity:    O(NR * NC)
  */
 package com.an7one.leetcode.lvl3.lc0498;
 
+import com.an7one.util.Constant;
+
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS {
     public int[] findDiagonalOrder(int[][] matrix) {
         // sanity check
-        if (matrix == null || matrix.length == 0 || matrix[0].length == 0)
-            return new int[0];
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) return new int[0];
 
         final int NR = matrix.length, NC = matrix[0].length;
 
@@ -24,10 +26,8 @@ public class SolutionApproach0BFS {
                 // characterization of coordinates of diagonals (vs anti-diagonals)
                 int level = row + col;
                 idxMap.putIfAbsent(level, new LinkedList<Integer>());
-                if (level % 2 == 0)
-                    idxMap.get(level).addFirst(matrix[row][col]);
-                else
-                    idxMap.get(level).addLast(matrix[row][col]);
+                if (level % 2 == 0) idxMap.get(level).addFirst(matrix[row][col]);
+                else idxMap.get(level).addLast(matrix[row][col]);
             }
         }
 

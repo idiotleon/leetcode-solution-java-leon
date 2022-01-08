@@ -1,16 +1,18 @@
 package com.an7one.leetcode.lvl3.lc0498;
 
+import com.an7one.util.Constant;
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Set;
 
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS1 {
     public int[] findDiagonalOrder(int[][] matrix) {
         // sanity check
-        if (matrix == null || matrix.length == 0)
-            return new int[0];
+        if (matrix == null || matrix.length == 0) return new int[0];
 
         // boundaries
         final int NR = matrix.length, NC = matrix[0].length;
@@ -37,10 +39,8 @@ public class SolutionApproach0BFS1 {
                 int pos = queue.poll();
                 int row = pos / NC, col = pos % NC;
 
-                if (level % 2 == 0)
-                    intermediate.addLast(pos);
-                else
-                    intermediate.addFirst(pos);
+                if (level % 2 == 0) intermediate.addLast(pos);
+                else intermediate.addFirst(pos);
 
                 if (isValid(row + 1, col, matrix) && !visited.contains(hash(row + 1, col, NC))) {
                     queue.add(hash(row + 1, col, NC));
@@ -69,8 +69,7 @@ public class SolutionApproach0BFS1 {
 
     private boolean isValid(int row, int col, int[][] matrix) {
         final int NR = matrix.length, NC = matrix[0].length;
-        if (row < 0 || row >= NR || col < 0 || col >= NC)
-            return false;
+        if (row < 0 || row >= NR || col < 0 || col >= NC) return false;
 
         return true;
     }
