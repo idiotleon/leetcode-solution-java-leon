@@ -1,21 +1,23 @@
 /**
  * https://leetcode.com/problems/robot-bounded-in-circle/
- * 
+ * <p>
  * Time Complexity:     O(L)
  * Space Complexity:    O(1)
- * 
+ * <p>
  * References:
- *  https://leetcode.com/problems/robot-bounded-in-circle/discuss/290856/JavaC%2B%2BPython-Let-Chopper-Help-Explain
+ * https://leetcode.com/problems/robot-bounded-in-circle/discuss/290856/JavaC%2B%2BPython-Let-Chopper-Help-Explain
  */
 package com.an7one.leetcode.lvl2.lc1041;
 
+import com.an7one.util.Constant;
+
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Math {
-    private static final int[][] DIRS = { { 0, -1 }, { -1, 0 }, { 0, 1 }, { 1, 0 } };
+    private static final int[][] DIRS = {{0, -1}, {-1, 0}, {0, 1}, {1, 0}};
 
     public boolean isRobotBounded(String instructions) {
         // sanity check
-        if (instructions == null || instructions.isEmpty())
-            return false;
+        if (instructions == null || instructions.isEmpty()) return false;
 
         int row = 0, col = 0;
         int d = 0;
