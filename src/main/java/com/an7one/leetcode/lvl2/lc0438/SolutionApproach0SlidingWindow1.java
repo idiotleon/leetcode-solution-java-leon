@@ -4,7 +4,7 @@
  * Time Complexity:     O(LEN_P) + O(LEN_S) ~ O(LEN_S)
  * Space Complexity:    O(1)
  */
-package com.an7one.leetcode.lvl3.lc0438;
+package com.an7one.leetcode.lvl2.lc0438;
 
 import java.util.ArrayList;
 import java.util.List;
