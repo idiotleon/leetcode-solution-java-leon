@@ -1,29 +1,34 @@
-/**
- * https://leetcode.com/problems/word-search-ii/
- * 
- * Time Complexity: O(NR * NC * (4 ^ L)) + O(N * L) ~ O(NR * NC * (4 ^ L))
- *  NR, NC, sizes/boudaries of the array
- *  N, number of words in the "words"(input)
- *  L, the average length of each word
- * 
- * Space Complexity: O(N * L) + O(max(L)) ~ O(N * L)
- *  N, the number of words in the "words"(input)
- *  L, the average length of each word
- *  O(max(L)), space consumed by call stacks
- * 
- * https://leetcode.com/problems/word-search-ii/discuss/59780/Java-15ms-Easiest-Solution-(100.00)
- */
 package com.an7one.leetcode.lvl5.lc0212;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author: Leon
+ * https://leetcode.com/problems/word-search-ii/
+ *
+ * Time Complexity: O(NR * NC * (4 ^ L)) + O(N * L) ~ O(NR * NC * (4 ^ L))
+ *  NR, NC, sizes/boundaries of the array
+ *  N, number of words in the "words"(input)
+ *  L, the average length of each word
+ *
+ * Space Complexity: O(N * L) + O(max(L)) ~ O(N * L)
+ *  N, the number of words in the "words"(input)
+ *  L, the average length of each word
+ *  O(max(L)), space consumed by call stacks
+ *
+ * Reference:
+ * https://leetcode.com/problems/word-search-ii/discuss/59780/Java-15ms-Easiest-Solution-(100.00)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BacktrackWithTrie {
     private static final int[] DIRS = { 0, -1, 0, 1, 0 };
     private static final char IMPOSSIBLE = '#';
 
     public List<String> findWords(char[][] board, String[] words) {
-        List<String> ans = new ArrayList<String>();
+        List<String> ans = new ArrayList<>();
         // sanity check
         if (board == null || board.length == 0 || board[0].length == 0 || words == null || words.length == 0)
             return ans;
@@ -69,7 +74,7 @@ public class SolutionApproach0BacktrackWithTrie {
         TrieNode root = new TrieNode();
         for (String word : words) {
             TrieNode node = root;
-            for (char ch : word.toCharArray()) {
+            for (final char ch : word.toCharArray()) {
                 int idx = ch - 'a';
                 if (node.children[idx] == null)
                     node.children[idx] = new TrieNode();
@@ -83,11 +88,11 @@ public class SolutionApproach0BacktrackWithTrie {
         return root;
     }
 
-    private class TrieNode {
-        protected String word;
-        protected TrieNode[] children;
+    private static class TrieNode {
+        private String word;
+        private final TrieNode[] children;
 
-        protected TrieNode() {
+        private TrieNode() {
             this.word = null;
             this.children = new TrieNode[26];
         }
