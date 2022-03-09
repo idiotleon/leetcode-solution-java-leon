@@ -1,12 +1,16 @@
 package com.an7one.leetcode.lvl3.lc0247;
 
+import com.an7one.util.Constant;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.logging.ConsoleHandler;
 
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Iteration {
     public List<String> findStrobogrammatic(int n) {
-        List<String> ans = new ArrayList<String>((n & 1) == 0 ? Arrays.asList("") : Arrays.asList("0", "1", "8"));
+        List<String> ans = new ArrayList<>((n & 1) == 0 ? List.of("") : Arrays.asList("0", "1", "8"));
         if (n < 2)
             return ans;
 
