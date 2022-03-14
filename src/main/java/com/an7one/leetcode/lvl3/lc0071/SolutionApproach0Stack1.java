@@ -1,14 +1,18 @@
-/**
- * https://leetcode.com/problems/simplify-path/
- * 
- * Time Complexity:     O(L)
- * Space Complexity:    O(L)
- */
 package com.an7one.leetcode.lvl3.lc0071;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * @author: Leon
+ * https://leetcode.com/problems/simplify-path/
+ *
+ * Time Complexity:     O(L)
+ * Space Complexity:    O(L)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Stack1 {
     public String simplifyPath(String path) {
         // sanity check
@@ -16,7 +20,7 @@ public class SolutionApproach0Stack1 {
             return path;
 
         String[] splitted = path.split("/", -1);
-        Deque<String> stack = new ArrayDeque<String>();
+        Deque<String> stack = new ArrayDeque<>();
 
         for (String str : splitted) {
             if (str.trim().isEmpty())
