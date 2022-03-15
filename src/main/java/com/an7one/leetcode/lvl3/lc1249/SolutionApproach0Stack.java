@@ -1,17 +1,21 @@
-/**
- * https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
- * 
- * Time Complexity:     O(L)
- * Space Complexity:    O(L)
- * 
- * References:
- *  https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/discuss/419402/JavaC%2B%2B-Stack
- */
 package com.an7one.leetcode.lvl3.lc1249;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * @author: Leon
+ * https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+ *
+ * Time Complexity:     O(L)
+ * Space Complexity:    O(L)
+ *
+ * References:
+ *  https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/discuss/419402/JavaC%2B%2B-Stack
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Stack {
     private static final char PLACE_HOLDER = '.';
     private static final char OPEN_PAREN = '(';
