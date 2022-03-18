@@ -1,20 +1,24 @@
+package com.an7one.leetcode.lvl4.lc0316;
+
+import com.an7one.util.Constant;
+
 /**
+ * @author: Leon
  * https://leetcode.com/problems/remove-duplicate-letters/
- * 
+ *
  * Time Complexity:     O(L)
  * Space Complexity:    O(L)
- * 
+ *
  * to main a "strickly increasing" stack
  *  1. the contents are actual characters
- *  2. the order of characters is maintained in strictly increasing order, if possible 
+ *  2. the order of characters is maintained in strictly increasing order, if possible
  *      by "if possible", it rather depends on the given String sequence,
- *      in another words, how many letters left, and what they are
- * 
+ *      in other words, how many letters left, and what they are
+ *
  * the same problem:
  *  https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/
  */
-package com.an7one.leetcode.lvl4.lc0316;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0MonoStack {
     public String removeDuplicateLetters(String s) {
         // to count the remaining alphabet letters
