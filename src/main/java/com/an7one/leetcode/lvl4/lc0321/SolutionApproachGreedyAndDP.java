@@ -1,17 +1,21 @@
-/**
- * https://leetcode.com/problems/create-maximum-number/
- * 
- * https://youtu.be/YYduNJfzWaA
- * http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-321-create-maximum-number/
- * 
- * to turn the problem into 2 subproblems, 
- * both of which are solved by greedy algorithm
- * 
- * Time Complexity: O(k *(n1 + n2) ^ 2)
- * Space Complexity: O(n1 + n2)
- */
 package com.an7one.leetcode.lvl4.lc0321;
 
+import com.an7one.util.Constant;
+
+/**
+ * @author: Leon
+ * https://leetcode.com/problems/create-maximum-number/
+ *
+ * Time Complexity: O(k *(n1 + n2) ^ 2)
+ * Space Complexity: O(n1 + n2)
+ * to turn the problem into 2 subproblems,
+ * both of which are solved by greedy algorithm
+ *
+ * Reference:
+ * https://youtu.be/YYduNJfzWaA
+ * http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-321-create-maximum-number/
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproachGreedyAndDP {
     public int[] maxNumber(int[] nums1, int[] nums2, int k) {
         int[] best = new int[0];
@@ -24,15 +28,15 @@ public class SolutionApproachGreedyAndDP {
     
     // given an array, take the first k largest element, with the orders maintained
     private int[] maxNumber(int[] nums, int k){
-        int[] ans = new int[k];
+        final int[] ans = new int[k];
         int j = 0;
         for(int i = 0; i < nums.length; i++){
-            while(j > 0 && nums[i] > ans[j - 1] && nums.length - i > k - j)
+            while(j > 0 && nums[i] > ans[j - 1] && nums.length - i > k - j) {
                 --j;
-            
-            if(j < k){
-                ans[j++] = nums[i];
             }
+            
+            if(j < k)
+                ans[j++] = nums[i];
         }
         
         return ans;
@@ -40,7 +44,7 @@ public class SolutionApproachGreedyAndDP {
     
     // to merge two arrays
     private int[] maxNumber(int[] nums1, int[] nums2){
-        int[] ans = new int[nums1.length + nums2.length];
+        final int[] ans = new int[nums1.length + nums2.length];
         int idx1 = 0, idx2 = 0;
         int index = 0;
         while(idx1 != nums1.length || idx2 != nums2.length){

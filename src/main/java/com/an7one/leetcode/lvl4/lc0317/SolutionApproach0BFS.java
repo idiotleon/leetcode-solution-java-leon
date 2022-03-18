@@ -30,7 +30,7 @@ public class SolutionApproach0BFS {
 
         final int NR = grid.length, NC = grid[0].length;
 
-        List<Building> buildings = new ArrayList<>();
+        final List<Building> buildings = new ArrayList<>();
         for (int row = 0; row < NR; ++row) {
             for (int col = 0; col < NC; ++col) {
                 if (grid[row][col] == BUILDING)
@@ -41,16 +41,16 @@ public class SolutionApproach0BFS {
         }
 
         final int SIZE = buildings.size();
-        int[][] distances = new int[NR][NC];
-        for (int k = 0; k < SIZE; ++k)
+        final int[][] distances = new int[NR][NC];
+        for (int k = 0; k < SIZE; ++k) {
             bfs(buildings.get(k), k, distances, grid);
+        }
 
         int ans = -1;
         for (int row = 0; row < NR; ++row) {
             for (int col = 0; col < NC; ++col) {
-                if (grid[row][col] == SIZE && (ans < 0 || distances[row][col] < ans)) {
+                if (grid[row][col] == SIZE && (ans < 0 || distances[row][col] < ans))
                     ans = distances[row][col];
-                }
             }
         }
 
@@ -60,7 +60,7 @@ public class SolutionApproach0BFS {
     private void bfs(Building building, int reaches, int[][] distances, int[][] grid) {
         final int NR = grid.length, NC = grid[0].length;
 
-        Deque<Building> queue = new ArrayDeque<>();
+        final Deque<Building> queue = new ArrayDeque<>();
         queue.add(building);
 
         while (!queue.isEmpty()) {
