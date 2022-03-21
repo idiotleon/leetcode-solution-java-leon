@@ -1,24 +1,30 @@
+package com.an7one.leetcode.lvl3.lc0764;
+
+import com.an7one.util.Constant;
+
+import java.util.Arrays;
+
 /**
+ * @author: Leon
  * https://leetcode.com/problems/largest-plus-sign/
- * 
- * Time Complexity:     O(N ^ 2)
- * Space Comlexity:     O(N ^ 2)
- * 
+ *
+ * Time Complexity:         O(`N` ^ 2)
+ * Space Complexity:        O(`N` ^ 2)
+ *
  * References:
  *  https://leetcode.com/problems/largest-plus-sign/discuss/146531/java-simple-DP-solution-using-one-matrix-easy-to-undersatnd/623755
  *  https://leetcode.com/problems/largest-plus-sign/discuss/146531/java-simple-DP-solution-using-one-matrix-easy-to-undersatnd
  */
-package com.an7one.leetcode.lvl3.lc0764;
-
-import java.util.Arrays;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP2Dimen {
     public int orderOfLargestPlusSign(int N, int[][] mines) {
-        int[][] dp = new int[N][N];
-        for (int[] row : dp)
+        final int[][] dp = new int[N][N];
+        for (final int[] row : dp) {
             Arrays.fill(row, N);
-        for (int[] mine : mines)
+        }
+        for (final int[] mine : mines) {
             dp[mine[0]][mine[1]] = 0;
+        }
 
         // from the left to the right
         for (int row = 0; row < N; ++row) {

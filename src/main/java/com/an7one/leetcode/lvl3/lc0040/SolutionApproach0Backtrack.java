@@ -1,13 +1,13 @@
 package com.an7one.leetcode.lvl3.lc0040;
 
 import com.an7one.util.Constant;
-import com.sun.org.apache.bcel.internal.Const;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 /**
+ * @author: Leon
  * https://leetcode.com/problems/combination-sum-ii/
  * <p>
  * Time Complexity:     O(N ^ target) in the worst case
@@ -19,21 +19,21 @@ import java.util.List;
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Backtrack {
-    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
-        List<List<Integer>> ans = new ArrayList<>();
+    public List<List<Integer>> combinationSum2(final int[] candidates, int target) {
+        final List<List<Integer>> ans = new ArrayList<>();
         // sanity check
         if (candidates == null || candidates.length == 0 || target < 1)
             return ans;
 
         Arrays.sort(candidates);
         final int N = candidates.length;
-        boolean[] used = new boolean[N];
+        final boolean[] used = new boolean[N];
 
         backtrack(0, target, new ArrayList<>(), used, candidates, ans);
         return ans;
     }
 
-    private void backtrack(int startIdx, int target, List<Integer> path, boolean[] used, int[] candidates,
+    private void backtrack(int startIdx, int target, List<Integer> path, final boolean[] used, final int[] candidates,
                            List<List<Integer>> paths) {
         if (target < 0)
             return;
