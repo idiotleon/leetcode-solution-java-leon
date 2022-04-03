@@ -1,31 +1,36 @@
-/**
- * https://leetcode.com/problems/substring-with-concatenation-of-all-words/
- * 
- * Time Complexity:     O(L)
- * Space Complexity:    O(N)
- * 
- * References:
- *  https://leetcode.com/problems/substring-with-concatenation-of-all-words/discuss/13656/An-O(N)-solution-with-detailed-explanation/13911
- *  https://leetcode.com/problems/substring-with-concatenation-of-all-words/discuss/13656/An-O(N)-solution-with-detailed-explanation
- *  https://leetcode.wang/leetCode-30-Substring-with-Concatenation-of-All-Words.html
- */
 package com.an7one.leetcode.lvl4.lc0030;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author: Leon
+ * https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+ *
+ * Time Complexity:     O(L)
+ * Space Complexity:    O(N)
+ *
+ * References:
+ *  https://leetcode.com/problems/substring-with-concatenation-of-all-words/discuss/13656/An-O(N)-solution-with-detailed-explanation/13911
+ *  https://leetcode.com/problems/substring-with-concatenation-of-all-words/discuss/13656/An-O(N)-solution-with-detailed-explanation
+ *  https://leetcode.wang/leetCode-30-Substring-with-Concatenation-of-All-Words.html
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0SlidingWindow {
     public List<Integer> findSubstring(String s, String[] words) {
-        List<Integer> ans = new ArrayList<Integer>();
+        List<Integer> ans = new ArrayList<>();
         // sanity check
         if (s == null || s.isEmpty() || words == null || words.length == 0)
             return ans;
 
-        Map<String, Integer> freq = new HashMap<String, Integer>();
-        for (String word : words)
+        Map<String, Integer> freq = new HashMap<>();
+        for (String word : words) {
             freq.put(word, freq.getOrDefault(word, 0) + 1);
+        }
 
         final int L = s.length(), N = words.length, LEN = words[0].length();
         for (int i = 0; i < LEN; ++i) {
