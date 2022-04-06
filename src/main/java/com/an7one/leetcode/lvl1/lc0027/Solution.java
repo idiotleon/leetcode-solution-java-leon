@@ -3,7 +3,10 @@ package com.an7one.leetcode.lvl1.lc0027;
 import com.an7one.util.Constant;
 
 /**
+ * @author: Leon
  * https://leetcode.com/problems/remove-element/
+ * Time Complexity:     O(`N`)
+ * Space Complexity:    O(1)
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class Solution {
