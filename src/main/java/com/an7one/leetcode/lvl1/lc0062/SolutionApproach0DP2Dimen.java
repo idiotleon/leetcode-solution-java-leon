@@ -3,10 +3,11 @@ package com.an7one.leetcode.lvl1.lc0062;
 import com.an7one.util.Constant;
 
 /**
+ * @author: Leon
  * https://leetcode.com/problems/unique-paths/
  *
- * Time Complexity:     O(m * n)
- * Space Complexity:    O(m * n)
+ * Time Complexity:     O(`m` * `n`)
+ * Space Complexity:    O(`m` * `n`)
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP2Dimen {

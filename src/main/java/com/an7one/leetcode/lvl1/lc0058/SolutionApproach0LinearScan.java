@@ -3,6 +3,7 @@ package com.an7one.leetcode.lvl1.lc0058;
 import com.an7one.util.Constant;
 
 /**
+ * @author: Leon
  * https://leetcode.com/problems/length-of-last-word/
  * <p>
  * Time Complexity:     O(`L`)
@@ -18,15 +19,15 @@ public class SolutionApproach0LinearScan {
             return 0;
 
         final int L = s.length();
-        final char[] CHS = s.toCharArray();
+        final char[] chs = s.toCharArray();
         int hi = L - 1;
 
-        while (hi >= 0 && CHS[hi] == SPACE) {
+        while (hi >= 0 && chs[hi] == SPACE) {
             --hi;
         }
 
         int len = 0;
-        while (hi >= 0 && CHS[hi] != SPACE) {
+        while (hi >= 0 && chs[hi] != SPACE) {
             --hi;
             ++len;
         }

@@ -5,10 +5,11 @@ import com.an7one.util.Constant;
 import java.util.Arrays;
 
 /**
+ * @author: Leon
  * https://leetcode.com/problems/unique-paths/
  *
- * Time Complexity:     O(m * n)
- * Space Complexity:    O(n)
+ * Time Complexity:     O(`m` * `n`)
+ * Space Complexity:    O(`n`)
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP1Dimen {
