@@ -1,11 +1,15 @@
-/**
- * https://leetcode.com/problems/climbing-stairs/
- * 
- * Time Complexity:     O(n)
- * Space Complexity:    O(n)
- */
 package com.an7one.leetcode.lvl1.lc0070;
 
+import com.an7one.util.Constant;
+
+/**
+ * @author: Leon
+ * https://leetcode.com/problems/climbing-stairs/
+ *
+ * Time Complexity:     O(`n`)
+ * Space Complexity:    O(`n`)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP1Dimen {
     public int climbStairs(int n) {
         // sanity check
