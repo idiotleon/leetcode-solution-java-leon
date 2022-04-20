@@ -1,11 +1,15 @@
-/**
- * https://leetcode.com/problems/valid-palindrome/
- * 
- * Time Complexity:     O(L)
- * Space Complexity:    O(1) / O(L)
- */
 package com.an7one.leetcode.lvl1.lc0125;
 
+import com.an7one.util.Constant;
+
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/valid-palindrome/">valid-palindrome</a>
+ *
+ * Time Complexity:     O(`L`)
+ * Space Complexity:    O(1) / O(`L`)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0TwoPointers {
     public boolean isPalindrome(String s) {
         // sanity check
