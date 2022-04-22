@@ -1,11 +1,15 @@
+package com.an7one.leetcode.lvl1.lc0189;
+
+import com.an7one.util.Constant;
+
 /**
+ * @author: Leon
  * https://leetcode.com/problems/rotate-array/
- * 
+ *
  * Time Complexity:     O(`N`)
  * Space Complexity:    O(1)
  */
-package com.an7one.leetcode.lvl1.lc0189;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0LinearScan {
     public void rotate(int[] nums, int k) {
         final int N = nums.length;
