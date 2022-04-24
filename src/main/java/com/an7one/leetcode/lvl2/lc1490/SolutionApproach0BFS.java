@@ -20,7 +20,7 @@ public class SolutionApproach0BFS {
     public Node cloneTree(Node root) {
         // sanity check
         if (root == null)
-            return root;
+            return null;
 
         Map<Node, Node> map = new HashMap<>();
         map.put(root, new Node(root.val));
