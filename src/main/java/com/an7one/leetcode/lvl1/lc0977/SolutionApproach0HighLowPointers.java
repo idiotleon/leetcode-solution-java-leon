@@ -1,11 +1,15 @@
+package com.an7one.leetcode.lvl1.lc0977;
+
+import com.an7one.util.Constant;
+
 /**
- * https://leetcode.com/problems/squares-of-a-sorted-array/
- * 
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/squares-of-a-sorted-array/">Description</a>
+ *
  * Time Complexity:     O(N)
  * Space Complexity:    O(1) / O(N)
  */
-package com.an7one.leetcode.lvl1.lc0977;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0HighLowPointers {
     public int[] sortedSquares(int[] nums) {
         // sanity check
