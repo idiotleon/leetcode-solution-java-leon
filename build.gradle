@@ -38,7 +38,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = "com.zea7ot.App"
+    mainClassName = "com.an7one.App"
 }
 
 test{
