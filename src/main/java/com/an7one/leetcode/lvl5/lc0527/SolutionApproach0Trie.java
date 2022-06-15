@@ -1,13 +1,6 @@
-/**
- * https://leetcode.com/problems/word-abbreviation/
- * 
- * Time Complexity:     O()
- * Space Complexity:    O()
- * 
- * References:  
- *  https://leetcode.com/problems/word-abbreviation/discuss/99792/HashMap-%2B-Trie-greater-O(nL)-solution
- */
 package com.an7one.leetcode.lvl5.lc0527;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -15,20 +8,27 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/word-abbreviation/">Description</a>
+ *
+ * Time Complexity:     O()
+ * Space Complexity:    O()
+ *
+ * References:
+ * <a href="https://leetcode.com/problems/word-abbreviation/discuss/99792/HashMap-%2B-Trie-greater-O(nL)-solution">HashMap Trie</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Trie {
     public List<String> wordsAbbreviation(List<String> dict) {
-        Map<String, List<Integer>> abbrMap = new HashMap<String, List<Integer>>();
+        Map<String, List<Integer>> abbrMap = new HashMap<>();
 
-        List<String> res = new ArrayList<String>(Collections.nCopies(dict.size(), null));
+        List<String> res = new ArrayList<>(Collections.nCopies(dict.size(), null));
         for (int i = 0; i < dict.size(); i++) {
             String word = dict.get(i);
             String str = getShortestAbbr(word);
-            List<Integer> indexes = abbrMap.get(str);
-            if (indexes == null) {
-                indexes = new ArrayList<Integer>();
-                abbrMap.put(str, indexes);
-            }
-            indexes.add(i);
+            List<Integer> indices = abbrMap.computeIfAbsent(str, k -> new ArrayList<>());
+            indices.add(i);
         }
 
         for (Map.Entry<String, List<Integer>> entry : abbrMap.entrySet()) {
@@ -94,13 +94,13 @@ public class SolutionApproach0Trie {
         return root;
     }
 
-    private class TrieNode {
+    private static class TrieNode {
         private int count;
-        private Map<Character, TrieNode> children;
+        private final Map<Character, TrieNode> children;
 
         protected TrieNode() {
             this.count = 0;
-            this.children = new HashMap<Character, TrieNode>();
+            this.children = new HashMap<>();
         }
     }
 }
