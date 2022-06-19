@@ -1,45 +1,48 @@
-/**
- * https://leetcode.com/problems/map-sum-pairs/
- * 
- * Time Complexity: 
- *  insert: O(L)
- *  sum:    O(L)
- * 
- * Space Complexity: O(N * L * 26) + O(N) ~ O(N * L)
- *  N is the amount of words
- *  L is the average length of words
- */
 package com.an7one.leetcode.lvl2.lc0677;
+
+import com.an7one.util.Constant;
 
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * <a href="https://leetcode.com/problems/map-sum-pairs/">Description</a>
+ *
+ * Time Complexity:
+ *  insert: O(L)
+ *  sum:    O(L)
+ *
+ * Space Complexity: O(N * L * 26) + O(N) ~ O(N * L)
+ *  N is the amount of words
+ *  L is the average length of words
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach1Trie {
-    private TrieNode root;
-    private Set<String> existingKeys;
+    private final TrieNode root;
+    private final Set<String> existingKeys;
 
     /** Initialize your data structure here. */
     public SolutionApproach1Trie() {
         this.root = new TrieNode(-1);
-        this.existingKeys = new HashSet<String>();
+        this.existingKeys = new HashSet<>();
     }
     
     public void insert(String key, int val) {
         TrieNode node = root;
         char[] chs = key.toCharArray();
-        
-        for(int i = 0; i < chs.length; i++){
-            if(node.children[chs[i] - 'a'] == null){
-                node.children[chs[i] - 'a'] = new TrieNode(val);
-            }else{
-                if(existingKeys.contains(key)){
-                    node.children[chs[i] - 'a'].val = val;
-                }else{
-                    node.children[chs[i] - 'a'].val += val;
+
+        for (char ch : chs) {
+            if (node.children[ch - 'a'] == null) {
+                node.children[ch - 'a'] = new TrieNode(val);
+            } else {
+                if (existingKeys.contains(key)) {
+                    node.children[ch - 'a'].val = val;
+                } else {
+                    node.children[ch - 'a'].val += val;
                 }
             }
-            
-            node = node.children[chs[i] - 'a'];
+
+            node = node.children[ch - 'a'];
         }
         
         existingKeys.add(key);
@@ -48,17 +51,17 @@ public class SolutionApproach1Trie {
     public int sum(String prefix) {
         TrieNode node = root;
         char[] chs = prefix.toCharArray();
-        
-        for(int i = 0; i < chs.length; i++){
-            if(node.children[chs[i] - 'a'] == null) return 0;
-            
-            node = node.children[chs[i] - 'a'];
+
+        for (char ch : chs) {
+            if (node.children[ch - 'a'] == null) return 0;
+
+            node = node.children[ch - 'a'];
         }
         
         return node.val;
     }
     
-    private class TrieNode{
+    private static class TrieNode{
         protected int val;
         protected TrieNode[] children;
         

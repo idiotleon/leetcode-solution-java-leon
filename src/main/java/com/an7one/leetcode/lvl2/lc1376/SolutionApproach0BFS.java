@@ -1,19 +1,23 @@
-/**
- * https://leetcode.com/problems/time-needed-to-inform-all-employees/
- * 
- * Time Complexity:     O(`n`)
- * Space Complexity:    O(`n`)
- * 
- * References:
- *  https://leetcode.com/problems/time-needed-to-inform-all-employees/discuss/533109/Java-BFSDFS-Solutions-Clean-code
- */
 package com.an7one.leetcode.lvl2.lc1376;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/time-needed-to-inform-all-employees/">Description</a>
+ *
+ * Time Complexity:     O(`n`)
+ * Space Complexity:    O(`n`)
+ *
+ * References:
+ *  <a href="https://leetcode.com/problems/time-needed-to-inform-all-employees/discuss/533109/Java-BFSDFS-Solutions-Clean-code">...</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS {
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTimes) {
         List<List<Integer>> graph = buildGraph(manager, n);
@@ -27,7 +31,7 @@ public class SolutionApproach0BFS {
             final int SIZE = queue.size();
 
             for (int i = 0; i < SIZE; ++i) {
-                Node cur = queue.poll();
+                Node cur = queue.removeFirst();
                 int mgr = cur.manager;
                 int informTime = cur.informTime;
 

@@ -1,19 +1,23 @@
-/**
- * https://leetcode.com/problems/time-needed-to-inform-all-employees/
- * 
- * Time Complexity:     O(`n`)
- * Space Complexity:    O(`n`)
- * 
- * References:
- *  https://leetcode.com/problems/time-needed-to-inform-all-employees/discuss/533109/Java-BFSDFS-Solutions-Clean-code
- *  https://leetcode.com/problems/time-needed-to-inform-all-employees/discuss/532560/JavaC%2B%2BPython-DFS
- */
 package com.an7one.leetcode.lvl2.lc1376;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SolutionApproach0DFS {
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/time-needed-to-inform-all-employees/">Description</a>
+ *
+ * Time Complexity:     O(`n`)
+ * Space Complexity:    O(`n`)
+ *
+ * References:
+ *  <a href="https://leetcode.com/problems/time-needed-to-inform-all-employees/discuss/533109/Java-BFSDFS-Solutions-Clean-code">...</a>
+ *  <a href="https://leetcode.com/problems/time-needed-to-inform-all-employees/discuss/532560/JavaC%2B%2BPython-DFS">...</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
+public class SolutionApproach0DFSRecursive {
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTimes) {
         List<List<Integer>> graph = buildGraph(manager, n);
         return dfs(headID, informTimes, graph);

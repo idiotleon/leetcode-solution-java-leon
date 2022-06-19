@@ -4,8 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class TestSolutionApproach0DFS {
-    private SolutionApproach0DFS1 solution = new SolutionApproach0DFS1();
+public class TestSolutionApproach0DFSRecursive1 {
+    private SolutionApproach0DFS solution = new SolutionApproach0DFS();
 
     @Test
     void test(){

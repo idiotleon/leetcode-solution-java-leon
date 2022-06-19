@@ -6,7 +6,7 @@ import com.an7one.bycompany.others.matrix.hungry_rabbit.SolutionApproach0DFSRecu
 
 import org.junit.jupiter.api.Test;
 
-public class TestSolutionApproach0DFSRecursive {
+public class TestSolutionApproach0DFSRecursiveRecursive {
     private SolutionApproach0DFSRecursive solution = new SolutionApproach0DFSRecursive();
 
     @Test

@@ -1,19 +1,22 @@
+package com.an7one.leetcode.lvl2.lc0677;
+
+import com.an7one.util.Constant;
+
 /**
- * https://leetcode.com/problems/map-sum-pairs/
- * 
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/map-sum-pairs/">Description</a>
+ *
  * Time Complexity:
  *  insert: O(L), where L is the actual length of the word to be inserted
  *  sum:    O(L), where L is the longest branch for that prefix of the Trie
- * 
- * Space Copmlexity:    O(N * L * 26) + O(L) ~ O(N * L)
+ *
+ * Space Complexity:    O(N * L * 26) + O(L) ~ O(N * L)
  *  Trie:       O(N * L * 26)
  *  Call stack: O(L)
  */
-package com.an7one.leetcode.lvl2.lc0677;
-
-@SuppressWarnings("unused")
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Trie {
-    private TrieNode root;
+    private final TrieNode root;
 
     /** Initialize your data structure here. */
     public SolutionApproach0Trie() {
@@ -23,13 +26,13 @@ public class SolutionApproach0Trie {
     public void insert(String key, int val) {
         TrieNode node = root;
         char[] chs = key.toCharArray();
-        
-        for(int i = 0; i < chs.length; i++){
-            if(node.children[chs[i] - 'a'] == null){
-                node.children[chs[i] - 'a'] = new TrieNode();
+
+        for (char ch : chs) {
+            if (node.children[ch - 'a'] == null) {
+                node.children[ch - 'a'] = new TrieNode();
             }
-            
-            node = node.children[chs[i] - 'a'];
+
+            node = node.children[ch - 'a'];
         }
         
         node.isEnd = true;
@@ -39,11 +42,11 @@ public class SolutionApproach0Trie {
     public int sum(String prefix) {
         TrieNode node = root;
         char[] chs = prefix.toCharArray();
-        
-        for(int i = 0; i < chs.length; i++){
-            if(node.children[chs[i] - 'a'] == null) return 0;
-            
-            node = node.children[chs[i] - 'a'];
+
+        for (char ch : chs) {
+            if (node.children[ch - 'a'] == null) return 0;
+
+            node = node.children[ch - 'a'];
         }
         
         return dfs(node);
@@ -61,7 +64,7 @@ public class SolutionApproach0Trie {
         return sum + node.val;
     }
     
-    private class TrieNode{
+    private static class TrieNode{
         protected int val;
         protected TrieNode[] children;
         protected boolean isEnd;
