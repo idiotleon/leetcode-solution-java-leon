@@ -28,23 +28,23 @@ public class SolutionApproach0SlidingWindow {
         final char[] CHS = s.toCharArray();
 
         for (int allowed = 1; allowed <= 26; ++allowed) {
-            final int[] FREQS = new int[26];
+            final int[] freqs = new int[26];
 
             int lo = 0, hi = 0;
             int distinct = 0;
 
             while (hi < L) {
-                if (FREQS[CHS[hi] - 'a']++ == 0)
+                if (freqs[CHS[hi] - 'a']++ == 0)
                     ++distinct;
 
                 while (distinct > allowed) {
-                    if (--FREQS[CHS[lo] - 'a'] == 0)
+                    if (--freqs[CHS[lo] - 'a'] == 0)
                         --distinct;
 
                     ++lo;
                 }
 
-                if (isValid(k, FREQS))
+                if (isValid(k, freqs))
                     longest = Math.max(longest, hi - lo + 1);
 
                 ++hi;

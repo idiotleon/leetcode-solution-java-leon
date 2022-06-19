@@ -1,14 +1,18 @@
-/**
- * https://leetcode.com/problems/course-schedule/
- * 
- * Time Complexity:     O(numCourses, prerequisites.length)
- * Space Complexity:    O(numCourses)
- */
 package com.an7one.leetcode.lvl2.lc0207;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import com.an7one.util.Constant;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/course-schedule/">Description</a>
+ *
+ * Time Complexity:     O(E + V) ~ O(`numCourses` + `prerequisites.length`)
+ * Space Complexity:    O(`numCourses`)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0TopologicalSort {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int[] counts = new int[numCourses];
@@ -17,22 +21,22 @@ public class SolutionApproach0TopologicalSort {
             ++counts[prerequisite[1]];
         }
         
-        Queue<Integer> queue = new LinkedList<Integer>();
+        Deque<Integer> queue = new ArrayDeque<>();
         for(int i = 0; i < numCourses; i++){
             if(counts[i] == 0){
-                queue.offer(i);
+                queue.addLast(i);
             }
         }
         
         int idx = 0;
         while(!queue.isEmpty()){
-            int course = queue.poll();
+            int course = queue.removeFirst();
             idx++;
             
             for(int[] prerequisite : prerequisites){
                 if(prerequisite[0] == course){
                     if(--counts[prerequisite[1]] == 0){
-                        queue.offer(prerequisite[1]);
+                        queue.addLast(prerequisite[1]);
                     }
                 }
             }
