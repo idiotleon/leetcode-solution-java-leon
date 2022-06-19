@@ -1,15 +1,19 @@
-/**
- * https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
- * 
- * Time Complexity:     O(26 * 26 * L) ~ O(L)
- * Space Complexity:    O(1) / O(L) + O(26) ~ O(1) / O(L)
- * 
- * References:
- *  https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/discuss/87739/Java-Strict-O(N)-Two-Pointer-Solution/188126
- *  https://www.cnblogs.com/grandyang/p/5852352.html
- */
 package com.an7one.leetcode.lvl4.lc0395;
 
+import com.an7one.util.Constant;
+
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/">description</a>
+ *
+ * Time Complexity:     O(26 * 26 * L) ~ O(L)
+ * Space Complexity:    O(1) / O(L) + O(26) ~ O(1) / O(L)
+ *
+ * References:
+ *  <a href="https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/discuss/87739/Java-Strict-O(N)-Two-Pointer-Solution/188126">...</a>
+ *  <a href="https://www.cnblogs.com/grandyang/p/5852352.html">...</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0SlidingWindow {
     public int longestSubstring(String s, int k) {
         int longest = 0;

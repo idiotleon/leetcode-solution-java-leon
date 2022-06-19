@@ -1,14 +1,18 @@
-/**
- * https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
- * 
- * Time Complexity:     O(L ^ 2)
- * Space Complexity:    O(L)
- * 
- * References:
- *  https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/discuss/87741/Java-divide-and-conquer(recursion)-solution
- */
 package com.an7one.leetcode.lvl4.lc0395;
 
+import com.an7one.util.Constant;
+
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/">Descripion</a>
+ *
+ * Time Complexity:     O(L ^ 2)
+ * Space Complexity:    O(L)
+ *
+ * References:
+ *  <a href="https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/discuss/87741/Java-divide-and-conquer(recursion)-solution">...</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach1DFSRecursive {
     public int longestSubstring(String s, int k) {
         // sanity check
