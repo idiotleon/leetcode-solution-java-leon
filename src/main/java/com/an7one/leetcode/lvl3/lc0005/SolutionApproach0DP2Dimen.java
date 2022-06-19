@@ -3,7 +3,8 @@ package com.an7one.leetcode.lvl3.lc0005;
 import com.an7one.util.Constant;
 
 /**
- * https://leetcode.com/problems/longest-palindromic-substring/
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/longest-palindromic-substring/">Description</a>
  * <p>
  * Time Complexity:     O(L ^ 2)
  * Space Complexity:    O(L ^ 2)
@@ -12,7 +13,7 @@ import com.an7one.util.Constant;
  * <p>
  * <p>
  * References:
- * https://leetcode.com/problems/longest-palindromic-substring/discuss/2921/Share-my-Java-solution-using-dynamic-programming/223961
+ * <a href="https://leetcode.com/problems/longest-palindromic-substring/discuss/2921/Share-my-Java-solution-using-dynamic-programming/223961">...</a>
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP2Dimen {
@@ -22,7 +23,7 @@ public class SolutionApproach0DP2Dimen {
             return s;
 
         final int L = s.length();
-        final char[] CHS = s.toCharArray();
+        final char[] chs = s.toCharArray();
 
         int start = 0, end = 0;
 
@@ -30,7 +31,7 @@ public class SolutionApproach0DP2Dimen {
 
         for (int i = L - 1; i >= 0; --i) {
             for (int j = i; j < L; ++j) {
-                dp[i][j] = CHS[i] == CHS[j] && (j - i < 2 || dp[i + 1][j - 1]);
+                dp[i][j] = chs[i] == chs[j] && (j - i < 2 || dp[i + 1][j - 1]);
 
                 if (dp[i][j] && j - i > end - start) {
                     start = i;
