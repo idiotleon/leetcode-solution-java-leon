@@ -62,9 +62,9 @@ public class SolutionApproach0BFS {
         return graph;
     }
 
-    private class Node {
-        private int manager;
-        private int informTime;
+    private static class Node {
+        private final int manager;
+        private final int informTime;
 
         private Node(int manager, int informTime) {
             this.manager = manager;
