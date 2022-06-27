@@ -1,20 +1,23 @@
-/**
- * @author: Leon
- * https://leetcode.com/problems/all-paths-from-source-to-target/
- * 
- * Time Complexity:     O(V + E) ~ O(N + TOTAL_ELEMENTS)
- * Space Complexity:    O(V + E) ~ O(N + TOTAL_ELEMENTS)
- */
 package com.an7one.leetcode.lvl3.lc0797;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/all-paths-from-source-to-target/">description</a>
+ * <p>
+ * Time Complexity:     O(V + E) ~ O(N + TOTAL_ELEMENTS)
+ * Space Complexity:    O(V + E) ~ O(N + TOTAL_ELEMENTS)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS1 {
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
-        List<List<Integer>> paths = new ArrayList<>();
+        final List<List<Integer>> paths = new ArrayList<>();
         // sanity check
         if (graph == null || graph.length == 0)
             return paths;
@@ -22,14 +25,14 @@ public class SolutionApproach0BFS1 {
         final int N = graph.length;
         final int DESTINATION = N - 1;
 
-        Deque<PathNode> queue = new ArrayDeque<>();
+        final Deque<PathNode> queue = new ArrayDeque<>();
         queue.offer(new PathNode(0));
 
         while (!queue.isEmpty()) {
             final int SIZE = queue.size();
 
             for (int i = 0; i < SIZE; ++i) {
-                PathNode node = queue.poll();
+                final PathNode node = queue.poll();
                 int cur = node.getLast();
                 if (cur == DESTINATION) {
                     paths.add(new ArrayList<>(node.path));
@@ -47,7 +50,7 @@ public class SolutionApproach0BFS1 {
         return paths;
     }
 
-    private class PathNode {
+    private static class PathNode {
         private final List<Integer> path;
 
         private PathNode(int node) {

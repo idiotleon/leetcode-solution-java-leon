@@ -1,18 +1,21 @@
-/**
- * @author: Leon
- * https://leetcode.com/problems/all-paths-from-source-to-target/
- * 
- * Time Complexity:     O(V + E) ~ O(N + TOTAL_ELEMENTS)
- * Space Complexity:    O(V + E) ~ O(N + TOTAL_ELEMENTS)
- */
 package com.an7one.leetcode.lvl3.lc0797;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/all-paths-from-source-to-target/">description</a>
+ * <p>
+ * Time Complexity:     O(V + E) ~ O(N + TOTAL_ELEMENTS)
+ * Space Complexity:    O(V + E) ~ O(N + TOTAL_ELEMENTS)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DFS {
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
-        List<List<Integer>> ans = new ArrayList<>();
+        final List<List<Integer>> ans = new ArrayList<>();
         // sanity check
         if (graph == null || graph.length == 0)
             return ans;
