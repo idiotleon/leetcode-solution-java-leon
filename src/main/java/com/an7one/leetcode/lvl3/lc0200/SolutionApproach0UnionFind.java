@@ -1,14 +1,17 @@
+package com.an7one.leetcode.lvl3.lc0200;
+
+import com.an7one.util.Constant;
+
 /**
  * @author: Leon
- * https://leetcode.com/problems/number-of-islands/
- * 
+ * <a href="https://leetcode.com/problems/number-of-islands/">LC0200</a>
+ * <p>
  * Time Complexity:     O(`NR` * `NC`)
  * Space Complexity:    O(`NR` * `NC`)
  */
-package com.an7one.leetcode.lvl3.lc0200;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0UnionFind {
-    private final int[] DIRS = { 0, -1, 0, 1, 0 };
+    private final int[] DIRS = {0, -1, 0, 1, 0};
 
     private static final char WATER = '0';
     private static final char LAND = '1';
@@ -41,7 +44,7 @@ public class SolutionApproach0UnionFind {
         return uf.getIslandsCount();
     }
 
-    private class UnionFind {
+    private static class UnionFind {
         private int isolated;
         private final int[] ROOTS, RANKS;
 

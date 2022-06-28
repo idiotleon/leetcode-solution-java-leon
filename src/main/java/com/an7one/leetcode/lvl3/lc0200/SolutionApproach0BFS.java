@@ -1,17 +1,20 @@
-/**
- * @author: Leon
- * https://leetcode.com/problems/number-of-islands/
- * 
- * Time Complexity:     O(`NR` * `NC`)
- * Space Complexity:    O(`NR` * `NC`)
- */
 package com.an7one.leetcode.lvl3.lc0200;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/number-of-islands/">LC0200</a>
+ * <p>
+ * Time Complexity:     O(`NR` * `NC`)
+ * Space Complexity:    O(`NR` * `NC`)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS {
-    private static final int[] DIRS = { 0, -1, 0, 1, 0 };
+    private static final int[] DIRS = {0, -1, 0, 1, 0};
 
     private static final char WATER = '0';
     private static final char LAND = '1';
@@ -39,14 +42,14 @@ public class SolutionApproach0BFS {
     private void bfs(int row, int col, final char[][] GRID) {
         final int NR = GRID.length, NC = GRID[0].length;
 
-        Deque<int[]> queue = new ArrayDeque<>();
-        queue.offer(new int[] { row, col });
+        final Deque<int[]> queue = new ArrayDeque<>();
+        queue.addLast(new int[]{row, col});
 
         while (!queue.isEmpty()) {
             final int SIZE = queue.size();
 
             for (int sz = 0; sz < SIZE; ++sz) {
-                int[] cur = queue.poll();
+                int[] cur = queue.removeFirst();
                 int curRow = cur[0];
                 int curCol = cur[1];
 
@@ -56,7 +59,7 @@ public class SolutionApproach0BFS {
                     if (nextRow < 0 || nextCol < 0 || nextRow >= NR || nextCol >= NC || GRID[nextRow][nextCol] == WATER)
                         continue;
                     GRID[nextRow][nextCol] = WATER;
-                    queue.offer(new int[] { nextRow, nextCol });
+                    queue.addLast(new int[]{nextRow, nextCol});
                 }
             }
         }

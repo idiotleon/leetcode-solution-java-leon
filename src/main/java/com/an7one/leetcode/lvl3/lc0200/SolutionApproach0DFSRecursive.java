@@ -1,14 +1,17 @@
+package com.an7one.leetcode.lvl3.lc0200;
+
+import com.an7one.util.Constant;
+
 /**
  * @author: Leon
- * https://leetcode.com/problems/number-of-islands/
- * 
+ * <a href="https://leetcode.com/problems/number-of-islands/">LC0200</a>
+ * <p>
  * Time Complexity:     O(`NR` * `NC`)
  * Space Complexity:    O(`NR` * `NC`)
  */
-package com.an7one.leetcode.lvl3.lc0200;
-
-public class SolutionApproach0DFS {
-    private static final int[] DIRS = { 0, -1, 0, 1, 0 };
+@SuppressWarnings(Constant.WARNING.UNUSED)
+public class SolutionApproach0DFSRecursive {
+    private static final int[] DIRS = {0, -1, 0, 1, 0};
 
     private static final char WATER = '0';
     private static final char LAND = '1';
@@ -33,16 +36,16 @@ public class SolutionApproach0DFS {
         return islands;
     }
 
-    private void dfs(int row, int col, final char[][] GRID) {
-        final int NR = GRID.length, NC = GRID[0].length;
-        if (row < 0 || col < 0 || row >= NR || col >= NC || GRID[row][col] == WATER)
+    private void dfs(int row, int col, final char[][] grid) {
+        final int NR = grid.length, NC = grid[0].length;
+        if (row < 0 || col < 0 || row >= NR || col >= NC || grid[row][col] == WATER)
             return;
 
-        GRID[row][col] = WATER;
+        grid[row][col] = WATER;
 
         for (int d = 0; d < 4; ++d) {
             int nextRow = row + DIRS[d], nextCol = col + DIRS[d + 1];
-            dfs(nextRow, nextCol, GRID);
+            dfs(nextRow, nextCol, grid);
         }
     }
 }
