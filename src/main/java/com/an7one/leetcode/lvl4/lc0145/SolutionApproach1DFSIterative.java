@@ -1,30 +1,29 @@
-/**
- * https://leetcode.com/problems/binary-tree-postorder-traversal/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(H)
- * 
- * References:
- *  To make sure that all children of a node are traversed
- *  https://leetcode.com/problems/binary-tree-postorder-traversal/discuss/45551/Preorder-Inorder-and-Postorder-Iteratively-Summarization/44991
- */
 package com.an7one.leetcode.lvl4.lc0145;
 
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
+import com.an7one.util.Constant;
 import com.an7one.util.data_structure.tree.TreeNode;
 
+/**
+ * <a href="https://leetcode.com/problems/binary-tree-postorder-traversal/">0145</a>
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(H)
+ * <p>
+ * References:
+ * To make sure that all children of a node are traversed
+ * <a href="https://leetcode.com/problems/binary-tree-postorder-traversal/discuss/45551/Preorder-Inorder-and-Postorder-Iteratively-Summarization/44991">Leetcode</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach1DFSIterative {
     public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer> ans = new ArrayList<>();
+        final List<Integer> ans = new ArrayList<>();
         // sanity check
         if (root == null)
             return ans;
 
-        Deque<TreeNode> stack = new LinkedList<>();
+        final Deque<TreeNode> stack = new ArrayDeque<>();
         TreeNode cur = root;
         while (cur != null || !stack.isEmpty()) {
             while (!isLeaf(cur)) {

@@ -1,24 +1,27 @@
-/**
- * https://leetcode.com/problems/binary-tree-postorder-traversal/
- * 
- * Time Complexity:     O(N)
- * 
- * Space Complexity:    O(N)
- *  O(N), consumed by the auxilliary space of `reverse(TreeNode from, TreeNode to)`
- * 
- * References:
- *  https://gist.github.com/kanrourou/f7f4d46b2285539cc717
- */
 package com.an7one.leetcode.lvl4.lc0145;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.an7one.util.Constant;
 import com.an7one.util.data_structure.tree.TreeNode;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/binary-tree-postorder-traversal/">LC0145</a>
+ * <p>
+ * Time Complexity:     O(N)
+ * <p>
+ * Space Complexity:    O(N)
+ * O(N), consumed by the auxilliary space of `reverse(TreeNode from, TreeNode to)`
+ * <p>
+ * References:
+ * <a href="https://gist.github.com/kanrourou/f7f4d46b2285539cc717">Gist</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach1MorrisPostorderTraversal {
     public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer> ans = new ArrayList<Integer>();
+        final List<Integer> ans = new ArrayList<>();
         // sanity check
         if (root == null)
             return ans;
@@ -48,7 +51,7 @@ public class SolutionApproach1MorrisPostorderTraversal {
         return ans;
     }
 
-    private void collect(TreeNode from, TreeNode to, List<Integer> res) {
+    private void collect(TreeNode from, TreeNode to, final List<Integer> res) {
         reverse(from, to);
         TreeNode cur = to;
         while (cur != from) {

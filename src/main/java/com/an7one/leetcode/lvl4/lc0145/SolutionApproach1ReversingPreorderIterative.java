@@ -1,35 +1,34 @@
-/**
- * https://leetcode.com/problems/binary-tree-postorder-traversal/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(H)
- * 
- * References:
- *  https://www.youtube.com/watch?v=A6iCX_5xiU4
- *  http://zxi.mytechroad.com/blog/tree/leetcode-145-binary-tree-postorder-traversal/
- */
 package com.an7one.leetcode.lvl4.lc0145;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
+import com.an7one.util.Constant;
 import com.an7one.util.data_structure.tree.TreeNode;
 
+/**
+ * <a href="https://leetcode.com/problems/binary-tree-postorder-traversal/">LC0145</a>
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(H)
+ * <p>
+ * References:
+ * <a href="https://youtu.be/A6iCX_5xiU4">Youtube</a>
+ * <a href="http://zxi.mytechroad.com/blog/tree/leetcode-145-binary-tree-postorder-traversal/">HuaHua</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach1ReversingPreorderIterative {
     public List<Integer> postorderTraversal(TreeNode root) {
-        LinkedList<Integer> ans = new LinkedList<>();
+        final List<Integer> ans = new ArrayList<>();
         // sanity check
         if (root == null)
             return ans;
 
-        Deque<TreeNode> stack = new ArrayDeque<>();
+        final Deque<TreeNode> stack = new ArrayDeque<>();
         stack.push(root);
 
         while (!stack.isEmpty()) {
             TreeNode top = stack.pop();
-            ans.addFirst(top.val);
+            ans.add(0, top.val);
 
             if (top.left != null)
                 stack.push(top.left);

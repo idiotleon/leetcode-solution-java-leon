@@ -43,7 +43,7 @@ public class SolutionApproach0MorrisInorderTraversal {
 
         TreeNode cur = root;
         while (cur != null) {
-            /**
+            /*
              * this step mainly serves: if the left subtree has been totally traversed, to
              * go "back" to the `predecessor`.
              */
@@ -63,7 +63,7 @@ public class SolutionApproach0MorrisInorderTraversal {
                     predecessor.right = cur;
                     cur = cur.left;
                 } else {
-                    /**
+                    /*
                      * if `predecessor.right != null`, which means this part has been traversed once
                      * before, now it is safe: 0. to break the predecessor relationship previously
                      * built 1. to visit the `cur` node 2. to go to `cur.right`, which is another
