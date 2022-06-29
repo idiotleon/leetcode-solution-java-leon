@@ -1,29 +1,3 @@
-/**
- * https://leetcode.com/problems/binary-tree-inorder-traversal/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(1)
- * 
- * pseudocode:
- *  cur = root
- *  while cur is not null
- *      if not exists cur.left
- *          visit(cur)
- *          cur = cur.right
- *      else 
- *          predecessor = findInorderPredecessor(cur)
- *          if not exists predecessor.right
- *              predecessor.right = cur
- *              cur = cur.left
- *          else
- *              predecessor.right = null
- *              visit(cur)
- *              cur = cur.right
- * 
- * References:
- *  https://www.youtube.com/watch?v=wGXB9OWhPTg
- *  https://github.com/mission-peace/interview/blob/master/src/com/interview/tree/MorrisTraversal.java
- */
 package com.an7one.leetcode.lvl2.lc0094;
 
 import java.util.ArrayList;
@@ -32,10 +6,37 @@ import java.util.List;
 import com.an7one.util.Constant;
 import com.an7one.util.data_structure.tree.TreeNode;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/binary-tree-inorder-traversal/">LC0094</a>
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(1)
+ * <p>
+ * pseudocode:
+ * cur = root
+ * while cur is not null
+ * if not exists cur.left
+ * visit(cur)
+ * cur = cur.right
+ * else
+ * predecessor = findInorderPredecessor(cur)
+ * if not exists predecessor.right
+ * predecessor.right = cur
+ * cur = cur.left
+ * else
+ * predecessor.right = null
+ * visit(cur)
+ * cur = cur.right
+ * <p>
+ * References:
+ * <a href="https://www.youtube.com/watch?v=wGXB9OWhPTg">youtube</a>
+ * <a href="https://github.com/mission-peace/interview/blob/master/src/com/interview/tree/MorrisTraversal.java">github</a>
+ */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0MorrisInorderTraversal {
     public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> ans = new ArrayList<>();
+        final List<Integer> ans = new ArrayList<>();
         // sanity check
         if (root == null)
             return ans;

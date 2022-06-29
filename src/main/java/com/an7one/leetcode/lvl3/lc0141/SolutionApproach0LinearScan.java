@@ -1,13 +1,16 @@
+package com.an7one.leetcode.lvl3.lc0141;
+
+import com.an7one.util.Constant;
+import com.an7one.util.data_structure.linkedlist.ListNode;
+
 /**
- * https://leetcode.com/problems/linked-list-cycle/
- * 
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/linked-list-cycle/">LC0141</a>
+ * <p>
  * Time Complexity:     O(L)
  * Space Complexity:    O(1)
  */
-package com.an7one.leetcode.lvl3.lc0141;
-
-import com.an7one.util.data_structure.linkedlist.ListNode;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0LinearScan {
     public boolean hasCycle(ListNode head) {
         // sanity check
