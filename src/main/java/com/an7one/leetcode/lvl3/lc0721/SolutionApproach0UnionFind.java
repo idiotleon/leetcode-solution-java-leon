@@ -1,14 +1,6 @@
-/**
- * https://leetcode.com/problems/accounts-merge/
- * 
- * Time Complexity:     O(N) ~ O(N * lg(N)) ~ O(N ^ 2)
- * Space Complexity:    O()
- * 
- * References:
- *  https://leetcode.com/problems/accounts-merge/discuss/109157/JavaC++-Union-Find/241144
- *  https://leetcode.com/problems/accounts-merge/discuss/109157/JavaC++-Union-Find/286437
- */
 package com.an7one.leetcode.lvl3.lc0721;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -18,22 +10,34 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/accounts-merge/">LC0721</a>
+ * <p>
+ * Time Complexity:     O(N) ~ O(N * lg(N)) ~ O(N ^ 2)
+ * Space Complexity:    O()
+ * <p>
+ * References:
+ * <a href="https://leetcode.com/problems/accounts-merge/discuss/109157/JavaC++-Union-Find/241144">reference</a>
+ * <a href="https://leetcode.com/problems/accounts-merge/discuss/109157/JavaC++-Union-Find/286437">reference</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0UnionFind {
-    public List<List<String>> accountsMerge(List<List<String>> accounts) {
-        List<List<String>> ans = new ArrayList<List<String>>();
-        // sanityc check
+    public List<List<String>> accountsMerge(final List<List<String>> accounts) {
+        final List<List<String>> ans = new ArrayList<>();
+        // sanity check
         if (accounts == null || accounts.size() == 0)
             return ans;
 
         // to initialize the union find
         final int N = accounts.size();
-        UnionFind uf = new UnionFind(N);
+        final UnionFind uf = new UnionFind(N);
 
         // to build up the union find
-        Map<String, Integer> mailToIndex = new HashMap<String, Integer>();
+        final Map<String, Integer> mailToIndex = new HashMap<>();
         for (int i = 0; i < N; i++) {
             for (int j = 1; j < accounts.get(i).size(); j++) {
-                String curMail = accounts.get(i).get(j);
+                final String curMail = accounts.get(i).get(j);
                 if (mailToIndex.containsKey(curMail)) {
                     int preIdx = mailToIndex.get(curMail);
                     uf.union(preIdx, i);
@@ -43,12 +47,12 @@ public class SolutionApproach0UnionFind {
             }
         }
 
-        Map<Integer, Set<String>> disjointSet = new HashMap<Integer, Set<String>>();
-        for (int i = 0; i < N; i++) {
+        final Map<Integer, Set<String>> disjointSet = new HashMap<>();
+        for (int i = 0; i < N; ++i) {
             int parentIndex = uf.find(i);
-            disjointSet.putIfAbsent(parentIndex, new HashSet<String>());
+            disjointSet.putIfAbsent(parentIndex, new HashSet<>());
 
-            Set<String> curSet = disjointSet.get(parentIndex);
+            final Set<String> curSet = disjointSet.get(parentIndex);
             for (int j = 1; j < accounts.get(i).size(); j++) {
                 curSet.add(accounts.get(i).get(j));
             }
@@ -56,9 +60,7 @@ public class SolutionApproach0UnionFind {
         }
 
         for (int index : disjointSet.keySet()) {
-            List<String> curList = new ArrayList<String>();
-            curList.addAll(disjointSet.get(index));
-
+            final List<String> curList = new ArrayList<>(disjointSet.get(index));
             Collections.sort(curList);
             curList.add(0, accounts.get(index).get(0));
             ans.add(curList);
@@ -67,9 +69,9 @@ public class SolutionApproach0UnionFind {
         return ans;
     }
 
-    private class UnionFind {
-        private int[] roots;
-        private int[] ranks;
+    private static class UnionFind {
+        private final int[] roots;
+        private final int[] ranks;
 
         public UnionFind(int size) {
             this.roots = new int[size];
@@ -81,9 +83,9 @@ public class SolutionApproach0UnionFind {
             }
         }
 
-        public void union(int x, int y) {
-            int rootX = find(x);
-            int rootY = find(y);
+        public void union(final int x, final int y) {
+            final int rootX = find(x);
+            final int rootY = find(y);
             if (rootX == rootY)
                 return;
 
@@ -96,7 +98,7 @@ public class SolutionApproach0UnionFind {
             }
         }
 
-        public int find(int x) {
+        public int find(final int x) {
             // path compression
             if (x != roots[x]) {
                 roots[x] = find(roots[x]);
