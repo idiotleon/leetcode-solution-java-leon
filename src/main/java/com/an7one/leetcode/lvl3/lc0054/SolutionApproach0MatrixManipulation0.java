@@ -1,17 +1,21 @@
-/**
- * https://leetcode.com/problems/spiral-matrix
- * 
- * Time Complexity:     O(NR * NC)
- * Space Complexity:    O(NR * NC)
- */
 package com.an7one.leetcode.lvl3.lc0054;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SolutionApproach0LinearScan {
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/spiral-matrix">LC0054</a>
+ * <p>
+ * Time Complexity:     O(NR * NC)
+ * Space Complexity:    O(NR * NC)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
+public class SolutionApproach0MatrixManipulation0 {
     public List<Integer> spiralOrder(int[][] matrix) {
-        List<Integer> ans = new ArrayList<Integer>();
+        final List<Integer> ans = new ArrayList<>();
         // sanity check
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0)
             return ans;
@@ -52,43 +56,5 @@ public class SolutionApproach0LinearScan {
         }
 
         return ans;
-    }
-
-    public List<Integer> spiralOrder2(int[][] matrix) {
-        List<Integer> res = new ArrayList<Integer>();
-
-        if (matrix.length == 0)
-            return res;
-
-        int rowBegin = 0, rowEnd = matrix.length - 1;
-        int colBegin = 0, colEnd = matrix[0].length - 1;
-
-        while (rowBegin <= rowEnd && colBegin <= colEnd) {
-            for (int j = colBegin; j <= colEnd; j++) {
-                res.add(matrix[rowBegin][j]);
-            }
-            rowBegin++;
-
-            for (int j = rowBegin; j <= rowEnd; j++) {
-                res.add(matrix[j][colEnd]);
-            }
-            colEnd--;
-
-            if (rowBegin <= rowEnd) {
-                for (int j = colEnd; j >= colBegin; j--) {
-                    res.add(matrix[rowEnd][j]);
-                }
-            }
-            rowEnd--;
-
-            if (colBegin <= colEnd) {
-                for (int j = rowEnd; j >= rowBegin; j--) {
-                    res.add(matrix[j][colBegin]);
-                }
-            }
-            colBegin++;
-        }
-
-        return res;
     }
 }
