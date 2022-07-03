@@ -1,16 +1,19 @@
-/**
- * https://leetcode.com/problems/wiggle-subsequence/
- * 
- * Time Complexity:     O(N ^ 2)
- * Space Complexity:    O(N)
- * 
- * References:
- *  https://leetcode.com/problems/wiggle-subsequence/discuss/84883/Two-solutions.-One-is-DP-the-other-is-greedy-(8-lines).
- */
 package com.an7one.leetcode.lvl3.lc0376;
+
+import com.an7one.util.Constant;
 
 import java.util.Arrays;
 
+/**
+ * <a href="https://leetcode.com/problems/wiggle-subsequence/">LC0376</a>
+ * <p>
+ * Time Complexity:     O(N ^ 2)
+ * Space Complexity:    O(N)
+ * <p>
+ * References:
+ * <a href="https://leetcode.com/problems/wiggle-subsequence/discuss/84883/Two-solutions.-One-is-DP-the-other-is-greedy-(8-lines)">Leetcode</a>.
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP1Dimen2 {
     public int wiggleMaxLength(int[] nums) {
         // sanity check

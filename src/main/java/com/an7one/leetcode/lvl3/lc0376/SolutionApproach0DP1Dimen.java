@@ -1,14 +1,17 @@
-/**
- * https://leetcode.com/problems/wiggle-subsequence/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(N)
- * 
- * References:
- *  https://leetcode.com/problems/wiggle-subsequence/discuss/84843/Easy-understanding-DP-solution-with-O(n)-Java-version
- */
 package com.an7one.leetcode.lvl3.lc0376;
 
+import com.an7one.util.Constant;
+
+/**
+ * <a href="https://leetcode.com/problems/wiggle-subsequence/">LC0376</a>
+ * <p>
+ * Time Complexity:     O(`N`)
+ * Space Complexity:    O(`N`)
+ * <p>
+ * References:
+ * <a href="https://leetcode.com/problems/wiggle-subsequence/discuss/84843/Easy-understanding-DP-solution-with-O(n)-Java-version">Leetcode</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP1Dimen {
     public int wiggleMaxLength(int[] nums) {
         // sanity check

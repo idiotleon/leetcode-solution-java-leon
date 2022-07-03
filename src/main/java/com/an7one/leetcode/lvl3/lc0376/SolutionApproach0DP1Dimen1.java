@@ -1,18 +1,22 @@
-/**
- * https://leetcode.com/problems/wiggle-subsequence/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(N)
- * 
- * References:
- *  https://youtu.be/FLbqgyJ-70I?t=1306
- *  https://docs.google.com/presentation/d/1OeA0rsnOrklarLM5G2tHHJ6EE37HpRqD7KedzOqkihk/edit#slide=id.g8285dd8f3f_1_299
- *  https://leetcode.com/problems/wiggle-subsequence/discuss/84843/Easy-understanding-DP-solution-with-O(n)-Java-version
- */
 package com.an7one.leetcode.lvl3.lc0376;
+
+import com.an7one.util.Constant;
 
 import java.util.Arrays;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/wiggle-subsequence/">LC0376</a>
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
+ * <p>
+ * References:
+ * <a href="https://youtu.be/FLbqgyJ-70I?t=1306">Youtube</a>
+ * <a href="https://docs.google.com/presentation/d/1OeA0rsnOrklarLM5G2tHHJ6EE37HpRqD7KedzOqkihk/edit#slide=id.g8285dd8f3f_1_299">Google Doc</a>
+ * <a href="https://leetcode.com/problems/wiggle-subsequence/discuss/84843/Easy-understanding-DP-solution-with-O(n)-Java-version">Leetcode</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP1Dimen1 {
     public int wiggleMaxLength(int[] nums) {
         // sanity check
