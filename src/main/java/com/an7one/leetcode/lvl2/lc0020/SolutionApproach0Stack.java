@@ -6,7 +6,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * https://leetcode.com/problems/valid-parentheses/
+ * <a href="https://leetcode.com/problems/valid-parentheses/">LC0020</a>
  * <p>
  * Time Complexity:     O(`L`)
  * Space Complexity:    O(`L`)
@@ -22,32 +22,29 @@ public class SolutionApproach0Stack {
 
     public boolean isValid(String s) {
         final int L = s.length();
-        Deque<Character> stack = new ArrayDeque<>();
-        char[] chs = s.toCharArray();
+        final Deque<Character> stack = new ArrayDeque<>();
+        final char[] chs = s.toCharArray();
 
         for (final char ch : chs) {
             switch (ch) {
                 case PAREN_OPEN1:
-                    stack.push(PAREN_CLOSED1);
+                    stack.addLast(PAREN_CLOSED1);
                     break;
                 case PAREN_OPEN2:
-                    stack.push(PAREN_CLOSED2);
+                    stack.addLast(PAREN_CLOSED2);
                     break;
                 case PAREN_OPEN3:
-                    stack.push(PAREN_CLOSED3);
+                    stack.addLast(PAREN_CLOSED3);
                     break;
                 default:
                     if (stack.isEmpty())
                         return false;
-                    if (stack.pop() != ch)
+                    if (stack.removeLast() != ch)
                         return false;
                     break;
             }
         }
 
-        if (!stack.isEmpty())
-            return false;
-
-        return true;
+        return stack.isEmpty();
     }
 }
