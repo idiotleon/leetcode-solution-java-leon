@@ -1,4 +1,4 @@
-package com.an7one.leetcode.lvl2.lc0020;
+package com.an7one.leetcode.lvl1.lc0020;
 
 import com.an7one.util.Constant;
 
