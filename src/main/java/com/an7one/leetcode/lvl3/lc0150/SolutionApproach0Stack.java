@@ -1,14 +1,17 @@
-/**
- * https://leetcode.com/problems/evaluate-reverse-polish-notation/
- * 
- * Time Complexity:     O(L)
- * Space Complexity:    O(L)
- */
 package com.an7one.leetcode.lvl3.lc0150;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * <a href="https://leetcode.com/problems/evaluate-reverse-polish-notation/">LC0150</a>
+ * <p>
+ * Time Complexity:     O(L)
+ * Space Complexity:    O(L)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Stack {
     private static final String SIGN_PLUS = "+";
     private static final String SIGN_MINUS = "-";

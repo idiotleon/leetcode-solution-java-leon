@@ -1,24 +1,27 @@
+package com.an7one.leetcode.lvl3.lc0147;
+
+import com.an7one.util.Constant;
+import com.an7one.util.data_structure.linkedlist.ListNode;
+
 /**
- * https://leetcode.com/problems/insertion-sort-list/
- * 
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/insertion-sort-list/">LC0147</a>
+ * <p>
  * Time Complexity:     O(L ^ 2)
  * Space Complexity:    O(1)
  */
-package com.an7one.leetcode.lvl3.lc0147;
-
-import com.an7one.util.data_structure.linkedlist.ListNode;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0InsertionSort {
     public ListNode insertionSortList(ListNode head) {
         // sanity check
         if (head == null)
             return head;
 
-        ListNode dummy = new ListNode(-1);
+        final ListNode dummy = new ListNode(-1);
         ListNode prev = dummy;
 
         while (head != null) {
-            ListNode next = head.next;
+            final ListNode next = head.next;
 
             // to reset `prev`
             if (prev.val >= head.val) {
