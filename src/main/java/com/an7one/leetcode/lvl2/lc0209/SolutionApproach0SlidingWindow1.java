@@ -1,12 +1,16 @@
+package com.an7one.leetcode.lvl2.lc0209;
+
+import com.an7one.util.Constant;
+
 /**
- * https://leetcode.com/problems/minimum-size-subarray-sum/
- * 
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/minimum-size-subarray-sum/">LC0209</a>
+ * <p>
  * Time Complexity:     O(N)
  * Space Complexity:    O(1)
  */
-package com.an7one.leetcode.lvl2.lc0209;
-
-public class SolutionApproach0SlidngWindow1 {
+@SuppressWarnings(Constant.WARNING.UNUSED)
+public class SolutionApproach0SlidingWindow1 {
     public int minSubArrayLen1(int s, int[] nums) {
         // sanity check
         if (nums == null || nums.length == 0)

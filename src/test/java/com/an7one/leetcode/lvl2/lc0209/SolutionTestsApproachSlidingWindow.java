@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import com.an7one.util.Constants;
 
 class SolutionTestsApproachSlidingWindow {
-    private final SolutionApproach0SlidngWindow solution = new SolutionApproach0SlidngWindow();
+    private final SolutionApproach0SlidingWindow solution = new SolutionApproach0SlidingWindow();
 
     @Test
     @DisplayName("209. Minimum Size Subarray Sum")
