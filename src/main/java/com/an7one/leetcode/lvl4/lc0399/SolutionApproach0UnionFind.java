@@ -1,29 +1,34 @@
-/**
- * https://leetcode.com/problems/evaluate-division/
- * 
- * Time Complexity:
- * Space Complexity:
- */
 package com.an7one.leetcode.lvl4.lc0399;
+
+import com.an7one.util.Constant;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/evaluate-division/">LC0399</a>
+ * <p>
+ * Time Complexity:     O()
+ * Space Complexity:    O()
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0UnionFind {
-    public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
-        Map<String, String> roots = new HashMap<String, String>();
-        Map<String, Double> ratios = new HashMap<String, Double>();
+    public double[] calcEquation(final List<List<String>> equations, final double[] values, final List<List<String>> queries) {
+        final Map<String, String> roots = new HashMap<>();
+        final Map<String, Double> ratios = new HashMap<>();
 
-        for (int i = 0; i < equations.size(); i++) {
-            union(roots, ratios, equations.get(i).get(0), equations.get(i).get(1), values[i]);
+        for (int i = 0; i < equations.size(); ++i) {
+            union(equations.get(i).get(0), equations.get(i).get(1), values[i], roots, ratios);
         }
 
-        double[] ans = new double[queries.size()];
-        for (int i = 0; i < queries.size(); i++) {
-            String start = queries.get(i).get(0), end = queries.get(i).get(1);
+        final double[] ans = new double[queries.size()];
+        for (int i = 0; i < queries.size(); ++i) {
+            final String start = queries.get(i).get(0), end = queries.get(i).get(1);
             if (!roots.containsKey(start) || !roots.containsKey(end)
-                    || !(find(roots, ratios, start)).equals(find(roots, ratios, end))) {
+                    || !Objects.equals(find(start, roots, ratios), find(end, roots, ratios))) {
                 ans[i] = -1.0;
             } else {
                 ans[i] = ratios.get(start) / ratios.get(end);
@@ -33,30 +38,30 @@ public class SolutionApproach0UnionFind {
         return ans;
     }
 
-    private void union(Map<String, String> roots, Map<String, Double> ratios, String start, String end, double val) {
+    private void union(
+            final String start,
+            final String end,
+            final double val,
+            final Map<String, String> roots,
+            final Map<String, Double> ratios) {
+        roots.putIfAbsent(start, start);
+        ratios.putIfAbsent(start, 1.0);
 
-        if (!roots.containsKey(start)) {
-            roots.put(start, start);
-            ratios.put(start, 1.0);
-        }
+        roots.putIfAbsent(end, end);
+        ratios.putIfAbsent(end, 1.0);
 
-        if (!roots.containsKey(end)) {
-            roots.put(end, end);
-            ratios.put(end, 1.0);
-        }
-
-        String rootStart = find(roots, ratios, start);
-        String rootEnd = find(roots, ratios, end);
+        final String rootStart = find(start, roots, ratios);
+        final String rootEnd = find(end, roots, ratios);
         roots.put(rootStart, rootEnd);
         ratios.put(rootStart, val * ratios.get(end) / ratios.get(start));
     }
 
-    private String find(Map<String, String> roots, Map<String, Double> ratios, String start) {
+    private String find(final String start, final Map<String, String> roots, final Map<String, Double> ratios) {
         if (start.equals(roots.get(start)))
             return start;
 
-        String father = roots.get(start);
-        String grandpa = find(roots, ratios, father);
+        final String father = roots.get(start);
+        final String grandpa = find(father, roots, ratios);
         roots.put(start, grandpa); // path compression
         ratios.put(start, ratios.get(start) * ratios.get(father));
         return grandpa;

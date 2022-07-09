@@ -1,39 +1,44 @@
-/**
- * https://leetcode.com/problems/evaluate-division/
- * 
- * Time Complexity:     O(equations.size() + queries.size())
- * Space Complexity:    O(equations.size())
- * 
- * References:
- *  https://leetcode.com/problems/evaluate-division/discuss/278276/Java-Union-find-and-DFS
- */
 package com.an7one.leetcode.lvl4.lc0399;
+
+import com.an7one.util.Constant;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/evaluate-division/">LC0399</a>
+ * <p>
+ * Time Complexity:     O(equations.size() + queries.size())
+ * Space Complexity:    O(equations.size())
+ * <p>
+ * Reference:
+ * <a href="https://leetcode.com/problems/evaluate-division/discuss/278276/Java-Union-find-and-DFS">LC Discussion</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0UnionFind1 {
-    private Map<String, String> roots = new HashMap<String, String>();
-    private Map<String, Double> vals = new HashMap<String, Double>();
+    private final Map<String, String> roots = new HashMap<>();
+    private final Map<String, Double> vals = new HashMap<>();
 
     public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
-        double[] ans = new double[queries.size()];
+        final double[] ans = new double[queries.size()];
 
         for (int i = 0; i < values.length; ++i) {
             union(equations.get(i).get(0), equations.get(i).get(1), values[i]);
         }
 
         for (int i = 0; i < queries.size(); i++) {
-            String x = queries.get(i).get(0), y = queries.get(i).get(1);
-            ans[i] = (roots.containsKey(x) && roots.containsKey(y) && find(x) == find(y)) ? vals.get(x) / vals.get(y)
+            final String x = queries.get(i).get(0), y = queries.get(i).get(1);
+            ans[i] = (roots.containsKey(x) && roots.containsKey(y) && Objects.equals(find(x), find(y))) ? vals.get(x) / vals.get(y)
                     : -1.0;
         }
 
         return ans;
     }
 
-    private void add(String x) {
+    private void add(final String x) {
         if (roots.containsKey(x))
             return;
         roots.put(x, x);
@@ -41,9 +46,9 @@ public class SolutionApproach0UnionFind1 {
     }
 
     private String find(String x) {
-        String root = roots.getOrDefault(x, x);
-        if (x != root) {
-            String grandRoot = find(root);
+        final String root = roots.getOrDefault(x, x);
+        if (!Objects.equals(x, root)) {
+            final String grandRoot = find(root);
             vals.put(x, vals.get(x) * vals.get(root));
             roots.put(x, grandRoot);
         }
