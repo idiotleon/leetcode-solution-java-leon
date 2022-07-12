@@ -1,32 +1,35 @@
-/**
- * https://leetcode.com/problems/find-bottom-left-tree-value/
- */
 package com.an7one.leetcode.lvl3.lc0513;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
+import com.an7one.util.Constant;
 import com.an7one.util.data_structure.tree.TreeNode;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/find-bottom-left-tree-value/">LC0513</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproachBFS {
     public int findBottomLeftValue(TreeNode root) {
         // it is assumed that root is NOT null
         // no need to perform sanity check
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        queue.add(root);
+        final Deque<TreeNode> queue = new ArrayDeque<>();
+        queue.addLast(root);
         int ans = root.val;
-        
-        while(!queue.isEmpty()){
+
+        while (!queue.isEmpty()) {
             int size = queue.size();
-            
-            for(int i = 0; i < size; i++){
-                TreeNode cur = queue.poll();
-                if(i == 0) ans = cur.val;
-                if(cur.left != null) queue.add(cur.left);
-                if(cur.right != null) queue.add(cur.right);
+
+            for (int i = 0; i < size; ++i) {
+                TreeNode cur = queue.removeFirst();
+                if (i == 0) ans = cur.val;
+                if (cur.left != null) queue.add(cur.left);
+                if (cur.right != null) queue.add(cur.right);
             }
         }
-        
+
         return ans;
     }
 }
