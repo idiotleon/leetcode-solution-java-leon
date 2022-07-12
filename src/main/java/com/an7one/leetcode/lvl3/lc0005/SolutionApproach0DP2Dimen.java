@@ -4,14 +4,14 @@ import com.an7one.util.Constant;
 
 /**
  * @author: Leon
- * <a href="https://leetcode.com/problems/longest-palindromic-substring/">Description</a>
- *
+ * <a href="https://leetcode.com/problems/longest-palindromic-substring/">LC0005</a>
+ * <p>
  * Time Complexity:     O(L ^ 2)
  * Space Complexity:    O(L ^ 2)
- *
+ * <p>
  * `dp[i][j]`, whether `str.substring(i, j)` is a palindrome
- *
- * References:
+ * <p>
+ * Reference:
  * <a href="https://leetcode.com/problems/longest-palindromic-substring/discuss/2921/Share-my-Java-solution-using-dynamic-programming/223961">...</a>
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)

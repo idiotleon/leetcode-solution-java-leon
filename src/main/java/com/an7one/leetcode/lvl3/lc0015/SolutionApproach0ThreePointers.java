@@ -1,18 +1,21 @@
-/**
- * https://leetcode.com/problems/3sum
- * 
- * Time Complexity:     O(N ^ 2) + O(N * lg(N)) ~ O(N ^ 2)
- * Space Complexity:    O(1)
- */
 package com.an7one.leetcode.lvl3.lc0015;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * <a href="https://leetcode.com/problems/3sum">LC0015</a>
+ * <p>
+ * Time Complexity:     O(N ^ 2) + O(N * lg(N)) ~ O(N ^ 2)
+ * Space Complexity:    O(1)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0ThreePointers {
     public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        final List<List<Integer>> ans = new ArrayList<>();
         // sanity check
         if (nums == null || nums.length == 0)
             return ans;
@@ -32,10 +35,12 @@ public class SolutionApproach0ThreePointers {
                     ans.add(Arrays.asList(nums[idx], nums[lo], nums[hi]));
                     ++lo;
                     --hi;
-                    while (lo < hi && nums[lo - 1] == nums[lo])
+                    while (lo < hi && nums[lo - 1] == nums[lo]) {
                         ++lo;
-                    while (lo < hi && nums[hi] == nums[hi + 1])
+                    }
+                    while (lo < hi && nums[hi] == nums[hi + 1]) {
                         --hi;
+                    }
                 } else if (sum > target)
                     --hi;
                 else

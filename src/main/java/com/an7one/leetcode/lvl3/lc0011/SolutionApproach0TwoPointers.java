@@ -1,14 +1,17 @@
-/**
- * https://leetcode.com/problems/container-with-most-water/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(1)
- * 
- * References:
- *  https://leetcode.com/problems/container-with-most-water/discuss/6091/Easy-Concise-Java-O(N)-Solution-with-Proof-and-Explanation
- */
 package com.an7one.leetcode.lvl3.lc0011;
 
+import com.an7one.util.Constant;
+
+/**
+ * <a href="https://leetcode.com/problems/container-with-most-water/">LC0011</a>
+ * <p>
+ * Time Complexity:     O(`N`)
+ * Space Complexity:    O(1)
+ * <p>
+ * Reference:
+ * <a href="https://leetcode.com/problems/container-with-most-water/discuss/6091/Easy-Concise-Java-O(N)-Solution-with-Proof-and-Explanation">LC Discussion</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0TwoPointers {
     public int maxArea(int[] heights) {
         // sanity check
@@ -19,7 +22,7 @@ public class SolutionApproach0TwoPointers {
         int maxArea = 0;
 
         while (lo < hi) {
-            int area = Math.min(heights[lo], heights[hi]) * (hi - lo);
+            final int area = Math.min(heights[lo], heights[hi]) * (hi - lo);
             maxArea = Math.max(maxArea, area);
 
             if (heights[lo] < heights[hi])

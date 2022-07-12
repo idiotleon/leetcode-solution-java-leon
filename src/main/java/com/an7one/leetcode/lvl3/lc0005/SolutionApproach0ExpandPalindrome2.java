@@ -3,13 +3,14 @@ package com.an7one.leetcode.lvl3.lc0005;
 import com.an7one.util.Constant;
 
 /**
- * https://leetcode.com/problems/longest-palindromic-substring/
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/longest-palindromic-substring/">LC0005</a>
  * <p>
  * Time Complexity:     O(L ^ 2)
  * Space Complexity:    O(1)
  * <p>
- * References:
- * https://leetcode.com/problems/longest-palindromic-substring/discuss/2928/Very-simple-clean-java-solution/3700
+ * Reference:
+ * <a href="https://leetcode.com/problems/longest-palindromic-substring/discuss/2928/Very-simple-clean-java-solution/3700">LC Discussion</a>
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0ExpandPalindrome2 {
@@ -22,8 +23,8 @@ public class SolutionApproach0ExpandPalindrome2 {
 
         String longest = "";
         for (int i = 0; i < L; ++i) {
-            String str1 = expand(i, i, str);
-            String str2 = expand(i, i + 1, str);
+            final String str1 = expand(i, i, str);
+            final String str2 = expand(i, i + 1, str);
 
             if (str1.length() > longest.length())
                 longest = str1;

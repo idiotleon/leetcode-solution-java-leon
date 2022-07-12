@@ -3,7 +3,8 @@ package com.an7one.leetcode.lvl3.lc0005;
 import com.an7one.util.Constant;
 
 /**
- * https://leetcode.com/problems/longest-palindromic-substring/
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/longest-palindromic-substring/">LC0005</a>
  * <p>
  * Time Complexity:     O(L ^ 2)
  * Space Complexity:    O(1)
@@ -17,13 +18,13 @@ public class SolutionApproach0ExpandPalindrome1 {
             return s;
 
         final int L = s.length();
-        char[] chs = s.toCharArray();
+        final char[] chs = s.toCharArray();
 
         int start = 0, end = 0;
         for (int i = 0; i < L; ++i) {
-            int len1 = expand(i, i, chs);
-            int len2 = expand(i, i + 1, chs);
-            int len = Math.max(len1, len2);
+            final int len1 = expand(i, i, chs);
+            final int len2 = expand(i, i + 1, chs);
+            final int len = Math.max(len1, len2);
 
             if (len > end - start) {
                 start = i - (len - 1) / 2;

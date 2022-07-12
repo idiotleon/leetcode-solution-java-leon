@@ -3,7 +3,7 @@ package com.an7one.leetcode.lvl3.lc0033;
 import com.an7one.util.Constant;
 
 /**
- * https://leetcode.com/problems/search-in-rotated-sorted-array/
+ * <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/">LC0033</a>
  * <p>
  * Time Complexity:     O(lg(N))
  * Space Complexity:    O(1)
@@ -18,7 +18,7 @@ public class SolutionApproach0BinarySearch {
         final int N = nums.length;
         int lo = 0, hi = N - 1;
         while (lo <= hi) {
-            int mid = lo + (hi - lo) / 2;
+            final int mid = lo + (hi - lo) / 2;
 
             if (nums[mid] == target)
                 return mid;

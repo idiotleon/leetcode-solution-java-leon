@@ -3,13 +3,14 @@ package com.an7one.leetcode.lvl3.lc0029;
 import com.an7one.util.Constant;
 
 /**
- * https://leetcode.com/problems/divide-two-integers/
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/divide-two-integers/">LC0029</a>
  * <p>
  * Time Complexity:     O(32) ~ O(1)
  * Space Complexity:    O(1)
  * <p>
- * Refereces:
- * https://leetcode.com/problems/divide-two-integers/discuss/142849/C%2B%2BJavaPython-Should-Not-Use-%22long%22-Int
+ * Reference:
+ * <a href="https://leetcode.com/problems/divide-two-integers/discuss/142849/C%2B%2BJavaPython-Should-Not-Use-%22long%22-Int">LC Discussion</a>
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach1BitManipulation {

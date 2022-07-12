@@ -3,7 +3,7 @@ package com.an7one.leetcode.lvl3.lc0029;
 import com.an7one.util.Constant;
 
 /**
- * https://leetcode.com/problems/divide-two-integers/
+ * <a href="https://leetcode.com/problems/divide-two-integers/">LC0029</a>
  * <p>
  * Time Complexity:     O()
  * Space Complexity:    O()
@@ -16,11 +16,10 @@ public class SolutionApproach1DFS {
     }
 
     private long divideLong(long dividend, long divisor) {
-
         // to remember the sign
         boolean negative = dividend < 0 != divisor < 0;
 
-        // to make dividend and divisor unsign
+        // to make dividend and divisor unsigned
         if (dividend < 0)
             dividend = -dividend;
         if (divisor < 0)
@@ -38,7 +37,7 @@ public class SolutionApproach1DFS {
             divide += divide;
         }
 
-        // to make a recursive call for (devidend - sum) and add it to the result
+        // to make a recursive call for (dividend - sum) and add it to the result
         return negative ? -(divide + divideLong((dividend - sum), divisor))
                 : (divide + divideLong((dividend - sum), divisor));
     }

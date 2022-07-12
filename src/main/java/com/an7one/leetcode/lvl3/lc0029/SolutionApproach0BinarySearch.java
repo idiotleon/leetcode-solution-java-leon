@@ -3,14 +3,14 @@ package com.an7one.leetcode.lvl3.lc0029;
 import com.an7one.util.Constant;
 
 /**
- * https://leetcode.com/problems/divide-two-integers/
+ * <a href="https://leetcode.com/problems/divide-two-integers/">LC0029</a>
  * <p>
  * Time Complexity:     O((lg(dividend)) ^ 2)
  * Space Complexity:    O(1)
  * <p>
- * References:
- * https://leetcode.com/problems/divide-two-integers/discuss/142849/C%2B%2BJavaPython-Should-Not-Use-%22long%22-Int
- * https://www.youtube.com/watch?v=htX69j1jf5U
+ * Reference:
+ * <a href="https://leetcode.com/problems/divide-two-integers/discuss/142849/C%2B%2BJavaPython-Should-Not-Use-%22long%22-Int">LC Discussion</a>
+ * <a href="https://youtu.be/htX69j1jf5U">Youtube</a>
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BinarySearch {
@@ -22,8 +22,7 @@ public class SolutionApproach0BinarySearch {
         int a = Math.abs(dividend), b = Math.abs(divisor);
         int ans = 0, count = 0;
         while (a - b >= 0) {
-            for (count = 0; a - (b << 1 << count) >= 0; count++)
-                ;
+            for (count = 0; a - (b << 1 << count) >= 0; count++) ;
             ans += 1 << count;
             a -= b << count;
         }
