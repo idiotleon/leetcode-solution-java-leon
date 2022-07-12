@@ -1,16 +1,19 @@
-/**
- * https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
- * 
- * Time Complexity:     O(L1 * L2)
- * Space Complexity:    O(L2)
- * 
- * References:
- *  https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/discuss/108828/C%2B%2B-DP-with-explanation
- *  https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/discuss/642422/for-those-who-have-no-clue-%3A-step-by-step
- *  https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/discuss/161054/Java-O(nm)-time-and-O(n)-space-solution
- */
 package com.an7one.leetcode.lvl3.lc0712;
 
+import com.an7one.util.Constant;
+
+/**
+ * <a href="https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/">LC0712</a>
+ * <p>
+ * Time Complexity:     O(L1 * L2)
+ * Space Complexity:    O(L2)
+ * <p>
+ * Reference:
+ * <a href="https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/discuss/108828/C%2B%2B-DP-with-explanation">LC Discussion</a>
+ * <a href="https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/discuss/642422/for-those-who-have-no-clue-%3A-step-by-step">LC Discussion</a>
+ * <a href="https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/discuss/161054/Java-O(nm)-time-and-O(n)-space-solution">LC Discussion</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP1Dimen {
     public int minimumDeleteSum(String s1, String s2) {
         final int L1 = s1.length(), L2 = s2.length();
