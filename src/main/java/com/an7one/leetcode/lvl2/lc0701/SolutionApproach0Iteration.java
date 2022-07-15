@@ -1,16 +1,18 @@
-/**
- * https://leetcode.com/problems/insert-into-a-binary-search-tree/
- * 
- * Time Complexity:     O(lg(N))
- * Space Complexity:    O(1)
- * 
- * References:
- *  https://leetcode.com/problems/insert-into-a-binary-search-tree/discuss/150757/java-iterative-100/486467
- */
 package com.an7one.leetcode.lvl2.lc0701;
 
+import com.an7one.util.Constant;
 import com.an7one.util.data_structure.tree.TreeNode;
 
+/**
+ * <a href="https://leetcode.com/problems/insert-into-a-binary-search-tree/">LC0701</a>
+ * <p>
+ * Time Complexity:     O(lg(N))
+ * Space Complexity:    O(1)
+ * <p>
+ * Reference:
+ * <a href="https://leetcode.com/problems/insert-into-a-binary-search-tree/discuss/150757/java-iterative-100/486467">LC Discussion</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Iteration {
     public TreeNode insertIntoBST(TreeNode root, int val) {
         // sanity check

@@ -1,26 +1,30 @@
-/**
- * https://leetcode.com/problems/find-smallest-letter-greater-than-target/
- * 
- * 
- * References:
- *  https://leetcode.com/problems/find-smallest-letter-greater-than-target/discuss/110005/Easy-Binary-Search-in-Java-O(log(n))-time
- */
 package com.an7one.leetcode.lvl2.lc0744;
 
+import com.an7one.util.Constant;
+
+/**
+ * <a href="https://leetcode.com/problems/find-smallest-letter-greater-than-target/">LC0744</a>
+ * <p>
+ * <p>
+ * Reference:
+ * <a href="https://leetcode.com/problems/find-smallest-letter-greater-than-target/discuss/110005/Easy-Binary-Search-in-Java-O(log(n))-time">LC Discussion</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BinarySearch {
     public char nextGreatestLetter(char[] letters, char target) {
-        if(letters == null || letters.length == 0) return 0;
-        
+        // sanity check
+        if (letters == null || letters.length == 0) return 0;
+
         final int N = letters.length;
-        
-        int left = 0, right = N - 1;
-        
-        while(left <= right){
-            int mid = left + (right - left) / 2;
-            if(letters[mid] > target) right = mid - 1;
-            else left = mid + 1;
+
+        int lo = 0, hi = N - 1;
+
+        while (lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (letters[mid] > target) hi = mid - 1;
+            else lo = mid + 1;
         }
-        
-        return letters[left % N];
+
+        return letters[lo % N];
     }
 }

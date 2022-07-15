@@ -4,7 +4,7 @@ import com.an7one.util.Constant;
 
 /**
  * @author: Leon
- * https://leetcode.com/problems/max-area-of-island/
+ * <a href="https://leetcode.com/problems/max-area-of-island/">LC0695</a>
  * <p>
  * Time Complexity:     O(`NR` * `NC`)
  * Time Complexity:     O(`NR` * `NC`)
@@ -15,7 +15,7 @@ public class SolutionApproach0DFSRecursive0 {
     private final static int WATER = 0;
     private final static int ISLAND = 1;
 
-    public int maxAreaOfIsland(int[][] grid) {
+    public int maxAreaOfIsland(final int[][] grid) {
         final int NR = grid.length, NC = grid[0].length;
 
         int maxArea = 0;

@@ -1,11 +1,15 @@
+package com.an7one.leetcode.lvl2.lc0724;
+
+import com.an7one.util.Constant;
+
 /**
- * https://leetcode.com/problems/find-pivot-index/
- * 
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/find-pivot-index/">LC0724</a>
+ * <p>
  * Time Complexity:     O(N)
  * Space Complexity:    O(1)
  */
-package com.an7one.leetcode.lvl2.lc0724;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0LinearScan {
     public int pivotIndex(int[] nums) {
         // sanity check

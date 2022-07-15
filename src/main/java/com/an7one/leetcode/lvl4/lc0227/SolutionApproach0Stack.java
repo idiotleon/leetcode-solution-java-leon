@@ -1,14 +1,18 @@
-/**
- * https://leetcode.com/problems/basic-calculator-ii/
- * 
- * Time Complexity:     O(L)
- * Space Complexity:    O(1) / O(L)
- */
 package com.an7one.leetcode.lvl4.lc0227;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/basic-calculator-ii/">LC0227</a>
+ * <p>
+ * Time Complexity:     O(L)
+ * Space Complexity:    O(1) / O(L)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Stack {
     public int calculate(String s) {
         // sanity check
@@ -16,19 +20,19 @@ public class SolutionApproach0Stack {
             return 0;
 
         final int L = s.length();
-        final char[] CHS = s.toCharArray();
+        final char[] chs = s.toCharArray();
 
-        Deque<Integer> stack = new ArrayDeque<>();
+        final Deque<Integer> stack = new ArrayDeque<>();
         int num = 0;
         char op = '+';
 
         for (int i = 0; i < L; ++i) {
-            final char CH = CHS[i];
-            if (CH >= '0' && CH <= '9') {
-                num = num * 10 + CH - '0';
+            final char ch = chs[i];
+            if (ch >= '0' && ch <= '9') {
+                num = num * 10 + ch - '0';
             }
 
-            if ((!Character.isDigit(CH) && ' ' != CH) || i == L - 1) {
+            if ((!Character.isDigit(ch) && ' ' != ch) || i == L - 1) {
                 switch (op) {
                     case '-':
                         stack.push(-num);
@@ -48,7 +52,7 @@ public class SolutionApproach0Stack {
                         break;
                 }
 
-                op = CH;
+                op = ch;
                 num = 0;
             }
         }

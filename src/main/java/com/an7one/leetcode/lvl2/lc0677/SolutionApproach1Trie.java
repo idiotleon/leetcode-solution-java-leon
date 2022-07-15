@@ -6,30 +6,33 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * <a href="https://leetcode.com/problems/map-sum-pairs/">Description</a>
- *
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/map-sum-pairs/">LC0677</a>
+ * <p>
  * Time Complexity:
- *  insert: O(L)
- *  sum:    O(L)
- *
+ * insert: O(L)
+ * sum:    O(L)
+ * <p>
  * Space Complexity: O(N * L * 26) + O(N) ~ O(N * L)
- *  N is the amount of words
- *  L is the average length of words
+ * N is the amount of words
+ * L is the average length of words
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach1Trie {
     private final TrieNode root;
     private final Set<String> existingKeys;
 
-    /** Initialize your data structure here. */
+    /**
+     * Initialize your data structure here.
+     */
     public SolutionApproach1Trie() {
         this.root = new TrieNode(-1);
         this.existingKeys = new HashSet<>();
     }
-    
+
     public void insert(String key, int val) {
         TrieNode node = root;
-        char[] chs = key.toCharArray();
+        final char[] chs = key.toCharArray();
 
         for (char ch : chs) {
             if (node.children[ch - 'a'] == null) {
@@ -44,28 +47,28 @@ public class SolutionApproach1Trie {
 
             node = node.children[ch - 'a'];
         }
-        
+
         existingKeys.add(key);
     }
-    
+
     public int sum(String prefix) {
         TrieNode node = root;
-        char[] chs = prefix.toCharArray();
+        final char[] chs = prefix.toCharArray();
 
         for (char ch : chs) {
             if (node.children[ch - 'a'] == null) return 0;
 
             node = node.children[ch - 'a'];
         }
-        
+
         return node.val;
     }
-    
-    private static class TrieNode{
-        protected int val;
-        protected TrieNode[] children;
-        
-        public TrieNode(int val){
+
+    private static class TrieNode {
+        private int val;
+        private final TrieNode[] children;
+
+        private TrieNode(int val) {
             this.val = val;
             this.children = new TrieNode[26];
         }

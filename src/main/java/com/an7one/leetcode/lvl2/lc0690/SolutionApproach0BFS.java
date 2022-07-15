@@ -6,33 +6,33 @@ import java.util.*;
 
 /**
  * @author: Leon
- * <a href="https://leetcode.com/problems/employee-importance/">Description</a>
- *
+ * <a href="https://leetcode.com/problems/employee-importance/">LC0690</a>
+ * <p>
  * Time Complexity:     O(V + E) ~ O()
  * Space Complexity:    O(V + E) ~ O()
- *
+ * <p>
  * References:
- *  <a href="https://leetcode.com/problems/employee-importance/discuss/112587/Java-HashMap-bfs-dfs">...</a>
+ * <a href="https://leetcode.com/problems/employee-importance/discuss/112587/Java-HashMap-bfs-dfs">LC Discussion</a>
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS {
     public int getImportance(List<FakeEmployee> employees, int id) {
         int ans = 0;
-        Map<Integer, FakeEmployee> map = new HashMap<>();
-        for(FakeEmployee employee: employees){
+        final Map<Integer, FakeEmployee> map = new HashMap<>();
+        for (FakeEmployee employee : employees) {
             map.put(employee.id, employee);
         }
-        
-        Deque<FakeEmployee> queue = new ArrayDeque<>();
-        queue.offer(map.get(id));
-        while(!queue.isEmpty()){
-            FakeEmployee top = queue.removeFirst();
+
+        final Deque<FakeEmployee> queue = new ArrayDeque<>();
+        queue.addLast(map.get(id));
+        while (!queue.isEmpty()) {
+            final FakeEmployee top = queue.removeFirst();
             ans += top.importance;
-            for(int subordinate : top.subordinates){
+            for (int subordinate : top.subordinates) {
                 queue.addLast(map.get(subordinate));
             }
         }
-        
+
         return ans;
     }
 }

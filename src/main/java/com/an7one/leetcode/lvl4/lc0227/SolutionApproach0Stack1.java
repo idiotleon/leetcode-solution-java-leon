@@ -1,11 +1,6 @@
-/**
- * @author: Leon
- * https://leetcode.com/problems/basic-calculator-ii/
- * 
- * Time Complexity:     O(L)
- * Space Complexity:    O(1) / O(L)
- */
 package com.an7one.leetcode.lvl4.lc0227;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
@@ -13,6 +8,14 @@ import java.util.Deque;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/basic-calculator-ii/">LC0227</a>
+ * <p>
+ * Time Complexity:     O(L)
+ * Space Complexity:    O(1) / O(L)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Stack1 {
     private final Set<Character> OPERATORS = new HashSet<>(Arrays.asList('+', '-', '*', '/'));
 
@@ -23,26 +26,26 @@ public class SolutionApproach0Stack1 {
 
         s = "+" + s.trim();
         final int L = s.length();
-        final char[] CHS = s.toCharArray();
+        final char[] chs = s.toCharArray();
 
-        Deque<Integer> stack = new ArrayDeque<>();
+        final Deque<Integer> stack = new ArrayDeque<>();
 
         int lo = 0, hi = 1;
         while (hi < L) {
-            StringBuilder builder = new StringBuilder();
-            while (hi < L && !OPERATORS.contains(CHS[hi])) {
-                if (CHS[hi] == ' ') {
+            final StringBuilder builder = new StringBuilder();
+            while (hi < L && !OPERATORS.contains(chs[hi])) {
+                if (chs[hi] == ' ') {
                     ++hi;
                     continue;
                 }
 
-                builder.append(CHS[hi]);
+                builder.append(chs[hi]);
                 ++hi;
             }
 
             int num = Integer.parseInt(builder.toString());
 
-            switch (CHS[lo]) {
+            switch (chs[lo]) {
                 case '+':
                     stack.push(num);
                     break;

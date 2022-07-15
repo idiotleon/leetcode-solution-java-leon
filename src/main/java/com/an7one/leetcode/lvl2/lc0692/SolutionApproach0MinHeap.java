@@ -1,31 +1,32 @@
-/**
- * https://leetcode.com/problems/top-k-frequent-words/
- * 
- * Time Complexity:     O(N * lg(k))
- * Space Complexity:    O(k)
- */
 package com.an7one.leetcode.lvl2.lc0692;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.PriorityQueue;
+import com.an7one.util.Constant;
 
+import java.util.*;
+
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/top-k-frequent-words/">LC0695</a>
+ * <p>
+ * Time Complexity:     O(N * lg(`k`))
+ * Space Complexity:    O(`k`)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0MinHeap {
     public List<String> topKFrequent(String[] words, int k) {
-        LinkedList<String> ans = new LinkedList<String>();
+        final List<String> ans = new ArrayList<>(k);
         // sanity checkÎÎ
         if (words == null || words.length == 0)
             return ans;
 
-        Map<String, Integer> freq = new HashMap<String, Integer>();
-        for (String word : words)
+        final Map<String, Integer> freq = new HashMap<>();
+        for (String word : words) {
             freq.put(word, freq.getOrDefault(word, 0) + 1);
+        }
 
         // a minHeap is needed, instead of a maxHeap, to keep large elements in the
         // bottom
-        PriorityQueue<String> minHeap = new PriorityQueue<String>(
+        final PriorityQueue<String> minHeap = new PriorityQueue<>(
                 (str1, str2) -> freq.get(str1) == freq.get(str2) ? str2.compareTo(str1)
                         : Integer.compare(freq.get(str1), freq.get(str2)));
 
@@ -38,8 +39,9 @@ public class SolutionApproach0MinHeap {
         while (!minHeap.isEmpty()) {
             // do not forget to reverse the list,
             // otherwise the Top k elements are sorted from low frequency to high frequency
-            ans.addFirst(minHeap.poll());
+            ans.add(minHeap.poll());
         }
+        Collections.reverse(ans);
 
         return ans;
     }
