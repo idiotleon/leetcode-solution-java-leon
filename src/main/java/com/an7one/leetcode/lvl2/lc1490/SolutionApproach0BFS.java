@@ -10,10 +10,10 @@ import java.util.Map;
 
 /**
  * @author: Leon
- * <a href="https://leetcode.com/problems/clone-n-ary-tree/">Description</a>
- *
+ * <a href="https://leetcode.com/problems/clone-n-ary-tree/">LC1490</a>
+ * <p>
  * Time Complexity:     O(N)
- * Space Complexity:    O(H)
+ * Space Complexity:    O(W)
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS {
@@ -22,22 +22,22 @@ public class SolutionApproach0BFS {
         if (root == null)
             return null;
 
-        Map<Node, Node> map = new HashMap<>();
+        final Map<Node, Node> map = new HashMap<>();
         map.put(root, new Node(root.val));
 
-        Deque<Node> queue = new ArrayDeque<>();
-        queue.offer(root);
+        final Deque<Node> queue = new ArrayDeque<>();
+        queue.addLast(root);
 
         while (!queue.isEmpty()) {
-            final int SIZE = queue.size();
+            final int sizeQ = queue.size();
 
-            for (int i = 0; i < SIZE; ++i) {
-                Node cur = queue.poll();
+            for (int i = 0; i < sizeQ; ++i) {
+                final Node cur = queue.removeFirst();
 
-                for (Node next : cur.children) {
+                for (final Node next : cur.children) {
                     if (!map.containsKey(next)) {
                         map.put(next, new Node(next.val));
-                        queue.offer(next);
+                        queue.addLast(next);
                     }
 
                     map.get(cur).children.add(map.get(next));

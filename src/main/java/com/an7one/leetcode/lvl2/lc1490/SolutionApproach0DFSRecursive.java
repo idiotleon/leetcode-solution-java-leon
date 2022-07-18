@@ -4,8 +4,8 @@ import com.an7one.util.Constant;
 
 /**
  * @author: Leon
- * <a href="https://leetcode.com/problems/clone-n-ary-tree/">Description</a>
- *
+ * <a href="https://leetcode.com/problems/clone-n-ary-tree/">LC1490</a>
+ * <p>
  * Time Complexity:     O(N)
  * Space Complexity:    O(H)
  */
@@ -15,13 +15,13 @@ public class SolutionApproach0DFSRecursive {
         return dfs(root);
     }
 
-    private Node dfs(Node cur) {
+    private Node dfs(final Node cur) {
         if (cur == null)
             return null;
 
-        Node cloned = new Node(cur.val);
+        final Node cloned = new Node(cur.val);
 
-        for (Node next : cur.children) {
+        for (final Node next : cur.children) {
             cloned.children.add(dfs(next));
         }
 

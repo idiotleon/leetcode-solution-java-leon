@@ -9,8 +9,8 @@ import java.util.Map;
 
 /**
  * @author: Leon
- * <a href="https://leetcode.com/problems/clone-n-ary-tree/">Description</a>
- *
+ * <a href="https://leetcode.com/problems/clone-n-ary-tree/">LC1490</a>
+ * <p>
  * Time Complexity:     O(N)
  * Space Complexity:    O(H)
  */
@@ -18,27 +18,27 @@ import java.util.Map;
 public class SolutionApproach0DFSIterative {
     public Node cloneTree(Node root) {
         // sanity check
-        if(root == null) return null;
-        
-        Map<Node, Node> map = new HashMap<>();
+        if (root == null) return null;
+
+        final Map<Node, Node> map = new HashMap<>();
         map.put(root, new Node(root.val));
-        
-        Deque<Node> stack = new ArrayDeque<>();
-        stack.push(root);
-        
-        while(!stack.isEmpty()){
-            Node cur = stack.pop();
-            
-            for(Node next : cur.children){
-                if(!map.containsKey(next)){
+
+        final Deque<Node> stack = new ArrayDeque<>();
+        stack.addLast(root);
+
+        while (!stack.isEmpty()) {
+            final Node cur = stack.removeLast();
+
+            for (Node next : cur.children) {
+                if (!map.containsKey(next)) {
                     map.put(next, new Node(next.val));
-                    stack.push(next);
+                    stack.addLast(next);
                 }
-                
+
                 map.get(cur).children.add(map.get(next));
             }
         }
-        
+
         return map.get(root);
     }
 }
