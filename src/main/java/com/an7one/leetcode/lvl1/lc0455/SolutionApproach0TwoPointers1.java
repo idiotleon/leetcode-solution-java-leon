@@ -12,22 +12,20 @@ import java.util.Arrays;
  * Space Complexity: O(1)
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
-public class SolutionApproach0Greedy0 {
-    public int findContentChildren2(int[] g, int[] s) {
+public class SolutionApproach0TwoPointers1 {
+    public int findContentChildren(int[] g, int[] s) {
         Arrays.sort(g);
         Arrays.sort(s);
 
-        int candy = 0, greed = 0;
+        int greed = 0, candy = 0;
 
         while (greed < g.length && candy < s.length) {
-            // only greed can be satisfied, greed can move forward
-            if (s[candy] >= g[greed]) {
+            if (g[greed] > s[candy]) {
+                ++candy;
+            } else {
                 ++greed;
+                ++candy;
             }
-
-            // no matter whether greed can be satisfied,
-            // candy should move forward
-            ++candy;
         }
 
         return greed;
