@@ -1,13 +1,17 @@
-/**
- * https://leetcode.com/problems/surrounded-regions/
- * 
- * Time Complexity:     O(NR * NC)
- * Space Complexity:    O(NR * NC)
- */
 package com.an7one.leetcode.lvl3.lc0130;
 
-public class SolutionApproach0DFS {
-    private int[] DIRS = { 0, -1, 0, 1, 0 };
+import com.an7one.util.Constant;
+
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/surrounded-regions/">LC0130</a>
+ * <p>
+ * Time Complexity:     O(`NR` * `NC`)
+ * Space Complexity:    O(`NR` * `NC`)
+ */
+@SuppressWarnings({Constant.WARNING.UNUSED})
+public class SolutionApproach0DFSRecursive {
+    private final int[] DIRS = {0, -1, 0, 1, 0};
 
     private static final char LETTER_O = 'O';
     private static final char LETTER_X = 'X';
@@ -21,8 +25,8 @@ public class SolutionApproach0DFS {
         // boundaries
         final int NR = board.length, NC = board[0].length;
 
-        for (int row = 0; row < NR; row++) {
-            for (int col = 0; col < NC; col++) {
+        for (int row = 0; row < NR; ++row) {
+            for (int col = 0; col < NC; ++col) {
                 if (board[row][col] == LETTER_O) {
                     if (isBorderAttached(board, row, col)) {
                         mark(board, row, col, LETTER_O);
