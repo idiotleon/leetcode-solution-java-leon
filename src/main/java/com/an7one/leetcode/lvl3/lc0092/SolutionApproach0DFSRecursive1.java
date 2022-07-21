@@ -4,13 +4,13 @@ import com.an7one.util.Constant;
 import com.an7one.util.data_structure.linkedlist.ListNode;
 
 /**
- * https://leetcode.com/problems/reverse-linked-list-ii/
- *
+ * <a href="https://leetcode.com/problems/reverse-linked-list-ii/">LC0092</a>
+ * <p>
  * Time Complexity:     O(L)
  * Space Complexity;    O(L)
- *
- * References:
- *  https://leetcode.com/problems/reverse-linked-list-ii/discuss/30673/Why-nobody-does-it-with-recursion-shouldn't-the-code-be-simpler
+ * <p>
+ * Reference:
+ * https://leetcode.com/problems/reverse-linked-list-ii/discuss/30673/Why-nobody-does-it-with-recursion-shouldn't-the-code-be-simpler
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DFSRecursive1 {

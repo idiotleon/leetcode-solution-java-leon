@@ -1,13 +1,16 @@
-/**
- * https://leetcode.com/problems/decode-ways/
- * 
- * Time Complexity:     O(L)
- * Space Complexity:    O(L)
- * 
- * `dp[i]`, the number of combinations at the given index
- */
 package com.an7one.leetcode.lvl3.lc0091;
 
+import com.an7one.util.Constant;
+
+/**
+ * <a href="https://leetcode.com/problems/decode-ways/">LC0091</a>
+ * <p>
+ * Time Complexity:     O(L)
+ * Space Complexity:    O(L)
+ * <p>
+ * `dp[i]`, the number of combinations at the given index
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP1Dimen {
     public int numDecodings(String s) {
         // sanity check
@@ -15,8 +18,8 @@ public class SolutionApproach0DP1Dimen {
             return 0;
 
         final int L = s.length();
-        char[] chs = s.toCharArray();
-        int[] dp = new int[L + 1];
+        final char[] chs = s.toCharArray();
+        final int[] dp = new int[L + 1];
         dp[0] = 1;
 
         for (int i = 0; i < L; ++i) {

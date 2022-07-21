@@ -4,19 +4,19 @@ import com.an7one.util.Constant;
 import com.an7one.util.data_structure.linkedlist.ListNode;
 
 /**
- * https://leetcode.com/problems/reverse-linked-list-ii/
+ * <a href="https://leetcode.com/problems/reverse-linked-list-ii/">LC0092</a>
  * <p>
  * Time Complexity:     O(L)
  * Space Complexity:    O(1)
  * <p>
- * References:
- * https://leetcode.com/problems/reverse-linked-list-ii/discuss/30666/Simple-Java-solution-with-clear-explanation/221870
- * https://leetcode.com/problems/reverse-linked-list-ii/discuss/30666/Simple-Java-solution-with-clear-explanation
+ * Reference:
+ * <a href="https://leetcode.com/problems/reverse-linked-list-ii/discuss/30666/Simple-Java-solution-with-clear-explanation/221870">LC Discussion</a>
+ * <a href="https://leetcode.com/problems/reverse-linked-list-ii/discuss/30666/Simple-Java-solution-with-clear-explanation">LC Discussion</a>
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0LinearScan1 {
     public ListNode reverseBetween(ListNode head, int m, int n) {
-        ListNode dummy = new ListNode(-1);
+        final ListNode dummy = new ListNode(-1);
         ListNode prev = dummy, cur = head;
         dummy.next = head;
 
