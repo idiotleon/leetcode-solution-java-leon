@@ -1,11 +1,15 @@
+package com.an7one.leetcode.lvl3.lc0075;
+
+import com.an7one.util.Constant;
+
 /**
- * https://leetcode.com/problems/sort-colors/
- * 
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/sort-colors/">LC0075</a>
+ * <p>
  * Time Complexity:     O(N)
  * Space Complexity:    O(1)
  */
-package com.an7one.leetcode.lvl3.lc0075;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0ThreePointers1 {
     public void sortColors(int[] nums) {
         // sanity check
