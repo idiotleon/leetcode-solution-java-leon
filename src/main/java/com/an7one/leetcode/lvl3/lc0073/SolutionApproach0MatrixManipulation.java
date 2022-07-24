@@ -3,13 +3,13 @@ package com.an7one.leetcode.lvl3.lc0073;
 import com.an7one.util.Constant;
 
 /**
- * https://leetcode.com/problems/set-matrix-zeroes/
+ * <a href="https://leetcode.com/problems/set-matrix-zeroes/">LC0073</a>
  * <p>
  * Time Complexity:     O(`NR` * `NC`)
  * Space Complexity:    O(1)
  * <p>
  * Reference:
- * https://leetcode.com/problems/set-matrix-zeroes/discuss/26014/Any-shorter-O(1)-space-solution
+ * <a href="https://leetcode.com/problems/set-matrix-zeroes/discuss/26014/Any-shorter-O(1)-space-solution">LC Discussion</a>
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0MatrixManipulation {
@@ -28,8 +28,8 @@ public class SolutionApproach0MatrixManipulation {
             }
         }
 
-        for (int row = 1; row < NR; row++) {
-            for (int col = 1; col < NC; col++) {
+        for (int row = 1; row < NR; ++row) {
+            for (int col = 1; col < NC; ++col) {
                 if (matrix[row][0] == 0 || matrix[0][col] == 0)
                     matrix[row][col] = 0;
             }
