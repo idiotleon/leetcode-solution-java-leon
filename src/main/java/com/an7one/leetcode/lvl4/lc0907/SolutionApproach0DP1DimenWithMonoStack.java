@@ -1,19 +1,22 @@
-/**
- * https://leetcode.com/problems/sum-of-subarray-minimums/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(N)
- * 
- * dp[i + 1]: sum of minimum of subarrays which ends with nums[i]
- * 
- * References:
- *  https://leetcode.com/problems/sum-of-subarray-minimums/discuss/170769/Java-O(n)-monotone-stack-with-DP
- */
 package com.an7one.leetcode.lvl4.lc0907;
+
+import com.an7one.util.Constant;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * <a href="https://leetcode.com/problems/sum-of-subarray-minimums/">LC0907</a>
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
+ * <p>
+ * dp[i + 1]: sum of minimum of subarrays which ends with nums[i]
+ * <p>
+ * Reference:
+ * <a href="https://leetcode.com/problems/sum-of-subarray-minimums/discuss/170769/Java-O(n)-monotone-stack-with-DP">LC Discussion</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP1DimenWithMonoStack {
     private static final int MOD = (int) 1e9 + 7;
 
@@ -21,9 +24,9 @@ public class SolutionApproach0DP1DimenWithMonoStack {
         final int N = nums.length;
         int sum = 0;
 
-        int[] dp = new int[N + 1];
+        final int[] dp = new int[N + 1];
 
-        Deque<Integer> stack = new ArrayDeque<>();
+        final Deque<Integer> stack = new ArrayDeque<>();
         stack.push(-1);
 
         for (int i = 0; i < N; ++i) {
@@ -33,6 +36,7 @@ public class SolutionApproach0DP1DimenWithMonoStack {
 
             dp[i + 1] = (dp[stack.peek() + 1] + (i - stack.peek()) * nums[i]) % MOD;
             stack.push(i);
+            
             sum += dp[i + 1];
             sum %= MOD;
         }
