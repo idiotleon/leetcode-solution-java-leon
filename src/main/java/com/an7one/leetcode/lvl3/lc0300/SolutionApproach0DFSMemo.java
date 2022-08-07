@@ -1,15 +1,19 @@
-/**
- * https://leetcode.com/problems/longest-increasing-subsequence
- * 
- * Time Complexity:     O(N ^ 2)
- * Space Complexity:    O(N)
- * 
- * References:
- *  http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-300-longest-increasing-subsequence/
- *  https://youtu.be/7DKFpWnaxLI
- */
 package com.an7one.leetcode.lvl3.lc0300;
 
+import com.an7one.util.Constant;
+
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/longest-increasing-subsequence">LC0300</a>
+ * <p>
+ * Time Complexity:     O(N ^ 2)
+ * Space Complexity:    O(N)
+ * <p>
+ * Reference:
+ * <a href="http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-300-longest-increasing-subsequence/">Huahua</a>
+ * <a href="https://youtu.be/7DKFpWnaxLI">Youtube</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DFSMemo {
     public int lengthOfLIS(int[] nums) {
         // sanity check

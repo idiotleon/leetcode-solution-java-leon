@@ -1,18 +1,22 @@
-/**
- * https://leetcode.com/problems/longest-increasing-subsequence/
- * 
- * Time Complexity:     O(N ^ 2)
- * Space Complexity:    O(N)
- * 
- * References:
- *  https://leetcode.com/problems/longest-increasing-subsequence/discuss/74836/My-easy-to-understand-O(n2)-solution-using-DP-with-video-explanation/144619
- *  https://youtu.be/7DKFpWnaxLI
- *  http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-300-longest-increasing-subsequence/
- */
 package com.an7one.leetcode.lvl3.lc0300;
+
+import com.an7one.util.Constant;
 
 import java.util.Arrays;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/longest-increasing-subsequence/">LC0300</a>
+ * <p>
+ * Time Complexity:     O(N ^ 2)
+ * Space Complexity:    O(N)
+ * <p>
+ * Reference:
+ * <a href="https://leetcode.com/problems/longest-increasing-subsequence/discuss/74836/My-easy-to-understand-O(n2)-solution-using-DP-with-video-explanation/144619">LC Discussion</a>
+ * <a href="https://youtu.be/7DKFpWnaxLI">Youtube</a>
+ * <a href="http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-300-longest-increasing-subsequence/">Huahua</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP1Dimen {
     public int lengthOfLIS(int[] nums) {
         // sanity check
@@ -21,7 +25,7 @@ public class SolutionApproach0DP1Dimen {
 
         final int N = nums.length;
         // Elements are length(s) of LISs ending with num(nums[i - 1])
-        int[] dp = new int[N];
+        final int[] dp = new int[N];
         // the default LIS of each element in nums(int[]) is 1, NOT 0
         // e.g. were they completely strictly decreasing in the worst case
         Arrays.fill(dp, 1);

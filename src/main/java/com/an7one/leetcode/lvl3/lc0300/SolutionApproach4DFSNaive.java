@@ -1,20 +1,24 @@
-/**
- * https://leetcode.com/problems/longest-increasing-subsequence/
- * 
- * Time Complexity:     O(N ^ 2)
- * Space Complexity:    O(N)
- *  O(N), the call stack
- * 
- * References:
- *  https://www.youtube.com/watch?v=CE2b_-XfVDk
- *  https://github.com/mission-peace/interview/blob/master/src/com/interview/dynamic/LongestIncreasingSubsequence.java
- *  https://www.youtube.com/watch?v=7DKFpWnaxLI&list=PLLuMmzMTgVK7vEbeHBDD42pqqG36jhuOr&index=94
- */
 package com.an7one.leetcode.lvl3.lc0300;
 
+import com.an7one.util.Constant;
+
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/longest-increasing-subsequence/">LC0300</a>
+ * <p>
+ * Time Complexity:     O(N ^ 2)
+ * Space Complexity:    O(N)
+ * O(N), the call stack
+ * <p>
+ * Reference:
+ * <a href="https://www.youtube.com/watch?v=CE2b_-XfVDk">Youtube</a>
+ * <a href="https://github.com/mission-peace/interview/blob/master/src/com/interview/dynamic/LongestIncreasingSubsequence.java">Github</a>
+ * <a href="https://www.youtube.com/watch?v=7DKFpWnaxLI&list=PLLuMmzMTgVK7vEbeHBDD42pqqG36jhuOr&index=94">Youtube</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach4DFSNaive {
     public int lengthOfLIS(int[] nums) {
-        // santiy check
+        // sanity check
         if (nums == null || nums.length == 0)
             return 0;
 
