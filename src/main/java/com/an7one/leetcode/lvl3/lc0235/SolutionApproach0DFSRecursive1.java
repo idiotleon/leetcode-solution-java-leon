@@ -1,13 +1,15 @@
+package com.an7one.leetcode.lvl3.lc0235;
+
+import com.an7one.util.Constant;
+import com.an7one.util.data_structure.tree.TreeNode;
+
 /**
- * https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
- * 
+ * <a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/">LC0235</a>
+ * <p>
  * Time Complexity:     O(H)
  * Space Complexity:    O(H)
  */
-package com.an7one.leetcode.lvl3.lc0235;
-
-import com.an7one.util.data_structure.tree.TreeNode;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DFSRecursive1 {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null)
