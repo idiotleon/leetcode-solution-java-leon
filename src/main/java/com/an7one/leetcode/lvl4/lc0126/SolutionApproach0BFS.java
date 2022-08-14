@@ -10,56 +10,57 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * https://leetcode.com/problems/word-ladder-ii/
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/word-ladder-ii/">LC0126</a>
  * <p>
  * Time Complexity:     O()
  * Space Complexity:    O()
  * <p>
- * References:
- * https://leetcode.com/problems/word-ladder-ii/discuss/40475/My-concise-JAVA-solution-based-on-BFS-and-DFS/177427
- * https://leetcode.com/problems/word-ladder-ii/discuss/40475/My-concise-JAVA-solution-based-on-BFS-and-DFS
+ * Reference:
+ * <a href="https://leetcode.com/problems/word-ladder-ii/discuss/40475/My-concise-JAVA-solution-based-on-BFS-and-DFS/177427">LC Discussion</a>
+ * <a href="https://leetcode.com/problems/word-ladder-ii/discuss/40475/My-concise-JAVA-solution-based-on-BFS-and-DFS">LC Discussion</a>
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS {
     public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
-        List<List<String>> paths = new ArrayList<>();
+        final List<List<String>> paths = new ArrayList<>();
         // sanity check
         if (wordList == null || wordList.isEmpty())
             return paths;
 
-        final Set<String> WORD_SET = new HashSet<>(wordList);
+        final Set<String> wordSet = new HashSet<>(wordList);
         // sanity check
-        if (!WORD_SET.contains(endWord))
+        if (!wordSet.contains(endWord))
             return paths;
 
-        Map<String, List<String>> graph = new HashMap<>();
+        final Map<String, List<String>> graph = new HashMap<>();
         Set<String> curLevel = new HashSet<>();
         curLevel.add(beginWord);
 
         boolean found = false;
 
         while (!curLevel.isEmpty() && !found) {
-            WORD_SET.removeAll(curLevel);
-            Set<String> nextLevel = new HashSet<>();
+            wordSet.removeAll(curLevel);
+            final Set<String> nextLevel = new HashSet<>();
 
             for (String word : curLevel) {
-                final int LEN = word.length();
+                final int len = word.length();
                 graph.putIfAbsent(word, new ArrayList<>());
-                final char[] CHS = word.toCharArray();
+                final char[] chs = word.toCharArray();
 
-                for (int i = 0; i < LEN; ++i) {
-                    final char HOLD = CHS[i];
+                for (int i = 0; i < len; ++i) {
+                    final char HOLD = chs[i];
                     for (char ch = 'a'; ch <= 'z'; ++ch) {
-                        CHS[i] = ch;
-                        String newWord = new String(CHS);
-                        if (!WORD_SET.contains(newWord))
+                        chs[i] = ch;
+                        final String newWord = new String(chs);
+                        if (!wordSet.contains(newWord))
                             continue;
                         graph.get(word).add(newWord);
                         nextLevel.add(newWord);
                         if (newWord.equals(endWord))
                             found = true;
                     }
-                    CHS[i] = HOLD;
+                    chs[i] = HOLD;
                 }
 
                 curLevel = nextLevel;
@@ -69,14 +70,17 @@ public class SolutionApproach0BFS {
         if (!found)
             return paths;
 
-        List<String> path = new ArrayList<>();
+        final List<String> path = new ArrayList<>();
         path.add(beginWord);
         backtrack(beginWord, endWord, graph, path, paths);
         return paths;
     }
 
-    private void backtrack(String start, String end, Map<String, List<String>> graph, List<String> path,
-                           List<List<String>> paths) {
+    private void backtrack(final String start,
+                           final String end,
+                           final Map<String, List<String>> graph,
+                           final List<String> path,
+                           final List<List<String>> paths) {
         if (end.equals(start)) {
             paths.add(new ArrayList<>(path));
             return;

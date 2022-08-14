@@ -10,7 +10,8 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * https://leetcode.com/problems/word-ladder-ii/
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/word-ladder-ii/">LC0126</a>
  * <p>
  * Time Complexity:     O(N * (26 ^ (L / 2)))
  * Space Complexity:    O(N + k * LEN(path))
@@ -19,42 +20,45 @@ import java.util.Set;
  * <p>
  * a double-ended BFS approach
  * <p>
- * References:
- * http://zxi.mytechroad.com/blog/searching/leetcode-126-word-ladder-ii/
- * https://www.youtube.com/watch?v=PblfQrdWXQ4
+ * Reference:
+ * <a href="http://zxi.mytechroad.com/blog/searching/leetcode-126-word-ladder-ii/">Huahua</a>
+ * <a href="https://youtu.be/PblfQrdWXQ4">Youtube</a>
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS1 {
     public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
-        List<List<String>> paths = new ArrayList<>();
+        final List<List<String>> paths = new ArrayList<>();
 
-        final Set<String> WORD_SET = new HashSet<>(wordList);
-        if (!WORD_SET.contains(endWord))
+        final Set<String> wordSet = new HashSet<>(wordList);
+        if (!wordSet.contains(endWord))
             return paths;
 
         // hash set for both ends
         // to initialize words in both ends
-        Set<String> beginSet = new HashSet<>();
+        final Set<String> beginSet = new HashSet<>();
         beginSet.add(beginWord);
-        Set<String> endSet = new HashSet<>();
+        final Set<String> endSet = new HashSet<>();
         endSet.add(endWord);
 
         // to help construct the final result
-        Map<String, List<String>> map = new HashMap<>();
+        final Map<String, List<String>> map = new HashMap<>();
 
         List<String> path = new ArrayList<>();
         path.add(beginWord);
 
         // to build up the map
-        if (canBeBuilt(beginSet, endSet, WORD_SET, map, false))
+        if (canBeBuilt(beginSet, endSet, wordSet, map, false))
             // to generate all the list
             backtrack(beginWord, endWord, map, path, paths);
 
         return paths;
     }
 
-    private boolean canBeBuilt(Set<String> beginSet, Set<String> endSet, Set<String> dict,
-                               Map<String, List<String>> map, boolean flip) {
+    private boolean canBeBuilt(final Set<String> beginSet,
+                               final Set<String> endSet,
+                               final Set<String> dict,
+                               final Map<String, List<String>> map,
+                               boolean flip) {
         if (beginSet.isEmpty())
             return false;
 
@@ -70,25 +74,25 @@ public class SolutionApproach0BFS1 {
         boolean done = false;
 
         // set for the next level
-        Set<String> nextSet = new HashSet<>();
+        final Set<String> nextSet = new HashSet<>();
 
         // for each string in end1
         for (String word : beginSet) {
-            final int LEN = word.length();
-            for (int i = 0; i < LEN; ++i) {
-                final char[] CHS = word.toCharArray();
+            final int len = word.length();
+            for (int i = 0; i < len; ++i) {
+                final char[] chs = word.toCharArray();
 
                 // to change one character for every position
-                for (char ch = 'a'; ch <= 'z'; ch++) {
-                    CHS[i] = ch;
+                for (char ch = 'a'; ch <= 'z'; ++ch) {
+                    chs[i] = ch;
 
-                    String newWord = String.valueOf(CHS);
+                    final String newWord = String.valueOf(chs);
 
                     // to make sure we construct the tree in the correct direction
-                    String key = flip ? newWord : word;
-                    String val = flip ? word : newWord;
+                    final String key = flip ? newWord : word;
+                    final String val = flip ? word : newWord;
 
-                    List<String> list = map.getOrDefault(key, new ArrayList<>());
+                    final List<String> list = map.getOrDefault(key, new ArrayList<>());
 
                     if (endSet.contains(newWord)) {
                         done = true;
@@ -111,8 +115,11 @@ public class SolutionApproach0BFS1 {
         return done || canBeBuilt(endSet, nextSet, dict, map, !flip);
     }
 
-    private void backtrack(String start, String end, Map<String, List<String>> map, List<String> path,
-                           List<List<String>> paths) {
+    private void backtrack(final String start,
+                           final String end,
+                           final Map<String, List<String>> map,
+                           final List<String> path,
+                           final List<List<String>> paths) {
         if (start.equals(end)) {
             paths.add(new ArrayList<>(path));
             return;
