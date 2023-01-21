@@ -6,10 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/restore-ip-addresses/
+ * <a href="https://leetcode.com/problems/restore-ip-addresses/">LC0093</a>
  * <p>
- * Time Complexity:     O(L ^ 4)
- * Space Complexity:    O(L)
+ * Time Complexity:     O((4 ^ 4) * `L`)
+ * Space Complexity:    O(`L`)
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0ParsingString {
