@@ -1,1 +1,1 @@
-Leetcode problems by tags is now a standalone repo - [Github](https://github.com/An7One/leetcode-problems-by-tag-an7one)
+LC problem by tag - [github](https://github.com/idiotleon/lc-problem-by-tag-leon)
