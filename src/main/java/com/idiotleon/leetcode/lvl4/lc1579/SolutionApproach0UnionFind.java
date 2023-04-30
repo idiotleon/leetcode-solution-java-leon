@@ -1,21 +1,35 @@
 package com.idiotleon.leetcode.lvl4.lc1579;
 
+import com.idiotleon.util.Constant;
+
 import java.util.Arrays;
 
+/**
+ * {@code @author:} Leon
+ * <url><a href="https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/description/">LC1579</a></url>
+ * Time Complexity:
+ * Space Complexity:
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0UnionFind {
+    /**
+     * @param n     the total number of vertices
+     * @param edges the edges of the graph
+     * @return the largest count of edges to remove
+     */
     public int maxNumEdgesToRemove(int n, int[][] edges) {
         final int N = edges.length;
         Arrays.sort(edges, (a, b) -> Integer.compare(b[0], a[0]));
 
         int removal = 0;
 
-        UnionFind alice = new UnionFind(n);
-        UnionFind bob = new UnionFind(n);
+        final UnionFind alice = new UnionFind(n);
+        final UnionFind bob = new UnionFind(n);
 
         for (int[] edge : edges) {
-            int type = edge[0];
-            int a = edge[1];
-            int b = edge[2];
+            final int type = edge[0];
+            final int a = edge[1];
+            final int b = edge[2];
 
             switch (type) {
                 case 1:
@@ -36,33 +50,34 @@ public class SolutionApproach0UnionFind {
         return (alice.isUnited() && bob.isUnited()) ? N - removal : -1;
     }
 
-    private class UnionFind {
-        private final int[] ROOTS;
-        private final int[] RANKS;
+    private static class UnionFind {
+        private final int[] roots;
+        private final int[] ranks;
         private int distinct;
 
         private UnionFind(final int N) {
-            this.ROOTS = new int[N + 1];
-            for (int i = 0; i <= N; ++i)
-                ROOTS[i] = i;
+            this.roots = new int[N + 1];
+            for (int i = 0; i <= N; ++i) {
+                roots[i] = i;
+            }
 
-            this.RANKS = new int[N + 1];
-            Arrays.fill(RANKS, 1);
+            this.ranks = new int[N + 1];
+            Arrays.fill(ranks, 1);
 
             distinct = N;
         }
 
         private boolean union(int x, int y) {
-            final int ROOT_X = find(x), ROOT_Y = find(y);
-            if (ROOT_X == ROOT_Y)
+            final int rootX = find(x), rootY = find(y);
+            if (rootX == rootY)
                 return false;
 
-            if (RANKS[ROOT_X] > RANKS[ROOT_Y]) {
-                ROOTS[ROOT_Y] = ROOT_X;
-                RANKS[ROOT_X] += RANKS[ROOT_Y];
+            if (ranks[rootX] > ranks[rootY]) {
+                roots[rootY] = rootX;
+                ranks[rootX] += ranks[rootY];
             } else {
-                ROOTS[ROOT_X] = ROOT_Y;
-                RANKS[ROOT_Y] += RANKS[ROOT_X];
+                roots[rootX] = rootY;
+                ranks[rootY] += ranks[rootX];
             }
 
             --distinct;
@@ -70,10 +85,10 @@ public class SolutionApproach0UnionFind {
         }
 
         private int find(int x) {
-            if (x != ROOTS[x])
-                ROOTS[x] = find(ROOTS[x]);
+            if (x != roots[x])
+                roots[x] = find(roots[x]);
 
-            return ROOTS[x];
+            return roots[x];
         }
 
         private boolean isUnited() {
