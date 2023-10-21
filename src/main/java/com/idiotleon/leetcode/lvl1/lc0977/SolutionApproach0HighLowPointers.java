@@ -4,8 +4,8 @@ import com.idiotleon.util.Constant;
 
 /**
  * @author: Leon
- * <a href="https://leetcode.com/problems/squares-of-a-sorted-array/">Description</a>
- *
+ * <a href="https://leetcode.com/problems/squares-of-a-sorted-array/">LC0977</a>
+ * <p>
  * Time Complexity:     O(N)
  * Space Complexity:    O(1) / O(N)
  */
@@ -13,11 +13,10 @@ import com.idiotleon.util.Constant;
 public class SolutionApproach0HighLowPointers {
     public int[] sortedSquares(int[] nums) {
         // sanity check
-        if (nums == null || nums.length == 0)
-            return new int[0];
+        if (nums == null || nums.length == 0) return new int[0];
 
         final int N = nums.length;
-        int[] ans = new int[N];
+        final int[] ans = new int[N];
 
         int lo = 0, hi = N - 1, idx = N - 1;
 
