@@ -16,7 +16,9 @@ import com.idiotleon.util.Constant;
 public class SolutionApproach0BinarySearch {
     public int kthSmallest(int[][] matrix, int k) {
         // sanity check
-        if (matrix == null || matrix.length == 0 || matrix[0].length == 0 || k <= 0) return -1;
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0 || k <= 0) {
+            return -1;
+        }
 
         final int NR = matrix.length, NC = matrix[0].length;
 
@@ -26,8 +28,11 @@ public class SolutionApproach0BinarySearch {
 
             int count = getCount(matrix, mid);
 
-            if (k >= count) hi = mid;
-            else lo = mid + 1;
+            if (k >= count) {
+                hi = mid;
+            } else {
+                lo = mid + 1;
+            }
         }
 
         return lo;
@@ -37,9 +42,9 @@ public class SolutionApproach0BinarySearch {
         final int NR = matrix.length, NC = matrix[0].length;
 
         int count = 0;
-        for (int row = 0, col = NC - 1; row < NR; row++) {
+        for (int row = 0, col = NC - 1; row < NR; ++row) {
             while (col >= 0 && matrix[row][col] > target) {
-                col--;
+                --col;
             }
             count += (col + 1);
         }
