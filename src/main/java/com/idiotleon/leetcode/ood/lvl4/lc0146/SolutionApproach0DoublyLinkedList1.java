@@ -1,25 +1,30 @@
-/**
- * https://leetcode.com/problems/lru-cache/
- * 
- * Time Complexities:  
- *  contrustring:   O(1) 
- *  `get()`:        O(1)
- *  `put()`:        O(1)
- * 
- * Space Complexity:    O(`capacity`)
- */
 package com.idiotleon.leetcode.ood.lvl4.lc0146;
+
+import com.idiotleon.util.Constant;
 
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/lru-cache/">LC0146</a>
+ * <p>
+ * Time Complexity:
+ * constructing:   O(1)
+ * `get()`:        O(1)
+ * `put()`:        O(1)
+ * <p>
+ * Space Complexity:    O(`capacity`)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DoublyLinkedList1 {
-    private Map<Integer, DLLNode> cache;
-    private int size, capacity;
-    private DLLNode head, tail;
+    private final Map<Integer, DLLNode> cache;
+    private int size;
+    private final int capacity;
+    private final DLLNode head, tail;
 
     public SolutionApproach0DoublyLinkedList1(int capacity) {
-        this.cache = new HashMap<Integer, DLLNode>();
+        this.cache = new HashMap<>();
         this.size = 0;
         this.capacity = capacity;
 
@@ -32,8 +37,7 @@ public class SolutionApproach0DoublyLinkedList1 {
 
     public int get(int key) {
         DLLNode node = cache.get(key);
-        if (node == null)
-            return -1;
+        if (node == null) return -1;
 
         moveToHead(node);
 
@@ -89,8 +93,8 @@ public class SolutionApproach0DoublyLinkedList1 {
         addNode(node);
     }
 
-    private class DLLNode {
-        private int key;
+    private static class DLLNode {
+        private final int key;
         private int value;
         private DLLNode prev;
         private DLLNode next;

@@ -1,44 +1,48 @@
-/**
- * @author: Leon
- * https://leetcode.com/problems/lru-cache/
- * 
- * Time Complexities:  
- *  initialization:     O(1) 
- *  `get()`:            O(1)
- *  `put()`:            O(1)
- * 
- * Space Complexity:    O(`capacity`)
- */
 package com.idiotleon.leetcode.ood.lvl4.lc0146;
+
+import com.idiotleon.util.Constant;
 
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/lru-cache/">LC0146</a>
+ * <p>
+ * Time Complexity:
+ * initialization:     O(1)
+ * `get()`:            O(1)
+ * `put()`:            O(1)
+ * <p>
+ * Space Complexity:    O(`capacity`)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DoublyLinkedList {
-    private Map<Integer, DLLNode> cache;
+    private final Map<Integer, DLLNode> cache;
     private final int CAPACITY;
-    private DoublyLinkedList dll;
+    private final DoublyLinkedList dll;
     private int size;
 
-    public SolutionApproach0DoublyLinkedList(int capacity) {
+    public SolutionApproach0DoublyLinkedList(final int capacity) {
         this.cache = new HashMap<>();
         this.CAPACITY = capacity;
         this.size = 0;
         this.dll = new DoublyLinkedList();
     }
 
-    public int get(int key) {
-        DLLNode node = cache.get(key);
-        if (node == null)
+    public int get(final int key) {
+        final DLLNode node = cache.get(key);
+        if (node == null) {
             return -1;
+        }
 
         dll.moveToHead(node);
         return node.value;
     }
 
-    public void put(int key, int value) {
+    public void put(final int key, final int value) {
         if (!cache.containsKey(key)) {
-            DLLNode newNode = new DLLNode(key, value);
+            final DLLNode newNode = new DLLNode(key, value);
 
             cache.put(key, newNode);
             dll.addNode(newNode);
@@ -46,19 +50,19 @@ public class SolutionApproach0DoublyLinkedList {
             ++size;
 
             if (size > CAPACITY) {
-                DLLNode last = dll.popTail();
+                final DLLNode last = dll.popTail();
                 cache.remove(last.key);
                 --size;
             }
         } else {
-            DLLNode node = cache.get(key);
+            final DLLNode node = cache.get(key);
             node.value = value;
             dll.moveToHead(node);
         }
     }
 
-    private class DoublyLinkedList {
-        private DLLNode head, tail;
+    private static class DoublyLinkedList {
+        private final DLLNode head, tail;
 
         private DoublyLinkedList() {
             head = new DLLNode(-1, -1);
@@ -69,12 +73,12 @@ public class SolutionApproach0DoublyLinkedList {
         }
 
         private DLLNode popTail() {
-            DLLNode last = tail.prev;
+            final DLLNode last = tail.prev;
             removeNode(last);
             return last;
         }
 
-        private void addNode(DLLNode node) {
+        private void addNode(final DLLNode node) {
             node.prev = head;
             node.next = head.next;
 
@@ -82,22 +86,22 @@ public class SolutionApproach0DoublyLinkedList {
             head.next = node;
         }
 
-        private void removeNode(DLLNode node) {
-            DLLNode prev = node.prev;
-            DLLNode next = node.next;
+        private void removeNode(final DLLNode node) {
+            final DLLNode prev = node.prev;
+            final DLLNode next = node.next;
 
             prev.next = next;
             next.prev = prev;
         }
 
-        private void moveToHead(DLLNode node) {
+        private void moveToHead(final DLLNode node) {
             removeNode(node);
             addNode(node);
         }
     }
 
-    private class DLLNode {
-        private int key;
+    private static class DLLNode {
+        private final int key;
         private int value;
         private DLLNode prev;
         private DLLNode next;
