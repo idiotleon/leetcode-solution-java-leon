@@ -9,16 +9,17 @@ import java.util.List;
  * @author: Leon
  * <a href="https://leetcode.com/problems/spiral-matrix">LC0054</a>
  * <p>
- * Time Complexity:     O(NR * NC)
- * Space Complexity:    O(NR * NC)
+ * Time Complexity:     O(`NR` * `NC`)
+ * Space Complexity:    O(`NR` * `NC`)
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0MatrixManipulation0 {
     public List<Integer> spiralOrder(int[][] matrix) {
         final List<Integer> ans = new ArrayList<>();
         // sanity check
-        if (matrix == null || matrix.length == 0 || matrix[0].length == 0)
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return ans;
+        }
 
         final int NR = matrix.length, NC = matrix[0].length;
 
@@ -30,29 +31,25 @@ public class SolutionApproach0MatrixManipulation0 {
                 ans.add(matrix[top][col]);
             }
             ++top;
-            if (left > right || top > bottom)
-                break;
+            if (left > right || top > bottom) break;
 
             for (int row = top; row <= bottom; ++row) {
                 ans.add(matrix[row][right]);
             }
             --right;
-            if (left > right || top > bottom)
-                break;
+            if (left > right || top > bottom) break;
 
             for (int col = right; col >= left; --col) {
                 ans.add(matrix[bottom][col]);
             }
             --bottom;
-            if (left > right || top > bottom)
-                break;
+            if (left > right || top > bottom) break;
 
             for (int row = bottom; row >= top; --row) {
                 ans.add(matrix[row][left]);
             }
             ++left;
-            if (left > right || top > bottom)
-                break;
+            if (left > right || top > bottom) break;
         }
 
         return ans;

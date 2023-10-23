@@ -17,8 +17,9 @@ public class SolutionApproach0MatrixManipulation1 {
     public List<Integer> spiralOrder(int[][] matrix) {
         final List<Integer> ans = new ArrayList<>();
         // sanity check
-        if (matrix == null || matrix.length == 0 || matrix[0].length == 0)
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return ans;
+        }
 
         int rowBegin = 0, rowEnd = matrix.length - 1;
         int colBegin = 0, colEnd = matrix[0].length - 1;
@@ -46,7 +47,7 @@ public class SolutionApproach0MatrixManipulation1 {
                     ans.add(matrix[row][colBegin]);
                 }
             }
-            colBegin++;
+            ++colBegin;
         }
 
         return ans;
