@@ -16,8 +16,9 @@ import com.idiotleon.util.Constant;
 public class SolutionApproach0ExpandPalindrome2 {
     public String longestPalindrome(String str) {
         // sanity check
-        if (str == null || str.length() < 2)
+        if (str == null || str.length() < 2) {
             return str;
+        }
 
         final int L = str.length();
 
@@ -26,10 +27,13 @@ public class SolutionApproach0ExpandPalindrome2 {
             final String str1 = expand(i, i, str);
             final String str2 = expand(i, i + 1, str);
 
-            if (str1.length() > longest.length())
+            if (str1.length() > longest.length()) {
                 longest = str1;
-            if (str2.length() > longest.length())
+            }
+
+            if (str2.length() > longest.length()) {
                 longest = str2;
+            }
         }
 
         return longest;
@@ -38,8 +42,9 @@ public class SolutionApproach0ExpandPalindrome2 {
     private String expand(int lo, int hi, String str) {
         final int L = str.length();
         while (lo >= 0 && hi < L) {
-            if (str.charAt(lo) != str.charAt(hi))
+            if (str.charAt(lo) != str.charAt(hi)) {
                 break;
+            }
             --lo;
             ++hi;
         }

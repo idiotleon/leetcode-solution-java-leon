@@ -26,7 +26,7 @@ public class SolutionApproach0DP2Dimen {
 
         int start = 0, end = 0;
 
-        boolean[][] dp = new boolean[L][L];
+        final boolean[][] dp = new boolean[L][L];
 
         for (int i = L - 1; i >= 0; --i) {
             for (int j = i; j < L; ++j) {

@@ -20,8 +20,8 @@ public class SolutionApproach0ExpandPalindrome {
             return str;
 
         final int L = str.length();
-        char[] chs = str.toCharArray();
-        int[] idxStart = new int[1], idxEnd = new int[1];
+        final char[] chs = str.toCharArray();
+        final int[] idxStart = new int[1], idxEnd = new int[1];
 
         for (int i = 0; i < L; ++i) {
             expand(i, i, chs, idxStart, idxEnd);
