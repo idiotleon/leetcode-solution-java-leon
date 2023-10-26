@@ -1,30 +1,28 @@
+package com.idiotleon.leetcode.lvl4.lc0269;
+
+import com.idiotleon.util.Constant;
+
+import java.awt.Point;
+import java.util.*;
+
 /**
- * https://leetcode.com/problems/alien-dictionary/
- * 
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/alien-dictionary/">LC0269</a>
+ * <p>
  * Time Complexity:     O(N + M) - N represents all vertices, M represents all edges
  * Space Complexity:    O()
  */
-package com.idiotleon.leetcode.lvl4.lc0269;
-
-import java.awt.Point;
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-import java.util.Set;
-
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0TopologicalSort2 {
     public String alienOrder(String[] words) {
-        List<Point> pairs = new ArrayList<Point>();
-        Set<Character> chs = new HashSet<Character>();
+        final List<Point> pairs = new ArrayList<>();
+        final Set<Character> chs = new HashSet<>();
 
         final int N = words.length;
 
         // to build up the graph
         for (int i = 0; i < N; i++) {
-            String word = words[i];
+            final String word = words[i];
             boolean alreadySet = false;
             int j;
             for (j = 0; j < word.length(); j++) {
@@ -36,43 +34,45 @@ public class SolutionApproach0TopologicalSort2 {
                 chs.add(word.charAt(j));
             }
 
-            if (!alreadySet && i > 0 && j < words[i - 1].length())
+            if (!alreadySet && i > 0 && j < words[i - 1].length()) {
                 return "";
+            }
         }
 
-        // to toplogical sort
-        String res = "";
-        int[] indegree = new int[256];
-        Arrays.fill(indegree, Integer.MIN_VALUE);
+        // to topological sort
+        final StringBuilder res = new StringBuilder();
+        final int[] indegrees = new int[256];
+        Arrays.fill(indegrees, Integer.MIN_VALUE);
 
-        for (Character ch : chs)
-            indegree[ch] = 0;
-        for (int i = 0; i < pairs.size(); i++) {
-            ++indegree[pairs.get(i).x];
+        for (Character ch : chs) {
+            indegrees[ch] = 0;
+        }
+        for (Point pair : pairs) {
+            ++indegrees[pair.x];
         }
 
-        Queue<Character> queue = new LinkedList<Character>();
-        for (int i = 0; i < 256; i++) {
-            if (indegree[i] == 0) {
-                res += (char) i;
-                queue.offer((char) i);
+        final Deque<Character> queue = new ArrayDeque<>();
+        for (int i = 0; i < 256; ++i) {
+            if (indegrees[i] == 0) {
+                res.append((char) i);
+                queue.addLast((char) i);
             }
         }
 
         while (!queue.isEmpty()) {
-            Character predecessor = queue.poll();
+            final char predecessor = queue.removeFirst();
 
-            for (int i = 0; i < pairs.size(); i++) {
-                if (pairs.get(i).y == predecessor) {
-                    --indegree[pairs.get(i).x];
-                    if (indegree[pairs.get(i).x] == 0) {
-                        res += (char) pairs.get(i).x;
-                        queue.offer((char) pairs.get(i).x);
+            for (Point pair : pairs) {
+                if (pair.y == predecessor) {
+                    --indegrees[pair.x];
+                    if (indegrees[pair.x] == 0) {
+                        res.append((char) pair.x);
+                        queue.addLast((char) pair.x);
                     }
                 }
             }
         }
 
-        return res.length() == chs.size() ? res : "";
+        return res.length() == chs.size() ? res.toString() : "";
     }
 }
