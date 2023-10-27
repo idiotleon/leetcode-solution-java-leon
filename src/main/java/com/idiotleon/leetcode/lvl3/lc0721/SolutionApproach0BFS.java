@@ -19,7 +19,9 @@ public class SolutionApproach0BFS {
     public List<List<String>> accountsMerge(List<List<String>> accounts) {
         final List<List<String>> ans = new ArrayList<>();
         // sanity check
-        if (accounts == null || accounts.isEmpty()) return ans;
+        if (accounts == null || accounts.isEmpty()) {
+            return ans;
+        }
 
         final Map<String, Set<String>> graph = new HashMap<>();
         final Map<String, String> emailToName = new HashMap<>();
@@ -39,7 +41,7 @@ public class SolutionApproach0BFS {
         for (final List<String> account : accounts) {
             final String name = account.get(0);
             final int SIZE = account.size();
-            for (int i = 1; i < SIZE; i++) {
+            for (int i = 1; i < SIZE; ++i) {
                 graph.putIfAbsent(account.get(i), new HashSet<>());
                 emailToName.put(account.get(i), name);
 
@@ -72,14 +74,15 @@ public class SolutionApproach0BFS {
         queue.addLast(startPos);
 
         while (!queue.isEmpty()) {
-            int size = queue.size();
+            final int size = queue.size();
             for (int i = 0; i < size; i++) {
                 final String curEmail = queue.removeFirst();
                 newList.add(curEmail);
                 final Set<String> neighbors = graph.get(curEmail);
                 for (final String neighbor : neighbors) {
-                    if (visited.add(neighbor))
+                    if (visited.add(neighbor)) {
                         queue.offer(neighbor);
+                    }
                 }
             }
         }

@@ -9,13 +9,13 @@ import java.util.List;
 
 /**
  * @author: Leon
- * https://leetcode.com/problems/shortest-distance-from-all-buildings/
+ * <a href="https://leetcode.com/problems/shortest-distance-from-all-buildings/">LC0317</a>
  * <p>
- * Time Complexity:     O(SIZE(buildings) * NR * NC) ~ O((NR * NC) ^ 2)
- * Space Complexity:    O(NR * NC) + O(SIZE(buildings)) ~ O(NR * NC)
+ * Time Complexity:     O(SIZE(buildings) * `NR` * `NC`) ~ O((`NR` * `NC`) ^ 2)
+ * Space Complexity:    O(`NR` * `NC`) + O(SIZE(buildings)) ~ O(`NR` * `NC`)
  * <p>
- * References:
- * https://leetcode.com/problems/shortest-distance-from-all-buildings/discuss/76886/Share-a-Java-implement
+ * Reference:
+ * <a href="https://leetcode.com/problems/shortest-distance-from-all-buildings/discuss/76886/Share-a-Java-implement">LCDiscussion</a>
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS {
@@ -25,16 +25,18 @@ public class SolutionApproach0BFS {
 
     public int shortestDistance(int[][] grid) {
         // sanity check
-        if (grid == null || grid.length == 0 || grid[0].length == 0)
+        if (grid == null || grid.length == 0 || grid[0].length == 0) {
             return 0;
+        }
 
         final int NR = grid.length, NC = grid[0].length;
 
         final List<Building> buildings = new ArrayList<>();
         for (int row = 0; row < NR; ++row) {
             for (int col = 0; col < NC; ++col) {
-                if (grid[row][col] == BUILDING)
+                if (grid[row][col] == BUILDING) {
                     buildings.add(new Building(row, col, 0));
+                }
 
                 grid[row][col] = -grid[row][col];
             }
@@ -49,31 +51,33 @@ public class SolutionApproach0BFS {
         int ans = -1;
         for (int row = 0; row < NR; ++row) {
             for (int col = 0; col < NC; ++col) {
-                if (grid[row][col] == SIZE && (ans < 0 || distances[row][col] < ans))
+                if (grid[row][col] == SIZE && (ans < 0 || distances[row][col] < ans)) {
                     ans = distances[row][col];
+                }
             }
         }
 
         return ans;
     }
 
-    private void bfs(Building building, int reaches, int[][] distances, int[][] grid) {
+    private void bfs(final Building building, final int expectedId, final int[][] distances, final int[][] grid) {
         final int NR = grid.length, NC = grid[0].length;
 
         final Deque<Building> queue = new ArrayDeque<>();
         queue.add(building);
 
         while (!queue.isEmpty()) {
-            Building cur = queue.poll();
+            final Building cur = queue.poll();
             distances[cur.row][cur.col] += cur.distance;
 
             for (int d = 0; d < 4; ++d) {
-                int r = cur.row + DIRS[d], c = cur.col + DIRS[d + 1];
-                if (r < 0 || r >= NR || c < 0 || c >= NC || grid[r][c] != reaches)
+                final int nextRow = cur.row + DIRS[d], nextCol = cur.col + DIRS[d + 1];
+                if (nextRow < 0 || nextRow >= NR || nextCol < 0 || nextCol >= NC || grid[nextRow][nextCol] != expectedId) {
                     continue;
+                }
 
-                grid[r][c] = reaches + 1;
-                queue.add(new Building(r, c, cur.distance + 1));
+                grid[nextRow][nextCol] = expectedId + 1;
+                queue.add(new Building(nextRow, nextCol, cur.distance + 1));
             }
         }
     }
@@ -83,7 +87,7 @@ public class SolutionApproach0BFS {
         private final int col;
         private final int distance;
 
-        private Building(int row, int col, int distance) {
+        private Building(final int row, final int col, final int distance) {
             this.row = row;
             this.col = col;
             this.distance = distance;
