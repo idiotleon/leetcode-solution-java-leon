@@ -1,33 +1,37 @@
-/**
- * @author: Leon
- * https://leetcode.com/problems/permutations/
- * 
- * Time Complexity:     O((1 ~ N) * N!)
- * Space Complexity:    O(N!)
- * 
- * References:
- *  https://leetcode.com/problems/permutations/solution/
- */
 package com.idiotleon.leetcode.lvl3.lc0046;
+
+import com.idiotleon.util.Constant;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/permutations/">LC0046</a>
+ * <p>
+ * Time Complexity:     O((1 ~ N) * N!)
+ * Space Complexity:    O(N!)
+ * <p>
+ * Reference:
+ * <a href="https://leetcode.com/problems/permutations/solution/">LCDiscussion</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Backtrack {
     public List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
+        final List<List<Integer>> ans = new ArrayList<>();
         // sanity check
-        if (nums == null || nums.length == 0)
+        if (nums == null || nums.length == 0) {
             return ans;
+        }
 
         final int N = nums.length;
-        boolean[] used = new boolean[N];
+        final boolean[] used = new boolean[N];
         backtrack(new ArrayList<>(), nums, used, ans);
 
         return ans;
     }
 
-    private void backtrack(List<Integer> path, int[] nums, boolean[] used, List<List<Integer>> paths) {
+    private void backtrack(final List<Integer> path, final int[] nums, final boolean[] used, final List<List<Integer>> paths) {
         final int N = nums.length;
         if (path.size() == N) {
             paths.add(new ArrayList<>(path));
@@ -35,8 +39,7 @@ public class SolutionApproach0Backtrack {
         }
 
         for (int i = 0; i < N; ++i) {
-            if (used[i])
-                continue;
+            if (used[i]) continue;
 
             used[i] = true;
             path.add(nums[i]);

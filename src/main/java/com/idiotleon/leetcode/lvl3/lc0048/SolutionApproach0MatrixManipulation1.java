@@ -1,19 +1,23 @@
-/**
- * https://leetcode.com/problems/rotate-image/
- * 
- * Time Complexity:     O(NR * NC)
- * Space Complexity:    O(1)
- * 
- * References:
- *  https://leetcode.com/problems/rotate-image/discuss/18879/AC-Java-in-place-solution-with-explanation-Easy-to-understand.
- */
 package com.idiotleon.leetcode.lvl3.lc0048;
 
+import com.idiotleon.util.Constant;
+
+/**
+ * <a href="https://leetcode.com/problems/rotate-image/">LC0048</a>
+ * <p>
+ * Time Complexity:     O(`NR` * `NC`)
+ * Space Complexity:    O(1)
+ * <p>
+ * Reference:
+ * <a href="https://leetcode.com/problems/rotate-image/discuss/18879/AC-Java-in-place-solution-with-explanation-Easy-to-understand">LCDiscussion</a>.
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0MatrixManipulation1 {
     public void rotate(int[][] matrix) {
         // sanity check
-        if (matrix == null || matrix.length == 0)
+        if (matrix == null || matrix.length == 0) {
             return;
+        }
 
         final int NR = matrix.length, NC = matrix[0].length;
 

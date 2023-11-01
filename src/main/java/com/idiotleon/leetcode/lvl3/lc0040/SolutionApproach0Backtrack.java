@@ -22,8 +22,9 @@ public class SolutionApproach0Backtrack {
     public List<List<Integer>> combinationSum2(final int[] candidates, int target) {
         final List<List<Integer>> ans = new ArrayList<>();
         // sanity check
-        if (candidates == null || candidates.length == 0 || target < 1)
+        if (candidates == null || candidates.length == 0 || target < 1) {
             return ans;
+        }
 
         Arrays.sort(candidates);
         final int N = candidates.length;
@@ -33,10 +34,10 @@ public class SolutionApproach0Backtrack {
         return ans;
     }
 
-    private void backtrack(int startIdx, int target, List<Integer> path, final boolean[] used, final int[] candidates,
-                           List<List<Integer>> paths) {
-        if (target < 0)
+    private void backtrack(final int startIdx, final int target, final List<Integer> path, final boolean[] used, final int[] candidates, final List<List<Integer>> paths) {
+        if (target < 0) {
             return;
+        }
 
         if (target == 0) {
             paths.add(new ArrayList<>(path));
@@ -45,9 +46,10 @@ public class SolutionApproach0Backtrack {
 
         // if the candidates array is sorted, "target >= candidates[i]" is used to prune
         // further DFS
-        for (int i = startIdx; i < candidates.length && target >= candidates[i]; i++) {
-            if (used[i] || (i > startIdx && !used[i - 1] && candidates[i - 1] == candidates[i]))
+        for (int i = startIdx; i < candidates.length && target >= candidates[i]; ++i) {
+            if (used[i] || (i > startIdx && !used[i - 1] && candidates[i - 1] == candidates[i])) {
                 continue;
+            }
             used[i] = true;
             path.add(candidates[i]);
             backtrack(i, target - candidates[i], path, used, candidates, paths);

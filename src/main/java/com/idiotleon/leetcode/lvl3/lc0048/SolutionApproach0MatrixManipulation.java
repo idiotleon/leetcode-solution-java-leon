@@ -1,19 +1,23 @@
-/**
- * https://leetcode.com/problems/rotate-image/
- * 
- * Time Complexity:     O(NR * NC)
- * Space Complexity:    O(1)
- * 
- * References:
- *  https://leetcode.com/problems/rotate-image/discuss/18872/A-common-method-to-rotate-the-image
- */
 package com.idiotleon.leetcode.lvl3.lc0048;
 
+import com.idiotleon.util.Constant;
+
+/**
+ * <a href="https://leetcode.com/problems/rotate-image/">LC0048</a>
+ * <p>
+ * Time Complexity:     O(`NR` * `NC`)
+ * Space Complexity:    O(1)
+ * <p>
+ * Reference:
+ * <a href="https://leetcode.com/problems/rotate-image/discuss/18872/A-common-method-to-rotate-the-image">LCDiscussion</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0MatrixManipulation {
     public void rotate(int[][] matrix) {
         // sanity check
-        if (matrix == null || matrix.length == 0 || matrix[0].length == 0)
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return;
+        }
 
         // the orders of the two lines below matter
         reverseRows(matrix);
