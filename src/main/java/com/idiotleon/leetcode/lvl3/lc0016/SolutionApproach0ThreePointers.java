@@ -15,8 +15,9 @@ import java.util.Arrays;
 public class SolutionApproach0ThreePointers {
     public int threeSumClosest(int[] nums, int target) {
         // sanity check
-        if (nums == null || nums.length < 3)
+        if (nums == null || nums.length < 3) {
             return 0;
+        }
 
         final int N = nums.length;
         Arrays.sort(nums);
@@ -25,13 +26,15 @@ public class SolutionApproach0ThreePointers {
             int lo = idx + 1, hi = N - 1;
             while (lo < hi) {
                 int sum = nums[idx] + nums[lo] + nums[hi];
-                if (sum > target)
+                if (sum > target) {
                     --hi;
-                else
+                } else {
                     ++lo;
+                }
 
-                if (Math.abs(sum - target) < Math.abs(ans - target))
+                if (Math.abs(sum - target) < Math.abs(ans - target)) {
                     ans = sum;
+                }
             }
         }
 

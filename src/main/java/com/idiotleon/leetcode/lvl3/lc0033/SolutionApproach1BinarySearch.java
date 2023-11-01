@@ -13,8 +13,9 @@ import com.idiotleon.util.Constant;
 public class SolutionApproach1BinarySearch {
     public int search2(int[] nums, int target) {
         // sanity check
-        if (nums == null || nums.length == 0)
+        if (nums == null || nums.length == 0) {
             return -1;
+        }
 
         final int N = nums.length;
         int lo = 0, hi = N - 1;

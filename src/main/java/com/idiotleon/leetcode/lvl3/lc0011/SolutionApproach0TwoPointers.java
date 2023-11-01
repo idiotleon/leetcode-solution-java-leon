@@ -15,8 +15,9 @@ import com.idiotleon.util.Constant;
 public class SolutionApproach0TwoPointers {
     public int maxArea(int[] heights) {
         // sanity check
-        if (heights == null || heights.length == 0)
+        if (heights == null || heights.length == 0) {
             return 0;
+        }
         final int N = heights.length;
         int lo = 0, hi = N - 1;
         int maxArea = 0;
@@ -25,10 +26,8 @@ public class SolutionApproach0TwoPointers {
             final int area = Math.min(heights[lo], heights[hi]) * (hi - lo);
             maxArea = Math.max(maxArea, area);
 
-            if (heights[lo] < heights[hi])
-                ++lo;
-            else
-                --hi;
+            if (heights[lo] < heights[hi]) ++lo;
+            else --hi;
         }
 
         return maxArea;

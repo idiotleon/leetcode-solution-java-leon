@@ -16,8 +16,7 @@ import com.idiotleon.util.Constant;
 public class SolutionApproach0ExpandPalindrome {
     public String longestPalindrome(String str) {
         // sanity check
-        if (str == null || str.length() < 2)
-            return str;
+        if (str == null || str.length() < 2) return str;
 
         final int L = str.length();
         final char[] chs = str.toCharArray();

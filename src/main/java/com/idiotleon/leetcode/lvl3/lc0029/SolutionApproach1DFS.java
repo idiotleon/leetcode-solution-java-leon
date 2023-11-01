@@ -20,14 +20,18 @@ public class SolutionApproach1DFS {
         boolean negative = dividend < 0 != divisor < 0;
 
         // to make dividend and divisor unsigned
-        if (dividend < 0)
+        if (dividend < 0) {
             dividend = -dividend;
-        if (divisor < 0)
+        }
+
+        if (divisor < 0) {
             divisor = -divisor;
+        }
 
         // to return if nothing to divide
-        if (dividend < divisor)
+        if (dividend < divisor) {
             return 0;
+        }
 
         // to sum divisor 2, 4, 8, 16, 32, ... times
         long sum = divisor;
@@ -38,7 +42,6 @@ public class SolutionApproach1DFS {
         }
 
         // to make a recursive call for (dividend - sum) and add it to the result
-        return negative ? -(divide + divideLong((dividend - sum), divisor))
-                : (divide + divideLong((dividend - sum), divisor));
+        return negative ? -(divide + divideLong((dividend - sum), divisor)) : (divide + divideLong((dividend - sum), divisor));
     }
 }

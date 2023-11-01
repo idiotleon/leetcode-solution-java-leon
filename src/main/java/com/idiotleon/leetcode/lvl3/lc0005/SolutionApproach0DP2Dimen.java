@@ -18,8 +18,9 @@ import com.idiotleon.util.Constant;
 public class SolutionApproach0DP2Dimen {
     public String longestPalindrome(String s) {
         // sanity check
-        if (s == null || s.length() < 2)
+        if (s == null || s.length() < 2) {
             return s;
+        }
 
         final int L = s.length();
         final char[] chs = s.toCharArray();

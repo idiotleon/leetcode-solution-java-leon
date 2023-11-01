@@ -17,14 +17,14 @@ public class SolutionApproach0ThreePointers {
     public List<List<Integer>> threeSum(int[] nums) {
         final List<List<Integer>> ans = new ArrayList<>();
         // sanity check
-        if (nums == null || nums.length == 0)
-            return ans;
+        if (nums == null || nums.length == 0) return ans;
 
         final int N = nums.length;
         Arrays.sort(nums);
         for (int idx = 0; idx < N - 2; ++idx) {
-            if (idx > 0 && nums[idx] == nums[idx - 1])
+            if (idx > 0 && nums[idx] == nums[idx - 1]) {
                 continue;
+            }
 
             int lo = idx + 1, hi = N - 1;
             int target = -nums[idx];
@@ -41,10 +41,11 @@ public class SolutionApproach0ThreePointers {
                     while (lo < hi && nums[hi] == nums[hi + 1]) {
                         --hi;
                     }
-                } else if (sum > target)
+                } else if (sum > target) {
                     --hi;
-                else
+                } else {
                     ++lo;
+                }
             }
         }
 

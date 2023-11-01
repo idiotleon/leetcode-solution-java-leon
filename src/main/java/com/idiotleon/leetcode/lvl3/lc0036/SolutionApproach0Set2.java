@@ -15,26 +15,29 @@ import java.util.Set;
 public class SolutionApproach0Set2 {
     public boolean isValidSudoku(char[][] board) {
         // sanity check
-        if (board == null || board.length == 0 || board[0].length == 0)
+        if (board == null || board.length == 0 || board[0].length == 0) {
             return false;
+        }
 
         final int N = 9;
         final char EMPTY = '.';
 
-        for (int i = 0; i < N; i++) {
-            Set<Character> rows = new HashSet<>();
-            Set<Character> columns = new HashSet<>();
-            Set<Character> cube = new HashSet<>();
+        for (int i = 0; i < N; ++i) {
+            final Set<Character> rows = new HashSet<>();
+            final Set<Character> columns = new HashSet<>();
+            final Set<Character> cube = new HashSet<>();
 
-            for (int j = 0; j < 9; j++) {
-                if (board[i][j] != EMPTY && !rows.add(board[i][j]))
+            for (int j = 0; j < 9; ++j) {
+                if (board[i][j] != EMPTY && !rows.add(board[i][j])) {
                     return false;
-                if (board[j][i] != EMPTY && !columns.add(board[j][i]))
+                }
+                if (board[j][i] != EMPTY && !columns.add(board[j][i])) {
                     return false;
+                }
                 int rowIndex = 3 * (i / 3), colIndex = 3 * (i % 3);
-                if (board[rowIndex + j / 3][colIndex + j % 3] != '.'
-                        && !cube.add(board[rowIndex + j / 3][colIndex + j % 3]))
+                if (board[rowIndex + j / 3][colIndex + j % 3] != '.' && !cube.add(board[rowIndex + j / 3][colIndex + j % 3])) {
                     return false;
+                }
             }
         }
 
