@@ -33,7 +33,7 @@ public class SolutionApproach0Stack {
         final Deque<Integer> stack = new ArrayDeque<>();
         int prevTimestamp = 0;
 
-        for (String log : logs) {
+        for (final String log : logs) {
             final String[] res = log.split(SPLITTER);
             final int id = Integer.parseInt(res[0]);
             final String state = res[1];
