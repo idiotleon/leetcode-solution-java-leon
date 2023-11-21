@@ -29,35 +29,35 @@ public class SolutionApproach0Backtrack {
         return ans;
     }
 
-    private void backtrack(final StringBuilder builder, final long prev, final long multi, final int idx, final String num, final int target, final List<String> res) {
+    private void backtrack(final StringBuilder builder, final long prev, final long multi, final int idxStart, final String num, final int target, final List<String> res) {
         final int L = num.length();
 
-        if (idx == L) {
+        if (idxStart == L) {
             if (target == prev) {
                 res.add(builder.toString());
                 return;
             }
         }
 
-        for (int i = idx; i < L; ++i) {
-            if (i != idx && num.charAt(idx) == '0') {
+        for (int idx = idxStart; idx < L; ++idx) {
+            if (idx != idxStart && num.charAt(idxStart) == '0') {
                 break;
             }
 
-            final long cur = Long.parseLong(num.substring(idx, i + 1));
-            final int LEN = builder.length();
-            if (idx == 0) {
-                backtrack(builder.append(cur), cur, cur, i + 1, num, target, res);
-                builder.setLength(LEN);
+            final long cur = Long.parseLong(num.substring(idxStart, idx + 1));
+            final int len = builder.length();
+            if (idxStart == 0) {
+                backtrack(builder.append(cur), cur, cur, idx + 1, num, target, res);
+                builder.setLength(len);
             } else {
-                backtrack(builder.append(SIGN_PLUS).append(cur), prev + cur, cur, i + 1, num, target, res);
-                builder.setLength(LEN);
+                backtrack(builder.append(SIGN_PLUS).append(cur), prev + cur, cur, idx + 1, num, target, res);
+                builder.setLength(len);
 
-                backtrack(builder.append(SIGN_MINUS).append(cur), prev - cur, -cur, i + 1, num, target, res);
-                builder.setLength(LEN);
+                backtrack(builder.append(SIGN_MINUS).append(cur), prev - cur, -cur, idx + 1, num, target, res);
+                builder.setLength(len);
 
-                backtrack(builder.append(SIGN_MULTI).append(cur), prev - multi + multi * cur, multi * cur, i + 1, num, target, res);
-                builder.setLength(LEN);
+                backtrack(builder.append(SIGN_MULTI).append(cur), prev - multi + multi * cur, multi * cur, idx + 1, num, target, res);
+                builder.setLength(len);
             }
         }
     }

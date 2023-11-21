@@ -29,28 +29,28 @@ public class SolutionApproach0Backtrack1 {
         return ans;
     }
 
-    private void dfs(final String path, final long res, final long prev, final int idx, final String num, final int target, final List<String> paths) {
+    private void dfs(final String path, final long res, final long prev, final int idxStart, final String num, final int target, final List<String> paths) {
         final int L = num.length();
-        if (idx == L) {
+        if (idxStart == L) {
             if (target == res) {
                 paths.add(path);
                 return;
             }
         }
 
-        for (int i = idx; i < L; i++) {
-            if (i != idx && num.charAt(idx) == '0') {
+        for (int idx = idxStart; idx < L; ++idx) {
+            if (idx != idxStart && num.charAt(idxStart) == '0') {
                 break;
             }
-            final long cur = Long.parseLong(num.substring(idx, i + 1));
-            if (idx == 0) {
-                dfs(path + cur, cur, cur, i + 1, num, target, paths);
+            final long cur = Long.parseLong(num.substring(idxStart, idx + 1));
+            if (idxStart == 0) {
+                dfs(path + cur, cur, cur, idx + 1, num, target, paths);
             } else {
-                dfs(path + '+' + cur, res + cur, cur, i + 1, num, target, paths);
+                dfs(path + '+' + cur, res + cur, cur, idx + 1, num, target, paths);
 
-                dfs(path + "-" + cur, res - cur, -cur, i + 1, num, target, paths);
+                dfs(path + "-" + cur, res - cur, -cur, idx + 1, num, target, paths);
 
-                dfs(path + "*" + cur, res - prev + prev * cur, prev * cur, i + 1, num, target, paths);
+                dfs(path + "*" + cur, res - prev + prev * cur, prev * cur, idx + 1, num, target, paths);
             }
         }
     }
