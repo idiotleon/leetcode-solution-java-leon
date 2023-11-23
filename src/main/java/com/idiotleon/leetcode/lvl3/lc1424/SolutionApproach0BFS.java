@@ -1,9 +1,3 @@
-/**
- * https://leetcode.com/problems/diagonal-traverse-ii/
- * <p>
- * Time Complexity:     O(N)
- * Space Complexity:    O(N)
- */
 package com.idiotleon.leetcode.lvl3.lc1424;
 
 import com.idiotleon.util.Constant;
@@ -14,47 +8,56 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/diagonal-traverse-ii/">LC1424</a>
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
+ */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BFS {
     public int[] findDiagonalOrder(List<List<Integer>> nums) {
         // sanity check
-        if (nums == null || nums.isEmpty()) return new int[0];
+        if (nums == null || nums.isEmpty()) {
+            return new int[0];
+        }
 
         // boundaries
         final int NR = nums.size();
-        int max = 0, count = 0;
-        for (List<Integer> num : nums) {
+        int longest = 0, count = 0;
+        for (final List<Integer> num : nums) {
             count += num.size();
-            max = Math.max(max, num.size());
+            longest = Math.max(longest, num.size());
         }
         // for MOD/key-hashing purpose
-        final int NC = max;
+        final int NC = longest;
 
-        int[] ans = new int[count];
+        final int[] ans = new int[count];
         int idx = 0;
 
-        Set<Integer> visited = new HashSet<Integer>();
+        final Set<Integer> visited = new HashSet<>();
         visited.add(hash(0, 0, NC));
 
-        Deque<Integer> queue = new ArrayDeque<Integer>();
-        queue.add(hash(0, 0, NC));
+        final Deque<Integer> queue = new ArrayDeque<>();
+        queue.addLast(hash(0, 0, NC));
 
         while (!queue.isEmpty()) {
-            final int SIZE = queue.size();
+            final int sizeQ = queue.size();
 
-            for (int i = 0; i < SIZE; i++) {
-                int cur = queue.poll();
-                int row = cur / NC, col = cur % NC;
+            for (int i = 0; i < sizeQ; ++i) {
+                final int cur = queue.removeFirst();
+                final int row = cur / NC, col = cur % NC;
                 ans[idx++] = nums.get(row).get(col);
 
                 if (isValid(row + 1, col, nums) && !visited.contains(hash(row + 1, col, NC))) {
-                    int hash = hash(row + 1, col, NC);
+                    final int hash = hash(row + 1, col, NC);
                     queue.add(hash);
                     visited.add(hash);
                 }
 
                 if (isValid(row, col + 1, nums) && !visited.contains(hash(row, col + 1, NC))) {
-                    int hash = hash(row, col + 1, NC);
+                    final int hash = hash(row, col + 1, NC);
                     queue.add(hash);
                     visited.add(hash);
                 }
@@ -64,13 +67,11 @@ public class SolutionApproach0BFS {
         return ans;
     }
 
-    private int hash(int row, int col, final int NC) {
+    private int hash(final int row, final int col, final int NC) {
         return row * NC + col;
     }
 
-    private boolean isValid(int row, int col, List<List<Integer>> nums) {
-        if (row < 0 || row >= nums.size() || col < 0 || col >= nums.get(row).size()) return false;
-
-        return true;
+    private boolean isValid(final int row, final int col, final List<List<Integer>> nums) {
+        return row >= 0 && row < nums.size() && col >= 0 && col < nums.get(row).size();
     }
 }

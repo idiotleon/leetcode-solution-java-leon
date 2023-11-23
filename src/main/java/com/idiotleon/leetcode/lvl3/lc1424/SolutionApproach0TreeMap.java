@@ -1,9 +1,3 @@
-/**
- * https://leetcode.com/problems/diagonal-traverse-ii/
- * <p>
- * Time Complexity:     O()
- * Space Complexity;    O()
- */
 package com.idiotleon.leetcode.lvl3.lc1424;
 
 import com.idiotleon.util.Constant;
@@ -12,18 +6,26 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.TreeMap;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/diagonal-traverse-ii/">LC1424</a>
+ * <p>
+ * Time Complexity:     O()
+ * Space Complexity;    O()
+ */
 @SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0TreeMap {
     public int[] findDiagonalOrder(List<List<Integer>> nums) {
-        TreeMap<Integer, Integer> idxMap = new TreeMap<Integer, Integer>();
-        for (int i = 0; i < nums.size(); i++)
+        final TreeMap<Integer, Integer> idxMap = new TreeMap<>();
+        for (int i = 0; i < nums.size(); i++) {
             idxMap.put(0 - i, 0);
+        }
 
         int index = 0;
-        List<Integer> ans = new ArrayList<Integer>();
+        final List<Integer> ans = new ArrayList<>();
 
         while (!idxMap.isEmpty()) {
-            int key = idxMap.ceilingKey(index);
+            final int key = idxMap.ceilingKey(index);
 
             while (key != idxMap.size()) {
                 int row = 0 - key;
@@ -35,7 +37,7 @@ public class SolutionApproach0TreeMap {
                 if (col == nums.get(row).size()) idxMap.remove(key);
             }
 
-            index--;
+            --index;
         }
 
         return ans.stream().mapToInt(i -> i).toArray();

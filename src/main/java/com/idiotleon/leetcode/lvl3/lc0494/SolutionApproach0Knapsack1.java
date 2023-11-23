@@ -1,45 +1,54 @@
-/**
- * https://leetcode.com/problems/target-sum/
- * 
- * Time Compelxity:     O(N ^ 2)
- * Space Complexity:    O(N ^ 2)
- * 
- * References:
- *  https://leetcode.com/problems/target-sum/discuss/97335/Short-Java-DP-Solution-with-Explanation/101899
- *  https://leetcode.com/problems/target-sum/discuss/97335/Short-Java-DP-Solution-with-Explanation/239358
- *  https://leetcode.com/problems/target-sum/discuss/97335/Short-Java-DP-Solution-with-Explanation/220467
- */
 package com.idiotleon.leetcode.lvl3.lc0494;
 
+import com.idiotleon.util.Constant;
+
+/**
+ * <a href="https://leetcode.com/problems/target-sum/">LC0494</a>
+ * <p>
+ * Time Complexity:     O(`N` ^ 2)
+ * Space Complexity:    O(`N` ^ 2)
+ * <p>
+ * Reference:
+ * <a href="https://leetcode.com/problems/target-sum/discuss/97335/Short-Java-DP-Solution-with-Explanation/101899">LCDiscussion</a>
+ * <a href="https://leetcode.com/problems/target-sum/discuss/97335/Short-Java-DP-Solution-with-Explanation/239358">LCDiscussion</a>
+ * <a href="https://leetcode.com/problems/target-sum/discuss/97335/Short-Java-DP-Solution-with-Explanation/220467">LCDiscussion</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0Knapsack1 {
-    public int findTargetSumWays(int[] nums, int S) {
+    public int findTargetSumWays(final int[] nums, final int target) {
         // sanity check
-        if(nums == null || nums.length == 0) return 0;
-        
-        int sum = 0;
-        for(int num : nums) sum += num;
-        
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+
+        int sumTotal = 0;
+        for (int num : nums) {
+            sumTotal += num;
+        }
+
         // sanity check
-        if(S < -sum || S > sum) return 0;
-        
-        final int RANGE = sum * 2 + 1;
+        if (target < -sumTotal || target > sumTotal) {
+            return 0;
+        }
+
+        final int RANGE = sumTotal * 2 + 1;
 
         final int L = nums.length;
-        int[][] dp = new int[L + 1][RANGE];
-        dp[0][sum] = 1;
-        
-        for(int i = 1; i <= L; i++){
-            for(int j = 0; j < RANGE; j++){
-                if(j + nums[i - 1] < 2 * sum + 1){
-                    dp[i][j] += dp[i - 1][j + nums[i - 1]];
+        final int[][] dp = new int[L + 1][RANGE];
+        dp[0][sumTotal] = 1;
+
+        for (int idx = 1; idx <= L; ++idx) {
+            for (int sum = 0; sum < RANGE; ++sum) {
+                if (sum + nums[idx - 1] < RANGE) {
+                    dp[idx][sum] += dp[idx - 1][sum + nums[idx - 1]];
                 }
-                
-                if(j - nums[i - 1] >= 0){
-                    dp[i][j] += dp[i - 1][j - nums[i - 1]];
+
+                if (sum - nums[idx - 1] >= 0) {
+                    dp[idx][sum] += dp[idx - 1][sum - nums[idx - 1]];
                 }
             }
         }
-        
-        return dp[L][sum + S];
+
+        return dp[L][sumTotal + target];
     }
 }
