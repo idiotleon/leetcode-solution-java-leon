@@ -4,7 +4,7 @@
  * Time Complexity:     O(L)
  * Space Complexity:    O(L)
  */
-package com.idiotleon.leetcode.lvl3.lc0459;
+package com.idiotleon.leetcode.lvl3.lc0444.lc0459;
 
 public class SolutionApproach0KMPAlogrithm {
     public boolean repeatedSubstringPattern(String s) {

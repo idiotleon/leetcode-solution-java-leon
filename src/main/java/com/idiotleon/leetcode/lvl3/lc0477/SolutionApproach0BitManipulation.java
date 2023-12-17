@@ -1,15 +1,18 @@
-/**
- * https://leetcode.com/problems/total-hamming-distance/
- * 
- * Time Complexity:     O()
- * Space Complexity:    O()
- * 
- * References:
- *  https://leetcode.com/problems/total-hamming-distance/discuss/96222/Java-Solution-with-Explanation/100721
- *  https://leetcode.com/problems/total-hamming-distance/discuss/96222/Java-Solution-with-Explanation
- */
 package com.idiotleon.leetcode.lvl3.lc0477;
 
+import com.idiotleon.util.Constant;
+
+/**
+ * <a href="https://leetcode.com/problems/total-hamming-distance/">LC0477</a>
+ * <p>
+ * Time Complexity:     O()
+ * Space Complexity:    O()
+ * <p>
+ * Reference:
+ * <a href="https://leetcode.com/problems/total-hamming-distance/discuss/96222/Java-Solution-with-Explanation/100721">LCDiscussion</a>
+ * <a href="https://leetcode.com/problems/total-hamming-distance/discuss/96222/Java-Solution-with-Explanation">LCDiscussion</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0BitManipulation {
     public int totalHammingDistance(int[] nums) {
         final int N = nums.length;

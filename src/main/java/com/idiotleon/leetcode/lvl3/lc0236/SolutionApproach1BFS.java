@@ -1,9 +1,3 @@
-/**
- * https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(W) + O(N) ~ O(N)
- */
 package com.idiotleon.leetcode.lvl3.lc0236;
 
 import java.util.ArrayDeque;
@@ -13,12 +7,21 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+import com.idiotleon.util.Constant;
 import com.idiotleon.util.data_structure.tree.TreeNode;
 
+/**
+ * @author: Leon
+ * <a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/">LC0236</a>
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(W) + O(N) ~ O(N)
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach1BFS {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        Map<TreeNode, TreeNode> parent = new HashMap<TreeNode, TreeNode>();
-        Deque<TreeNode> queue = new ArrayDeque<TreeNode>();
+        final Map<TreeNode, TreeNode> parent = new HashMap<>();
+        final Deque<TreeNode> queue = new ArrayDeque<>();
         parent.put(root, null);
         queue.offer(root);
 
@@ -35,7 +38,7 @@ public class SolutionApproach1BFS {
             }
         }
 
-        Set<TreeNode> ancestors = new HashSet<TreeNode>();
+        final Set<TreeNode> ancestors = new HashSet<>();
         while (p != null) {
             ancestors.add(p);
             p = parent.get(p);

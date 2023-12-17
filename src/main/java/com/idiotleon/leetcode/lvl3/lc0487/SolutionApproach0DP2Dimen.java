@@ -1,23 +1,26 @@
-/**
- * https://leetcode.com/problems/max-consecutive-ones-ii/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(2 * N) ~ O(N)
- * 
- * `dp[i][j]`
- *  j = 0, not flipped before
- *  j = 1, already flipped before
- * 
- * References:
- *  https://youtu.be/FLbqgyJ-70I?t=2004
- */
 package com.idiotleon.leetcode.lvl3.lc0487;
 
+import com.idiotleon.util.Constant;
+
+/**
+ * <a href="https://leetcode.com/problems/max-consecutive-ones-ii/">LCDiscussion</a>
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(2 * N) ~ O(N)
+ * <p>
+ * `dp[i][j]`
+ * j = 0, not flipped before
+ * j = 1, already flipped before
+ * <p>
+ * Reference:
+ * <a href="https://youtu.be/FLbqgyJ-70I?t=2004">Youtube</a>
+ */
+@SuppressWarnings(Constant.WARNING.UNUSED)
 public class SolutionApproach0DP2Dimen {
     public int findMaxConsecutiveOnes(int[] nums) {
         final int N = nums.length;
 
-        int[][] dp = new int[N][2];
+        final int[][] dp = new int[N][2];
         // not flipped
         dp[0][0] = nums[0];
         // flipped
