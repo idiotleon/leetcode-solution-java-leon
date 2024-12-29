@@ -13,7 +13,7 @@ import com.idiotleon.util.Constant;
  * <a href="https://leetcode.com/problems/max-consecutive-ones-ii/discuss/96928/Java-DP-O(n)-Solution">LCDiscussion</a>
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
-public class SolutionApproach0DP1Dimen {
+public class Solution0DP1Dimen {
     public int findMaxConsecutiveOnes(int[] nums) {
         final int N = nums.length;
         int ans = 0, count = 0;

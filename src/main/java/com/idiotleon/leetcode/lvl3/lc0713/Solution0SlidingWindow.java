@@ -3,16 +3,18 @@ package com.idiotleon.leetcode.lvl3.lc0713;
 import com.idiotleon.util.Constant;
 
 /**
+ * @author: Leon
  * <a href="https://leetcode.com/problems/subarray-product-less-than-k/">LC0713</a>
  * <p>
  * Time Complexity:     O(`N`)
  * Space Complexity:    O(1)
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
-public class SolutionApproach0SlidingWindow {
+public class Solution0SlidingWindow {
     public int numSubarrayProductLessThanK(int[] nums, int k) {
-        // sanity check
-        if (nums == null || nums.length == 0 || k == 0) return 0;
+        if (nums == null || nums.length == 0 || k == 0) {
+            return 0;
+        }
 
         final int N = nums.length;
 

@@ -12,7 +12,7 @@ import com.idiotleon.util.Constant;
  * Could you solve it efficiently?
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
-public class SolutionApproach0TwoPointers {
+public class Solution0TwoPointers {
     public int findMaxConsecutiveOnes(int[] nums) {
         // sanity check
         if (nums == null || nums.length == 0) {

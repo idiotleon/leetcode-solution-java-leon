@@ -1,38 +1,37 @@
-/**
- * https://leetcode.com/problems/binary-tree-vertical-order-traversal/
- * 
- * Time Complexity:     O()
- * Space Complexity:    O()
- */
 package com.idiotleon.leetcode.lvl4.lc0314;
-
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 import com.idiotleon.util.data_structure.tree.TreeNode;
 
-public class SolutionApproach0BFS {
-    public List<List<Integer>> verticalOrder(TreeNode root) {
-        List<List<Integer>> ans = new ArrayList<List<Integer>>();
-        // sanity check
-        if (root == null)
-            return ans;
+import java.util.*;
 
-        Map<Integer, List<Integer>> map = new HashMap<Integer, List<Integer>>();
-        Deque<TreeNode> queue = new ArrayDeque<TreeNode>();
+import static com.idiotleon.util.Constant.WARNING.UNUSED;
+
+/**
+ * @author: Leon
+ * https://leetcode.com/problems/binary-tree-vertical-order-traversal/
+ * <p>
+ * Time Complexity:     O()
+ * Space Complexity:    O()
+ */
+@SuppressWarnings(UNUSED)
+public class Solution0BFS {
+    public List<List<Integer>> verticalOrder(TreeNode root) {
+        final List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        if (root == null) {
+            return ans;
+        }
+
+        final Map<Integer, List<Integer>> map = new HashMap<Integer, List<Integer>>();
+        final Deque<TreeNode> queue = new ArrayDeque<TreeNode>();
         queue.add(root);
 
-        Deque<Integer> cols = new ArrayDeque<Integer>();
+        final Deque<Integer> cols = new ArrayDeque<Integer>();
         cols.add(0);
 
         int min = 0, max = 0;
         while (!queue.isEmpty()) {
-            TreeNode node = queue.poll();
-            int col = cols.poll();
+            final TreeNode node = queue.poll();
+            final int col = cols.poll();
 
             map.putIfAbsent(col, new ArrayList<Integer>());
             map.get(col).add(node.val);

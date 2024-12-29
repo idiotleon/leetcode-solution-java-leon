@@ -13,7 +13,7 @@ import java.util.TreeMap;
 
 import com.idiotleon.util.data_structure.tree.TreeNode;
 
-public class SolutionApproach0PreorderRecursive {
+public class Solution0PreorderRecursive {
     public List<List<Integer>> verticalOrder(TreeNode root) {
         List<List<Integer>> ans = new ArrayList<>();
         // sanity check

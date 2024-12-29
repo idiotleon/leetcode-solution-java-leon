@@ -1,19 +1,23 @@
-/**
- * https://leetcode.com/problems/redundant-connection-ii/
- * 
- * Time Complexity:     O(N)
- * Space Complexity:    O(N)
- * 
- * References:
- *  https://leetcode.com/problems/redundant-connection-ii/discuss/278105/topic
- *  https://leetcode.com/problems/redundant-connection-ii/discuss/108058/one-pass-disjoint-set-solution-with-explain
- *  https://leetcode.com/problems/redundant-connection-ii/discuss/108045/C%2B%2BJava-Union-Find-with-explanation-O(n)
- */
 package com.idiotleon.leetcode.lvl5.lc0685;
 
 import java.util.Arrays;
 
-public class SolutionApproach0UnionFind {
+import static com.idiotleon.util.Constant.WARNING.UNUSED;
+
+/**
+ * @author: Leon
+ * https://leetcode.com/problems/redundant-connection-ii/
+ * <p>
+ * Time Complexity:     O(N)
+ * Space Complexity:    O(N)
+ * <p>
+ * Reference:
+ * https://leetcode.com/problems/redundant-connection-ii/discuss/278105/topic
+ * https://leetcode.com/problems/redundant-connection-ii/discuss/108058/one-pass-disjoint-set-solution-with-explain
+ * https://leetcode.com/problems/redundant-connection-ii/discuss/108045/C%2B%2BJava-Union-Find-with-explanation-O(n)
+ */
+@SuppressWarnings(UNUSED)
+public class Solution0UnionFind {
     public int[] findRedundantDirectedConnection(int[][] edges) {
         final int N = edges.length;
 
@@ -38,16 +42,19 @@ public class SolutionApproach0UnionFind {
 
             int rootU = find(u, roots);
             // a cycle has been detected
-            if (rootU == v)
+            if (rootU == v) {
                 last = i;
-            else
+            } else {
                 roots[v] = rootU;
+            }
         }
 
-        if (last == -1)
+        if (last == -1) {
             return edges[second]; // no cycle found by removing "second"
-        if (second == -1)
+        }
+        if (second == -1) {
             return edges[last]; // no edge removed
+        }
         return edges[first];
     }
 

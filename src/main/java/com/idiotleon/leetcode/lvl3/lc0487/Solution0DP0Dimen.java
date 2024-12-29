@@ -10,19 +10,13 @@ import com.idiotleon.util.Constant;
  * Space Complexity:    O(1)
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
-public class SolutionApproach0DP0Dimen1 {
+public class Solution0DP0Dimen {
     public int findMaxConsecutiveOnes(int[] nums) {
         int flipped = 0, notFlipped = 0;
         int longest = 0;
         for (int num : nums) {
-            if (num == 0) {
-                flipped = notFlipped + 1;
-                notFlipped = 0;
-            } else {
-                flipped = flipped + 1;
-                notFlipped = notFlipped + 1;
-            }
-
+            flipped = num == 1 ? flipped + 1 : notFlipped + 1;
+            notFlipped = num == 1 ? notFlipped + 1 : 0;
             longest = Math.max(longest, Math.max(flipped, notFlipped));
         }
 

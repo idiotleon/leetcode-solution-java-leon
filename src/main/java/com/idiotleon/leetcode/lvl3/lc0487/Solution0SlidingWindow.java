@@ -16,7 +16,7 @@ import com.idiotleon.util.Constant;
  * <a href="https://leetcode.com/problems/max-consecutive-ones-ii/discuss/96920/Java-clean-solution-easily-extensible-to-flipping-k-zero-and-follow-up-handled">LCDiscussion</a>
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
-public class SolutionApproach0SlidingWindow {
+public class Solution0SlidingWindow {
     public int findMaxConsecutiveOnes(int[] nums) {
         // sanity check
         if (nums == null || nums.length == 0) {

@@ -10,7 +10,7 @@
  */
 package com.idiotleon.leetcode.lvl4.lc0079;
 
-public class SolutionApproach0Backtrack {
+public class Solution0Backtrack {
     private static final int[] DIRS = { 0, -1, 0, 1, 0 };
     private static final int MOD = 256;
 

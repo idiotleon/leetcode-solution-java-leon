@@ -16,7 +16,7 @@ import com.idiotleon.util.Constant;
  * <a href="https://youtu.be/FLbqgyJ-70I?t=2004">Youtube</a>
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
-public class SolutionApproach0DP2Dimen {
+public class Solution0DP2Dimen {
     public int findMaxConsecutiveOnes(int[] nums) {
         final int N = nums.length;
 
