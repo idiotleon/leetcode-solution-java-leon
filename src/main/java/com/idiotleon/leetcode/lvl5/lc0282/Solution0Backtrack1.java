@@ -16,7 +16,7 @@ import java.util.List;
  * <a href="https://leetcode.com/problems/expression-add-operators/discuss/71895/Java-Standard-Backtrace-AC-Solutoin-short-and-clear">LCDiscussion</a>
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
-public class SolutionApproach0Backtrack1 {
+public class Solution0Backtrack1 {
     public List<String> addOperators(String num, int target) {
         final List<String> ans = new ArrayList<>();
         // sanity check

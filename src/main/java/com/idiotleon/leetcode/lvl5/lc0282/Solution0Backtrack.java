@@ -13,7 +13,7 @@ import java.util.List;
  * Reference:
  * <a href="https://leetcode.com/problems/expression-add-operators/discuss/71895/Java-Standard-Backtrace-AC-Solutoin-short-and-clear">LCDiscussion</a>
  */
-public class SolutionApproach0Backtrack {
+public class Solution0Backtrack {
     private static final char SIGN_PLUS = '+';
     private static final char SIGN_MINUS = '-';
     private static final char SIGN_MULTI = '*';
