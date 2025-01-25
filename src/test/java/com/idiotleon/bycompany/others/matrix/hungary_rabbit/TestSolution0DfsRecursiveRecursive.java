@@ -6,7 +6,7 @@ import com.idiotleon.bycompany.others.matrix.hungry_rabbit.SolutionApproach0DFSR
 
 import org.junit.jupiter.api.Test;
 
-public class TestSolutionApproach0DFSRecursiveRecursive {
+public class TestSolution0DfsRecursiveRecursive {
     private SolutionApproach0DFSRecursive solution = new SolutionApproach0DFSRecursive();
 
     @Test

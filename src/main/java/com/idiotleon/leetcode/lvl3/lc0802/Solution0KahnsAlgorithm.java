@@ -2,11 +2,7 @@ package com.idiotleon.leetcode.lvl3.lc0802;
 
 import com.idiotleon.util.Constant;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Deque;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author: Leon
@@ -16,12 +12,12 @@ import java.util.List;
  * Space Complexity:    O(V + E) ~ O(`N` + numEdges)
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
-public class SolutionApproach0KahnsAlgorithm {
+public class Solution0KahnsAlgorithm {
     public List<Integer> eventualSafeNodes(final int[][] graph) {
         final List<Integer> ans = new ArrayList<>();
-        // sanity check
-        if (graph == null || graph.length == 0)
+        if (graph == null || graph.length == 0) {
             return ans;
+        }
 
         final int N = graph.length;
         final int[] indegrees = new int[N];
@@ -29,8 +25,9 @@ public class SolutionApproach0KahnsAlgorithm {
 
         final Deque<Integer> queue = new ArrayDeque<>();
         for (int i = 0; i < N; ++i) {
-            if (indegrees[i] == 0)
+            if (indegrees[i] == 0) {
                 queue.add(i);
+            }
         }
 
         while (!queue.isEmpty()) {
@@ -38,8 +35,9 @@ public class SolutionApproach0KahnsAlgorithm {
             ans.add(cur);
 
             for (int parent : adj.get(cur)) {
-                if (--indegrees[parent] == 0)
+                if (--indegrees[parent] == 0) {
                     queue.addLast(parent);
+                }
             }
         }
 
