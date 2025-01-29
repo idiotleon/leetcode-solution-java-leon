@@ -10,7 +10,7 @@ import com.idiotleon.util.Constant;
  * Space Complexity:    O(`NR` * `NC`)
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
-public class SolutionApproach0UnionFind {
+public class Solution0UnionFind {
     private final int[] DIRS = {0, -1, 0, 1, 0};
 
     private static final char WATER = '0';
@@ -31,9 +31,9 @@ public class SolutionApproach0UnionFind {
 
                     for (int d = 0; d < 4; ++d) {
                         int nextRow = row + DIRS[d], nextCol = col + DIRS[d + 1];
-                        if (nextRow < 0 || nextCol < 0 || nextRow >= NR || nextCol >= NC
-                                || grid[nextRow][nextCol] == WATER)
+                        if (nextRow < 0 || nextCol < 0 || nextRow >= NR || nextCol >= NC || grid[nextRow][nextCol] == WATER) {
                             continue;
+                        }
 
                         uf.union(row * NC + col, nextRow * NC + nextCol);
                     }

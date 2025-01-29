@@ -13,13 +13,13 @@ import java.util.Deque;
  * Space Complexity:    O(`NR` * `NC`)
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
-public class SolutionApproach0BFS {
+public class Solution0Bfs {
     private static final int[] DIRS = {0, -1, 0, 1, 0};
 
     private static final char WATER = '0';
     private static final char LAND = '1';
 
-    public int numIslands(char[][] grid) {
+    public int numIslands(final char[][] grid) {
         int islands = 0;
         // sanity check, not required
         // if (grid == null || grid.length == 0)
@@ -39,26 +39,28 @@ public class SolutionApproach0BFS {
         return islands;
     }
 
-    private void bfs(int row, int col, final char[][] GRID) {
-        final int NR = GRID.length, NC = GRID[0].length;
+    private void bfs(final int row, final int col, final char[][] grid) {
+        final int NR = grid.length, NC = grid[0].length;
 
         final Deque<int[]> queue = new ArrayDeque<>();
         queue.addLast(new int[]{row, col});
 
         while (!queue.isEmpty()) {
-            final int SIZE = queue.size();
+            final int size = queue.size();
 
-            for (int sz = 0; sz < SIZE; ++sz) {
-                int[] cur = queue.removeFirst();
-                int curRow = cur[0];
-                int curCol = cur[1];
+            for (int sz = 0; sz < size; ++sz) {
+                final int[] cur = queue.removeFirst();
+                final int curRow = cur[0];
+                final int curCol = cur[1];
 
                 for (int d = 0; d < 4; ++d) {
-                    int nextRow = curRow + DIRS[d], nextCol = curCol + DIRS[d + 1];
+                    final int nextRow = curRow + DIRS[d], nextCol = curCol + DIRS[d + 1];
 
-                    if (nextRow < 0 || nextCol < 0 || nextRow >= NR || nextCol >= NC || GRID[nextRow][nextCol] == WATER)
+                    if (nextRow < 0 || nextCol < 0 || nextRow >= NR || nextCol >= NC || grid[nextRow][nextCol] == WATER) {
                         continue;
-                    GRID[nextRow][nextCol] = WATER;
+                    }
+
+                    grid[nextRow][nextCol] = WATER;
                     queue.addLast(new int[]{nextRow, nextCol});
                 }
             }

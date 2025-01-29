@@ -10,7 +10,7 @@ import com.idiotleon.util.Constant;
  * Space Complexity:    O(`NR` * `NC`)
  */
 @SuppressWarnings(Constant.WARNING.UNUSED)
-public class SolutionApproach0DFSRecursive {
+public class Solution0DfsRecursive {
     private static final int[] DIRS = {0, -1, 0, 1, 0};
 
     private static final char WATER = '0';
@@ -36,15 +36,16 @@ public class SolutionApproach0DFSRecursive {
         return islands;
     }
 
-    private void dfs(int row, int col, final char[][] grid) {
+    private void dfs(final int row, final int col, final char[][] grid) {
         final int NR = grid.length, NC = grid[0].length;
-        if (row < 0 || col < 0 || row >= NR || col >= NC || grid[row][col] == WATER)
+        if (row < 0 || col < 0 || row >= NR || col >= NC || grid[row][col] == WATER) {
             return;
+        }
 
         grid[row][col] = WATER;
 
         for (int d = 0; d < 4; ++d) {
-            int nextRow = row + DIRS[d], nextCol = col + DIRS[d + 1];
+            final int nextRow = row + DIRS[d], nextCol = col + DIRS[d + 1];
             dfs(nextRow, nextCol, grid);
         }
     }
