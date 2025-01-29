@@ -31,7 +31,7 @@ public class Solution0DfsRecursive {
 
         final boolean[] visited = new boolean[n];
 
-        if (hasCycle(graph, 0, visited, -1)) {
+        if (hasCycle(0, -1, visited, graph)) {
             return false;
         }
 
@@ -46,7 +46,7 @@ public class Solution0DfsRecursive {
     }
 
     // to check if an undirected graph has cycle starting from vertex u
-    private boolean hasCycle(final List<List<Integer>> graph, final int cur, final boolean[] visited, final int prev) {
+    private boolean hasCycle(final int cur, final int prev, final boolean[] visited, final List<List<Integer>> graph) {
         if (visited[cur]) {
             return true;
         }
@@ -54,7 +54,7 @@ public class Solution0DfsRecursive {
         visited[cur] = true;
 
         for (int next : graph.get(cur)) {
-            if (next != prev && hasCycle(graph, next, visited, cur)) {
+            if (next != prev && hasCycle(next, cur, visited, graph)) {
                 return true;
             }
         }
